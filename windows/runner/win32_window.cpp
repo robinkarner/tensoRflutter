@@ -197,6 +197,17 @@ Win32Window::MessageHandler(HWND hwnd,
 
       return 0;
     }
+    case WM_GETMINMAXINFO: {
+      // Mindest-Fenstergröße erzwingen, damit das mehrspaltige Layout nicht
+      // in einen unbrauchbaren/fehlerhaften Zustand schrumpfen kann. Die
+      // logischen 640x480 werden auf die DPI des Fensters hochskaliert.
+      auto* info = reinterpret_cast<MINMAXINFO*>(lparam);
+      UINT dpi = FlutterDesktopGetDpiForHWND(hwnd);
+      double scale_factor = dpi ? dpi / 96.0 : 1.0;
+      info->ptMinTrackSize.x = static_cast<LONG>(640 * scale_factor);
+      info->ptMinTrackSize.y = static_cast<LONG>(480 * scale_factor);
+      return 0;
+    }
     case WM_SIZE: {
       RECT rect = GetClientArea();
       if (child_content_ != nullptr) {

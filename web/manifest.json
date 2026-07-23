@@ -1,12 +1,12 @@
 {
-    "name": "thesor",
-    "short_name": "thesor",
+    "name": "Thesis Studio",
+    "short_name": "Thesis Studio",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#F4F2EC",
+    "theme_color": "#F4F2EC",
+    "description": "KI-gestützte Quellen- und Belegarbeit für wissenschaftliche Arbeiten.",
+    "orientation": "any",
     "prefer_related_applications": false,
     "icons": [
         {

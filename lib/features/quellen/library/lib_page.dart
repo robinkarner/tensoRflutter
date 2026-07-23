@@ -59,7 +59,9 @@ class _QuellenPageState extends ConsumerState<QuellenPage> {
 
     final size = MediaQuery.sizeOf(context);
     // Sticky-Pendant: max-height calc(100vh − topbar − 30px) (app.css:719).
-    final columnH = size.height - BookClothTokens.topbarH - 30;
+    // Bodenwert 320px gegen negative Höhen bei sehr niedrigem Viewport.
+    final columnH =
+        (size.height - BookClothTokens.topbarH - 30).clamp(320.0, double.infinity);
 
     return LayoutBuilder(builder: (context, constraints) {
       final w = constraints.maxWidth;

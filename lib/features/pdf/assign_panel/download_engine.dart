@@ -39,10 +39,33 @@ String? linkKind(String? url) {
   return 'page';
 }
 
+/// arXiv-Sonderfall: aus einer Abstract-/Landing-URL (`arxiv.org/abs/<id>`)
+/// oder einer `/pdf/<id>`-URL die kanonische direkte PDF-URL ableiten.
+/// Deckt Versions- (`…v2`) und Alt-IDs (`math/0309136`) ab. Sonst null.
+///
+/// arXiv hostet einen sehr großen Teil wissenschaftlicher Quellen; ohne diese
+/// Ableitung würde „⭳ Alle laden“ bei Preprint-Quellen scheitern, weil die
+/// Abstract-Seite HTML (kein `%PDF`) liefert.
+String? arxivPdfUrl(String? url) {
+  if (url == null || url.isEmpty) return null;
+  final m = RegExp(r'arxiv\.org/(?:abs|pdf)/([^\s?#]+)', caseSensitive: false)
+      .firstMatch(url);
+  if (m == null) return null;
+  final id = m.group(1)!.replaceAll(RegExp(r'\.pdf$', caseSensitive: false), '');
+  if (id.isEmpty) return null;
+  return 'https://arxiv.org/pdf/$id.pdf';
+}
+
 /// Vermuteter Download-Link: `links.file` bzw. `official`, wenn dieser
-/// direkt auf eine Datei zeigt — sonst null.
-String? dlLinkFor(EffectiveSrcLinks links) =>
-    links.file ?? (linkKind(links.official) == 'file' ? links.official : null);
+/// direkt auf eine Datei zeigt — sonst null. arXiv-Landing-URLs werden auf
+/// ihr PDF abgebildet (an beiden Stellen der Kaskade).
+String? dlLinkFor(EffectiveSrcLinks links) {
+  final file = links.file;
+  if (file != null && file.isNotEmpty) return arxivPdfUrl(file) ?? file;
+  final official = links.official;
+  if (linkKind(official) == 'file') return official;
+  return arxivPdfUrl(official);
+}
 
 /// `%PDF`-Magic-Bytes-Prüfung (pdfengine.js:308).
 bool looksLikePdf(Uint8List data) =>

@@ -66,6 +66,33 @@ flutter test                     # komplette Suite (Golden-, Roundtrip-, Widget-
 flutter build web --release      # Ergebnis in build/web/
 ```
 
+## Deployment (GitHub Pages)
+
+Die App wird als **eigenständige Web-Instanz** über GitHub Pages veröffentlicht.
+Der Workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) baut
+`flutter build web` und deployt das Ergebnis.
+
+**Einmalige Einrichtung:** In den Repo-Einstellungen unter **Settings → Pages**
+die Quelle auf **„GitHub Actions"** stellen.
+
+Danach gilt:
+
+- **Push auf `main`** → Build **und** Deploy. Die Live-Instanz liegt unter
+  `https://<owner>.github.io/<repo>/` (hier
+  `https://robinkarner.github.io/tensoRflutter/`).
+- **Push auf jeden anderen Branch / Pull Request** → nur **Build-Check**
+  (kein Deploy), damit Kompilierfehler früh auffallen.
+- **Actions → „Deploy Web to GitHub Pages" → Run workflow** deployt manuell.
+
+Der Basis-Pfad wird automatisch aus dem Repo-Namen gesetzt
+(`--base-href "/<repo>/"`), die Groß-/Kleinschreibung stimmt dadurch immer.
+Die App nutzt **Hash-Routing** (`…/#/studio/…`), deshalb funktionieren tiefe
+Links auf Pages ohne Server-Rewrite; eine `404.html` (Kopie der `index.html`)
+liegt als zusätzliche Absicherung bei. Getestet mit **Flutter 3.44.7**.
+
+> Hinweis: Für den Web-Build ist der `hooks:`-Block im `pubspec.yaml`
+> irrelevant (Web nutzt `sqlite3.wasm`/OPFS statt der nativen sqlite3-Binaries).
+
 ### Hinweis zum `hooks:`-Block im pubspec.yaml
 
 `sqlite3` und `pdfrx` laden beim ersten nativen Build vorkompilierte Binaries herunter

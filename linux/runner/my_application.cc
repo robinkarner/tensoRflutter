@@ -54,6 +54,14 @@ static void my_application_activate(GApplication* application) {
 
   gtk_window_set_default_size(window, 1280, 720);
 
+  // Mindestgröße erzwingen, damit das mehrspaltige Layout nicht in einen
+  // unbrauchbaren/fehlerhaften Zustand schrumpfen kann (Pendant zur
+  // Windows-WM_GETMINMAXINFO-Grenze).
+  GdkGeometry geometry;
+  geometry.min_width = 640;
+  geometry.min_height = 480;
+  gtk_window_set_geometry_hints(window, nullptr, &geometry, GDK_HINT_MIN_SIZE);
+
   g_autoptr(FlDartProject) project = fl_dart_project_new();
   fl_dart_project_set_dart_entrypoint_arguments(
       project, self->dart_entrypoint_arguments);
