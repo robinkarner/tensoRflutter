@@ -65,16 +65,17 @@ jobs:
           touch build/web/.nojekyll
 
       - name: Pages-Artefakt hochladen
-        if: github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/claude/flutter-github-pages-deploy-744jy8' || github.event_name == 'workflow_dispatch'
         uses: actions/upload-pages-artifact@v3
         with:
           path: build/web
 
   deploy:
     name: Deploy (GitHub Pages)
-    # Nur von main (oder manuell) live schalten — andere Branches sind reine
-    # Build-Checks.
-    if: github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
+    # main deployt regulär. Der Feature-Branch ist vorübergehend ebenfalls
+    # freigeschaltet, damit die Live-Instanz VOR dem Merge sichtbar ist —
+    # nach dem Merge nach main kann die Branch-Zeile wieder entfernt werden.
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/claude/flutter-github-pages-deploy-744jy8' || github.event_name == 'workflow_dispatch'
     needs: build
     runs-on: ubuntu-latest
     environment:
