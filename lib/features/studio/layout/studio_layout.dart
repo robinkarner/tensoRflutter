@@ -124,7 +124,11 @@ class _StudioWorkspaceState extends ConsumerState<StudioWorkspace> {
         (_liveFileW ?? prefs.fileW?.toDouble() ?? defaultFileW).clamp(240.0, fileCap);
 
     // Viewport-hohe Spalten: 100vh − Topbar − 22 (app.css:218/437).
-    final columnH = size.height - BookClothTokens.topbarH - 22;
+    // Bodenwert 320px: bei sehr niedrigem Viewport bleibt die Höhe positiv
+    // (negatives SizedBox/Stack würde sonst einen Layout-Fehler werfen) —
+    // der Gesamtbereich scrollt ohnehin in der App-Shell.
+    final columnH =
+        (size.height - BookClothTokens.topbarH - 22).clamp(320.0, double.infinity);
 
     final row = Row(
       crossAxisAlignment: CrossAxisAlignment.start,

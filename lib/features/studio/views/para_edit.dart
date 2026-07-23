@@ -174,7 +174,10 @@ class _ParaEditOverlayState extends State<_ParaEditOverlay> {
   Widget build(BuildContext context) {
     final t = BookClothTokens.of(context);
     final screenH = MediaQuery.sizeOf(context).height;
-    final maxH = (screenH - widget.top - 20).clamp(160.0, screenH);
+    // Obergrenze nie unter die Untergrenze fallen lassen (clamp mit
+    // min > max würde sonst werfen, wenn der Viewport < 160px hoch ist).
+    final maxH = (screenH - widget.top - 20)
+        .clamp(160.0, screenH < 160.0 ? 160.0 : screenH);
 
     return Stack(
       children: [

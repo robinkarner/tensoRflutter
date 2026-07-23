@@ -18,21 +18,40 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <meta name="description" content="Thesis Studio — KI-gestützte Quellen- und Belegarbeit für wissenschaftliche Arbeiten.">
+  <meta name="theme-color" content="#F4F2EC">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="thesor">
+  <meta name="apple-mobile-web-app-title" content="Thesis Studio">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>thesor</title>
+  <title>Thesis Studio</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Pre-Boot-Hintergrund im Buch-Leinen-Ton, damit vor dem Start der
+       Flutter-Engine kein weißes Aufblitzen entsteht. -->
+  <style>
+    :root { color-scheme: light dark; }
+    html, body { margin: 0; padding: 0; height: 100%; background: #F4F2EC; }
+    @media (prefers-color-scheme: dark) { html, body { background: #1E1C17; } }
+    #boot {
+      position: fixed; inset: 0; display: flex; align-items: center;
+      justify-content: center;
+      font: 400 15px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: #7c766a;
+    }
+    @media (prefers-color-scheme: dark) { #boot { color: #8a8477; } }
+    flt-glass-pane, flutter-view { z-index: 1; }
+  </style>
 </head>
 <body>
+  <div id="boot">Lade Thesis Studio …</div>
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
@@ -41,6 +60,13 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
+  <script>
+    // Boot-Hinweis entfernen, sobald die Flutter-Engine den ersten Frame malt.
+    window.addEventListener('flutter-first-frame', function () {
+      var b = document.getElementById('boot');
+      if (b) b.remove();
+    });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

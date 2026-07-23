@@ -1,0 +1,86 @@
+name: Deploy Web to GitHub Pages
+
+# Baut die Flutter-Web-App und veröffentlicht sie als eigenständige Instanz
+# unter https://<owner>.github.io/<repo>/ (GitHub Pages).
+#
+# - Push auf `main`      → bauen + deployen (Live-Instanz)
+# - Push auf jeden Branch / Pull Request → nur bauen (Build-Check, kein Deploy)
+# - Manuell (workflow_dispatch) → bauen + deployen
+#
+# Voraussetzung: In den Repo-Einstellungen unter Settings → Pages die Quelle
+# auf "GitHub Actions" stellen (einmalig).
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+# Für actions/deploy-pages nötig (nur der Deploy-Job nutzt sie).
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Parallele Deploys serialisieren; laufende Deploys nicht abbrechen.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build (flutter build web)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Flutter einrichten (3.44.7 / Dart 3.12.2)
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.44.7
+          channel: stable
+          cache: true
+
+      - name: Flutter-Version anzeigen
+        run: flutter --version
+
+      - name: Pakete auflösen
+        run: flutter pub get
+
+      # Basis-Pfad = Repo-Name (Groß-/Kleinschreibung wie im Repo), damit die
+      # Instanz unter /<repo>/ korrekt lädt. GITHUB_REPOSITORY = "owner/repo".
+      - name: Web bauen
+        run: |
+          REPO_NAME="${GITHUB_REPOSITORY##*/}"
+          echo "Base-Href: /${REPO_NAME}/"
+          flutter build web --release --base-href "/${REPO_NAME}/"
+
+      # SPA-Fallback: GitHub Pages liefert bei unbekannten Pfaden 404.html —
+      # eine Kopie der index.html lässt die App dann trotzdem booten
+      # (die App nutzt ohnehin Hash-Routing, dies ist die Absicherung).
+      - name: 404-Fallback + .nojekyll
+        run: |
+          cp build/web/index.html build/web/404.html
+          touch build/web/.nojekyll
+
+      - name: Pages-Artefakt hochladen
+        if: github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+
+  deploy:
+    name: Deploy (GitHub Pages)
+    # Nur von main (oder manuell) live schalten — andere Branches sind reine
+    # Build-Checks.
+    if: github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Auf GitHub Pages deployen
+        id: deployment
+        uses: actions/deploy-pages@v4
