@@ -49,6 +49,33 @@ void main() {
         isNull,
       );
     });
+
+    test('arXiv-Abstract-URL wird auf das PDF abgebildet', () {
+      expect(
+        dlLinkFor(const EffectiveSrcLinks(official: 'https://arxiv.org/abs/2401.12345')),
+        'https://arxiv.org/pdf/2401.12345.pdf',
+      );
+      expect(
+        dlLinkFor(const EffectiveSrcLinks(file: 'https://arxiv.org/abs/2401.12345v2')),
+        'https://arxiv.org/pdf/2401.12345v2.pdf',
+      );
+    });
+  });
+
+  group('arxivPdfUrl', () {
+    test('abs/pdf, Versions- und Alt-IDs; sonst null', () {
+      expect(arxivPdfUrl('https://arxiv.org/abs/2401.12345'),
+          'https://arxiv.org/pdf/2401.12345.pdf');
+      expect(arxivPdfUrl('http://arxiv.org/pdf/2401.12345v3'),
+          'https://arxiv.org/pdf/2401.12345v3.pdf');
+      expect(arxivPdfUrl('https://arxiv.org/pdf/2401.12345.pdf'),
+          'https://arxiv.org/pdf/2401.12345.pdf');
+      expect(arxivPdfUrl('https://arxiv.org/abs/math/0309136'),
+          'https://arxiv.org/pdf/math/0309136.pdf');
+      expect(arxivPdfUrl('https://doi.org/10.1/x'), isNull);
+      expect(arxivPdfUrl(null), isNull);
+      expect(arxivPdfUrl(''), isNull);
+    });
   });
 
   group('tryDownload', () {
