@@ -17,6 +17,7 @@ jobs:
   analyze:
     name: flutter analyze
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
       - uses: subosito/flutter-action@v2
@@ -31,6 +32,7 @@ jobs:
   test:
     name: flutter test
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       # Die Tests nutzen Drift mit System-libsqlite3 (pubspec hooks:
