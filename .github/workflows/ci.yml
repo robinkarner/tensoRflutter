@@ -1,0 +1,45 @@
+name: CI (Analyse & Tests)
+
+# Qualitäts-Signal, unabhängig vom Deploy-Workflow: statische Analyse und
+# die komplette Testsuite. Läuft auf jedem Push/PR und blockiert das
+# Pages-Deployment NICHT (getrennte Workflow-Datei).
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  analyze:
+    name: flutter analyze
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.44.7
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      # Infos (Stil-Nudges) nicht fatal; Warnungen/Fehler schon.
+      - run: flutter analyze --no-fatal-infos
+
+  test:
+    name: flutter test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Die Tests nutzen Drift mit System-libsqlite3 (pubspec hooks:
+      # sqlite3 source: system) — auf dem Runner bereitstellen.
+      - run: sudo apt-get update && sudo apt-get install -y libsqlite3-dev
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.44.7
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: flutter test --reporter expanded
