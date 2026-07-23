@@ -28,6 +28,7 @@ import '../../../data/repos/project_repository.dart';
 import '../import/dateiauftrag_export.dart';
 import '../import/import_modal.dart';
 import '../import/new_source_modal.dart';
+import '../import/paper_import_modal.dart';
 import '../state/file_store_tick.dart';
 import '../state/quellen_filter.dart';
 import '../state/quellen_kv.dart';
@@ -203,6 +204,14 @@ class _LibRailState extends ConsumerState<LibRail> {
         tip: 'PDFs oder ZIP-Archive laden — passende Dateien werden '
             'automatisch zugeordnet',
         onTap: () => showImportFilesModal(context, onDone: _afterImport),
+      ),
+      _tool(
+        t,
+        '🤖 Paper → Quellen (KI)',
+        tip: 'Aus einem Paper / Literaturverzeichnis erkennt ein Modell alle '
+            'zitierten Quellen und legt sie an — auf Wunsch inkl. Auto-Download '
+            'der öffentlich auffindbaren PDFs (arXiv/Open-Access)',
+        onTap: () => showPaperImportModal(context, onDone: (_) => _afterImport()),
       ),
       _tool(
         t,
