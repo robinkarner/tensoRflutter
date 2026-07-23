@@ -1,0 +1,59 @@
+{
+ "sectionId": "3.1.1",
+ "title": "Zentral",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 20,
+ "pdfPage": 30,
+ "paragraphs": [
+  {
+   "id": "3.1.1-p1",
+   "type": "text",
+   "text": "Im zentralen Modell werden alle elektronischen Gesundheitsdaten in einer einzigen nationalen Datenbank - einem zentralen EHR-Datenrepository - gespeichert. Dokumente werden vom erstellenden Gesundheitsdiensteanbieter direkt in das zentrale System hochgeladen, wo sie jeder berechtigte Behandler abrufen kann.[^97] Das Modell bietet den Vorteil vollständiger Datenverfügbarkeit und erleichtert die einrichtungsübergreifende Auswertung, da alle Daten an einem Ort vorliegen und einheitlich formatiert sind.[^98]",
+   "footnotes": [
+    {
+     "num": 97,
+     "text": "Vgl. Scheibner et al. (2021): Benefits, Challenges and Contributors to Success for National eHealth Systems Implementation: A Scoping Review, S. 6.",
+     "sources": [
+      "scheibner2021"
+     ]
+    },
+    {
+     "num": 98,
+     "text": "Vgl. AlJarullah et al. (2013): A Novel System Architecture for the National Integration of Electronic Health Records, S. 2.",
+     "sources": [
+      "aljarullah2013"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.1.1-p2",
+   "type": "text",
+   "text": "Diesem Vorteil stehen strukturelle Nachteile gegenüber. Ein zentrales System stellt einen Single Point of Failure dar, der durch zentralisierte Architekturen prinzipiell entsteht und die Resilienz des Gesamtsystems beeinträchtigt.[^99] Die zentrale Infrastruktur muss hoch verfügbar betrieben werden, da die Erreichbarkeit aller angeschlossenen Akteure von ihr abhängt. Datenschutzrechtlich kann eine vollständige Datenkonzentration jedoch Spannungen zum Grundsatz der Datenminimierung nach der DSGVO erzeugen, weil personenbezogene Daten auf das für den Verarbeitungszweck notwendige Maß beschränkt sein müssen.[^100] Finnland mit dem Kanta-System gilt als Referenzbeispiel für eine konsequent zentralisierte nationale Architektur.[^101]",
+   "footnotes": [
+    {
+     "num": 99,
+     "text": "Vgl. Kumar et al. (2025): Decentralized digital health ecosystems, S. 1.",
+     "sources": [
+      "kumar2025"
+     ]
+    },
+    {
+     "num": 100,
+     "text": "Vgl. Art 5 Abs 1 lit c VO (EU) 2016/679.",
+     "sources": [
+      "dsgvo"
+     ]
+    },
+    {
+     "num": 101,
+     "text": "Vgl. Jormanainen et al. (2023): Implementation, Adoption and Use of the Kanta Services in Finland 2010–2022, S. 227.",
+     "sources": [
+      "jormanainen2023"
+     ]
+    }
+   ]
+  }
+ ]
+}

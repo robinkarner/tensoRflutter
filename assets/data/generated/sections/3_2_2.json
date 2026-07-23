@@ -1,0 +1,76 @@
+{
+ "sectionId": "3.2.2",
+ "paragraphs": [
+  {
+   "id": "3.2.2-p1",
+   "type": "text",
+   "kernaussage": "Syntaktische Interoperabilität stellt sicher, dass empfangende Systeme die Struktur ausgetauschter Dokumente maschinell verarbeiten können; im Gesundheitswesen dominieren dafür HL7 CDA und HL7 FHIR mit unterschiedlichen Paradigmen.",
+   "sentences": [
+    {
+     "text": "Die syntaktische Ebene betrifft die strukturelle Formatierung der ausgetauschten Daten.",
+     "einfach": "Auf der syntaktischen Ebene geht es um das Format der Daten - also darum, wie die ausgetauschten Informationen strukturell aufgebaut sind.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "syntaktische Ebene", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Technische Interoperabilität stellt sicher, dass ein Dokument übertragen werden kann.[^120]",
+     "einfach": "Die technische Ebene (siehe voriger Abschnitt) sorgt nur dafür, dass ein Dokument überhaupt beim Empfänger ankommt.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Technische Interoperabilität", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die syntaktische Interoperabilität stellt sicher, dass das empfangende System die Struktur dieses Dokuments versteht und maschinell verarbeiten kann.",
+     "einfach": "Die syntaktische Ebene geht einen Schritt weiter: Das empfangende System muss den strukturellen Aufbau des Dokuments kennen, damit ein Programm es automatisch auswerten kann - nicht nur ein Mensch, der es liest.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "syntaktische Interoperabilität", "kategorie": "tech" },
+      { "snippet": "maschinell verarbeiten", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Im Gesundheitswesen haben sich HL7 CDA und HL7 FHIR etabliert.",
+     "einfach": "Für solche strukturierten Gesundheitsdaten haben sich zwei Standards durchgesetzt: HL7 CDA (Clinical Document Architecture) und HL7 FHIR (Fast Healthcare Interoperability Resources).",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "HL7 CDA", "kategorie": "tech" },
+      { "snippet": "HL7 FHIR", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die beiden weit verbreiteten Standards, herausgegeben von Health Level Seven International, unterscheiden sich jedoch in ihrem grundlegenden Paradigma.[^121]",
+     "einfach": "Beide Standards stammen von derselben Organisation, Health Level Seven International, verfolgen aber grundverschiedene Ansätze - CDA ist dokumentenorientiert, FHIR ressourcenorientiert (die folgenden Abschnitte erklären den Unterschied).",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Health Level Seven International", "kategorie": "akteur" },
+      { "snippet": "grundlegenden Paradigma", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 120,
+     "quellen": ["himss2020"],
+     "claim": "Belegt, dass die technische (foundational) Interoperabilität die reine Übertragbarkeit eines Dokuments zwischen Systemen sicherstellt.",
+     "fundstelle": "",
+     "suchHinweis": "foundational interoperability transmit receive data"
+    },
+    {
+     "num": 121,
+     "quellen": ["bossenko2024"],
+     "claim": "Belegt, dass sich die HL7-Standards CDA und FHIR in ihrem grundlegenden Paradigma unterscheiden.",
+     "fundstelle": "S. 4",
+     "suchHinweis": "CDA FHIR paradigm difference document resource"
+    }
+   ]
+  }
+ ]
+}

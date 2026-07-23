@@ -1,0 +1,43 @@
+{
+ "chapter": 4,
+ "title": "Rechtlicher Rahmen in Österreich",
+ "kurzfassung": "Kapitel 4 analysiert das österreichische Recht und hält es gegen die EHDS-Anforderungen.\n\n### GTelG 2012\nDas Gesundheitstelematikgesetz regelt ELGA: Es zählt die **ELGA-Gesundheitsdiensteanbieter taxativ** auf (Ärzte, Zahnärzte, Apotheken, Krankenanstalten, Pflege, Rettung, 1450) — enger als der funktionale EHDS-Begriff des Gesundheitsdienstleisters. Es definiert die ELGA-Gesundheitsdaten, das **Berechtigungssystem** (Zugriff nur bei Behandlungsverhältnis, generelle Rollenrechte plus individuelle Steuerung) und das **Protokollierungssystem** (Vollprotokoll jeder Verarbeitung, drei Jahre Aufbewahrung, abrufbasiertes Auskunftsrecht) — inhaltlich weitgehend EHDS-konform.\n\n### ELGA-VO 2015\nDie Durchführungsverordnung staffelt **Speicherpflichten** nach Akteuren und Dokumenttypen (Entlassungsbriefe ab 4/2025, Labor/Radiologie niedergelassen ab 7/2025, Medikation/Pflege ab 1/2026, Pathologie ab 2028, sonstige Fachbefunde ab 2030). Die **Erfüllungsfiktion** entschärft den Start: Ein bis 1.1.2026 geschlossener Softwarevertrag mit Umsetzung bis 31.12.2028 genügt — das verengt den Puffer zur ersten EHDS-Stufe (26.3.2029) auf rund drei Monate. **Wahlärzte** unter ~300 Patienten/Jahr sind national ausgenommen (§ 49 Abs 7 ÄrzteG) und können zusätzlich unter die EU-Kleinstunternehmen-Ausnahme (Art 50 EHDS-VO) fallen — eine doppelte Ausnahmelage mit Folgen für die Vollständigkeit der Patientenkurzakte.\n\n### Offene Institutionen und Teilnahme-Logik\nWeder **DHA**, noch **Marktüberwachungsbehörde**, noch **Zugangsstelle für Gesundheitsdaten** waren zum Stand der Arbeit benannt; alle brauchen eine gesetzliche Grundlage (Frist: 26.3.2027). Die CE-Kennzeichnungspflicht trifft künftig die KIS/PVS/RIS-Hersteller. Bei der Teilnahme gilt ein Dreiklang: national **Opt-Out** (genereller/partieller Widerspruch, EHDS-konform nach Art 10), grenzüberschreitend **Opt-In** (strenger als die Verordnung — begrenzt den Austausch), Sekundärnutzung **kein Mechanismus** (obwohl Art 71 ihn ab 2029 zwingend verlangt). Der 6. Abschnitt GTelG regelt bereits EU-Rezept und EU-Patientenkurzakte über die NCPeH; die Verordnung zu den gemeinsamen Verantwortlichen fehlt noch.",
+ "kernaussagen": [
+  "GTelG 2012 und ELGA-VO 2015 tragen das System; die Protokollierungs- und Berechtigungsregeln decken die EHDS-Kernpflichten inhaltlich ab.",
+  "Der taxative GDA-Kreis ist enger als der funktionale EHDS-Gesundheitsdienstleister-Begriff — Klärungsbedarf bis 2029.",
+  "Die Erfüllungsfiktion (Vertrag bis 1.1.2026, Umsetzung bis 31.12.2028) lässt nur ~3 Monate Puffer zur ersten EHDS-Stufe.",
+  "Wahlärzte können doppelt ausgenommen sein (national + EU-Kleinstunternehmen) — Risiko für die Datenvollständigkeit.",
+  "DHA, Marktüberwachungsbehörde und Zugangsstelle fehlen samt gesetzlicher Grundlage (Frist 26.3.2027).",
+  "Teilnahme-Dreiklang: Opt-Out national (konform), Opt-In grenzüberschreitend (strenger als EU), Sekundärnutzung ohne Mechanismus (Lücke)."
+ ],
+ "begriffe": [
+  {"begriff": "GTelG 2012", "erklaerung": "Gesundheitstelematikgesetz — das ELGA-Stammgesetz."},
+  {"begriff": "ELGA-VO 2015", "erklaerung": "Durchführungsverordnung mit Speicherpflichten, Formaten und Sicherheitsanforderungen."},
+  {"begriff": "ELGA-GDA", "erklaerung": "Taxativ aufgezählte ELGA-Gesundheitsdiensteanbieter."},
+  {"begriff": "Erfüllungsfiktion", "erklaerung": "Softwarevertrag bis 1.1.2026 gilt als Pflichterfüllung, Umsetzung bis spätestens 31.12.2028."},
+  {"begriff": "Opt-Out / Opt-In", "erklaerung": "National automatische Teilnahme mit Widerspruch; grenzüberschreitend ausdrückliche Zustimmung nötig."},
+  {"begriff": "Marktüberwachungsbehörde", "erklaerung": "Künftige Behörde für die CE-Konformität von EHR-Systemen."},
+  {"begriff": "OTC-Liste", "erklaerung": "Wechselwirkungsrelevante rezeptfreie Arzneimittel, die Apotheken miterfassen."},
+  {"begriff": "374/AB", "erklaerung": "Parlamentarische Anfragebeantwortung zum EHDS-Vorbereitungsstand (Behörden „werden evaluiert“)."}
+ ],
+ "fristen": [
+  {"datum": "1. April 2025", "was": "Speicherpflicht Entlassungsbriefe (Krankenanstalten) und Medikationsabgaben (öffentliche Apotheken)."},
+  {"datum": "1. Juli 2025", "was": "Speicherpflicht Labor-/Radiologiebefunde niedergelassener Fachärzte."},
+  {"datum": "1. Jänner 2026", "was": "Genereller Beginn der Speicherverpflichtung; Verhältnismäßigkeitsgrenze Wahlärzte (~300 Patienten/Jahr)."},
+  {"datum": "26. März 2027", "was": "Benennung DHA, Marktüberwachungsbehörde, Zugangsstelle (EHDS-Frist)."},
+  {"datum": "1. Jänner 2028", "was": "Speicherpflicht Pathologiebefunde."},
+  {"datum": "31. Dezember 2028", "was": "Spätester Umsetzungstermin nach der Erfüllungsfiktion."},
+  {"datum": "26. März 2029", "was": "Erste EHDS-Stufe; ab dann auch zwingender Sekundärnutzungs-Widerspruch."},
+  {"datum": "1. Jänner 2030", "was": "Speicherpflicht sonstige fachärztliche ambulante Befunde."}
+ ],
+ "abschnitte": [
+  {"id": "4.1", "titel": "GTelG 2012", "einzeiler": "GDA-Kreis, ELGA-Daten, Berechtigungs- und Protokollierungssystem."},
+  {"id": "4.2", "titel": "ELGA-VO 2015", "einzeiler": "Speicherpflichten, Ausnahmen (Wahlärzte), Übergangsfristen, Erfüllungsfiktion."},
+  {"id": "4.3", "titel": "Marktüberwachung von EHR-Systemen", "einzeiler": "Fehlende Behörden und die neue CE-Pflicht der Softwarehersteller."},
+  {"id": "4.4", "titel": "Teilnahme an Primär- und Sekundärnutzung", "einzeiler": "Opt-Out (ELGA), Opt-In (MyHealth@EU), fehlender Sekundärnutzungs-Mechanismus."},
+  {"id": "4.5", "titel": "Grenzüberschreitende Anbindung durch NCPeH", "einzeiler": "EU-Rezept, EU-Patientenkurzakte und die Rolle der Kontaktstelle im GTelG."},
+  {"id": "4.6", "titel": "Nationaler Stufenplan und EHDS-Fristen", "einzeiler": "Nationale Termine liegen vor den EHDS-Deadlines; kritisch sind Institutionen und Patientenkurzakte."}
+ ],
+ "verbindungen": {"bautAuf": ["2", "3"], "liefertFuer": ["5", "6"]},
+ "fazitBeitrag": "Liefert die rechtlichen Kernbefunde des Fazits: enger GDA-Kreis, Wahlarzt-Doppelausnahme, fehlende Behörden, Opt-In-Spannung, fehlender Sekundärnutzungs-Widerspruch und die knappe Erfüllungsfiktion."
+}

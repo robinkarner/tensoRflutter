@@ -1,0 +1,188 @@
+{
+ "sectionId": "4.3",
+ "paragraphs": [
+  {
+   "id": "4.3-p1",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung verpflichtet die Mitgliedstaaten zur Benennung einer Marktüberwachungsbehörde für EHR-Systeme und erlaubt, dass die Stelle für digitale Gesundheit diese Rolle mitübernimmt, sofern Interessenkonflikte verhindert werden.",
+   "sentences": [
+    {
+     "text": "Die EHDS-Verordnung verpflichtet die Mitgliedstaaten, die für die Umsetzung der EHR-Systeme zuständige Marktüberwachungsbehörde oder die zuständigen Behörden zu benennen und der Kommission mitzuteilen.",
+     "einfach": "Die EHDS-Verordnung (EU-Verordnung 2025/327 zum europäischen Gesundheitsdatenraum) verlangt von jedem EU-Mitgliedstaat, eine oder mehrere Behörden zu bestimmen, die den Markt für EHR-Systeme (Software für elektronische Patientenakten) überwachen, und diese der EU-Kommission zu melden.",
+     "kategorien": ["norm", "akteur", "tech"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" },
+      { "snippet": "EHR-Systeme", "kategorie": "tech" },
+      { "snippet": "Marktüberwachungsbehörde", "kategorie": "akteur" },
+      { "snippet": "Kommission", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die EHDS-Verordnung lässt ausdrücklich zu, dass die gemäß Artikel 19 EHDS-VO zu benennende Stelle für digitale Gesundheit (Digital Health Authority, DHA) gleichzeitig auch als Marktüberwachungsbehörde fungieren kann, sofern Interessenkonflikte verhindert werden.[^241]",
+     "einfach": "Die Verordnung erlaubt ausdrücklich, dass die ohnehin nach Artikel 19 einzurichtende 'Stelle für digitale Gesundheit' (Digital Health Authority, DHA) zusätzlich auch die Marktüberwachung übernimmt; Bedingung ist, dass Interessenkonflikte zwischen den beiden Rollen verhindert werden.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "Artikel 19 EHDS-VO", "kategorie": "norm" },
+      { "snippet": "Stelle für digitale Gesundheit (Digital Health Authority, DHA)", "kategorie": "akteur" },
+      { "snippet": "Marktüberwachungsbehörde", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 241,
+     "quellen": ["ehds-vo"],
+     "claim": "Die nach Artikel 19 EHDS-VO benannte Stelle für digitale Gesundheit darf zugleich als Marktüberwachungsbehörde fungieren, sofern Interessenkonflikte verhindert werden.",
+     "fundstelle": "Art 43 Abs 3",
+     "suchHinweis": "Art 43 Marktüberwachungsbehörden Interessenkonflikte Stelle für digitale Gesundheit"
+    }
+   ]
+  },
+  {
+   "id": "4.3-p2",
+   "type": "text",
+   "kernaussage": "Österreich hat zum Zeitpunkt der Arbeit weder eine Stelle für digitale Gesundheit noch eine Marktüberwachungsbehörde für EHR-Systeme benannt; dazu liegt eine Stellungnahme des Bundesministeriums in einer parlamentarischen Anfragebeantwortung vor.",
+   "sentences": [
+    {
+     "text": "Weder eine DHA nach Artikel 19 EHDS-VO noch eine Marktüberwachungsbehörde für EHR-Systeme wurde in Österreich zum Zeitpunkt dieser Arbeit benannt.",
+     "einfach": "Österreich hat bis zum Abschluss dieser Arbeit weder die Stelle für digitale Gesundheit (DHA) noch eine Marktüberwachungsbehörde für EHR-Systeme (Software für elektronische Patientenakten) offiziell bestimmt.",
+     "kategorien": ["norm", "akteur", "tech", "luecke"],
+     "marks": [
+      { "snippet": "DHA", "kategorie": "akteur" },
+      { "snippet": "Artikel 19 EHDS-VO", "kategorie": "norm" },
+      { "snippet": "Marktüberwachungsbehörde", "kategorie": "akteur" },
+      { "snippet": "EHR-Systeme", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "In einer parlamentarischen Anfragebeantwortung teilt das zuständige Bundesministerium dazu mit:",
+     "einfach": "Zu diesem Stand hat sich das zuständige Bundesministerium in einer parlamentarischen Anfragebeantwortung geäußert; das ist eine schriftliche Antwort der Regierung auf eine offizielle Frage von Abgeordneten. Das Zitat folgt im nächsten Absatz.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Bundesministerium", "kategorie": "akteur" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "4.3-p3",
+   "type": "text",
+   "kernaussage": "Laut Bundesministerium wird derzeit erst evaluiert, wie die vom EHDS vorgeschriebenen Behörden in Österreich eingerichtet werden und welche bestehenden Institutionen deren Aufgaben übernehmen könnten.",
+   "sentences": [
+    {
+     "text": "„Die Einrichtung der vom EHDS vorgeschriebenen Behörden in Österreich und welche bestehenden Institutionen deren Aufgaben wahrnehmen könnten, wird derzeit evaluiert. Dies geschieht entsprechend den Grundsätzen der Sparsamkeit, Wirtschaftlichkeit und Zweckmäßigkeit sowie unter Heranziehung von best practice-Modellen aus dem europäischen und internationalen Umfeld.\" [^242]",
+     "einfach": "Das Ministerium sagt im Kern: Es wird noch geprüft, wie die vom EHDS geforderten Behörden eingerichtet werden und welche bestehenden Einrichtungen deren Aufgaben übernehmen könnten. Dabei sollen die Verwaltungsgrundsätze Sparsamkeit, Wirtschaftlichkeit und Zweckmäßigkeit gelten und bewährte Modelle (best practices) aus anderen europäischen und internationalen Staaten als Vorbild dienen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "vom EHDS vorgeschriebenen Behörden", "kategorie": "akteur" },
+      { "snippet": "bestehenden Institutionen", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 242,
+     "quellen": ["parlament374ab"],
+     "claim": "Das zuständige Bundesministerium bestätigt, dass die Einrichtung der vom EHDS vorgeschriebenen Behörden in Österreich derzeit erst evaluiert wird.",
+     "fundstelle": "S. 11",
+     "suchHinweis": "Einrichtung Behörden evaluiert Sparsamkeit best practice"
+    }
+   ]
+  },
+  {
+   "id": "4.3-p4",
+   "type": "text",
+   "kernaussage": "Weil die drei EHDS-Einrichtungen teils hoheitliche Aufgaben vollziehen, brauchen sie eine gesetzliche Grundlage, die im österreichischen Recht noch vollständig fehlt und damit eine zentrale offene Gesetzgebungsaufgabe darstellt.",
+   "sentences": [
+    {
+     "text": "Darüber hinaus weist die Anfragebeantwortung darauf hin, dass allen drei genannten Einrichtungen teils hoheitlich zu vollziehende Aufgaben zukommen, weshalb deren Einrichtung jedenfalls einer gesetzlichen Verankerung bedarf.",
+     "einfach": "Die Anfragebeantwortung betont zudem, dass alle drei geforderten Einrichtungen teilweise hoheitliche Aufgaben ausüben, also mit staatlicher Befehls- und Zwangsgewalt handeln (z. B. Bescheide erlassen oder Sanktionen verhängen). Solche Befugnisse dürfen in Österreich nur durch ein Gesetz übertragen werden, weshalb ein eigenes Gesetz nötig ist.",
+     "kategorien": ["akteur", "zahl"],
+     "marks": [
+      { "snippet": "allen drei genannten Einrichtungen", "kategorie": "akteur" },
+      { "snippet": "drei", "kategorie": "zahl" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Zum Zeitpunkt der Anfragebeantwortung fehlt eine solche gesetzliche Grundlage im österreichischen Recht vollständig.",
+     "einfach": "Ein solches Gesetz existiert zum Zeitpunkt der Anfragebeantwortung noch gar nicht; die rechtliche Basis für die neuen Behörden fehlt in Österreich also komplett.",
+     "kategorien": ["luecke"],
+     "marks": [
+      { "snippet": "fehlt eine solche gesetzliche Grundlage im österreichischen Recht vollständig", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Schaffung dieser Grundlage ist damit eine der zentralen offenen Gesetzgebungsaufgaben auf dem Weg zur EHDS-Konformität Österreichs.",
+     "einfach": "Der Autor folgert: Dieses Gesetz zu schaffen, ist eine der wichtigsten noch offenen Aufgaben des österreichischen Gesetzgebers, damit Österreich die Vorgaben der EHDS-Verordnung erfüllt.",
+     "kategorien": ["these", "luecke"],
+     "marks": [
+      { "snippet": "eine der zentralen offenen Gesetzgebungsaufgaben", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "4.3-p5",
+   "type": "text",
+   "kernaussage": "Die CE-Kennzeichnungspflicht der EHDS-Verordnung trifft die Hersteller von KIS, PVS und RIS als völlig neue Compliance-Pflicht, weil die bisherige ELGA-CDA-Konformität kein förmliches Zertifizierungs- oder Kennzeichnungsregime vorsah.",
+   "sentences": [
+    {
+     "text": "Die CE-Kennzeichnungspflicht der EHDS-Verordnung trifft die Softwarehersteller von Krankenhausinformationssystemen (KIS), Praxisverwaltungssystemen für niedergelassene Arztpraxen und medizinische Versorgungszentren (PVS) sowie Radiologieinformationssystemen (RIS).",
+     "einfach": "Die Pflicht zur CE-Kennzeichnung (das EU-Konformitätszeichen, das bestätigt, dass ein Produkt die EU-Anforderungen erfüllt) trifft die Hersteller der drei wichtigsten Software-Gattungen im Gesundheitswesen: Krankenhausinformationssysteme (KIS), Praxisverwaltungssysteme (PVS) für Arztpraxen und Versorgungszentren sowie Radiologieinformationssysteme (RIS).",
+     "kategorien": ["norm", "akteur", "tech"],
+     "marks": [
+      { "snippet": "CE-Kennzeichnungspflicht", "kategorie": "norm" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Softwarehersteller", "kategorie": "akteur" },
+      { "snippet": "Krankenhausinformationssystemen (KIS)", "kategorie": "tech" },
+      { "snippet": "Praxisverwaltungssystemen", "kategorie": "tech" },
+      { "snippet": "Radiologieinformationssystemen (RIS)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Für sie entsteht damit eine neue Compliance-Pflicht, die bisher nicht existierte.",
+     "einfach": "Für diese Hersteller ist das eine völlig neue Pflicht zur Einhaltung regulatorischer Vorgaben (Compliance), die es in dieser Form vorher nicht gab.",
+     "kategorien": ["these"],
+     "marks": [
+      { "snippet": "neue Compliance-Pflicht, die bisher nicht existierte", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die bisherige ELGA-CDA-Konformität (Clinical Document Architecture) war über die CDA-Implementierungsleitfäden und die ELGA-Interoperabilitätsstufen (EIS) der ELGA-VO 2015 geregelt, ohne ein förmliches Zertifizierungs- oder Kennzeichnungsregime nach Art der CE-Kennzeichnung vorzusehen.[^243]",
+     "einfach": "Bisher mussten die Systeme nur ELGA-konform sein: Die Vorgaben standen in den CDA-Implementierungsleitfäden (technische Anleitungen für das Dokumentformat Clinical Document Architecture) und den ELGA-Interoperabilitätsstufen (EIS, abgestufte Niveaus der technischen ELGA-Anbindung) der ELGA-Verordnung 2015; eine förmliche Zertifizierung oder Kennzeichnung wie die CE-Kennzeichnung war dabei nicht vorgesehen.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "ELGA-CDA-Konformität (Clinical Document Architecture)", "kategorie": "tech" },
+      { "snippet": "CDA-Implementierungsleitfäden", "kategorie": "tech" },
+      { "snippet": "ELGA-Interoperabilitätsstufen (EIS)", "kategorie": "tech" },
+      { "snippet": "ELGA-VO 2015", "kategorie": "norm" },
+      { "snippet": "CE-Kennzeichnung", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 243,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die bisherige ELGA-CDA-Konformität war über die CDA-Implementierungsleitfäden und die ELGA-Interoperabilitätsstufen der ELGA-VO 2015 geregelt, ohne ein förmliches Zertifizierungs- oder Kennzeichnungsregime vorzusehen.",
+     "fundstelle": "§§ 13 und 16",
+     "suchHinweis": "§ 13 § 16 Implementierungsleitfäden Interoperabilitätsstufen"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "sectionId": "5.4",
+ "paragraphs": [
+  {
+   "id": "5.4-p1",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung verlangt von Speichersystemen Zugang zu den Daten im Austauschformat EEHRxF sowie die Fähigkeit, Daten in diesem Format zu empfangen.",
+   "sentences": [
+    {
+     "text": "Die EHDS-Verordnung verlangt, dass Systeme zur Speicherung personenbezogener elektronischer Gesundheitsdaten den Zugang zu diesen Daten im europäischen Austauschformat EEHRxF ermöglichen und Daten in diesem Format empfangen können.[^363]",
+     "einfach": "Wer Gesundheitsdaten speichert, muss sie künftig über eine Schnittstelle im EU-einheitlichen Austauschformat EEHRxF herausgeben und auch in diesem Format entgegennehmen können.",
+     "kategorien": ["norm", "tech"],
+     "marks": [{"snippet": "EHDS-Verordnung", "kategorie": "norm"}, {"snippet": "europäischen Austauschformat EEHRxF", "kategorie": "tech"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 363, "quellen": ["ehds-vo"], "claim": "Belegt die Schnittstellenpflicht: Zugang zu gespeicherten Gesundheitsdaten im EEHRxF und Empfangsfähigkeit in diesem Format.", "fundstelle": "Anhang II Nr 2", "suchHinweis": "Anhang II Interoperabilität Austauschformat Zugang"}
+   ]
+  },
+  {
+   "id": "5.4-p2",
+   "type": "text",
+   "kernaussage": "Anhang II ist eine Schnittstellen-, keine Speicheranforderung — der bestehende CDA-Bestand darf bleiben, solange EEHRxF-Zugang und -Empfang (per Konversion oder nativ) möglich sind.",
+   "sentences": [
+    {
+     "text": "Anhang II verlangt grundsätzlich kein bestimmtes Speicherformat, sondern definiert eine Schnittstellenanforderung.",
+     "einfach": "Die Verordnung schreibt nicht vor, WIE die Daten intern gespeichert werden — nur, dass die Schnittstelle nach außen das EU-Format spricht.",
+     "kategorien": ["these", "norm"],
+     "marks": [{"snippet": "kein bestimmtes Speicherformat", "kategorie": "these"}, {"snippet": "Schnittstellenanforderung", "kategorie": "tech"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der CDA-Bestand in den Repositories kann bestehen bleiben, solange der Zugang und der Empfang im EEHRxF möglich sind - durch Konversion oder durch native FHIR-Erzeugung.[^364]",
+     "einfach": "Die vorhandenen CDA-Dokumente in den ELGA-Speichern müssen also nicht migriert werden: Es genügt, sie bei Bedarf ins EEHRxF umzuwandeln oder neue Dokumente gleich in FHIR zu erzeugen.",
+     "kategorien": ["tech", "these"],
+     "marks": [{"snippet": "CDA-Bestand", "kategorie": "tech"}, {"snippet": "Konversion", "kategorie": "tech"}, {"snippet": "native FHIR-Erzeugung", "kategorie": "tech"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 364, "quellen": ["ehds-vo"], "claim": "Stützt die Lesart, dass Anhang II Nr 2 eine Schnittstellen- und keine Speicheranforderung normiert, sodass der CDA-Bestand fortgeführt werden kann.", "fundstelle": "Anhang II Nr 2", "suchHinweis": "Anhang II Schnittstelle Zugang Empfang Format"}
+   ]
+  }
+ ]
+}

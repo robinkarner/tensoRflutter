@@ -1,0 +1,89 @@
+{
+ "sectionId": "5.2.2",
+ "title": "Datenfluss vom EHR-System in ELGA",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 56,
+ "pdfPage": 66,
+ "paragraphs": [
+  {
+   "id": "5.2.2-p1",
+   "type": "text",
+   "text": "Der typische Datenfluss eines Befundes von einem EHR-System in ELGA erfolgt vereinfacht nach folgendem Schema. Das EHR-System erzeugt aus der Dokumentation ein CDA-Dokument nach dem einschlägigen Implementierungsleitfaden und übergibt es - unmittelbar über standardisierte IHE-Schnittstellen oder über den ELGA-Adapter und den ELGA-Proxy - über das GIN an den zuständigen ELGA-Bereich. Dort legt es das Dokument als Document Source dezentral im lokalen Datenspeicher ab und lässt die zugehörigen Metadaten im lokalen Verweisregister registrieren, womit der Befund für alle berechtigten Gesundheitsdiensteanbieter über ELGA abrufbar wird.[^314]",
+   "footnotes": [
+    {
+     "num": 314,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 87.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.2.2-p2",
+   "type": "text",
+   "text": "Dieser Vorgang wird genauso wie ein lesender Zugriff eines Gesundheitsdiensteanbieters auf ELGA-Gesundheitsdaten protokolliert und im aggregierten Audit Record Repository zusammengeführt.[^315]",
+   "footnotes": [
+    {
+     "num": 315,
+     "text": "Vgl. § 22 Abs 2 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 50.",
+     "sources": [
+      "elga-gesamtarchitektur2017",
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.2.2-p3",
+   "type": "text",
+   "text": "Der Ablauf setzt allerdings voraus, dass der Gesundheitsdiensteanbieter über einen Bereich verfügt, dessen Datenspeicher und Verweisregister seine Dokumente aufnehmen. Hier greift für den niedergelassenen Bereich eine Einschränkung. Der lesende Zugriff nach Abschnitt 5.1.3 steht über das e-card-System allen Anbietern österreichweit offen, da er keine Zuordnung zu einem eigenen Bereich erfordert. Das Schreiben - die Speicherung eigener Befunde - setzt hingegen einen Read-Write-Zugang zu einem ELGA-Bereich voraus, den niedergelassene Ärztinnen und Ärzte entweder vertraglich bei einem zugelassenen Bereichsprovider oder über den zentralen Vermittlungsdienst des Dachverbands herstellen müssen.[^316] Ein eigener ELGA-Bereich war für sie zum Zeitpunkt der Rechnungshofprüfung noch nicht eingerichtet. Ein kostenfreier Grundversorgungsbereich wurde zwar erwogen, aber nicht umgesetzt.[^317]",
+   "footnotes": [
+    {
+     "num": 316,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 57, und Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 51.",
+     "sources": [
+      "rh-elga2024",
+      "elga-gesamtarchitektur2017"
+     ]
+    },
+    {
+     "num": 317,
+     "text": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 50f.",
+     "sources": [
+      "rh-elga2024"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.2.2-p4",
+   "type": "text",
+   "text": "Diese Lücke wird seit dem Jahr 2025 regulatorisch geschlossen. Mit der Änderung der ELGA-VO 2015 gilt seit 1. Juli 2025 eine gestufte Speicherverpflichtung, die zunächst freiberufliche Fachärztinnen und Fachärzte der Labordiagnostik und der Radiologie zur Speicherung von Labor- bzw. Radiologiebefunden in ELGA verpflichtet und bis zum Jahr 2030 schrittweise auch die übrigen Fachgebiete.[^318]",
+   "footnotes": [
+    {
+     "num": 318,
+     "text": "Vgl. §§ 5 bis 9 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.2.2-p5",
+   "type": "text",
+   "text": "Für die EHDS-Verordnung sind bei diesem Datenfluss die EHR-Systeme selbst maßgeblich. Sie müssen künftig die harmonisierten Softwarekomponenten umsetzen und die CE-Kennzeichnung auf Basis der Selbstbewertung des Herstellers tragen. Die Einhaltung überwacht die noch einzurichtende Marktüberwachungsbehörde (siehe Abschnitt 4.3).[^319]",
+   "footnotes": [
+    {
+     "num": 319,
+     "text": "Vgl. Art 25 Abs 1, Art 39 Abs 1, Art 41 Abs 1 und Art 43 Abs 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

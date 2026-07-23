@@ -1,0 +1,150 @@
+{
+ "sectionId": "5.3.1",
+ "title": "Berechtigungssystem",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 58,
+ "pdfPage": 68,
+ "paragraphs": [
+  {
+   "id": "5.3.1-p1",
+   "type": "text",
+   "text": "Das Berechtigungssystem verwaltet die generellen und individuellen Zugriffsberechtigungen und steuert die Zugriffe auf ELGA-Gesundheitsdaten, wobei ohne Zugriffsberechtigung weder Daten noch Verweise darauf angezeigt werden dürfen.[^322] Die Autorisierung erfolgt default deny-orientiert und ist auf drei Protokollebenen umgesetzt, der Authentifizierung aller Akteure auf Transportebene (ATNA Secure Nodes), der rollenbezogenen Autorisierung (WS-Trust-Assertions) und der zusätzlichen Bindung von Zugriffen auf Patientendaten (XACML-Policies).[^323]",
+   "footnotes": [
+    {
+     "num": 322,
+     "text": "Vgl. § 21 Abs 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 323,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 141.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.3.1-p2",
+   "type": "text",
+   "text": "Voraussetzung für jeden Datenzugriff ist ein technisch nachgewiesener Behandlungszusammenhang, der im niedergelassenen Bereich durch das Stecken der e-card hergestellt und dessen signierte Kontaktbestätigung an den zentralen Kontaktbestätigungsservice gemeldet wird.[^324] Die Autorisierung erfolgt anschließend zweistufig über den ELGA-Token-Service, der zunächst eine Healthcare-Provider-Assertion zur Anmeldung des Gesundheitsdiensteanbieters und danach je Zielbereich eine Treatment-Assertion für den Zugriff auf personenbezogene Dokumente ausstellt.[^325]",
+   "footnotes": [
+    {
+     "num": 324,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 158.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    },
+    {
+     "num": 325,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 46.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.3.1-p3",
+   "type": "text",
+   "text": "Die generellen Zugriffsberechtigungen sind rollenbezogen und erlauben Angehörigen des ärztlichen Berufs, Krankenanstalten und Pflegeeinrichtungen den Zugriff auf alle ELGA-Gesundheitsdaten, Apotheken und Rettungsdiensten dagegen nur auf Medikationsdaten.[^326] Darüber hinaus können ELGA-Teilnehmende über das Bürger-Zugangsportal individuelle Zugriffsberechtigungen festlegen und einzelne Verweise und Dokumente für bestimmte Gesundheitsdiensteanbieter ein- oder ausblenden.[^327] Diese individuellen Berechtigungen haben Vorrang vor den generellen.[^328] Durchgesetzt werden beide bereichsübergreifend durch die dezentrale Zugriffssteuerungsfassade, welche die einheitliche Autorisierung der Zugriffe sicherstellt.[^329]",
+   "footnotes": [
+    {
+     "num": 326,
+     "text": "Vgl. § 21 Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 327,
+     "text": "Vgl. § 16 Abs 1 Z 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 328,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 148.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    },
+    {
+     "num": 329,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 156.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.3.1-p4",
+   "type": "text",
+   "text": "Die Dauer der Zugriffsberechtigung ist nach Akteursgruppen gestaffelt.[^330] Niedergelassene Ärztinnen und Ärzte haben ab dem Nachweis des Behandlungsverhältnisses standardmäßig neunzig Tage Zugriff.[^331] Krankenanstalten und Pflegeeinrichtungen haben ab der Aufnahme bis neunzig Tage nach der Entlassung Zugriff, der nicht verlängert werden kann.[^332] Apotheken sowie Rettungsdienste und die Gesundheitsberatung 1450 verfügen über achtundzwanzig Tage, bei Apotheken beschränkt auf Medikationsdaten und den e-Impfpass.[^333] ELGA-Teilnehmende können diese Fristen über das Portal verkürzen, den Zugriff ganz sperren oder mit Zustimmung des Gesundheitsdiensteanbieters auf bis zu ein Jahr verlängern.[^334]",
+   "footnotes": [
+    {
+     "num": 330,
+     "text": "Vgl. ELGA GmbH (2026): Datenschutz und Datensicherheit.",
+     "sources": [
+      "elga-datenschutz2026"
+     ]
+    },
+    {
+     "num": 331,
+     "text": "Vgl. ELGA GmbH (2026): Datenschutz und Datensicherheit.",
+     "sources": [
+      "elga-datenschutz2026"
+     ]
+    },
+    {
+     "num": 332,
+     "text": "Vgl. ELGA GmbH (2026): Datenschutz und Datensicherheit.",
+     "sources": [
+      "elga-datenschutz2026"
+     ]
+    },
+    {
+     "num": 333,
+     "text": "Vgl. ELGA GmbH (2026): Datenschutz und Datensicherheit.",
+     "sources": [
+      "elga-datenschutz2026"
+     ]
+    },
+    {
+     "num": 334,
+     "text": "Vgl. ELGA GmbH (2026): Datenschutz und Datensicherheit.",
+     "sources": [
+      "elga-datenschutz2026"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.3.1-p5",
+   "type": "text",
+   "text": "Der Teilnahme an ELGA kann generell oder partiell, beschränkt auf einzelne Arten von Gesundheitsdaten, jederzeit widersprochen werden.[^335] Darüber hinaus kann der Aufnahme von Daten für einen einzelnen Behandlungs- oder Betreuungsfall situativ widersprochen werden, worauf die Teilnehmenden insbesondere bei sensiblen Daten zu HIV-Infektionen, psychischen Erkrankungen, genetischen Daten oder Schwangerschaftsabbrüchen hinzuweisen sind.[^336] Die daraus für die grenzüberschreitende Nutzung resultierenden Zustände des Berechtigungssystems wurden bereits in Abschnitt 4.4.2 dargestellt.",
+   "footnotes": [
+    {
+     "num": 335,
+     "text": "Vgl. § 15 Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 336,
+     "text": "Vgl. § 16 Abs 2 Z 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  }
+ ]
+}

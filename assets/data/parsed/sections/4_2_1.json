@@ -1,0 +1,108 @@
+{
+ "sectionId": "4.2.1",
+ "title": "Speicherverpflichtungen nach Akteuren",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 39,
+ "pdfPage": 49,
+ "paragraphs": [
+  {
+   "id": "4.2.1-p1",
+   "type": "text",
+   "text": "Die ELGA-VO 2015 legt die Speicherverpflichtungen von ELGA-Gesundheitsdaten für ELGA-GDA akteursbezogen fest. Diese bestehen, sofern sich aus den Widerspruchsrechten der ELGA-Teilnehmenden nach dem GTelG 2012 nichts anderes ergibt.[^215] Als Beginn der Speicherverpflichtung gilt der 1. Jänner 2026, sofern die ELGA-VO 2015 oder § 27 GTelG 2012 keinen früheren Zeitpunkt vorsehen.[^216]",
+   "footnotes": [
+    {
+     "num": 215,
+     "text": "Vgl. § 3 Abs 1 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    },
+    {
+     "num": 216,
+     "text": "Vgl. § 4 Abs 1 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.1-p2",
+   "type": "text",
+   "text": "Für Krankenanstalten, die über Landesgesundheitsfonds abgerechnet werden, für private Krankenanstalten sowie für Krankenanstalten, die von der Allgemeinen Unfallversicherungsanstalt betrieben werden, gelten Speicherverpflichtungen zu Entlassungsbriefen, Laborbefunden, Befunden der bildgebenden Diagnostik, Pathologiebefunden sowie sonstigen fachärztlichen Befunde im Rahmen ambulanter Behandlungen.[^217] Selbstständige Ambulatorien, deren Leistungsspektrum ärztliche Aufgaben von ELGA-GDA umfasst, sind zur Speicherung von Medikationsdaten nach Verordnungen verpflichtet.[^218]",
+   "footnotes": [
+    {
+     "num": 217,
+     "text": "Vgl. § 3 Abs 2 Z 1 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    },
+    {
+     "num": 218,
+     "text": "Vgl. § 3 Abs 2 Z 2 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.1-p3",
+   "type": "text",
+   "text": "Für freiberufliche Fachärzte des Sonderfachs Medizinisch-Chemische Labordiagnostik und des Sonderfachs Klinische Mikrobiologie und Hygiene gilt die Verpflichtung zur Speicherung von Laborbefunden. Für freiberufliche Fachärzte des Sonderfachs Radiologie gilt die Verpflichtung zur Speicherung von Befunden der bildgebenden Diagnostik. Für alle weiteren Angehörigen des ärztlichen Berufs gilt die Verpflichtung zur Speicherung von Medikationsdaten nach Verordnungen. Für freiberufliche Fachärzte der Klinisch-Pathologischen Sonderfächer gilt die Verpflichtung zur Speicherung von Pathologiebefunden. Für sonstige freiberufliche Fachärzte gilt die Verpflichtung zur Speicherung fachärztlicher ambulanter Befunde. Alle genannten Verpflichtungen erstrecken sich auch auf Gruppenpraxen und bei freiberuflichen Ärzten angestellte Ärzte.[^219]",
+   "footnotes": [
+    {
+     "num": 219,
+     "text": "Vgl. § 3 Abs 3 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.1-p4",
+   "type": "text",
+   "text": "Hausapothekenführende Ärzte sind zur Speicherung von Medikationsdaten bei Abgabe verpflichtet.[^220]",
+   "footnotes": [
+    {
+     "num": 220,
+     "text": "Vgl. § 3 Abs 2 Z 4 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.1-p5",
+   "type": "text",
+   "text": "Öffentliche Apotheken sind zur Speicherung von Medikationsdaten bei Abgabe verpflichtet, wobei neben verschreibungspflichtigen Arzneimitteln auch wechselwirkungsrelevante, nicht verschreibungspflichtige Arzneimittel gemäß der OTC-Liste zu erfassen sind.[^221]",
+   "footnotes": [
+    {
+     "num": 221,
+     "text": "Vgl. § 3 Abs 4 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.1-p6",
+   "type": "text",
+   "text": "Stationäre Pflegeeinrichtungen und Einrichtungen der mobilen Pflege sind zur Speicherung des Pflegesituationsberichts verpflichtet.[^222]",
+   "footnotes": [
+    {
+     "num": 222,
+     "text": "Vgl. § 3 Abs 5 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  }
+ ]
+}

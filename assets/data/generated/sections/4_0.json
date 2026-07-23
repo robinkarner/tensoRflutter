@@ -1,0 +1,86 @@
+{
+ "sectionId": "4.0",
+ "paragraphs": [
+  {
+   "id": "4.0-p1",
+   "type": "text",
+   "kernaussage": "Das GTelG 2012 und die ELGA-VO 2015 bilden den österreichischen Rechtsrahmen für die digitale Gesundheitsversorgung und regeln Speicherpflichten, Akteure und Zugriffsrechte.",
+   "sentences": [
+    {
+     "text": "Der österreichische Rechtsrahmen für die digitale Gesundheitsversorgung wird vom Gesundheitstelematikgesetz 2012 (GTelG 2012)[^188] und der ELGA-Verordnung 2015 (ELGA-VO 2015)[^189] gebildet.",
+     "einfach": "Zwei Rechtsakte bilden die Grundlage für digitale Gesundheit in Österreich: das Gesundheitstelematikgesetz 2012 (GTelG 2012, ein Bundesgesetz) und die ELGA-Verordnung 2015 (eine Verordnung der Gesundheitsministerin zur elektronischen Gesundheitsakte ELGA).",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "Gesundheitstelematikgesetz 2012 (GTelG 2012)", "kategorie": "norm" },
+      { "snippet": "ELGA-Verordnung 2015 (ELGA-VO 2015)", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie regeln Speicherpflichten, Akteure und Zugriffsrechte innerhalb der nationalen eHealth-Infrastruktur.",
+     "einfach": "Diese Regelwerke legen fest, welche Daten gespeichert werden müssen, wer im System welche Rolle hat und wer auf welche Daten zugreifen darf.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "eHealth-Infrastruktur", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 188,
+     "quellen": ["gtelg2012"],
+     "claim": "Das Gesundheitstelematikgesetz 2012 ist einer der beiden tragenden Rechtsakte des österreichischen eHealth-Rechtsrahmens.",
+     "fundstelle": "BGBl. I Nr. 111/2012 idF BGBl. I Nr. 94/2025",
+     "suchHinweis": "Gesundheitstelematikgesetz 2012 BGBl 111/2012 Datensicherheitsmaßnahmen"
+    },
+    {
+     "num": 189,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die ELGA-Verordnung 2015 ist der zweite tragende Rechtsakt des österreichischen eHealth-Rechtsrahmens.",
+     "fundstelle": "BGBl. II Nr. 106/2015 idF BGBl. II Nr. 11/2025",
+     "suchHinweis": "ELGA-Verordnung 2015 BGBl II 106/2015 Implementierung"
+    }
+   ]
+  },
+  {
+   "id": "4.0-p2",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung erzeugt neuen Anpassungsbedarf im österreichischen Recht: Marktüberwachung für EHR-Systeme, Abgleich des Opt-Out-Modells mit dem EU-Primärnutzungsregime, NCPeH-Anbindung an MyHealth@EU sowie ein Stufenplan zu den Fristen 2029/2031.",
+   "sentences": [
+    {
+     "text": "Mit der EHDS-Verordnung entstehen jedoch neue Anforderungen, die sich auf den rechtlichen Rahmen in Österreich auswirken.",
+     "einfach": "Die neue EU-Verordnung zum Europäischen Gesundheitsdatenraum (EHDS-Verordnung, VO (EU) 2025/327) bringt Vorgaben mit sich, an die Österreich sein nationales Recht anpassen muss.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Nationale Marktüberwachungsbehörden müssen für die CE-Konformität von EHR-Systemen eingerichtet werden (siehe Abschnitt 4.3), das Zusammenspiel des österreichischen Opt-Out-Modells mit dem zusätzlichen Opt-In-Erfordernis für den grenzüberschreitenden Austausch ist mit dem europäischen Primärnutzungsregime abzugleichen (siehe Abschnitt 4.4), und die grenzüberschreitende Anbindung über die nationale Kontaktstelle (National Contact Point for eHealth - NCPeH) im Rahmen von MyHealth@EU erfordert sowohl technische als auch rechtliche Anpassungen (siehe Abschnitt 4.5).",
+     "einfach": "Konkret muss Österreich drei Dinge angehen: eine Marktüberwachungsbehörde, die kontrolliert, ob Systeme für elektronische Patientenakten (EHR-Systeme) die CE-Kennzeichnung zu Recht tragen; die Abstimmung des österreichischen Widerspruchsmodells (Opt-Out: automatisch dabei, Austritt möglich) mit der zusätzlich nötigen aktiven Zustimmung (Opt-In) für den Datenaustausch ins Ausland; und die technische wie rechtliche Anbindung an MyHealth@EU über die nationale Kontaktstelle NCPeH.",
+     "kategorien": ["akteur", "tech", "luecke"],
+     "marks": [
+      { "snippet": "Marktüberwachungsbehörden", "kategorie": "akteur" },
+      { "snippet": "CE-Konformität von EHR-Systemen", "kategorie": "tech" },
+      { "snippet": "Zusammenspiel des österreichischen Opt-Out-Modells mit dem zusätzlichen Opt-In-Erfordernis", "kategorie": "luecke" },
+      { "snippet": "nationale Kontaktstelle (National Contact Point for eHealth - NCPeH)", "kategorie": "akteur" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Schlussendlich ordnet ein nationaler Stufenplan diese Herausforderungen in die verbindlichen EHDS-Umsetzungsfristen bis 2029 bzw. 2031 ein (siehe Abschnitt 4.6).",
+     "einfach": "Ein österreichischer Stufenplan ordnet diese Aufgaben zeitlich den verbindlichen Umsetzungsterminen der EHDS-Verordnung zu, die 2029 und 2031 wirksam werden.",
+     "kategorien": ["frist"],
+     "marks": [
+      { "snippet": "EHDS-Umsetzungsfristen bis 2029 bzw. 2031", "kategorie": "frist" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

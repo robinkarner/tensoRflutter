@@ -1,0 +1,216 @@
+{
+ "sectionId": "3.4.2",
+ "paragraphs": [
+  {
+   "id": "3.4.2-p1",
+   "type": "text",
+   "kernaussage": "Der EHR-Austausch über MyHealth@EU basiert auf dem Format EEHRxF; die nationalen Kontaktstellen (NCPeH) sind gemeinsam Verantwortliche und bilden das Gateway zur EU-Plattform, während die Kommission als Auftragsverarbeiterin zentrale Dienste erbringt.",
+   "sentences": [
+    {
+     "text": "Der Datenaustausch für EHR über MyHealth@EU erfolgt auf der Grundlage des europäischen Austauschformats EEHRxF.[^178]",
+     "einfach": "Wenn elektronische Patientenakten (EHR, Electronic Health Records) über die EU-Plattform MyHealth@EU zwischen Ländern ausgetauscht werden, geschieht das im einheitlichen europäischen Austauschformat EEHRxF (European Electronic Health Record Exchange Format).",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "EHR", "kategorie": "tech" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" },
+      { "snippet": "EEHRxF", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die nationalen Kontaktstellen fungieren dabei als gemeinsam Verantwortliche für die übermittelten personenbezogenen elektronischen Gesundheitsdaten, während die Kommission als Auftragsverarbeiterin auftritt und zentrale Dienste für die Infrastruktur erbringt.[^179]",
+     "einfach": "Datenschutzrechtlich tragen die nationalen Kontaktstellen gemeinsam die Verantwortung für die übermittelten Gesundheitsdaten ('gemeinsam Verantwortliche' im Sinne der DSGVO); die EU-Kommission verarbeitet die Daten nur im Auftrag ('Auftragsverarbeiterin') und stellt die zentralen technischen Dienste der Infrastruktur bereit.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "nationalen Kontaktstellen", "kategorie": "akteur" },
+      { "snippet": "gemeinsam Verantwortliche", "kategorie": "akteur" },
+      { "snippet": "Kommission", "kategorie": "akteur" },
+      { "snippet": "Auftragsverarbeiterin", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Jede nationale Kontaktstelle (NCPeH) bildet technisch das Gateway zwischen der jeweiligen nationalen Gesundheitsinfrastruktur und der EU-Plattform.[^180]",
+     "einfach": "Jede nationale Kontaktstelle für eHealth (NCPeH, National Contact Point for eHealth) ist die technische Schnittstelle ('Gateway'), die das Gesundheitssystem des eigenen Landes mit der zentralen EU-Plattform verbindet.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "nationale Kontaktstelle (NCPeH)", "kategorie": "akteur" },
+      { "snippet": "Gateway", "kategorie": "tech" },
+      { "snippet": "EU-Plattform", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 178,
+     "quellen": ["ehds-vo"],
+     "claim": "Der Datenaustausch über MyHealth@EU erfolgt auf Grundlage des europäischen Austauschformats für elektronische Patientenakten (EEHRxF).",
+     "fundstelle": "Art 23 Abs 3",
+     "suchHinweis": "Artikel 23 europäisches Austauschformat MyHealth@EU"
+    },
+    {
+     "num": 179,
+     "quellen": ["ehds-vo"],
+     "claim": "Die nationalen Kontaktstellen sind gemeinsam Verantwortliche für die übermittelten Daten, die Kommission tritt als Auftragsverarbeiterin auf.",
+     "fundstelle": "Art 23 Abs 7",
+     "suchHinweis": "Artikel 23 gemeinsam Verantwortliche Auftragsverarbeiter Kommission"
+    },
+    {
+     "num": 180,
+     "quellen": ["ek-myrights2026"],
+     "claim": "Die nationale Kontaktstelle (NCPeH) bildet das Gateway zwischen der nationalen Gesundheitsinfrastruktur und der EU-Plattform.",
+     "fundstelle": "",
+     "suchHinweis": "nationale Kontaktstelle NCPeH Gateway MyHealth@EU"
+    }
+   ]
+  },
+  {
+   "id": "3.4.2-p2",
+   "type": "text",
+   "kernaussage": "Die grenzüberschreitende elektronische Verschreibung dient als Beispiel für die Funktionsweise von MyHealth@EU: Apotheken erhalten Zugang zu E-Rezepten aus anderen Mitgliedstaaten.",
+   "sentences": [
+    {
+     "text": "Die Funktionsweise lässt sich exemplarisch an der grenzüberschreitenden elektronischen Verschreibung nachvollziehen.",
+     "einfach": "Wie MyHealth@EU funktioniert, zeigt die Arbeit am Beispiel des elektronischen Rezepts (E-Rezept), das über Ländergrenzen hinweg eingelöst werden kann.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "elektronischen Verschreibung", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Apotheken haben Zugang zu elektronischen Verschreibungen, die ihnen aus anderen Mitgliedstaaten über MyHealth@EU übermittelt werden.[^181]",
+     "einfach": "Apotheken können über die EU-Plattform MyHealth@EU elektronische Rezepte abrufen, die in einem anderen EU-Mitgliedstaat ausgestellt wurden.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Apotheken", "kategorie": "akteur" },
+      { "snippet": "elektronischen Verschreibungen", "kategorie": "tech" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die folgende Abbildung veranschaulicht dazu die Funktion der nationalen Kontaktstellen: [ABBILDUNG: Beispiel elektronische Verschreibung über MyHealth@EU — übernommen aus Europäische Kommission (2026): Public Health: Meine Rechte an meinen Gesundheitsdaten.]",
+     "einfach": "Der Satz leitet zu einer Abbildung über, die am Beispiel des E-Rezepts zeigt, welche Rolle die nationalen Kontaktstellen beim grenzüberschreitenden Datenaustausch spielen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "nationalen Kontaktstellen", "kategorie": "akteur" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 181,
+     "quellen": ["ehds-vo"],
+     "claim": "Apotheken haben Zugang zu elektronischen Verschreibungen, die ihnen aus anderen Mitgliedstaaten über MyHealth@EU übermittelt werden.",
+     "fundstelle": "Art 23 Abs 6",
+     "suchHinweis": "Artikel 23 Apotheken elektronische Verschreibungen Zugang"
+    }
+   ]
+  },
+  {
+   "id": "3.4.2-p3",
+   "type": "text",
+   "kernaussage": "Beim grenzüberschreitenden Einlösen eines E-Rezepts kommunizieren Apotheke und die beteiligten nationalen Kontaktstellen über MyHealth@EU; die Kontaktstellen übernehmen dabei die semantische Transformation der Daten, weil sich die nationalen eHealth-Systeme stark unterscheiden.",
+   "sentences": [
+    {
+     "text": "Wenn eine Patientin oder ein Patient in einen anderen Mitgliedstaat (Country B) reist und eine Apotheke aufsucht, um ein Medikament aus einer elektronischen Verschreibung abzuholen, baut diese Kontakt mit der dortigen nationalen Kontaktstelle auf, die wiederum über MyHealth@EU mit der nationalen Kontaktstelle des Mitgliedstaats (Country A) verbunden ist, wo die elektronische Verschreibung des Patienten erfolgt ist.",
+     "einfach": "Löst eine Person ihr E-Rezept in einem anderen EU-Land (Land B) ein, wendet sich die dortige Apotheke an die nationale Kontaktstelle dieses Landes; diese ist über MyHealth@EU mit der Kontaktstelle des Landes (Land A) verbunden, in dem das Rezept ausgestellt wurde.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Apotheke", "kategorie": "akteur" },
+      { "snippet": "nationalen Kontaktstelle", "kategorie": "akteur" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" },
+      { "snippet": "elektronischen Verschreibung", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Apotheke gibt das Arzneimittel auf der Grundlage der Verschreibung aus und meldet die Abgabe wieder über MyHealth@EU an den Mitgliedstaat zurück, in dem die Verschreibung ausgestellt wurde.[^182]",
+     "einfach": "Die Apotheke gibt das Medikament anhand des Rezepts aus und meldet diese Abgabe über MyHealth@EU an das Ausstellungsland zurück, damit das Rezept dort als eingelöst vermerkt wird.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Apotheke", "kategorie": "akteur" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Eine zentrale Aufgabe der nationalen Kontaktstellen ist dabei die semantische Transformation der Daten, da die nationalen eHealth-Systeme unabhängig voneinander und ohne grenzüberschreitende Koordination entstanden sind und sich erheblich voneinander unterscheiden.[^183]",
+     "einfach": "Weil die eHealth-Systeme der Länder getrennt voneinander entstanden sind und sich stark unterscheiden, müssen die nationalen Kontaktstellen die Daten inhaltlich 'übersetzen' (semantische Transformation), damit medizinische Begriffe und Codes im Zielland korrekt verstanden werden.",
+     "kategorien": ["akteur", "tech", "luecke"],
+     "marks": [
+      { "snippet": "nationalen Kontaktstellen", "kategorie": "akteur" },
+      { "snippet": "semantische Transformation", "kategorie": "tech" },
+      { "snippet": "unabhängig voneinander und ohne grenzüberschreitende Koordination entstanden", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 182,
+     "quellen": ["ehds-vo"],
+     "claim": "Die Apotheke gibt das Arzneimittel auf Grundlage der Verschreibung aus und meldet die Abgabe über MyHealth@EU an den ausstellenden Mitgliedstaat zurück.",
+     "fundstelle": "Art 23 Abs 6",
+     "suchHinweis": "Artikel 23 Abgabe Arzneimittel Verschreibung melden"
+    },
+    {
+     "num": 183,
+     "quellen": ["bruthans2023"],
+     "claim": "Die nationalen eHealth-Systeme sind unabhängig voneinander und ohne grenzüberschreitende Koordination entstanden und unterscheiden sich erheblich.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "national eHealth systems developed independently cross-border coordination"
+    }
+   ]
+  },
+  {
+   "id": "3.4.2-p4",
+   "type": "text",
+   "kernaussage": "Neben dem E-Rezept ist die Patientenkurzakte der zweite Kerndienst von MyHealth@EU; die technischen Spezifikationen für Sicherheit und Konformitätsprüfung muss die Kommission bis zum 26. März 2027 per Durchführungsrechtsakten festlegen.",
+   "sentences": [
+    {
+     "text": "Neben der elektronischen Verschreibung und Abgabe ist die Patientenkurzakte der zweite Kerndienst, der grundlegende medizinische Daten wie Allergien, aktuelle Medikation und Vorerkrankungen bereitstellt und behandelnden Ärztinnen und Ärzten wesentliche Informationen - soweit möglich in ihrer eigenen Sprache - zugänglich macht.[^184]",
+     "einfach": "Der zweite zentrale Dienst neben dem E-Rezept ist die Patientenkurzakte (Patient Summary): Sie enthält Basisdaten wie Allergien, aktuelle Medikamente und Vorerkrankungen und stellt sie behandelnden Ärztinnen und Ärzten möglichst in deren eigener Sprache zur Verfügung.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "elektronischen Verschreibung und Abgabe", "kategorie": "tech" },
+      { "snippet": "Patientenkurzakte", "kategorie": "tech" },
+      { "snippet": "Ärztinnen und Ärzten", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die technischen Spezifikationen für die Sicherheit, Vertraulichkeit und den Schutz der Daten sowie die Bedingungen für die Konformitätsüberprüfungen beim Anschluss an MyHealth@EU hat die Kommission bis zum 26. März 2027 mittels Durchführungsrechtsakten festzulegen.[^185]",
+     "einfach": "Bis zum 26. März 2027 muss die EU-Kommission per Durchführungsrechtsakten (verbindliche Detailregelungen der Kommission) festlegen, welche technischen Vorgaben für Sicherheit, Vertraulichkeit und Datenschutz gelten und wie die Konformität beim Anschluss an MyHealth@EU geprüft wird.",
+     "kategorien": ["akteur", "frist", "norm", "tech"],
+     "marks": [
+      { "snippet": "MyHealth@EU", "kategorie": "tech" },
+      { "snippet": "Kommission", "kategorie": "akteur" },
+      { "snippet": "26. März 2027", "kategorie": "frist" },
+      { "snippet": "Durchführungsrechtsakten", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 184,
+     "quellen": ["ek-crossborder2026"],
+     "claim": "Die Patientenkurzakte stellt grundlegende medizinische Daten wie Allergien, Medikation und Vorerkrankungen bereit und macht sie Ärztinnen und Ärzten möglichst in ihrer eigenen Sprache zugänglich.",
+     "fundstelle": "",
+     "suchHinweis": "Patientenkurzakte Allergien Medikation eigene Sprache"
+    },
+    {
+     "num": 185,
+     "quellen": ["ehds-vo"],
+     "claim": "Die Kommission legt bis zum 26. März 2027 die technischen Spezifikationen und Konformitätsbedingungen für den Anschluss an MyHealth@EU per Durchführungsrechtsakten fest.",
+     "fundstelle": "Art 23 Abs 4",
+     "suchHinweis": "Artikel 23 Durchführungsrechtsakte technische Spezifikationen 2027"
+    }
+   ]
+  }
+ ]
+}

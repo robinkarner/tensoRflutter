@@ -1,0 +1,177 @@
+{
+ "sectionId": "1.1",
+ "paragraphs": [
+  {
+   "id": "1.1-p1",
+   "type": "text",
+   "kernaussage": "Österreich betreibt mit ELGA seit 2015 eine nationale Infrastruktur für den Austausch besonders sensibler Gesundheitsdaten, deren sichere Verfügbarkeit für die Gesundheitsversorgung wesentlich ist.",
+   "sentences": [
+    {
+     "text": "Elektronische Gesundheitsdaten zählen zu den sensibelsten personenbezogenen Daten unserer Gesellschaft.",
+     "einfach": "Gesundheitsdaten in digitaler Form (z. B. Befunde oder Diagnosen) gehören zu den schutzwürdigsten Daten über eine Person, weil ihre Offenlegung besonders schwerwiegende Folgen haben kann.",
+     "kategorien": ["these"],
+     "marks": [
+      { "snippet": "sensibelsten personenbezogenen Daten", "kategorie": "these" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Ihre koordinierte und sichere Verfügbarkeit ist zugleich eine wesentliche Voraussetzung für eine qualitativ hochwertige, sektorenübergreifende Gesundheitsversorgung.",
+     "einfach": "Damit Ärztinnen, Spitäler und andere Einrichtungen gut zusammenarbeiten können, müssen diese Daten geordnet und sicher abrufbar sein. 'Sektorenübergreifend' bedeutet: über die Grenzen einzelner Versorgungsbereiche hinweg, etwa zwischen niedergelassenen Ärzten und Krankenhäusern.",
+     "kategorien": ["these"],
+     "marks": [
+      { "snippet": "sektorenübergreifende Gesundheitsversorgung", "kategorie": "these" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Mit der Elektronischen Gesundheitsakte ELGA betreibt Österreich seit ihrer schrittweisen Einführung ab 2015 eine nationale Infrastruktur, die Gesundheitsdiensteanbieter sowie Patientinnen und Patienten über gemeinsame Komponenten für den Austausch medizinischer Dokumente verbindet, etwa für elektronische Befunde, die e-Medikation und den elektronischen Impfpass.",
+     "einfach": "ELGA ist die österreichische elektronische Gesundheitsakte, die seit 2015 stufenweise aufgebaut wird. Sie verbindet Gesundheitsdiensteanbieter (z. B. Ärzte, Spitäler, Apotheken) und Patienten über gemeinsame technische Bausteine, damit medizinische Dokumente wie Befunde, Medikationsdaten (e-Medikation) und Impfdaten (e-Impfpass) ausgetauscht werden können.",
+     "kategorien": ["tech", "frist", "akteur"],
+     "marks": [
+      { "snippet": "Elektronischen Gesundheitsakte ELGA", "kategorie": "tech" },
+      { "snippet": "ab 2015", "kategorie": "frist" },
+      { "snippet": "Gesundheitsdiensteanbieter", "kategorie": "akteur" },
+      { "snippet": "e-Medikation", "kategorie": "tech" },
+      { "snippet": "elektronischen Impfpass", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "1.1-p2",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung (EU) 2025/327 schafft einen unmittelbar geltenden EU-Rechtsrahmen, der Zugang und grenzüberschreitenden Austausch elektronischer Gesundheitsdaten verlangt und bis 2029 bzw. 2031 stufenweise umzusetzen ist.",
+   "sentences": [
+    {
+     "text": "Auf europäischer Ebene schafft die Verordnung (EU) 2025/327 (EHDS-Verordnung)[^1] über den europäischen Gesundheitsdatenraum (EHDS) einen neuen, unmittelbar geltenden Rechtsrahmen.",
+     "einfach": "Die EU hat mit der Verordnung 2025/327 den europäischen Gesundheitsdatenraum (EHDS, ein EU-weites System zum Teilen von Gesundheitsdaten) geregelt. Eine EU-Verordnung gilt 'unmittelbar', das heißt sie wirkt direkt in jedem Mitgliedstaat, ohne dass ein nationales Gesetz sie erst umsetzen muss.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "Verordnung (EU) 2025/327 (EHDS-Verordnung)", "kategorie": "norm" },
+      { "snippet": "unmittelbar geltenden Rechtsrahmen", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie verpflichtet die Mitgliedstaaten, natürlichen Personen den Zugang zu ihren elektronischen Gesundheitsdaten zu ermöglichen und den grenzüberschreitenden Austausch dieser Daten über eine gemeinsame Infrastruktur sicherzustellen.",
+     "einfach": "Die Verordnung verpflichtet die EU-Staaten zu zwei Dingen: Erstens müssen Menschen ('natürliche Personen', also einzelne Personen im Gegensatz zu Firmen) auf ihre eigenen elektronischen Gesundheitsdaten zugreifen können. Zweitens müssen diese Daten über eine gemeinsame Infrastruktur auch über Ländergrenzen hinweg austauschbar sein.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" },
+      { "snippet": "natürlichen Personen", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Verordnung ergänzt dabei bestehendes Unionsrecht, insbesondere die Verordnung (EU) 2016/679 (Datenschutz-Grundverordnung - DSGVO)[^2] und die Richtlinie (EU) 2022/2555 (NIS-2-Richtlinie)[^3], und bettet nationale Systeme wie ELGA in einen europäischen Kontext ein.",
+     "einfach": "Die EHDS-Verordnung ersetzt bestehendes EU-Recht nicht, sondern baut darauf auf: auf der DSGVO (dem allgemeinen EU-Datenschutzrecht) und der NIS-2-Richtlinie (EU-Vorgaben für Cybersicherheit kritischer Einrichtungen). Nationale Systeme wie ELGA werden dadurch Teil eines europäischen Gesamtrahmens.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "Verordnung (EU) 2016/679 (Datenschutz-Grundverordnung - DSGVO)", "kategorie": "norm" },
+      { "snippet": "Richtlinie (EU) 2022/2555 (NIS-2-Richtlinie)", "kategorie": "norm" },
+      { "snippet": "ELGA", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die daraus resultierenden technischen und rechtlichen Anforderungen müssen die Mitgliedstaaten nach einem gestuften Fahrplan bis 2029 bzw. 2031 erfüllen.",
+     "einfach": "Die neuen Pflichten gelten nicht sofort vollständig: Die EU-Staaten müssen sie nach einem Stufenplan erfüllen, mit den wichtigsten Fristen in den Jahren 2029 und 2031.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" },
+      { "snippet": "gestuften Fahrplan", "kategorie": "frist" },
+      { "snippet": "bis 2029 bzw. 2031", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 1,
+     "quellen": ["ehds-vo", "cra", "rl-2011-24"],
+     "claim": "Belegt mit dem Vollzitat die Existenz und Fundstelle der Verordnung (EU) 2025/327 (EHDS-Verordnung), die den neuen Rechtsrahmen für den europäischen Gesundheitsdatenraum schafft und dabei die Richtlinie 2011/24/EU und die Verordnung (EU) 2024/2847 ändert.",
+     "fundstelle": "ABl. L vom 5.3.2025, S. 1",
+     "suchHinweis": "Verordnung 2025/327 europäischer Gesundheitsdatenraum EHDS"
+    },
+    {
+     "num": 2,
+     "quellen": ["dsgvo"],
+     "claim": "Belegt mit dem Vollzitat die Verordnung (EU) 2016/679 (DSGVO) als bestehendes Unionsrecht, das die EHDS-Verordnung ergänzt.",
+     "fundstelle": "ABl. L 119 vom 4.5.2016, S. 1",
+     "suchHinweis": "Verordnung 2016/679 Datenschutz-Grundverordnung Schutz natürlicher Personen"
+    },
+    {
+     "num": 3,
+     "quellen": ["nis2", "eidas"],
+     "claim": "Belegt mit dem Vollzitat die Richtlinie (EU) 2022/2555 (NIS-2-Richtlinie) als bestehendes Unionsrecht zur Cybersicherheit, das die EHDS-Verordnung ergänzt.",
+     "fundstelle": "ABl. L 333 vom 27.12.2022, S. 80",
+     "suchHinweis": "Richtlinie 2022/2555 NIS-2 Cybersicherheitsniveau"
+    }
+   ]
+  },
+  {
+   "id": "1.1-p3",
+   "type": "text",
+   "kernaussage": "Die Arbeit untersucht, inwieweit ELGA die Primärnutzungs-Anforderungen der Verordnung (EU) 2025/327 bereits erfüllt, konkret bei Zugriffsrechten, Interoperabilität, Datenschutz, Cybersicherheit und grenzüberschreitendem Austausch.",
+   "sentences": [
+    {
+     "text": "Vor diesem Hintergrund untersucht diese Arbeit, inwieweit das bestehende österreichische System ELGA die Anforderungen der Verordnung (EU) 2025/327 an die Primärnutzung elektronischer Gesundheitsdaten bereits erfüllt und wo Anpassungsbedarf besteht.",
+     "einfach": "Das ist die zentrale Forschungsfrage: Erfüllt ELGA schon heute die Vorgaben der EHDS-Verordnung für die Primärnutzung, also die Verwendung von Gesundheitsdaten direkt für die Behandlung von Patienten? Und wo muss Österreich nachbessern?",
+     "kategorien": ["norm", "tech", "these", "luecke"],
+     "marks": [
+      { "snippet": "ELGA", "kategorie": "tech" },
+      { "snippet": "Verordnung (EU) 2025/327", "kategorie": "norm" },
+      { "snippet": "Anpassungsbedarf besteht", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Analysiert werden dabei die Zugriffsrechte natürlicher Personen, die Anforderungen an die Interoperabilität, die Datenschutz- und Cybersicherheitsvorgaben sowie der grenzüberschreitende Datenaustausch.",
+     "einfach": "Die Prüfung umfasst vier Themenfelder: die Rechte einzelner Personen auf Zugriff auf ihre Daten, die Interoperabilität (die Fähigkeit verschiedener IT-Systeme, Daten verlustfrei auszutauschen und zu verstehen), die Vorgaben zu Datenschutz und Cybersicherheit sowie den Datenaustausch über Ländergrenzen hinweg.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "natürlicher Personen", "kategorie": "akteur" },
+      { "snippet": "Interoperabilität", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "1.1-p4",
+   "type": "text",
+   "kernaussage": "Die Arbeit beschränkt sich auf die Primärnutzung; Sekundärnutzung und nicht in ELGA integrierte eHealth-Anwendungen werden nur zur Abgrenzung bzw. zum Architekturverständnis behandelt.",
+   "sentences": [
+    {
+     "text": "Die Arbeit konzentriert sich ausschließlich auf die Primärnutzung im Sinne der unmittelbaren Gesundheitsversorgung.",
+     "einfach": "Die Arbeit behandelt nur die Primärnutzung: die Verwendung von Gesundheitsdaten direkt für die Behandlung und Versorgung der Person, von der die Daten stammen.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Sekundärnutzung von Daten zu Gesundheit oder gesundheitsrelevanten Einflussfaktoren für Forschung, Innovation und gesundheitspolitische Entscheidungen ist auch Teil des EHDS, wird aber lediglich zur Abgrenzung behandelt.",
+     "einfach": "Die Sekundärnutzung, also die Weiterverwendung von Gesundheitsdaten für andere Zwecke wie Forschung, Produktentwicklung oder politische Planung, ist zwar ebenfalls im EHDS geregelt, wird in dieser Arbeit aber nur kurz erwähnt, um sie von der Primärnutzung zu unterscheiden.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Ebenso werden eHealth-Anwendungen, die nicht unmittelbar in ELGA integriert sind, nur insoweit berücksichtigt, als sie für das Verständnis der Gesamtarchitektur erforderlich sind.",
+     "einfach": "Digitale Gesundheitsanwendungen außerhalb von ELGA (z. B. eigenständige Gesundheits-Apps oder andere e-Health-Dienste) kommen nur vor, wenn sie nötig sind, um den technischen Gesamtaufbau zu verstehen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "eHealth-Anwendungen", "kategorie": "tech" },
+      { "snippet": "ELGA", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

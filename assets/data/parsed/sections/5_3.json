@@ -1,0 +1,31 @@
+{
+ "sectionId": "5.3",
+ "title": "Berechtigungssystem und Protokollierung",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 57,
+ "pdfPage": 67,
+ "paragraphs": [
+  {
+   "id": "5.3-p1",
+   "type": "text",
+   "text": "Die in Abschnitt 3.3 behandelten Pflichten IAAA (Identification, Authentication, Authorization und Accountability) sind in der österreichischen Infrastruktur bereits aufzufinden. Die Identifikation erfolgt über e-card-System und GDA-Index und die Authentifizierung über den ELGA Token Service. Das Berechtigungssystem zur Autorisierung und das Protokollierungssystem zu Rechenschafszwecken werden als zentrale Komponenten der ELGA in folgenden Abschnitten vertieft behandelt.[^320] Beide werden als zentrale ELGA-Services von der Bundesrechenzentrum GmbH betrieben.[^321] Damit sind die in Abschnitt 3.3 behandelten IAAA-Kategorien abgedeckt.",
+   "footnotes": [
+    {
+     "num": 320,
+     "text": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 11.",
+     "sources": [
+      "rh-elga2024"
+     ]
+    },
+    {
+     "num": 321,
+     "text": "Vgl. § 20 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  }
+ ]
+}

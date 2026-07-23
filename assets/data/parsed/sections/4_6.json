@@ -1,0 +1,30 @@
+{
+ "sectionId": "4.6",
+ "title": "Nationaler Stufenplan und EHDS-Umsetzungsfristen",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 47,
+ "pdfPage": 57,
+ "paragraphs": [
+  {
+   "id": "4.6-p1",
+   "type": "text",
+   "text": "Stellt man die nationalen Verpflichtungstermine der ELGA-VO 2015 den Fristen der EHDS-Verordnung gegenüber, zeigt sich, dass Österreich bei den ELGA-Pflichten (Entlassungsbriefe, Laborbefunde, Radiologiebefunde, Medikationsdaten) gut positioniert ist. Die nationalen Verpflichtungstermine liegen durchwegs vor den EHDS-Deadlines und damit ist die stufenweise Ausrollung entlang der ELGA-VO 2015 insoweit EHDS-kompatibel.[^268]",
+   "footnotes": [
+    {
+     "num": 268,
+     "text": "Vgl. Plattform für Digitale Gesundheit (2026): eHealth-Roadmap.",
+     "sources": [
+      "pdg-roadmap2026"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.6-p2",
+   "type": "text",
+   "text": "Die kritischen Gaps konzentrieren sich auf folgende Bereiche. Zum einen auf die noch nicht erfolgte Einrichtung institutioneller Strukturen (DHA, Marktüberwachungsbehörde, Zugangsstelle für Gesundheitsdaten), die bis 26. März 2027 bereitzustellen sind und eine gesetzliche Verankerung erfordern. Zum anderen auf die EU-Patientenkurzakte, die bis 26. März 2029 grenzüberschreitend operativ sein muss, technisch aber noch nicht produktiv und verordnungsrechtlich noch nicht vollständig abgesichert ist (fehlende Verordnung nach § 28c Abs 2 GTelG 2012).",
+   "footnotes": []
+  }
+ ]
+}

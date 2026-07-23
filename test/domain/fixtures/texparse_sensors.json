@@ -1,0 +1,2694 @@
+{
+ "result": {
+  "ok": true,
+  "errors": [],
+  "warnings": [
+   "\\cite-basierte Arbeit erkannt: 22 Quellen aus den Bib-Keys übernommen — Metadaten sind daraus geraten und per registry.json (Gesamt-Prompt) ersetzbar.",
+   "Keine \\chapter-Ebene gefunden — \\section wird als oberste Ebene behandelt."
+  ],
+  "stats": {
+   "kapitel": 6,
+   "abschnitte": 34,
+   "fussnoten": 90,
+   "quellen": 22
+  },
+  "thesis": {
+   "meta": {
+    "title": "Mobile Sensors as a Source for Context-Aware Technologies in Education",
+    "subtitle": "",
+    "author": "Robin Karner - 12217029",
+    "university": "Technische Universität Wien, Karlsplatz 13, 1040 Wien",
+    "date": "",
+    "thesisPdf": "sources/thesis.pdf",
+    "pageOffset": 0
+   },
+   "chapters": [
+    {
+     "id": "0",
+     "num": 0,
+     "title": "Abstract",
+     "sections": [
+      {
+       "id": "0.0",
+       "title": "Abstract",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "0.0-p1",
+         "type": "text",
+         "text": "Mobile devices and wearables have turned everyday learning environments into dense sources of contextual data, yet it remains unclear which of these signals are pedagogically meaningful and how they should be processed. This paper categorises mobile sensors into spatio-temporal, physiological, behavioural and audiovisual sensors and links them to established learning theories. Then it traces the path from raw signal to learning adaptation along a four stage pipeline of acquisition, representation, reasoning and adaptation. Based on systematic reviews of context-aware and multimodal learning systems, it shows that the most reliably measurable signals are rarely the most important learning constructs, since motivation, self-efficacy and prior knowledge lie beyond the observability line that separates measurable signals from latent states. Several structural tensions follow: the limit of observability, the largely unused potential of social proximity and the unjustified adoption of easily measured factors. The paper emphasises that a good sensor-based learning system processes the available signals in a way that is pedagogically meaningful, thereby creating the conditions for successful learning.",
+         "footnotes": []
+        },
+        {
+         "id": "0.0-p2",
+         "type": "text",
+         "text": "Keywords: context-aware learning · mobile sensors · multimodal learning · self-regulated learning · adaptive learning",
+         "footnotes": []
+        }
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "1",
+     "num": 1,
+     "title": "Introduction",
+     "sections": [
+      {
+       "id": "1.1",
+       "title": "Motivation",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "1.1-p1",
+         "type": "text",
+         "text": "When exploring context-aware technologies, it immediately becomes apparent how many different meanings the word \"context\" can have. In terms of information technology, which is relevant for this paper, Abowd and Dey (1999) defined context broadly as any information that characterizes the situation of an entity, which can be a person, a place or an object [^1].",
+         "footnotes": [
+          {
+           "num": 1,
+           "text": "abowd_towards_1999",
+           "sources": [
+            "abowd_towards_1999"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "1.1-p2",
+         "type": "text",
+         "text": "To specify the meaning more precisely for technology in education, Abu-Rasheed et al. (2023) distinguished context into purely pedagogical, purely technical and technical-pedagogically-informed. The purely pedagogical definition considers the concepts of learning theories for defining a learning context and its indicators. The purely technical perspective focuses only on the technical capability to collect a learners data within a given environment, e.g. sensors, operating systems or apps. The technical-pedagogically-informed approach refers to context-aware technology that is founded on pedagogical requirements or learning theories [^2]. All three are relevant to this paper. Section 2 will focus primarily on the pedagogical perspective and in Section 3.1 the purely technical plays a significant role. Throughout the paper and particularly in the conclusion, the technical-pedagogical perspective is crucial, as it especially emphasizes the pedagogically meaningful use of mobile sensors.",
+         "footnotes": [
+          {
+           "num": 2,
+           "text": "abu-rasheed_context_2023",
+           "sources": [
+            "abu-rasheed_context_2023"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "1.1-p3",
+         "type": "text",
+         "text": "The reason mobile devices and wearables are important for context-aware technologies in education is due to the density of context sources. In an empirical review of 53 studies on adaptive context-aware learning environments conducted between 2010 and 2018, mobile phones were already the most common client type [^3].",
+         "footnotes": [
+          {
+           "num": 3,
+           "text": "hasanov_survey_2019",
+           "sources": [
+            "hasanov_survey_2019"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "id": "1.2",
+       "title": "Target Group",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "1.2-p1",
+         "type": "text",
+         "text": "This paper focuses on independent learners, specifically university students and adults. Both in formal (structured and institutionalised) and informal (everyday life) learning settings. As 95% of 13–17-year-olds already have unrestricted access to a smartphone the technical prerequisites for the target group are met [^4]. For younger learners under the age of 14, different guidelines may be applicable which might be too restrictive for (adult) independent learners.",
+         "footnotes": [
+          {
+           "num": 4,
+           "text": "pew2024teens",
+           "sources": [
+            "pew2024teens"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "id": "1.3",
+       "title": "Objectives",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "1.3-p1",
+         "type": "text",
+         "text": "Derived from the title these three aspects are in the relevant scope: mobile sensors as the source, context-aware technologies as the processing layer and education as the application. The overall question that will be explored is why you need a bridge between education and technology. That involves questions like how contextual factors can be designed to support learning objectives or how to identify factors that have no pedagogical value. The next section begins on the pedagogical side, about the underlying learning theories. Then the paper moves on to categorising available sensor types, describing their pedagogical potential. Finally it should evaluate where pedagogically meaningful applications succeed and where they fail.",
+         "footnotes": []
+        }
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "num": 2,
+     "title": "Theoretical Background",
+     "sections": [
+      {
+       "id": "2.0",
+       "title": "Überblick",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "2.0-p1",
+         "type": "text",
+         "text": "This section summarizes the pedagogical principles that the literature has identified as most relevant to mobile sensor signals for context-aware learning. It is not an exhaustive list of all relevant learning theories, but a choice based on their applicability to this paper.",
+         "footnotes": []
+        }
+       ],
+       "children": [],
+       "isIntro": true
+      },
+      {
+       "id": "2.1",
+       "title": "Situated Learning and Social Constructivism",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "2.1-p1",
+         "type": "text",
+         "text": "Situated learning relates learning to context-bound social practice. Lave and Wenger (1991) conceptualize learning not as the internal acquisition of isolated mental structures, but as a situated process of legitimate peripheral participation through which beginners move toward full participation in the sociocultural practices of a community [^5].",
+         "footnotes": [
+          {
+           "num": 5,
+           "text": "Lave_Wenger_1991",
+           "sources": [
+            "lave_wenger_1991"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "2.1-p2",
+         "type": "text",
+         "text": "Social constructivism builds on this by emphasising that meaning only emerges through interaction with others and that learning is therefore not only context-dependent but also social [^6]. Lee (2022) demonstrates how central this component is using the example of language learning. First language acquisition is regarded as a prime example of situated learning, while traditional foreign language teaching tends to detach language from its context [^7]. In the review, context-sensitive technology measurably improved comprehension, saved learning time and increased efficiency, provided it delivered the right content at the right time and in the right place [^8].",
+         "footnotes": [
+          {
+           "num": 6,
+           "text": "abu-rasheed_context_2023",
+           "sources": [
+            "abu-rasheed_context_2023"
+           ]
+          },
+          {
+           "num": 7,
+           "text": "lee_systematic_2022",
+           "sources": [
+            "lee_systematic_2022"
+           ]
+          },
+          {
+           "num": 8,
+           "text": "lee_systematic_2022",
+           "sources": [
+            "lee_systematic_2022"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "2.1-p3",
+         "type": "text",
+         "text": "Overall, this approach treats the location and the social environment as a lever. Lee identifies three mechanisms through which the location has an effect: the correspondence between words and real objects, genuine interaction with others at the location and the sense of familiarity that reduces anxiety [^9]. Also an important observation was that familiar everyday places are more effective for learning than spectacular but unfamiliar places, because they activate prior knowledge [^10]. The effect therefore depends on the design, not on the sensory signal alone.",
+         "footnotes": [
+          {
+           "num": 9,
+           "text": "lee_systematic_2022",
+           "sources": [
+            "lee_systematic_2022"
+           ]
+          },
+          {
+           "num": 10,
+           "text": "lee_systematic_2022",
+           "sources": [
+            "lee_systematic_2022"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "id": "2.2",
+       "title": "Self-Determination Theory",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "2.2-p1",
+         "type": "text",
+         "text": "Self-Determination Theory (SDT) says that learning is supported by three basic psychological needs, namely autonomy, competence and relatedness. Autonomy requires a sense of control over the learning process, competence a sense of ability to achieve self-defined goals, and relatedness a sense of connection and belonging [^11]. The theory is grounded in a broad empirical basis, as support for autonomy combined with clear structure predicts a higher level of self-determined motivation, more self-regulated learning and lower levels of anxiety [^12].",
+         "footnotes": [
+          {
+           "num": 11,
+           "text": "ryan_intrinsic_2020",
+           "sources": [
+            "ryan_intrinsic_2020"
+           ]
+          },
+          {
+           "num": 12,
+           "text": "ryan_intrinsic_2020",
+           "sources": [
+            "ryan_intrinsic_2020"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "2.2-p2",
+         "type": "text",
+         "text": "The theory also provides an important criterion for sensor-based adaptation, as structure only serves a supportive role if it is not presented in a controlling manner. The same technical adaptation can be perceived as either a help or a form of paternalism, depending on its form [^13].",
+         "footnotes": [
+          {
+           "num": 13,
+           "text": "ryan_intrinsic_2020",
+           "sources": [
+            "ryan_intrinsic_2020"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "2.2-p3",
+         "type": "text",
+         "text": "Not every technically correct adaptation is therefore also effective in terms of motivation. Lee (2022) demonstrates that this affective level is central. The main mechanism of action of context-aware technology operates through it, because greater motivation and engagement lead to increased activity and to better outcomes [^14]. Through relatedness, SDT also anchors the social aspect from Section 2.1.",
+         "footnotes": [
+          {
+           "num": 14,
+           "text": "lee_systematic_2022",
+           "sources": [
+            "lee_systematic_2022"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "id": "2.3",
+       "title": "Self-Regulated Learning",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "2.3-p1",
+         "type": "text",
+         "text": "Self-regulated learning describes how learners manage their own learning by setting goals, monitoring their progress and adapting their strategies. In a review of six influential models, Panadero (2017) shows based on the SRL model that this process has 3 phases: forethought, performance and self-reflection [^15]. All models treat context as a separate variable from which learners continuously draw information and adapt their strategies [^16]. This point serves as the interface where mobile sensor technology can be applied.",
+         "footnotes": [
+          {
+           "num": 15,
+           "text": "panadero_review_2017",
+           "sources": [
+            "panadero_review_2017"
+           ]
+          },
+          {
+           "num": 16,
+           "text": "panadero_review_2017",
+           "sources": [
+            "panadero_review_2017"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "2.3-p2",
+         "type": "text",
+         "text": "The empirical basis is particularly significant for this study. A synthesis of meta-analyses in higher education identifies the goal level, persistence, effort and self-efficacy as predictors of learning success [^17]. Self-efficacy was described as the strongest independent predictor, which is a learners belief in their own capacity to organise and carry out the actions a goal requires. But overall the synthesis suggests that learning success is not determined by these variables alone [^18].",
+         "footnotes": [
+          {
+           "num": 17,
+           "text": "panadero_review_2017",
+           "sources": [
+            "panadero_review_2017"
+           ]
+          },
+          {
+           "num": 18,
+           "text": "panadero_review_2017",
+           "sources": [
+            "panadero_review_2017"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "2.3-p3",
+         "type": "text",
+         "text": "Self-regulation does not occur only on an individual basis, as socially shared regulation operates across cognitive, metacognitive, motivational and emotional domains and promotes learning and performance [^19]. This is happening for example in a group negotiating goals through mutual exchange, rather than one member directing the others. For independent learners, self-regulation is therefore the backbone of the process. The strongest predictors are motivational-metacognitive constructs that cannot be measured directly by any sensor and are too complex to be deduced simply from individual signals. The realistic starting points are therefore observable footprints, the temporal structure of task processing in behavioural data, and shared regulation, which is tied to social proximity [^20].",
+         "footnotes": [
+          {
+           "num": 19,
+           "text": "panadero_review_2017",
+           "sources": [
+            "panadero_review_2017"
+           ]
+          },
+          {
+           "num": 20,
+           "text": "panadero_review_2017",
+           "sources": [
+            "panadero_review_2017"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "id": "2.4",
+       "title": "Cognitive Load Theory",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "2.4-p1",
+         "type": "text",
+         "text": "The theory is based on the fact that working memory is limited. Cognitive Load Theory distinguishes between three types of load: that caused by the material itself (intrinsic), that caused by poor presentation (extraneous) and that used for actual understanding (germane). Building on this, the Cognitive Theory of Multimedia Learning (CTML) specifies three assumptions: separate channels for auditory and visual information, a limited capacity per channel and active processing involving selection, organisation and integration [^21].",
+         "footnotes": [
+          {
+           "num": 21,
+           "text": "mayer_past_2024",
+           "sources": [
+            "mayer_past_2024"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "2.4-p2",
+         "type": "text",
+         "text": "Mayer derives specific design principles from these assumptions. The modality principle states that a picture combined with spoken words is learned better than the same picture with on-screen text, because it spreads load across the visual and auditory channel. The segmenting principle states that a lesson broken into user-paced units is learned better than one continuous stream [^22]. Prior knowledge is a decisive individual-differences dimension. Learners with little prior knowledge benefit most from well-structured material, an advantage that diminishes and can reverse as expertise grows [^23].",
+         "footnotes": [
+          {
+           "num": 22,
+           "text": "mayer_past_2024",
+           "sources": [
+            "mayer_past_2024"
+           ]
+          },
+          {
+           "num": 23,
+           "text": "kalyuga_expertise_2007",
+           "sources": [
+            "kalyuga_expertise_2007"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "2.4-p3",
+         "type": "text",
+         "text": "This theory provides a powerful framework for presenting content. Because cognitive load is a latent construct, its measurement is primarily linked to physiological sensors and to some extent also to behavioural signals such as processing speed [^24]. Mayer (2024) builds this bridge by demanding that the methodology be expanded to include biometric methods, citing heart rate variability and electrodermal activity for emotional arousal, portable EEG for distraction, as well as eye-tracking and brief surveys during the lesson [^25]. Giannakos and Cukurova (2023) confirm that cognitive load is most frequently measured through a combination of eye-tracking, EDA, GSR and HRV, as these methods are both reliable and minimally intrusive [^26]. Throughout, two uses of a sensor must be kept apart, validating at design time which signals are pedagogically meaningful and driving the running adaptation.",
+         "footnotes": [
+          {
+           "num": 24,
+           "text": "youssef_when_2025",
+           "sources": [
+            "youssef_when_2025"
+           ]
+          },
+          {
+           "num": 25,
+           "text": "mayer_past_2024",
+           "sources": [
+            "mayer_past_2024"
+           ]
+          },
+          {
+           "num": 26,
+           "text": "giannakos_role_2023",
+           "sources": [
+            "giannakos_role_2023"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "id": "2.5",
+       "title": "Embodied Cognition",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "2.5-p1",
+         "type": "text",
+         "text": "Embodied cognition views learning as an embodied process in which movement, gestures and posture are not merely accompanying phenomena, but integral to the thinking process [^27]. Giannakos and Cukurova (2023) emphasise that the hands, in particular, open a sensitive window onto the mental state.",
+         "footnotes": [
+          {
+           "num": 27,
+           "text": "giannakos_role_2023",
+           "sources": [
+            "giannakos_role_2023"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "2.5-p2",
+         "type": "text",
+         "text": "For mobile sensor technology, this perspective provides a link to audiovisual and motoric data acquisition. From this perspective, the signals recorded there are not just indicators of other constructs, but are part of the learning process themselves [^28]. On a mobile device this links directly to wrist-worn inertial sensors, where a smartwatch captures hand and arm motion as a motoric signal [^29].",
+         "footnotes": [
+          {
+           "num": 28,
+           "text": "di_mitri_signals_2018",
+           "sources": [
+            "di_mitri_signals_2018"
+           ]
+          },
+          {
+           "num": 29,
+           "text": "hong_advances_2025",
+           "sources": [
+            "hong_advances_2025"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "num": 3,
+     "title": "From Mobile Sensors to Pedagogically-Informed Adaptation",
+     "sections": [
+      {
+       "id": "3.0",
+       "title": "Überblick",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "3.0-p1",
+         "type": "text",
+         "text": "This section starts with the collectable sensor data in Section 3.1, continues with their representation in Section 3.2 and ends with pedagogically meaningful adjustments in Section 3.3.",
+         "footnotes": []
+        }
+       ],
+       "children": [],
+       "isIntro": true
+      },
+      {
+       "id": "3.1",
+       "title": "Collecting",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "3.1-p1",
+         "type": "text",
+         "text": "The following classification divides mobile sensors into four categories. Table 1 summarises this Section and shows possible links between learning theories and the four categories. Worth mentioning is that another purely hardware-oriented classification could also be applicable which distinguishes between motion, bio and environmental sensors [^30].",
+         "footnotes": [
+          {
+           "num": 30,
+           "text": "hong_advances_2025",
+           "sources": [
+            "hong_advances_2025"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": [
+        {
+         "id": "3.1.1",
+         "title": "Spatial-temporal",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.1.1-p1",
+           "type": "text",
+           "text": "This category tracks location, time, patterns of presence and movement via GPS, Bluetooth Low Energy beacons (BLE beacons) and RFID/NFC. It also includes social proximity, i.e. the presence of other learners or devices via Bluetooth, BLE and NFC.",
+           "footnotes": []
+          },
+          {
+           "id": "3.1.1-p2",
+           "type": "text",
+           "text": "This data has a strong theoretical link to situated learning (see Section 2.1), as it can provide insights to a learner’s situation. The context of location was identified as the most frequently used in studies examined regarding context-aware mobile learning and ubiquitous learning processes [^31]. For example, a location-based vocabulary app can notice that the learner is on the bus and offer words that fit the situation, a pattern implemented in reviewed systems such as MicroMandarin [^32].",
+           "footnotes": [
+            {
+             "num": 31,
+             "text": "vallejo-correa_systematic_2021",
+             "sources": [
+              "vallejo-correa_systematic_2021"
+             ]
+            },
+            {
+             "num": 32,
+             "text": "lee_systematic_2022",
+             "sources": [
+              "lee_systematic_2022"
+             ]
+            }
+           ]
+          },
+          {
+           "id": "3.1.1-p3",
+           "type": "text",
+           "text": "Social proximity can be especially linked to social constructivism and the relatedness aspect of SDT. Technically, it is already feasible, as location-based applications can find nearby learning partners and invite them to share resources [^33]. At the research level, socio-relational context is among the least used and was identified as an opportunity for future research [^34].",
+           "footnotes": [
+            {
+             "num": 33,
+             "text": "gumbheer_personalized_2022",
+             "sources": [
+              "gumbheer_personalized_2022"
+             ]
+            },
+            {
+             "num": 34,
+             "text": "vallejo-correa_systematic_2021",
+             "sources": [
+              "vallejo-correa_systematic_2021"
+             ]
+            }
+           ]
+          },
+          {
+           "id": "3.1.1-p4",
+           "type": "text",
+           "text": "From a technical point of view spatial-temporal sensor data is easy to capture, but has clear limitations, such as limited availability due to slow Wi-Fi, inaccurate location detection or pre-defined functional restrictions [^35].",
+           "footnotes": [
+            {
+             "num": 35,
+             "text": "lee_systematic_2022",
+             "sources": [
+              "lee_systematic_2022"
+             ]
+            }
+           ]
+          }
+         ],
+         "children": []
+        },
+        {
+         "id": "3.1.2",
+         "title": "Physiological",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.1.2-p1",
+           "type": "text",
+           "text": "This category measures physical arousal via heart rate (PPG at the wrist or ECG), heart rate variability, electrodermal activity (EDA/GSR), skin temperature and respiratory rate. Eye-tracking adds pupil dilation and eye movements. In research settings, EEG is also used [^36]. A theoretical connection can be opened with the Cognitive Load Theory (see Section 2.4), as stress and other affective states can be derived from physiological data [^37].",
+           "footnotes": [
+            {
+             "num": 36,
+             "text": "hong_advances_2025",
+             "sources": [
+              "hong_advances_2025"
+             ]
+            },
+            {
+             "num": 37,
+             "text": "youssef_when_2025",
+             "sources": [
+              "youssef_when_2025"
+             ]
+            }
+           ]
+          },
+          {
+           "id": "3.1.2-p2",
+           "type": "text",
+           "text": "With regard to technical measurability these emotions can be predicted because they are linked to physical changes in the autonomic nervous system. For example arousal can be reliably measured using EDA [^38]. As described in limits of observability (see Section 3.2) it reaches the limit for higher-order constructs such as \"understanding\".",
+           "footnotes": [
+            {
+             "num": 38,
+             "text": "di_mitri_signals_2018",
+             "sources": [
+              "di_mitri_signals_2018"
+             ]
+            }
+           ]
+          },
+          {
+           "id": "3.1.2-p3",
+           "type": "text",
+           "text": "In an examination of adaptive learning environments only 3.8% used physiological sensors [^39].",
+           "footnotes": [
+            {
+             "num": 39,
+             "text": "hasanov_survey_2019",
+             "sources": [
+              "hasanov_survey_2019"
+             ]
+            }
+           ]
+          }
+         ],
+         "children": []
+        },
+        {
+         "id": "3.1.3",
+         "title": "Behavioural",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.1.3-p1",
+           "type": "text",
+           "text": "This category covers software-based interaction with the learning application, i.e. app usage patterns, click paths, navigation paths, dwell times, help requests and standardised learning activity records (such as via xAPI). It requires no additional hardware beyond the screen and is therefore the most widely used source in real-world mobile learning systems. A fundamental distinction can be made between behavioural data (indicators of engagement and fatigue) and performance data (task completion and quiz results as indicators of effectiveness) [^40].",
+           "footnotes": [
+            {
+             "num": 40,
+             "text": "youssef_when_2025",
+             "sources": [
+              "youssef_when_2025"
+             ]
+            }
+           ]
+          },
+          {
+           "id": "3.1.3-p2",
+           "type": "text",
+           "text": "Its strongest link is to self-regulated learning (see Section 2.3), as the focus is on the temporal structure of task completion. It also touches on cognitive load, for instance when speed and error rates are interpreted as load indicators. A small subset may also consist of purely technical and usage metadata, such as installed apps or the device type, which could be used both for behavioural analysis and to assess social proximity, as identical devices suggest similar technical capabilities.",
+           "footnotes": []
+          }
+         ],
+         "children": []
+        },
+        {
+         "id": "3.1.4",
+         "title": "Audio-Visual",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.1.4-p1",
+           "type": "text",
+           "text": "Using a microphone and camera, this category captures audiovisual signals from the learner and their surroundings, such as facial expressions, eye direction, gestures, body posture, speech rhythm and ambient noise. It is relatable to embodied cognition (see Section 2.5), since the motor signals from the head (facial expressions, eyes, speech) and body can be seen as independent modalities [^41].",
+           "footnotes": [
+            {
+             "num": 41,
+             "text": "di_mitri_signals_2018",
+             "sources": [
+              "di_mitri_signals_2018"
+             ]
+            }
+           ]
+          },
+          {
+           "id": "3.1.4-p2",
+           "type": "text",
+           "text": "Facial video has become the standard for emotion recognition because facial movements are easy to capture, widely accepted and simple to analyse using available tools. This is why emotion-focused studies rely almost exclusively on facial expressions, while cognition-focused studies tend to use eye-tracking [^42]. Because every smartphone has a camera, the method is technically inexpensive, but its application is sensitive due to the high privacy concerns involved.",
+           "footnotes": [
+            {
+             "num": 42,
+             "text": "giannakos_role_2023",
+             "sources": [
+              "giannakos_role_2023"
+             ]
+            }
+           ]
+          },
+          {
+           "id": "3.1.4-p3",
+           "type": "table",
+           "text": "Sensor categories, captured signals and theoretical connections.",
+           "footnotes": []
+          }
+         ],
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "3.2",
+       "title": "Representing & Reasoning",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "3.2-p1",
+         "type": "text",
+         "text": "The relationship between the raw signal and the educational adaptation can be described using the concept of the Multimodal Learning Analytics Model. It breaks down the path from signal to response as follows: Capture of multiple modalities (P1); Annotation with learning labels (P2); Machine-based derivation of latent states (P3); Feedback interpretation to behavioural change (P4) [^43].",
+         "footnotes": [
+          {
+           "num": 43,
+           "text": "di_mitri_signals_2018",
+           "sources": [
+            "di_mitri_signals_2018"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": [
+        {
+         "id": "3.2.1",
+         "title": "Acquisition",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.2.1-p1",
+           "type": "text",
+           "text": "The way in which a signal enters the system (P1) can be categorised along three axes. An application can actively retrieve data or have it delivered by the sensor (pull vs. push), it can respond to individual events or to continuous data streams (instant vs. interval). In addition it can communicate with the sensor directly, by a middleware layer or by a remote context server [^44]. The vocabulary app from Section 3.1 fits a classical push model with location-based triggers. In comparison physiological data mostly requires a pull model with sampling, because the meaningful patterns emerge over time and do not occur at a single moment [^45]. In terms of processing architecture, the middleware approach is the norm for smartphone systems, as these devices incorporate a large number of heterogeneous sensors, with a single mobile device integrating everything from GPS and accelerometers to cameras [^46]. For heavy tasks such as AI, the inference load is typically offloaded in a mobile context, for which cloud and fog computing are the established architectures [^47].",
+           "footnotes": [
+            {
+             "num": 44,
+             "text": "perera_context_2014",
+             "sources": [
+              "perera_context_2014"
+             ]
+            },
+            {
+             "num": 45,
+             "text": "hong_advances_2025",
+             "sources": [
+              "hong_advances_2025"
+             ]
+            },
+            {
+             "num": 46,
+             "text": "perera_context_2014",
+             "sources": [
+              "perera_context_2014"
+             ]
+            },
+            {
+             "num": 47,
+             "text": "gumbheer_personalized_2022",
+             "sources": [
+              "gumbheer_personalized_2022"
+             ]
+            }
+           ]
+          }
+         ],
+         "children": []
+        },
+        {
+         "id": "3.2.2",
+         "title": "Representation",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.2.2-p1",
+           "type": "text",
+           "text": "The collected data must be converted into a format that can then be combined, filtered and annotated (P2). In educational practice, ontologies and database models are primarily used for this purpose [^48]. An ontology explicitly defines concepts and their relationships, such as a location, content, learner and curriculum level, which together link a GPS point to a learning object [^49]. For example it can give a coordinate its own learning context. Knowledge graphs are the more scalable manifestation of the same principle.",
+           "footnotes": [
+            {
+             "num": 48,
+             "text": "hasanov_survey_2019",
+             "sources": [
+              "hasanov_survey_2019"
+             ]
+            },
+            {
+             "num": 49,
+             "text": "hasanov_survey_2019",
+             "sources": [
+              "hasanov_survey_2019"
+             ]
+            }
+           ]
+          },
+          {
+           "id": "3.2.2-p2",
+           "type": "text",
+           "text": "Overall (P2) aims to enhance the representation of the low‐semantic sensor data with pedagogically meaningful annotations [^50]. The representation is the basis for what the reasoning process can utilise. At this stage, factors of pedagogical value can be overlooked or identified. A constructivist factor such as a learners social integration cannot be utilised by a recommendation system unless it is represented by a value, for example, the number of courses attended together or shared interests. It is a known difficulty in quantifying qualitative pedagogical factors without losing their meaning [^51]. Specialized pedagogical ontologies could provide an important foundation for that [^52].",
+           "footnotes": [
+            {
+             "num": 50,
+             "text": "di_mitri_signals_2018",
+             "sources": [
+              "di_mitri_signals_2018"
+             ]
+            },
+            {
+             "num": 51,
+             "text": "abu-rasheed_context_2023",
+             "sources": [
+              "abu-rasheed_context_2023"
+             ]
+            },
+            {
+             "num": 52,
+             "text": "hasanov_survey_2019",
+             "sources": [
+              "hasanov_survey_2019"
+             ]
+            }
+           ]
+          }
+         ],
+         "children": []
+        },
+        {
+         "id": "3.2.3",
+         "title": "Reasoning",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.2.3-p1",
+           "type": "text",
+           "text": "Reasoning is the step from representation to a statement about the state of a learner (P3). In educational practice, there are three approaches.",
+           "footnotes": []
+          },
+          {
+           "id": "3.2.3-p2",
+           "type": "text",
+           "text": "Rule-based reasoning is transparent and is sufficient for clearly defined cases such as location-based or time-based triggers. In mobile learning, it is the most frequently used adaptation mechanism [^53]. Machine learning is primarily used in situations where latent states are statistically inferred from multiple channels that cannot be expressed as explicit rules [^54]. The benefit often lies in their capability to handle complex signal combinations. For example facial expressions combined with physiological signals can distinguish genuine from superficial engagement [^55]. The most recent approach uses generative language models as reasoners. When a model is provided with structured learner information, it can shift from content-centred to learner-centred pedagogy, which alone has potential to improve context-aware learning significantly [^56]. An example application in this regard uses a multi-agent architecture based on structured context artefacts to generate learning materials. Those were rated higher than those written by experts in terms of clarity and relevance and achieved measurable learning gains. At the same time, hallucination and prompt injection are cited as risks and transparent, reproducible retrieval of contextual information is demanded [^57].",
+           "footnotes": [
+            {
+             "num": 53,
+             "text": "hasanov_survey_2019",
+             "sources": [
+              "hasanov_survey_2019"
+             ]
+            },
+            {
+             "num": 54,
+             "text": "hong_advances_2025",
+             "sources": [
+              "hong_advances_2025"
+             ]
+            },
+            {
+             "num": 55,
+             "text": "hong_advances_2025",
+             "sources": [
+              "hong_advances_2025"
+             ]
+            },
+            {
+             "num": 56,
+             "text": "hatchett_learning_2026",
+             "sources": [
+              "hatchett_learning_2026"
+             ]
+            },
+            {
+             "num": 57,
+             "text": "schuring_generating_2025",
+             "sources": [
+              "schuring_generating_2025"
+             ]
+            }
+           ]
+          }
+         ],
+         "children": []
+        },
+        {
+         "id": "3.2.4",
+         "title": "The limits of observability",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.2.4-p1",
+           "type": "text",
+           "text": "No matter how good a sensory system or a representation is, as long as you cannot see inside a persons mind, there will remain a technical boundary. Di Mitri et al. (2018) refer to this as the \"Observability Line\" and distinguish the space of observable signals from the space of latent constructs [^58]. Understanding, motivation or engagement will always lie above this line and can only be inferred with a degree of probability. The same elevated heart rate can indicate stress or positive engagement [^59]. Direct links with learning outcomes would generally be weak. The only chance is to make approximations as realistic as possible, by combining a lot of sensor data.",
+           "footnotes": [
+            {
+             "num": 58,
+             "text": "di_mitri_signals_2018",
+             "sources": [
+              "di_mitri_signals_2018"
+             ]
+            },
+            {
+             "num": 59,
+             "text": "hong_advances_2025",
+             "sources": [
+              "hong_advances_2025"
+             ]
+            }
+           ]
+          }
+         ],
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "3.3",
+       "title": "Adapting",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "3.3-p1",
+         "type": "text",
+         "text": "The final step translates the contextual information into an adaptation of the learning programme and corresponds to the feedback (P4) that closes the loop back to the learner [^60]. The adaptation targets identified by Hasanov et al. (2019) were grouped into the following four main categories: Content, Sequence, Presentation and Feedback. Each category and finally a supplementary category on intervention dimensions is discussed below [^61].",
+         "footnotes": [
+          {
+           "num": 60,
+           "text": "di_mitri_signals_2018",
+           "sources": [
+            "di_mitri_signals_2018"
+           ]
+          },
+          {
+           "num": 61,
+           "text": "hasanov_survey_2019",
+           "sources": [
+            "hasanov_survey_2019"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": [
+        {
+         "id": "3.3.1",
+         "title": "Content adaptation",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.3.1-p1",
+           "type": "text",
+           "text": "Here the content should be tailored to prior knowledge, interests or current situation of a learner. Besides that also device information like screen size, processor or internet connection speed can become relevant for adaptions. For example to fit a text to a small screen or to switch to less demanding visualisation (video to image, image to text) [^62]. What at first appears to be purely technical can have pedagogical implications. As addressed in the modality principle (see Section 2.4), the choice between text and image or between text and spoken word can be significant, as our reception channels are limited [^63]. One of the most effective forms of adaptation is adaptation to prior knowledge, particularly for learners with limited prior knowledge [^64]. Prior knowledge is the one factor that no sensor directly measures, but the longer the recording the better approximations from behavioural data can be made. In narrowly defined domains such as vocabulary learning, repetition algorithms estimate from the response history when a word is due. Duolingo’s half-life regression increased a learners daily activity by 12% [^65]. Also of interest is the more recent stochastic shortest-path scheduler, which minimises memorisation cost [^66]. Generative language models extend this approach beyond such narrowly defined domains because they can also estimate prior knowledge from free text [^67].",
+           "footnotes": [
+            {
+             "num": 62,
+             "text": "gumbheer_personalized_2022",
+             "sources": [
+              "gumbheer_personalized_2022"
+             ]
+            },
+            {
+             "num": 63,
+             "text": "mayer_past_2024",
+             "sources": [
+              "mayer_past_2024"
+             ]
+            },
+            {
+             "num": 64,
+             "text": "mayer_past_2024",
+             "sources": [
+              "mayer_past_2024"
+             ]
+            },
+            {
+             "num": 65,
+             "text": "settles_trainable_2016",
+             "sources": [
+              "settles_trainable_2016"
+             ]
+            },
+            {
+             "num": 66,
+             "text": "ye_stochastic_2022",
+             "sources": [
+              "ye_stochastic_2022"
+             ]
+            },
+            {
+             "num": 67,
+             "text": "hatchett_learning_2026",
+             "sources": [
+              "hatchett_learning_2026"
+             ]
+            }
+           ]
+          }
+         ],
+         "children": []
+        },
+        {
+         "id": "3.3.2",
+         "title": "Sequence adaptation",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.3.2-p1",
+           "type": "text",
+           "text": "Here the best order of the units is wanted. For example the spatial-temporal sensors could enable location-based sequencing, in which the next appropriate unit could be determined by the current location [^68]. If physiological signals are also taken into account, signs of fatigue could suggest that it is better to present consolidating rather than new content [^69]. For the sequence itself the information about level of knowledge will be significant. To find a fitting representation including annotations is crucial for applying the stochastic schedulers mentioned above [^70].",
+           "footnotes": [
+            {
+             "num": 68,
+             "text": "lee_systematic_2022",
+             "sources": [
+              "lee_systematic_2022"
+             ]
+            },
+            {
+             "num": 69,
+             "text": "youssef_when_2025",
+             "sources": [
+              "youssef_when_2025"
+             ]
+            },
+            {
+             "num": 70,
+             "text": "ye_stochastic_2022",
+             "sources": [
+              "ye_stochastic_2022"
+             ]
+            }
+           ]
+          }
+         ],
+         "children": []
+        },
+        {
+         "id": "3.3.3",
+         "title": "Presentation adaptation",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.3.3-p1",
+           "type": "text",
+           "text": "Here the focus is on the presentation. The format could be adapted to the current cognitive load, based on Mayer’s CTML. The segmenting principle allows the size of the user-paced units to be dynamically reduced when a cognitive load is detected. The modality principle could allow switching from speech to text when noise is detected via the microphone [^71]. The generative activity principle could be integrated as well, with dynamic self-explanation-prompts based on the cognitive capacity [^72]. Overall, cognitive load signals offer great potential, as this forms the basis for a challenging but not overwhelming design.",
+           "footnotes": [
+            {
+             "num": 71,
+             "text": "mayer_past_2024",
+             "sources": [
+              "mayer_past_2024"
+             ]
+            },
+            {
+             "num": 72,
+             "text": "mayer_past_2024",
+             "sources": [
+              "mayer_past_2024"
+             ]
+            }
+           ]
+          }
+         ],
+         "children": []
+        },
+        {
+         "id": "3.3.4",
+         "title": "Feedback adaptation",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.3.4-p1",
+           "type": "text",
+           "text": "Here feedback should be tailored. The simplest form of purely informative feedback is also the most common, as more complex forms are more difficult to implement [^73]. Effective adaptive feedback is adapted to the learners level of competence. Scaffolding refers to initial support through close, explicit guidance, whilst fading refers to the gradual reduction of this support as the learner becomes more confident [^74]. An adaptive system can therefore make the guidance more subtle as competence grows. From the perspective of self-determination theory, feedback is particularly relevant because the same information can either support or undermine a sense of competence and autonomy, depending on how it is presented [^75]. That sensor-triggered, real-time feedback can really operationalise this satisfaction of needs was demonstrated by a context-sensitive language learning environment with real-time pronunciation assessment. As a result it achieved better performance and higher motivation compared to a group without the smart feedback mechanism [^76].",
+           "footnotes": [
+            {
+             "num": 73,
+             "text": "hasanov_survey_2019",
+             "sources": [
+              "hasanov_survey_2019"
+             ]
+            },
+            {
+             "num": 74,
+             "text": "hasanov_survey_2019",
+             "sources": [
+              "hasanov_survey_2019"
+             ]
+            },
+            {
+             "num": 75,
+             "text": "ryan_intrinsic_2020",
+             "sources": [
+              "ryan_intrinsic_2020"
+             ]
+            },
+            {
+             "num": 76,
+             "text": "liu_effect_2026",
+             "sources": [
+              "liu_effect_2026"
+             ]
+            }
+           ]
+          }
+         ],
+         "children": []
+        },
+        {
+         "id": "3.3.5",
+         "title": "Dimensions of intervention",
+         "level": 3,
+         "paragraphs": [
+          {
+           "id": "3.3.5-p1",
+           "type": "text",
+           "text": "The four categories specify what is adapted, not how or when intervention takes place. Each intervention can be described in terms of the five dimensions: modality, intrusiveness, task adaptation, task support and task regulation [^77]. For independent learners, intrusiveness is particularly crucial, as there is a conflict of objectives between it and reaction speed. A factually correct adjustment at the wrong time is more likely to disrupt concentration than to support it [^78].",
+           "footnotes": [
+            {
+             "num": 77,
+             "text": "youssef_when_2025",
+             "sources": [
+              "youssef_when_2025"
+             ]
+            },
+            {
+             "num": 78,
+             "text": "youssef_when_2025",
+             "sources": [
+              "youssef_when_2025"
+             ]
+            }
+           ]
+          },
+          {
+           "id": "3.3.5-p2",
+           "type": "text",
+           "text": "In the context of task regulation, guidance on taking breaks, choosing a learning strategy or collaborating takes on some of the structuring work that would otherwise fall to the learner [^79]. A limitation lies in the observation itself, as those being observed change their behaviour, meaning that the measurement actually interferes with precisely what it intends to capture [^80]. Therefore, unobtrusive helping mechanisms can also be effective.",
+           "footnotes": [
+            {
+             "num": 79,
+             "text": "youssef_when_2025",
+             "sources": [
+              "youssef_when_2025"
+             ]
+            },
+            {
+             "num": 80,
+             "text": "hong_advances_2025",
+             "sources": [
+              "hong_advances_2025"
+             ]
+            }
+           ]
+          }
+         ],
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "num": 4,
+     "title": "Discussion",
+     "sections": [
+      {
+       "id": "4.0",
+       "title": "Überblick",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "4.0-p1",
+         "type": "text",
+         "text": "This discussion aims to list and categorise the areas of tension that have been identified. Section 2 shows that the strongest predictors of learning success are motivational-metacognitive constructs such as self-efficacy and persistence. If we add prior knowledge as a decisive cognitive predictor, it becomes clear that often the most important aspects of a learner are not something that a sensor can measure directly. Mobile sensors do not directly capture central learning constructs as demonstrated with regard to the limited usability of the location on its own. The gap between what is important and what is (easily) measurable results in the following areas of tension including directions for development:",
+         "footnotes": []
+        }
+       ],
+       "children": [],
+       "isIntro": true
+      },
+      {
+       "id": "4.1",
+       "title": "The limits of observability constrain all inference",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "4.1-p1",
+         "type": "text",
+         "text": "Understanding, motivation and interest are latent and can only be inferred indirectly, and the same physiological signal can have different meanings [^81] [^82]. The solution is not more sensors, but a better combination of the available signals. [^83].",
+         "footnotes": [
+          {
+           "num": 81,
+           "text": "di_mitri_signals_2018",
+           "sources": [
+            "di_mitri_signals_2018"
+           ]
+          },
+          {
+           "num": 82,
+           "text": "hong_advances_2025",
+           "sources": [
+            "hong_advances_2025"
+           ]
+          },
+          {
+           "num": 83,
+           "text": "giannakos_role_2023",
+           "sources": [
+            "giannakos_role_2023"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "id": "4.2",
+       "title": "Significant untapped potential in social proximity",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "4.2-p1",
+         "type": "text",
+         "text": "The technology for peer matching is available and its effectiveness is well-founded on social constructivism, the relatedness of the SDT and shared regulation [^84]. Nevertheless, it is barely used [^85]. Plausible reasons include data protection concerns and the problem that peer matching only becomes effective once a critical mass of users is reached.",
+         "footnotes": [
+          {
+           "num": 84,
+           "text": "gumbheer_personalized_2022",
+           "sources": [
+            "gumbheer_personalized_2022"
+           ]
+          },
+          {
+           "num": 85,
+           "text": "vallejo-correa_systematic_2021",
+           "sources": [
+            "vallejo-correa_systematic_2021"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "id": "4.3",
+       "title": "Technical factors adopted without any pedagogical justification",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "4.3-p1",
+         "type": "text",
+         "text": "A GPS signal does not automatically represent a situated context and an elevated heart rate does not automatically indicate engagement. The direction of development should be a conceptual approach, where learning theories or empirical evidence are considered first and then integrated into fitting representations like ontologies. The theory-grounded language learning environment (see Section 3.3) shows the potential with a conceptual approach [^86].",
+         "footnotes": [
+          {
+           "num": 86,
+           "text": "liu_effect_2026",
+           "sources": [
+            "liu_effect_2026"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "id": "4.4",
+       "title": "Generative language models change reasoning",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "4.4-p1",
+         "type": "text",
+         "text": "Although a fitting learning context shifts the choice of strategy towards learner-centred pedagogy sometimes it still overrates features or cannot match a expert policy [^87]. A language model behind the reasoning layer is therefore not automatically valid in itself. It requires learning context engineering to determine which sensor information is transferred in what form [^88].",
+         "footnotes": [
+          {
+           "num": 87,
+           "text": "hatchett_learning_2026",
+           "sources": [
+            "hatchett_learning_2026"
+           ]
+          },
+          {
+           "num": 88,
+           "text": "schuring_generating_2025",
+           "sources": [
+            "schuring_generating_2025"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "id": "4.5",
+       "title": "The design decides",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "4.5-p1",
+         "type": "text",
+         "text": "Across all four tensions above, the lasting educational impact depends on the design, not on the signal alone. Even the best possible use of sensors cannot turn an unmotivated learner into a motivated one. It can reduce barriers, but the motivational and self-regulatory prerequisites lie beyond what is directly achievable through sensory means. For autonomous learners a more passively implemented context awareness, where the system only makes suggestions and the learner decides, can be better as it preserves more autonomy and is less distracting [^89]. Other problems for personalized context-aware technologies remain, such as data protection, unwanted surveillance or biased algorithms [^90].",
+         "footnotes": [
+          {
+           "num": 89,
+           "text": "perera_context_2014",
+           "sources": [
+            "perera_context_2014"
+           ]
+          },
+          {
+           "num": 90,
+           "text": "hong_advances_2025",
+           "sources": [
+            "hong_advances_2025"
+           ]
+          }
+         ]
+        }
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "5",
+     "num": 5,
+     "title": "Conclusion",
+     "sections": [
+      {
+       "id": "5.0",
+       "title": "Überblick",
+       "level": 2,
+       "paragraphs": [
+        {
+         "id": "5.0-p1",
+         "type": "text",
+         "text": "Mobile devices and wearables combine many sensors, which can be used effectively for educational purposes. Across the four categories, spatial-temporal, physiological, behavioural and audio-visual, they provide a high density of contextual data sources. Each has theoretical connections to learning theory foundations. The presented pipeline consisting of acquisition, representation, reasoning and adaptation has recently been extended by generative language models as a type of new reasoning layer. The fact that no perfect system for independent learners exists is primarily due to the identified boundary of observability between signal and construct. Sometimes instead of looking for additional sensors, it can be more important to process the available signals in a pedagogically meaningful way, for example with annotations or approximations. Future potential exists especially for the use of social proximity but also for other learning success related data . Also use of generative language-model-based reasoning opens up new possibilities.",
+         "footnotes": []
+        }
+       ],
+       "children": [],
+       "isIntro": true
+      }
+     ]
+    }
+   ]
+  },
+  "footnotes": [
+   {
+    "num": 1,
+    "text": "abowd_towards_1999",
+    "sectionId": "1.1",
+    "paragraphId": "1.1-p1"
+   },
+   {
+    "num": 2,
+    "text": "abu-rasheed_context_2023",
+    "sectionId": "1.1",
+    "paragraphId": "1.1-p2"
+   },
+   {
+    "num": 3,
+    "text": "hasanov_survey_2019",
+    "sectionId": "1.1",
+    "paragraphId": "1.1-p3"
+   },
+   {
+    "num": 4,
+    "text": "pew2024teens",
+    "sectionId": "1.2",
+    "paragraphId": "1.2-p1"
+   },
+   {
+    "num": 5,
+    "text": "Lave_Wenger_1991",
+    "sectionId": "2.1",
+    "paragraphId": "2.1-p1"
+   },
+   {
+    "num": 6,
+    "text": "abu-rasheed_context_2023",
+    "sectionId": "2.1",
+    "paragraphId": "2.1-p2"
+   },
+   {
+    "num": 7,
+    "text": "lee_systematic_2022",
+    "sectionId": "2.1",
+    "paragraphId": "2.1-p2"
+   },
+   {
+    "num": 8,
+    "text": "lee_systematic_2022",
+    "sectionId": "2.1",
+    "paragraphId": "2.1-p2"
+   },
+   {
+    "num": 9,
+    "text": "lee_systematic_2022",
+    "sectionId": "2.1",
+    "paragraphId": "2.1-p3"
+   },
+   {
+    "num": 10,
+    "text": "lee_systematic_2022",
+    "sectionId": "2.1",
+    "paragraphId": "2.1-p3"
+   },
+   {
+    "num": 11,
+    "text": "ryan_intrinsic_2020",
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p1"
+   },
+   {
+    "num": 12,
+    "text": "ryan_intrinsic_2020",
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p1"
+   },
+   {
+    "num": 13,
+    "text": "ryan_intrinsic_2020",
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p2"
+   },
+   {
+    "num": 14,
+    "text": "lee_systematic_2022",
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p3"
+   },
+   {
+    "num": 15,
+    "text": "panadero_review_2017",
+    "sectionId": "2.3",
+    "paragraphId": "2.3-p1"
+   },
+   {
+    "num": 16,
+    "text": "panadero_review_2017",
+    "sectionId": "2.3",
+    "paragraphId": "2.3-p1"
+   },
+   {
+    "num": 17,
+    "text": "panadero_review_2017",
+    "sectionId": "2.3",
+    "paragraphId": "2.3-p2"
+   },
+   {
+    "num": 18,
+    "text": "panadero_review_2017",
+    "sectionId": "2.3",
+    "paragraphId": "2.3-p2"
+   },
+   {
+    "num": 19,
+    "text": "panadero_review_2017",
+    "sectionId": "2.3",
+    "paragraphId": "2.3-p3"
+   },
+   {
+    "num": 20,
+    "text": "panadero_review_2017",
+    "sectionId": "2.3",
+    "paragraphId": "2.3-p3"
+   },
+   {
+    "num": 21,
+    "text": "mayer_past_2024",
+    "sectionId": "2.4",
+    "paragraphId": "2.4-p1"
+   },
+   {
+    "num": 22,
+    "text": "mayer_past_2024",
+    "sectionId": "2.4",
+    "paragraphId": "2.4-p2"
+   },
+   {
+    "num": 23,
+    "text": "kalyuga_expertise_2007",
+    "sectionId": "2.4",
+    "paragraphId": "2.4-p2"
+   },
+   {
+    "num": 24,
+    "text": "youssef_when_2025",
+    "sectionId": "2.4",
+    "paragraphId": "2.4-p3"
+   },
+   {
+    "num": 25,
+    "text": "mayer_past_2024",
+    "sectionId": "2.4",
+    "paragraphId": "2.4-p3"
+   },
+   {
+    "num": 26,
+    "text": "giannakos_role_2023",
+    "sectionId": "2.4",
+    "paragraphId": "2.4-p3"
+   },
+   {
+    "num": 27,
+    "text": "giannakos_role_2023",
+    "sectionId": "2.5",
+    "paragraphId": "2.5-p1"
+   },
+   {
+    "num": 28,
+    "text": "di_mitri_signals_2018",
+    "sectionId": "2.5",
+    "paragraphId": "2.5-p2"
+   },
+   {
+    "num": 29,
+    "text": "hong_advances_2025",
+    "sectionId": "2.5",
+    "paragraphId": "2.5-p2"
+   },
+   {
+    "num": 30,
+    "text": "hong_advances_2025",
+    "sectionId": "3.1",
+    "paragraphId": "3.1-p1"
+   },
+   {
+    "num": 31,
+    "text": "vallejo-correa_systematic_2021",
+    "sectionId": "3.1.1",
+    "paragraphId": "3.1.1-p2"
+   },
+   {
+    "num": 32,
+    "text": "lee_systematic_2022",
+    "sectionId": "3.1.1",
+    "paragraphId": "3.1.1-p2"
+   },
+   {
+    "num": 33,
+    "text": "gumbheer_personalized_2022",
+    "sectionId": "3.1.1",
+    "paragraphId": "3.1.1-p3"
+   },
+   {
+    "num": 34,
+    "text": "vallejo-correa_systematic_2021",
+    "sectionId": "3.1.1",
+    "paragraphId": "3.1.1-p3"
+   },
+   {
+    "num": 35,
+    "text": "lee_systematic_2022",
+    "sectionId": "3.1.1",
+    "paragraphId": "3.1.1-p4"
+   },
+   {
+    "num": 36,
+    "text": "hong_advances_2025",
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p1"
+   },
+   {
+    "num": 37,
+    "text": "youssef_when_2025",
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p1"
+   },
+   {
+    "num": 38,
+    "text": "di_mitri_signals_2018",
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p2"
+   },
+   {
+    "num": 39,
+    "text": "hasanov_survey_2019",
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p3"
+   },
+   {
+    "num": 40,
+    "text": "youssef_when_2025",
+    "sectionId": "3.1.3",
+    "paragraphId": "3.1.3-p1"
+   },
+   {
+    "num": 41,
+    "text": "di_mitri_signals_2018",
+    "sectionId": "3.1.4",
+    "paragraphId": "3.1.4-p1"
+   },
+   {
+    "num": 42,
+    "text": "giannakos_role_2023",
+    "sectionId": "3.1.4",
+    "paragraphId": "3.1.4-p2"
+   },
+   {
+    "num": 43,
+    "text": "di_mitri_signals_2018",
+    "sectionId": "3.2",
+    "paragraphId": "3.2-p1"
+   },
+   {
+    "num": 44,
+    "text": "perera_context_2014",
+    "sectionId": "3.2.1",
+    "paragraphId": "3.2.1-p1"
+   },
+   {
+    "num": 45,
+    "text": "hong_advances_2025",
+    "sectionId": "3.2.1",
+    "paragraphId": "3.2.1-p1"
+   },
+   {
+    "num": 46,
+    "text": "perera_context_2014",
+    "sectionId": "3.2.1",
+    "paragraphId": "3.2.1-p1"
+   },
+   {
+    "num": 47,
+    "text": "gumbheer_personalized_2022",
+    "sectionId": "3.2.1",
+    "paragraphId": "3.2.1-p1"
+   },
+   {
+    "num": 48,
+    "text": "hasanov_survey_2019",
+    "sectionId": "3.2.2",
+    "paragraphId": "3.2.2-p1"
+   },
+   {
+    "num": 49,
+    "text": "hasanov_survey_2019",
+    "sectionId": "3.2.2",
+    "paragraphId": "3.2.2-p1"
+   },
+   {
+    "num": 50,
+    "text": "di_mitri_signals_2018",
+    "sectionId": "3.2.2",
+    "paragraphId": "3.2.2-p2"
+   },
+   {
+    "num": 51,
+    "text": "abu-rasheed_context_2023",
+    "sectionId": "3.2.2",
+    "paragraphId": "3.2.2-p2"
+   },
+   {
+    "num": 52,
+    "text": "hasanov_survey_2019",
+    "sectionId": "3.2.2",
+    "paragraphId": "3.2.2-p2"
+   },
+   {
+    "num": 53,
+    "text": "hasanov_survey_2019",
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p2"
+   },
+   {
+    "num": 54,
+    "text": "hong_advances_2025",
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p2"
+   },
+   {
+    "num": 55,
+    "text": "hong_advances_2025",
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p2"
+   },
+   {
+    "num": 56,
+    "text": "hatchett_learning_2026",
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p2"
+   },
+   {
+    "num": 57,
+    "text": "schuring_generating_2025",
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p2"
+   },
+   {
+    "num": 58,
+    "text": "di_mitri_signals_2018",
+    "sectionId": "3.2.4",
+    "paragraphId": "3.2.4-p1"
+   },
+   {
+    "num": 59,
+    "text": "hong_advances_2025",
+    "sectionId": "3.2.4",
+    "paragraphId": "3.2.4-p1"
+   },
+   {
+    "num": 60,
+    "text": "di_mitri_signals_2018",
+    "sectionId": "3.3",
+    "paragraphId": "3.3-p1"
+   },
+   {
+    "num": 61,
+    "text": "hasanov_survey_2019",
+    "sectionId": "3.3",
+    "paragraphId": "3.3-p1"
+   },
+   {
+    "num": 62,
+    "text": "gumbheer_personalized_2022",
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p1"
+   },
+   {
+    "num": 63,
+    "text": "mayer_past_2024",
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p1"
+   },
+   {
+    "num": 64,
+    "text": "mayer_past_2024",
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p1"
+   },
+   {
+    "num": 65,
+    "text": "settles_trainable_2016",
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p1"
+   },
+   {
+    "num": 66,
+    "text": "ye_stochastic_2022",
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p1"
+   },
+   {
+    "num": 67,
+    "text": "hatchett_learning_2026",
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p1"
+   },
+   {
+    "num": 68,
+    "text": "lee_systematic_2022",
+    "sectionId": "3.3.2",
+    "paragraphId": "3.3.2-p1"
+   },
+   {
+    "num": 69,
+    "text": "youssef_when_2025",
+    "sectionId": "3.3.2",
+    "paragraphId": "3.3.2-p1"
+   },
+   {
+    "num": 70,
+    "text": "ye_stochastic_2022",
+    "sectionId": "3.3.2",
+    "paragraphId": "3.3.2-p1"
+   },
+   {
+    "num": 71,
+    "text": "mayer_past_2024",
+    "sectionId": "3.3.3",
+    "paragraphId": "3.3.3-p1"
+   },
+   {
+    "num": 72,
+    "text": "mayer_past_2024",
+    "sectionId": "3.3.3",
+    "paragraphId": "3.3.3-p1"
+   },
+   {
+    "num": 73,
+    "text": "hasanov_survey_2019",
+    "sectionId": "3.3.4",
+    "paragraphId": "3.3.4-p1"
+   },
+   {
+    "num": 74,
+    "text": "hasanov_survey_2019",
+    "sectionId": "3.3.4",
+    "paragraphId": "3.3.4-p1"
+   },
+   {
+    "num": 75,
+    "text": "ryan_intrinsic_2020",
+    "sectionId": "3.3.4",
+    "paragraphId": "3.3.4-p1"
+   },
+   {
+    "num": 76,
+    "text": "liu_effect_2026",
+    "sectionId": "3.3.4",
+    "paragraphId": "3.3.4-p1"
+   },
+   {
+    "num": 77,
+    "text": "youssef_when_2025",
+    "sectionId": "3.3.5",
+    "paragraphId": "3.3.5-p1"
+   },
+   {
+    "num": 78,
+    "text": "youssef_when_2025",
+    "sectionId": "3.3.5",
+    "paragraphId": "3.3.5-p1"
+   },
+   {
+    "num": 79,
+    "text": "youssef_when_2025",
+    "sectionId": "3.3.5",
+    "paragraphId": "3.3.5-p2"
+   },
+   {
+    "num": 80,
+    "text": "hong_advances_2025",
+    "sectionId": "3.3.5",
+    "paragraphId": "3.3.5-p2"
+   },
+   {
+    "num": 81,
+    "text": "di_mitri_signals_2018",
+    "sectionId": "4.1",
+    "paragraphId": "4.1-p1"
+   },
+   {
+    "num": 82,
+    "text": "hong_advances_2025",
+    "sectionId": "4.1",
+    "paragraphId": "4.1-p1"
+   },
+   {
+    "num": 83,
+    "text": "giannakos_role_2023",
+    "sectionId": "4.1",
+    "paragraphId": "4.1-p1"
+   },
+   {
+    "num": 84,
+    "text": "gumbheer_personalized_2022",
+    "sectionId": "4.2",
+    "paragraphId": "4.2-p1"
+   },
+   {
+    "num": 85,
+    "text": "vallejo-correa_systematic_2021",
+    "sectionId": "4.2",
+    "paragraphId": "4.2-p1"
+   },
+   {
+    "num": 86,
+    "text": "liu_effect_2026",
+    "sectionId": "4.3",
+    "paragraphId": "4.3-p1"
+   },
+   {
+    "num": 87,
+    "text": "hatchett_learning_2026",
+    "sectionId": "4.4",
+    "paragraphId": "4.4-p1"
+   },
+   {
+    "num": 88,
+    "text": "schuring_generating_2025",
+    "sectionId": "4.4",
+    "paragraphId": "4.4-p1"
+   },
+   {
+    "num": 89,
+    "text": "perera_context_2014",
+    "sectionId": "4.5",
+    "paragraphId": "4.5-p1"
+   },
+   {
+    "num": 90,
+    "text": "hong_advances_2025",
+    "sectionId": "4.5",
+    "paragraphId": "4.5-p1"
+   }
+  ],
+  "sources": [
+   {
+    "id": "abowd_towards_1999",
+    "kind": "artikel",
+    "author": "Abowd",
+    "year": 1999,
+    "title": "Towards",
+    "keyGuessed": true,
+    "expectedFile": "sources/abowd_towards_1999.pdf",
+    "citations": [
+     {
+      "footnote": 1,
+      "sectionId": "1.1",
+      "paragraphId": "1.1-p1",
+      "footnoteText": "abowd_towards_1999"
+     }
+    ]
+   },
+   {
+    "id": "abu-rasheed_context_2023",
+    "kind": "artikel",
+    "author": "Abu-Rasheed",
+    "year": 2023,
+    "title": "Context",
+    "keyGuessed": true,
+    "expectedFile": "sources/abu-rasheed_context_2023.pdf",
+    "citations": [
+     {
+      "footnote": 2,
+      "sectionId": "1.1",
+      "paragraphId": "1.1-p2",
+      "footnoteText": "abu-rasheed_context_2023"
+     },
+     {
+      "footnote": 6,
+      "sectionId": "2.1",
+      "paragraphId": "2.1-p2",
+      "footnoteText": "abu-rasheed_context_2023"
+     },
+     {
+      "footnote": 51,
+      "sectionId": "3.2.2",
+      "paragraphId": "3.2.2-p2",
+      "footnoteText": "abu-rasheed_context_2023"
+     }
+    ]
+   },
+   {
+    "id": "hasanov_survey_2019",
+    "kind": "artikel",
+    "author": "Hasanov",
+    "year": 2019,
+    "title": "Survey",
+    "keyGuessed": true,
+    "expectedFile": "sources/hasanov_survey_2019.pdf",
+    "citations": [
+     {
+      "footnote": 3,
+      "sectionId": "1.1",
+      "paragraphId": "1.1-p3",
+      "footnoteText": "hasanov_survey_2019"
+     },
+     {
+      "footnote": 39,
+      "sectionId": "3.1.2",
+      "paragraphId": "3.1.2-p3",
+      "footnoteText": "hasanov_survey_2019"
+     },
+     {
+      "footnote": 48,
+      "sectionId": "3.2.2",
+      "paragraphId": "3.2.2-p1",
+      "footnoteText": "hasanov_survey_2019"
+     },
+     {
+      "footnote": 49,
+      "sectionId": "3.2.2",
+      "paragraphId": "3.2.2-p1",
+      "footnoteText": "hasanov_survey_2019"
+     },
+     {
+      "footnote": 52,
+      "sectionId": "3.2.2",
+      "paragraphId": "3.2.2-p2",
+      "footnoteText": "hasanov_survey_2019"
+     },
+     {
+      "footnote": 53,
+      "sectionId": "3.2.3",
+      "paragraphId": "3.2.3-p2",
+      "footnoteText": "hasanov_survey_2019"
+     },
+     {
+      "footnote": 61,
+      "sectionId": "3.3",
+      "paragraphId": "3.3-p1",
+      "footnoteText": "hasanov_survey_2019"
+     },
+     {
+      "footnote": 73,
+      "sectionId": "3.3.4",
+      "paragraphId": "3.3.4-p1",
+      "footnoteText": "hasanov_survey_2019"
+     },
+     {
+      "footnote": 74,
+      "sectionId": "3.3.4",
+      "paragraphId": "3.3.4-p1",
+      "footnoteText": "hasanov_survey_2019"
+     }
+    ]
+   },
+   {
+    "id": "pew2024teens",
+    "kind": "artikel",
+    "author": "Pew2024teens",
+    "year": 2024,
+    "title": "pew2024teens",
+    "keyGuessed": true,
+    "expectedFile": "sources/pew2024teens.pdf",
+    "citations": [
+     {
+      "footnote": 4,
+      "sectionId": "1.2",
+      "paragraphId": "1.2-p1",
+      "footnoteText": "pew2024teens"
+     }
+    ]
+   },
+   {
+    "id": "lave_wenger_1991",
+    "kind": "artikel",
+    "author": "Lave",
+    "year": 1991,
+    "title": "Wenger",
+    "keyGuessed": true,
+    "expectedFile": "sources/lave_wenger_1991.pdf",
+    "citations": [
+     {
+      "footnote": 5,
+      "sectionId": "2.1",
+      "paragraphId": "2.1-p1",
+      "footnoteText": "Lave_Wenger_1991"
+     }
+    ]
+   },
+   {
+    "id": "lee_systematic_2022",
+    "kind": "artikel",
+    "author": "Lee",
+    "year": 2022,
+    "title": "Systematic",
+    "keyGuessed": true,
+    "expectedFile": "sources/lee_systematic_2022.pdf",
+    "citations": [
+     {
+      "footnote": 7,
+      "sectionId": "2.1",
+      "paragraphId": "2.1-p2",
+      "footnoteText": "lee_systematic_2022"
+     },
+     {
+      "footnote": 8,
+      "sectionId": "2.1",
+      "paragraphId": "2.1-p2",
+      "footnoteText": "lee_systematic_2022"
+     },
+     {
+      "footnote": 9,
+      "sectionId": "2.1",
+      "paragraphId": "2.1-p3",
+      "footnoteText": "lee_systematic_2022"
+     },
+     {
+      "footnote": 10,
+      "sectionId": "2.1",
+      "paragraphId": "2.1-p3",
+      "footnoteText": "lee_systematic_2022"
+     },
+     {
+      "footnote": 14,
+      "sectionId": "2.2",
+      "paragraphId": "2.2-p3",
+      "footnoteText": "lee_systematic_2022"
+     },
+     {
+      "footnote": 32,
+      "sectionId": "3.1.1",
+      "paragraphId": "3.1.1-p2",
+      "footnoteText": "lee_systematic_2022"
+     },
+     {
+      "footnote": 35,
+      "sectionId": "3.1.1",
+      "paragraphId": "3.1.1-p4",
+      "footnoteText": "lee_systematic_2022"
+     },
+     {
+      "footnote": 68,
+      "sectionId": "3.3.2",
+      "paragraphId": "3.3.2-p1",
+      "footnoteText": "lee_systematic_2022"
+     }
+    ]
+   },
+   {
+    "id": "ryan_intrinsic_2020",
+    "kind": "artikel",
+    "author": "Ryan",
+    "year": 2020,
+    "title": "Intrinsic",
+    "keyGuessed": true,
+    "expectedFile": "sources/ryan_intrinsic_2020.pdf",
+    "citations": [
+     {
+      "footnote": 11,
+      "sectionId": "2.2",
+      "paragraphId": "2.2-p1",
+      "footnoteText": "ryan_intrinsic_2020"
+     },
+     {
+      "footnote": 12,
+      "sectionId": "2.2",
+      "paragraphId": "2.2-p1",
+      "footnoteText": "ryan_intrinsic_2020"
+     },
+     {
+      "footnote": 13,
+      "sectionId": "2.2",
+      "paragraphId": "2.2-p2",
+      "footnoteText": "ryan_intrinsic_2020"
+     },
+     {
+      "footnote": 75,
+      "sectionId": "3.3.4",
+      "paragraphId": "3.3.4-p1",
+      "footnoteText": "ryan_intrinsic_2020"
+     }
+    ]
+   },
+   {
+    "id": "panadero_review_2017",
+    "kind": "artikel",
+    "author": "Panadero",
+    "year": 2017,
+    "title": "Review",
+    "keyGuessed": true,
+    "expectedFile": "sources/panadero_review_2017.pdf",
+    "citations": [
+     {
+      "footnote": 15,
+      "sectionId": "2.3",
+      "paragraphId": "2.3-p1",
+      "footnoteText": "panadero_review_2017"
+     },
+     {
+      "footnote": 16,
+      "sectionId": "2.3",
+      "paragraphId": "2.3-p1",
+      "footnoteText": "panadero_review_2017"
+     },
+     {
+      "footnote": 17,
+      "sectionId": "2.3",
+      "paragraphId": "2.3-p2",
+      "footnoteText": "panadero_review_2017"
+     },
+     {
+      "footnote": 18,
+      "sectionId": "2.3",
+      "paragraphId": "2.3-p2",
+      "footnoteText": "panadero_review_2017"
+     },
+     {
+      "footnote": 19,
+      "sectionId": "2.3",
+      "paragraphId": "2.3-p3",
+      "footnoteText": "panadero_review_2017"
+     },
+     {
+      "footnote": 20,
+      "sectionId": "2.3",
+      "paragraphId": "2.3-p3",
+      "footnoteText": "panadero_review_2017"
+     }
+    ]
+   },
+   {
+    "id": "mayer_past_2024",
+    "kind": "artikel",
+    "author": "Mayer",
+    "year": 2024,
+    "title": "Past",
+    "keyGuessed": true,
+    "expectedFile": "sources/mayer_past_2024.pdf",
+    "citations": [
+     {
+      "footnote": 21,
+      "sectionId": "2.4",
+      "paragraphId": "2.4-p1",
+      "footnoteText": "mayer_past_2024"
+     },
+     {
+      "footnote": 22,
+      "sectionId": "2.4",
+      "paragraphId": "2.4-p2",
+      "footnoteText": "mayer_past_2024"
+     },
+     {
+      "footnote": 25,
+      "sectionId": "2.4",
+      "paragraphId": "2.4-p3",
+      "footnoteText": "mayer_past_2024"
+     },
+     {
+      "footnote": 63,
+      "sectionId": "3.3.1",
+      "paragraphId": "3.3.1-p1",
+      "footnoteText": "mayer_past_2024"
+     },
+     {
+      "footnote": 64,
+      "sectionId": "3.3.1",
+      "paragraphId": "3.3.1-p1",
+      "footnoteText": "mayer_past_2024"
+     },
+     {
+      "footnote": 71,
+      "sectionId": "3.3.3",
+      "paragraphId": "3.3.3-p1",
+      "footnoteText": "mayer_past_2024"
+     },
+     {
+      "footnote": 72,
+      "sectionId": "3.3.3",
+      "paragraphId": "3.3.3-p1",
+      "footnoteText": "mayer_past_2024"
+     }
+    ]
+   },
+   {
+    "id": "kalyuga_expertise_2007",
+    "kind": "artikel",
+    "author": "Kalyuga",
+    "year": 2007,
+    "title": "Expertise",
+    "keyGuessed": true,
+    "expectedFile": "sources/kalyuga_expertise_2007.pdf",
+    "citations": [
+     {
+      "footnote": 23,
+      "sectionId": "2.4",
+      "paragraphId": "2.4-p2",
+      "footnoteText": "kalyuga_expertise_2007"
+     }
+    ]
+   },
+   {
+    "id": "youssef_when_2025",
+    "kind": "artikel",
+    "author": "Youssef",
+    "year": 2025,
+    "title": "When",
+    "keyGuessed": true,
+    "expectedFile": "sources/youssef_when_2025.pdf",
+    "citations": [
+     {
+      "footnote": 24,
+      "sectionId": "2.4",
+      "paragraphId": "2.4-p3",
+      "footnoteText": "youssef_when_2025"
+     },
+     {
+      "footnote": 37,
+      "sectionId": "3.1.2",
+      "paragraphId": "3.1.2-p1",
+      "footnoteText": "youssef_when_2025"
+     },
+     {
+      "footnote": 40,
+      "sectionId": "3.1.3",
+      "paragraphId": "3.1.3-p1",
+      "footnoteText": "youssef_when_2025"
+     },
+     {
+      "footnote": 69,
+      "sectionId": "3.3.2",
+      "paragraphId": "3.3.2-p1",
+      "footnoteText": "youssef_when_2025"
+     },
+     {
+      "footnote": 77,
+      "sectionId": "3.3.5",
+      "paragraphId": "3.3.5-p1",
+      "footnoteText": "youssef_when_2025"
+     },
+     {
+      "footnote": 78,
+      "sectionId": "3.3.5",
+      "paragraphId": "3.3.5-p1",
+      "footnoteText": "youssef_when_2025"
+     },
+     {
+      "footnote": 79,
+      "sectionId": "3.3.5",
+      "paragraphId": "3.3.5-p2",
+      "footnoteText": "youssef_when_2025"
+     }
+    ]
+   },
+   {
+    "id": "giannakos_role_2023",
+    "kind": "artikel",
+    "author": "Giannakos",
+    "year": 2023,
+    "title": "Role",
+    "keyGuessed": true,
+    "expectedFile": "sources/giannakos_role_2023.pdf",
+    "citations": [
+     {
+      "footnote": 26,
+      "sectionId": "2.4",
+      "paragraphId": "2.4-p3",
+      "footnoteText": "giannakos_role_2023"
+     },
+     {
+      "footnote": 27,
+      "sectionId": "2.5",
+      "paragraphId": "2.5-p1",
+      "footnoteText": "giannakos_role_2023"
+     },
+     {
+      "footnote": 42,
+      "sectionId": "3.1.4",
+      "paragraphId": "3.1.4-p2",
+      "footnoteText": "giannakos_role_2023"
+     },
+     {
+      "footnote": 83,
+      "sectionId": "4.1",
+      "paragraphId": "4.1-p1",
+      "footnoteText": "giannakos_role_2023"
+     }
+    ]
+   },
+   {
+    "id": "di_mitri_signals_2018",
+    "kind": "artikel",
+    "author": "Di",
+    "year": 2018,
+    "title": "Mitri signals",
+    "keyGuessed": true,
+    "expectedFile": "sources/di_mitri_signals_2018.pdf",
+    "citations": [
+     {
+      "footnote": 28,
+      "sectionId": "2.5",
+      "paragraphId": "2.5-p2",
+      "footnoteText": "di_mitri_signals_2018"
+     },
+     {
+      "footnote": 38,
+      "sectionId": "3.1.2",
+      "paragraphId": "3.1.2-p2",
+      "footnoteText": "di_mitri_signals_2018"
+     },
+     {
+      "footnote": 41,
+      "sectionId": "3.1.4",
+      "paragraphId": "3.1.4-p1",
+      "footnoteText": "di_mitri_signals_2018"
+     },
+     {
+      "footnote": 43,
+      "sectionId": "3.2",
+      "paragraphId": "3.2-p1",
+      "footnoteText": "di_mitri_signals_2018"
+     },
+     {
+      "footnote": 50,
+      "sectionId": "3.2.2",
+      "paragraphId": "3.2.2-p2",
+      "footnoteText": "di_mitri_signals_2018"
+     },
+     {
+      "footnote": 58,
+      "sectionId": "3.2.4",
+      "paragraphId": "3.2.4-p1",
+      "footnoteText": "di_mitri_signals_2018"
+     },
+     {
+      "footnote": 60,
+      "sectionId": "3.3",
+      "paragraphId": "3.3-p1",
+      "footnoteText": "di_mitri_signals_2018"
+     },
+     {
+      "footnote": 81,
+      "sectionId": "4.1",
+      "paragraphId": "4.1-p1",
+      "footnoteText": "di_mitri_signals_2018"
+     }
+    ]
+   },
+   {
+    "id": "hong_advances_2025",
+    "kind": "artikel",
+    "author": "Hong",
+    "year": 2025,
+    "title": "Advances",
+    "keyGuessed": true,
+    "expectedFile": "sources/hong_advances_2025.pdf",
+    "citations": [
+     {
+      "footnote": 29,
+      "sectionId": "2.5",
+      "paragraphId": "2.5-p2",
+      "footnoteText": "hong_advances_2025"
+     },
+     {
+      "footnote": 30,
+      "sectionId": "3.1",
+      "paragraphId": "3.1-p1",
+      "footnoteText": "hong_advances_2025"
+     },
+     {
+      "footnote": 36,
+      "sectionId": "3.1.2",
+      "paragraphId": "3.1.2-p1",
+      "footnoteText": "hong_advances_2025"
+     },
+     {
+      "footnote": 45,
+      "sectionId": "3.2.1",
+      "paragraphId": "3.2.1-p1",
+      "footnoteText": "hong_advances_2025"
+     },
+     {
+      "footnote": 54,
+      "sectionId": "3.2.3",
+      "paragraphId": "3.2.3-p2",
+      "footnoteText": "hong_advances_2025"
+     },
+     {
+      "footnote": 55,
+      "sectionId": "3.2.3",
+      "paragraphId": "3.2.3-p2",
+      "footnoteText": "hong_advances_2025"
+     },
+     {
+      "footnote": 59,
+      "sectionId": "3.2.4",
+      "paragraphId": "3.2.4-p1",
+      "footnoteText": "hong_advances_2025"
+     },
+     {
+      "footnote": 80,
+      "sectionId": "3.3.5",
+      "paragraphId": "3.3.5-p2",
+      "footnoteText": "hong_advances_2025"
+     },
+     {
+      "footnote": 82,
+      "sectionId": "4.1",
+      "paragraphId": "4.1-p1",
+      "footnoteText": "hong_advances_2025"
+     },
+     {
+      "footnote": 90,
+      "sectionId": "4.5",
+      "paragraphId": "4.5-p1",
+      "footnoteText": "hong_advances_2025"
+     }
+    ]
+   },
+   {
+    "id": "vallejo-correa_systematic_2021",
+    "kind": "artikel",
+    "author": "Vallejo-Correa",
+    "year": 2021,
+    "title": "Systematic",
+    "keyGuessed": true,
+    "expectedFile": "sources/vallejo-correa_systematic_2021.pdf",
+    "citations": [
+     {
+      "footnote": 31,
+      "sectionId": "3.1.1",
+      "paragraphId": "3.1.1-p2",
+      "footnoteText": "vallejo-correa_systematic_2021"
+     },
+     {
+      "footnote": 34,
+      "sectionId": "3.1.1",
+      "paragraphId": "3.1.1-p3",
+      "footnoteText": "vallejo-correa_systematic_2021"
+     },
+     {
+      "footnote": 85,
+      "sectionId": "4.2",
+      "paragraphId": "4.2-p1",
+      "footnoteText": "vallejo-correa_systematic_2021"
+     }
+    ]
+   },
+   {
+    "id": "gumbheer_personalized_2022",
+    "kind": "artikel",
+    "author": "Gumbheer",
+    "year": 2022,
+    "title": "Personalized",
+    "keyGuessed": true,
+    "expectedFile": "sources/gumbheer_personalized_2022.pdf",
+    "citations": [
+     {
+      "footnote": 33,
+      "sectionId": "3.1.1",
+      "paragraphId": "3.1.1-p3",
+      "footnoteText": "gumbheer_personalized_2022"
+     },
+     {
+      "footnote": 47,
+      "sectionId": "3.2.1",
+      "paragraphId": "3.2.1-p1",
+      "footnoteText": "gumbheer_personalized_2022"
+     },
+     {
+      "footnote": 62,
+      "sectionId": "3.3.1",
+      "paragraphId": "3.3.1-p1",
+      "footnoteText": "gumbheer_personalized_2022"
+     },
+     {
+      "footnote": 84,
+      "sectionId": "4.2",
+      "paragraphId": "4.2-p1",
+      "footnoteText": "gumbheer_personalized_2022"
+     }
+    ]
+   },
+   {
+    "id": "perera_context_2014",
+    "kind": "artikel",
+    "author": "Perera",
+    "year": 2014,
+    "title": "Context",
+    "keyGuessed": true,
+    "expectedFile": "sources/perera_context_2014.pdf",
+    "citations": [
+     {
+      "footnote": 44,
+      "sectionId": "3.2.1",
+      "paragraphId": "3.2.1-p1",
+      "footnoteText": "perera_context_2014"
+     },
+     {
+      "footnote": 46,
+      "sectionId": "3.2.1",
+      "paragraphId": "3.2.1-p1",
+      "footnoteText": "perera_context_2014"
+     },
+     {
+      "footnote": 89,
+      "sectionId": "4.5",
+      "paragraphId": "4.5-p1",
+      "footnoteText": "perera_context_2014"
+     }
+    ]
+   },
+   {
+    "id": "hatchett_learning_2026",
+    "kind": "artikel",
+    "author": "Hatchett",
+    "year": 2026,
+    "title": "Learning",
+    "keyGuessed": true,
+    "expectedFile": "sources/hatchett_learning_2026.pdf",
+    "citations": [
+     {
+      "footnote": 56,
+      "sectionId": "3.2.3",
+      "paragraphId": "3.2.3-p2",
+      "footnoteText": "hatchett_learning_2026"
+     },
+     {
+      "footnote": 67,
+      "sectionId": "3.3.1",
+      "paragraphId": "3.3.1-p1",
+      "footnoteText": "hatchett_learning_2026"
+     },
+     {
+      "footnote": 87,
+      "sectionId": "4.4",
+      "paragraphId": "4.4-p1",
+      "footnoteText": "hatchett_learning_2026"
+     }
+    ]
+   },
+   {
+    "id": "schuring_generating_2025",
+    "kind": "artikel",
+    "author": "Schuring",
+    "year": 2025,
+    "title": "Generating",
+    "keyGuessed": true,
+    "expectedFile": "sources/schuring_generating_2025.pdf",
+    "citations": [
+     {
+      "footnote": 57,
+      "sectionId": "3.2.3",
+      "paragraphId": "3.2.3-p2",
+      "footnoteText": "schuring_generating_2025"
+     },
+     {
+      "footnote": 88,
+      "sectionId": "4.4",
+      "paragraphId": "4.4-p1",
+      "footnoteText": "schuring_generating_2025"
+     }
+    ]
+   },
+   {
+    "id": "settles_trainable_2016",
+    "kind": "artikel",
+    "author": "Settles",
+    "year": 2016,
+    "title": "Trainable",
+    "keyGuessed": true,
+    "expectedFile": "sources/settles_trainable_2016.pdf",
+    "citations": [
+     {
+      "footnote": 65,
+      "sectionId": "3.3.1",
+      "paragraphId": "3.3.1-p1",
+      "footnoteText": "settles_trainable_2016"
+     }
+    ]
+   },
+   {
+    "id": "ye_stochastic_2022",
+    "kind": "artikel",
+    "author": "Ye",
+    "year": 2022,
+    "title": "Stochastic",
+    "keyGuessed": true,
+    "expectedFile": "sources/ye_stochastic_2022.pdf",
+    "citations": [
+     {
+      "footnote": 66,
+      "sectionId": "3.3.1",
+      "paragraphId": "3.3.1-p1",
+      "footnoteText": "ye_stochastic_2022"
+     },
+     {
+      "footnote": 70,
+      "sectionId": "3.3.2",
+      "paragraphId": "3.3.2-p1",
+      "footnoteText": "ye_stochastic_2022"
+     }
+    ]
+   },
+   {
+    "id": "liu_effect_2026",
+    "kind": "artikel",
+    "author": "Liu",
+    "year": 2026,
+    "title": "Effect",
+    "keyGuessed": true,
+    "expectedFile": "sources/liu_effect_2026.pdf",
+    "citations": [
+     {
+      "footnote": 76,
+      "sectionId": "3.3.4",
+      "paragraphId": "3.3.4-p1",
+      "footnoteText": "liu_effect_2026"
+     },
+     {
+      "footnote": 86,
+      "sectionId": "4.3",
+      "paragraphId": "4.3-p1",
+      "footnoteText": "liu_effect_2026"
+     }
+    ]
+   }
+  ]
+ }
+}

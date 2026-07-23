@@ -1,0 +1,131 @@
+{
+ "sectionId": "4.1.1",
+ "title": "ELGA-Gesundheitsdiensteanbieter und ELGA-Gesundheitsdaten",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 36,
+ "pdfPage": 46,
+ "paragraphs": [
+  {
+   "id": "4.1.1-p1",
+   "type": "text",
+   "text": "Das GTelG 2012 definiert den Kreis der ELGA-Gesundheitsdiensteanbieter (ELGA-GDA) taxativ.[^191] Das bedeutet, dass nur die dort ausdrücklich genannten Berufsgruppen und Einrichtungen berechtigt und nach Maßgabe der ELGA-VO 2015 verpflichtet sind, ELGA zu nutzen. Im Einzelnen umfasst der Kreis:",
+   "footnotes": [
+    {
+     "num": 191,
+     "text": "Vgl. § 2 Z 10 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.1.1-p2",
+   "type": "list",
+   "items": [
+    "Angehörige des ärztlichen Berufs gemäß § 3 des Ärztegesetzes 1998, einschließlich Gruppenpraxen. Ausdrücklich ausgenommen sind Amtsärzte, Arbeitsmediziner, Schulärzte sowie Ärzte, die chef- und kontrollärztliche Aufgaben der Sozialversicherungsträger erfüllen oder Versicherungsverhältnisse beurteilen. [^192]",
+    "Angehörige des zahnärztlichen Berufs gemäß § 5 des Zahnärztegesetzes, einschließlich Gruppenpraxen. Ausdrücklich ausgenommen sind Amtszahnärzte sowie chef- und kontrollärztlich tätige Zahnärzte oder Zahnärzte, die Ansprüche aus Versicherungsverhältnissen beurteilen.[^193]",
+    "Apotheken gemäß § 1 des Apothekengesetzes.[^194]",
+    "Krankenanstalten gemäß § 1 des Bundesgesetzes über Krankenanstalten und Kuranstalten, ausgenommen selbstständige Ambulatorien im Aufgabenbereich der Arbeitsmedizin.[^195]",
+    "Einrichtungen der Pflege, deren Betrieb einer bundes- oder landesgesetzlichen Bewilligungs- oder Meldepflicht unterliegt oder die von einem Bundesland finanziert werden, wobei Einrichtungen für Menschen mit Behinderungen und Einrichtungen der teilstationären Tagesbetreuung nicht umfasst sind.[^196]",
+    "Rettungsdienste, sofern deren Betrieb nach bundes- oder landesgesetzlichen Vorschriften bewilligungspflichtig ist oder der behördlichen Aufsicht unterliegt.[^197]",
+    "Gesundheitsberatung 1450, die von den Bundesländern in ihrem jeweiligen Zuständigkeitsbereich betriebene Einrichtung zur Beantwortung gesundheitsbezogener Bürgerfragen.[^198]"
+   ],
+   "footnotes": [
+    {
+     "num": 192,
+     "text": "Vgl. § 2 Z 10 lit a GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 193,
+     "text": "Vgl. § 2 Z 10 lit b GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 194,
+     "text": "Vgl. § 2 Z 10 lit c GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 195,
+     "text": "Vgl. § 2 Z 10 lit d GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 196,
+     "text": "Vgl. § 2 Z 10 lit e GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 197,
+     "text": "Vgl. § 2 Z 10 lit f GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 198,
+     "text": "Vgl. § 2 Z 10 lit g GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.1.1-p3",
+   "type": "text",
+   "text": "Die EHDS-Verordnung verwendet im Unterschied zum GTelG 2012 den Begriff „Gesundheitsdienstleister\" für alle natürlichen oder juristischen Personen, die im Rahmen der Gesundheitsversorgung tätig werden.[^199] Dieser Ansatz ist konzeptionell breiter als die taxative Aufzählung in Österreich. Ob der österreichische GDA-Kreis für eine vollständige EHDS-Umsetzung ausreicht oder legislativer Nachschärfung bedarf, ist eine Frage, die im Rahmen der EHDS-Implementierung bis spätestens März 2029 mit dem Inkrafttreten der wichtigsten Elemente der EHDS-Verordnung geklärt werden muss.",
+   "footnotes": [
+    {
+     "num": 199,
+     "text": "Vgl. Art 2 Abs 1 lit b der VO (EU) 2025/327 iVm Art 3 lit g der RL 2011/24/EU.",
+     "sources": [
+      "ehds-vo",
+      "rl-2011-24"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.1.1-p4",
+   "type": "text",
+   "text": "Das GTelG 2012 definiert ELGA-Gesundheitsdaten ebenfalls taxativ und führt medizinische Dokumente einschließlich allfälliger Bilddaten (Entlassungsbriefe, Laborbefunde, Befunde der bildgebenden Diagnostik sowie weitere medizinische Befunde), Medikationsdaten (eMedikation), Patientenverfügungen, Vorsorgevollmachten, Daten aus den Registern gemäß den §§ 45 und 46 des Medizinproduktegesetzes 2021 (MPG 2021) und Ergebnisberichte der Gesundheitsberatung 1450 an.[^200]",
+   "footnotes": [
+    {
+     "num": 200,
+     "text": "Vgl. § 2 Z 9 lit a bis g GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.1.1-p5",
+   "type": "text",
+   "text": "Die für den Aufbau des Austrian Patient Summary (APS) relevante gesetzliche Grundlage als Brücke zur Patientenkurzakte der EHDS-Verordnung ist durch Verordnungsermächtigungen für den zuständigen Bundesminister oder die zuständige Bundesministerin geregelt.[^201]",
+   "footnotes": [
+    {
+     "num": 201,
+     "text": "Vgl. § 28c Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  }
+ ]
+}

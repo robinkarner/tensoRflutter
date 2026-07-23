@@ -1,0 +1,127 @@
+{
+ "sectionId": "2.1.5",
+ "paragraphs": [
+  {
+   "id": "2.1.5-p1",
+   "type": "text",
+   "kernaussage": "Die NIS-2-Richtlinie und die EHDS-Verordnung ergänzen sich: sektorübergreifende Cybersicherheitspflichten treffen auf einen bereichsspezifischen Rechtsrahmen für Gesundheitsdaten.",
+   "sentences": [
+    {
+     "text": "Die NIS-2-Richtlinie und die EHDS-Verordnung greifen ineinander und ergänzen sich gegenseitig.",
+     "einfach": "Die beiden EU-Rechtsakte schließen einander nicht aus, sondern wirken zusammen: Die NIS-2-Richtlinie (EU-Regeln zur Cybersicherheit) und die EHDS-Verordnung (EU-Regeln zum europäischen Gesundheitsdatenraum) ergänzen sich.",
+     "kategorien": ["norm", "these"],
+     "marks": [
+      { "snippet": "NIS-2-Richtlinie", "kategorie": "norm" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "greifen ineinander und ergänzen sich gegenseitig", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die NIS-2-Richtlinie normiert sektorübergreifende Cybersicherheitspflichten, die EHDS-Verordnung schafft einen bereichsspezifischen Rechtsrahmen für den Umgang mit elektronischen Gesundheitsdaten und beide Regelwerke treffen sich im sensiblen Bereich der Gesundheitsversorgung.",
+     "einfach": "Die NIS-2-Richtlinie legt Cybersicherheitspflichten fest, die für viele Branchen gleichermaßen gelten. Die EHDS-Verordnung regelt speziell den Umgang mit elektronischen Gesundheitsdaten; im Gesundheitswesen überschneiden sich beide Regelwerke daher.",
+     "kategorien": ["norm", "these"],
+     "marks": [
+      { "snippet": "NIS-2-Richtlinie", "kategorie": "norm" },
+      { "snippet": "sektorübergreifende Cybersicherheitspflichten", "kategorie": "these" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "bereichsspezifischen Rechtsrahmen", "kategorie": "these" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "2.1.5-p2",
+   "type": "text",
+   "kernaussage": "Gesundheitsdienstleister fallen als Teil des hochkritischen Sektors Gesundheitswesen je nach Größe als wesentliche oder wichtige Einrichtungen unter die Risikomanagement- und Meldepflichten der NIS-2-Richtlinie.",
+   "sentences": [
+    {
+     "text": "Gesundheitsdienstleister gehören zum Sektor Gesundheitswesen, der in Anhang I der NIS-2-Richtlinie als Sektor mit hoher Kritikalität eingestuft ist.",
+     "einfach": "Anbieter von Gesundheitsleistungen (etwa Krankenhäuser und Arztpraxen) zählen zum Sektor Gesundheitswesen. Dieser Sektor steht in Anhang I der NIS-2-Richtlinie, also auf der Liste der Branchen, die die EU als besonders kritisch für die Gesellschaft einstuft.",
+     "kategorien": ["akteur", "norm"],
+     "marks": [
+      { "snippet": "Gesundheitsdienstleister", "kategorie": "akteur" },
+      { "snippet": "Anhang I der NIS-2-Richtlinie", "kategorie": "norm" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Abhängig von ihrer Größe gelten sie als wesentliche oder wichtige Einrichtungen und unterliegen dann den Risikomanagementmaßnahmen nach Artikel 21 sowie den Meldepflichten nach Artikel 23 der NIS-2-Richtlinie.[^41]",
+     "einfach": "Je nach Unternehmensgröße werden Gesundheitsdienstleister als \"wesentliche\" oder \"wichtige\" Einrichtung eingestuft (zwei Pflichtenklassen der NIS-2-Richtlinie). Dann müssen sie technische und organisatorische Maßnahmen gegen Cyberrisiken umsetzen (Artikel 21) und Sicherheitsvorfälle an die Behörden melden (Artikel 23).",
+     "kategorien": ["akteur", "norm"],
+     "marks": [
+      { "snippet": "wesentliche oder wichtige Einrichtungen", "kategorie": "akteur" },
+      { "snippet": "Artikel 21", "kategorie": "norm" },
+      { "snippet": "Artikel 23 der NIS-2-Richtlinie", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 41,
+     "quellen": ["nis2"],
+     "claim": "Gesundheitsdienstleister zählen nach Art 3 iVm Anhang I der NIS-2-Richtlinie zum hochkritischen Sektor Gesundheitswesen und gelten größenabhängig als wesentliche oder wichtige Einrichtungen.",
+     "fundstelle": "Art 3 iVm Anhang I",
+     "suchHinweis": "Anhang I Sektor Gesundheitswesen wesentliche wichtige Einrichtungen Artikel 3"
+    }
+   ]
+  },
+  {
+   "id": "2.1.5-p3",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung lässt die NIS-2-Pflichten unberührt: Ihre Meldepflicht für schwerwiegende Vorkommnisse mit EHR-Systemen gilt zusätzlich, und die Stellen für digitale Gesundheit müssen mit den NIS-2-Cybersicherheitsbehörden kooperieren.",
+   "sentences": [
+    {
+     "text": "Die EHDS-Verordnung lässt diese Verpflichtungen unberührt.",
+     "einfach": "Die EHDS-Verordnung hebt die Pflichten aus der NIS-2-Richtlinie nicht auf und schwächt sie auch nicht ab; beide gelten nebeneinander.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Meldepflicht bei schwerwiegenden Vorkommnissen mit Systemen für elektronische Gesundheitsaufzeichnungen (Electronic Health Records, EHR-Systeme) hat nach der EHDS-Verordnung unabhängig von der Meldepflicht der NIS-2-Richtlinie zu erfolgen.[^42]",
+     "einfach": "Wenn es bei einem EHR-System (Software zur Speicherung und Verwaltung elektronischer Patientenakten) zu einem schwerwiegenden Vorfall kommt, muss dieser nach der EHDS-Verordnung gemeldet werden - und zwar zusätzlich zu einer eventuellen Meldung nach der NIS-2-Richtlinie. Die eine Meldung ersetzt die andere nicht.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "Systemen für elektronische Gesundheitsaufzeichnungen (Electronic Health Records, EHR-Systeme)", "kategorie": "tech" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "NIS-2-Richtlinie", "kategorie": "norm" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Zudem sind die Stellen für digitale Gesundheit verpflichtet, mit den nach der NIS-2-Richtlinie zuständigen Cybersicherheitsbehörden zusammenzuarbeiten.[^43]",
+     "einfach": "Die Stellen für digitale Gesundheit (nationale Behörden, die jeder EU-Staat für die Umsetzung des EHDS benennen muss) müssen mit den Cybersicherheitsbehörden kooperieren, die nach der NIS-2-Richtlinie zuständig sind.",
+     "kategorien": ["akteur", "norm"],
+     "marks": [
+      { "snippet": "Stellen für digitale Gesundheit", "kategorie": "akteur" },
+      { "snippet": "NIS-2-Richtlinie", "kategorie": "norm" },
+      { "snippet": "Cybersicherheitsbehörden", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 42,
+     "quellen": ["ehds-vo"],
+     "claim": "Die Meldepflicht für schwerwiegende Vorkommnisse mit EHR-Systemen nach der EHDS-Verordnung besteht unabhängig von der Meldepflicht der NIS-2-Richtlinie.",
+     "fundstelle": "Art 44 Abs 7",
+     "suchHinweis": "Artikel 44 schwerwiegende Vorkommnisse Meldung Richtlinie (EU) 2022/2555"
+    },
+    {
+     "num": 43,
+     "quellen": ["ehds-vo"],
+     "claim": "Die Stellen für digitale Gesundheit sind zur Zusammenarbeit mit den nach der NIS-2-Richtlinie zuständigen Cybersicherheitsbehörden verpflichtet.",
+     "fundstelle": "Art 19 Abs 2 lit m",
+     "suchHinweis": "Artikel 19 Stellen für digitale Gesundheit Zusammenarbeit Cybersicherheit 2022/2555"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sectionId": "2.3",
+ "title": "Primärnutzung nach EHDS",
+ "chapter": 2,
+ "chapterTitle": "Europäischer Gesundheitsdatenraum",
+ "page": 13,
+ "pdfPage": 23,
+ "paragraphs": [
+  {
+   "id": "2.3-p1",
+   "type": "text",
+   "text": "Die Primärnutzung elektronischer Gesundheitsdaten ist in Kapitel II der EHDS-Verordnung geregelt und betrifft die Verarbeitung personenbezogener elektronischer Gesundheitsdaten unmittelbar im Kontext der Gesundheitsversorgung. Das Regelungsregime umfasst vier miteinander verzahnte Dimensionen, die beteiligten Akteure, die erfassten Datenkategorien, die technischen Anforderungen an EHR-Systeme sowie die grenzüberschreitende Infrastruktur, jeweils begleitet von einem gestuften Umsetzungsfahrplan.",
+   "footnotes": []
+  }
+ ]
+}

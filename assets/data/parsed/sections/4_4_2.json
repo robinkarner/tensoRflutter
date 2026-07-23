@@ -1,0 +1,65 @@
+{
+ "sectionId": "4.4.2",
+ "title": "Primärnutzung - MyHealth@EU",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 44,
+ "pdfPage": 54,
+ "paragraphs": [
+  {
+   "id": "4.4.2-p1",
+   "type": "text",
+   "text": "Die Datenverarbeitung in MyHealth@EU für die Primärnutzung ist - im Falle Österreichs als Herkunftsmitgliedstaat - nur zulässig, wenn das Einverständnis (Opt-In) erklärt wurde, die natürliche Person eindeutig identifiziert wurde und die Nationale Kontaktstelle identifiziert und zur Verarbeitung berechtigt ist.[^251] In Österreich wohnhafte oder sozialversicherte natürliche Personen können ihr Einverständnis über das Bürger-Zugangsportal oder direkt gegenüber dem Bundesminister als ELGA- und eHealth-Supporteinrichtung abgeben oder zurückziehen.[^252] Das MyHealth@EU-Opt-In tritt dabei neben den ELGA-Widerspruch, ist von diesem unabhängig und kann nach Anwendungsfällen differenziert erklärt werden beziehungsweise besteht selbst bei aufrechtem ELGA-Widerspruch fort.[^253]",
+   "footnotes": [
+    {
+     "num": 251,
+     "text": "Vgl. § 24k Abs 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 252,
+     "text": "Vgl. § 24n Abs 1 Z 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 253,
+     "text": "Vgl. § 24i Abs 2 GTelG 2012 iVm Erläuterungen 38/ME XXVIII. GP zur GTelG-Novelle BGBl. I Nr. 71/2025, S. 7.",
+     "sources": [
+      "gtelg2012",
+      "erlaeuterungen38me"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.4.2-p2",
+   "type": "text",
+   "text": "Aus dem Zusammenwirken von ELGA-Widerspruch und MyHealth@EU-Opt-In ergeben sich für das Berechtigungssystem nach GTelG 2012 die folgenden vier Situationen (siehe Tabelle ).[^254]",
+   "footnotes": [
+    {
+     "num": 254,
+     "text": "Vgl. § 21 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.4.2-p3",
+   "type": "table",
+   "text": "Situationen des Berechtigungssystems — Kein Widerspruch + Opt-In: alle ELGA-Dokumente national, EU-Rezept und EU-Patientenkurzakte grenzüberschreitend verfügbar. Kein Widerspruch + kein Opt-In: alle ELGA-Dokumente national, kein grenzüberschreitender Austausch. Genereller Widerspruch (Opt-In erklärt): keine ELGA-Dokumente im System, EU-Rezept verfügbar (beruht auf unabhängigem e-Rezept), EU-Patientenkurzakte entfällt mangels Daten. Partieller Widerspruch z.B. nur Medikation (Opt-In erklärt): national nur die nicht widersprochenen Daten, grenzüberschreitend nur nicht betroffene Daten, EU-Patientenkurzakte nur sofern vorhanden und zutreffend. Quellen: §§ 15 Abs 2 und 3, 21, 24o, 24s GTelG 2012.",
+   "footnotes": []
+  },
+  {
+   "id": "4.4.2-p4",
+   "type": "text",
+   "text": "Österreich hat damit für MyHealth@EU - im Unterschied zu ELGA selbst - ein strengeres Zustimmungserfordernis gewählt, als der EHDS-Rahmen es verlangt. Artikel 10 der EHDS-Verordnung lässt den Mitgliedstaaten die Option, ein Widerspruchsrecht zu gewähren oder nicht. Österreich hat stattdessen ein Einverständniserfordernis eingeführt, was einer stärkeren Selbstbestimmung der Betroffenen entspricht, aber damit auch die Reichweite des grenzüberschreitenden Datenflusses begrenzt.",
+   "footnotes": []
+  }
+ ]
+}

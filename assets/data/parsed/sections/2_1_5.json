@@ -1,0 +1,51 @@
+{
+ "sectionId": "2.1.5",
+ "title": "Verhältnis zur NIS-2-Richtlinie",
+ "chapter": 2,
+ "chapterTitle": "Europäischer Gesundheitsdatenraum",
+ "page": 10,
+ "pdfPage": 20,
+ "paragraphs": [
+  {
+   "id": "2.1.5-p1",
+   "type": "text",
+   "text": "Die NIS-2-Richtlinie und die EHDS-Verordnung greifen ineinander und ergänzen sich gegenseitig. Die NIS-2-Richtlinie normiert sektorübergreifende Cybersicherheitspflichten, die EHDS-Verordnung schafft einen bereichsspezifischen Rechtsrahmen für den Umgang mit elektronischen Gesundheitsdaten und beide Regelwerke treffen sich im sensiblen Bereich der Gesundheitsversorgung.",
+   "footnotes": []
+  },
+  {
+   "id": "2.1.5-p2",
+   "type": "text",
+   "text": "Gesundheitsdienstleister gehören zum Sektor Gesundheitswesen, der in Anhang I der NIS-2-Richtlinie als Sektor mit hoher Kritikalität eingestuft ist. Abhängig von ihrer Größe gelten sie als wesentliche oder wichtige Einrichtungen und unterliegen dann den Risikomanagementmaßnahmen nach Artikel 21 sowie den Meldepflichten nach Artikel 23 der NIS-2-Richtlinie.[^41]",
+   "footnotes": [
+    {
+     "num": 41,
+     "text": "Vgl. Art 3 iVm Anhang I RL (EU) 2022/2555.",
+     "sources": [
+      "nis2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.1.5-p3",
+   "type": "text",
+   "text": "Die EHDS-Verordnung lässt diese Verpflichtungen unberührt. Die Meldepflicht bei schwerwiegenden Vorkommnissen mit Systemen für elektronische Gesundheitsaufzeichnungen (Electronic Health Records, EHR-Systeme) hat nach der EHDS-Verordnung unabhängig von der Meldepflicht der NIS-2-Richtlinie zu erfolgen.[^42] Zudem sind die Stellen für digitale Gesundheit verpflichtet, mit den nach der NIS-2-Richtlinie zuständigen Cybersicherheitsbehörden zusammenzuarbeiten.[^43]",
+   "footnotes": [
+    {
+     "num": 42,
+     "text": "Vgl. Art 44 Abs 7 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 43,
+     "text": "Vgl. Art 19 Abs 2 lit m VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

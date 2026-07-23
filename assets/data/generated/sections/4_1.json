@@ -1,0 +1,53 @@
+{
+ "sectionId": "4.1",
+ "paragraphs": [
+  {
+   "id": "4.1-p1",
+   "type": "text",
+   "kernaussage": "Das GTelG 2012 regelt ELGA als zentrale nationale eHealth-Infrastruktur, verfolgt einheitliche Kommunikationsregeln, Selbstbestimmung und Datensicherheit als Ziele und wurde durch die Novelle 2024 und BGBl. I Nr. 71/2025 auf MyHealth@EU und den EHDS vorbereitet.",
+   "sentences": [
+    {
+     "text": "Das GTelG 2012 regelt im 4. Abschnitt die Elektronische Gesundheitsakte (ELGA) als zentrale nationale eHealth-Infrastruktur.",
+     "einfach": "Der 4. Abschnitt des Gesundheitstelematikgesetzes 2012 enthält die Regeln für ELGA, die Elektronische Gesundheitsakte - das zentrale System, über das Gesundheitsdaten in Österreich digital verfügbar gemacht werden.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "GTelG 2012", "kategorie": "norm" },
+      { "snippet": "4. Abschnitt", "kategorie": "norm" },
+      { "snippet": "Elektronische Gesundheitsakte (ELGA)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Dieses Gesetz verfolgt das Ziel, einheitliche Regelungen für die Kommunikation elektronischer Gesundheitsdaten zu schaffen, die Selbstbestimmungsrechte der Teilnehmerinnen und Teilnehmer zu stärken und durch Mindeststandards auf Bundesebene die Datensicherheit auszubauen.[^190]",
+     "einfach": "Das Gesetz hat drei Ziele: einheitliche Regeln für den elektronischen Austausch von Gesundheitsdaten, mehr Kontrolle der teilnehmenden Personen über ihre eigenen Daten (Selbstbestimmung) und bundesweit einheitliche Mindeststandards für Datensicherheit.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Teilnehmerinnen und Teilnehmer", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Mit der Novelle 2024 sowie den Anpassungen durch BGBl. I Nr. 71/2025 wurde das Gesetz auch im Hinblick auf die grenzüberschreitende Gesundheitsversorgung über MyHealth@EU sowie auf die bevorstehende Anwendung der EHDS-Verordnung weiterentwickelt.",
+     "einfach": "Durch die Gesetzesnovelle 2024 und weitere Änderungen im Bundesgesetzblatt (BGBl. I Nr. 71/2025) wurde das GTelG 2012 bereits auf den grenzüberschreitenden Datenaustausch über MyHealth@EU und auf die kommende Anwendbarkeit der EHDS-Verordnung vorbereitet.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "Novelle 2024", "kategorie": "norm" },
+      { "snippet": "BGBl. I Nr. 71/2025", "kategorie": "norm" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 190,
+     "quellen": ["gtelg2012"],
+     "claim": "Das GTelG 2012 bezweckt einheitliche Regelungen für die Kommunikation elektronischer Gesundheitsdaten, die Stärkung der Selbstbestimmungsrechte und den Ausbau der Datensicherheit durch Mindeststandards.",
+     "fundstelle": "§ 1 Abs 2",
+     "suchHinweis": "§ 1 Ziele Selbstbestimmung Datensicherheit Mindeststandards"
+    }
+   ]
+  }
+ ]
+}

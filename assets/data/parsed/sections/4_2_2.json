@@ -1,0 +1,86 @@
+{
+ "sectionId": "4.2.2",
+ "title": "Ausnahmen",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 40,
+ "pdfPage": 50,
+ "paragraphs": [
+  {
+   "id": "4.2.2-p1",
+   "type": "text",
+   "text": "Die Speicherung der in der ELGA-VO 2015 genannten ELGA-Gesundheitsdaten gilt unter der Voraussetzung, dass die Nutzung der ELGA-Komponenten (Patient/inn/enindex, Gesundheitsdiensteanbieterindex, Verweisregister, Datenspeicher, Berechtigungssystem, Protokollierungssystem, Bürger-Zugangsportal) zur Verarbeitung von ELGA-Gesundheitsdaten technisch möglich ist.[^223] Dies stellt einen gesetzlichen Vorbehalt dar, der angesichts der gestaffelten Ausrollung praktische Bedeutung hat und ein Eingeständnis ist, dass die Infrastruktur nicht überall rechtzeitig bereit gestellt sein könnte.",
+   "footnotes": [
+    {
+     "num": 223,
+     "text": "Vgl. § 9 Abs 1 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.2-p2",
+   "type": "text",
+   "text": "Aus dem allgemeinen Vorbehalt folgt nicht, dass ELGA-GDA die technischen Voraussetzungen auf unbestimmte Zeit hinauszögern dürfen. Die ELGA-VO 2015 normiert vielmehr eine aktive Pflicht. ELGA-GDA haben das Vorliegen der technischen Voraussetzungen für die Nutzung der ELGA-Komponenten jedenfalls mit 1. Jänner 2026 sicherzustellen. Der ELGA-GDA kommt dieser Pflicht auch dann nach, wenn er mit einem Softwareanbieter vertraglich einen Umsetzungstermin bis spätestens 31. Dezember 2028 vereinbart, zu dem die technischen Voraussetzungen, insbesondere hinsichtlich der ELGA-Interoperabilitätsstufe „EIS Full Support“, vorliegen werden.[^224] Dabei handelt es sich um eine Erfüllungsfiktion, wonach die Pflicht nicht erst mit der tatsächlichen Umsetzung, sondern bereits mit dem Abschluss des entsprechenden Vertrags erfüllt ist. Eine eigene inhaltliche Ausnahme von den Speicherpflichten begründet die ELGA-VO 2015 damit nicht, sie verschiebt lediglich den Erfüllungszeitraum.",
+   "footnotes": [
+    {
+     "num": 224,
+     "text": "Vgl. § 9 Abs 2 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.2-p3",
+   "type": "text",
+   "text": "Die Verpflichtungstermine für die Speicherung von Entlassungsbriefen und sonstigen Befunden sowie für Laborbefunde und Befunde der bildgebenden Diagnostik erstrecken sich nicht auf Vertragsärzte (mit Ausnahme von Gruppenpraxen), deren Einzelvertrag aufgrund der im anzuwendenden Gesamtvertrag festgelegten Altersgrenze innerhalb von vier Jahren ab dem jeweiligen Verpflichtungszeitpunkt jedenfalls endet.[^225]",
+   "footnotes": [
+    {
+     "num": 225,
+     "text": "Vgl. §§ 5 Abs 3 Z 1 und 6 Abs. 3 Z 1 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.2-p4",
+   "type": "text",
+   "text": "Die Verpflichtungstermine der ELGA-VO 2015 erstrecken sich auch nicht auf Ärzte, die nicht in einem Vertragsverhältnis zu einem Träger der gesetzlichen Sozialversicherung stehen, sofern eine Abwägung nach § 49 Absatz 7 ÄrzteG 1998[^226] ergibt, dass damit ein unverhältnismäßiger Aufwand verbunden wäre. Die Verhältnismäßigkeitsgrenze liegt mit 1. Jänner 2026 nach Gesprächen zwischen dem Gesundheitsministerium, dem Dachverband der Sozialversicherungsträger und der Österreichischen Ärztekammer bei weniger als 300 verschiedenen Patienten pro Jahr.[^227] Über eine Nichtanwendung von ELGA sind Patienten vor Durchführung der Leistung zu informieren. Sanktionen bei Verstößen betragen bis zu 3.630 Euro, bei schwerwiegender Gefahr für Leib, Leben oder Gesundheit bis zu 21.800 Euro.[^228]",
+   "footnotes": [
+    {
+     "num": 226,
+     "text": "Bundesgesetz über die Ausübung des ärztlichen Berufes und die Standesvertretung der Ärzte (Ärztegesetz 1998 – ÄrzteG 1998), BGBl. I Nr. 169/1998 idF BGBl. I Nr. 50/2025.",
+     "sources": [
+      "aerzteg1998"
+     ]
+    },
+    {
+     "num": 227,
+     "text": "Ärztekammer für NÖ (2025): e-Card-Anbindung für Wahlärzt:innen.",
+     "sources": [
+      "aeknoe2025"
+     ]
+    },
+    {
+     "num": 228,
+     "text": "Vgl. § 199 Abs 3 ÄrzteG 1998.",
+     "sources": [
+      "aerzteg1998"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.2-p5",
+   "type": "text",
+   "text": "Die nationale Ausnahme für Wahlärzte trifft auf europäischer Ebene auf Artikel 50 der EHDS-Verordnung, der Mitgliedstaaten zugesteht, Kleinstunternehmen (weniger als 10 Mitarbeiter und weniger als 2 Millionen Euro Jahresumsatz) von bestimmten Pflichten der EHDS-Verordnung auszunehmen. Wenn Wahlärzte diese Schwellenwerte unterschreiten, entsteht de facto eine doppelte Ausnahmelage. National nach § 49 Absatz 7 ÄrzteG 1998 und europäisch nach Artikel 50 EHDS-Verordnung. Dies hat unmittelbare Auswirkungen auf die Vollständigkeit der nach der EHDS-Verordnung bis März 2029 bereitzustellenden Patientenkurzakte für die Primärnutzung sowie in weiterer Folge auch auf die Datenbasis für die Sekundärnutzung.",
+   "footnotes": []
+  }
+ ]
+}

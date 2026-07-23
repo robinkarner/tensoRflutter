@@ -1,0 +1,63 @@
+{
+ "sectionId": "5.1.1",
+ "title": "Zentrale Komponenten der ELGA GmbH",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 51,
+ "pdfPage": 61,
+ "paragraphs": [
+  {
+   "id": "5.1.1-p1",
+   "type": "text",
+   "text": "Die zentralen Komponenten stellen jene Verzeichnis-, Berechtigungs- und Protokolldienste bereit, ohne die der verteilt gespeicherte Datenbestand nicht auffindbar und nicht zugänglich wäre. Der zentrale Patientenindex (Z-PI) verknüpft die unterschiedlichen lokalen Patientenkennungen einer Person zu einer eindeutigen Identität und ermittelt, in welchen ELGA-Bereichen Verweise auf Daten dieser Person liegen können.[^273] Der Gesundheitsdiensteanbieterindex (GDA-Index) dient der Überprüfung der Identität der ELGA-Gesundheitsdiensteanbieter und bezieht seine Daten aus dem eHealth-Verzeichnisdienst (eHVD).[^274] Das von den ELGA-Systempartnern eingerichtete und im Bundesrechenzentrum betriebene Berechtigungssystem (BeS) entscheidet bei jedem Zugriff anhand der Zugriffsberechtigungen über dessen Zulässigkeit.[^275] Das Protokollierungssystem, technisch als Aggregiertes Audit Record Repository (A-ARR) ausgeführt, zeichnet jede Verarbeitung auf.[^276] Den Zugang für Bürgerinnen und Bürger eröffnet schließlich das über gesundheit.gv.at erreichbare Bürger-Zugangsportal, das ausschließlich nach einer eindeutigen elektronischen Identifizierung zugänglich ist.[^277] Die Verweise auf die Befunde und die Befunddokumente selbst werden hingegen nicht zentral gehalten, sondern liegen in den dezentralen ELGA-Bereichen.[^278]",
+   "footnotes": [
+    {
+     "num": 273,
+     "text": "Vgl. § 18 Abs 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 274,
+     "text": "Vgl. § 18 Abs 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 275,
+     "text": "Vgl. § 21 Abs 1 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 116.",
+     "sources": [
+      "elga-gesamtarchitektur2017",
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 276,
+     "text": "Vgl. § 22 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 11.",
+     "sources": [
+      "elga-gesamtarchitektur2017",
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 277,
+     "text": "Vgl. § 23 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 210.",
+     "sources": [
+      "elga-gesamtarchitektur2017",
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 278,
+     "text": "Vgl. § 20 Abs 3 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 330.",
+     "sources": [
+      "elga-gesamtarchitektur2017",
+      "gtelg2012"
+     ]
+    }
+   ]
+  }
+ ]
+}

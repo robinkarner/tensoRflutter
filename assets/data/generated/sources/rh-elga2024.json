@@ -1,0 +1,12 @@
+{
+ "sourceId": "rh-elga2024",
+ "dossier": "## Was ist diese Quelle?\nDer **Bericht des Rechnungshofes „Elektronische Gesundheitsakte ELGA und ELGA GmbH“ (Reihe Bund 2024/32)** ist die aktuellste unabhängige Gesamtprüfung des ELGA-Systems — Gebarung, Organisation und Architektur.\n\n## Kerninhalte (zitierte Stellen)\n- **S. 11**: Überblicksgrafik der technischen Infrastruktur (zentral/dezentral, dreizehn Bereiche) — Vorlage der Architekturdarstellung in Kapitel 5.\n- **S. 17**: Eigentümerstruktur der ELGA GmbH (Bund, Dachverband, neun Länder à 3,7 %).\n- **S. 49–52**: Bewertung der dezentralen Architektur — bewusste Integrationsentscheidung, Datenschutzbedenken gegen Zentralisierung (S. 51), aber erhöhter Aufwand durch Mehrfachvorhaltung (S. 52); fehlender eigener Bereich für Niedergelassene, verworfener Grundversorgungsbereich (S. 50f).\n\n## Rolle in der Arbeit\n10 Zitierstellen: Der Bericht liefert die unabhängige Bestätigung der Hybrid-Architektur (Referenzbeispiel in 3.1.3), die Organisationsdaten (5.1) und die kritische Einordnung der dreizehn Bereiche samt Schreibzugangs-Lücke der Niedergelassenen (5.2.2).\n\n## Verlässlichkeit & Zugang\nAmtlicher Prüfbericht (hohe Verlässlichkeit, unabhängig); frei als PDF auf rechnungshof.gv.at.",
+ "keyPoints": [
+  "ELGA GmbH: Bund, Sozialversicherung und Länder je zu einem Drittel.",
+  "Dezentrale Architektur war bewusste Entscheidung (Bestandsintegration + Datenschutz).",
+  "Kritik: Mehrfachvorhaltung in dreizehn Bereichen erhöht Aufwand und Komplexität.",
+  "Kein eigener ELGA-Bereich für Niedergelassene; Grundversorgungsbereich verworfen."
+ ],
+ "zitierweise": "Rechnungshof Österreich (2024): ELGA und ELGA GmbH, Reihe Bund 2024/32",
+ "hinweisOhnePdf": "Frei abrufbar unter rechnungshof.gv.at (2024_32_ELGA.pdf); Fußnoten mit Seitenangaben. Als sources/rh-elga2024.pdf ablegen für direkte Seiten-Links."
+}

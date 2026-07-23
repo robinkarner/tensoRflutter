@@ -1,0 +1,52 @@
+{
+ "sectionId": "3.2.1",
+ "title": "Technische Interoperabilität: IHE-Profile",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 22,
+ "pdfPage": 32,
+ "paragraphs": [
+  {
+   "id": "3.2.1-p1",
+   "type": "text",
+   "text": "Die technische Interoperabilität betrifft die Frage, über welche Protokolle und Infrastrukturen Gesundheitsdaten physisch von einem System zu einem anderen übermittelt werden. Eine zentrale Rolle spielt dabei die Initiative Integrating the Healthcare Enterprise (IHE), die bestehende Standards wie HL7 und DICOM zu praxistauglichen Implementierungsanleitungen - sogenannten Integrationsprofilen - kombiniert.[^116]",
+   "footnotes": [
+    {
+     "num": 116,
+     "text": "Vgl. IHE International (2026): IHE IT Infrastructure Technical Framework (Profiles).",
+     "sources": [
+      "ihe-iti2026"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.2.1-p2",
+   "type": "text",
+   "text": "Das zentrale IHE-Profil für die einrichtungsübergreifende Dokumentenkommunikation ist XDS.b (Cross-Enterprise Document Sharing). Es definiert ein System aus Standards für die Katalogisierung und gemeinsame Nutzung von Patientendaten zwischen Gesundheitseinrichtungen und stellt ein Register für Abfragen sowie Methoden für den Dokumentenabruf bereit.[^117] Den Zusammenschluss mehrerer XDS-Domänen über organisatorische Grenzen hinweg regelt das ergänzende Profil XCA (Cross-Community Access), mit dessen Hilfe Teilnehmer ihre Dokumente gegenseitig zugänglich machen können.[^118] Das Profil PIX (Patient Identifier Cross-Referencing) wiederum dient der gegenseitigen Referenzierung lokaler Patienten-IDs zwischen Krankenhäusern, Standorten und Gesundheitsinformationsnetzen.[^119]",
+   "footnotes": [
+    {
+     "num": 117,
+     "text": "Vgl. IHE International (2026): IHE IT Infrastructure Technical Framework (Profiles). Vol. 1. Ch. 10.",
+     "sources": [
+      "ihe-iti2026"
+     ]
+    },
+    {
+     "num": 118,
+     "text": "Vgl. IHE International (2026): IHE IT Infrastructure Technical Framework (Profiles).Vol. 1. Ch. 18.",
+     "sources": [
+      "ihe-iti2026"
+     ]
+    },
+    {
+     "num": 119,
+     "text": "Vgl. IHE International (2026): IHE IT Infrastructure Technical Framework (Profiles).Vol. 1. Ch. 5.",
+     "sources": [
+      "ihe-iti2026"
+     ]
+    }
+   ]
+  }
+ ]
+}

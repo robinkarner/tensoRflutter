@@ -1,0 +1,220 @@
+[
+ {
+  "text": "Die Arbeit konzentriert sich ausschließlich auf die Primärnutzung im Sinne der unmittelbaren Gesundheitsversorgung. Die Sekundärnutzung von Daten zu Gesundheit oder gesundheitsrelevanten Einflussfaktoren für Forschung, Innovation und gesundheitspolitische Entscheidungen ist auch Teil des EHDS, wird aber lediglich zur Abgrenzung behandelt. Ebenso werden eHealth-Anwendungen, die nicht unmittelbar in ELGA integriert sind, nur insoweit berücksichtigt, als sie für das Verständnis der Gesamtarchitektur erforderlich sind.",
+  "flagged": []
+ },
+ {
+  "text": "Die EHDS-Verordnung lässt die Datenverordnung ausdrücklich unberührt.[^38] Umgekehrt weist die Datenverordnung dem spezialgesetzlichen Gesundheitsdatenrecht seinen Raum zu. Der EHDS-Rahmen geht etwa beim Datenzugang öffentlicher Stellen über den auf außergewöhnliche Notwendigkeit beschränkten Geltungsbereich von Kapitel V der Datenverordnung hinaus,[^39] während für Gebühren bei der Sekundärnutzung über Zugangsstellen für Gesundheitsdaten die Datenverordnung angewendet werden soll.[^40]",
+  "flagged": []
+ },
+ {
+  "text": "Dieses Kapitel beschreibt die technischen Grundlagen, die für das Verständnis der österreichischen eHealth-Infrastruktur und ihrer Integration in den Europäischen Gesundheitsdatenraum erforderlich sind.",
+  "flagged": []
+ },
+ {
+  "text": "Im grenzüberschreitenden Kontext des EHDS gewinnt die Authentifizierung eine zusätzliche, europäische Dimension. Die Authentifizierung für den Zugang zu den EHDS-Diensten erfolgt mittels sicherer elektronischer Identifizierungsmethoden (eIDs), die nach Artikel 6 der eIDAS-Verordnung (EU) Nr. 910/2014 anerkannt sind. In vielen Fällen kommen dabei nationale eIDs zum Einsatz.[^154] Die zuverlässige Identifizierung von Patientinnen und Patienten sowie von Angehörigen der Gesundheitsberufe über Staatsgrenzen hinweg ist eine wesentliche Voraussetzung für vertrauenswürdige digitale Gesundheitsinteraktionen zwischen den Mitgliedstaaten.[^155] Da die eIDAS-Verordnung jedoch ursprünglich keine ausdrückliche Regelung für den im Gesundheitswesen erforderlichen Patientenidentifikator vorsah, wurde in entsprechenden EU-Projekten gezeigt, dass diese Information über die eIDAS-Infrastruktur und die nationale Kontaktstelle von Land zu Land übertragen werden kann.[^156]",
+  "flagged": []
+ },
+ {
+  "text": "Zum Protokollierungssystem schreibt das GTelG 2012 vor, dass dieses von den ELGA-Systempartnern einzurichten und zu betreiben ist. Es dient der Dokumentation und Nachvollziehbarkeit der Verarbeitung von ELGA-Gesundheitsdaten sowie auch von Gesundheitsdaten in eHealth-Anwendungen und in Anwendungen der grenzüberschreitenden Gesundheitsversorgung.[^206]",
+  "flagged": []
+ },
+ {
+  "text": "Die CE-Kennzeichnungspflicht der EHDS-Verordnung trifft die Softwarehersteller von Krankenhausinformationssystemen (KIS), Praxisverwaltungssystemen für niedergelassene Arztpraxen und medizinische Versorgungszentren (PVS) sowie Radiologieinformationssystemen (RIS). Für sie entsteht damit eine neue Compliance-Pflicht, die bisher nicht existierte. Die bisherige ELGA-CDA-Konformität (Clinical Document Architecture) war über die CDA-Implementierungsleitfäden und die ELGA-Interoperabilitätsstufen (EIS) der ELGA-VO 2015 geregelt, ohne ein förmliches Zertifizierungs- oder Kennzeichnungsregime nach Art der CE-Kennzeichnung vorzusehen.[^243]",
+  "flagged": []
+ },
+ {
+  "text": "Die folgende Abbildung liefert eine Ansicht der im gesamten Kapitel 5 beschriebenen bestehenden Infrastruktur, insbesondere jener Elemente, die für die Erfüllung des EHDS relevant sind. Zudem dienen die eingezeichneten Pfeile dem Verständnis der im folgenden Abschnitt beschriebenen dezentralen Architektur im Zusammenspiel mit den zentralen Komponenten und den GDA-Systemen.",
+  "flagged": []
+ },
+ {
+  "text": "Diese Lücke berührt auch die Cybersicherheitsarchitektur von ELGA. Das aggregierte Audit Record Repository protokolliert jeden Zugriff bereits kontinuierlich, sodass die für eine Benachrichtigung erforderlichen Rohdaten in Echtzeit vorliegen.[^351] Eine Erweiterung um eine Benachrichtigungsfunktion wäre daher primär eine Frage der Anbindung an die bestehende Protokollierungsinfrastruktur und nicht der Neuerhebung von Daten.[^352] Ein zusätzlicher, nach außen gerichteter Benachrichtigungskanal fiele jedoch unter die Sicherheitsanforderungen, die sich auch auf alle zur Kommunikation zwischen den ELGA-Komponenten erforderlichen Dienste erstrecken.[^353] Insbesondere wäre sicherzustellen, dass die Benachrichtigung selbst keine Rückschlüsse auf sensible Gesundheitsdaten zulässt, um eine sekundäre Datenschutzverletzung durch den Benachrichtigungsmechanismus zu vermeiden.[^354] Fraglich ist grundlegender die technische Umsetzbarkeit eines solchen Benachrichtigungskanals mit dem Zugangsportal als Webanwendung. Naheliegend wären zunächst gängige Kanäle wie E-Mail oder SMS. Push-Benachrichtigungen würden eine App voraussetzen, die zum Zeitpunkt dieser Arbeit noch nicht existiert. Angekündigt wurde eine ELGA-App bereits und die technische Grundlage dafür soll bereits mit dem für 2026 geplanten Zugangsportal-Relaunch entstehen.[^355]",
+  "flagged": []
+ },
+ {
+  "text": "Mobile devices and wearables have turned everyday learning environments into dense sources of contextual data, yet it remains unclear which of these signals are pedagogically meaningful and how they should be processed. This paper categorises mobile sensors into spatio-temporal, physiological, behavioural and audiovisual sensors and links them to established learning theories. Then it traces the path from raw signal to learning adaptation along a four stage pipeline of acquisition, representation, reasoning and adaptation. Based on systematic reviews of context-aware and multimodal learning systems, it shows that the most reliably measurable signals are rarely the most important learning constructs, since motivation, self-efficacy and prior knowledge lie beyond the observability line that separates measurable signals from latent states. Several structural tensions follow: the limit of observability, the largely unused potential of social proximity and the unjustified adoption of easily measured factors. The paper emphasises that a good sensor-based learning system processes the available signals in a way that is pedagogically meaningful, thereby creating the conditions for successful learning.",
+  "flagged": []
+ },
+ {
+  "text": "Overall, this approach treats the location and the social environment as a lever. Lee identifies three mechanisms through which the location has an effect: the correspondence between words and real objects, genuine interaction with others at the location and the sense of familiarity that reduces anxiety [^9]. Also an important observation was that familiar everyday places are more effective for learning than spectacular but unfamiliar places, because they activate prior knowledge [^10]. The effect therefore depends on the design, not on the sensory signal alone.",
+  "flagged": []
+ },
+ {
+  "text": "This theory provides a powerful framework for presenting content. Because cognitive load is a latent construct, its measurement is primarily linked to physiological sensors and to some extent also to behavioural signals such as processing speed [^24]. Mayer (2024) builds this bridge by demanding that the methodology be expanded to include biometric methods, citing heart rate variability and electrodermal activity for emotional arousal, portable EEG for distraction, as well as eye-tracking and brief surveys during the lesson [^25]. Giannakos and Cukurova (2023) confirm that cognitive load is most frequently measured through a combination of eye-tracking, EDA, GSR and HRV, as these methods are both reliable and minimally intrusive [^26]. Throughout, two uses of a sensor must be kept apart, validating at design time which signals are pedagogically meaningful and driving the running adaptation.",
+  "flagged": []
+ },
+ {
+  "text": "This category measures physical arousal via heart rate (PPG at the wrist or ECG), heart rate variability, electrodermal activity (EDA/GSR), skin temperature and respiratory rate. Eye-tracking adds pupil dilation and eye movements. In research settings, EEG is also used [^36]. A theoretical connection can be opened with the Cognitive Load Theory (see Section 2.4), as stress and other affective states can be derived from physiological data [^37].",
+  "flagged": []
+ },
+ {
+  "text": "Overall (P2) aims to enhance the representation of the low‐semantic sensor data with pedagogically meaningful annotations [^50]. The representation is the basis for what the reasoning process can utilise. At this stage, factors of pedagogical value can be overlooked or identified. A constructivist factor such as a learners social integration cannot be utilised by a recommendation system unless it is represented by a value, for example, the number of courses attended together or shared interests. It is a known difficulty in quantifying qualitative pedagogical factors without losing their meaning [^51]. Specialized pedagogical ontologies could provide an important foundation for that [^52].",
+  "flagged": []
+ },
+ {
+  "text": "The four categories specify what is adapted, not how or when intervention takes place. Each intervention can be described in terms of the five dimensions: modality, intrusiveness, task adaptation, task support and task regulation [^77]. For independent learners, intrusiveness is particularly crucial, as there is a conflict of objectives between it and reaction speed. A factually correct adjustment at the wrong time is more likely to disrupt concentration than to support it [^78].",
+  "flagged": [
+   {
+    "start": 237,
+    "end": 369,
+    "text": "For independent learners, intrusiveness is particularly crucial, as there is a conflict of objectives between it and reaction speed.",
+    "score": 1,
+    "hits": [
+     "Floskel: „crucial“"
+    ]
+   }
+  ]
+ },
+ {
+  "text": "AI plays a crucial role in modern healthcare. Furthermore, it is important to note that leveraging data holds great promise. Moreover, various stakeholders delve into numerous aspects seamlessly.",
+  "flagged": [
+   {
+    "start": 0,
+    "end": 45,
+    "text": "AI plays a crucial role in modern healthcare.",
+    "score": 2,
+    "hits": [
+     "Floskel: „plays a crucial role“",
+     "Floskel: „crucial“"
+    ]
+   },
+   {
+    "start": 46,
+    "end": 124,
+    "text": "Furthermore, it is important to note that leveraging data holds great promise.",
+    "score": 4,
+    "hits": [
+     "Floskel: „it is important to note“",
+     "Floskel: „holds great promise“",
+     "Floskel: „leveraging“",
+     "Einordnung ohne Beleg/Konkretes („ist wichtig/zentral“)"
+    ]
+   },
+   {
+    "start": 125,
+    "end": 195,
+    "text": "Moreover, various stakeholders delve into numerous aspects seamlessly.",
+    "score": 4,
+    "hits": [
+     "Floskel: „seamlessly“",
+     "Floskel: „delve“",
+     "vage: „various“",
+     "vage: „numerous“",
+     "Konnektor-Kette (Furthermore/Moreover/Zudem …)"
+    ]
+   }
+  ]
+ },
+ {
+  "text": "Datenschutz spielt eine zentrale Rolle in der heutigen Zeit. Darüber hinaus ist Interoperabilität von großer Bedeutung. Zudem gewinnt der EHDS zunehmend an Bedeutung.",
+  "flagged": [
+   {
+    "start": 0,
+    "end": 60,
+    "text": "Datenschutz spielt eine zentrale Rolle in der heutigen Zeit.",
+    "score": 2,
+    "hits": [
+     "Floskel: „spielt eine zentrale Rolle“",
+     "Floskel: „in der heutigen Zeit“"
+    ]
+   },
+   {
+    "start": 61,
+    "end": 119,
+    "text": "Darüber hinaus ist Interoperabilität von großer Bedeutung.",
+    "score": 1,
+    "hits": [
+     "Floskel: „von großer Bedeutung“"
+    ]
+   },
+   {
+    "start": 120,
+    "end": 166,
+    "text": "Zudem gewinnt der EHDS zunehmend an Bedeutung.",
+    "score": 1,
+    "hits": [
+     "Konnektor-Kette (Furthermore/Moreover/Zudem …)"
+    ]
+   }
+  ]
+ },
+ {
+  "text": "Interoperability is essential for exchange. It is broadly relevant overall.",
+  "flagged": [
+   {
+    "start": 0,
+    "end": 43,
+    "text": "Interoperability is essential for exchange.",
+    "score": 1,
+    "hits": [
+     "Einordnung ohne Beleg/Konkretes („ist wichtig/zentral“)"
+    ]
+   },
+   {
+    "start": 44,
+    "end": 75,
+    "text": "It is broadly relevant overall.",
+    "score": 1,
+    "hits": [
+     "vage: „overall“",
+     "vage: „broadly“"
+    ]
+   }
+  ]
+ },
+ {
+  "text": "Die Ergebnisse zeigen 42 % Verbesserung (Fig. 3). Das System ist wichtig für die Praxis, wie Studien (2021) belegen.[^1]",
+  "flagged": []
+ },
+ {
+  "text": "Not only does the framework improve outcomes but also reduces cost. In recent years, ever-growing datasets underscore the need for comprehensive analysis.",
+  "flagged": [
+   {
+    "start": 0,
+    "end": 67,
+    "text": "Not only does the framework improve outcomes but also reduces cost.",
+    "score": 1,
+    "hits": [
+     "Floskel: „Not only does the framework improve outcomes but also“"
+    ]
+   },
+   {
+    "start": 68,
+    "end": 154,
+    "text": "In recent years, ever-growing datasets underscore the need for comprehensive analysis.",
+    "score": 4,
+    "hits": [
+     "Floskel: „In recent years“",
+     "Floskel: „ever-growing“",
+     "Floskel: „comprehensive analysis“",
+     "Floskel: „underscore“"
+    ]
+   }
+  ]
+ },
+ {
+  "text": "Zusammenfassend lässt sich festhalten, dass zahlreiche vielfältige und verschiedenste Ansätze grundsätzlich denkbar sind. Folglich bleibt das Thema wichtig. Somit ist der Ausblick zentral.",
+  "flagged": [
+   {
+    "start": 0,
+    "end": 121,
+    "text": "Zusammenfassend lässt sich festhalten, dass zahlreiche vielfältige und verschiedenste Ansätze grundsätzlich denkbar sind.",
+    "score": 2,
+    "hits": [
+     "Floskel: „Zusammenfassend lässt sich festhalten“",
+     "vage: „verschiedenste“",
+     "vage: „zahlreiche“"
+    ]
+   },
+   {
+    "start": 157,
+    "end": 188,
+    "text": "Somit ist der Ausblick zentral.",
+    "score": 1,
+    "hits": [
+     "Konnektor-Kette (Furthermore/Moreover/Zudem …)"
+    ]
+   }
+  ]
+ }
+]

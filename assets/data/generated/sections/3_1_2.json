@@ -1,0 +1,174 @@
+{
+ "sectionId": "3.1.2",
+ "paragraphs": [
+  {
+   "id": "3.1.2-p1",
+   "type": "text",
+   "kernaussage": "Im dezentralen Modell bleiben die Gesundheitsdaten beim Ersteller gespeichert und werden nur über ein zentrales Metadaten-Verzeichnis auffindbar gemacht.",
+   "sentences": [
+    {
+     "text": "Im dezentralen Modell verbleiben die Gesundheitsdaten beim jeweiligen Ersteller.",
+     "einfach": "Bei der dezentralen Architektur werden die medizinischen Daten nicht an einen zentralen Server geschickt, sondern bleiben dort gespeichert, wo sie entstanden sind - etwa im Krankenhaus oder in der Arztpraxis.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "dezentralen Modell", "kategorie": "tech" },
+      { "snippet": "Ersteller", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Ein zentrales Verzeichnis speichert lediglich Metadaten darüber, wo welche Daten liegen, ohne die Daten selbst zu enthalten.",
+     "einfach": "Es gibt nur einen zentralen Index, der wie ein Inhaltsverzeichnis funktioniert: Er speichert, wo welche Daten liegen (Metadaten = Daten über Daten), enthält aber keine medizinischen Inhalte selbst.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "zentrales Verzeichnis", "kategorie": "tech" },
+      { "snippet": "Metadaten", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der abrufende Behandler fragt das Verzeichnis ab und ruft das Dokument anschließend direkt beim Ersteller ab.[^102]",
+     "einfach": "Will eine Ärztin oder ein Arzt ein Dokument einsehen, sucht das System zuerst im zentralen Verzeichnis nach dem Speicherort und holt das Dokument dann direkt von der Einrichtung, die es erstellt hat.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Behandler", "kategorie": "akteur" },
+      { "snippet": "Verzeichnis", "kategorie": "tech" },
+      { "snippet": "Ersteller", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die International Organization for Standardization (ISO) erkennt diese Architektur explizit an, indem sie die Anwendung des Standards ausdrücklich auch für die Repräsentation von EHR-Daten innerhalb eines dezentralen Record-Systems vorsieht.[^103]",
+     "einfach": "Die internationale Normungsorganisation ISO akzeptiert dieses Modell offiziell: Ihr Standard für elektronische Gesundheitsakten (EHR = Electronic Health Record) darf ausdrücklich auch in dezentral organisierten Aktensystemen verwendet werden.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "International Organization for Standardization (ISO)", "kategorie": "akteur" },
+      { "snippet": "EHR-Daten", "kategorie": "tech" },
+      { "snippet": "dezentralen Record-Systems", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 102,
+     "quellen": ["scheibner2021"],
+     "claim": "Belegt den Ablauf des dezentralen Modells: Daten verbleiben beim Ersteller, ein zentrales Verzeichnis hält nur Metadaten, der Behandler ruft Dokumente direkt beim Ersteller ab.",
+     "fundstelle": "S. 6",
+     "suchHinweis": "decentralized architecture metadata registry retrieval"
+    },
+    {
+     "num": 103,
+     "quellen": ["iso13606"],
+     "claim": "Belegt, dass ISO 13606-1:2019 die Anwendung des Standards ausdrücklich auch für die Repräsentation von EHR-Daten in einem dezentralen Record-System vorsieht.",
+     "fundstelle": "",
+     "suchHinweis": "ISO 13606-1 scope distributed decentralised EHR record system"
+    }
+   ]
+  },
+  {
+   "id": "3.1.2-p2",
+   "type": "text",
+   "kernaussage": "Dezentrale Architekturen bieten Datenintegrität und Auditierbarkeit, vermeiden den Single Point of Failure und wahren die Datensouveränität der erstellenden Einrichtungen.",
+   "sentences": [
+    {
+     "text": "Insbesondere in Blockchain-basierten Ansätzen werden als Vorzüge die strukturelle Integrität der Daten gegen unbefugte Veränderungen und die nachvollziehbare Auditierbarkeit aller Dateninteraktionen genannt.[^104]",
+     "einfach": "Bei Lösungen auf Blockchain-Basis (eine Technik, bei der Daten in einer manipulationssicheren Kette gespeichert werden) gelten zwei Punkte als Stärken: Niemand kann Daten unbemerkt verändern, und jeder Zugriff lässt sich lückenlos nachvollziehen (Auditierbarkeit).",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Blockchain-basierten Ansätzen", "kategorie": "tech" },
+      { "snippet": "Auditierbarkeit", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Allgemein entfällt in verteilten Architekturen der Single Point of Failure, und die Datensouveränität der erstellenden Einrichtungen bleibt gewahrt.[^105]",
+     "einfach": "Generell gibt es in verteilten Systemen keinen einzelnen Punkt, dessen Ausfall das ganze System lahmlegt (Single Point of Failure), und die Einrichtungen behalten die Kontrolle über ihre eigenen Daten (Datensouveränität).",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "Single Point of Failure", "kategorie": "tech" },
+      { "snippet": "Datensouveränität", "kategorie": "tech" },
+      { "snippet": "erstellenden Einrichtungen", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 104,
+     "quellen": ["beinke2019", "kumar2025"],
+     "claim": "Belegt, dass Blockchain-basierte Ansätze strukturelle Datenintegrität gegen unbefugte Veränderungen und nachvollziehbare Auditierbarkeit aller Dateninteraktionen bieten.",
+     "fundstelle": "S. 3 (Kumar) bzw. S. 5 (Beinke)",
+     "suchHinweis": "blockchain integrity auditability electronic health records"
+    },
+    {
+     "num": 105,
+     "quellen": ["scheibner2021"],
+     "claim": "Belegt, dass in verteilten Architekturen der Single Point of Failure entfällt und die Datensouveränität der erstellenden Einrichtungen gewahrt bleibt.",
+     "fundstelle": "S. 6",
+     "suchHinweis": "single point of failure data sovereignty decentralized"
+    }
+   ]
+  },
+  {
+   "id": "3.1.2-p3",
+   "type": "text",
+   "kernaussage": "Dezentrale Architekturen haben strukturelle Schwächen (hohe Anforderungen an Infrastruktur, Standardisierung und Regulierung, erhöhte Komplexität); Estland gilt mit dem EHIS auf X-Road-Basis als Referenzbeispiel.",
+   "sentences": [
+    {
+     "text": "Diesen Vorteilen stehen jedoch strukturelle Schwächen gegenüber.",
+     "einfach": "Die genannten Vorteile haben aber eine Kehrseite: Das dezentrale Modell bringt grundsätzliche Nachteile mit sich.",
+     "kategorien": ["these"],
+     "marks": [
+      { "snippet": "strukturelle Schwächen", "kategorie": "these" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Geteilte Architekturen erfordern eine robuste Infrastruktur, hohe Standardisierung sowie regulatorische Klarheit,[^106] da die heterogene Verteilung der Daten die Komplexität der Datenverwaltung, der Kommunikation und der Sicherheit erheblich erhöht.[^107]",
+     "einfach": "Verteilte Systeme brauchen eine zuverlässige technische Infrastruktur, einheitliche Standards und klare rechtliche Regeln. Weil die Daten an vielen unterschiedlichen Orten liegen, wird es deutlich aufwendiger, sie zu verwalten, zwischen den Systemen zu kommunizieren und alles abzusichern.",
+     "kategorien": ["luecke", "tech"],
+     "marks": [
+      { "snippet": "robuste Infrastruktur, hohe Standardisierung sowie regulatorische Klarheit", "kategorie": "luecke" },
+      { "snippet": "Komplexität der Datenverwaltung, der Kommunikation und der Sicherheit", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Estland gilt mit seinem über X-Road realisierten Estonian National Health Information System (EHIS) als Referenzbeispiel für eine dezentrale nationale Architektur im Gesundheitswesen.[^108]",
+     "einfach": "Estland ist das bekannteste Praxisbeispiel für dieses Modell: Sein nationales Gesundheitsinformationssystem EHIS läuft über X-Road, eine Datenaustauschplattform, die verteilte Datenbanken staatlicher Stellen sicher miteinander verbindet.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Estland", "kategorie": "akteur" },
+      { "snippet": "X-Road", "kategorie": "tech" },
+      { "snippet": "Estonian National Health Information System (EHIS)", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 106,
+     "quellen": ["froehlich2025"],
+     "claim": "Belegt, dass geteilte (dezentrale) Architekturen eine robuste Infrastruktur, hohe Standardisierung und regulatorische Klarheit erfordern.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "decentralized data analysis infrastructure standardization regulatory clarity"
+    },
+    {
+     "num": 107,
+     "quellen": ["shukla2025"],
+     "claim": "Belegt, dass die heterogene Verteilung der Daten die Komplexität von Datenverwaltung, Kommunikation und Sicherheit erheblich erhöht.",
+     "fundstelle": "S. 5",
+     "suchHinweis": "heterogeneous data distribution complexity management security"
+    },
+    {
+     "num": 108,
+     "quellen": ["klementi2024", "tehik2026"],
+     "claim": "Belegt, dass Estland mit dem über X-Road realisierten EHIS als Referenzbeispiel für eine dezentrale nationale Gesundheitsarchitektur gilt.",
+     "fundstelle": "S. 1 (Klementi)",
+     "suchHinweis": "X-Road Estonian national health information system decentralized"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "sectionId": "5.1.2",
+ "title": "SVC-GmbH, e-card-System und GIN-Netzwerk",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 51,
+ "pdfPage": 61,
+ "paragraphs": [
+  {
+   "id": "5.1.2-p1",
+   "type": "text",
+   "text": "Die SVC-GmbH stellt die Identifikations- und Netzwerkebene bereit, über die alle Gesundheitsdiensteanbieter mit den ELGA-Komponenten kommunizieren. Das e-card-System identifiziert Patientinnen und Patienten über ihre Sozialversicherungsnummer und Gesundheitsdiensteanbieter über geeignete Identifikationskarten.[^279] Der Datenverkehr läuft nicht über das offene Internet, sondern über das von der SVC-GmbH betriebene Gesundheitsinformationsnetz (GIN), ein als geschlossene Benutzergruppe konzipiertes, vom Internet getrenntes Netz, das ausschließlich berechtigten Gesundheitsdiensteanbietern offensteht.[^280] Als Endgerät dient das NFC-fähige Kartenlesegerät GINO (Gesundheits-Informations-Netzwerk Online), das die frühere GINA ablöste und sie mit der e-card-Anbindung vereint.[^281]",
+   "footnotes": [
+    {
+     "num": 279,
+     "text": "Vgl. § 31a Abs 1 ASVG und § 19 Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012",
+      "asvg"
+     ]
+    },
+    {
+     "num": 280,
+     "text": "Vgl. Dachverband der Sozialversicherungsträger (2026): e-card System.",
+     "sources": [
+      "dachverband-ecard2026"
+     ]
+    },
+    {
+     "num": 281,
+     "text": "Vgl. Dachverband der Sozialversicherungsträger (2026): e-card System.",
+     "sources": [
+      "dachverband-ecard2026"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.1.2-p2",
+   "type": "text",
+   "text": "Die Anbindung der GDA-Systeme an einen ELGA-Bereich erfolgt entweder unmittelbar über standardisierte IHE-Schnittstellen oder über proprietäre Anbindungsbausteine wie den ELGA-Adapter (ELGAAD), der ein solches System über den zentral aufgestellten Vermittlungsdienst des Dachverbands (ELGA-Proxy) an den Zielbereich anbindet.[^282]",
+   "footnotes": [
+    {
+     "num": 282,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 57f.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.1.2-p3",
+   "type": "text",
+   "text": "SVC-GmbH stellt damit die Identifikation und den Netzzugang bereit, betreibt selbst aber keinen Datenspeicher für Befunddokumente.[^283] Welche Folgen sich daraus für die Anbindung des niedergelassenen Bereichs ergeben, wird in den folgenden Abschnitten untersucht.",
+   "footnotes": [
+    {
+     "num": 283,
+     "text": "Vgl. § 20 Abs 1 GTelG 2012 und Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 51.",
+     "sources": [
+      "rh-elga2024",
+      "gtelg2012"
+     ]
+    }
+   ]
+  }
+ ]
+}

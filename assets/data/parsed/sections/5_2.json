@@ -1,0 +1,16 @@
+{
+ "sectionId": "5.2",
+ "title": "EHR-Systeme",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 56,
+ "pdfPage": 66,
+ "paragraphs": [
+  {
+   "id": "5.2-p1",
+   "type": "text",
+   "text": "Während ELGA die Infrastruktur bildet, sind die EHR-Systeme im Sinne des EHDS die Softwareprodukte, die in Krankenanstalten und Ordinationen betrieben werden und in denen die Gesundheitsdaten tatsächlich entstehen. Diese Unterscheidung ist für die nationale Umsetzung zentral, weil die mit dem EHDS eingeführte Konformitäts- und CE-Kennzeichnungspflicht bei den Herstellern dieser Systeme ansetzt, nicht bei ELGA. Im Folgenden wird dazu die österreichische Systemlandschaft und der Weg eines Befundes von der Erstellung im EHR-System bis zur Abrufbarkeit in ELGA beschrieben.",
+   "footnotes": []
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "sectionId": "4.5",
+ "title": "Grenzüberschreitende Anbindung durch NCPeH",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 46,
+ "pdfPage": 56,
+ "paragraphs": [
+  {
+   "id": "4.5-p1",
+   "type": "text",
+   "text": "Auf europäischer Ebene sieht die EHDS-Verordnung die Infrastruktur MyHealth@EU als grenzüberschreitende Infrastruktur für die Verarbeitung elektronischer Gesundheitsdaten für Primärnutzungszwecke vor. Die nationalen Kontaktstellen für digitale Gesundheit (NCPeH) der Mitgliedstaaten dienen als technische und organisatorische Zugangstore zu dieser Infrastruktur.[^262]",
+   "footnotes": [
+    {
+     "num": 262,
+     "text": "Vgl. § 2 Z 24 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.5-p2",
+   "type": "text",
+   "text": "Für die Datenverarbeitung im grenzüberschreitenden Kontext darf die Nationale Kontaktstelle dazu auf die ELGA-Komponenten Patientenindex, Gesundheitsdiensteanbieterindex, Berechtigungssystem, Protokollierungssystem und Zugangsportal zugreifen.[^263]",
+   "footnotes": [
+    {
+     "num": 263,
+     "text": "Vgl. § 24k Abs 3 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.5-p3",
+   "type": "text",
+   "text": "Zur grenzüberschreitenden Gesundheitsversorgung regelt der 6. Abschnitt des GTelG 2012 neben MyHealth@EU auch Verschreibungen und elektronische Abgaben (EU-Rezept) sowie die EU-Patientenkurzakte.",
+   "footnotes": []
+  },
+  {
+   "id": "4.5-p4",
+   "type": "text",
+   "text": "Das EU-Rezept wird vom Dachverband der Sozialversicherungsträger im übertragenen Wirkungsbereich eingerichtet und betrieben.[^264] Es umfasst sowohl in Österreich ausgestellte elektronische Verschreibungen, die in Apotheken anderer MyHealth@EU-Mitgliedstaaten eingelöst werden (Österreich als Herkunftsmitgliedstaat),[^265] als auch in anderen Mitgliedstaaten ausgestellte Verschreibungen, die in österreichischen Apotheken eingelöst werden (Österreich als Behandlungsmitgliedstaat).[^266] Gemeinsame datenschutzrechtlich Verantwortliche nach Artikel 26 der DSGVO sind jeweils die Nationale Kontaktstelle und der behandelnde Arzt bzw. die abgebende Apotheke, die durch Verordnung des Bundesministers festzulegen sind,[^267] aber zum Zeitpunkt dieser Arbeit noch nicht erlassen wurden.",
+   "footnotes": [
+    {
+     "num": 264,
+     "text": "Vgl. § 24o Abs 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 265,
+     "text": "Vgl. § 24p GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 266,
+     "text": "Vgl. § 24q GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 267,
+     "text": "Vgl. § 24r Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  }
+ ]
+}

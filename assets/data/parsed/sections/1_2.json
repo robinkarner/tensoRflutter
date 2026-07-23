@@ -1,0 +1,46 @@
+{
+ "sectionId": "1.2",
+ "title": "Aufbau",
+ "chapter": 1,
+ "chapterTitle": "Einleitung",
+ "page": 2,
+ "pdfPage": 12,
+ "paragraphs": [
+  {
+   "id": "1.2-p1",
+   "type": "text",
+   "text": "Diese Arbeit gibt den Umsetzungsstand im Zeitraum Mai bis Juli 2026 wieder und gliedert sich in sechs Kapitel, die schrittweise von den unionsrechtlichen Grundlagen über die technischen und nationalen Rahmenbedingungen bis hin zur Analyse des österreichischen Umsetzungsstands führen.",
+   "footnotes": []
+  },
+  {
+   "id": "1.2-p2",
+   "type": "text",
+   "text": "Kapitel 2 stellt den europäischen Gesundheitsdatenraum vor. Es erläutert Motivation, Entstehung und regulatorisches Umfeld der Verordnung (EU) 2025/327, grenzt Primär- von Sekundärnutzung ab und beschreibt die Primärnutzung im Detail. Im Mittelpunkt stehen die beteiligten Akteure, die prioritären Datenkategorien, die Anforderungen an EHR-Systeme, die grenzüberschreitende Infrastruktur sowie die gestuften Umsetzungsfristen.",
+   "footnotes": []
+  },
+  {
+   "id": "1.2-p3",
+   "type": "text",
+   "text": "Kapitel 3 vermittelt die technischen Grundlagen elektronischer Gesundheitsakten. Behandelt werden zentrale, dezentrale und hybride Architekturmodelle, die Ebenen der Interoperabilität von IHE-Profilen über HL7 CDA und FHIR bis zu Terminologien sowie Mechanismen der Authentifizierung, Zugriffskontrolle und Protokollierung. Abschließend wird MyHealth@EU als grenzüberschreitende Infrastruktur des EHDS vorgestellt.",
+   "footnotes": []
+  },
+  {
+   "id": "1.2-p4",
+   "type": "text",
+   "text": "Kapitel 4 untersucht den rechtlichen Rahmen in Österreich. Analysiert werden das Gesundheitstelematikgesetz 2012 und die ELGA-Verordnung 2015 sowie die Marktüberwachung von EHR-Systemen. Weitere Schwerpunkte bilden die Harmonisierung der Opt-Out-Regelungen, die grenzüberschreitende Anbindung über den National Contact Point for eHealth sowie der nationale Stufenplan im Verhältnis zu den EHDS-Umsetzungsfristen.",
+   "footnotes": []
+  },
+  {
+   "id": "1.2-p5",
+   "type": "text",
+   "text": "Kapitel 5 bildet den analytischen Kern der Arbeit und untersucht die Umsetzung in Österreich. Es beschreibt ELGA als nationale eHealth-Infrastruktur mit ihren zentralen und dezentralen Komponenten, die angebundenen EHR-Systeme, das Berechtigungs- und Protokollierungssystem sowie die eingesetzten Datenformate. Dabei wird durchgehend geprüft, inwieweit ELGA die Anforderungen der Verordnung (EU) 2025/327 an die Primärnutzung bereits erfüllt.",
+   "footnotes": []
+  },
+  {
+   "id": "1.2-p6",
+   "type": "text",
+   "text": "Kapitel 6 fasst die wesentlichen Ergebnisse zusammen, bündelt die identifizierten technischen und rechtlichen Lücken und gibt einen Ausblick auf die für eine EHDS-konforme Weiterentwicklung von ELGA erforderlichen Schritte.",
+   "footnotes": []
+  }
+ ]
+}

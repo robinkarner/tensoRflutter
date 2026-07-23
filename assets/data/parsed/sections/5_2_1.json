@@ -1,0 +1,59 @@
+{
+ "sectionId": "5.2.1",
+ "title": "Systemlandschaft: KIS, PVS und RIS",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 56,
+ "pdfPage": 66,
+ "paragraphs": [
+  {
+   "id": "5.2.1-p1",
+   "type": "text",
+   "text": "Die in Österreich eingesetzten EHR-Systeme lassen sich nach Versorgungsbereichen gliedern. In den Krankenanstalten laufen Krankenhausinformationssysteme (KIS), die Entlassungsbriefe sowie Labor- und Radiologiebefunde erzeugen. Im niedergelassenen Bereich kommen Praxisverwaltungssysteme (PVS) zum Einsatz, die neben der Dokumentation auch Verordnungen für die e-Medikation erstellen können. Zudem gibt es Radiologieinformationssysteme (RIS) für die bildgebende Diagnostik und Apothekensoftware.",
+   "footnotes": []
+  },
+  {
+   "id": "5.2.1-p2",
+   "type": "text",
+   "text": "Der Softwaremarkt umfasst zahlreiche Produkte unterschiedlicher Hersteller, die im Verband Österreichischer Medizinsoftware-Hersteller organisiert sind. Diese binden auch die ELGA-Funktionen e-Befund und e-Medikation in die Ordinationssysteme unmittelbar ein[^310] und erzeugen unabhängig vom Versorgungsbereich die ELGA-Dokumente im Format HL7 CDA nach den ELGA-Implementierungsleitfäden.[^311]",
+   "footnotes": [
+    {
+     "num": 310,
+     "text": "Vgl. ÖMS (2026): Verband Österreichischer Medizinsoftware-Hersteller.",
+     "sources": [
+      "oems2026"
+     ]
+    },
+    {
+     "num": 311,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 87.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.2.1-p3",
+   "type": "text",
+   "text": "Im Jahr 2015 begann der Rollout in den öffentlichen Krankenanstalten und Pflegeeinrichtungen und erreichte in den Jahren 2018 und 2019 auch den niedergelassenen Bereich.[^312] Zum Zeitpunkt der Erstellung dieser Arbeit befand sich beispielsweise der Austausch von Bilddaten über die ELGA-Infrastruktur in der Rollout-Phase.[^313]",
+   "footnotes": [
+    {
+     "num": 312,
+     "text": "Vgl. Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz (2026): ELGA.",
+     "sources": [
+      "bmasgpk-elga2026"
+     ]
+    },
+    {
+     "num": 313,
+     "text": "Vgl. ÖMS (2026): Verband Österreichischer Medizinsoftware-Hersteller und Plattform für Digitale Gesundheit (2026): eHealth-Roadmap.",
+     "sources": [
+      "pdg-roadmap2026",
+      "oems2026"
+     ]
+    }
+   ]
+  }
+ ]
+}

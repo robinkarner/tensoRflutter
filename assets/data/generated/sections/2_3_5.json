@@ -1,0 +1,85 @@
+{
+ "sectionId": "2.3.5",
+ "paragraphs": [
+  {
+   "id": "2.3.5-p1",
+   "type": "text",
+   "kernaussage": "Artikel 105 der EHDS-Verordnung sieht eine gestufte Umsetzung mit mehreren zeitlichen Meilensteinen vor.",
+   "sentences": [
+    {
+     "text": "Die EHDS-Verordnung sieht auf dem Weg zur vollständigen Umsetzung nach Artikel 105 eine gestufte Umsetzung mit folgenden wichtigen Meilensteinen vor: [^91]",
+     "einfach": "Die EHDS-Verordnung (EU-Verordnung 2025/327 über den Europäischen Gesundheitsdatenraum) gilt nicht auf einen Schlag: Artikel 105 legt fest, dass ihre Pflichten stufenweise zu bestimmten Stichtagen wirksam werden.",
+     "kategorien": ["norm", "frist"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Artikel 105", "kategorie": "norm" },
+      { "snippet": "gestufte Umsetzung", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 91,
+     "quellen": ["ek-ehds-page2026"],
+     "claim": "Der gestufte Umsetzungszeitplan der EHDS-Verordnung mit seinen Meilensteinen wird mit der EHDS-Informationsseite der Europäischen Kommission belegt.",
+     "fundstelle": "",
+     "suchHinweis": "Zeitplan Umsetzung Meilensteine EHDS Anwendbarkeit"
+    }
+   ]
+  },
+  {
+   "id": "2.3.5-p2",
+   "type": "list",
+   "kernaussage": "Die Umsetzung des EHDS erfolgt in vier Stufen: Durchführungsrechtsakte bis 2027, erste Datenkategorien der Primärnutzung 2029, zweite Gruppe 2031 und Öffnung von HealthData@EU für Drittländer 2035.",
+   "sentences": [
+    {
+     "text": "26. März 2027: Frist für den Erlass mehrerer wichtiger Durchführungsrechtsakte durch die Kommission mit genauen Vorschriften für die Operationalisierung der Verordnung (Spezifikation der Softwarekomponenten für EHR-Systeme)",
+     "einfach": "Bis zum 26. März 2027 muss die EU-Kommission Durchführungsrechtsakte erlassen. Das sind verbindliche Detailregeln, die u.a. genau festlegen, welche Softwarekomponenten EHR-Systeme (Systeme für elektronische Gesundheitsakten) enthalten müssen.",
+     "kategorien": ["frist", "norm", "akteur", "tech"],
+     "marks": [
+      { "snippet": "26. März 2027", "kategorie": "frist" },
+      { "snippet": "Durchführungsrechtsakte", "kategorie": "norm" },
+      { "snippet": "Kommission", "kategorie": "akteur" },
+      { "snippet": "EHR-Systeme", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "26. März 2029: Die wichtigsten Elemente der EHDS-Verordnung, darunter der Austausch der ersten Gruppe vorrangiger Kategorien von Gesundheitsdaten (Patientenkurzakten, elektronische Verschreibungen/elektronische Abgaben) für die Primärnutzung in allen EU-Mitgliedstaaten. Die Vorschriften über die Sekundärnutzung gelten ab dann auch für die meisten Datenkategorien (z. B. Daten aus elektronischen Patientenakten).",
+     "einfach": "Ab dem 26. März 2029 greifen die Kernpflichten der EHDS-Verordnung: In allen EU-Ländern muss die erste Gruppe wichtiger Datenkategorien (Patientenkurzakten und E-Rezepte bzw. deren Einlösungen) für die Primärnutzung, also die Verwendung direkt in der Behandlung, austauschbar sein. Gleichzeitig gelten die Regeln zur Sekundärnutzung (Weiterverwendung z. B. für Forschung) für die meisten Datenkategorien.",
+     "kategorien": ["frist", "norm", "tech"],
+     "marks": [
+      { "snippet": "26. März 2029", "kategorie": "frist" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Patientenkurzakten, elektronische Verschreibungen/elektronische Abgaben", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "26. März 2031: Für die Primärnutzung sollte der Austausch der zweiten Gruppe vorrangiger Kategorien von Gesundheitsdaten (medizinische Bilder, Laborergebnisse und Krankenhausentlassungsberichte) in allen EU-Mitgliedstaaten funktionieren. Die Vorschriften über die Sekundärnutzung gelten dann auch für die übrigen Datenkategorien (z. B. genomische Daten).",
+     "einfach": "Ab dem 26. März 2031 muss auch die zweite Gruppe wichtiger Datenkategorien (medizinische Bilder, Laborergebnisse, Entlassungsberichte aus Krankenhäusern) EU-weit für die Behandlung austauschbar sein. Die Sekundärnutzungsregeln erfassen ab dann die restlichen Datenkategorien, etwa genomische Daten (Erbgutdaten).",
+     "kategorien": ["frist", "tech"],
+     "marks": [
+      { "snippet": "26. März 2031", "kategorie": "frist" },
+      { "snippet": "medizinische Bilder, Laborergebnisse und Krankenhausentlassungsberichte", "kategorie": "tech" },
+      { "snippet": "genomische Daten", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "26. März 2035: Drittländer und internationale Organisationen können die Teilnahme an HealthData@EU für die Sekundärnutzung beantragen.",
+     "einfach": "Ab dem 26. März 2035 dürfen auch Länder außerhalb der EU und internationale Organisationen beantragen, an HealthData@EU teilzunehmen, der EU-Infrastruktur für die Sekundärnutzung (Weiterverwendung von Gesundheitsdaten z. B. für Forschung und Politik).",
+     "kategorien": ["frist", "akteur", "tech"],
+     "marks": [
+      { "snippet": "26. März 2035", "kategorie": "frist" },
+      { "snippet": "Drittländer und internationale Organisationen", "kategorie": "akteur" },
+      { "snippet": "HealthData@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

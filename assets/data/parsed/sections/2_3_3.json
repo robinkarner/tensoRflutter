@@ -1,0 +1,129 @@
+{
+ "sectionId": "2.3.3",
+ "title": "Anforderungen an EHR-Systeme",
+ "chapter": 2,
+ "chapterTitle": "Europäischer Gesundheitsdatenraum",
+ "page": 15,
+ "pdfPage": 25,
+ "paragraphs": [
+  {
+   "id": "2.3.3-p1",
+   "type": "text",
+   "text": "Das Kapitel III der EHDS-Verordnung normiert umfassende technische Anforderungen für EHR-Systeme. Demnach müssen EHR-Systeme zwingend zwei harmonisierte Softwarekomponenten umfassen: Die europäische Interoperabilitätssoftwarekomponente und die europäische Protokollierungssoftwarekomponente.[^74] Die konkreten gemeinsamen Spezifikationen für diese Komponenten hat die Kommission bis zum 26. März 2027 mit Durchführungsrechtsakten zu erlassen.[^75] Zum Zeitpunkt dieser Arbeit lagen diese noch nicht vor.",
+   "footnotes": [
+    {
+     "num": 74,
+     "text": "Vgl. Art 25 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 75,
+     "text": "Vgl. Art 36 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3.3-p2",
+   "type": "text",
+   "text": "Die Interoperabilitätsanforderungen im Anhang II der EHDS-Verordnung konkretisieren diese Pflichten. Systeme, die personenbezogene elektronische Gesundheitsdaten speichern, müssen über eine Schnittstelle verfügen, die den Zugang zu diesen Daten im europäischen elektronischen Austauschformat für Gesundheitsaufzeichnungen EEHRxF (European Electronic Health Record exchange Format) ermöglicht. Sie müssen auch in der Lage sein, Daten in diesem Format zu empfangen. Dabei sind Funktionen, die den autorisierten Zugang oder Export von Daten verbieten, einschränken oder unangemessen erschweren, unzulässig.[^76]",
+   "footnotes": [
+    {
+     "num": 76,
+     "text": "Vgl. Anhang II Nr 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3.3-p3",
+   "type": "text",
+   "text": "Das Austauschformat EEHRxF soll nach derzeitigem Stand der europäischen Spezifikationsarbeiten auf FHIR aufbauen.[^77]",
+   "footnotes": [
+    {
+     "num": 77,
+     "text": "Vgl. HL7 Austria (2026): Austrian Patient Summary (R4), Umfeld.",
+     "sources": [
+      "hl7at-aps-umfeld2026"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3.3-p4",
+   "type": "text",
+   "text": "Die Sicherheitsanforderungen der europäischen Protokollierungssoftwarekomponente verlangen unter anderem zuverlässige Authentifizierungsmechanismen für Angehörige der Gesundheitsberufe sowie ausreichende Protokollierungsmechanismen wie die Identität des Zugreifenden, die betroffene Person, die Herkunft der Daten, die Datenkategorien sowie Uhrzeit und Datum des Zugriffs.[^78]",
+   "footnotes": [
+    {
+     "num": 78,
+     "text": "Vgl. Anhang II Nr 3 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3.3-p5",
+   "type": "text",
+   "text": "Beide Komponenten müssen voneinander unabhängig operieren, da ihre funktionale Trennung ausdrücklich verlangt wird.[^79] EHR-Systeme dürfen daher nur dann in Verkehr gebracht oder in Betrieb genommen werden, wenn sie diesen Anforderungen genügen.[^80] Hersteller von EHR-Systemen haben die technische Dokumentation zu erstellen,[^81] die Konformität durch eine EU-Konformitätserklärung nachzuweisen,[^82] die CE-Konformitätskennzeichnung anzubringen[^83] und das System in der EU-Datenbank für EHR-Systeme und Wellness-Anwendungen zu registrieren.[^84] Die Mitgliedstaaten haben dazu Marktüberwachungsbehörden zu benennen, die mit den erforderlichen Befugnissen und Ressourcen ausgestattet sind, um die sich aus der Verordnung ergebenden Aufgaben erfüllen zu können.[^85]",
+   "footnotes": [
+    {
+     "num": 79,
+     "text": "Vgl. Art 2 Abs 2 lit n und o VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 80,
+     "text": "Vgl. Art 26 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 81,
+     "text": "Vgl. Art 30 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 82,
+     "text": "Vgl. Art 39 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 83,
+     "text": "Vgl. Art 41 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 84,
+     "text": "Vgl. Art 49 Abs 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 85,
+     "text": "Vgl. Art 43 Abs 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "sectionId": "4.4.3",
+ "paragraphs": [
+  {
+   "id": "4.4.3-p1",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung schreibt für die Sekundärnutzung ein verpflichtendes, jederzeit widerrufbares Widerspruchsrecht vor, das ab dem 26. März 2029 gilt und die Sekundärnutzung insgesamt erfasst.",
+   "sentences": [
+    {
+     "text": "Für die Sekundärnutzung sieht die EHDS-Verordnung ein eigenes Widerspruchsrecht vor.",
+     "einfach": "Für die Sekundärnutzung - also die Weiterverwendung von Gesundheitsdaten etwa für Forschung, Statistik oder Politikgestaltung statt für die Behandlung - enthält die EHDS-Verordnung (EU-Verordnung 2025/327) ein eigenes Widerspruchsrecht (Opt-Out).",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Natürliche Personen können jederzeit und ohne Angabe von Gründen der Verarbeitung ihrer personenbezogenen elektronischen Gesundheitsdaten für die Sekundärnutzung widersprechen und diesen Widerspruch jederzeit wieder rückgängig machen.[^255]",
+     "einfach": "Jede Person kann ohne Begründung verhindern, dass ihre Gesundheitsdaten für Sekundärzwecke verarbeitet werden - und diese Entscheidung später auch wieder zurücknehmen. Beides ist jederzeit möglich.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Natürliche Personen", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Anders als das für die Primärnutzung optionale Opt-Out muss dieses Recht von den Mitgliedstaaten zwingend bereitgestellt werden.[^256]",
+     "einfach": "Bei der Primärnutzung (Datennutzung für die Behandlung) dürfen die Mitgliedstaaten selbst entscheiden, ob sie ein Opt-Out anbieten; das Opt-Out für die Sekundärnutzung müssen sie dagegen verpflichtend einrichten.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Es wirkt dabei nicht nur auf den grenzüberschreitenden Austausch über HealthData@EU, sondern auf die Sekundärnutzung insgesamt, weil es auf der Ebene der Datengenehmigungen und Gesundheitsdatenanfragen ansetzt.[^257]",
+     "einfach": "Der Widerspruch stoppt nicht nur den Austausch über HealthData@EU (die EU-Infrastruktur für die grenzüberschreitende Sekundärnutzung), sondern jede Sekundärnutzung: Er greift bereits bei den Datengenehmigungen und Gesundheitsdatenanfragen, also den formalen Verfahren, über die Datennutzer überhaupt Zugang zu den Daten erhalten.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "HealthData@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Das Widerspruchsrecht gilt ab dem 26. März 2029.[^258]",
+     "einfach": "Dieses Widerspruchsrecht muss ab dem 26. März 2029 anwendbar sein - das ist der in der Verordnung festgelegte Stichtag.",
+     "kategorien": ["frist"],
+     "marks": [
+      { "snippet": "26. März 2029", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 255,
+     "quellen": ["ehds-vo"],
+     "claim": "Natürliche Personen können der Sekundärnutzung ihrer personenbezogenen elektronischen Gesundheitsdaten jederzeit ohne Begründung widersprechen und den Widerspruch widerrufen.",
+     "fundstelle": "Art 71 Abs 1",
+     "suchHinweis": "Article 71 right opt out secondary use"
+    },
+    {
+     "num": 256,
+     "quellen": ["ehds-vo"],
+     "claim": "Das Opt-Out für die Primärnutzung ist optional (Art 10), das Widerspruchsrecht für die Sekundärnutzung dagegen von den Mitgliedstaaten zwingend bereitzustellen (Art 71 Abs 2).",
+     "fundstelle": "Art 10; Art 71 Abs 2",
+     "suchHinweis": "Article 10 Article 71 Member States shall provide opt-out mechanism"
+    },
+    {
+     "num": 257,
+     "quellen": ["ehds-vo"],
+     "claim": "Der Widerspruch setzt bei Datengenehmigungen und Gesundheitsdatenanfragen (Art 68, 69) an und erfasst damit die Sekundärnutzung insgesamt, nicht nur die grenzüberschreitende Infrastruktur HealthData@EU (Art 75).",
+     "fundstelle": "Art 71 Abs 3 iVm Art 68 und 69; Art 75",
+     "suchHinweis": "Article 71(3) data permit health data request HealthData@EU Article 75"
+    },
+    {
+     "num": 258,
+     "quellen": ["ehds-vo"],
+     "claim": "Das Widerspruchsrecht nach Art 71 gilt ab dem 26. März 2029.",
+     "fundstelle": "Art 105 lit a",
+     "suchHinweis": "Article 105 apply from 26 March 2029"
+    }
+   ]
+  },
+  {
+   "id": "4.4.3-p2",
+   "type": "text",
+   "kernaussage": "Österreich hat noch keinen Widerspruchsmechanismus für die Sekundärnutzung, weil zunächst die dafür zuständige Zugangsstelle für Gesundheitsdaten gesetzlich verankert werden müsste, deren Einrichtung erst evaluiert wird.",
+   "sentences": [
+    {
+     "text": "Ein nationaler Widerspruchsmechanismus für die Sekundärnutzung besteht in Österreich noch nicht.",
+     "einfach": "In Österreich gibt es derzeit keine Möglichkeit, den vorgeschriebenen Widerspruch gegen die Sekundärnutzung tatsächlich zu erklären - der Mechanismus fehlt noch.",
+     "kategorien": ["luecke"],
+     "marks": [
+      { "snippet": "besteht in Österreich noch nicht", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Seine Schaffung setzt zunächst die gesetzliche Verankerung der für die Sekundärnutzung zuständigen Zugangsstelle für Gesundheitsdaten voraus, deren Einrichtung derzeit noch evaluiert wird.[^259]",
+     "einfach": "Bevor der Mechanismus gebaut werden kann, muss per Gesetz die Zugangsstelle für Gesundheitsdaten geschaffen werden - die Behörde, die nach der EHDS-Verordnung über Anträge auf Sekundärnutzung entscheidet. Ob und wie diese Stelle eingerichtet wird, prüft Österreich derzeit noch.",
+     "kategorien": ["akteur", "luecke"],
+     "marks": [
+      { "snippet": "Zugangsstelle für Gesundheitsdaten", "kategorie": "akteur" },
+      { "snippet": "derzeit noch evaluiert", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 259,
+     "quellen": ["parlament374ab"],
+     "claim": "Die Einrichtung der österreichischen Zugangsstelle für Gesundheitsdaten wird derzeit noch evaluiert.",
+     "fundstelle": "S. 11",
+     "suchHinweis": "Zugangsstelle Gesundheitsdaten Evaluierung Sekundärnutzung"
+    }
+   ]
+  },
+  {
+   "id": "4.4.3-p3",
+   "type": "text",
+   "kernaussage": "Ab dem 26. März 2029 kommt zu den vier Primärnutzungs-Situationen der eigenständige Sekundärnutzungs-Widerspruch nach Art 71 hinzu, der von ELGA-Widerspruch und MyHealth@EU-Opt-In unabhängig ist und einen noch nicht implementierten technischen Mechanismus erfordert.",
+   "sentences": [
+    {
+     "text": "Zu den vier Situationen der Primärnutzung tritt damit ab dem 26. März 2029 der Sekundärnutzungs-Widerspruch nach Art 71 der EHDS-Verordnung als weitere Dimension hinzu.",
+     "einfach": "Zu den vier Kombinationen aus ELGA-Widerspruch und MyHealth@EU-Opt-In (siehe Abschnitt 4.4.2) kommt ab dem 26. März 2029 eine dritte, unabhängige Entscheidung dazu: der Widerspruch gegen die Sekundärnutzung nach Artikel 71 der EHDS-Verordnung.",
+     "kategorien": ["frist", "norm", "zahl"],
+     "marks": [
+      { "snippet": "vier Situationen", "kategorie": "zahl" },
+      { "snippet": "26. März 2029", "kategorie": "frist" },
+      { "snippet": "Art 71 der EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Dieser betrifft einen anderen Zweck als der grenzüberschreitende Datenfluss der Primärnutzung und wirkt unabhängig vom ELGA-Widerspruch wie vom MyHealth@EU-Opt-In.[^260]",
+     "einfach": "Der Sekundärnutzungs-Widerspruch regelt einen anderen Verwendungszweck (Forschung statt Behandlung) und ist deshalb ein eigener Schalter: Er hängt weder davon ab, ob man ELGA widersprochen hat, noch davon, ob man das MyHealth@EU-Opt-In erklärt hat.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "ELGA-Widerspruch", "kategorie": "tech" },
+      { "snippet": "MyHealth@EU-Opt-In", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Für ihn ist überdies ein eigener technischer Mechanismus zu schaffen, der zum Zeitpunkt dieser Arbeit noch nicht implementiert ist.[^261]",
+     "einfach": "Zusätzlich muss dafür ein eigenes technisches System gebaut werden, mit dem der Widerspruch erfasst und durchgesetzt wird - dieses System existiert zum Zeitpunkt der Arbeit (Juli 2026) noch nicht.",
+     "kategorien": ["tech", "luecke"],
+     "marks": [
+      { "snippet": "eigener technischer Mechanismus", "kategorie": "tech" },
+      { "snippet": "noch nicht implementiert", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 260,
+     "quellen": ["ehds-vo"],
+     "claim": "Der Sekundärnutzungs-Widerspruch nach Art 71 betrifft die Sekundärnutzung als eigenen Zweck und wirkt unabhängig von den Mechanismen der Primärnutzung.",
+     "fundstelle": "Art 71",
+     "suchHinweis": "Article 71 opt-out secondary use"
+    },
+    {
+     "num": 261,
+     "quellen": ["parlament374ab"],
+     "claim": "Ein technischer Mechanismus für den Sekundärnutzungs-Widerspruch ist in Österreich noch nicht implementiert.",
+     "fundstelle": "S. 11",
+     "suchHinweis": "Widerspruch Sekundärnutzung technische Umsetzung EHDS"
+    }
+   ]
+  },
+  {
+   "id": "4.4.3-p4",
+   "type": "text",
+   "kernaussage": "Der Absatz leitet zur zusammenfassenden Tabelle über, die die Teilnahme an Primär- und Sekundärnutzung nach EHDS-Verordnung und österreichischem Recht gegenüberstellt.",
+   "sentences": [
+    {
+     "text": "Im Überblick stellt sich die Teilnahme an der nationalen und grenzüberschreitenden Primärnutzung sowie der Sekundärnutzung nach der EHDS-Verordnung und dem rechtlichen Rahmen in Österreich wie folgt dar (siehe Tabelle ).",
+     "einfach": "Die folgende Tabelle fasst zusammen, welche Teilnahme- und Widerspruchsregeln die EHDS-Verordnung und das österreichische Recht für die nationale und grenzüberschreitende Primärnutzung sowie für die Sekundärnutzung vorsehen.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "4.4.3-p5",
+   "type": "table",
+   "kernaussage": "Österreich ist bei der nationalen Primärnutzung EHDS-konform (Opt-Out nach § 15 GTelG), grenzüberschreitend strenger als verlangt (Opt-In nach §§ 24i und 24k GTelG) und weist bei der Sekundärnutzung eine institutionelle wie technische Umsetzungslücke auf.",
+   "beschreibung": "Die Tabelle stellt für die drei Nutzungsebenen (Primärnutzung national, Primärnutzung grenzüberschreitend, Sekundärnutzung) die Vorgaben der EHDS-Verordnung (Art 10: Widerspruch optional; Art 71: Widerspruch verpflichtend) den österreichischen Regelungen im GTelG (§ 15 Opt-Out, §§ 24i und 24k Opt-In, kein Sekundärnutzungs-Mechanismus) gegenüber. Eine Bewertungszeile ordnet jede Ebene ein: national konform, grenzüberschreitend strenger als die Verordnung, bei der Sekundärnutzung eine Umsetzungslücke.",
+   "sentences": [],
+   "belege": []
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "sectionId": "5.3.2",
+ "title": "Protokollierung",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 59,
+ "pdfPage": 69,
+ "paragraphs": [
+  {
+   "id": "5.3.2-p1",
+   "type": "text",
+   "text": "Das Protokollierungssystem dient der Dokumentation und der Nachvollziehbarkeit jeder Verarbeitung von ELGA-Gesundheitsdaten.[^337] Technisch ist es nach dem IHE-Profil ATNA umgesetzt.[^338] Die Zugriffe werden dabei in lokalen Audit Record Repositories und einem aggregierten Audit Record Repository protokolliert.[^339] Jede Verarbeitung ist nach GTelG 2012 mit Datum und Zeit, einer eindeutigen Transaktionsnummer, der Art des Vorgangs, der eindeutigen elektronischen Identität des auslösenden Gesundheitsdiensteanbieters, dem Namen der verarbeitenden Person, der Kennung der verarbeiteten Daten, den Abfragekriterien und etwaigen Fehlermeldungen zu protokollieren.[^340] Die Protokolldaten sind drei Jahre nach dem Zugriff aufzubewahren und lesbar sowie verfügbar zu halten.[^341] ELGA-Teilnehmende haben das Recht, über das Zugangsportal einfach und übersichtlich Auskunft über die sie betreffenden Protokolldaten zu erhalten.[^342]",
+   "footnotes": [
+    {
+     "num": 337,
+     "text": "Vgl. § 22 Abs 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 338,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 329.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    },
+    {
+     "num": 339,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 50.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    },
+    {
+     "num": 340,
+     "text": "Vgl. § 22 Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 341,
+     "text": "Vgl. § 22 Abs 3 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 342,
+     "text": "Vgl. § 22 Abs 4 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  }
+ ]
+}

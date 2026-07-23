@@ -1,0 +1,171 @@
+{
+ "sectionId": "2.1.4",
+ "paragraphs": [
+  {
+   "id": "2.1.4-p1",
+   "type": "text",
+   "kernaussage": "Datenverordnung und EHDS-Verordnung sind zwei sich ergänzende, aber systematisch unterschiedlich ausgerichtete Grundlagen des europäischen Datenwirtschaftsrechts.",
+   "sentences": [
+    {
+     "text": "Die Datenverordnung über harmonisierte Vorschriften für einen fairen Datenzugang und eine faire Datennutzung und die EHDS-Verordnung bilden zwei sich ergänzende, aber systematisch unterschiedlich ausgerichtete Grundlagen des europäischen Datenwirtschaftsrechts.",
+     "einfach": "Die Datenverordnung (Data Act, Verordnung (EU) 2023/2854) regelt EU-weit einheitlich fairen Zugang zu Daten und deren faire Nutzung. Sie und die EHDS-Verordnung ergänzen einander, verfolgen aber unterschiedliche Ansätze: die eine allgemein für die Datenwirtschaft, die andere speziell für Gesundheitsdaten.",
+     "kategorien": ["norm", "these"],
+     "marks": [
+      { "snippet": "Datenverordnung", "kategorie": "norm" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "zwei sich ergänzende, aber systematisch unterschiedlich ausgerichtete Grundlagen", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "2.1.4-p2",
+   "type": "text",
+   "kernaussage": "Die Datenverordnung regelt sektorübergreifend den Zugang zu und die Nutzung von Daten aus vernetzten Produkten und verbundenen Diensten und schafft einen allgemeinen Rahmen für faire Datenweitergabe im Binnenmarkt.",
+   "sentences": [
+    {
+     "text": "Die Datenverordnung verfolgt einen sektorübergreifenden Ansatz.",
+     "einfach": "Die Datenverordnung gilt nicht für eine bestimmte Branche, sondern für alle Wirtschaftsbereiche gleichermaßen.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "Datenverordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie legt Regeln für den Zugang zu und die Nutzung von Daten fest, die bei der Verwendung vernetzter Produkte und verbundener Dienste generiert werden, und schafft dabei einen allgemeinen Rahmen für die faire Datenweitergabe im Binnenmarkt der Union.[^34]",
+     "einfach": "Sie regelt, wer auf Daten zugreifen und sie nutzen darf, die vernetzte Produkte (z. B. IoT-Geräte, also Geräte mit Internetanbindung) und damit verbundene digitale Dienste erzeugen. Damit entsteht ein allgemeiner Rahmen für die faire Weitergabe von Daten im EU-Binnenmarkt.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "vernetzter Produkte und verbundener Dienste", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 34,
+     "quellen": ["datenverordnung"],
+     "claim": "Die Datenverordnung legt Regeln für den Zugang zu und die Nutzung von Daten aus vernetzten Produkten und verbundenen Diensten fest.",
+     "fundstelle": "Art 1 Abs 1",
+     "suchHinweis": "Artikel 1 Gegenstand vernetzte Produkte verbundene Dienste"
+    }
+   ]
+  },
+  {
+   "id": "2.1.4-p3",
+   "type": "text",
+   "kernaussage": "Bei Gesundheitsgeräten wie Insulinpumpen oder Wearables regelt die Datenverordnung den Zugang zu den Gerätedaten, während die EHDS-Verordnung deren Nutzung für die Sekundärnutzung über HealthData@EU regelt.",
+   "sentences": [
+    {
+     "text": "Im Gesundheitskontext zählen beispielsweise Insulinpumpen, Wearables, Fitness-Tracker oder Telemedizingeräte dazu, die nach der EHDS-Verordnung automatisch generierte Daten aus Medizinprodukten oder Wellness-Anwendungen für die Sekundärnutzung darstellen.[^35]",
+     "einfach": "Im Gesundheitsbereich fallen darunter z. B. Insulinpumpen, Wearables (am Körper getragene Geräte wie Smartwatches), Fitness-Tracker oder Telemedizingeräte. Die Daten, die solche Medizinprodukte und Wellness-Anwendungen automatisch erzeugen, gehören nach der EHDS-Verordnung zu den Datenkategorien für die Sekundärnutzung (Weiterverwendung z. B. für Forschung).",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "Insulinpumpen, Wearables, Fitness-Tracker oder Telemedizingeräte", "kategorie": "tech" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Medizinprodukten oder Wellness-Anwendungen", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Datenverordnung definiert, wer Zugang zu diesen Gerätedaten hat,[^36] die EHDS-Verordnung regelt, wie diese Daten beispielsweise für die Forschungstätigkeit im Bereich des Gesundheitswesens im Rahmen der EHDS-Sekundärnutzung über HealthData@EU genutzt werden dürfen.[^37]",
+     "einfach": "Die Aufgabenteilung: Die Datenverordnung bestimmt, wer überhaupt Zugang zu diesen Gerätedaten bekommt (etwa die Nutzer selbst). Die EHDS-Verordnung regelt dann, wie diese Daten z. B. für die Gesundheitsforschung im Rahmen der Sekundärnutzung über die EU-Infrastruktur HealthData@EU genutzt werden dürfen.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "Datenverordnung", "kategorie": "norm" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "HealthData@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 35,
+     "quellen": ["ehds-vo"],
+     "claim": "Automatisch generierte Daten aus Medizinprodukten und Wellness-Anwendungen zählen nach der EHDS-Verordnung zu den Datenkategorien für die Sekundärnutzung.",
+     "fundstelle": "Art 51 Abs 1 lit h und i",
+     "suchHinweis": "Artikel 51 Datenkategorien Medizinprodukte Wellness-Anwendungen"
+    },
+    {
+     "num": 36,
+     "quellen": ["datenverordnung"],
+     "claim": "Die Datenverordnung definiert, wer Zugang zu den von vernetzten Geräten generierten Daten hat.",
+     "fundstelle": "Art 1 Abs 3",
+     "suchHinweis": "Artikel 1 Anwendungsbereich Dateninhaber Datennutzer"
+    },
+    {
+     "num": 37,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung regelt die Nutzung dieser Daten für Forschungszwecke im Rahmen der Sekundärnutzung über die Infrastruktur HealthData@EU.",
+     "fundstelle": "Art 75 Abs 4",
+     "suchHinweis": "Artikel 75 HealthData@EU Sekundärnutzung Forschung"
+    }
+   ]
+  },
+  {
+   "id": "2.1.4-p4",
+   "type": "text",
+   "kernaussage": "Beide Rechtsakte grenzen sich wechselseitig ab: Der EHDS geht beim Datenzugang öffentlicher Stellen über Kapitel V der Datenverordnung hinaus, während für Gebühren der Sekundärnutzung die Datenverordnung gilt.",
+   "sentences": [
+    {
+     "text": "Die EHDS-Verordnung lässt die Datenverordnung ausdrücklich unberührt.[^38]",
+     "einfach": "Die EHDS-Verordnung stellt ausdrücklich klar, dass die Datenverordnung daneben weiter uneingeschränkt gilt und nicht verdrängt wird.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Datenverordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Umgekehrt weist die Datenverordnung dem spezialgesetzlichen Gesundheitsdatenrecht seinen Raum zu.",
+     "einfach": "Umgekehrt erkennt die Datenverordnung an, dass für Gesundheitsdaten speziellere Regeln (wie die EHDS-Verordnung) Vorrang in ihrem Bereich haben.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "Datenverordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Der EHDS-Rahmen geht etwa beim Datenzugang öffentlicher Stellen über den auf außergewöhnliche Notwendigkeit beschränkten Geltungsbereich von Kapitel V der Datenverordnung hinaus,[^39] während für Gebühren bei der Sekundärnutzung über Zugangsstellen für Gesundheitsdaten die Datenverordnung angewendet werden soll.[^40]",
+     "einfach": "Zwei Beispiele für die Abgrenzung: Nach Kapitel V der Datenverordnung dürfen öffentliche Stellen nur bei außergewöhnlicher Notwendigkeit (z. B. in Notlagen) auf Unternehmensdaten zugreifen; der EHDS erlaubt den Zugang zu Gesundheitsdaten darüber hinaus. Bei den Gebühren, die Zugangsstellen für Gesundheitsdaten für die Sekundärnutzung verlangen, soll dagegen die Datenverordnung angewendet werden.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "EHDS-Rahmen", "kategorie": "norm" },
+      { "snippet": "öffentlicher Stellen", "kategorie": "akteur" },
+      { "snippet": "Kapitel V der Datenverordnung", "kategorie": "norm" },
+      { "snippet": "Zugangsstellen für Gesundheitsdaten", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 38,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung lässt die Datenverordnung ausdrücklich unberührt.",
+     "fundstelle": "Art 1 Abs 3",
+     "suchHinweis": "Artikel 1 unberührt Verordnung 2023/2854"
+    },
+    {
+     "num": 39,
+     "quellen": ["datenverordnung"],
+     "claim": "Kapitel V der Datenverordnung beschränkt den Datenzugang öffentlicher Stellen auf Fälle außergewöhnlicher Notwendigkeit.",
+     "fundstelle": "Art 15",
+     "suchHinweis": "Artikel 15 außergewöhnliche Notwendigkeit öffentliche Stellen"
+    },
+    {
+     "num": 40,
+     "quellen": ["ehds-vo", "datenverordnung"],
+     "claim": "Für Gebühren bei der Sekundärnutzung über Zugangsstellen für Gesundheitsdaten soll die Datenverordnung angewendet werden.",
+     "fundstelle": "ErwGr 70 und Art 62 Abs 1 (EHDS-VO); Art 9 (Datenverordnung)",
+     "suchHinweis": "Erwägungsgrund 70 Artikel 62 Gebühren Artikel 9 Gegenleistung"
+    }
+   ]
+  }
+ ]
+}

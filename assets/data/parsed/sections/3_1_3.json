@@ -1,0 +1,59 @@
+{
+ "sectionId": "3.1.3",
+ "title": "Hybrid",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 21,
+ "pdfPage": 31,
+ "paragraphs": [
+  {
+   "id": "3.1.3-p1",
+   "type": "text",
+   "text": "Das hybride Modell kombiniert zentrale und dezentrale Elemente, indem unterschiedliche Datenkategorien je nach Anforderungsprofil unterschiedlich gespeichert werden. Datenkategorien, für die eine vollständige, einrichtungsübergreifende Verfügbarkeit in Echtzeit essenziell ist, werden zentral abgelegt.[^109] Datenkategorien, bei denen die Datensouveränität der erstellenden Einrichtung im Vordergrund steht, verbleiben dezentral.[^110] Dieser hybride Ansatz vereint die Vorteile sowohl der zentralen als auch der dezentralen Architektur.[^111]",
+   "footnotes": [
+    {
+     "num": 109,
+     "text": "Vgl. McCarthy et al. (2014): Learning from Health Information Exchange Technical Architecture and Implementation in Seven Beacon Communities. S. 5.",
+     "sources": [
+      "mccarthy2014"
+     ]
+    },
+    {
+     "num": 110,
+     "text": "Vgl. Scheibner et al. (2021): Benefits, Challenges and Contributors to Success for National eHealth Systems Implementation: A Scoping Review, S. 12.",
+     "sources": [
+      "scheibner2021"
+     ]
+    },
+    {
+     "num": 111,
+     "text": "Vgl. AlJarullah et al. (2013): A Novel System Architecture for the National Integration of Electronic Health Records, S. 16.",
+     "sources": [
+      "aljarullah2013"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.1.3-p2",
+   "type": "text",
+   "text": "Aus EHDS-Perspektive ist der hybride Ansatz auch mit den Anforderungen der Verordnung vereinbar, da diese keinen konkreten Architekturansatz vorschreibt, sondern Interoperabilität und Datenaustausch auf Basis des EEHRxF in den Vordergrund stellt.[^112] Hybride Architekturen können sowohl die Vorgaben zur Datenverfügbarkeit als auch das Gebot der Datenminimierung in Einklang bringen. Voraussetzung ist allerdings, dass alle Komponenten - zentrale wie dezentrale - die in Anhang II der EHDS-Verordnung normierten Anforderungen an die europäische Interoperabilitäts- und Protokollierungssoftwarekomponente erfüllen. Österreich gilt mit ELGA als Referenzbeispiel für eine hybride nationale Architektur (siehe Kapitel 5).[^113]",
+   "footnotes": [
+    {
+     "num": 112,
+     "text": "Vgl. Pedrera-Jiménez et al. (2023):Can OpenEHR, ISO 13606, and HL7 FHIR Work Together? S. 1.",
+     "sources": [
+      "pedrera2023"
+     ]
+    },
+    {
+     "num": 113,
+     "text": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH, S. 11 und 49f.",
+     "sources": [
+      "rh-elga2024"
+     ]
+    }
+   ]
+  }
+ ]
+}

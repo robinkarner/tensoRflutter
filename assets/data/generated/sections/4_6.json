@@ -1,0 +1,87 @@
+{
+ "sectionId": "4.6",
+ "paragraphs": [
+  {
+   "id": "4.6-p1",
+   "type": "text",
+   "kernaussage": "Die nationalen Verpflichtungstermine der ELGA-VO 2015 liegen durchwegs vor den EHDS-Fristen, sodass die stufenweise ELGA-Ausrollung insoweit EHDS-kompatibel ist.",
+   "sentences": [
+    {
+     "text": "Stellt man die nationalen Verpflichtungstermine der ELGA-VO 2015 den Fristen der EHDS-Verordnung gegenüber, zeigt sich, dass Österreich bei den ELGA-Pflichten (Entlassungsbriefe, Laborbefunde, Radiologiebefunde, Medikationsdaten) gut positioniert ist.",
+     "einfach": "Die ELGA-Verordnung 2015 ist eine österreichische Verordnung, die festlegt, ab wann welche Dokumententypen verpflichtend in die Elektronische Gesundheitsakte (ELGA) eingestellt werden müssen. Vergleicht man diese Termine mit den Fristen der EU-EHDS-Verordnung, steht Österreich bei Entlassungsbriefen, Labor- und Radiologiebefunden sowie Medikationsdaten gut da.",
+     "kategorien": ["norm", "these"],
+     "marks": [
+      { "snippet": "ELGA-VO 2015", "kategorie": "norm" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "gut positioniert", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die nationalen Verpflichtungstermine liegen durchwegs vor den EHDS-Deadlines und damit ist die stufenweise Ausrollung entlang der ELGA-VO 2015 insoweit EHDS-kompatibel.[^268]",
+     "einfach": "Alle österreichischen Pflichttermine treten früher ein als die entsprechenden EU-Fristen des EHDS. Der schrittweise Ausbau von ELGA nach der ELGA-Verordnung 2015 passt daher in diesem Punkt zu den EU-Vorgaben.",
+     "kategorien": ["norm", "frist", "these"],
+     "marks": [
+      { "snippet": "nationalen Verpflichtungstermine", "kategorie": "frist" },
+      { "snippet": "EHDS-Deadlines", "kategorie": "frist" },
+      { "snippet": "ELGA-VO 2015", "kategorie": "norm" },
+      { "snippet": "EHDS-kompatibel", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 268,
+     "quellen": ["pdg-roadmap2026"],
+     "claim": "Die Gegenüberstellung der nationalen Verpflichtungstermine mit den EHDS-Fristen und die Einschätzung der EHDS-Kompatibilität stützen sich auf die eHealth-Roadmap der Plattform für Digitale Gesundheit.",
+     "fundstelle": "",
+     "suchHinweis": "eHealth-Roadmap Verpflichtungstermine ELGA EHDS Stufenplan"
+    }
+   ]
+  },
+  {
+   "id": "4.6-p2",
+   "type": "text",
+   "kernaussage": "Die kritischen Umsetzungslücken liegen bei den bis 26. März 2027 einzurichtenden institutionellen Strukturen und bei der bis 26. März 2029 grenzüberschreitend zu betreibenden EU-Patientenkurzakte.",
+   "sentences": [
+    {
+     "text": "Die kritischen Gaps konzentrieren sich auf folgende Bereiche.",
+     "einfach": "Die wesentlichen noch offenen Lücken bei der EHDS-Umsetzung in Österreich betreffen zwei Bereiche, die im Folgenden benannt werden.",
+     "kategorien": ["luecke"],
+     "marks": [
+      { "snippet": "kritischen Gaps", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Zum einen auf die noch nicht erfolgte Einrichtung institutioneller Strukturen (DHA, Marktüberwachungsbehörde, Zugangsstelle für Gesundheitsdaten), die bis 26. März 2027 bereitzustellen sind und eine gesetzliche Verankerung erfordern.",
+     "einfach": "Erstens fehlen noch die vom EHDS geforderten Institutionen: die Behörde für digitale Gesundheit (DHA, Digital Health Authority), eine Marktüberwachungsbehörde für EHR-Systeme und eine Zugangsstelle für Gesundheitsdaten. Diese müssen bis 26. März 2027 existieren und brauchen dafür eine Grundlage in einem österreichischen Gesetz.",
+     "kategorien": ["luecke", "akteur", "frist"],
+     "marks": [
+      { "snippet": "noch nicht erfolgte Einrichtung institutioneller Strukturen", "kategorie": "luecke" },
+      { "snippet": "DHA", "kategorie": "akteur" },
+      { "snippet": "Marktüberwachungsbehörde", "kategorie": "akteur" },
+      { "snippet": "Zugangsstelle für Gesundheitsdaten", "kategorie": "akteur" },
+      { "snippet": "26. März 2027", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Zum anderen auf die EU-Patientenkurzakte, die bis 26. März 2029 grenzüberschreitend operativ sein muss, technisch aber noch nicht produktiv und verordnungsrechtlich noch nicht vollständig abgesichert ist (fehlende Verordnung nach § 28c Abs 2 GTelG 2012).",
+     "einfach": "Zweitens muss die EU-Patientenkurzakte (eine standardisierte Zusammenfassung der wichtigsten Gesundheitsdaten einer Person) bis 26. März 2029 im grenzüberschreitenden Betrieb funktionieren. Technisch läuft sie in Österreich aber noch nicht im Echtbetrieb, und die dafür vorgesehene Verordnung nach § 28c Abs 2 des Gesundheitstelematikgesetzes 2012 wurde noch nicht erlassen.",
+     "kategorien": ["luecke", "frist", "norm", "tech"],
+     "marks": [
+      { "snippet": "EU-Patientenkurzakte", "kategorie": "tech" },
+      { "snippet": "26. März 2029", "kategorie": "frist" },
+      { "snippet": "technisch aber noch nicht produktiv", "kategorie": "luecke" },
+      { "snippet": "verordnungsrechtlich noch nicht vollständig abgesichert", "kategorie": "luecke" },
+      { "snippet": "§ 28c Abs 2 GTelG 2012", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

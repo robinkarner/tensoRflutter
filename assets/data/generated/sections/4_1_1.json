@@ -1,0 +1,281 @@
+{
+ "sectionId": "4.1.1",
+ "paragraphs": [
+  {
+   "id": "4.1.1-p1",
+   "type": "text",
+   "kernaussage": "Das GTelG 2012 legt abschließend (taxativ) fest, welche Berufsgruppen und Einrichtungen als ELGA-Gesundheitsdiensteanbieter ELGA nutzen dürfen und müssen.",
+   "sentences": [
+    {
+     "text": "Das GTelG 2012 definiert den Kreis der ELGA-Gesundheitsdiensteanbieter (ELGA-GDA) taxativ.[^191]",
+     "einfach": "Das Gesundheitstelematikgesetz 2012 (GTelG 2012) zählt abschließend („taxativ\") auf, wer als ELGA-Gesundheitsdiensteanbieter (ELGA-GDA) gilt. Taxativ bedeutet: Nur die ausdrücklich genannten Gruppen zählen dazu, die Liste darf nicht erweiternd ausgelegt werden.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "GTelG 2012", "kategorie": "norm" },
+      { "snippet": "ELGA-Gesundheitsdiensteanbieter (ELGA-GDA)", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das bedeutet, dass nur die dort ausdrücklich genannten Berufsgruppen und Einrichtungen berechtigt und nach Maßgabe der ELGA-VO 2015 verpflichtet sind, ELGA zu nutzen.",
+     "einfach": "Nur die im Gesetz genannten Berufsgruppen und Einrichtungen dürfen ELGA verwenden – und müssen es teilweise auch; die Details dieser Nutzungspflicht regelt die ELGA-Verordnung 2015.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "ELGA-VO 2015", "kategorie": "norm" },
+      { "snippet": "Berufsgruppen und Einrichtungen", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Im Einzelnen umfasst der Kreis:",
+     "einfach": "Es folgt die Aufzählung der einzelnen Gruppen, die zum ELGA-GDA-Kreis gehören.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 191,
+     "quellen": ["gtelg2012"],
+     "claim": "Das GTelG 2012 definiert den Kreis der ELGA-Gesundheitsdiensteanbieter in einer abschließenden (taxativen) Aufzählung.",
+     "fundstelle": "§ 2 Z 10",
+     "suchHinweis": "§ 2 Z 10 Begriffsbestimmungen ELGA-Gesundheitsdiensteanbieter"
+    }
+   ]
+  },
+  {
+   "id": "4.1.1-p2",
+   "type": "list",
+   "kernaussage": "Zum ELGA-GDA-Kreis gehören Ärzte, Zahnärzte, Apotheken, Krankenanstalten, bestimmte Pflegeeinrichtungen, Rettungsdienste und die Gesundheitsberatung 1450 – jeweils mit ausdrücklich geregelten Ausnahmen.",
+   "sentences": [
+    {
+     "text": "Angehörige des ärztlichen Berufs gemäß § 3 des Ärztegesetzes 1998, einschließlich Gruppenpraxen. Ausdrücklich ausgenommen sind Amtsärzte, Arbeitsmediziner, Schulärzte sowie Ärzte, die chef- und kontrollärztliche Aufgaben der Sozialversicherungsträger erfüllen oder Versicherungsverhältnisse beurteilen. [^192]",
+     "einfach": "Ärztinnen und Ärzte im Sinne des Ärztegesetzes 1998 sind ELGA-GDA, auch in Gruppenpraxen (Zusammenschlüsse mehrerer Ärzte). Nicht dazu zählen Ärzte ohne klassische Behandlungsrolle: Amtsärzte (Behördenärzte), Arbeitsmediziner, Schulärzte und Ärzte, die für die Sozialversicherung Kontroll- oder Begutachtungsaufgaben (z. B. Bewilligung von Leistungen) erledigen.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "§ 3 des Ärztegesetzes 1998", "kategorie": "norm" },
+      { "snippet": "Amtsärzte, Arbeitsmediziner, Schulärzte", "kategorie": "akteur" },
+      { "snippet": "Sozialversicherungsträger", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Angehörige des zahnärztlichen Berufs gemäß § 5 des Zahnärztegesetzes, einschließlich Gruppenpraxen. Ausdrücklich ausgenommen sind Amtszahnärzte sowie chef- und kontrollärztlich tätige Zahnärzte oder Zahnärzte, die Ansprüche aus Versicherungsverhältnissen beurteilen.[^193]",
+     "einfach": "Dasselbe gilt für Zahnärztinnen und Zahnärzte nach dem Zahnärztegesetz samt Gruppenpraxen; ausgenommen sind wieder Amtszahnärzte sowie Zahnärzte mit Kontroll- oder Gutachterfunktion für Versicherungen.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "§ 5 des Zahnärztegesetzes", "kategorie": "norm" },
+      { "snippet": "Amtszahnärzte", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Apotheken gemäß § 1 des Apothekengesetzes.[^194]",
+     "einfach": "Apotheken im Sinne des Apothekengesetzes sind ELGA-GDA.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "Apotheken", "kategorie": "akteur" },
+      { "snippet": "§ 1 des Apothekengesetzes", "kategorie": "norm" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Krankenanstalten gemäß § 1 des Bundesgesetzes über Krankenanstalten und Kuranstalten, ausgenommen selbstständige Ambulatorien im Aufgabenbereich der Arbeitsmedizin.[^195]",
+     "einfach": "Krankenhäuser (Krankenanstalten) im Sinne des Krankenanstaltengesetzes sind ELGA-GDA; ausgenommen sind nur eigenständige Ambulatorien, die arbeitsmedizinische Aufgaben erfüllen.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "Krankenanstalten", "kategorie": "akteur" },
+      { "snippet": "§ 1 des Bundesgesetzes über Krankenanstalten und Kuranstalten", "kategorie": "norm" },
+      { "snippet": "selbstständige Ambulatorien", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Einrichtungen der Pflege, deren Betrieb einer bundes- oder landesgesetzlichen Bewilligungs- oder Meldepflicht unterliegt oder die von einem Bundesland finanziert werden, wobei Einrichtungen für Menschen mit Behinderungen und Einrichtungen der teilstationären Tagesbetreuung nicht umfasst sind.[^196]",
+     "einfach": "Pflegeeinrichtungen zählen dazu, wenn ihr Betrieb behördlich bewilligt oder gemeldet werden muss oder wenn ein Bundesland sie finanziert. Einrichtungen für Menschen mit Behinderungen und teilstationäre Tagesbetreuung (Betreuung nur tagsüber) sind ausgenommen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Einrichtungen der Pflege", "kategorie": "akteur" },
+      { "snippet": "Einrichtungen für Menschen mit Behinderungen", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Rettungsdienste, sofern deren Betrieb nach bundes- oder landesgesetzlichen Vorschriften bewilligungspflichtig ist oder der behördlichen Aufsicht unterliegt.[^197]",
+     "einfach": "Rettungsdienste sind ELGA-GDA, sofern ihr Betrieb behördlich bewilligt werden muss oder unter behördlicher Aufsicht steht.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Rettungsdienste", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Gesundheitsberatung 1450, die von den Bundesländern in ihrem jeweiligen Zuständigkeitsbereich betriebene Einrichtung zur Beantwortung gesundheitsbezogener Bürgerfragen.[^198]",
+     "einfach": "Auch die telefonische Gesundheitsberatung 1450, die die Bundesländer jeweils für ihr Gebiet betreiben, um Gesundheitsfragen der Bevölkerung zu beantworten, gehört zum ELGA-GDA-Kreis.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Gesundheitsberatung 1450", "kategorie": "akteur" },
+      { "snippet": "Bundesländern", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 192,
+     "quellen": ["gtelg2012"],
+     "claim": "Ärzte gemäß § 3 ÄrzteG 1998 einschließlich Gruppenpraxen sind ELGA-GDA; Amtsärzte, Arbeitsmediziner, Schulärzte sowie chef- und kontrollärztlich tätige Ärzte sind ausgenommen.",
+     "fundstelle": "§ 2 Z 10 lit a",
+     "suchHinweis": "§ 2 Z 10 lit a ärztlichen Berufes Ärztegesetz"
+    },
+    {
+     "num": 193,
+     "quellen": ["gtelg2012"],
+     "claim": "Zahnärzte gemäß § 5 ZÄG einschließlich Gruppenpraxen sind ELGA-GDA; Amtszahnärzte und kontrollärztlich tätige Zahnärzte sind ausgenommen.",
+     "fundstelle": "§ 2 Z 10 lit b",
+     "suchHinweis": "§ 2 Z 10 lit b zahnärztlichen Berufes Zahnärztegesetz"
+    },
+    {
+     "num": 194,
+     "quellen": ["gtelg2012"],
+     "claim": "Apotheken gemäß § 1 Apothekengesetz sind ELGA-GDA.",
+     "fundstelle": "§ 2 Z 10 lit c",
+     "suchHinweis": "§ 2 Z 10 lit c Apotheken Apothekengesetz"
+    },
+    {
+     "num": 195,
+     "quellen": ["gtelg2012"],
+     "claim": "Krankenanstalten gemäß § 1 KAKuG sind ELGA-GDA, ausgenommen selbstständige arbeitsmedizinische Ambulatorien.",
+     "fundstelle": "§ 2 Z 10 lit d",
+     "suchHinweis": "§ 2 Z 10 lit d Krankenanstalten Kuranstalten Ambulatorien"
+    },
+    {
+     "num": 196,
+     "quellen": ["gtelg2012"],
+     "claim": "Bewilligungs- oder meldepflichtige bzw. landesfinanzierte Pflegeeinrichtungen sind ELGA-GDA, nicht aber Behinderteneinrichtungen und teilstationäre Tagesbetreuung.",
+     "fundstelle": "§ 2 Z 10 lit e",
+     "suchHinweis": "§ 2 Z 10 lit e Einrichtungen Pflege Bewilligungspflicht"
+    },
+    {
+     "num": 197,
+     "quellen": ["gtelg2012"],
+     "claim": "Bewilligungspflichtige oder behördlich beaufsichtigte Rettungsdienste sind ELGA-GDA.",
+     "fundstelle": "§ 2 Z 10 lit f",
+     "suchHinweis": "§ 2 Z 10 lit f Rettungsdienste behördliche Aufsicht"
+    },
+    {
+     "num": 198,
+     "quellen": ["gtelg2012"],
+     "claim": "Die von den Bundesländern betriebene Gesundheitsberatung 1450 ist ELGA-GDA.",
+     "fundstelle": "§ 2 Z 10 lit g",
+     "suchHinweis": "§ 2 Z 10 lit g Gesundheitsberatung 1450"
+    }
+   ]
+  },
+  {
+   "id": "4.1.1-p3",
+   "type": "text",
+   "kernaussage": "Der EHDS-Begriff „Gesundheitsdienstleister\" ist konzeptionell weiter als der taxative österreichische GDA-Kreis, weshalb bis März 2029 zu klären ist, ob das österreichische Recht nachgeschärft werden muss.",
+   "sentences": [
+    {
+     "text": "Die EHDS-Verordnung verwendet im Unterschied zum GTelG 2012 den Begriff „Gesundheitsdienstleister\" für alle natürlichen oder juristischen Personen, die im Rahmen der Gesundheitsversorgung tätig werden.[^199]",
+     "einfach": "Die EHDS-Verordnung (EU-Verordnung 2025/327 zum europäischen Gesundheitsdatenraum) verwendet einen anderen Ansatz: „Gesundheitsdienstleister\" ist dort jede natürliche oder juristische Person, die Gesundheitsversorgung erbringt – ohne feste Berufsliste.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "GTelG 2012", "kategorie": "norm" },
+      { "snippet": "Gesundheitsdienstleister", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Dieser Ansatz ist konzeptionell breiter als die taxative Aufzählung in Österreich.",
+     "einfach": "Der offene EU-Begriff erfasst potenziell mehr Akteure als die abschließende Liste im österreichischen Gesetz.",
+     "kategorien": ["these"],
+     "marks": [
+      { "snippet": "konzeptionell breiter", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Ob der österreichische GDA-Kreis für eine vollständige EHDS-Umsetzung ausreicht oder legislativer Nachschärfung bedarf, ist eine Frage, die im Rahmen der EHDS-Implementierung bis spätestens März 2029 mit dem Inkrafttreten der wichtigsten Elemente der EHDS-Verordnung geklärt werden muss.",
+     "einfach": "Ob die österreichische GDA-Liste für die volle EHDS-Umsetzung genügt oder das Gesetz erweitert werden muss, ist noch offen. Geklärt werden muss das bis März 2029, wenn die zentralen Pflichten der EHDS-Verordnung anwendbar werden.",
+     "kategorien": ["luecke", "frist", "norm", "akteur"],
+     "marks": [
+      { "snippet": "legislativer Nachschärfung bedarf", "kategorie": "luecke" },
+      { "snippet": "bis spätestens März 2029", "kategorie": "frist" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "GDA-Kreis", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 199,
+     "quellen": ["ehds-vo", "rl-2011-24"],
+     "claim": "Die EHDS-Verordnung definiert „Gesundheitsdienstleister\" durch Verweis auf die Patientenmobilitätsrichtlinie als jede natürliche oder juristische Person, die rechtmäßig Gesundheitsversorgung erbringt.",
+     "fundstelle": "Art 2 Abs 1 lit b VO (EU) 2025/327 iVm Art 3 lit g RL 2011/24/EU",
+     "suchHinweis": "definition healthcare provider Article 2 Directive 2011/24"
+    }
+   ]
+  },
+  {
+   "id": "4.1.1-p4",
+   "type": "text",
+   "kernaussage": "Auch die ELGA-Gesundheitsdaten sind im GTelG 2012 abschließend aufgezählt: medizinische Dokumente samt Bilddaten, eMedikation, Patientenverfügungen, Vorsorgevollmachten, Registerdaten nach dem MPG 2021 und 1450-Ergebnisberichte.",
+   "sentences": [
+    {
+     "text": "Das GTelG 2012 definiert ELGA-Gesundheitsdaten ebenfalls taxativ und führt medizinische Dokumente einschließlich allfälliger Bilddaten (Entlassungsbriefe, Laborbefunde, Befunde der bildgebenden Diagnostik sowie weitere medizinische Befunde), Medikationsdaten (eMedikation), Patientenverfügungen, Vorsorgevollmachten, Daten aus den Registern gemäß den §§ 45 und 46 des Medizinproduktegesetzes 2021 (MPG 2021) und Ergebnisberichte der Gesundheitsberatung 1450 an.[^200]",
+     "einfach": "Auch die Datenarten in ELGA sind abschließend aufgezählt: medizinische Dokumente samt Bildern (z. B. Entlassungsbriefe, Laborbefunde, Röntgen-/Radiologiebefunde), Medikationsdaten (eMedikation, die elektronische Liste verordneter und abgegebener Arzneimittel), Patientenverfügungen (Vorausfestlegungen zu medizinischen Behandlungen), Vorsorgevollmachten, Daten aus bestimmten Registern nach dem Medizinproduktegesetz 2021 sowie Ergebnisberichte der telefonischen Gesundheitsberatung 1450.",
+     "kategorien": ["norm", "tech", "akteur"],
+     "marks": [
+      { "snippet": "GTelG 2012", "kategorie": "norm" },
+      { "snippet": "eMedikation", "kategorie": "tech" },
+      { "snippet": "§§ 45 und 46 des Medizinproduktegesetzes 2021 (MPG 2021)", "kategorie": "norm" },
+      { "snippet": "Gesundheitsberatung 1450", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 200,
+     "quellen": ["gtelg2012"],
+     "claim": "Das GTelG 2012 zählt die ELGA-Gesundheitsdaten abschließend auf (medizinische Dokumente, eMedikation, Patientenverfügungen, Vorsorgevollmachten, MPG-Registerdaten, 1450-Ergebnisberichte).",
+     "fundstelle": "§ 2 Z 9 lit a bis g",
+     "suchHinweis": "§ 2 Z 9 ELGA-Gesundheitsdaten Entlassungsbriefe eMedikation"
+    }
+   ]
+  },
+  {
+   "id": "4.1.1-p5",
+   "type": "text",
+   "kernaussage": "Die gesetzliche Grundlage für das Austrian Patient Summary als Brücke zur EHDS-Patientenkurzakte besteht in Verordnungsermächtigungen für den Gesundheitsminister bzw. die Gesundheitsministerin.",
+   "sentences": [
+    {
+     "text": "Die für den Aufbau des Austrian Patient Summary (APS) relevante gesetzliche Grundlage als Brücke zur Patientenkurzakte der EHDS-Verordnung ist durch Verordnungsermächtigungen für den zuständigen Bundesminister oder die zuständige Bundesministerin geregelt.[^201]",
+     "einfach": "Das Austrian Patient Summary (APS) ist die österreichische Patientenkurzfassung, die später der „Patientenkurzakte\" der EHDS-Verordnung entsprechen soll. Seine gesetzliche Basis besteht aus Verordnungsermächtigungen, also gesetzlichen Befugnissen für den zuständigen Minister bzw. die Ministerin, die Details per Verordnung festzulegen.",
+     "kategorien": ["norm", "tech", "akteur"],
+     "marks": [
+      { "snippet": "Austrian Patient Summary (APS)", "kategorie": "tech" },
+      { "snippet": "Patientenkurzakte", "kategorie": "tech" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Bundesminister oder die zuständige Bundesministerin", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 201,
+     "quellen": ["gtelg2012"],
+     "claim": "Die Verordnungsermächtigung für den Aufbau des Austrian Patient Summary findet sich in § 28c Abs 2 GTelG 2012.",
+     "fundstelle": "§ 28c Abs 2",
+     "suchHinweis": "§ 28c Patient Summary Verordnungsermächtigung"
+    }
+   ]
+  }
+ ]
+}

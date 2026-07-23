@@ -1,0 +1,49 @@
+{
+ "einSatz": "Österreichs ELGA erfüllt die Primärnutzungs-Anforderungen des EHDS in weiten Teilen schon heute — die verbleibende Arbeit bis 2029 ist vor allem rechtlich (Behörden, Benachrichtigung, Opt-In-Frage, Sekundärnutzungs-Widerspruch) und punktuell technisch (produktive Patientenkurzakte).",
+ "executiveSummary": "### Fragestellung und Vorgehen\nMit der Verordnung (EU) 2025/327 über den Europäischen Gesundheitsdatenraum (EHDS) gilt seit 26. März 2025 ein unmittelbar anwendbarer EU-Rechtsrahmen, der bis 2029/2031 gestuft den Bürgerzugang zu elektronischen Gesundheitsdaten und deren grenzüberschreitenden Austausch verlangt. Die Arbeit prüft, inwieweit die österreichische ELGA diese **Primärnutzungs-Anforderungen** bereits erfüllt. Dazu verbindet sie drei Stränge: die unionsrechtlichen Vorgaben (Kapitel 2), die technischen Grundlagen elektronischer Gesundheitsakten (Kapitel 3) und den österreichischen Rechtsrahmen aus GTelG 2012 und ELGA-VO 2015 (Kapitel 4), bevor Kapitel 5 die reale ELGA-Infrastruktur komponentenweise gegen die Verordnung hält.\n\n### Hauptergebnisse\nELGA erweist sich als **hybride, ausgereifte Infrastruktur**: zentrale Dienste (Patientenindex, Berechtigungssystem, Protokollierung, Bürger-Zugangsportal) plus dreizehn dezentrale Dokumenten-Bereiche nach IHE-Standards. Damit sind wesentliche EHDS-Rechte schon heute abgedeckt — der Zugang natürlicher Personen (Art 3) über das Portal, die granulare Zugangskontrolle (Art 8) über default deny, Rollenrechte und XACML-Feinsteuerung, die Zugriffsprotokollierung samt dreijähriger Abrufbarkeit (Art 9 Abs 2). Von den sechs prioritären Datenkategorien sind fünf produktiv; die nationalen Speicherpflicht-Termine liegen vor den EHDS-Fristen. Seit Februar 2026 ist Österreich über das Projekt AT-eHDSI produktiv an MyHealth@EU angebunden (EU-Rezept ausgehend, EU-Patientenkurzakte eingehend, Start mit Tschechien).\n\n### Lücken und Spannungen\nVier Lücken bleiben: die **automatische Zugriffs-Benachrichtigung** nach Art 9 (nur abrufbasierte Auskunft vorhanden; die Protokolldaten lägen im A-ARR bereit), die **fehlenden Institutionen** (Stelle für digitale Gesundheit, Marktüberwachungsbehörde, Zugangsstelle für Gesundheitsdaten — Frist 26.3.2027, gesetzliche Grundlage fehlt), die **Patientenkurzakte** (APS nur Erprobungsstandard, ausgehende Bereitstellung offen) und der **zwingende Sekundärnutzungs-Widerspruch** (Art 71, ab 2029). Dazu treten Spannungen: Das österreichische **Opt-In** für den grenzüberschreitenden Austausch geht über die Opt-Out-Option des Art 10 hinaus; der **taxative GDA-Kreis** ist enger als der funktionale EHDS-Begriff (doppelte Wahlarzt-Ausnahme); die **Erfüllungsfiktion** verschiebt die flächendeckende Anbindung bis 31.12.2028 — nur rund drei Monate vor die erste EHDS-Stufe.\n\n### Schlussfolgerung\nDie EHDS-Umsetzung der Primärnutzung ist für Österreich **weniger ein Technik- als ein Rechts- und Integrationsprojekt**: bestehende Normen anpassen, Behörden schaffen, die vorhandene Infrastruktur gezielt erweitern — innerhalb der verbleibenden Fristen bis 2029 und 2031.",
+ "roterFaden": [
+  {"schritt": 1, "kapitel": 1, "label": "Frage stellen", "text": "Erfüllt ELGA die EHDS-Anforderungen an die Primärnutzung — und wo besteht Anpassungsbedarf?"},
+  {"schritt": 2, "kapitel": 2, "label": "EU-Maßstab klären", "text": "Die EHDS-VO liefert den Anforderungskatalog: Rechte, sechs Datenkategorien, EHR-Komponenten, MyHealth@EU, Fristen 2027/2029/2031."},
+  {"schritt": 3, "kapitel": 3, "label": "Technik verstehen", "text": "Architekturen, IHE/CDA/FHIR-Interoperabilität, IAAA-Zugriffssicherheit und die MyHealth@EU-Mechanik als Referenzwissen."},
+  {"schritt": 4, "kapitel": 4, "label": "Recht prüfen", "text": "GTelG 2012 und ELGA-VO 2015 tragen viel — offen sind Behörden, Opt-In-Logik und der Sekundärnutzungs-Widerspruch."},
+  {"schritt": 5, "kapitel": 5, "label": "ELGA messen", "text": "Komponentenweise Prüfung: Zugang, Berechtigung, Protokollierung und 5/6 Kategorien erfüllt; Benachrichtigung und APS offen."},
+  {"schritt": 6, "kapitel": 6, "label": "Bilanz ziehen", "text": "Gut positioniert; die Restarbeit ist primär rechtlich — vier Lücken, drei Spannungen, klare Fristen."}
+ ],
+ "ergebnisse": {
+  "positiv": [
+   {"titel": "Zugangsrecht umgesetzt", "text": "Das Bürger-Zugangsportal erfüllt das EHDS-Zugangsrecht (Art 3) bereits heute — gesichert über ID Austria."},
+   {"titel": "Granulare Zugangskontrolle", "text": "Default deny, Rollenrechte und XACML-Feinsteuerung auf Dokumentenebene entsprechen Art 8; Ein-/Ausblenden einzelner Dokumente ist möglich."},
+   {"titel": "Protokollierung EHDS-konform", "text": "Vollprotokoll (wer, wann, was) mit dreijähriger Abrufbarkeit deckt Art 9 Abs 2 ab; technisch als IHE ATNA mit A-ARR umgesetzt."},
+   {"titel": "5 von 6 Datenkategorien produktiv", "text": "Entlassungsbrief, Labor, Bildgebung, e-Verschreibung und e-Abgabe laufen; die nationalen Speicherpflicht-Termine liegen vor den EHDS-Fristen."},
+   {"titel": "MyHealth@EU-Anbindung belegt", "text": "Seit Februar 2026: EU-Rezept (ausgehend) und EU-Patientenkurzakte (eingehend) mit Tschechien über die Kontaktstelle AT-eHDSI."}
+  ],
+  "luecken": [
+   {"titel": "Automatische Zugriffs-Benachrichtigung", "text": "Art 9 verlangt auch automatische Benachrichtigungen; Österreich kennt nur den Abruf. Fehlt: der Kanal (E-Mail/SMS/Push der angekündigten ELGA-App).", "frist": "26. März 2029"},
+   {"titel": "Drei Behörden fehlen", "text": "Stelle für digitale Gesundheit, Marktüberwachungsbehörde und Zugangsstelle für Gesundheitsdaten sind weder benannt noch gesetzlich verankert.", "frist": "26. März 2027"},
+   {"titel": "Patientenkurzakte nicht produktiv", "text": "Die Austrian Patient Summary liegt nur als Erprobungsstandard (STU1) vor; die ausgehende Bereitstellung ins Ausland fehlt.", "frist": "26. März 2029"},
+   {"titel": "Sekundärnutzungs-Widerspruch", "text": "Das ab 2029 zwingende Widerspruchsrecht nach Art 71 hat in Österreich noch keinen Mechanismus — er setzt die Zugangsstelle voraus.", "frist": "26. März 2029"}
+  ],
+  "spannungen": [
+   {"titel": "Opt-In vs. Art 10", "text": "Das Zustimmungserfordernis für MyHealth@EU ist strenger als die Opt-Out-Option der Verordnung — stärkere Selbstbestimmung, aber fraglich vereinbar mit dem Ziel des unionsweiten Austauschs."},
+   {"titel": "Taxativer GDA-Kreis", "text": "Der abschließende GDA-Katalog des GTelG ist enger als der funktionale EHDS-Gesundheitsdienstleister-Begriff; Wahlärzte können doppelt ausgenommen sein (ÄrzteG + Art 50)."},
+   {"titel": "Knapper Zeitpuffer", "text": "Die Erfüllungsfiktion erlaubt technische Umsetzung bis 31.12.2028 — nur rund drei Monate vor der ersten EHDS-Stufe."},
+   {"titel": "e-Impfpass und Art 8", "text": "Für Impfdaten fehlt eine dem Ein-/Ausblenden vergleichbare individuelle Zugriffssteuerung, obwohl Art 8 ein Pflichtrecht normiert."}
+  ]
+ },
+ "timeline": [
+  {"datum": "2015-01-01", "label": "ELGA-Rollout beginnt (öffentliche Krankenanstalten)", "kategorie": "at", "status": "erledigt"},
+  {"datum": "2019-09-01", "label": "e-Medikation flächendeckend ausgerollt", "kategorie": "at", "status": "erledigt"},
+  {"datum": "2025-03-26", "label": "EHDS-Verordnung tritt in Kraft", "kategorie": "eu", "status": "erledigt"},
+  {"datum": "2025-04-01", "label": "Speicherpflicht Entlassungsbriefe & Apotheken-Abgaben", "kategorie": "at", "status": "erledigt"},
+  {"datum": "2025-07-01", "label": "Speicherpflicht Labor/Radiologie (niedergelassen)", "kategorie": "at", "status": "erledigt"},
+  {"datum": "2026-01-01", "label": "Genereller Beginn der ELGA-Speicherverpflichtung", "kategorie": "at", "status": "erledigt"},
+  {"datum": "2026-02-01", "label": "MyHealth@EU-Start: EU-Rezept & EU-Patientenkurzakte (mit CZ); APS 1.0.0 STU", "kategorie": "at", "status": "erledigt"},
+  {"datum": "2027-03-26", "label": "EU-Frist: Behörden benennen, Durchführungsrechtsakte (EEHRxF, Komponenten)", "kategorie": "eu", "status": "offen"},
+  {"datum": "2028-01-01", "label": "Speicherpflicht Pathologiebefunde", "kategorie": "at", "status": "offen"},
+  {"datum": "2028-12-31", "label": "Spätester Umsetzungstermin der Erfüllungsfiktion", "kategorie": "at", "status": "offen"},
+  {"datum": "2029-03-26", "label": "EHDS Stufe 1: Kurzakte & e-Rezept/Abgabe über MyHealth@EU, Benachrichtigungsrecht, Sekundärnutzungs-Widerspruch", "kategorie": "eu", "status": "offen"},
+  {"datum": "2030-01-01", "label": "Speicherpflicht sonstige fachärztliche ambulante Befunde", "kategorie": "at", "status": "offen"},
+  {"datum": "2031-03-26", "label": "EHDS Stufe 2: Bildgebung, Labor, Entlassungsberichte grenzüberschreitend", "kategorie": "eu", "status": "offen"},
+  {"datum": "2035-03-26", "label": "Drittstaaten können HealthData@EU-Teilnahme beantragen", "kategorie": "eu", "status": "offen"}
+ ]
+}

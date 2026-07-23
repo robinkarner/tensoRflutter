@@ -1,0 +1,95 @@
+{
+ "sectionId": "3.4.3",
+ "paragraphs": [
+  {
+   "id": "3.4.3-p1",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung stützt die grenzüberschreitende Identifizierung auf eIDAS-anerkannte elektronische Identifizierungsmittel und beauftragt die Kommission, per Durchführungsrechtsakten einen interoperablen Identifizierungs- und Authentifizierungsmechanismus samt EU-Diensten einzurichten.",
+   "sentences": [
+    {
+     "text": "Eine wesentliche Voraussetzung für vertrauenswürdige grenzüberschreitende Gesundheitsinteraktionen ist die zuverlässige Identifizierung natürlicher Personen über Staatsgrenzen hinweg.",
+     "einfach": "Damit Gesundheitsdaten über Ländergrenzen hinweg vertrauenswürdig ausgetauscht werden können, muss zweifelsfrei feststellbar sein, um welche Person es sich handelt - eine verlässliche Identifizierung ist die Grundvoraussetzung.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Nach der EHDS-Verordnung haben natürliche Personen das Recht, sich mit allen nach Artikel 6 der eIDAS-Verordnung anerkannten elektronischen Identifizierungsmitteln auszuweisen.",
+     "einfach": "Die EHDS-Verordnung gibt Bürgerinnen und Bürgern das Recht, sich mit jedem elektronischen Identifizierungsmittel (z. B. einer staatlichen elektronischen Identität, eID) auszuweisen, das nach Artikel 6 der eIDAS-Verordnung (EU-Verordnung über elektronische Identifizierung und Vertrauensdienste) anerkannt ist.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Artikel 6 der eIDAS-Verordnung", "kategorie": "norm" },
+      { "snippet": "elektronischen Identifizierungsmitteln", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Mitgliedstaaten können ergänzende Mechanismen vorsehen, um einen angemessenen Identitätsabgleich in grenzüberschreitenden Situationen sicherzustellen.[^186]",
+     "einfach": "Die EU-Länder dürfen zusätzliche Verfahren einführen, um Personen bei grenzüberschreitenden Vorgängen sicher der richtigen Identität zuzuordnen (Identitätsabgleich, engl. 'identity matching').",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" },
+      { "snippet": "Identitätsabgleich", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Kommission legt die Anforderungen für den interoperablen, grenzüberschreitenden Identifizierungs- und Authentifizierungsmechanismus für natürliche Personen und Angehörige der Gesundheitsberufe mittels Durchführungsrechtsakten fest und richtet die hierfür erforderlichen Dienste als Teil der grenzüberschreitenden Infrastruktur auf Unionsebene ein.[^187]",
+     "einfach": "Die EU-Kommission bestimmt per Durchführungsrechtsakten (verbindliche Detailregelungen der Kommission), welche Anforderungen ein EU-weit interoperabler Mechanismus zur Identifizierung (Wer ist die Person?) und Authentifizierung (Nachweis der Identität) von Patientinnen, Patienten und Gesundheitspersonal erfüllen muss, und baut die dafür nötigen Dienste auf EU-Ebene auf.",
+     "kategorien": ["akteur", "norm", "tech"],
+     "marks": [
+      { "snippet": "Kommission", "kategorie": "akteur" },
+      { "snippet": "Identifizierungs- und Authentifizierungsmechanismus", "kategorie": "tech" },
+      { "snippet": "Angehörige der Gesundheitsberufe", "kategorie": "akteur" },
+      { "snippet": "Durchführungsrechtsakten", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 186,
+     "quellen": ["ehds-vo"],
+     "claim": "Natürliche Personen können sich mit allen nach Artikel 6 eIDAS-Verordnung anerkannten elektronischen Identifizierungsmitteln ausweisen; Mitgliedstaaten können ergänzende Mechanismen zum Identitätsabgleich vorsehen.",
+     "fundstelle": "Art 16 Abs 1",
+     "suchHinweis": "Artikel 16 elektronische Identifizierungsmittel eIDAS Identitätsabgleich"
+    },
+    {
+     "num": 187,
+     "quellen": ["ehds-vo"],
+     "claim": "Die Kommission legt per Durchführungsrechtsakten die Anforderungen für den interoperablen grenzüberschreitenden Identifizierungs- und Authentifizierungsmechanismus fest und richtet die erforderlichen Dienste auf Unionsebene ein.",
+     "fundstelle": "Art 16 Abs 2 und 3",
+     "suchHinweis": "Artikel 16 Authentifizierung Durchführungsrechtsakte Dienste Unionsebene"
+    }
+   ]
+  },
+  {
+   "id": "3.4.3-p2",
+   "type": "text",
+   "kernaussage": "Das nationale Identitäts- und Authentifizierungskonzept wird durch den EHDS auf die europäische Ebene gehoben und mit MyHealth@EU verknüpft; die konkrete österreichische Anbindung behandelt Abschnitt 5.4.",
+   "sentences": [
+    {
+     "text": "Damit wird das in Abschnitt 3.3 beschriebene Identitäts- und Authentifizierungskonzept auf die europäische Ebene gehoben und unmittelbar mit der MyHealth@EU-Infrastruktur verknüpft.",
+     "einfach": "Das zuvor in Abschnitt 3.3 beschriebene Konzept, wie Identitäten geprüft und Nutzer authentifiziert werden, gilt damit nicht mehr nur national, sondern wird direkt Teil der europäischen MyHealth@EU-Infrastruktur.",
+     "kategorien": ["tech", "these"],
+     "marks": [
+      { "snippet": "Identitäts- und Authentifizierungskonzept", "kategorie": "tech" },
+      { "snippet": "MyHealth@EU-Infrastruktur", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die konkrete Anbindung der österreichischen Infrastruktur an MyHealth@EU wird in Abschnitt 5.4 dargestellt.",
+     "einfach": "Wie Österreich seine Systeme konkret an MyHealth@EU anschließt, wird später in Abschnitt 5.4 erläutert.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "MyHealth@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

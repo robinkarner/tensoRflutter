@@ -1,0 +1,35 @@
+{
+ "sectionId": "2.3.5",
+ "title": "Umsetzungsfristen",
+ "chapter": 2,
+ "chapterTitle": "Europäischer Gesundheitsdatenraum",
+ "page": 16,
+ "pdfPage": 26,
+ "paragraphs": [
+  {
+   "id": "2.3.5-p1",
+   "type": "text",
+   "text": "Die EHDS-Verordnung sieht auf dem Weg zur vollständigen Umsetzung nach Artikel 105 eine gestufte Umsetzung mit folgenden wichtigen Meilensteinen vor: [^91]",
+   "footnotes": [
+    {
+     "num": 91,
+     "text": "Vgl. Europäische Kommission (2026): Public Health: Verordnung über den Europäischen Gesundheitsdatenraum (EHDS).",
+     "sources": [
+      "ek-ehds-page2026"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3.5-p2",
+   "type": "list",
+   "items": [
+    "26. März 2027: Frist für den Erlass mehrerer wichtiger Durchführungsrechtsakte durch die Kommission mit genauen Vorschriften für die Operationalisierung der Verordnung (Spezifikation der Softwarekomponenten für EHR-Systeme)",
+    "26. März 2029: Die wichtigsten Elemente der EHDS-Verordnung, darunter der Austausch der ersten Gruppe vorrangiger Kategorien von Gesundheitsdaten (Patientenkurzakten, elektronische Verschreibungen/elektronische Abgaben) für die Primärnutzung in allen EU-Mitgliedstaaten. Die Vorschriften über die Sekundärnutzung gelten ab dann auch für die meisten Datenkategorien (z. B. Daten aus elektronischen Patientenakten).",
+    "26. März 2031: Für die Primärnutzung sollte der Austausch der zweiten Gruppe vorrangiger Kategorien von Gesundheitsdaten (medizinische Bilder, Laborergebnisse und Krankenhausentlassungsberichte) in allen EU-Mitgliedstaaten funktionieren. Die Vorschriften über die Sekundärnutzung gelten dann auch für die übrigen Datenkategorien (z. B. genomische Daten).",
+    "26. März 2035: Drittländer und internationale Organisationen können die Teilnahme an HealthData@EU für die Sekundärnutzung beantragen."
+   ],
+   "footnotes": []
+  }
+ ]
+}

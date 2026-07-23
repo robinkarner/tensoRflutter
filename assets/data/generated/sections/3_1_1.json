@@ -1,0 +1,132 @@
+{
+ "sectionId": "3.1.1",
+ "paragraphs": [
+  {
+   "id": "3.1.1-p1",
+   "type": "text",
+   "kernaussage": "Im zentralen Modell liegen alle Gesundheitsdaten in einem einzigen nationalen Repository, was vollständige Datenverfügbarkeit und einfache einrichtungsübergreifende Auswertung ermöglicht.",
+   "sentences": [
+    {
+     "text": "Im zentralen Modell werden alle elektronischen Gesundheitsdaten in einer einzigen nationalen Datenbank - einem zentralen EHR-Datenrepository - gespeichert.",
+     "einfach": "Beim zentralen Modell landen alle elektronischen Gesundheitsdaten eines Landes in einer einzigen nationalen Datenbank, einem zentralen Speicher für elektronische Gesundheitsakten (EHR-Datenrepository; EHR = Electronic Health Record).",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "zentralen EHR-Datenrepository", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Dokumente werden vom erstellenden Gesundheitsdiensteanbieter direkt in das zentrale System hochgeladen, wo sie jeder berechtigte Behandler abrufen kann.[^97]",
+     "einfach": "Wer ein medizinisches Dokument erstellt (z. B. ein Krankenhaus oder eine Arztpraxis als Gesundheitsdiensteanbieter), lädt es direkt in das zentrale System hoch. Dort kann jede behandelnde Person mit entsprechender Berechtigung es abrufen.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Gesundheitsdiensteanbieter", "kategorie": "akteur" },
+      { "snippet": "zentrale System", "kategorie": "tech" },
+      { "snippet": "berechtigte Behandler", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Das Modell bietet den Vorteil vollständiger Datenverfügbarkeit und erleichtert die einrichtungsübergreifende Auswertung, da alle Daten an einem Ort vorliegen und einheitlich formatiert sind.[^98]",
+     "einfach": "Der Vorteil: Alle Daten sind immer vollständig verfügbar, und Auswertungen über mehrere Einrichtungen hinweg sind einfach, weil alles an einem Ort liegt und gleich formatiert ist.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 97,
+     "quellen": ["scheibner2021"],
+     "claim": "Im zentralen Modell laden Gesundheitsdiensteanbieter Dokumente direkt in das zentrale System hoch, wo berechtigte Behandler sie abrufen können.",
+     "fundstelle": "S. 6",
+     "suchHinweis": "centralized national eHealth system repository upload"
+    },
+    {
+     "num": 98,
+     "quellen": ["aljarullah2013"],
+     "claim": "Das zentrale Modell bietet vollständige Datenverfügbarkeit und erleichtert einrichtungsübergreifende Auswertungen durch einheitlich formatierte Daten an einem Ort.",
+     "fundstelle": "S. 2",
+     "suchHinweis": "central architecture advantages data availability uniform format"
+    }
+   ]
+  },
+  {
+   "id": "3.1.1-p2",
+   "type": "text",
+   "kernaussage": "Dem zentralen Modell stehen strukturelle Nachteile gegenüber: Single Point of Failure, hohe Verfügbarkeitsanforderungen und datenschutzrechtliche Spannungen mit der Datenminimierung; Finnlands Kanta-System gilt als Referenzbeispiel.",
+   "sentences": [
+    {
+     "text": "Diesem Vorteil stehen strukturelle Nachteile gegenüber.",
+     "einfach": "Diesen Vorteilen stehen jedoch grundsätzliche, im Aufbau des Modells angelegte Nachteile gegenüber.",
+     "kategorien": ["these"],
+     "marks": [],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Ein zentrales System stellt einen Single Point of Failure dar, der durch zentralisierte Architekturen prinzipiell entsteht und die Resilienz des Gesamtsystems beeinträchtigt.[^99]",
+     "einfach": "Ein zentrales System ist ein 'Single Point of Failure': Fällt die eine zentrale Komponente aus, steht das gesamte System still. Dieses Risiko ist bei zentralisierten Architekturen prinzipbedingt und schwächt die Ausfallsicherheit (Resilienz) des Gesamtsystems.",
+     "kategorien": ["tech", "luecke"],
+     "marks": [
+      { "snippet": "Single Point of Failure", "kategorie": "tech" },
+      { "snippet": "Resilienz des Gesamtsystems beeinträchtigt", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die zentrale Infrastruktur muss hoch verfügbar betrieben werden, da die Erreichbarkeit aller angeschlossenen Akteure von ihr abhängt.",
+     "einfach": "Die zentrale Infrastruktur muss deshalb hochverfügbar betrieben werden (also praktisch ohne Ausfallzeiten), weil alle angeschlossenen Einrichtungen nur über sie an die Daten kommen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "hoch verfügbar", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Datenschutzrechtlich kann eine vollständige Datenkonzentration jedoch Spannungen zum Grundsatz der Datenminimierung nach der DSGVO erzeugen, weil personenbezogene Daten auf das für den Verarbeitungszweck notwendige Maß beschränkt sein müssen.[^100]",
+     "einfach": "Auch der Datenschutz spricht gegen volle Zentralisierung: Die DSGVO (Datenschutz-Grundverordnung) verlangt Datenminimierung, das heißt, personenbezogene Daten dürfen nur in dem Umfang verarbeitet werden, der für den jeweiligen Zweck nötig ist. Das Sammeln aller Daten an einem Ort kann mit diesem Grundsatz in Spannung geraten.",
+     "kategorien": ["norm", "luecke"],
+     "marks": [
+      { "snippet": "Grundsatz der Datenminimierung", "kategorie": "norm" },
+      { "snippet": "DSGVO", "kategorie": "norm" },
+      { "snippet": "Spannungen", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Finnland mit dem Kanta-System gilt als Referenzbeispiel für eine konsequent zentralisierte nationale Architektur.[^101]",
+     "einfach": "Als Musterbeispiel für ein konsequent zentral aufgebautes nationales System gilt Finnland mit seinem Kanta-System, der landesweiten zentralen Plattform für Gesundheitsdaten.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Finnland", "kategorie": "akteur" },
+      { "snippet": "Kanta-System", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 99,
+     "quellen": ["kumar2025"],
+     "claim": "Zentralisierte Architekturen erzeugen prinzipiell einen Single Point of Failure und beeinträchtigen die Resilienz des Gesamtsystems.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "single point of failure centralized health data resilience"
+    },
+    {
+     "num": 100,
+     "quellen": ["dsgvo"],
+     "claim": "Der DSGVO-Grundsatz der Datenminimierung verlangt, personenbezogene Daten auf das für den Verarbeitungszweck notwendige Maß zu beschränken.",
+     "fundstelle": "Art 5 Abs 1 lit c",
+     "suchHinweis": "Datenminimierung dem Zweck angemessen erheblich notwendige Maß"
+    },
+    {
+     "num": 101,
+     "quellen": ["jormanainen2023"],
+     "claim": "Finnlands Kanta-System dient als Referenzbeispiel für eine konsequent zentralisierte nationale eHealth-Architektur.",
+     "fundstelle": "S. 227",
+     "suchHinweis": "Kanta services Finland implementation adoption centralized"
+    }
+   ]
+  }
+ ]
+}

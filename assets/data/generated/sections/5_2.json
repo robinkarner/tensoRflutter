@@ -1,0 +1,46 @@
+{
+ "sectionId": "5.2",
+ "paragraphs": [
+  {
+   "id": "5.2-p1",
+   "type": "text",
+   "kernaussage": "EHR-Systeme sind die in Krankenanstalten und Ordinationen betriebenen Softwareprodukte, in denen Gesundheitsdaten entstehen, und die Konformitäts- und CE-Kennzeichnungspflicht des EHDS trifft deren Hersteller, nicht ELGA.",
+   "sentences": [
+    {
+     "text": "Während ELGA die Infrastruktur bildet, sind die EHR-Systeme im Sinne des EHDS die Softwareprodukte, die in Krankenanstalten und Ordinationen betrieben werden und in denen die Gesundheitsdaten tatsächlich entstehen.",
+     "einfach": "ELGA ist nur die Austausch-Infrastruktur, also das verbindende Netzwerk. EHR-Systeme (Electronic Health Record Systems, elektronische Gesundheitsakten-Systeme) im Sinne der EHDS-Verordnung sind dagegen die Software-Produkte, die in Krankenhäusern und Arztpraxen laufen und in denen die Gesundheitsdaten überhaupt erst erzeugt werden.",
+     "kategorien": ["tech", "norm", "akteur"],
+     "marks": [
+      { "snippet": "ELGA", "kategorie": "tech" },
+      { "snippet": "EHR-Systeme", "kategorie": "tech" },
+      { "snippet": "EHDS", "kategorie": "norm" },
+      { "snippet": "Krankenanstalten und Ordinationen", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Diese Unterscheidung ist für die nationale Umsetzung zentral, weil die mit dem EHDS eingeführte Konformitäts- und CE-Kennzeichnungspflicht bei den Herstellern dieser Systeme ansetzt, nicht bei ELGA.",
+     "einfach": "Diese Unterscheidung ist wichtig: Die EHDS-Verordnung verlangt, dass EHR-Systeme ein Konformitätsverfahren durchlaufen und eine CE-Kennzeichnung tragen (das bekannte EU-Zeichen, das die Einhaltung der EU-Anforderungen bestätigt). Diese Pflicht trifft die Software-Hersteller, nicht die ELGA-Infrastruktur selbst.",
+     "kategorien": ["norm", "akteur", "these"],
+     "marks": [
+      { "snippet": "Konformitäts- und CE-Kennzeichnungspflicht", "kategorie": "norm" },
+      { "snippet": "Herstellern", "kategorie": "akteur" },
+      { "snippet": "für die nationale Umsetzung zentral", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Im Folgenden wird dazu die österreichische Systemlandschaft und der Weg eines Befundes von der Erstellung im EHR-System bis zur Abrufbarkeit in ELGA beschrieben.",
+     "einfach": "Die folgenden Abschnitte beschreiben, welche EHR-Systeme es in Österreich gibt und welchen Weg ein Befund (z. B. ein Laborergebnis oder Arztbrief) nimmt: von der Erstellung in der Praxis- oder Krankenhaussoftware bis dahin, dass er in ELGA abrufbar ist.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "EHR-System", "kategorie": "tech" },
+      { "snippet": "ELGA", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

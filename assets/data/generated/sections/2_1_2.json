@@ -1,0 +1,233 @@
+{
+ "sectionId": "2.1.2",
+ "paragraphs": [
+  {
+   "id": "2.1.2-p1",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung präzisiert und ergänzt die in der DSGVO festgelegten Rechte natürlicher Personen für die Primär- und Sekundärnutzung ihrer elektronischen Gesundheitsdaten.",
+   "sentences": [
+    {
+     "text": "Im Verhältnis zur DSGVO präzisiert und ergänzt die EHDS-Verordnung die festgelegten Rechte natürlicher Personen in Bezug auf die Primär- und Sekundärnutzung ihrer personenbezogenen elektronischen Gesundheitsdaten.[^20]",
+     "einfach": "Die EHDS-Verordnung ersetzt die DSGVO (Datenschutz-Grundverordnung, das allgemeine EU-Datenschutzrecht) nicht, sondern macht deren Rechte für Gesundheitsdaten genauer und erweitert sie. Das gilt sowohl für die Primärnutzung (Nutzung der Daten für die eigene Behandlung) als auch für die Sekundärnutzung (Weiterverwendung z. B. für Forschung).",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "DSGVO", "kategorie": "norm" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 20,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung präzisiert und ergänzt die Rechte natürlicher Personen in Bezug auf die Primär- und Sekundärnutzung ihrer personenbezogenen elektronischen Gesundheitsdaten.",
+     "fundstelle": "Art 1 Abs 2 lit a",
+     "suchHinweis": "Artikel 1 Gegenstand präzisiert ergänzt Rechte natürlicher Personen"
+    }
+   ]
+  },
+  {
+   "id": "2.1.2-p2",
+   "type": "text",
+   "kernaussage": "Statt des DSGVO-Auskunftsrechts auf Verlangen schafft der EHDS einen dauerhaften, technisch ermöglichten Zugang zu interoperabel verfügbaren Gesundheitsdaten zwischen den Mitgliedstaaten.",
+   "sentences": [
+    {
+     "text": "Inhaltlich bedeutet dies, dass Gesundheitsdaten in elektronischer Form zwischen den Mitgliedstaaten interoperabel verfügbar sein müssen.[^21]",
+     "einfach": "Konkret heißt das: Elektronische Gesundheitsdaten müssen zwischen den EU-Ländern interoperabel verfügbar sein, also so, dass die IT-Systeme verschiedener Länder die Daten austauschen und verstehen können.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Statt des klassischen Auskunftsrechts einer betroffenen Person auf Verlangen nach der DSGVO entsteht im EHDS ein dauerhafter, technisch ermöglichter Zugang.[^22]",
+     "einfach": "Nach der DSGVO muss eine Person ihre Daten erst aktiv anfragen (Auskunftsrecht nach Art 15 DSGVO). Im EHDS (Europäischer Gesundheitsdatenraum) besteht stattdessen ein ständiger Zugang, der direkt über die technische Infrastruktur bereitgestellt wird.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "Auskunftsrechts", "kategorie": "norm" },
+      { "snippet": "DSGVO", "kategorie": "norm" },
+      { "snippet": "EHDS", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 21,
+     "quellen": ["ehds-vo"],
+     "claim": "Elektronische Gesundheitsdaten müssen nach der EHDS-Verordnung zwischen den Mitgliedstaaten interoperabel verfügbar sein.",
+     "fundstelle": "Art 15 und Art 23 Abs 3",
+     "suchHinweis": "Artikel 15 Artikel 23 Interoperabilität grenzüberschreitend Zugang"
+    },
+    {
+     "num": 22,
+     "quellen": ["dsgvo"],
+     "claim": "Die DSGVO gewährt der betroffenen Person ein Auskunftsrecht über ihre personenbezogenen Daten auf Verlangen.",
+     "fundstelle": "Art 15",
+     "suchHinweis": "Artikel 15 Auskunftsrecht betroffene Person"
+    }
+   ]
+  },
+  {
+   "id": "2.1.2-p3",
+   "type": "text",
+   "kernaussage": "Anders als die DSGVO, die nur die Herausgabe in einem maschinenlesbaren Format verlangt, gestaltet die EHDS-Verordnung die Verfügungsmacht über Daten durch harmonisierte Softwarekomponenten, gemeinsame Spezifikationen und Infrastrukturen aus, damit Daten systemübergreifend kompatibel und nutzbar sind.",
+   "sentences": [
+    {
+     "text": "Im Vergleich zur DSGVO wird mit der EHDS-Verordnung durch harmonisierte Softwarekomponenten die Verfügungsmacht über Daten in digitalen Infrastrukturen mit verbindlichen Systemanforderungen ausgestaltet. [^23]",
+     "einfach": "Die EHDS-Verordnung geht über die DSGVO hinaus, indem sie EU-weit vereinheitlichte Softwarekomponenten und verbindliche technische Anforderungen an die Systeme vorschreibt. Die Kontrolle der Menschen über ihre Daten wird also direkt in der digitalen Infrastruktur umgesetzt und nicht nur rechtlich zugesichert.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "DSGVO", "kategorie": "norm" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "harmonisierte Softwarekomponenten", "kategorie": "tech" },
+      { "snippet": "verbindlichen Systemanforderungen", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Damit werden gemeinsame Regeln, Spezifikationen und Infrastrukturen festgelegt, die den Austausch elektronischer Gesundheitsdaten ermöglichen und von natürlichen Personen für ihre Behandlung bei verschiedenen Gesundheitsdienstleistern genutzt werden können.",
+     "einfach": "Dadurch entstehen gemeinsame Regeln, technische Spezifikationen und Infrastrukturen für den Austausch von Gesundheitsdaten. Patientinnen und Patienten können ihre Daten so bei unterschiedlichen Gesundheitsdienstleistern (z. B. Ärzten, Krankenhäusern, Apotheken) für ihre Behandlung nutzen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Gesundheitsdienstleistern", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Während die DSGVO lediglich die Herausgabe in einem strukturierten, gängigen und maschinenlesbaren Format verlangt, sorgt die EHDS-Verordnung dafür, dass Daten systemübergreifend kompatibel und nutzbar sind.[^24]",
+     "einfach": "Die DSGVO verlangt beim Recht auf Datenübertragbarkeit nur, dass Daten in einem strukturierten, gängigen und maschinenlesbaren Format herausgegeben werden. Die EHDS-Verordnung geht weiter: Die Daten müssen über verschiedene IT-Systeme hinweg tatsächlich kompatibel und praktisch nutzbar sein.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "DSGVO", "kategorie": "norm" },
+      { "snippet": "strukturierten, gängigen und maschinenlesbaren Format", "kategorie": "tech" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 23,
+     "quellen": ["ehds-vo", "dsgvo"],
+     "claim": "Die EHDS-Verordnung gestaltet die Verfügungsmacht über Daten durch harmonisierte Softwarekomponenten und verbindliche Systemanforderungen aus, während die DSGVO nur allgemeine Verarbeitungsgrundsätze festlegt.",
+     "fundstelle": "Art 1 Abs 2 lit b und c (EHDS-VO); Art 5 Abs 1 lit a und c (DSGVO)",
+     "suchHinweis": "Artikel 1 EHR-Systeme Anforderungen Grundsätze Verarbeitung"
+    },
+    {
+     "num": 24,
+     "quellen": ["dsgvo"],
+     "claim": "Die DSGVO verlangt im Rahmen der Datenübertragbarkeit lediglich die Herausgabe der Daten in einem strukturierten, gängigen und maschinenlesbaren Format.",
+     "fundstelle": "Art 20",
+     "suchHinweis": "Artikel 20 Datenübertragbarkeit strukturiert gängig maschinenlesbar"
+    }
+   ]
+  },
+  {
+   "id": "2.1.2-p4",
+   "type": "text",
+   "kernaussage": "Neben dem Recht auf einfache Online-Berichtigung können Mitgliedstaaten ein reversibles Widerspruchsrecht gegen den Primärnutzungszugang vorsehen sowie Ausnahmen zum Schutz lebenswichtiger Interessen trotz ausgeübten Widerspruchs regeln.",
+   "sentences": [
+    {
+     "text": "Neben dem Recht natürlicher Personen die Berichtigung ihrer personenbezogenen Gesundheitsdaten auf einfache Weise online zu verlangen,[^25] sieht die EHDS-Verordnung auch vor, dass Mitgliedstaaten Rechtsvorschriften vorsehen können, dass natürliche Personen ein Recht zum Widerspruch gegen den Zugang zu ihren personenbezogenen elektronischen Gesundheitsdaten für die Primärnutzung haben.",
+     "einfach": "Menschen können die Korrektur (Berichtigung) falscher Gesundheitsdaten einfach online verlangen. Zusätzlich dürfen die EU-Länder per Gesetz ein Widerspruchsrecht einführen: Dann kann eine Person den Zugriff auf ihre elektronischen Gesundheitsdaten für die Primärnutzung (Nutzung bei der eigenen Behandlung) sperren lassen, vergleichbar einem Opt-out.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" },
+      { "snippet": "Recht zum Widerspruch", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "In solchen Fällen haben Mitgliedstaaten jedoch sicherzustellen, dass die Ausübung dieses Rechts reversibel ist.[^26]",
+     "einfach": "Führt ein EU-Land dieses Widerspruchsrecht ein, muss es sicherstellen, dass die Entscheidung umkehrbar (reversibel) ist. Die Person kann ihren Widerspruch also später wieder zurücknehmen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Außerdem können dann Mitgliedstaaten Regelungen treffen, den Zugang zu personenbezogenen elektronischen Gesundheitsdaten für Gesundheitsdienstleister oder Angehörige von Gesundheitsberufen zum Schutz lebenswichtiger Interessen betroffener Personen oder einer anderen natürlichen Person zu ermöglichen, selbst wenn der Patient sein Recht zum Widerspruch im Rahmen der Primärnutzung ausgeübt hat.[^27]",
+     "einfach": "Die EU-Länder dürfen außerdem Ausnahmen vorsehen: In Notfällen, in denen lebenswichtige Interessen einer Person geschützt werden müssen (z. B. bei akuter Lebensgefahr), können Gesundheitsdienstleister oder Gesundheitsberufe (z. B. Ärztinnen und Pfleger) trotz eines ausgeübten Widerspruchs auf die Daten zugreifen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" },
+      { "snippet": "Gesundheitsdienstleister", "kategorie": "akteur" },
+      { "snippet": "Angehörige von Gesundheitsberufen", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 25,
+     "quellen": ["ehds-vo", "dsgvo"],
+     "claim": "Natürliche Personen haben das Recht, die Berichtigung ihrer personenbezogenen Gesundheitsdaten auf einfache Weise online zu verlangen.",
+     "fundstelle": "Art 6 (EHDS-VO); Art 16 (DSGVO)",
+     "suchHinweis": "Artikel 6 Berichtigung online Artikel 16 Recht auf Berichtigung"
+    },
+    {
+     "num": 26,
+     "quellen": ["ehds-vo"],
+     "claim": "Mitgliedstaaten können ein Widerspruchsrecht gegen den Zugang zu Gesundheitsdaten für die Primärnutzung vorsehen, dessen Ausübung reversibel sein muss.",
+     "fundstelle": "Art 10 Abs 1",
+     "suchHinweis": "Artikel 10 Widerspruch Primärnutzung reversibel"
+    },
+    {
+     "num": 27,
+     "quellen": ["ehds-vo", "dsgvo"],
+     "claim": "Mitgliedstaaten können trotz ausgeübten Widerspruchs den Datenzugang für Gesundheitsdienstleister zum Schutz lebenswichtiger Interessen ermöglichen.",
+     "fundstelle": "Art 10 Abs 2 (EHDS-VO); Art 9 Abs 2 lit c (DSGVO)",
+     "suchHinweis": "Artikel 10 lebenswichtige Interessen Widerspruch Zugang"
+    }
+   ]
+  },
+  {
+   "id": "2.1.2-p5",
+   "type": "text",
+   "kernaussage": "Für die Sekundärnutzung gewährt die EHDS-Verordnung ein voraussetzungsloses, jederzeit und ohne Begründung ausübbares Widerspruchsrecht und geht damit über das an eine Interessenabwägung geknüpfte Widerspruchsrecht der DSGVO hinaus.",
+   "sentences": [
+    {
+     "text": "Für die Sekundärnutzung sieht die EHDS-Verordnung im Gegensatz dazu ein voraussetzungsloses, jederzeit und ohne Angabe von Gründen ausübbares Widerspruchsrecht vor und geht damit über die DSGVO hinaus, die eine Interessenabwägung, wie beispielsweise für die Geltendmachung von Rechtsansprüchen, vorsieht.[^28]",
+     "einfach": "Bei der Sekundärnutzung (Weiterverwendung der Daten z. B. für Forschung) gilt ein bedingungsloses Widerspruchsrecht: Man kann jederzeit und ohne Begründung widersprechen. Die DSGVO ist hier strenger mit den Betroffenen, denn dort wird beim Widerspruch abgewogen, ob z. B. zwingende Gründe des Verantwortlichen oder die Geltendmachung von Rechtsansprüchen die Weiterverarbeitung dennoch erlauben.",
+     "kategorien": ["norm", "these"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "geht damit über die DSGVO hinaus", "kategorie": "these" },
+      { "snippet": "DSGVO", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die EHDS-Verordnung räumt natürlichen Personen das Recht ein, jederzeit und ohne Angabe von Gründen der Verarbeitung ihrer elektronischen Gesundheitsdaten für Sekundärzwecke zu widersprechen.[^29]",
+     "einfach": "Jede Person kann nach der EHDS-Verordnung jederzeit und ohne Begründung verlangen, dass ihre elektronischen Gesundheitsdaten nicht für Sekundärzwecke (etwa Forschung oder Statistik) verarbeitet werden.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 28,
+     "quellen": ["dsgvo"],
+     "claim": "Das Widerspruchsrecht der DSGVO ist an eine Interessenabwägung geknüpft, etwa hinsichtlich der Geltendmachung von Rechtsansprüchen.",
+     "fundstelle": "Art 21 Abs 1",
+     "suchHinweis": "Artikel 21 Widerspruchsrecht zwingende schutzwürdige Gründe Rechtsansprüche"
+    },
+    {
+     "num": 29,
+     "quellen": ["ehds-vo", "dsgvo"],
+     "claim": "Die EHDS-Verordnung gewährt ein jederzeit und ohne Angabe von Gründen ausübbares Widerspruchsrecht gegen die Verarbeitung elektronischer Gesundheitsdaten für Sekundärzwecke.",
+     "fundstelle": "Art 71 Abs 1 (EHDS-VO); Art 21 Abs 1 (DSGVO)",
+     "suchHinweis": "Artikel 71 Widerspruch Sekundärnutzung ohne Angabe von Gründen"
+    }
+   ]
+  }
+ ]
+}

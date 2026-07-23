@@ -1,0 +1,3474 @@
+[
+ {
+  "id": "aljarullah2013",
+  "kind": "artikel",
+  "author": "AlJarullah, Asma u.a.",
+  "year": 2013,
+  "title": "A Novel System Architecture for the National Integration of Electronic Health Records: A Semi-Centralized Approach",
+  "container": "Journal of Medical Systems, Bd. 37, Art. 9953",
+  "doi": "10.1007/s10916-013-9953-4",
+  "expectedFile": "sources/aljarullah2013.pdf",
+  "citations": [
+   {
+    "footnote": 95,
+    "sectionId": "3.1",
+    "paragraphId": "3.1-p1",
+    "footnoteText": "Vgl. AlJarullah et al. (2013): A Novel System Architecture for the National Integration of Electronic Health Records, S. 1."
+   },
+   {
+    "footnote": 98,
+    "sectionId": "3.1.1",
+    "paragraphId": "3.1.1-p1",
+    "footnoteText": "Vgl. AlJarullah et al. (2013): A Novel System Architecture for the National Integration of Electronic Health Records, S. 2."
+   },
+   {
+    "footnote": 111,
+    "sectionId": "3.1.3",
+    "paragraphId": "3.1.3-p1",
+    "footnoteText": "Vgl. AlJarullah et al. (2013): A Novel System Architecture for the National Integration of Electronic Health Records, S. 16."
+   }
+  ]
+ },
+ {
+  "id": "ayaz2021",
+  "kind": "artikel",
+  "author": "Ayaz, Muhammad u.a.",
+  "year": 2021,
+  "title": "The Fast Health Interoperability Resources (FHIR) Standard: Systematic Literature Review of Implementations, Applications, Challenges and Opportunities",
+  "container": "JMIR Med Inform 2021, Bd. 9(7), e21919",
+  "doi": "10.2196/21929",
+  "expectedFile": "sources/ayaz2021.pdf",
+  "citations": [
+   {
+    "footnote": 94,
+    "sectionId": "3.0",
+    "paragraphId": "3.0-p2",
+    "footnoteText": "Vgl. Ayaz et al. (2021): The Fast Health Interoperability Resources (FHIR) Standard, S. 16."
+   },
+   {
+    "footnote": 124,
+    "sectionId": "3.2.2.1",
+    "paragraphId": "3.2.2.1-p2",
+    "footnoteText": "Vgl. Ayaz et al. (2021): The Fast Health Interoperability Resources (FHIR) Standard, S. 16."
+   },
+   {
+    "footnote": 127,
+    "sectionId": "3.2.2.2",
+    "paragraphId": "3.2.2.2-p1",
+    "footnoteText": "Vgl. Ayaz et al. (2021): The Fast Health Interoperability Resources (FHIR) Standard, S. 2."
+   }
+  ]
+ },
+ {
+  "id": "atlam2025",
+  "kind": "artikel",
+  "author": "Atlam, Hany F. u.a.",
+  "year": 2025,
+  "title": "Enhancing Healthcare Security: A Unified RBAC and ABAC Risk-Aware Access Control Approach",
+  "container": "Future Internet, Bd. 17, Nr. 6, Art. 262",
+  "doi": "10.3390/fi17060262",
+  "expectedFile": "sources/atlam2025.pdf",
+  "citations": [
+   {
+    "footnote": 157,
+    "sectionId": "3.3.2",
+    "paragraphId": "3.3.2-p2",
+    "footnoteText": "Vgl. Atlam et al. (2025): Enhancing Healthcare Security, S. 1."
+   },
+   {
+    "footnote": 159,
+    "sectionId": "3.3.2",
+    "paragraphId": "3.3.2-p2",
+    "footnoteText": "Vgl. Atlam et al. (2025): Enhancing Healthcare Security, S. 1."
+   },
+   {
+    "footnote": 160,
+    "sectionId": "3.3.2",
+    "paragraphId": "3.3.2-p2",
+    "footnoteText": "Vgl. Atlam et al. (2025): Enhancing Healthcare Security, S. 17."
+   },
+   {
+    "footnote": 161,
+    "sectionId": "3.3.2",
+    "paragraphId": "3.3.2-p3",
+    "footnoteText": "Vgl. Atlam et al. (2025): Enhancing Healthcare Security, S. 17."
+   },
+   {
+    "footnote": 162,
+    "sectionId": "3.3.2",
+    "paragraphId": "3.3.2-p5",
+    "footnoteText": "Vgl. Atlam et al. (2025): Enhancing Healthcare Security, S. 17. und National Institute of Standards and Technology (NIST), Hu et al. (2014): Guide to Attribute Based Access Control (ABAC) Definition and Considerations, S. 14."
+   }
+  ]
+ },
+ {
+  "id": "beinke2019",
+  "kind": "artikel",
+  "author": "Beinke, Jan Heinrich u.a.",
+  "year": 2019,
+  "title": "Towards a Stakeholder-Oriented Blockchain-Based Architecture for Electronic Health Records: Design Science Research Study",
+  "container": "Journal of Medical Internet Research, Bd. 21, Nr. 10, e13585",
+  "doi": "10.2196/13585",
+  "expectedFile": "sources/beinke2019.pdf",
+  "citations": [
+   {
+    "footnote": 104,
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p2",
+    "footnoteText": "Vgl. Kumar et al. (2025): Decentralized digital health ecosystems, S. 3. und Beinke et al. (2019): Towards A Stakeholder-Oriented Blockchain-Based Architecture for Electronic Health Records. S. 5."
+   }
+  ]
+ },
+ {
+  "id": "bruthans2023",
+  "kind": "artikel",
+  "author": "Bruthans, Jan u.a.",
+  "year": 2023,
+  "title": "The Current State and Usage of European Electronic Cross-border Health Services (eHDSI)",
+  "container": "Journal of Medical Systems, Bd. 47, Art. 21",
+  "doi": "10.1007/s10916-023-01920-9",
+  "expectedFile": "sources/bruthans2023.pdf",
+  "citations": [
+   {
+    "footnote": 173,
+    "sectionId": "3.4.1",
+    "paragraphId": "3.4.1-p1",
+    "footnoteText": "Vgl. Bruthans et al. (2023): The Current State and Usage of European Electronic Cross-border Health Services (eHDSI). S. 3."
+   },
+   {
+    "footnote": 174,
+    "sectionId": "3.4.1",
+    "paragraphId": "3.4.1-p1",
+    "footnoteText": "Vgl. Bruthans et al. (2023): The Current State and Usage of European Electronic Cross-border Health Services (eHDSI). S. 1."
+   },
+   {
+    "footnote": 183,
+    "sectionId": "3.4.2",
+    "paragraphId": "3.4.2-p3",
+    "footnoteText": "Vgl. Bruthans et al. (2023): The Current State and Usage of European Electronic Cross-border Health Services (eHDSI). S. 1."
+   }
+  ]
+ },
+ {
+  "id": "bossenko2024",
+  "kind": "artikel",
+  "author": "Bossenko, Igor u.a.",
+  "year": 2024,
+  "title": "Interoperability of health data using FHIR Mapping Language: transforming HL7 CDA to FHIR with reusable visual components",
+  "container": "Frontiers in Digital Health, Bd. 6, Art. 1480600",
+  "doi": "10.3389/fdgth.2024.1480600",
+  "expectedFile": "sources/bossenko2024.pdf",
+  "citations": [
+   {
+    "footnote": 121,
+    "sectionId": "3.2.2",
+    "paragraphId": "3.2.2-p1",
+    "footnoteText": "Vgl. Bossenko et al. (2024):Interoperability of health data using FHIR Mapping Language, S. 4."
+   },
+   {
+    "footnote": 122,
+    "sectionId": "3.2.2.1",
+    "paragraphId": "3.2.2.1-p1",
+    "footnoteText": "Vgl. Bossenko et al. (2024):Interoperability of health data using FHIR Mapping Language, S. 4."
+   }
+  ]
+ },
+ {
+  "id": "cobrado2024",
+  "kind": "artikel",
+  "author": "Cobrado, Usha Nicole u.a.",
+  "year": 2024,
+  "title": "Access control solutions in electronic health record systems: A systematic review",
+  "container": "Informatics in Medicine Unlocked, Bd. 49, Art. 101552",
+  "doi": "10.1016/j.imu.2024.101552",
+  "expectedFile": "sources/cobrado2024.pdf",
+  "citations": [
+   {
+    "footnote": 140,
+    "sectionId": "3.3",
+    "paragraphId": "3.3-p1",
+    "footnoteText": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 1."
+   },
+   {
+    "footnote": 141,
+    "sectionId": "3.3",
+    "paragraphId": "3.3-p2",
+    "footnoteText": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 1."
+   },
+   {
+    "footnote": 142,
+    "sectionId": "3.3",
+    "paragraphId": "3.3-p2",
+    "footnoteText": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 1."
+   },
+   {
+    "footnote": 143,
+    "sectionId": "3.3",
+    "paragraphId": "3.3-p2",
+    "footnoteText": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 1."
+   },
+   {
+    "footnote": 147,
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p2",
+    "footnoteText": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 3."
+   },
+   {
+    "footnote": 148,
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p2",
+    "footnoteText": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 3."
+   },
+   {
+    "footnote": 150,
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p2",
+    "footnoteText": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 10."
+   },
+   {
+    "footnote": 164,
+    "sectionId": "3.3.3",
+    "paragraphId": "3.3.3-p1",
+    "footnoteText": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 13."
+   },
+   {
+    "footnote": 165,
+    "sectionId": "3.3.3",
+    "paragraphId": "3.3.3-p1",
+    "footnoteText": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 13."
+   },
+   {
+    "footnote": 166,
+    "sectionId": "3.3.3",
+    "paragraphId": "3.3.3-p1",
+    "footnoteText": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 13."
+   },
+   {
+    "footnote": 167,
+    "sectionId": "3.3.3",
+    "paragraphId": "3.3.3-p1",
+    "footnoteText": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 13."
+   }
+  ]
+ },
+ {
+  "id": "dolin2006",
+  "kind": "artikel",
+  "author": "Dolin, Robert H. u.a.",
+  "year": 2006,
+  "title": "HL7 Clinical Document Architecture, Release 2",
+  "container": "JAMIA 13(1), S. 30–39",
+  "doi": "10.1197/jamia.M1888",
+  "expectedFile": "sources/dolin2006.pdf",
+  "citations": [
+   {
+    "footnote": 123,
+    "sectionId": "3.2.2.1",
+    "paragraphId": "3.2.2.1-p2",
+    "footnoteText": "Vgl. Dolin et al. (2006):HL7 Clinical Document Architecture, S. 33."
+   }
+  ]
+ },
+ {
+  "id": "amar2024",
+  "kind": "artikel",
+  "author": "Amar, Fouzia u.a.",
+  "year": 2024,
+  "title": "Electronic Health Record and Semantic Issues Using Fast Healthcare Interoperability Resources: Systematic Mapping Review",
+  "container": "Journal of Medical Internet Research, Bd. 26, e45209",
+  "doi": "10.2196/45209",
+  "expectedFile": "sources/amar2024.pdf",
+  "citations": [
+   {
+    "footnote": 130,
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p1",
+    "footnoteText": "Vgl. Amar et al. (2024): Electronic Health Record and Semantic Issues Using Fast Healthcare Interoperability Resources, S. 1."
+   },
+   {
+    "footnote": 131,
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p1",
+    "footnoteText": "Vgl. Amar et al. (2024): Electronic Health Record and Semantic Issues Using Fast Healthcare Interoperability Resources, S. 1."
+   },
+   {
+    "footnote": 137,
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p3",
+    "footnoteText": "Vgl. Amar et al. (2024): Electronic Health Record and Semantic Issues Using Fast Healthcare Interoperability Resources, S. 11."
+   }
+  ]
+ },
+ {
+  "id": "froehlich2025",
+  "kind": "artikel",
+  "author": "Fröhlich, Holger u.a.",
+  "year": 2025,
+  "title": "Reality Check: The Aspirations of the European Health Data Space Amidst Challenges in Decentralized Data Analysis",
+  "container": "Journal of Medical Internet Research, Bd. 27, e76491",
+  "doi": "10.2196/76491",
+  "expectedFile": "sources/froehlich2025.pdf",
+  "citations": [
+   {
+    "footnote": 106,
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p3",
+    "footnoteText": "Vgl. Fröhlich et al. (2025): Reality Check: The Aspirations of the European Health Data Space Amidst Challenges in Decentralized Data Analysis, S. 1."
+   }
+  ]
+ },
+ {
+  "id": "fernandez2013",
+  "kind": "artikel",
+  "author": "Fernández-Alemán, José Luis u.a.",
+  "year": 2013,
+  "title": "Security and privacy in electronic health records: A systematic literature review",
+  "container": "Journal of Biomedical Informatics, Bd. 46, Nr. 3, S. 541–562",
+  "doi": "10.1016/j.jbi.2012.12.003",
+  "expectedFile": "sources/fernandez2013.pdf",
+  "citations": [
+   {
+    "footnote": 151,
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p3",
+    "footnoteText": "Vgl. Fernández-Alemán et al. (2013): Security and privacy in electronic health records, S. 557."
+   },
+   {
+    "footnote": 152,
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p3",
+    "footnoteText": "Vgl. Fernández-Alemán et al. (2013): Security and privacy in electronic health records, S. 557."
+   },
+   {
+    "footnote": 153,
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p3",
+    "footnoteText": "Vgl. Fernández-Alemán et al. (2013): Security and privacy in electronic health records, S. 557."
+   }
+  ]
+ },
+ {
+  "id": "klementi2024",
+  "kind": "artikel",
+  "author": "Klementi, Toomas u.a.",
+  "year": 2024,
+  "title": "A reference architecture for personal health data spaces using decentralized content-addressable storage networks",
+  "container": "Frontiers in Medicine, Bd. 11, Art. 1411013",
+  "doi": "10.3389/fmed.2024.1411013",
+  "expectedFile": "sources/klementi2024.pdf",
+  "citations": [
+   {
+    "footnote": 108,
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p3",
+    "footnoteText": "Vgl. Klementi et al. (2024): A reference architecture for personal health data spaces using decentralized content-addressable storage networks, S. 1. und TEHIK (2026): Health Information Systems."
+   }
+  ]
+ },
+ {
+  "id": "kumar2025",
+  "kind": "artikel",
+  "author": "Kumar, Harsha A. u.a.",
+  "year": 2025,
+  "title": "Decentralized digital health ecosystems: a unified architecture for AI-enhanced medical record management",
+  "container": "Frontiers in Digital Health, Bd. 7, Art. 1685628",
+  "doi": "10.3389/fdgth.2025.1685628",
+  "expectedFile": "sources/kumar2025.pdf",
+  "citations": [
+   {
+    "footnote": 99,
+    "sectionId": "3.1.1",
+    "paragraphId": "3.1.1-p2",
+    "footnoteText": "Vgl. Kumar et al. (2025): Decentralized digital health ecosystems, S. 1."
+   },
+   {
+    "footnote": 104,
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p2",
+    "footnoteText": "Vgl. Kumar et al. (2025): Decentralized digital health ecosystems, S. 3. und Beinke et al. (2019): Towards A Stakeholder-Oriented Blockchain-Based Architecture for Electronic Health Records. S. 5."
+   }
+  ]
+ },
+ {
+  "id": "mccarthy2014",
+  "kind": "artikel",
+  "author": "McCarthy, Douglas B. u.a.",
+  "year": 2014,
+  "title": "Learning from Health Information Exchange Technical Architecture and Implementation in Seven Beacon Communities",
+  "container": "eGEMs 2(1), Artikel 6",
+  "doi": "10.13063/2327-9214.1060",
+  "expectedFile": "sources/mccarthy2014.pdf",
+  "citations": [
+   {
+    "footnote": 109,
+    "sectionId": "3.1.3",
+    "paragraphId": "3.1.3-p1",
+    "footnoteText": "Vgl. McCarthy et al. (2014): Learning from Health Information Exchange Technical Architecture and Implementation in Seven Beacon Communities. S. 5."
+   }
+  ]
+ },
+ {
+  "id": "ohlsen2025",
+  "kind": "artikel",
+  "author": "Ohlsen, Tessa u.a.",
+  "year": 2025,
+  "title": "A Validation Tool (VaPCE) for Postcoordinated SNOMED CT Expressions: Development and Usability Study",
+  "container": "JMIR Medical Informatics, Bd. 13, e67984",
+  "doi": "10.2196/67984",
+  "expectedFile": "sources/ohlsen2025.pdf",
+  "citations": [
+   {
+    "footnote": 132,
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p1",
+    "footnoteText": "Vgl. Ohlsen et al. (2025): A Validation Tool (VaPCE) for Postcoordinated SNOMED CT Expressions, S. 2."
+   },
+   {
+    "footnote": 133,
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p2",
+    "footnoteText": "Vgl. Ohlsen et al. (2025): A Validation Tool (VaPCE) for Postcoordinated SNOMED CT Expressions, S. 1."
+   },
+   {
+    "footnote": 134,
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p2",
+    "footnoteText": "Vgl. Ohlsen et al. (2025): A Validation Tool (VaPCE) for Postcoordinated SNOMED CT Expressions, S. 1."
+   }
+  ]
+ },
+ {
+  "id": "pedrera2023",
+  "kind": "artikel",
+  "author": "Pedrera-Jiménez, Miguel u.a.",
+  "year": 2023,
+  "title": "Can OpenEHR, ISO 13606, and HL7 FHIR Work Together? An Agnostic Approach for the Selection and Application of Electronic Health Record Standards to the Next-Generation Health Data Spaces",
+  "container": "Journal of Medical Internet Research, Bd. 25, e48702",
+  "doi": "10.2196/48702",
+  "expectedFile": "sources/pedrera2023.pdf",
+  "citations": [
+   {
+    "footnote": 96,
+    "sectionId": "3.1",
+    "paragraphId": "3.1-p1",
+    "footnoteText": "Vgl. Pedrera-Jiménez et al. (2023):Can OpenEHR, ISO 13606, and HL7 FHIR Work Together?, S. 1."
+   },
+   {
+    "footnote": 112,
+    "sectionId": "3.1.3",
+    "paragraphId": "3.1.3-p2",
+    "footnoteText": "Vgl. Pedrera-Jiménez et al. (2023):Can OpenEHR, ISO 13606, and HL7 FHIR Work Together? S. 1."
+   }
+  ]
+ },
+ {
+  "id": "vorisek2022",
+  "kind": "artikel",
+  "author": "Vorisek, Carina Nina u.a.",
+  "year": 2022,
+  "title": "Fast Healthcare Interoperability Resources (FHIR) for Interoperability in Health Research: Systematic Review",
+  "container": "JMIR Medical Informatics, Bd. 10, Nr. 7, e35724",
+  "doi": "10.2196/35724",
+  "expectedFile": "sources/vorisek2022.pdf",
+  "citations": [
+   {
+    "footnote": 126,
+    "sectionId": "3.2.2.2",
+    "paragraphId": "3.2.2.2-p1",
+    "footnoteText": "Vgl. Vorisek et al. (2022): Fast Healthcare Interoperability Resources (FHIR) for Interoperability in Health Research, S. 2."
+   }
+  ]
+ },
+ {
+  "id": "scheibner2021",
+  "kind": "artikel",
+  "author": "Scheibner, James u.a.",
+  "year": 2021,
+  "title": "Benefits, Challenges and Contributors to Success for National eHealth Systems Implementation: A Scoping Review",
+  "container": "JAMIA, Art. ocab096",
+  "doi": "10.1093/jamia/ocab096",
+  "expectedFile": "sources/scheibner2021.pdf",
+  "citations": [
+   {
+    "footnote": 97,
+    "sectionId": "3.1.1",
+    "paragraphId": "3.1.1-p1",
+    "footnoteText": "Vgl. Scheibner et al. (2021): Benefits, Challenges and Contributors to Success for National eHealth Systems Implementation: A Scoping Review, S. 6."
+   },
+   {
+    "footnote": 102,
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p1",
+    "footnoteText": "Vgl. Scheibner et al. (2021): Benefits, Challenges and Contributors to Success for National eHealth Systems Implementation: A Scoping Review, S. 6."
+   },
+   {
+    "footnote": 105,
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p2",
+    "footnoteText": "Vgl. Scheibner et al. (2021): Benefits, Challenges and Contributors to Success for National eHealth Systems Implementation: A Scoping Review, S. 6."
+   },
+   {
+    "footnote": 110,
+    "sectionId": "3.1.3",
+    "paragraphId": "3.1.3-p1",
+    "footnoteText": "Vgl. Scheibner et al. (2021): Benefits, Challenges and Contributors to Success for National eHealth Systems Implementation: A Scoping Review, S. 12."
+   }
+  ]
+ },
+ {
+  "id": "shukla2025",
+  "kind": "artikel",
+  "author": "Shukla, Shubhi u.a.",
+  "year": 2025,
+  "title": "Federated learning with differential privacy for breast cancer diagnosis enabling secure data sharing and model integrity",
+  "container": "Scientific Reports, Bd. 15, Art. 13061",
+  "doi": "10.1038/s41598-025-95858-2",
+  "expectedFile": "sources/shukla2025.pdf",
+  "citations": [
+   {
+    "footnote": 107,
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p3",
+    "footnoteText": "Vgl. Shukla et al. (2025): Federated learning with differential privacy for breast cancer diagnosis enabling secure data sharing and model integrity, S. 5."
+   }
+  ]
+ },
+ {
+  "id": "stasis2018",
+  "kind": "artikel",
+  "author": "Stasis, Antonios Ch. u.a.",
+  "year": 2018,
+  "title": "eIDAS — Electronic Identification for Cross Border eHealth",
+  "container": "International Journal of Reliable and Quality E-Healthcare, Bd. 7, Nr. 2",
+  "doi": "10.4018/IJRQEH.2018040104",
+  "expectedFile": "sources/stasis2018.pdf",
+  "citations": [
+   {
+    "footnote": 156,
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p4",
+    "footnoteText": "Vgl. Stasis et al. (2018): eIDAS - Electronic Identification for Cross Border eHealth, S. 1."
+   }
+  ]
+ },
+ {
+  "id": "jormanainen2023",
+  "kind": "konferenz",
+  "author": "Jormanainen, Vesa u.a.",
+  "year": 2023,
+  "title": "Implementation, Adoption and Use of the Kanta Services in Finland 2010–2022",
+  "container": "Studies in Health Technology and Informatics, Bd. 302, S. 227",
+  "doi": "10.3233/SHTI230108",
+  "expectedFile": "sources/jormanainen2023.pdf",
+  "citations": [
+   {
+    "footnote": 101,
+    "sectionId": "3.1.1",
+    "paragraphId": "3.1.1-p2",
+    "footnoteText": "Vgl. Jormanainen et al. (2023): Implementation, Adoption and Use of the Kanta Services in Finland 2010–2022, S. 227."
+   }
+  ]
+ },
+ {
+  "id": "iso13606",
+  "kind": "norm",
+  "author": "International Organization for Standardization (ISO)",
+  "year": 2019,
+  "title": "ISO 13606-1:2019: Health informatics — Electronic health record communication. Part 1: Reference model",
+  "url": "https://www.iso.org/standard/67868.html",
+  "expectedFile": "sources/iso13606.pdf",
+  "citations": [
+   {
+    "footnote": 103,
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p1",
+    "footnoteText": "Vgl. ISO (2019): ISO 13606-1:2019."
+   }
+  ]
+ },
+ {
+  "id": "ek-datenstrategie2020",
+  "kind": "report",
+  "author": "Europäische Kommission",
+  "year": 2020,
+  "title": "Eine europäische Datenstrategie (COM (2020) 66 final)",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX:52020DC0066",
+  "expectedFile": "sources/ek-datenstrategie2020.pdf",
+  "citations": [
+   {
+    "footnote": 4,
+    "sectionId": "2.0",
+    "paragraphId": "2.0-p1",
+    "footnoteText": "Vgl. Europäische Kommission (2020): Eine europäische Datenstrategie, Abschnitt D."
+   },
+   {
+    "footnote": 14,
+    "sectionId": "2.1.1",
+    "paragraphId": "2.1.1-p1",
+    "footnoteText": "Vgl. Europäische Kommission (2020): Eine europäische Datenstrategie, 3. Zielvorstellungen, S. 5."
+   },
+   {
+    "footnote": 15,
+    "sectionId": "2.1.1",
+    "paragraphId": "2.1.1-p2",
+    "footnoteText": "Vgl. Europäische Kommission (2020): Eine europäische Datenstrategie, Anlage 4. Gemeinsamer europäischer Gesundheitsdatenraum, S. 34."
+   },
+   {
+    "footnote": 16,
+    "sectionId": "2.1.1",
+    "paragraphId": "2.1.1-p3",
+    "footnoteText": "Vgl. Europäische Kommission (2020): Eine europäische Datenstrategie, Anlage 4. Gemeinsamer europäischer Gesundheitsdatenraum, S. 35."
+   }
+  ]
+ },
+ {
+  "id": "ek-gesundheitsunion2020",
+  "kind": "report",
+  "author": "Europäische Kommission",
+  "year": 2020,
+  "title": "Schaffung einer europäischen Gesundheitsunion (COM (2020) 724 final)",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:52020DC0724",
+  "expectedFile": "sources/ek-gesundheitsunion2020.pdf",
+  "citations": [
+   {
+    "footnote": 5,
+    "sectionId": "2.0",
+    "paragraphId": "2.0-p2",
+    "footnoteText": "Vgl. Europäische Kommission (2020): Schaffung einer europäischen Gesundheitsunion, Abschnitt 1."
+   }
+  ]
+ },
+ {
+  "id": "ek-eif2017",
+  "kind": "report",
+  "author": "Europäische Kommission",
+  "year": 2017,
+  "title": "Europäischer Interoperabilitätsrahmen – Umsetzungsstrategie (COM (2017) 134 final)",
+  "url": "https://ec.europa.eu/transparency/documents-register/detail?ref=COM(2017)134&lang=en",
+  "expectedFile": "sources/ek-eif2017.pdf",
+  "citations": [
+   {
+    "footnote": 115,
+    "sectionId": "3.2",
+    "paragraphId": "3.2-p1",
+    "footnoteText": "Vgl. Europäische Kommission (2017): Europäischer Interoperabilitätsrahmen – Umsetzungsstrategie, 3. Einführung, S. 2."
+   }
+  ]
+ },
+ {
+  "id": "rh-elga2024",
+  "kind": "report",
+  "author": "Rechnungshof Österreich",
+  "year": 2024,
+  "title": "Bericht des Rechnungshofes, Reihe Bund 2024/32: Elektronische Gesundheitsakte ELGA und ELGA GmbH",
+  "url": "https://www.rechnungshof.gv.at/rh/home/home/2024_32_ELGA.pdf",
+  "expectedFile": "sources/rh-elga2024.pdf",
+  "citations": [
+   {
+    "footnote": 113,
+    "sectionId": "3.1.3",
+    "paragraphId": "3.1.3-p2",
+    "footnoteText": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH, S. 11 und 49f."
+   },
+   {
+    "footnote": 270,
+    "sectionId": "5.1",
+    "paragraphId": "5.1-p1",
+    "footnoteText": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH, S. 17."
+   },
+   {
+    "footnote": 272,
+    "sectionId": "5.1",
+    "paragraphId": "5.1-p3",
+    "footnoteText": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH, S. 49f."
+   },
+   {
+    "footnote": 283,
+    "sectionId": "5.1.2",
+    "paragraphId": "5.1.2-p3",
+    "footnoteText": "Vgl. § 20 Abs 1 GTelG 2012 und Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 51."
+   },
+   {
+    "footnote": 284,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p1",
+    "footnoteText": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 11."
+   },
+   {
+    "footnote": 285,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p1",
+    "footnoteText": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 51."
+   },
+   {
+    "footnote": 286,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p1",
+    "footnoteText": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 52."
+   },
+   {
+    "footnote": 316,
+    "sectionId": "5.2.2",
+    "paragraphId": "5.2.2-p3",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 57, und Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 51."
+   },
+   {
+    "footnote": 317,
+    "sectionId": "5.2.2",
+    "paragraphId": "5.2.2-p3",
+    "footnoteText": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 50f."
+   },
+   {
+    "footnote": 320,
+    "sectionId": "5.3",
+    "paragraphId": "5.3-p1",
+    "footnoteText": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 11."
+   }
+  ]
+ },
+ {
+  "id": "elga-gesamtarchitektur2017",
+  "kind": "report",
+  "author": "ELGA GmbH",
+  "year": 2017,
+  "title": "ELGA-Gesamtarchitektur. Version 2.30b vom 28.02.2017",
+  "url": "https://www.elga.gv.at/fileadmin/user_upload/Dokumente_PDF_MP4/Technisches/ELGA_Gesamtarchitektur_2.30b.pdf",
+  "expectedFile": "sources/elga-gesamtarchitektur2017.pdf",
+  "citations": [
+   {
+    "footnote": 275,
+    "sectionId": "5.1.1",
+    "paragraphId": "5.1.1-p1",
+    "footnoteText": "Vgl. § 21 Abs 1 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 116."
+   },
+   {
+    "footnote": 276,
+    "sectionId": "5.1.1",
+    "paragraphId": "5.1.1-p1",
+    "footnoteText": "Vgl. § 22 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 11."
+   },
+   {
+    "footnote": 277,
+    "sectionId": "5.1.1",
+    "paragraphId": "5.1.1-p1",
+    "footnoteText": "Vgl. § 23 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 210."
+   },
+   {
+    "footnote": 278,
+    "sectionId": "5.1.1",
+    "paragraphId": "5.1.1-p1",
+    "footnoteText": "Vgl. § 20 Abs 3 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 330."
+   },
+   {
+    "footnote": 282,
+    "sectionId": "5.1.2",
+    "paragraphId": "5.1.2-p2",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 57f."
+   },
+   {
+    "footnote": 287,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p4",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 13."
+   },
+   {
+    "footnote": 288,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p4",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 16."
+   },
+   {
+    "footnote": 289,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p5",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 156 und 163."
+   },
+   {
+    "footnote": 290,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p6",
+    "footnoteText": "Vgl. § 18 GTelG 2012 sowie ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 48f, 64 und 101ff."
+   },
+   {
+    "footnote": 291,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p6",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 10."
+   },
+   {
+    "footnote": 292,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p7",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 10."
+   },
+   {
+    "footnote": 293,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p7",
+    "footnoteText": "Vgl. § 21 Abs 1 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 46, 58 und 156."
+   },
+   {
+    "footnote": 294,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p7",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 58."
+   },
+   {
+    "footnote": 296,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p8",
+    "footnoteText": "Vgl. § 23 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 210 und 330."
+   },
+   {
+    "footnote": 300,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p1",
+    "footnoteText": "Vgl. § 21 Abs 2 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 226f."
+   },
+   {
+    "footnote": 306,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p3",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 226f."
+   },
+   {
+    "footnote": 311,
+    "sectionId": "5.2.1",
+    "paragraphId": "5.2.1-p2",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 87."
+   },
+   {
+    "footnote": 314,
+    "sectionId": "5.2.2",
+    "paragraphId": "5.2.2-p1",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 87."
+   },
+   {
+    "footnote": 315,
+    "sectionId": "5.2.2",
+    "paragraphId": "5.2.2-p2",
+    "footnoteText": "Vgl. § 22 Abs 2 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 50."
+   },
+   {
+    "footnote": 316,
+    "sectionId": "5.2.2",
+    "paragraphId": "5.2.2-p3",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 57, und Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 51."
+   },
+   {
+    "footnote": 323,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p1",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 141."
+   },
+   {
+    "footnote": 324,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p2",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 158."
+   },
+   {
+    "footnote": 325,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p2",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 46."
+   },
+   {
+    "footnote": 328,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p3",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 148."
+   },
+   {
+    "footnote": 329,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p3",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 156."
+   },
+   {
+    "footnote": 338,
+    "sectionId": "5.3.2",
+    "paragraphId": "5.3.2-p1",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 329."
+   },
+   {
+    "footnote": 339,
+    "sectionId": "5.3.2",
+    "paragraphId": "5.3.2-p1",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 50."
+   },
+   {
+    "footnote": 348,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p2",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 317f."
+   },
+   {
+    "footnote": 351,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p3",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 314."
+   },
+   {
+    "footnote": 352,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p3",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 317."
+   },
+   {
+    "footnote": 365,
+    "sectionId": "5.4.1",
+    "paragraphId": "5.4.1-p1",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 87."
+   },
+   {
+    "footnote": 366,
+    "sectionId": "5.4.1",
+    "paragraphId": "5.4.1-p1",
+    "footnoteText": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 87."
+   },
+   {
+    "footnote": 367,
+    "sectionId": "5.4.1",
+    "paragraphId": "5.4.1-p1",
+    "footnoteText": "Vgl. § 16 ELGA-VO 2015 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 87."
+   }
+  ]
+ },
+ {
+  "id": "nist-abac2014",
+  "kind": "report",
+  "author": "NIST, Hu, Vincent C. u.a.",
+  "year": 2014,
+  "title": "Guide to Attribute Based Access Control (ABAC) Definition and Considerations (NIST SP 800-162)",
+  "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-162.pdf",
+  "expectedFile": "sources/nist-abac2014.pdf",
+  "citations": [
+   {
+    "footnote": 158,
+    "sectionId": "3.3.2",
+    "paragraphId": "3.3.2-p2",
+    "footnoteText": "Vgl. National Institute of Standards and Technology (NIST), Hu et al. (2014): Guide to Attribute Based Access Control (ABAC) Definition and Considerations, S. 6."
+   },
+   {
+    "footnote": 162,
+    "sectionId": "3.3.2",
+    "paragraphId": "3.3.2-p5",
+    "footnoteText": "Vgl. Atlam et al. (2025): Enhancing Healthcare Security, S. 17. und National Institute of Standards and Technology (NIST), Hu et al. (2014): Guide to Attribute Based Access Control (ABAC) Definition and Considerations, S. 14."
+   },
+   {
+    "footnote": 163,
+    "sectionId": "3.3.2",
+    "paragraphId": "3.3.2-p6",
+    "footnoteText": "Vgl. National Institute of Standards and Technology (NIST), Hu et al. (2014): Guide to Attribute Based Access Control (ABAC) Definition and Considerations, S. 15."
+   }
+  ]
+ },
+ {
+  "id": "nist-800-63b-2017",
+  "kind": "report",
+  "author": "NIST, Grassi, Paul A. u.a.",
+  "year": 2017,
+  "title": "Digital Identity Guidelines: Authentication and Lifecycle Management (NIST SP 800-63B)",
+  "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-63b.pdf",
+  "expectedFile": "sources/nist-800-63b-2017.pdf",
+  "citations": [
+   {
+    "footnote": 145,
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p1",
+    "footnoteText": "Vgl. National Institute of Standards and Technology (NIST), Grassi et al. (2017): Digital Identity Guidelines, S. 2."
+   },
+   {
+    "footnote": 146,
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p1",
+    "footnoteText": "Vgl. National Institute of Standards and Technology (NIST), Grassi et al. (2017): Digital Identity Guidelines, S. 2."
+   }
+  ]
+ },
+ {
+  "id": "nist-800-63-4-2025",
+  "kind": "report",
+  "author": "NIST, Temoshok, David u.a.",
+  "year": 2025,
+  "title": "Digital Identity Guidelines (NIST SP 800-63-4)",
+  "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-4.pdf",
+  "expectedFile": "sources/nist-800-63-4-2025.pdf",
+  "citations": [
+   {
+    "footnote": 149,
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p2",
+    "footnoteText": "Vgl. National Institute of Standards and Technology (NIST), Temoshok et al. (2025): Digital Identity Guidelines, S. 11."
+   }
+  ]
+ },
+ {
+  "id": "ek-ehds-page2026",
+  "kind": "online",
+  "author": "Europäische Kommission",
+  "year": 2026,
+  "title": "Public Health: Verordnung über den Europäischen Gesundheitsdatenraum (EHDS)",
+  "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds",
+  "expectedFile": "sources/ek-ehds-page2026.pdf",
+  "citations": [
+   {
+    "footnote": 91,
+    "sectionId": "2.3.5",
+    "paragraphId": "2.3.5-p1",
+    "footnoteText": "Vgl. Europäische Kommission (2026): Public Health: Verordnung über den Europäischen Gesundheitsdatenraum (EHDS)."
+   }
+  ]
+ },
+ {
+  "id": "ek-crossborder2026",
+  "kind": "online",
+  "author": "Europäische Kommission",
+  "year": 2026,
+  "title": "Public Health: Elektronische grenzüberschreitende Gesundheitsdienste",
+  "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/digital-health-and-care/electronic-cross-border-health-services_de",
+  "expectedFile": "sources/ek-crossborder2026.pdf",
+  "citations": [
+   {
+    "footnote": 171,
+    "sectionId": "3.4.1",
+    "paragraphId": "3.4.1-p1",
+    "footnoteText": "Vgl. Europäische Kommission (2026): Public Health: Elektronische grenzüberschreitende Gesundheitsdienste."
+   },
+   {
+    "footnote": 184,
+    "sectionId": "3.4.2",
+    "paragraphId": "3.4.2-p4",
+    "footnoteText": "Vgl. Europäische Kommission (2026): Public Health: Elektronische grenzüberschreitende Gesundheitsdienste."
+   }
+  ]
+ },
+ {
+  "id": "ek-myrights2026",
+  "kind": "online",
+  "author": "Europäische Kommission",
+  "year": 2026,
+  "title": "Public Health: Meine Rechte an meinen Gesundheitsdaten",
+  "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/my-rights-over-my-health-data_de",
+  "expectedFile": "sources/ek-myrights2026.pdf",
+  "citations": [
+   {
+    "footnote": 180,
+    "sectionId": "3.4.2",
+    "paragraphId": "3.4.2-p1",
+    "footnoteText": "Vgl. Europäische Kommission (2026): Public Health: Meine Rechte an meinen Gesundheitsdaten."
+   }
+  ]
+ },
+ {
+  "id": "aeknoe2025",
+  "kind": "online",
+  "author": "Ärztekammer für NÖ",
+  "year": 2025,
+  "title": "e-Card-Anbindung für Wahlärzt:innen",
+  "url": "https://www.arztnoe.at/e-card-wahlaerzte",
+  "expectedFile": "sources/aeknoe2025.pdf",
+  "citations": [
+   {
+    "footnote": 227,
+    "sectionId": "4.2.2",
+    "paragraphId": "4.2.2-p4",
+    "footnoteText": "Ärztekammer für NÖ (2025): e-Card-Anbindung für Wahlärzt:innen."
+   }
+  ]
+ },
+ {
+  "id": "parlament374ab",
+  "kind": "online",
+  "author": "Österreichisches Parlament",
+  "year": 2025,
+  "title": "Vorbereitungsarbeiten auf den EHDS (374/AB)",
+  "url": "https://www.parlament.gv.at/gegenstand/XXVIII/AB/374",
+  "expectedFile": "sources/parlament374ab.pdf",
+  "citations": [
+   {
+    "footnote": 242,
+    "sectionId": "4.3",
+    "paragraphId": "4.3-p3",
+    "footnoteText": "Siehe Österreichisches Parlament (2025): Vorbereitungsarbeiten auf den EHDS (374/AB), S. 11."
+   },
+   {
+    "footnote": 259,
+    "sectionId": "4.4.3",
+    "paragraphId": "4.4.3-p2",
+    "footnoteText": "Siehe Österreichisches Parlament (2025): Vorbereitungsarbeiten auf den EHDS (374/AB), S. 11."
+   },
+   {
+    "footnote": 261,
+    "sectionId": "4.4.3",
+    "paragraphId": "4.4.3-p3",
+    "footnoteText": "Siehe Österreichisches Parlament (2025): Vorbereitungsarbeiten auf den EHDS (374/AB), S. 11."
+   }
+  ]
+ },
+ {
+  "id": "ek-faq2025",
+  "kind": "online",
+  "author": "Europäische Kommission, GD SANTE",
+  "year": 2025,
+  "title": "Frequently Asked Questions on the European Health Data Space (EHDS)",
+  "url": "https://health.ec.europa.eu/document/download/4dd47ec2-71dd-49fc-b036-ad7c14f6ed68_en",
+  "expectedFile": "sources/ek-faq2025.pdf",
+  "citations": [
+   {
+    "footnote": 154,
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p4",
+    "footnoteText": "Vgl. Europäische Kommission (2025): Frequently Asked Questions on the European Health Data Space (EHDS), S. 13."
+   }
+  ]
+ },
+ {
+  "id": "tehik2026",
+  "kind": "online",
+  "author": "TEHIK",
+  "year": 2026,
+  "title": "Health Information Systems",
+  "url": "https://www.tehik.ee/en/information-centre",
+  "expectedFile": "sources/tehik2026.pdf",
+  "citations": [
+   {
+    "footnote": 108,
+    "sectionId": "3.1.2",
+    "paragraphId": "3.1.2-p3",
+    "footnoteText": "Vgl. Klementi et al. (2024): A reference architecture for personal health data spaces using decentralized content-addressable storage networks, S. 1. und TEHIK (2026): Health Information Systems."
+   }
+  ]
+ },
+ {
+  "id": "ihe-iti2026",
+  "kind": "online",
+  "author": "IHE International",
+  "year": 2026,
+  "title": "IHE IT Infrastructure Technical Framework (Profiles)",
+  "url": "https://profiles.ihe.net/ITI/TF/index",
+  "expectedFile": "sources/ihe-iti2026.pdf",
+  "citations": [
+   {
+    "footnote": 92,
+    "sectionId": "3.0",
+    "paragraphId": "3.0-p2",
+    "footnoteText": "Vgl. IHE International (2026): IHE IT Infrastructure Technical Framework (Profiles)."
+   },
+   {
+    "footnote": 116,
+    "sectionId": "3.2.1",
+    "paragraphId": "3.2.1-p1",
+    "footnoteText": "Vgl. IHE International (2026): IHE IT Infrastructure Technical Framework (Profiles)."
+   },
+   {
+    "footnote": 117,
+    "sectionId": "3.2.1",
+    "paragraphId": "3.2.1-p2",
+    "footnoteText": "Vgl. IHE International (2026): IHE IT Infrastructure Technical Framework (Profiles). Vol. 1. Ch. 10."
+   },
+   {
+    "footnote": 118,
+    "sectionId": "3.2.1",
+    "paragraphId": "3.2.1-p2",
+    "footnoteText": "Vgl. IHE International (2026): IHE IT Infrastructure Technical Framework (Profiles).Vol. 1. Ch. 18."
+   },
+   {
+    "footnote": 119,
+    "sectionId": "3.2.1",
+    "paragraphId": "3.2.1-p2",
+    "footnoteText": "Vgl. IHE International (2026): IHE IT Infrastructure Technical Framework (Profiles).Vol. 1. Ch. 5."
+   },
+   {
+    "footnote": 168,
+    "sectionId": "3.3.3",
+    "paragraphId": "3.3.3-p2",
+    "footnoteText": "Vgl. IHE International (2026): IHE IT Infrastructure Technical Framework (Profiles)."
+   }
+  ]
+ },
+ {
+  "id": "regenstrief2023",
+  "kind": "online",
+  "author": "Regenstrief Institute / SNOMED International",
+  "year": 2023,
+  "title": "Regenstrief and SNOMED International broaden collaboration to facilitate interoperability nationally and globally by linking LOINC and SNOMED CT",
+  "url": "https://www.snomed.org/news/regenstrief-and-snomed-international-broaden-collaboration-to-facilitate-interoperability-nationally-and-globally-by-linking-loinc-and-snomed-ct",
+  "expectedFile": "sources/regenstrief2023.pdf",
+  "citations": [
+   {
+    "footnote": 135,
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p2",
+    "footnoteText": "Vgl. Regenstrief Institute / SNOMED International (2023) Regenstrief and SNOMED International broaden collaboration to facilitate interoperability nationally and globally by linking LOINC and SNOMED CT."
+   },
+   {
+    "footnote": 136,
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p3",
+    "footnoteText": "Vgl. Regenstrief Institute / SNOMED International (2023) Regenstrief and SNOMED International broaden collaboration to facilitate interoperability nationally and globally by linking LOINC and SNOMED CT."
+   }
+  ]
+ },
+ {
+  "id": "pmc-cda2026",
+  "kind": "online",
+  "author": "PubMed Central",
+  "year": 2026,
+  "title": "HL7 Clinical Document Architecture, Release 2",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1380194/",
+  "expectedFile": "sources/pmc-cda2026.pdf",
+  "citations": [
+   {
+    "footnote": 93,
+    "sectionId": "3.0",
+    "paragraphId": "3.0-p2",
+    "footnoteText": "Vgl. PubMed Central (2026): HL7 Clinical Document Architecture, Release 2."
+   }
+  ]
+ },
+ {
+  "id": "dachverband-ecard2026",
+  "kind": "online",
+  "author": "Dachverband der Sozialversicherungsträger",
+  "year": 2026,
+  "title": "e-card System",
+  "url": "https://www.chipkarte.at/cdscontent/?contentid=10007.896840&portal=ecardportal",
+  "expectedFile": "sources/dachverband-ecard2026.pdf",
+  "citations": [
+   {
+    "footnote": 280,
+    "sectionId": "5.1.2",
+    "paragraphId": "5.1.2-p1",
+    "footnoteText": "Vgl. Dachverband der Sozialversicherungsträger (2026): e-card System."
+   },
+   {
+    "footnote": 281,
+    "sectionId": "5.1.2",
+    "paragraphId": "5.1.2-p1",
+    "footnoteText": "Vgl. Dachverband der Sozialversicherungsträger (2026): e-card System."
+   }
+  ]
+ },
+ {
+  "id": "pdg-roadmap2026",
+  "kind": "online",
+  "author": "Plattform für Digitale Gesundheit",
+  "year": 2026,
+  "title": "eHealth-Roadmap",
+  "url": "https://ehealth-roadmap.at/",
+  "expectedFile": "sources/pdg-roadmap2026.pdf",
+  "citations": [
+   {
+    "footnote": 268,
+    "sectionId": "4.6",
+    "paragraphId": "4.6-p1",
+    "footnoteText": "Vgl. Plattform für Digitale Gesundheit (2026): eHealth-Roadmap."
+   },
+   {
+    "footnote": 313,
+    "sectionId": "5.2.1",
+    "paragraphId": "5.2.1-p3",
+    "footnoteText": "Vgl. ÖMS (2026): Verband Österreichischer Medizinsoftware-Hersteller und Plattform für Digitale Gesundheit (2026): eHealth-Roadmap."
+   }
+  ]
+ },
+ {
+  "id": "oems2026",
+  "kind": "online",
+  "author": "ÖMS",
+  "year": 2026,
+  "title": "Verband Österreichischer Medizinsoftware-Hersteller",
+  "url": "https://oems.at/",
+  "expectedFile": "sources/oems2026.pdf",
+  "citations": [
+   {
+    "footnote": 310,
+    "sectionId": "5.2.1",
+    "paragraphId": "5.2.1-p2",
+    "footnoteText": "Vgl. ÖMS (2026): Verband Österreichischer Medizinsoftware-Hersteller."
+   },
+   {
+    "footnote": 313,
+    "sectionId": "5.2.1",
+    "paragraphId": "5.2.1-p3",
+    "footnoteText": "Vgl. ÖMS (2026): Verband Österreichischer Medizinsoftware-Hersteller und Plattform für Digitale Gesundheit (2026): eHealth-Roadmap."
+   }
+  ]
+ },
+ {
+  "id": "bmasgpk-eurezept2026",
+  "kind": "online",
+  "author": "BMASGPK",
+  "year": 2026,
+  "title": "EU-Rezept ab jetzt verfügbar",
+  "url": "https://www.sozialministerium.gv.at/Services/Aktuelles/archiv-2026/",
+  "expectedFile": "sources/bmasgpk-eurezept2026.pdf",
+  "citations": [
+   {
+    "footnote": 389,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p2",
+    "footnoteText": "Vgl. Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz (2026): EU-Rezept ab jetzt verfügbar."
+   }
+  ]
+ },
+ {
+  "id": "bmasgpk-elga2026",
+  "kind": "online",
+  "author": "BMASGPK",
+  "year": 2026,
+  "title": "ELGA (Sozialministerium)",
+  "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/eHealth/ELGA.html",
+  "expectedFile": "sources/bmasgpk-elga2026.pdf",
+  "citations": [
+   {
+    "footnote": 312,
+    "sectionId": "5.2.1",
+    "paragraphId": "5.2.1-p3",
+    "footnoteText": "Vgl. Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz (2026): ELGA."
+   },
+   {
+    "footnote": 371,
+    "sectionId": "5.4.2",
+    "paragraphId": "5.4.2-p1",
+    "footnoteText": "Vgl. Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz (2026): ELGA."
+   }
+  ]
+ },
+ {
+  "id": "elga-datenschutz2026",
+  "kind": "online",
+  "author": "ELGA GmbH",
+  "year": 2026,
+  "title": "Datenschutz und Datensicherheit (FAQ)",
+  "url": "https://www.elga.gv.at/faq/datenschutz-und-datensicherheit/",
+  "expectedFile": "sources/elga-datenschutz2026.pdf",
+  "citations": [
+   {
+    "footnote": 330,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p4",
+    "footnoteText": "Vgl. ELGA GmbH (2026): Datenschutz und Datensicherheit."
+   },
+   {
+    "footnote": 331,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p4",
+    "footnoteText": "Vgl. ELGA GmbH (2026): Datenschutz und Datensicherheit."
+   },
+   {
+    "footnote": 332,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p4",
+    "footnoteText": "Vgl. ELGA GmbH (2026): Datenschutz und Datensicherheit."
+   },
+   {
+    "footnote": 333,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p4",
+    "footnoteText": "Vgl. ELGA GmbH (2026): Datenschutz und Datensicherheit."
+   },
+   {
+    "footnote": 334,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p4",
+    "footnoteText": "Vgl. ELGA GmbH (2026): Datenschutz und Datensicherheit."
+   }
+  ]
+ },
+ {
+  "id": "goeg-widerspruch2026",
+  "kind": "online",
+  "author": "Gesundheit Österreich GmbH",
+  "year": 2026,
+  "title": "Widerspruch (gesundheit.gv.at)",
+  "url": "https://www.gesundheit.gv.at/lexikon/W/widerspruch.html",
+  "expectedFile": "sources/goeg-widerspruch2026.pdf",
+  "citations": [
+   {
+    "footnote": 244,
+    "sectionId": "4.4.1",
+    "paragraphId": "4.4.1-p1",
+    "footnoteText": "Vgl. § 15 Abs 2 GTelG 2012 und Gesundheit Österreich GmbH (2026): Widerspruch."
+   },
+   {
+    "footnote": 245,
+    "sectionId": "4.4.1",
+    "paragraphId": "4.4.1-p2",
+    "footnoteText": "Vgl. § 17 Abs 2 Z 3 GTelG 2012 und Gesundheit Österreich GmbH (2026): Widerspruch."
+   },
+   {
+    "footnote": 246,
+    "sectionId": "4.4.1",
+    "paragraphId": "4.4.1-p2",
+    "footnoteText": "Vgl. § 23 GTelG 2012 und Gesundheit Österreich GmbH (2026): Widerspruch."
+   },
+   {
+    "footnote": 247,
+    "sectionId": "4.4.1",
+    "paragraphId": "4.4.1-p2",
+    "footnoteText": "Vgl. § 15 Abs 4 GTelG 2012 und Gesundheit Österreich GmbH (2026): Widerspruch."
+   }
+  ]
+ },
+ {
+  "id": "goeg-cdaleitfaeden2026",
+  "kind": "online",
+  "author": "Gesundheit Österreich GmbH",
+  "year": 2026,
+  "title": "ELGA-CDA-Implementierungsleitfäden",
+  "url": "https://www.gesundheit.gv.at/service/professional/it-services/implementierungsleitfaeden.html",
+  "expectedFile": "sources/goeg-cdaleitfaeden2026.pdf",
+  "citations": [
+   {
+    "footnote": 368,
+    "sectionId": "5.4.1",
+    "paragraphId": "5.4.1-p1",
+    "footnoteText": "Vgl. Gesundheit Österreich GmbH (2026): ELGA-CDA-Implementierungsleitfäden."
+   },
+   {
+    "footnote": 382,
+    "sectionId": "5.4.3",
+    "paragraphId": "5.4.3-p4",
+    "footnoteText": "Vgl. Gesundheit Österreich GmbH (2026): ELGA-CDA-Implementierungsleitfäden und HL7 Austria (2026): HL7 Austria und TC FHIR Implementation Guides."
+   }
+  ]
+ },
+ {
+  "id": "goeg-myhealtheu-rezept2026",
+  "kind": "online",
+  "author": "Gesundheit Österreich GmbH",
+  "year": 2026,
+  "title": "MyHealth@EU: EU-Rezept und EU-Patientenkurzakte",
+  "url": "https://www.gesundheit.gv.at/news/aktuelles/aktuell-2026/eu-rezept.html",
+  "expectedFile": "sources/goeg-myhealtheu-rezept2026.pdf",
+  "citations": [
+   {
+    "footnote": 390,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p2",
+    "footnoteText": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU: EU-Rezept und EU-Patientenkurzakte."
+   },
+   {
+    "footnote": 391,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p2",
+    "footnoteText": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU: EU-Rezept und EU-Patientenkurzakte."
+   },
+   {
+    "footnote": 395,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p4",
+    "footnoteText": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU: EU-Rezept und EU-Patientenkurzakte."
+   }
+  ]
+ },
+ {
+  "id": "goeg-atehdsi2026",
+  "kind": "online",
+  "author": "Gesundheit Österreich GmbH",
+  "year": 2026,
+  "title": "AT-eHDSI",
+  "url": "https://goeg.at/AT_eHDSI",
+  "expectedFile": "sources/goeg-atehdsi2026.pdf",
+  "citations": [
+   {
+    "footnote": 387,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p2",
+    "footnoteText": "Vgl. Gesundheit Österreich GmbH (2026): AT-eHDSI."
+   }
+  ]
+ },
+ {
+  "id": "goeg-myhealtheu2026",
+  "kind": "online",
+  "author": "Gesundheit Österreich GmbH",
+  "year": 2026,
+  "title": "MyHealth@EU (goeg.at)",
+  "url": "https://goeg.at/myhealtheu_startet",
+  "expectedFile": "sources/goeg-myhealtheu2026.pdf",
+  "citations": [
+   {
+    "footnote": 385,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p1",
+    "footnoteText": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU."
+   },
+   {
+    "footnote": 386,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p1",
+    "footnoteText": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU."
+   },
+   {
+    "footnote": 388,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p2",
+    "footnoteText": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU."
+   },
+   {
+    "footnote": 397,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p5",
+    "footnoteText": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU."
+   }
+  ]
+ },
+ {
+  "id": "dachverband-emedrollout2026",
+  "kind": "online",
+  "author": "Dachverband der Sozialversicherungsträger",
+  "year": 2026,
+  "title": "Rollout e-Medikation",
+  "url": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.717380&version=1519738878",
+  "expectedFile": "sources/dachverband-emedrollout2026.pdf",
+  "citations": [
+   {
+    "footnote": 372,
+    "sectionId": "5.4.2",
+    "paragraphId": "5.4.2-p1",
+    "footnoteText": "Vgl. Dachverband der Sozialversicherungsträger (2026): Rollout e-Medikation."
+   }
+  ]
+ },
+ {
+  "id": "hl7at-fhir-igs2026",
+  "kind": "online",
+  "author": "HL7 Austria",
+  "year": 2026,
+  "title": "HL7 Austria und TC FHIR Implementation Guides",
+  "url": "https://fhir.hl7.at/",
+  "expectedFile": "sources/hl7at-fhir-igs2026.pdf",
+  "citations": [
+   {
+    "footnote": 376,
+    "sectionId": "5.4.3",
+    "paragraphId": "5.4.3-p2",
+    "footnoteText": "Vgl. HL7 Austria (2026): HL7 Austria und TC FHIR Implementation Guides."
+   },
+   {
+    "footnote": 380,
+    "sectionId": "5.4.3",
+    "paragraphId": "5.4.3-p3",
+    "footnoteText": "Vgl. HL7 Austria (2026): HL7 Austria und TC FHIR Implementation Guides."
+   },
+   {
+    "footnote": 382,
+    "sectionId": "5.4.3",
+    "paragraphId": "5.4.3-p4",
+    "footnoteText": "Vgl. Gesundheit Österreich GmbH (2026): ELGA-CDA-Implementierungsleitfäden und HL7 Austria (2026): HL7 Austria und TC FHIR Implementation Guides."
+   }
+  ]
+ },
+ {
+  "id": "hl7at-aps-umfeld2026",
+  "kind": "online",
+  "author": "HL7 Austria",
+  "year": 2026,
+  "title": "Austrian Patient Summary (R4): Umfeld",
+  "url": "https://fhir.hl7.at/r4-ELGA-AustrianPatientSummary-ballot_2025_stu1/background.html",
+  "expectedFile": "sources/hl7at-aps-umfeld2026.pdf",
+  "citations": [
+   {
+    "footnote": 77,
+    "sectionId": "2.3.3",
+    "paragraphId": "2.3.3-p3",
+    "footnoteText": "Vgl. HL7 Austria (2026): Austrian Patient Summary (R4), Umfeld."
+   },
+   {
+    "footnote": 128,
+    "sectionId": "3.2.2.2",
+    "paragraphId": "3.2.2.2-p2",
+    "footnoteText": "Vgl. HL7 Austria (2026): Austrian Patient Summary (R4), Umfeld."
+   },
+   {
+    "footnote": 381,
+    "sectionId": "5.4.3",
+    "paragraphId": "5.4.3-p4",
+    "footnoteText": "Vgl. HL7 Austria (2026): Austrian Patient Summary (R4), Umfeld."
+   }
+  ]
+ },
+ {
+  "id": "hl7at-aps-ig2026",
+  "kind": "online",
+  "author": "HL7 Austria",
+  "year": 2026,
+  "title": "Austrian Patient Summary (R4): FHIR Implementation Guide, Version 1.0.0 (STU1)",
+  "url": "https://fhir.hl7.at/elga/aps/r4/index.html",
+  "expectedFile": "sources/hl7at-aps-ig2026.pdf",
+  "citations": [
+   {
+    "footnote": 373,
+    "sectionId": "5.4.2",
+    "paragraphId": "5.4.2-p1",
+    "footnoteText": "Vgl. HL7 Austria (2026): Austrian Patient Summary (R4), FHIR Implementation Guide, Version 1.0.0 (STU1); zum fehlenden Produktivstatus § 16 ELGA-VO 2015 und § 28c Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 377,
+    "sectionId": "5.4.3",
+    "paragraphId": "5.4.3-p3",
+    "footnoteText": "Vgl. HL7 Austria (2026): Austrian Patient Summary (R4), FHIR Implementation Guide, Version 1.0.0 (STU1)."
+   },
+   {
+    "footnote": 378,
+    "sectionId": "5.4.3",
+    "paragraphId": "5.4.3-p3",
+    "footnoteText": "Vgl. HL7 Austria (2026): Austrian Patient Summary (R4), FHIR Implementation Guide, Version 1.0.0 (STU1)."
+   },
+   {
+    "footnote": 379,
+    "sectionId": "5.4.3",
+    "paragraphId": "5.4.3-p3",
+    "footnoteText": "Vgl. HL7 Austria (2026): Austrian Patient Summary (R4), FHIR Implementation Guide, Version 1.0.0 (STU1)."
+   }
+  ]
+ },
+ {
+  "id": "hl7at-wiki2024",
+  "kind": "online",
+  "author": "HL7 Austria MediaWiki",
+  "year": 2024,
+  "title": "FHIR",
+  "url": "https://wiki.hl7.at/index.php/FHIR",
+  "expectedFile": "sources/hl7at-wiki2024.pdf",
+  "citations": [
+   {
+    "footnote": 125,
+    "sectionId": "3.2.2.2",
+    "paragraphId": "3.2.2.2-p1",
+    "footnoteText": "Vgl. HL7 Austria MediaWiki (2024). FHIR."
+   }
+  ]
+ },
+ {
+  "id": "himss2020",
+  "kind": "online",
+  "author": "HIMSS",
+  "year": 2020,
+  "title": "Interoperability in Healthcare",
+  "url": "https://www.himss.org/",
+  "expectedFile": "sources/himss2020.pdf",
+  "citations": [
+   {
+    "footnote": 114,
+    "sectionId": "3.2",
+    "paragraphId": "3.2-p1",
+    "footnoteText": "Vgl. HIMSS (2020): Interoperability in Healthcare."
+   },
+   {
+    "footnote": 120,
+    "sectionId": "3.2.2",
+    "paragraphId": "3.2.2-p1",
+    "footnoteText": "Vgl. HIMSS (2020): Interoperability in Healthcare."
+   }
+  ]
+ },
+ {
+  "id": "orf2025",
+  "kind": "online",
+  "author": "ORF.at",
+  "year": 2025,
+  "title": "App und Medikamentenliste: ELGA wird stark ausgebaut",
+  "url": "https://orf.at/stories/3394591/",
+  "expectedFile": "sources/orf2025.pdf",
+  "citations": [
+   {
+    "footnote": 355,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p3",
+    "footnoteText": "Vgl. ORF.at (2025): App und Medikamentenliste: ELGA wird stark ausgebaut."
+   }
+  ]
+ },
+ {
+  "id": "ehds-vo",
+  "kind": "recht-eu",
+  "author": "EU",
+  "year": 2025,
+  "title": "Verordnung (EU) 2025/327 (EHDS-Verordnung)",
+  "longTitle": "Verordnung (EU) 2025/327 des Europäischen Parlaments und des Rates vom 11. Februar 2025 über den europäischen Gesundheitsdatenraum sowie zur Änderung der Richtlinie 2011/24/EU und der Verordnung (EU) 2024/2847. ABl. L vom 5.3.2025, S. 1.",
+  "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj/deu",
+  "expectedFile": "sources/ehds-vo.pdf",
+  "citations": [
+   {
+    "footnote": 1,
+    "sectionId": "1.1",
+    "paragraphId": "1.1-p2",
+    "footnoteText": "Verordnung (EU) 2025/327 des Europäischen Parlaments und des Rates vom 11. Februar 2025 über den europäischen Gesundheitsdatenraum sowie zur Änderung der Richtlinie 2011/24/EU und der Verordnung (EU) 2024/2847, ABl. L vom 5.3.2025, S. 1."
+   },
+   {
+    "footnote": 8,
+    "sectionId": "2.0",
+    "paragraphId": "2.0-p3",
+    "footnoteText": "Vgl. Art 1 Abs 1 der VO (EU) 2025/327."
+   },
+   {
+    "footnote": 9,
+    "sectionId": "2.1",
+    "paragraphId": "2.1-p1",
+    "footnoteText": "Vgl. Art 105 der VO (EU) 2025/327."
+   },
+   {
+    "footnote": 11,
+    "sectionId": "2.1",
+    "paragraphId": "2.1-p2",
+    "footnoteText": "Vgl. Art 1 Abs. 1 der VO (EU) 2025/327."
+   },
+   {
+    "footnote": 13,
+    "sectionId": "2.1",
+    "paragraphId": "2.1-p2",
+    "footnoteText": "Vgl. ErwGr 80 der VO (EU) 2025/327."
+   },
+   {
+    "footnote": 19,
+    "sectionId": "2.1.1",
+    "paragraphId": "2.1.1-p5",
+    "footnoteText": "Siehe Art 103 und Art 104 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 20,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p1",
+    "footnoteText": "Vgl. Art 1 Abs 2 lit a VO (EU) 2025/327."
+   },
+   {
+    "footnote": 21,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p2",
+    "footnoteText": "Vgl. Art 15 und Art 23 Abs 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 23,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p3",
+    "footnoteText": "Vgl. Art 1 Abs 2 lit b und c VO (EU) 2025/327 und Art 5 Abs 1 lit a und c VO (EU) 2016/679."
+   },
+   {
+    "footnote": 25,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p4",
+    "footnoteText": "Vgl. Art 6 VO (EU) 2025/327 und Art 16 VO (EU) 2016/679."
+   },
+   {
+    "footnote": 26,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p4",
+    "footnoteText": "Vgl. Art 10 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 27,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p4",
+    "footnoteText": "Vgl. Art 10 Abs 2 VO (EU) 2025/327 und Art 9 Abs 2 lit c VO (EU) 2016/679."
+   },
+   {
+    "footnote": 29,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p5",
+    "footnoteText": "Vgl. Art 71 Abs 1 VO (EU) 2025/327 und Art 21 Abs 1 VO (EU) 2016/679."
+   },
+   {
+    "footnote": 30,
+    "sectionId": "2.1.3",
+    "paragraphId": "2.1.3-p1",
+    "footnoteText": "Vgl. Art 1 Abs 1 VO (EU) 2025/327 und Art 1 Abs 2 VO (EU) 2022/868."
+   },
+   {
+    "footnote": 32,
+    "sectionId": "2.1.3",
+    "paragraphId": "2.1.3-p2",
+    "footnoteText": "Vgl. Art 68 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 33,
+    "sectionId": "2.1.3",
+    "paragraphId": "2.1.3-p3",
+    "footnoteText": "Vgl. Art 75 Abs 11 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 35,
+    "sectionId": "2.1.4",
+    "paragraphId": "2.1.4-p3",
+    "footnoteText": "Vgl. Art 51 Abs 1 lit h und i VO (EU) 2025/327."
+   },
+   {
+    "footnote": 37,
+    "sectionId": "2.1.4",
+    "paragraphId": "2.1.4-p3",
+    "footnoteText": "Vgl. Art 75 Abs 4 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 38,
+    "sectionId": "2.1.4",
+    "paragraphId": "2.1.4-p4",
+    "footnoteText": "Vgl. Art 1 Abs 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 40,
+    "sectionId": "2.1.4",
+    "paragraphId": "2.1.4-p4",
+    "footnoteText": "Vgl. ErwGr 70 und Art 62 Abs 1 VO (EU) 2025/327 sowie Art Art 9 VO (EU) 2023/2854."
+   },
+   {
+    "footnote": 42,
+    "sectionId": "2.1.5",
+    "paragraphId": "2.1.5-p3",
+    "footnoteText": "Vgl. Art 44 Abs 7 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 43,
+    "sectionId": "2.1.5",
+    "paragraphId": "2.1.5-p3",
+    "footnoteText": "Vgl. Art 19 Abs 2 lit m VO (EU) 2025/327."
+   },
+   {
+    "footnote": 44,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p1",
+    "footnoteText": "Vgl. Art 1 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 45,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p1",
+    "footnoteText": "Vgl. Art 1 Abs 2 lit c VO (EU) 2025/327."
+   },
+   {
+    "footnote": 46,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p2",
+    "footnoteText": "Vgl. Art 2 Abs 2 lit d VO (EU) 2025/327."
+   },
+   {
+    "footnote": 47,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p3",
+    "footnoteText": "Vgl. Art 3 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 48,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p3",
+    "footnoteText": "Vgl. Art 11 Abs 1 und 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 49,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p3",
+    "footnoteText": "Vgl. Art 7 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 50,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p3",
+    "footnoteText": "Vgl. ErwGr 4 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 51,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p4",
+    "footnoteText": "Vgl. Art 2 Abs 2 lit d und e VO (EU) 2025/327."
+   },
+   {
+    "footnote": 52,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p4",
+    "footnoteText": "Vgl. Art 51 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 53,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p5",
+    "footnoteText": "Vgl. Art 53 Abs 1 lit a bis f VO (EU) 2025/327."
+   },
+   {
+    "footnote": 54,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p6",
+    "footnoteText": "Vgl. Art 54 lit a bis e VO (EU) 2025/327."
+   },
+   {
+    "footnote": 55,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p7",
+    "footnoteText": "Vgl. Art 19 Abs 2 lit f VO (EU) 2025/327."
+   },
+   {
+    "footnote": 56,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p7",
+    "footnoteText": "Vgl. Art 55 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 57,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p7",
+    "footnoteText": "Vgl. Art 68 und Art 73 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 58,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p7",
+    "footnoteText": "Vgl. Art 66 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 59,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p7",
+    "footnoteText": "Vgl. Art 75 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 60,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p8",
+    "footnoteText": "Vgl. Art 55 Abs 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 61,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p8",
+    "footnoteText": "Vgl. Art 66 Abs 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 62,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p8",
+    "footnoteText": "Vgl. Art 66 Abs 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 63,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p9",
+    "footnoteText": "Vgl. Art 74 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 64,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p9",
+    "footnoteText": "Vgl. Art 84 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 65,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p10",
+    "footnoteText": "Vgl. Art 10 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 66,
+    "sectionId": "2.2",
+    "paragraphId": "2.2-p10",
+    "footnoteText": "Vgl. Art 71 Abs 1 und 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 67,
+    "sectionId": "2.3.1",
+    "paragraphId": "2.3.1-p2",
+    "footnoteText": "Vgl. Art 3 Abs 1 der VO (EU) 2025/327."
+   },
+   {
+    "footnote": 68,
+    "sectionId": "2.3.1",
+    "paragraphId": "2.3.1-p3",
+    "footnoteText": "Vgl. Art 13 Abs 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 69,
+    "sectionId": "2.3.1",
+    "paragraphId": "2.3.1-p3",
+    "footnoteText": "Vgl. Art 19 Abs 1 und 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 70,
+    "sectionId": "2.3.2",
+    "paragraphId": "2.3.2-p1",
+    "footnoteText": "Vgl. Art 14 Abs 1 lit a bis f VO (EU) 2025/327."
+   },
+   {
+    "footnote": 71,
+    "sectionId": "2.3.2",
+    "paragraphId": "2.3.2-p2",
+    "footnoteText": "Vgl. Anhang I VO (EU) 2025/327."
+   },
+   {
+    "footnote": 72,
+    "sectionId": "2.3.2",
+    "paragraphId": "2.3.2-p3",
+    "footnoteText": "Vgl. ErwGr 25 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 73,
+    "sectionId": "2.3.2",
+    "paragraphId": "2.3.2-p3",
+    "footnoteText": "Vgl. Art 14 Abs 1 Satz 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 74,
+    "sectionId": "2.3.3",
+    "paragraphId": "2.3.3-p1",
+    "footnoteText": "Vgl. Art 25 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 75,
+    "sectionId": "2.3.3",
+    "paragraphId": "2.3.3-p1",
+    "footnoteText": "Vgl. Art 36 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 76,
+    "sectionId": "2.3.3",
+    "paragraphId": "2.3.3-p2",
+    "footnoteText": "Vgl. Anhang II Nr 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 78,
+    "sectionId": "2.3.3",
+    "paragraphId": "2.3.3-p4",
+    "footnoteText": "Vgl. Anhang II Nr 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 79,
+    "sectionId": "2.3.3",
+    "paragraphId": "2.3.3-p5",
+    "footnoteText": "Vgl. Art 2 Abs 2 lit n und o VO (EU) 2025/327."
+   },
+   {
+    "footnote": 80,
+    "sectionId": "2.3.3",
+    "paragraphId": "2.3.3-p5",
+    "footnoteText": "Vgl. Art 26 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 81,
+    "sectionId": "2.3.3",
+    "paragraphId": "2.3.3-p5",
+    "footnoteText": "Vgl. Art 30 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 82,
+    "sectionId": "2.3.3",
+    "paragraphId": "2.3.3-p5",
+    "footnoteText": "Vgl. Art 39 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 83,
+    "sectionId": "2.3.3",
+    "paragraphId": "2.3.3-p5",
+    "footnoteText": "Vgl. Art 41 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 84,
+    "sectionId": "2.3.3",
+    "paragraphId": "2.3.3-p5",
+    "footnoteText": "Vgl. Art 49 Abs 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 85,
+    "sectionId": "2.3.3",
+    "paragraphId": "2.3.3-p5",
+    "footnoteText": "Vgl. Art 43 Abs 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 86,
+    "sectionId": "2.3.4",
+    "paragraphId": "2.3.4-p1",
+    "footnoteText": "Vgl. Art 23 Abs 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 87,
+    "sectionId": "2.3.4",
+    "paragraphId": "2.3.4-p1",
+    "footnoteText": "Vgl. Art 23 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 88,
+    "sectionId": "2.3.4",
+    "paragraphId": "2.3.4-p2",
+    "footnoteText": "Vgl. Art 23 Abs 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 89,
+    "sectionId": "2.3.4",
+    "paragraphId": "2.3.4-p2",
+    "footnoteText": "Vgl. Art 23 Abs 7 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 90,
+    "sectionId": "2.3.4",
+    "paragraphId": "2.3.4-p2",
+    "footnoteText": "Vgl. Art 24 Abs 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 129,
+    "sectionId": "3.2.2.2",
+    "paragraphId": "3.2.2.2-p2",
+    "footnoteText": "Vgl. Art 15 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 138,
+    "sectionId": "3.2.3",
+    "paragraphId": "3.2.3-p3",
+    "footnoteText": "Vgl. Art 15 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 144,
+    "sectionId": "3.3",
+    "paragraphId": "3.3-p3",
+    "footnoteText": "Vgl. Anhang II Nr 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 169,
+    "sectionId": "3.3.3",
+    "paragraphId": "3.3.3-p3",
+    "footnoteText": "Vgl. Anhang II Nr 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 170,
+    "sectionId": "3.4",
+    "paragraphId": "3.4-p1",
+    "footnoteText": "Vgl. Art 23 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 172,
+    "sectionId": "3.4.1",
+    "paragraphId": "3.4.1-p1",
+    "footnoteText": "Vgl. ErwGr 33 der VO (EU) 2025/327."
+   },
+   {
+    "footnote": 175,
+    "sectionId": "3.4.1",
+    "paragraphId": "3.4.1-p2",
+    "footnoteText": "Vgl. ErwGr 33 der VO (EU) 2025/327."
+   },
+   {
+    "footnote": 176,
+    "sectionId": "3.4.1",
+    "paragraphId": "3.4.1-p2",
+    "footnoteText": "Vgl. Art 23 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 177,
+    "sectionId": "3.4.1",
+    "paragraphId": "3.4.1-p2",
+    "footnoteText": "Vgl. Art 23 Abs 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 178,
+    "sectionId": "3.4.2",
+    "paragraphId": "3.4.2-p1",
+    "footnoteText": "Vgl. Art 23 Abs 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 179,
+    "sectionId": "3.4.2",
+    "paragraphId": "3.4.2-p1",
+    "footnoteText": "Vgl. Art 23 Abs 7 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 181,
+    "sectionId": "3.4.2",
+    "paragraphId": "3.4.2-p2",
+    "footnoteText": "Vgl. Art 23 Abs 6 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 182,
+    "sectionId": "3.4.2",
+    "paragraphId": "3.4.2-p3",
+    "footnoteText": "Vgl. Art 23 Abs 6 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 185,
+    "sectionId": "3.4.2",
+    "paragraphId": "3.4.2-p4",
+    "footnoteText": "Vgl. Art 23 Abs 4 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 186,
+    "sectionId": "3.4.3",
+    "paragraphId": "3.4.3-p1",
+    "footnoteText": "Vgl. Art 16 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 187,
+    "sectionId": "3.4.3",
+    "paragraphId": "3.4.3-p1",
+    "footnoteText": "Vgl. Art 16 Abs 2 und 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 199,
+    "sectionId": "4.1.1",
+    "paragraphId": "4.1.1-p3",
+    "footnoteText": "Vgl. Art 2 Abs 1 lit b der VO (EU) 2025/327 iVm Art 3 lit g der RL 2011/24/EU."
+   },
+   {
+    "footnote": 209,
+    "sectionId": "4.1.2",
+    "paragraphId": "4.1.2-p4",
+    "footnoteText": "Vgl. Art 9 Abs 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 240,
+    "sectionId": "4.2.3",
+    "paragraphId": "4.2.3-p8",
+    "footnoteText": "Vgl. Art 105 lit a 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 241,
+    "sectionId": "4.3",
+    "paragraphId": "4.3-p1",
+    "footnoteText": "Vgl. Art 43 Abs 3 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 255,
+    "sectionId": "4.4.3",
+    "paragraphId": "4.4.3-p1",
+    "footnoteText": "Vgl. Art 71 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 256,
+    "sectionId": "4.4.3",
+    "paragraphId": "4.4.3-p1",
+    "footnoteText": "Vgl. Art 10 und Art 71 Abs 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 257,
+    "sectionId": "4.4.3",
+    "paragraphId": "4.4.3-p1",
+    "footnoteText": "Vgl. Art 71 Abs 3 iVm Art 68 und 69 VO (EU) 2025/327; HealthData@EU als grenzüberschreitende Infrastruktur Art 75 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 258,
+    "sectionId": "4.4.3",
+    "paragraphId": "4.4.3-p1",
+    "footnoteText": "Vgl. Art 105 lit a VO (EU) 2025/327."
+   },
+   {
+    "footnote": 260,
+    "sectionId": "4.4.3",
+    "paragraphId": "4.4.3-p3",
+    "footnoteText": "Vgl. Art 71 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 295,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p8",
+    "footnoteText": "Vgl. Art 3 VO (EU) 2025/327 und § 23 GTelG 2012."
+   },
+   {
+    "footnote": 301,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p1",
+    "footnoteText": "Vgl. Art 14 Abs 1 lit b und c VO (EU) 2025/327."
+   },
+   {
+    "footnote": 307,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p4",
+    "footnoteText": "Vgl. §§ 15 Abs 2, 16 Abs 1 und 2 sowie 21 Abs 3 GTelG 2012 und Art 8 und 10 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 308,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p4",
+    "footnoteText": "Vgl. § 24e Abs 5 GTelG 2012 und Art 10 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 309,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p4",
+    "footnoteText": "Vgl. Anhang I VO (EU) 2025/327 und § 24s Abs 3 GTelG 2012."
+   },
+   {
+    "footnote": 319,
+    "sectionId": "5.2.2",
+    "paragraphId": "5.2.2-p5",
+    "footnoteText": "Vgl. Art 25 Abs 1, Art 39 Abs 1, Art 41 Abs 1 und Art 43 Abs 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 344,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p1",
+    "footnoteText": "Vgl. Art 9 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 345,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p1",
+    "footnoteText": "Vgl. Art 9 Abs 2 VO (EU) 2025/327 und § 22 Abs 3 GTelG 2012."
+   },
+   {
+    "footnote": 350,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p2",
+    "footnoteText": "Vgl. Art 105 lit a iVm Art 14 Abs 1 lit a bis c VO (EU) 2025/327."
+   },
+   {
+    "footnote": 361,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p5",
+    "footnoteText": "Vgl. Art 8 Abs 1 iVm Art 11 Abs 5 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 363,
+    "sectionId": "5.4",
+    "paragraphId": "5.4-p1",
+    "footnoteText": "Vgl. Anhang II Nr 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 364,
+    "sectionId": "5.4",
+    "paragraphId": "5.4-p2",
+    "footnoteText": "Vgl. Anhang II Nr 2 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 374,
+    "sectionId": "5.4.3",
+    "paragraphId": "5.4.3-p1",
+    "footnoteText": "Vgl. Art 15 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 375,
+    "sectionId": "5.4.3",
+    "paragraphId": "5.4.3-p2",
+    "footnoteText": "Vgl. Anhang II Nr 3 VO (EU) 2025/327."
+   }
+  ]
+ },
+ {
+  "id": "dsgvo",
+  "kind": "recht-eu",
+  "author": "EU",
+  "year": 2016,
+  "title": "Verordnung (EU) 2016/679 (DSGVO)",
+  "longTitle": "Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung). ABl. L 119 vom 4.5.2016, S. 1.",
+  "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/deu",
+  "expectedFile": "sources/dsgvo.pdf",
+  "citations": [
+   {
+    "footnote": 2,
+    "sectionId": "1.1",
+    "paragraphId": "1.1-p2",
+    "footnoteText": "Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG, ABl. L 119 vom 4.5.2016, S. 1."
+   },
+   {
+    "footnote": 22,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p2",
+    "footnoteText": "Vgl. Art 15 VO (EU) 2016/679."
+   },
+   {
+    "footnote": 23,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p3",
+    "footnoteText": "Vgl. Art 1 Abs 2 lit b und c VO (EU) 2025/327 und Art 5 Abs 1 lit a und c VO (EU) 2016/679."
+   },
+   {
+    "footnote": 24,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p3",
+    "footnoteText": "Vgl. Art 20 VO (EU) 2016/679."
+   },
+   {
+    "footnote": 25,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p4",
+    "footnoteText": "Vgl. Art 6 VO (EU) 2025/327 und Art 16 VO (EU) 2016/679."
+   },
+   {
+    "footnote": 27,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p4",
+    "footnoteText": "Vgl. Art 10 Abs 2 VO (EU) 2025/327 und Art 9 Abs 2 lit c VO (EU) 2016/679."
+   },
+   {
+    "footnote": 28,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p5",
+    "footnoteText": "Vgl. Art 21 Abs 1 VO (EU) 2016/679."
+   },
+   {
+    "footnote": 29,
+    "sectionId": "2.1.2",
+    "paragraphId": "2.1.2-p5",
+    "footnoteText": "Vgl. Art 71 Abs 1 VO (EU) 2025/327 und Art 21 Abs 1 VO (EU) 2016/679."
+   },
+   {
+    "footnote": 100,
+    "sectionId": "3.1.1",
+    "paragraphId": "3.1.1-p2",
+    "footnoteText": "Vgl. Art 5 Abs 1 lit c VO (EU) 2016/679."
+   },
+   {
+    "footnote": 139,
+    "sectionId": "3.3",
+    "paragraphId": "3.3-p1",
+    "footnoteText": "Vgl. Art 9 Abs 1 und Abs 2 VO (EU) 2016/679."
+   },
+   {
+    "footnote": 354,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p3",
+    "footnoteText": "Vgl. Art 32 VO (EU) 2016/679."
+   }
+  ]
+ },
+ {
+  "id": "nis2",
+  "kind": "recht-eu",
+  "author": "EU",
+  "year": 2022,
+  "title": "Richtlinie (EU) 2022/2555 (NIS-2-Richtlinie)",
+  "longTitle": "Richtlinie (EU) 2022/2555 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über Maßnahmen für ein hohes gemeinsames Cybersicherheitsniveau in der Union (NIS-2-Richtlinie). ABl. L 333 vom 27.12.2022, S. 80.",
+  "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/deu",
+  "expectedFile": "sources/nis2.pdf",
+  "citations": [
+   {
+    "footnote": 3,
+    "sectionId": "1.1",
+    "paragraphId": "1.1-p2",
+    "footnoteText": "Richtlinie (EU) 2022/2555 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über Maßnahmen für ein hohes gemeinsames Cybersicherheitsniveau in der Union, zur Änderung der Verordnung (EU) Nr. 910/2014 und der Richtlinie (EU) 2018/1972 sowie zur Aufhebung der Richtlinie (EU) 2016/1148 (NIS-2-Richtlinie), ABl. L 333 vom 27.12.2022, S. 80."
+   },
+   {
+    "footnote": 41,
+    "sectionId": "2.1.5",
+    "paragraphId": "2.1.5-p2",
+    "footnoteText": "Vgl. Art 3 iVm Anhang I RL (EU) 2022/2555."
+   }
+  ]
+ },
+ {
+  "id": "dga",
+  "kind": "recht-eu",
+  "author": "EU",
+  "year": 2022,
+  "title": "Verordnung (EU) 2022/868 (Daten-Governance-Rechtsakt)",
+  "longTitle": "Verordnung (EU) 2022/868 des Europäischen Parlaments und des Rates vom 30. Mai 2022 über europäische Daten-Governance (Daten-Governance-Rechtsakt). ABl. L 152 vom 3.6.2022, S. 1.",
+  "url": "https://eur-lex.europa.eu/eli/reg/2022/868/oj/deu",
+  "expectedFile": "sources/dga.pdf",
+  "citations": [
+   {
+    "footnote": 6,
+    "sectionId": "2.0",
+    "paragraphId": "2.0-p2",
+    "footnoteText": "Verordnung (EU) 2022/868 des Europäischen Parlaments und des Rates vom 30. Mai 2022 über europäische Daten-Governance und zur Änderung der Verordnung (EU) 2018/1724 (Daten-Governance-Rechtsakt), ABl. L 152 vom 3.6.2022, S. 1."
+   },
+   {
+    "footnote": 30,
+    "sectionId": "2.1.3",
+    "paragraphId": "2.1.3-p1",
+    "footnoteText": "Vgl. Art 1 Abs 1 VO (EU) 2025/327 und Art 1 Abs 2 VO (EU) 2022/868."
+   },
+   {
+    "footnote": 31,
+    "sectionId": "2.1.3",
+    "paragraphId": "2.1.3-p2",
+    "footnoteText": "Vgl. Art 1 Abs 1 VO (EU) 2022/868."
+   }
+  ]
+ },
+ {
+  "id": "datenverordnung",
+  "kind": "recht-eu",
+  "author": "EU",
+  "year": 2023,
+  "title": "Verordnung (EU) 2023/2854 (Datenverordnung)",
+  "longTitle": "Verordnung (EU) 2023/2854 des Europäischen Parlaments und des Rates vom 13. Dezember 2023 über harmonisierte Vorschriften für einen fairen Datenzugang und eine faire Datennutzung (Datenverordnung). ABl. L vom 22.12.2023.",
+  "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj/deu",
+  "expectedFile": "sources/datenverordnung.pdf",
+  "citations": [
+   {
+    "footnote": 7,
+    "sectionId": "2.0",
+    "paragraphId": "2.0-p2",
+    "footnoteText": "Verordnung (EU) 2023/2854 des Europäischen Parlaments und des Rates vom 13. Dezember 2023 über harmonisierte Vorschriften für einen fairen Datenzugang und eine faire Datennutzung sowie zur Änderung der Verordnung (EU) 2017/2394 und der Richtlinie (EU) 2020/1828 (Datenverordnung), ABl. L vom 22.12.2023, S. 1."
+   },
+   {
+    "footnote": 34,
+    "sectionId": "2.1.4",
+    "paragraphId": "2.1.4-p2",
+    "footnoteText": "Vgl. Art 1 Abs 1 VO (EU) 2023/2854."
+   },
+   {
+    "footnote": 36,
+    "sectionId": "2.1.4",
+    "paragraphId": "2.1.4-p3",
+    "footnoteText": "Vgl. Art 1 Abs 3 VO (EU) 2023/2854."
+   },
+   {
+    "footnote": 39,
+    "sectionId": "2.1.4",
+    "paragraphId": "2.1.4-p4",
+    "footnoteText": "Vgl. Art 15 VO (EU) 2023/2854."
+   },
+   {
+    "footnote": 40,
+    "sectionId": "2.1.4",
+    "paragraphId": "2.1.4-p4",
+    "footnoteText": "Vgl. ErwGr 70 und Art 62 Abs 1 VO (EU) 2025/327 sowie Art Art 9 VO (EU) 2023/2854."
+   }
+  ]
+ },
+ {
+  "id": "cra",
+  "kind": "recht-eu",
+  "author": "EU",
+  "year": 2024,
+  "title": "Verordnung (EU) 2024/2847 (Cyberresilienz-Verordnung)",
+  "longTitle": "Verordnung (EU) 2024/2847 des Europäischen Parlaments und des Rates vom 23. Oktober 2024 über horizontale Cybersicherheitsanforderungen für Produkte mit digitalen Elementen (Cyberresilienz-Verordnung). ABl. L vom 20.11.2024, S. 1.",
+  "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/deu",
+  "expectedFile": "sources/cra.pdf",
+  "citations": [
+   {
+    "footnote": 1,
+    "sectionId": "1.1",
+    "paragraphId": "1.1-p2",
+    "footnoteText": "Verordnung (EU) 2025/327 des Europäischen Parlaments und des Rates vom 11. Februar 2025 über den europäischen Gesundheitsdatenraum sowie zur Änderung der Richtlinie 2011/24/EU und der Verordnung (EU) 2024/2847, ABl. L vom 5.3.2025, S. 1."
+   },
+   {
+    "footnote": 17,
+    "sectionId": "2.1.1",
+    "paragraphId": "2.1.1-p5",
+    "footnoteText": "Verordnung (EU) 2024/2847 des Europäischen Parlaments und des Rates vom 23. Oktober 2024 über horizontale Cybersicherheitsanforderungen für Produkte mit digitalen Elementen und zur Änderung der Verordnungen (EU) Nr. 168/2013 und (EU) 2019/1020 und der Richtlinie (EU) 2020/1828 (Cyberresilienz-Verordnung), ABl. L vom 20.11.2024, S. 1."
+   }
+  ]
+ },
+ {
+  "id": "eidas",
+  "kind": "recht-eu",
+  "author": "EU",
+  "year": 2014,
+  "title": "Verordnung (EU) Nr. 910/2014 (eIDAS-Verordnung)",
+  "longTitle": "Verordnung (EU) Nr. 910/2014 des Europäischen Parlaments und des Rates vom 23. Juli 2014 über elektronische Identifizierung und Vertrauensdienste für elektronische Transaktionen im Binnenmarkt. ABl. L 257 vom 28.8.2014, S. 73.",
+  "url": "https://eur-lex.europa.eu/eli/reg/2014/910/oj/deu",
+  "expectedFile": "sources/eidas.pdf",
+  "citations": [
+   {
+    "footnote": 3,
+    "sectionId": "1.1",
+    "paragraphId": "1.1-p2",
+    "footnoteText": "Richtlinie (EU) 2022/2555 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über Maßnahmen für ein hohes gemeinsames Cybersicherheitsniveau in der Union, zur Änderung der Verordnung (EU) Nr. 910/2014 und der Richtlinie (EU) 2018/1972 sowie zur Aufhebung der Richtlinie (EU) 2016/1148 (NIS-2-Richtlinie), ABl. L 333 vom 27.12.2022, S. 80."
+   },
+   {
+    "footnote": 155,
+    "sectionId": "3.3.1",
+    "paragraphId": "3.3.1-p4",
+    "footnoteText": "Verordnung (EU) Nr. 910/2014 des Europäischen Parlaments und des Rates vom 23. Juli 2014 über elektronische Identifizierung und Vertrauensdienste für elektronische Transaktionen im Binnenmarkt und zur Aufhebung der Richtlinie 1999/93/EG. ABl. L 257 vom 28.8.2014, S. 73."
+   }
+  ]
+ },
+ {
+  "id": "rl-2011-24",
+  "kind": "recht-eu",
+  "author": "EU",
+  "year": 2011,
+  "title": "Richtlinie 2011/24/EU (Patientenmobilitäts-Richtlinie)",
+  "longTitle": "Richtlinie 2011/24/EU des Europäischen Parlaments und des Rates vom 9. März 2011 über die Ausübung der Patientenrechte in der grenzüberschreitenden Gesundheitsversorgung. ABl. L 88 vom 4.4.2011, S. 45.",
+  "url": "https://eur-lex.europa.eu/eli/dir/2011/24/oj/deu",
+  "expectedFile": "sources/rl-2011-24.pdf",
+  "citations": [
+   {
+    "footnote": 1,
+    "sectionId": "1.1",
+    "paragraphId": "1.1-p2",
+    "footnoteText": "Verordnung (EU) 2025/327 des Europäischen Parlaments und des Rates vom 11. Februar 2025 über den europäischen Gesundheitsdatenraum sowie zur Änderung der Richtlinie 2011/24/EU und der Verordnung (EU) 2024/2847, ABl. L vom 5.3.2025, S. 1."
+   },
+   {
+    "footnote": 12,
+    "sectionId": "2.1",
+    "paragraphId": "2.1-p2",
+    "footnoteText": "Richtlinie 2011/24/EU des Europäischen Parlaments und des Rates vom 9. März 2011 über die Ausübung der Patientenrechte in der grenzüberschreitenden Gesundheitsversorgung, ABl. L 88 vom 4. April 2011, S. 45."
+   },
+   {
+    "footnote": 199,
+    "sectionId": "4.1.1",
+    "paragraphId": "4.1.1-p3",
+    "footnoteText": "Vgl. Art 2 Abs 1 lit b der VO (EU) 2025/327 iVm Art 3 lit g der RL 2011/24/EU."
+   }
+  ]
+ },
+ {
+  "id": "empfehlung2019-243",
+  "kind": "recht-eu",
+  "author": "EU-Kommission",
+  "year": 2019,
+  "title": "Empfehlung (EU) 2019/243 (Europäisches Austauschformat für elektronische Patientenakten)",
+  "longTitle": "Empfehlung (EU) 2019/243 der Kommission vom 6. Februar 2019 über ein europäisches Austauschformat für elektronische Patientenakten. ABl. L 39 vom 11.2.2019, S. 18.",
+  "url": "https://eur-lex.europa.eu/eli/reco/2019/243/oj/deu",
+  "expectedFile": "sources/empfehlung2019-243.pdf",
+  "citations": [
+   {
+    "footnote": 18,
+    "sectionId": "2.1.1",
+    "paragraphId": "2.1.1-p5",
+    "footnoteText": "Empfehlung (EU) 2019/243 der Kommission vom 6. Februar 2019 über ein europäisches Austauschformat für elektronische Patientenakten, ABl. L 39 vom 11.2.2019, S. 18."
+   }
+  ]
+ },
+ {
+  "id": "aeuv",
+  "kind": "recht-eu",
+  "author": "EU",
+  "year": 2016,
+  "title": "Vertrag über die Arbeitsweise der Europäischen Union (AEUV)",
+  "longTitle": "Vertrag über die Arbeitsweise der Europäischen Union (AEUV). ABl. C 202 vom 7.6.2016, S. 1.",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=celex%3A12016E%2FTXT",
+  "expectedFile": "sources/aeuv.pdf",
+  "citations": [
+   {
+    "footnote": 10,
+    "sectionId": "2.1",
+    "paragraphId": "2.1-p1",
+    "footnoteText": "Vgl. Art 288 des Vertrags über die Arbeitsweise der Europäischen Union (AEUV), ABl. C 202 vom 7.6.2016, S.1."
+   }
+  ]
+ },
+ {
+  "id": "gtelg2012",
+  "kind": "recht-at",
+  "author": "Österreich",
+  "year": 2012,
+  "title": "Gesundheitstelematikgesetz 2012 (GTelG 2012)",
+  "longTitle": "Bundesgesetz betreffend Datensicherheitsmaßnahmen bei der Verarbeitung elektronischer Gesundheitsdaten und genetischer Daten (Gesundheitstelematikgesetz 2012 – GTelG 2012), BGBl. I Nr. 111/2012 idF BGBl. I Nr. 94/2025.",
+  "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008120",
+  "expectedFile": "sources/gtelg2012.pdf",
+  "citations": [
+   {
+    "footnote": 188,
+    "sectionId": "4.0",
+    "paragraphId": "4.0-p1",
+    "footnoteText": "Bundesgesetz betreffend Datensicherheitsmaßnahmen bei der Verarbeitung elektronischer Gesundheitsdaten und genetischer Daten (Gesundheitstelematikgesetz 2012 – GTelG 2012), BGBl. I Nr. 111/2012 idF BGBl. I Nr. 94/2025."
+   },
+   {
+    "footnote": 190,
+    "sectionId": "4.1",
+    "paragraphId": "4.1-p1",
+    "footnoteText": "Vgl. § 1 Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 191,
+    "sectionId": "4.1.1",
+    "paragraphId": "4.1.1-p1",
+    "footnoteText": "Vgl. § 2 Z 10 GTelG 2012."
+   },
+   {
+    "footnote": 192,
+    "sectionId": "4.1.1",
+    "paragraphId": "4.1.1-p2",
+    "footnoteText": "Vgl. § 2 Z 10 lit a GTelG 2012."
+   },
+   {
+    "footnote": 193,
+    "sectionId": "4.1.1",
+    "paragraphId": "4.1.1-p2",
+    "footnoteText": "Vgl. § 2 Z 10 lit b GTelG 2012."
+   },
+   {
+    "footnote": 194,
+    "sectionId": "4.1.1",
+    "paragraphId": "4.1.1-p2",
+    "footnoteText": "Vgl. § 2 Z 10 lit c GTelG 2012."
+   },
+   {
+    "footnote": 195,
+    "sectionId": "4.1.1",
+    "paragraphId": "4.1.1-p2",
+    "footnoteText": "Vgl. § 2 Z 10 lit d GTelG 2012."
+   },
+   {
+    "footnote": 196,
+    "sectionId": "4.1.1",
+    "paragraphId": "4.1.1-p2",
+    "footnoteText": "Vgl. § 2 Z 10 lit e GTelG 2012."
+   },
+   {
+    "footnote": 197,
+    "sectionId": "4.1.1",
+    "paragraphId": "4.1.1-p2",
+    "footnoteText": "Vgl. § 2 Z 10 lit f GTelG 2012."
+   },
+   {
+    "footnote": 198,
+    "sectionId": "4.1.1",
+    "paragraphId": "4.1.1-p2",
+    "footnoteText": "Vgl. § 2 Z 10 lit g GTelG 2012."
+   },
+   {
+    "footnote": 200,
+    "sectionId": "4.1.1",
+    "paragraphId": "4.1.1-p4",
+    "footnoteText": "Vgl. § 2 Z 9 lit a bis g GTelG 2012."
+   },
+   {
+    "footnote": 201,
+    "sectionId": "4.1.1",
+    "paragraphId": "4.1.1-p5",
+    "footnoteText": "Vgl. § 28c Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 202,
+    "sectionId": "4.1.2",
+    "paragraphId": "4.1.2-p1",
+    "footnoteText": "Vgl. § 21 Abs 1 GTelG 2012."
+   },
+   {
+    "footnote": 203,
+    "sectionId": "4.1.2",
+    "paragraphId": "4.1.2-p1",
+    "footnoteText": "Vgl. § 14 Abs 1 und § 15 Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 204,
+    "sectionId": "4.1.2",
+    "paragraphId": "4.1.2-p1",
+    "footnoteText": "Vgl. § 21 Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 205,
+    "sectionId": "4.1.2",
+    "paragraphId": "4.1.2-p2",
+    "footnoteText": "Vgl. § 21 Abs 3 GTelG 2012."
+   },
+   {
+    "footnote": 206,
+    "sectionId": "4.1.2",
+    "paragraphId": "4.1.2-p3",
+    "footnoteText": "Vgl. § 22 Abs 1 GTelG 2012."
+   },
+   {
+    "footnote": 207,
+    "sectionId": "4.1.2",
+    "paragraphId": "4.1.2-p4",
+    "footnoteText": "Vgl. § 22 Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 208,
+    "sectionId": "4.1.2",
+    "paragraphId": "4.1.2-p4",
+    "footnoteText": "Vgl. § 22 Abs 3 GTelG 2012."
+   },
+   {
+    "footnote": 210,
+    "sectionId": "4.1.2",
+    "paragraphId": "4.1.2-p5",
+    "footnoteText": "Vgl. § 22 Abs 4 GTelG 2012."
+   },
+   {
+    "footnote": 211,
+    "sectionId": "4.1.2",
+    "paragraphId": "4.1.2-p5",
+    "footnoteText": "Vgl. § 22 Abs 6 GTelG 2012."
+   },
+   {
+    "footnote": 212,
+    "sectionId": "4.1.2",
+    "paragraphId": "4.1.2-p6",
+    "footnoteText": "Vgl. § 22 Abs 5 GTelG 2012."
+   },
+   {
+    "footnote": 213,
+    "sectionId": "4.1.2",
+    "paragraphId": "4.1.2-p6",
+    "footnoteText": "Vgl. § 25 Abs 3 Z 2 GTelG 2012."
+   },
+   {
+    "footnote": 244,
+    "sectionId": "4.4.1",
+    "paragraphId": "4.4.1-p1",
+    "footnoteText": "Vgl. § 15 Abs 2 GTelG 2012 und Gesundheit Österreich GmbH (2026): Widerspruch."
+   },
+   {
+    "footnote": 245,
+    "sectionId": "4.4.1",
+    "paragraphId": "4.4.1-p2",
+    "footnoteText": "Vgl. § 17 Abs 2 Z 3 GTelG 2012 und Gesundheit Österreich GmbH (2026): Widerspruch."
+   },
+   {
+    "footnote": 246,
+    "sectionId": "4.4.1",
+    "paragraphId": "4.4.1-p2",
+    "footnoteText": "Vgl. § 23 GTelG 2012 und Gesundheit Österreich GmbH (2026): Widerspruch."
+   },
+   {
+    "footnote": 247,
+    "sectionId": "4.4.1",
+    "paragraphId": "4.4.1-p2",
+    "footnoteText": "Vgl. § 15 Abs 4 GTelG 2012 und Gesundheit Österreich GmbH (2026): Widerspruch."
+   },
+   {
+    "footnote": 248,
+    "sectionId": "4.4.1",
+    "paragraphId": "4.4.1-p3",
+    "footnoteText": "Vgl. § 15 Abs 3 GTelG 2012."
+   },
+   {
+    "footnote": 249,
+    "sectionId": "4.4.1",
+    "paragraphId": "4.4.1-p3",
+    "footnoteText": "Vgl. § 15 Abs 4 GTelG 2012."
+   },
+   {
+    "footnote": 250,
+    "sectionId": "4.4.1",
+    "paragraphId": "4.4.1-p4",
+    "footnoteText": "Vgl. § 16 Abs 1 GTelG 2012."
+   },
+   {
+    "footnote": 251,
+    "sectionId": "4.4.2",
+    "paragraphId": "4.4.2-p1",
+    "footnoteText": "Vgl. § 24k Abs 1 GTelG 2012."
+   },
+   {
+    "footnote": 252,
+    "sectionId": "4.4.2",
+    "paragraphId": "4.4.2-p1",
+    "footnoteText": "Vgl. § 24n Abs 1 Z 2 GTelG 2012."
+   },
+   {
+    "footnote": 253,
+    "sectionId": "4.4.2",
+    "paragraphId": "4.4.2-p1",
+    "footnoteText": "Vgl. § 24i Abs 2 GTelG 2012 iVm Erläuterungen 38/ME XXVIII. GP zur GTelG-Novelle BGBl. I Nr. 71/2025, S. 7."
+   },
+   {
+    "footnote": 254,
+    "sectionId": "4.4.2",
+    "paragraphId": "4.4.2-p2",
+    "footnoteText": "Vgl. § 21 GTelG 2012."
+   },
+   {
+    "footnote": 262,
+    "sectionId": "4.5",
+    "paragraphId": "4.5-p1",
+    "footnoteText": "Vgl. § 2 Z 24 GTelG 2012."
+   },
+   {
+    "footnote": 263,
+    "sectionId": "4.5",
+    "paragraphId": "4.5-p2",
+    "footnoteText": "Vgl. § 24k Abs 3 GTelG 2012."
+   },
+   {
+    "footnote": 264,
+    "sectionId": "4.5",
+    "paragraphId": "4.5-p4",
+    "footnoteText": "Vgl. § 24o Abs 1 GTelG 2012."
+   },
+   {
+    "footnote": 265,
+    "sectionId": "4.5",
+    "paragraphId": "4.5-p4",
+    "footnoteText": "Vgl. § 24p GTelG 2012."
+   },
+   {
+    "footnote": 266,
+    "sectionId": "4.5",
+    "paragraphId": "4.5-p4",
+    "footnoteText": "Vgl. § 24q GTelG 2012."
+   },
+   {
+    "footnote": 267,
+    "sectionId": "4.5",
+    "paragraphId": "4.5-p4",
+    "footnoteText": "Vgl. § 24r Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 269,
+    "sectionId": "5.0",
+    "paragraphId": "5.0-p1",
+    "footnoteText": "Vgl. § 2 Z 6 GTelG 2012."
+   },
+   {
+    "footnote": 271,
+    "sectionId": "5.1",
+    "paragraphId": "5.1-p1",
+    "footnoteText": "Vgl. § 2 Z 11 GTelG 2012."
+   },
+   {
+    "footnote": 273,
+    "sectionId": "5.1.1",
+    "paragraphId": "5.1.1-p1",
+    "footnoteText": "Vgl. § 18 Abs 1 GTelG 2012."
+   },
+   {
+    "footnote": 274,
+    "sectionId": "5.1.1",
+    "paragraphId": "5.1.1-p1",
+    "footnoteText": "Vgl. § 18 Abs 1 GTelG 2012."
+   },
+   {
+    "footnote": 275,
+    "sectionId": "5.1.1",
+    "paragraphId": "5.1.1-p1",
+    "footnoteText": "Vgl. § 21 Abs 1 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 116."
+   },
+   {
+    "footnote": 276,
+    "sectionId": "5.1.1",
+    "paragraphId": "5.1.1-p1",
+    "footnoteText": "Vgl. § 22 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 11."
+   },
+   {
+    "footnote": 277,
+    "sectionId": "5.1.1",
+    "paragraphId": "5.1.1-p1",
+    "footnoteText": "Vgl. § 23 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 210."
+   },
+   {
+    "footnote": 278,
+    "sectionId": "5.1.1",
+    "paragraphId": "5.1.1-p1",
+    "footnoteText": "Vgl. § 20 Abs 3 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 330."
+   },
+   {
+    "footnote": 279,
+    "sectionId": "5.1.2",
+    "paragraphId": "5.1.2-p1",
+    "footnoteText": "Vgl. § 31a Abs 1 ASVG und § 19 Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 283,
+    "sectionId": "5.1.2",
+    "paragraphId": "5.1.2-p3",
+    "footnoteText": "Vgl. § 20 Abs 1 GTelG 2012 und Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH. S. 51."
+   },
+   {
+    "footnote": 290,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p6",
+    "footnoteText": "Vgl. § 18 GTelG 2012 sowie ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 48f, 64 und 101ff."
+   },
+   {
+    "footnote": 293,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p7",
+    "footnoteText": "Vgl. § 21 Abs 1 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 46, 58 und 156."
+   },
+   {
+    "footnote": 295,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p8",
+    "footnoteText": "Vgl. Art 3 VO (EU) 2025/327 und § 23 GTelG 2012."
+   },
+   {
+    "footnote": 296,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p8",
+    "footnoteText": "Vgl. § 23 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 210 und 330."
+   },
+   {
+    "footnote": 297,
+    "sectionId": "5.1.3",
+    "paragraphId": "5.1.3-p8",
+    "footnoteText": "Vgl. § 16 Abs 1 und § 22 Abs 4 GTelG 2012."
+   },
+   {
+    "footnote": 298,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p1",
+    "footnoteText": "Vgl. § 16a Abs 1 iVm § 20 Abs 4 Z 1 GTelG 2012.."
+   },
+   {
+    "footnote": 299,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p1",
+    "footnoteText": "Vgl. § 20 Abs 4 GTelG 2012."
+   },
+   {
+    "footnote": 300,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p1",
+    "footnoteText": "Vgl. § 21 Abs 2 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 226f."
+   },
+   {
+    "footnote": 302,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p2",
+    "footnoteText": "Vgl. §§ 24b Abs 1 und 24c Abs 1 GTelG 2012."
+   },
+   {
+    "footnote": 303,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p2",
+    "footnoteText": "Vgl. § 24e Abs 5 GTelG 2012."
+   },
+   {
+    "footnote": 304,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p2",
+    "footnoteText": "Vgl. § 28b Abs 4 GTelG 2012."
+   },
+   {
+    "footnote": 305,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p3",
+    "footnoteText": "Vgl. § 21 Abs 1 und § 22 Abs 1 GTelG 2012."
+   },
+   {
+    "footnote": 307,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p4",
+    "footnoteText": "Vgl. §§ 15 Abs 2, 16 Abs 1 und 2 sowie 21 Abs 3 GTelG 2012 und Art 8 und 10 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 308,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p4",
+    "footnoteText": "Vgl. § 24e Abs 5 GTelG 2012 und Art 10 Abs 1 VO (EU) 2025/327."
+   },
+   {
+    "footnote": 309,
+    "sectionId": "5.1.4",
+    "paragraphId": "5.1.4-p4",
+    "footnoteText": "Vgl. Anhang I VO (EU) 2025/327 und § 24s Abs 3 GTelG 2012."
+   },
+   {
+    "footnote": 315,
+    "sectionId": "5.2.2",
+    "paragraphId": "5.2.2-p2",
+    "footnoteText": "Vgl. § 22 Abs 2 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 50."
+   },
+   {
+    "footnote": 322,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p1",
+    "footnoteText": "Vgl. § 21 Abs 1 GTelG 2012."
+   },
+   {
+    "footnote": 326,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p3",
+    "footnoteText": "Vgl. § 21 Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 327,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p3",
+    "footnoteText": "Vgl. § 16 Abs 1 Z 2 GTelG 2012."
+   },
+   {
+    "footnote": 335,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p5",
+    "footnoteText": "Vgl. § 15 Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 336,
+    "sectionId": "5.3.1",
+    "paragraphId": "5.3.1-p5",
+    "footnoteText": "Vgl. § 16 Abs 2 Z 2 GTelG 2012."
+   },
+   {
+    "footnote": 337,
+    "sectionId": "5.3.2",
+    "paragraphId": "5.3.2-p1",
+    "footnoteText": "Vgl. § 22 Abs 1 GTelG 2012."
+   },
+   {
+    "footnote": 340,
+    "sectionId": "5.3.2",
+    "paragraphId": "5.3.2-p1",
+    "footnoteText": "Vgl. § 22 Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 341,
+    "sectionId": "5.3.2",
+    "paragraphId": "5.3.2-p1",
+    "footnoteText": "Vgl. § 22 Abs 3 GTelG 2012."
+   },
+   {
+    "footnote": 342,
+    "sectionId": "5.3.2",
+    "paragraphId": "5.3.2-p1",
+    "footnoteText": "Vgl. § 22 Abs 4 GTelG 2012."
+   },
+   {
+    "footnote": 343,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p1",
+    "footnoteText": "Vgl. § 22 Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 345,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p1",
+    "footnoteText": "Vgl. Art 9 Abs 2 VO (EU) 2025/327 und § 22 Abs 3 GTelG 2012."
+   },
+   {
+    "footnote": 346,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p2",
+    "footnoteText": "Vgl. § 22 Abs 4 GTelG 2012."
+   },
+   {
+    "footnote": 347,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p2",
+    "footnoteText": "Vgl. § 16 Abs 1 Z 1 GTelG 2012."
+   },
+   {
+    "footnote": 360,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p4",
+    "footnoteText": "Vgl. § 8a Abs 1 GTelG 2012."
+   },
+   {
+    "footnote": 362,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p5",
+    "footnoteText": "Vgl. § 16 GTelG 2012."
+   },
+   {
+    "footnote": 373,
+    "sectionId": "5.4.2",
+    "paragraphId": "5.4.2-p1",
+    "footnoteText": "Vgl. HL7 Austria (2026): Austrian Patient Summary (R4), FHIR Implementation Guide, Version 1.0.0 (STU1); zum fehlenden Produktivstatus § 16 ELGA-VO 2015 und § 28c Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 383,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p1",
+    "footnoteText": "Vgl. § 24j GTelG 2012."
+   },
+   {
+    "footnote": 384,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p1",
+    "footnoteText": "Vgl. §§ 24k Abs 1 Z 1 und 24r Abs 2 Z 2 GTelG 2012."
+   },
+   {
+    "footnote": 392,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p3",
+    "footnoteText": "Vgl. § 24i Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 393,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p3",
+    "footnoteText": "Vgl. § 15 Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 394,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p4",
+    "footnoteText": "Vgl. § 24i Abs 2 GTelG 2012."
+   },
+   {
+    "footnote": 396,
+    "sectionId": "5.4.4",
+    "paragraphId": "5.4.4-p5",
+    "footnoteText": "Vgl. § 24k Abs 1 Z 1 GTelG 2012."
+   }
+  ]
+ },
+ {
+  "id": "elga-vo2015",
+  "kind": "recht-at",
+  "author": "Österreich",
+  "year": 2015,
+  "title": "ELGA-Verordnung 2015 (ELGA-VO 2015)",
+  "longTitle": "Verordnung der Bundesministerin für Gesundheit zur Implementierung und Weiterentwicklung von ELGA (ELGA-Verordnung 2015 – ELGA-VO 2015), BGBl. II Nr. 106/2015 idF BGBl. II Nr. 11/2025.",
+  "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20009129",
+  "expectedFile": "sources/elga-vo2015.pdf",
+  "citations": [
+   {
+    "footnote": 189,
+    "sectionId": "4.0",
+    "paragraphId": "4.0-p1",
+    "footnoteText": "Verordnung der Bundesministerin für Gesundheit zur Implementierung und Weiterentwicklung von ELGA (ELGA-Verordnung 2015 – ELGA-VO 2015), BGBl. II Nr. 106/2015 idF BGBl. II Nr. 11/2025."
+   },
+   {
+    "footnote": 214,
+    "sectionId": "4.2",
+    "paragraphId": "4.2-p1",
+    "footnoteText": "Vgl. § 1 ELGA-VO 2015."
+   },
+   {
+    "footnote": 215,
+    "sectionId": "4.2.1",
+    "paragraphId": "4.2.1-p1",
+    "footnoteText": "Vgl. § 3 Abs 1 ELGA-VO 2015."
+   },
+   {
+    "footnote": 216,
+    "sectionId": "4.2.1",
+    "paragraphId": "4.2.1-p1",
+    "footnoteText": "Vgl. § 4 Abs 1 ELGA-VO 2015."
+   },
+   {
+    "footnote": 217,
+    "sectionId": "4.2.1",
+    "paragraphId": "4.2.1-p2",
+    "footnoteText": "Vgl. § 3 Abs 2 Z 1 ELGA-VO 2015."
+   },
+   {
+    "footnote": 218,
+    "sectionId": "4.2.1",
+    "paragraphId": "4.2.1-p2",
+    "footnoteText": "Vgl. § 3 Abs 2 Z 2 ELGA-VO 2015."
+   },
+   {
+    "footnote": 219,
+    "sectionId": "4.2.1",
+    "paragraphId": "4.2.1-p3",
+    "footnoteText": "Vgl. § 3 Abs 3 ELGA-VO 2015."
+   },
+   {
+    "footnote": 220,
+    "sectionId": "4.2.1",
+    "paragraphId": "4.2.1-p4",
+    "footnoteText": "Vgl. § 3 Abs 2 Z 4 ELGA-VO 2015."
+   },
+   {
+    "footnote": 221,
+    "sectionId": "4.2.1",
+    "paragraphId": "4.2.1-p5",
+    "footnoteText": "Vgl. § 3 Abs 4 ELGA-VO 2015."
+   },
+   {
+    "footnote": 222,
+    "sectionId": "4.2.1",
+    "paragraphId": "4.2.1-p6",
+    "footnoteText": "Vgl. § 3 Abs 5 ELGA-VO 2015."
+   },
+   {
+    "footnote": 223,
+    "sectionId": "4.2.2",
+    "paragraphId": "4.2.2-p1",
+    "footnoteText": "Vgl. § 9 Abs 1 ELGA-VO 2015."
+   },
+   {
+    "footnote": 224,
+    "sectionId": "4.2.2",
+    "paragraphId": "4.2.2-p2",
+    "footnoteText": "Vgl. § 9 Abs 2 ELGA-VO 2015."
+   },
+   {
+    "footnote": 225,
+    "sectionId": "4.2.2",
+    "paragraphId": "4.2.2-p3",
+    "footnoteText": "Vgl. §§ 5 Abs 3 Z 1 und 6 Abs. 3 Z 1 ELGA-VO 2015."
+   },
+   {
+    "footnote": 229,
+    "sectionId": "4.2.3",
+    "paragraphId": "4.2.3-p1",
+    "footnoteText": "Vgl. § 4 Abs 2 ELGA-VO 2015."
+   },
+   {
+    "footnote": 230,
+    "sectionId": "4.2.3",
+    "paragraphId": "4.2.3-p2",
+    "footnoteText": "Vgl. § 5 Abs 1 ELGA-VO 2015."
+   },
+   {
+    "footnote": 231,
+    "sectionId": "4.2.3",
+    "paragraphId": "4.2.3-p3",
+    "footnoteText": "Vgl. § 6 Abs 2 Z 1 ELGA-VO 2015."
+   },
+   {
+    "footnote": 232,
+    "sectionId": "4.2.3",
+    "paragraphId": "4.2.3-p3",
+    "footnoteText": "Vgl. § 6 Abs 1 Z 2 ELGA-VO 2015."
+   },
+   {
+    "footnote": 233,
+    "sectionId": "4.2.3",
+    "paragraphId": "4.2.3-p4",
+    "footnoteText": "Vgl. §§ 7 Abs 2 Z 1 und 2 ELGA-VO 2015."
+   },
+   {
+    "footnote": 234,
+    "sectionId": "4.2.3",
+    "paragraphId": "4.2.3-p4",
+    "footnoteText": "Vgl. § 7 Abs 2 Z 3 ELGA-VO 2015."
+   },
+   {
+    "footnote": 235,
+    "sectionId": "4.2.3",
+    "paragraphId": "4.2.3-p4",
+    "footnoteText": "Vgl. § 7 Abs 4 ELGA-VO 2015."
+   },
+   {
+    "footnote": 236,
+    "sectionId": "4.2.3",
+    "paragraphId": "4.2.3-p5",
+    "footnoteText": "Vgl. § 8 ELGA-VO 2015."
+   },
+   {
+    "footnote": 237,
+    "sectionId": "4.2.3",
+    "paragraphId": "4.2.3-p6",
+    "footnoteText": "Vgl. § 5 Abs 2 Z 2 und Abs 3 Z 2 ELGA-VO 2015."
+   },
+   {
+    "footnote": 238,
+    "sectionId": "4.2.3",
+    "paragraphId": "4.2.3-p7",
+    "footnoteText": "Vgl. § 5 Abs 2 Z 3 und Abs 3 Z 3 ELGA-VO 2015."
+   },
+   {
+    "footnote": 239,
+    "sectionId": "4.2.3",
+    "paragraphId": "4.2.3-p8",
+    "footnoteText": "Vgl. § 9 Abs 2 ELGA-VO 2015."
+   },
+   {
+    "footnote": 243,
+    "sectionId": "4.3",
+    "paragraphId": "4.3-p5",
+    "footnoteText": "Vgl. §§ 13 und 16 ELGA-VO 2015."
+   },
+   {
+    "footnote": 318,
+    "sectionId": "5.2.2",
+    "paragraphId": "5.2.2-p4",
+    "footnoteText": "Vgl. §§ 5 bis 9 ELGA-VO 2015."
+   },
+   {
+    "footnote": 321,
+    "sectionId": "5.3",
+    "paragraphId": "5.3-p1",
+    "footnoteText": "Vgl. § 20 ELGA-VO 2015."
+   },
+   {
+    "footnote": 349,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p2",
+    "footnoteText": "Vgl. § 18 und § 19 Abs 2 Z 1 ELGA-VO 2015."
+   },
+   {
+    "footnote": 353,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p3",
+    "footnoteText": "Vgl. § 22 Abs 1 und 2 ELGA-VO 2015."
+   },
+   {
+    "footnote": 367,
+    "sectionId": "5.4.1",
+    "paragraphId": "5.4.1-p1",
+    "footnoteText": "Vgl. § 16 ELGA-VO 2015 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 87."
+   },
+   {
+    "footnote": 369,
+    "sectionId": "5.4.1",
+    "paragraphId": "5.4.1-p1",
+    "footnoteText": "Vgl. § 16 Abs 5 ELGA-VO 2015."
+   },
+   {
+    "footnote": 370,
+    "sectionId": "5.4.1",
+    "paragraphId": "5.4.1-p1",
+    "footnoteText": "Vgl. § 13 ELGA-VO 2015."
+   },
+   {
+    "footnote": 373,
+    "sectionId": "5.4.2",
+    "paragraphId": "5.4.2-p1",
+    "footnoteText": "Vgl. HL7 Austria (2026): Austrian Patient Summary (R4), FHIR Implementation Guide, Version 1.0.0 (STU1); zum fehlenden Produktivstatus § 16 ELGA-VO 2015 und § 28c Abs 2 GTelG 2012."
+   }
+  ]
+ },
+ {
+  "id": "aerzteg1998",
+  "kind": "recht-at",
+  "author": "Österreich",
+  "year": 1998,
+  "title": "Ärztegesetz 1998 (ÄrzteG 1998)",
+  "longTitle": "Bundesgesetz über die Ausübung des ärztlichen Berufes und die Standesvertretung der Ärzte (Ärztegesetz 1998 – ÄrzteG 1998), BGBl. I Nr. 169/1998 idF BGBl. I Nr. 50/2025.",
+  "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011138",
+  "expectedFile": "sources/aerzteg1998.pdf",
+  "citations": [
+   {
+    "footnote": 226,
+    "sectionId": "4.2.2",
+    "paragraphId": "4.2.2-p4",
+    "footnoteText": "Bundesgesetz über die Ausübung des ärztlichen Berufes und die Standesvertretung der Ärzte (Ärztegesetz 1998 – ÄrzteG 1998), BGBl. I Nr. 169/1998 idF BGBl. I Nr. 50/2025."
+   },
+   {
+    "footnote": 228,
+    "sectionId": "4.2.2",
+    "paragraphId": "4.2.2-p4",
+    "footnoteText": "Vgl. § 199 Abs 3 ÄrzteG 1998."
+   }
+  ]
+ },
+ {
+  "id": "nisg",
+  "kind": "recht-at",
+  "author": "Österreich",
+  "year": 2018,
+  "title": "Netz- und Informationssystemsicherheitsgesetz (NISG)",
+  "longTitle": "Bundesgesetz zur Gewährleistung eines hohen Sicherheitsniveaus von Netz- und Informationssystemen (Netz- und Informationssystemsicherheitsgesetz – NISG), BGBl. I Nr. 111/2018 idF BGBl. I Nr. 94/2025.",
+  "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010536",
+  "expectedFile": "sources/nisg.pdf",
+  "citations": [
+   {
+    "footnote": 356,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p4",
+    "footnoteText": "Bundesgesetz zur Gewährleistung eines hohen Sicherheitsniveaus von Netz- und Informationssystemen (Netz- und Informationssystemsicherheitsgesetz – NISG), BGBl. I Nr. 111/2018 idF BGBl. I Nr. 94/2025."
+   },
+   {
+    "footnote": 357,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p4",
+    "footnoteText": "Vgl. § 2 NISG."
+   },
+   {
+    "footnote": 358,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p4",
+    "footnoteText": "Vgl. § 17 Abs 1 NISG."
+   },
+   {
+    "footnote": 359,
+    "sectionId": "5.3.3",
+    "paragraphId": "5.3.3-p4",
+    "footnoteText": "Vgl. § 19 Abs 1 NISG."
+   }
+  ]
+ },
+ {
+  "id": "asvg",
+  "kind": "recht-at",
+  "author": "Österreich",
+  "year": 1955,
+  "title": "Allgemeines Sozialversicherungsgesetz (ASVG)",
+  "longTitle": "Bundesgesetz vom 9. September 1955 über die Allgemeine Sozialversicherung (ASVG), BGBl. Nr. 189/1955 idF BGBl. I Nr. 14/2026.",
+  "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008147",
+  "expectedFile": "sources/asvg.pdf",
+  "citations": [
+   {
+    "footnote": 279,
+    "sectionId": "5.1.2",
+    "paragraphId": "5.1.2-p1",
+    "footnoteText": "Vgl. § 31a Abs 1 ASVG und § 19 Abs 2 GTelG 2012."
+   }
+  ]
+ },
+ {
+  "id": "erlaeuterungen38me",
+  "kind": "recht-at",
+  "author": "Österreich",
+  "year": 2025,
+  "title": "Erläuterungen 38/ME XXVIII. GP zur GTelG-Novelle BGBl. I Nr. 71/2025",
+  "url": "https://www.parlament.gv.at/gegenstand/XXVIII/ME/38",
+  "expectedFile": "sources/erlaeuterungen38me.pdf",
+  "citations": [
+   {
+    "footnote": 253,
+    "sectionId": "4.4.2",
+    "paragraphId": "4.4.2-p1",
+    "footnoteText": "Vgl. § 24i Abs 2 GTelG 2012 iVm Erläuterungen 38/ME XXVIII. GP zur GTelG-Novelle BGBl. I Nr. 71/2025, S. 7."
+   }
+  ]
+ }
+]

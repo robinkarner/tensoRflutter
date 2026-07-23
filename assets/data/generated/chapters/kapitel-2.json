@@ -1,0 +1,37 @@
+{
+ "chapter": 2,
+ "title": "Europäischer Gesundheitsdatenraum",
+ "kurzfassung": "Kapitel 2 erschließt den EHDS als Rechtsrahmen. Die **Verordnung (EU) 2025/327** — veröffentlicht am 5. März 2025, in Kraft seit 26. März 2025 — ist der erste sektorspezifische Datenraum der europäischen Datenstrategie und Teil des Projekts einer europäischen Gesundheitsunion. Als EU-Verordnung gilt sie unmittelbar in jedem Mitgliedstaat.\n\n### Regulatorisches Umfeld\nDie Verordnung präzisiert die **DSGVO** für Gesundheitsdaten: Statt Auskunft auf Verlangen entsteht ein dauerhafter, technisch vermittelter Zugang; statt bloßer Datenportabilität systemübergreifende Kompatibilität. Zum **DGA** verhält sie sich als sektorspezifische Konkretisierung, zur **Datenverordnung** komplementär (Gerätedaten-Zugang dort, Gesundheitsnutzung hier), zur **NIS-2-Richtlinie** additiv (eigene Meldepflicht für EHR-Vorkommnisse neben den Cybersicherheitspflichten).\n\n### Primär- vs. Sekundärnutzung\nDie zentrale Weichenstellung: **Primärnutzung** ist die Verarbeitung für die Versorgung der betroffenen Person selbst (Kapitel II/III der VO, zuständig: Stellen für digitale Gesundheit, Infrastruktur: MyHealth@EU). **Sekundärnutzung** dient Forschung, Statistik und Politik (Kapitel IV, zuständig: Zugangsstellen für Gesundheitsdaten, Infrastruktur: HealthData@EU, grundsätzlich nur pseudonymisiert/anonymisiert, mit zwingendem Widerspruchsrecht nach Art 71). Für die Primärnutzung ist ein Widerspruchsrecht nur optional (Art 10).\n\n### Primärnutzung im Detail\nNatürliche Personen erhalten kostenlosen, unverzüglichen Zugang zu ihren Daten; Gesundheitsdienstleister werden Dateninhaber mit Aktualisierungspflicht; je Mitgliedstaat ist bis 26. März 2027 eine **Digital Health Authority** zu benennen. Sechs **prioritäre Datenkategorien** (Patientenkurzakte, e-Verschreibung, e-Abgabe, Bildgebung, Laborergebnisse, Entlassungsberichte) bilden den Pflichtkern. **EHR-Systeme** brauchen künftig zwei harmonisierte Softwarekomponenten (Interoperabilität + Protokollierung), CE-Kennzeichnung und Registrierung; die Spezifikationen erlässt die Kommission bis 26. März 2027. Für den grenzüberschreitenden Austausch verbinden nationale Kontaktstellen (NCPeH) die Länder über **MyHealth@EU** im Austauschformat **EEHRxF**. Meilensteine: 2027 Durchführungsrechtsakte, 2029 erste Datenkategorien-Gruppe, 2031 zweite Gruppe, 2035 Drittstaaten-Zugang zu HealthData@EU.",
+ "kernaussagen": [
+  "Die EHDS-VO gilt unmittelbar; sie präzisiert die DSGVO und koexistiert mit DGA, Datenverordnung und NIS-2.",
+  "Primärnutzung (Versorgung) und Sekundärnutzung (Forschung etc.) haben getrennte Regime, Behörden und Infrastrukturen.",
+  "Sechs prioritäre Datenkategorien bilden den Pflichtkern der Primärnutzung.",
+  "EHR-Systeme benötigen zwei harmonisierte Softwarekomponenten, CE-Kennzeichnung und Registrierung.",
+  "Der Widerspruch ist bei der Primärnutzung optional (Art 10), bei der Sekundärnutzung zwingend (Art 71).",
+  "Fristenkaskade: 26.3.2027 (Behörden, Durchführungsrechtsakte) → 26.3.2029 (Gruppe 1) → 26.3.2031 (Gruppe 2) → 26.3.2035 (Drittstaaten)."
+ ],
+ "begriffe": [
+  {"begriff": "EEHRxF", "erklaerung": "European Electronic Health Record exchange Format — das verbindliche EU-Austauschformat."},
+  {"begriff": "MyHealth@EU", "erklaerung": "Zentrale Interoperabilitätsplattform für die grenzüberschreitende Primärnutzung."},
+  {"begriff": "HealthData@EU", "erklaerung": "Geplante Infrastruktur für die grenzüberschreitende Sekundärnutzung."},
+  {"begriff": "DHA", "erklaerung": "Digital Health Authority — nationale Stelle für digitale Gesundheit (Primärnutzung)."},
+  {"begriff": "HDAB", "erklaerung": "Health Data Access Body — Zugangsstelle für Gesundheitsdaten (Sekundärnutzung)."},
+  {"begriff": "NCPeH", "erklaerung": "National Contact Point for eHealth — nationale Kontaktstelle für den grenzüberschreitenden Austausch."},
+  {"begriff": "Patientenkurzakte", "erklaerung": "Kurzübersicht wichtiger klinischer Fakten (Allergien, Medikation, Vorerkrankungen)."},
+  {"begriff": "DGA", "erklaerung": "Daten-Governance-Rechtsakt (EU) 2022/868 — sektorübergreifender Rahmen für Datenweiterverwendung."}
+ ],
+ "fristen": [
+  {"datum": "26. März 2025", "was": "Inkrafttreten der EHDS-Verordnung."},
+  {"datum": "26. März 2027", "was": "Durchführungsrechtsakte (EEHRxF, Softwarekomponenten); Benennung der DHA und NCPeH."},
+  {"datum": "26. März 2029", "was": "Austausch der ersten prioritären Kategorien-Gruppe (Kurzakte, e-Verschreibung/-Abgabe); Beginn Sekundärnutzungsregeln."},
+  {"datum": "26. März 2031", "was": "Zweite Kategorien-Gruppe (Bildgebung, Labor, Entlassungsberichte)."},
+  {"datum": "26. März 2035", "was": "Drittstaaten können HealthData@EU-Teilnahme beantragen."}
+ ],
+ "abschnitte": [
+  {"id": "2.1", "titel": "Motivation, Entstehung und regulatorisches Umfeld", "einzeiler": "Datenstrategie, Vorläufer und das Verhältnis zu DSGVO, DGA, Datenverordnung, NIS-2."},
+  {"id": "2.2", "titel": "Abgrenzung von Primär- und Sekundärnutzung", "einzeiler": "Die Zweiteilung der Verordnung mit ihren Rechtsfolgen."},
+  {"id": "2.3", "titel": "Primärnutzung nach EHDS", "einzeiler": "Akteure, Datenkategorien, EHR-Anforderungen, Infrastruktur, Fristen."}
+ ],
+ "verbindungen": {"bautAuf": ["1"], "liefertFuer": ["3", "4", "5", "6"]},
+ "fazitBeitrag": "Liefert den Anforderungskatalog (Zugang, Kategorien, EHR-Komponenten, MyHealth@EU, Fristen), an dem Kapitel 5 und das Fazit ELGA messen."
+}

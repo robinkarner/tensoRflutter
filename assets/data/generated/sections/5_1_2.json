@@ -1,0 +1,144 @@
+{
+ "sectionId": "5.1.2",
+ "paragraphs": [
+  {
+   "id": "5.1.2-p1",
+   "type": "text",
+   "kernaussage": "Die SVC-GmbH liefert mit e-card-System, GIN-Netz und dem Endgerät GINO die Identifikations- und Netzwerkschicht, über die alle Gesundheitsdiensteanbieter mit ELGA kommunizieren.",
+   "sentences": [
+    {
+     "text": "Die SVC-GmbH stellt die Identifikations- und Netzwerkebene bereit, über die alle Gesundheitsdiensteanbieter mit den ELGA-Komponenten kommunizieren.",
+     "einfach": "Die SVC-GmbH (eine IT-Tochter der Sozialversicherung) betreibt die Schicht, die zwei Dinge erledigt: Sie stellt fest, wer jemand ist (Identifikation), und sie stellt die Netzverbindung bereit. Über diese Schicht sprechen alle Gesundheitsdiensteanbieter (z. B. Ärztinnen, Spitäler, Apotheken) mit den Bausteinen der elektronischen Gesundheitsakte ELGA.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "SVC-GmbH", "kategorie": "akteur" },
+      { "snippet": "Identifikations- und Netzwerkebene", "kategorie": "tech" },
+      { "snippet": "Gesundheitsdiensteanbieter", "kategorie": "akteur" },
+      { "snippet": "ELGA-Komponenten", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das e-card-System identifiziert Patientinnen und Patienten über ihre Sozialversicherungsnummer und Gesundheitsdiensteanbieter über geeignete Identifikationskarten.[^279]",
+     "einfach": "Das e-card-System erkennt Patientinnen und Patienten anhand ihrer Sozialversicherungsnummer (der eindeutigen Nummer jeder versicherten Person). Auch die Gesundheitsdiensteanbieter selbst müssen sich ausweisen, und zwar mit eigenen Identifikationskarten.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "e-card-System", "kategorie": "tech" },
+      { "snippet": "Sozialversicherungsnummer", "kategorie": "tech" },
+      { "snippet": "Gesundheitsdiensteanbieter", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der Datenverkehr läuft nicht über das offene Internet, sondern über das von der SVC-GmbH betriebene Gesundheitsinformationsnetz (GIN), ein als geschlossene Benutzergruppe konzipiertes, vom Internet getrenntes Netz, das ausschließlich berechtigten Gesundheitsdiensteanbietern offensteht.[^280]",
+     "einfach": "Die Daten laufen nicht über das normale Internet, sondern über ein eigenes, abgeschottetes Netz namens GIN (Gesundheitsinformationsnetz), das die SVC-GmbH betreibt. Nur berechtigte Gesundheitsdiensteanbieter dürfen sich dort einwählen; man kann es sich wie ein privates Firmennetz (Closed User Group) für das Gesundheitswesen vorstellen.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "SVC-GmbH", "kategorie": "akteur" },
+      { "snippet": "Gesundheitsinformationsnetz (GIN)", "kategorie": "tech" },
+      { "snippet": "geschlossene Benutzergruppe", "kategorie": "tech" },
+      { "snippet": "Gesundheitsdiensteanbietern", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Als Endgerät dient das NFC-fähige Kartenlesegerät GINO (Gesundheits-Informations-Netzwerk Online), das die frühere GINA ablöste und sie mit der e-card-Anbindung vereint.[^281]",
+     "einfach": "In den Ordinationen steht als Zugangsgerät das Kartenlesegerät GINO, das e-cards auch kontaktlos per NFC (Near Field Communication, Funkübertragung auf kurze Distanz) lesen kann. GINO ersetzt das ältere Gerät GINA und kombiniert dessen Netzzugang mit dem Einlesen der e-card in einem Gerät.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "NFC-fähige Kartenlesegerät", "kategorie": "tech" },
+      { "snippet": "GINO (Gesundheits-Informations-Netzwerk Online)", "kategorie": "tech" },
+      { "snippet": "GINA", "kategorie": "tech" },
+      { "snippet": "e-card-Anbindung", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 279,
+     "quellen": ["gtelg2012", "asvg"],
+     "claim": "Die Identifikation von Patientinnen und Patienten über die Sozialversicherungsnummer und von Gesundheitsdiensteanbietern über Identifikationskarten ist gesetzlich im ASVG und im GTelG 2012 verankert.",
+     "fundstelle": "§ 31a Abs 1 ASVG; § 19 Abs 2 GTelG 2012",
+     "suchHinweis": "e-card Sozialversicherungsnummer Identifikation Gesundheitsdiensteanbieter"
+    },
+    {
+     "num": 280,
+     "quellen": ["dachverband-ecard2026"],
+     "claim": "Das GIN ist ein von der SVC-GmbH betriebenes, vom Internet getrenntes Netz als geschlossene Benutzergruppe, das nur berechtigten Gesundheitsdiensteanbietern offensteht.",
+     "fundstelle": "",
+     "suchHinweis": "GIN Gesundheitsinformationsnetz geschlossene Benutzergruppe Internet"
+    },
+    {
+     "num": 281,
+     "quellen": ["dachverband-ecard2026"],
+     "claim": "Das NFC-fähige Kartenlesegerät GINO löste die frühere GINA ab und vereint Netzzugang und e-card-Anbindung.",
+     "fundstelle": "",
+     "suchHinweis": "GINO GINA Kartenlesegerät NFC"
+    }
+   ]
+  },
+  {
+   "id": "5.1.2-p2",
+   "type": "text",
+   "kernaussage": "GDA-Systeme werden entweder direkt über standardisierte IHE-Schnittstellen oder über den proprietären ELGA-Adapter samt zentralem ELGA-Proxy an einen ELGA-Bereich angebunden.",
+   "sentences": [
+    {
+     "text": "Die Anbindung der GDA-Systeme an einen ELGA-Bereich erfolgt entweder unmittelbar über standardisierte IHE-Schnittstellen oder über proprietäre Anbindungsbausteine wie den ELGA-Adapter (ELGAAD), der ein solches System über den zentral aufgestellten Vermittlungsdienst des Dachverbands (ELGA-Proxy) an den Zielbereich anbindet.[^282]",
+     "einfach": "Die Software der Gesundheitsdiensteanbieter (GDA-Systeme, z. B. Arztpraxis-Software) kann auf zwei Wegen an einen ELGA-Bereich angeschlossen werden: entweder direkt über offene, standardisierte Schnittstellen nach IHE (Integrating the Healthcare Enterprise, ein internationales Rahmenwerk für Interoperabilitätsprofile im Gesundheitswesen) oder über herstellerspezifische Zwischenbausteine. Ein solcher Baustein ist der ELGA-Adapter (ELGAAD), der die Anfragen über einen zentralen Vermittlungsdienst des Dachverbands der Sozialversicherungsträger, den ELGA-Proxy, an den richtigen ELGA-Bereich weiterleitet.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "GDA-Systeme", "kategorie": "tech" },
+      { "snippet": "IHE-Schnittstellen", "kategorie": "tech" },
+      { "snippet": "ELGA-Adapter (ELGAAD)", "kategorie": "tech" },
+      { "snippet": "Dachverbands", "kategorie": "akteur" },
+      { "snippet": "ELGA-Proxy", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 282,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Die Anbindung der GDA-Systeme erfolgt direkt über IHE-Schnittstellen oder über den ELGA-Adapter und den zentralen ELGA-Proxy des Dachverbands.",
+     "fundstelle": "S. 57f",
+     "suchHinweis": "ELGA-Adapter ELGAAD Proxy Anbindung GDA"
+    }
+   ]
+  },
+  {
+   "id": "5.1.2-p3",
+   "type": "text",
+   "kernaussage": "Die SVC-GmbH liefert nur Identifikation und Netzzugang, speichert aber selbst keine Befunddokumente; die Folgen für den niedergelassenen Bereich werden anschließend untersucht.",
+   "sentences": [
+    {
+     "text": "SVC-GmbH stellt damit die Identifikation und den Netzzugang bereit, betreibt selbst aber keinen Datenspeicher für Befunddokumente.[^283]",
+     "einfach": "Die SVC-GmbH ist also nur für das Erkennen der Beteiligten und den Netzzugang zuständig. Einen eigenen Speicher für medizinische Befunddokumente (z. B. Laborbefunde oder Entlassungsbriefe) betreibt sie nicht.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "SVC-GmbH", "kategorie": "akteur" },
+      { "snippet": "Datenspeicher für Befunddokumente", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Welche Folgen sich daraus für die Anbindung des niedergelassenen Bereichs ergeben, wird in den folgenden Abschnitten untersucht.",
+     "einfach": "Die nächsten Abschnitte gehen der Frage nach, was das für die Anbindung des niedergelassenen Bereichs bedeutet, also für Ärztinnen und Ärzte mit eigener Praxis außerhalb der Spitäler.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 283,
+     "quellen": ["rh-elga2024", "gtelg2012"],
+     "claim": "Die SVC-GmbH stellt Identifikation und Netzzugang bereit, betreibt aber selbst keinen Datenspeicher für Befunddokumente.",
+     "fundstelle": "§ 20 Abs 1 GTelG 2012; S. 51",
+     "suchHinweis": "SVC Netzzugang Datenspeicher e-card System"
+    }
+   ]
+  }
+ ]
+}

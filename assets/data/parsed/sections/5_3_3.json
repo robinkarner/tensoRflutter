@@ -1,0 +1,186 @@
+{
+ "sectionId": "5.3.3",
+ "title": "Bezug zur EHDS-Verordnung und zur Cybersicherheit",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 59,
+ "pdfPage": 69,
+ "paragraphs": [
+  {
+   "id": "5.3.3-p1",
+   "type": "text",
+   "text": "Grundsätzlich spiegelt das GTelG 2012 mit dem Protokollierungssystem und der Zugriffsauskunft die inhaltlichen Anforderungen der EHDS-Verordnung. Das GTelG 2012 verlangt, dass jede Verarbeitung mit Datum und Zeit, der eindeutigen elektronischen Identität des zugreifenden Gesundheitsdiensteanbieters und der verarbeitenden natürlichen Person sowie der Kennung der verarbeiteten Daten protokolliert wird.[^343] Damit sind die in der EHDS-Verordnung geforderten Mindestangaben dazu, wer wann auf welche Daten zugegriffen hat, inhaltlich abgedeckt.[^344] Die in der EHDS-Verordnung geforderte Mindestabrufbarkeit der Zugriffsinformationen von drei Jahren wird durch die dreijährige Aufbewahrungsfrist des GTelG 2012 erreicht.[^345]",
+   "footnotes": [
+    {
+     "num": 343,
+     "text": "Vgl. § 22 Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 344,
+     "text": "Vgl. Art 9 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 345,
+     "text": "Vgl. Art 9 Abs 2 VO (EU) 2025/327 und § 22 Abs 3 GTelG 2012.",
+     "sources": [
+      "ehds-vo",
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.3.3-p2",
+   "type": "text",
+   "text": "Eine wesentliche Differenz besteht bei der Informationsbereitstellung. Artikel 9 Absatz 1 der EHDS-Verordnung räumt natürlichen Personen das Recht ein, Informationen über jeden Zugriff auf ihre Gesundheitsdaten „auch durch automatische Benachrichtigungen\" zu erhalten, und sieht damit eine proaktive, ereignisgesteuerte Komponente vor. Das GTelG 2012 normiert demgegenüber ein abrufbasiertes Auskunftsrecht, da die Protokolldaten auf Verlangen einfach und übersichtlich darzustellen sind.[^346] Dieses Recht kann über das Zugangsportal oder die ELGA-Ombudsstelle ausgeübt werden.[^347] Die ELGA-Gesamtarchitektur bestätigt diesen abrufbasierten Charakter, da die betroffene Person den entsprechenden Bereich des Bürger-Zugangsportals aktiv aufrufen muss, um eine Übersicht der erfolgten Zugriffe zu erhalten.[^348] Die nach der ELGA-VO 2015 im ELGA-Aushang vorgeschriebene Information über das Bestehen dieses Auskunftsrechts ist eine generelle Hinweispflicht und ersetzt keine fallbezogene Benachrichtigung bei einem konkreten Zugriffsereignis.[^349] Eine automatisierte, proaktive Benachrichtigung im Sinne des Artikel 9 Absatz 1 EHDS-Verordnung, die bis März 2029 für die Patientenkurzakte, ePrescription und eDispensation einzurichten ist, fehlt damit sowohl im GTelG 2012 als auch in der ELGA-VO 2015.[^350]",
+   "footnotes": [
+    {
+     "num": 346,
+     "text": "Vgl. § 22 Abs 4 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 347,
+     "text": "Vgl. § 16 Abs 1 Z 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 348,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 317f.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    },
+    {
+     "num": 349,
+     "text": "Vgl. § 18 und § 19 Abs 2 Z 1 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    },
+    {
+     "num": 350,
+     "text": "Vgl. Art 105 lit a iVm Art 14 Abs 1 lit a bis c VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.3.3-p3",
+   "type": "text",
+   "text": "Diese Lücke berührt auch die Cybersicherheitsarchitektur von ELGA. Das aggregierte Audit Record Repository protokolliert jeden Zugriff bereits kontinuierlich, sodass die für eine Benachrichtigung erforderlichen Rohdaten in Echtzeit vorliegen.[^351] Eine Erweiterung um eine Benachrichtigungsfunktion wäre daher primär eine Frage der Anbindung an die bestehende Protokollierungsinfrastruktur und nicht der Neuerhebung von Daten.[^352] Ein zusätzlicher, nach außen gerichteter Benachrichtigungskanal fiele jedoch unter die Sicherheitsanforderungen, die sich auch auf alle zur Kommunikation zwischen den ELGA-Komponenten erforderlichen Dienste erstrecken.[^353] Insbesondere wäre sicherzustellen, dass die Benachrichtigung selbst keine Rückschlüsse auf sensible Gesundheitsdaten zulässt, um eine sekundäre Datenschutzverletzung durch den Benachrichtigungsmechanismus zu vermeiden.[^354] Fraglich ist grundlegender die technische Umsetzbarkeit eines solchen Benachrichtigungskanals mit dem Zugangsportal als Webanwendung. Naheliegend wären zunächst gängige Kanäle wie E-Mail oder SMS. Push-Benachrichtigungen würden eine App voraussetzen, die zum Zeitpunkt dieser Arbeit noch nicht existiert. Angekündigt wurde eine ELGA-App bereits und die technische Grundlage dafür soll bereits mit dem für 2026 geplanten Zugangsportal-Relaunch entstehen.[^355]",
+   "footnotes": [
+    {
+     "num": 351,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 314.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    },
+    {
+     "num": 352,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 317.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    },
+    {
+     "num": 353,
+     "text": "Vgl. § 22 Abs 1 und 2 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    },
+    {
+     "num": 354,
+     "text": "Vgl. Art 32 VO (EU) 2016/679.",
+     "sources": [
+      "dsgvo"
+     ]
+    },
+    {
+     "num": 355,
+     "text": "Vgl. ORF.at (2025): App und Medikamentenliste: ELGA wird stark ausgebaut.",
+     "sources": [
+      "orf2025"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.3.3-p4",
+   "type": "text",
+   "text": "Diese Sicherheitsanforderungen fügen sich in das Cybersicherheitsregime des Netz- und Informationssystemsicherheitsgesetzes (NISG) ein.[^356] Das Gesetz erfasst die Betreiber wesentlicher Dienste unter anderem auch im Sektor Gesundheitswesen.[^357] Diese haben geeignete und verhältnismäßige technische und organisatorische Sicherheitsvorkehrungen zu treffen, die den Stand der Technik berücksichtigen.[^358] Einen Sicherheitsvorfall haben sie unverzüglich an das zuständige Computer-Notfallteam zu melden, das die Meldung an den Bundesminister für Inneres weiterleitet.[^359] Für den Gesundheitssektor hat die für das Gesundheitswesen zuständige Bundesministerin oder der zuständige Bundesminister mit dem Austrian Health CERT ein sektorenspezifisches Computer-Notfallteam nach § 14 NISG einzurichten, das diese Aufgaben gegenüber jenen Gesundheitsdiensteanbietern wahrnimmt, die Betreiber wesentlicher Dienste sind.[^360]",
+   "footnotes": [
+    {
+     "num": 356,
+     "text": "Bundesgesetz zur Gewährleistung eines hohen Sicherheitsniveaus von Netz- und Informationssystemen (Netz- und Informationssystemsicherheitsgesetz – NISG), BGBl. I Nr. 111/2018 idF BGBl. I Nr. 94/2025.",
+     "sources": [
+      "nisg"
+     ]
+    },
+    {
+     "num": 357,
+     "text": "Vgl. § 2 NISG.",
+     "sources": [
+      "nisg"
+     ]
+    },
+    {
+     "num": 358,
+     "text": "Vgl. § 17 Abs 1 NISG.",
+     "sources": [
+      "nisg"
+     ]
+    },
+    {
+     "num": 359,
+     "text": "Vgl. § 19 Abs 1 NISG.",
+     "sources": [
+      "nisg"
+     ]
+    },
+    {
+     "num": 360,
+     "text": "Vgl. § 8a Abs 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.3.3-p5",
+   "type": "text",
+   "text": "Über die Protokollierung hinaus betrifft die EHDS-Verordnung auch die granulare Zugangskontrolle. Die EHDS-Verordnung gewährt das Recht, den Zugang zu einzelnen Teilen der Gesundheitsdaten zu beschränken, wobei diese Beschränkung für die Gesundheitsdienstleister nicht sichtbar sein darf.[^361] Der Erwägungsgrund 17 der EHDS-Verordnung hebt dafür sensible Bereiche wie die psychische oder sexuelle Gesundheit hervor. ELGA bietet mit dem Ein- und Ausblenden einzelner Dokumente eine vergleichbar feingliedrige Steuerung.[^362]",
+   "footnotes": [
+    {
+     "num": 361,
+     "text": "Vgl. Art 8 Abs 1 iVm Art 11 Abs 5 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 362,
+     "text": "Vgl. § 16 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  }
+ ]
+}

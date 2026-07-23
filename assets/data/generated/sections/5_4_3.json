@@ -1,0 +1,127 @@
+{
+ "sectionId": "5.4.3",
+ "paragraphs": [
+  {
+   "id": "5.4.3-p1",
+   "type": "text",
+   "kernaussage": "FHIR ist der Zielstandard des EHDS; die EEHRxF-Spezifikationen muss die Kommission bis 26. März 2027 per Durchführungsrechtsakt erlassen.",
+   "sentences": [
+    {
+     "text": "FHIR ist der maßgebliche Standard für den EHDS, und das europäische Austauschformat soll nach dem Stand der Spezifikationsarbeiten auf FHIR aufbauen (siehe Abschnitt 3.2).",
+     "einfach": "Das künftige EU-Austauschformat EEHRxF wird voraussichtlich auf HL7 FHIR basieren, dem modernen, ressourcenbasierten Gesundheitsdaten-Standard.",
+     "kategorien": ["tech"],
+     "marks": [{"snippet": "FHIR", "kategorie": "tech"}, {"snippet": "europäische Austauschformat", "kategorie": "tech"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die technischen Spezifikationen des EEHRxF hat die Europäische Kommission bis zum 26. März 2027 mittels Durchführungsrechtsakten zu erlassen.[^374]",
+     "einfach": "Die verbindlichen technischen Details des EEHRxF legt die EU-Kommission per Durchführungsrechtsakt fest — Frist: 26. März 2027.",
+     "kategorien": ["frist", "norm", "akteur"],
+     "marks": [{"snippet": "bis zum 26. März 2027", "kategorie": "frist"}, {"snippet": "Europäische Kommission", "kategorie": "akteur"}, {"snippet": "Durchführungsrechtsakten", "kategorie": "norm"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 374, "quellen": ["ehds-vo"], "claim": "Belegt die Pflicht der Kommission, die EEHRxF-Spezifikationen bis 26.3.2027 mittels Durchführungsrechtsakten zu erlassen.", "fundstelle": "Art 15", "suchHinweis": "Artikel 15 Austauschformat Durchführungsrechtsakte"}
+   ]
+  },
+  {
+   "id": "5.4.3-p2",
+   "type": "text",
+   "kernaussage": "Neben der Interoperabilitäts- verlangt der EHDS auch eine Protokollierungssoftwarekomponente; nationale FHIR-Basis ist der HL7 Austria FHIR Core IG 2.0.0.",
+   "sentences": [
+    {
+     "text": "Neben dieser auf das EEHRxF gerichteten Interoperabilitätskomponente verlangt die EHDS-Verordnung von EHR-Systemen auch eine harmonisierte Protokollierungssoftwarekomponente, deren Anforderungen an die Zugriffsprotokollierung an die in Abschnitt 5.3.3 behandelten Pflichten anschließen.[^375]",
+     "einfach": "EHR-Systeme brauchen künftig zwei Pflichtkomponenten: die Interoperabilitätskomponente (EEHRxF) und eine Protokollierungskomponente — deren Anforderungen decken sich mit den zuvor geprüften Protokollpflichten.",
+     "kategorien": ["norm", "tech"],
+     "marks": [{"snippet": "harmonisierte Protokollierungssoftwarekomponente", "kategorie": "tech"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die nationale FHIR-Grundlage in Österreich bildet der HL7 Austria FHIR Core Implementation Guide in der Version 2.0.0.[^376]",
+     "einfach": "Österreichs FHIR-Basisprofil ist der „HL7 Austria FHIR Core Implementation Guide“, aktuell Version 2.0.0.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [{"snippet": "HL7 Austria FHIR Core Implementation Guide", "kategorie": "tech"}, {"snippet": "Version 2.0.0", "kategorie": "zahl"}],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {"num": 375, "quellen": ["ehds-vo"], "claim": "Belegt die Pflicht zur harmonisierten Protokollierungssoftwarekomponente für EHR-Systeme.", "fundstelle": "Anhang II Nr 3", "suchHinweis": "Anhang II Protokollierung logging Komponente"},
+    {"num": 376, "quellen": ["hl7at-fhir-igs2026"], "claim": "Belegt den HL7 Austria FHIR Core Implementation Guide 2.0.0 als nationale FHIR-Grundlage.", "fundstelle": "", "suchHinweis": "HL7 Austria FHIR Core Implementation Guide 2.0.0"}
+   ]
+  },
+  {
+   "id": "5.4.3-p3",
+   "type": "text",
+   "kernaussage": "Die Austrian Patient Summary ist ein FHIR-Leitfaden auf Basis der International Patient Summary, seit Februar 2026 als Erprobungsstandard (STU1) balloted, konzipiert als zentrale Anwendung mit automatischer Befüllung — aber weiterhin Entwurf.",
+   "sentences": [
+    {
+     "text": "Die Austrian Patient Summary (APS) ist als FHIR-Implementierungsleitfaden auf Basis der International Patient Summary und des HL7 Austria FHIR Core spezifiziert.[^377]",
+     "einfach": "Die APS (österreichische Patientenkurzakte) ist ein FHIR-Leitfaden, der auf dem internationalen IPS-Standard und dem österreichischen FHIR-Basisprofil aufsetzt.",
+     "kategorien": ["tech"],
+     "marks": [{"snippet": "Austrian Patient Summary (APS)", "kategorie": "tech"}, {"snippet": "International Patient Summary", "kategorie": "tech"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie wird im Auftrag der ELGA GmbH erstellt und wurde über das Ballot-Verfahren der HL7 Austria abgestimmt.",
+     "einfach": "Auftraggeberin ist die ELGA GmbH; fachlich abgestimmt wurde die Spezifikation im Ballot-(Abstimmungs-)Verfahren der HL7 Austria.",
+     "kategorien": ["akteur"],
+     "marks": [{"snippet": "ELGA GmbH", "kategorie": "akteur"}, {"snippet": "HL7 Austria", "kategorie": "akteur"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Seit Februar 2026 liegt sie in der Version 1.0.0 als Erprobungsstandard vor, ist jedoch weiterhin als Entwurf gekennzeichnet.[^378]",
+     "einfach": "Status: Version 1.0.0 als „Standard for Trial Use“ seit Februar 2026 — also erprobungsreif, aber noch kein produktiver Normativ-Standard.",
+     "kategorien": ["frist", "luecke"],
+     "marks": [{"snippet": "Seit Februar 2026", "kategorie": "frist"}, {"snippet": "als Entwurf gekennzeichnet", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Konzeptionell ist die APS als zentrale Anwendung ausgelegt, deren Inhalte automatisch aus angebundenen Anwendungen wie der e-Medikation und dem e-Impfpass zusammengeführt werden sollen (siehe Abschnitt 5.1.4).[^379]",
+     "einfach": "Die APS soll sich automatisch aus bestehenden zentralen Anwendungen speisen (e-Medikation, e-Impfpass) statt manuell gepflegt zu werden.",
+     "kategorien": ["tech"],
+     "marks": [{"snippet": "zentrale Anwendung", "kategorie": "tech"}, {"snippet": "automatisch", "kategorie": "these"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Über die Patientenkurzakte hinaus hat die ELGA GmbH weitere FHIR-Implementierungsleitfäden veröffentlicht, etwa für die e-Medikation.[^380]",
+     "einfach": "Auch für andere Anwendungen (z. B. e-Medikation) gibt es bereits FHIR-Leitfäden der ELGA GmbH.",
+     "kategorien": ["tech"],
+     "marks": [{"snippet": "weitere FHIR-Implementierungsleitfäden", "kategorie": "tech"}],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {"num": 377, "quellen": ["hl7at-aps-ig2026"], "claim": "Belegt die Spezifikation der APS auf Basis von IPS und HL7 Austria FHIR Core.", "fundstelle": "APS IG, Abschnitt Grundlagen", "suchHinweis": "Austrian Patient Summary International Patient Summary Core"},
+    {"num": 378, "quellen": ["hl7at-aps-ig2026"], "claim": "Belegt Version 1.0.0 (STU1) seit Februar 2026 mit Entwurfsstatus.", "fundstelle": "APS IG, Titelseite/Status", "suchHinweis": "1.0.0 STU1 trial use draft"},
+    {"num": 379, "quellen": ["hl7at-aps-ig2026"], "claim": "Belegt das Konzept der zentralen Anwendung mit automatischer Zusammenführung aus e-Medikation und e-Impfpass.", "fundstelle": "APS IG, Konzept/Architektur", "suchHinweis": "zentrale Anwendung automatisch e-Medikation Impfpass"},
+    {"num": 380, "quellen": ["hl7at-fhir-igs2026"], "claim": "Belegt weitere veröffentlichte FHIR-Implementierungsleitfäden der ELGA GmbH (z. B. e-Medikation).", "fundstelle": "", "suchHinweis": "ELGA FHIR Implementation Guides e-Medikation"}
+   ]
+  },
+  {
+   "id": "5.4.3-p4",
+   "type": "text",
+   "kernaussage": "Das EEHRxF entsteht EU-weit im Projekt Xt-EHR mit HL7 Europe; national koexistieren die CDA- und die neueren FHIR-Leitfäden.",
+   "sentences": [
+    {
+     "text": "Die EU-weite Spezifikation des EEHRxF wird im Projekt Extended Electronic Health Record in enger Zusammenarbeit mit HL7 Europe erarbeitet.[^381]",
+     "einfach": "Auf EU-Ebene arbeitet das Projekt „Extended Electronic Health Record“ (Xt-EHR) gemeinsam mit HL7 Europe an der EEHRxF-Spezifikation.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [{"snippet": "Extended Electronic Health Record", "kategorie": "tech"}, {"snippet": "HL7 Europe", "kategorie": "akteur"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "In Österreich bestehen damit die dokumentenbasierten CDA-Leitfäden und die neueren ressourcenbasierten FHIR-Leitfäden nebeneinander.[^382]",
+     "einfach": "Österreich fährt derzeit zweigleisig: die etablierten CDA-Dokumentleitfäden und parallel die neuen FHIR-Leitfäden.",
+     "kategorien": ["tech", "these"],
+     "marks": [{"snippet": "CDA-Leitfäden", "kategorie": "tech"}, {"snippet": "FHIR-Leitfäden", "kategorie": "tech"}, {"snippet": "nebeneinander", "kategorie": "these"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 381, "quellen": ["hl7at-aps-umfeld2026"], "claim": "Belegt die Erarbeitung des EEHRxF im Projekt Extended Electronic Health Record mit HL7 Europe.", "fundstelle": "APS Umfeld-Seite", "suchHinweis": "Xt-EHR Extended Electronic Health Record HL7 Europe"},
+    {"num": 382, "quellen": ["goeg-cdaleitfaeden2026", "hl7at-fhir-igs2026"], "claim": "Belegt das Nebeneinander von CDA- und FHIR-Leitfäden in Österreich.", "fundstelle": "", "suchHinweis": "CDA Leitfäden FHIR Implementation Guides"}
+   ]
+  }
+ ]
+}

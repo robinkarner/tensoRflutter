@@ -1,0 +1,82 @@
+{
+ "sectionId": "3.1.2",
+ "title": "Dezentral",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 20,
+ "pdfPage": 30,
+ "paragraphs": [
+  {
+   "id": "3.1.2-p1",
+   "type": "text",
+   "text": "Im dezentralen Modell verbleiben die Gesundheitsdaten beim jeweiligen Ersteller. Ein zentrales Verzeichnis speichert lediglich Metadaten darüber, wo welche Daten liegen, ohne die Daten selbst zu enthalten. Der abrufende Behandler fragt das Verzeichnis ab und ruft das Dokument anschließend direkt beim Ersteller ab.[^102] Die International Organization for Standardization (ISO) erkennt diese Architektur explizit an, indem sie die Anwendung des Standards ausdrücklich auch für die Repräsentation von EHR-Daten innerhalb eines dezentralen Record-Systems vorsieht.[^103]",
+   "footnotes": [
+    {
+     "num": 102,
+     "text": "Vgl. Scheibner et al. (2021): Benefits, Challenges and Contributors to Success for National eHealth Systems Implementation: A Scoping Review, S. 6.",
+     "sources": [
+      "scheibner2021"
+     ]
+    },
+    {
+     "num": 103,
+     "text": "Vgl. ISO (2019): ISO 13606-1:2019.",
+     "sources": [
+      "iso13606"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.1.2-p2",
+   "type": "text",
+   "text": "Insbesondere in Blockchain-basierten Ansätzen werden als Vorzüge die strukturelle Integrität der Daten gegen unbefugte Veränderungen und die nachvollziehbare Auditierbarkeit aller Dateninteraktionen genannt.[^104] Allgemein entfällt in verteilten Architekturen der Single Point of Failure, und die Datensouveränität der erstellenden Einrichtungen bleibt gewahrt.[^105]",
+   "footnotes": [
+    {
+     "num": 104,
+     "text": "Vgl. Kumar et al. (2025): Decentralized digital health ecosystems, S. 3. und Beinke et al. (2019): Towards A Stakeholder-Oriented Blockchain-Based Architecture for Electronic Health Records. S. 5.",
+     "sources": [
+      "beinke2019",
+      "kumar2025"
+     ]
+    },
+    {
+     "num": 105,
+     "text": "Vgl. Scheibner et al. (2021): Benefits, Challenges and Contributors to Success for National eHealth Systems Implementation: A Scoping Review, S. 6.",
+     "sources": [
+      "scheibner2021"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.1.2-p3",
+   "type": "text",
+   "text": "Diesen Vorteilen stehen jedoch strukturelle Schwächen gegenüber. Geteilte Architekturen erfordern eine robuste Infrastruktur, hohe Standardisierung sowie regulatorische Klarheit,[^106] da die heterogene Verteilung der Daten die Komplexität der Datenverwaltung, der Kommunikation und der Sicherheit erheblich erhöht.[^107] Estland gilt mit seinem über X-Road realisierten Estonian National Health Information System (EHIS) als Referenzbeispiel für eine dezentrale nationale Architektur im Gesundheitswesen.[^108]",
+   "footnotes": [
+    {
+     "num": 106,
+     "text": "Vgl. Fröhlich et al. (2025): Reality Check: The Aspirations of the European Health Data Space Amidst Challenges in Decentralized Data Analysis, S. 1.",
+     "sources": [
+      "froehlich2025"
+     ]
+    },
+    {
+     "num": 107,
+     "text": "Vgl. Shukla et al. (2025): Federated learning with differential privacy for breast cancer diagnosis enabling secure data sharing and model integrity, S. 5.",
+     "sources": [
+      "shukla2025"
+     ]
+    },
+    {
+     "num": 108,
+     "text": "Vgl. Klementi et al. (2024): A reference architecture for personal health data spaces using decentralized content-addressable storage networks, S. 1. und TEHIK (2026): Health Information Systems.",
+     "sources": [
+      "klementi2024",
+      "tehik2026"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "sectionId": "5.4.2",
+ "title": "Abdeckung der EHDS-Datenkategorien",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 62,
+ "pdfPage": 72,
+ "paragraphs": [
+  {
+   "id": "5.4.2-p1",
+   "type": "text",
+   "text": "Die prioritären Datenkategorien der EHDS-Verordnung für die Primärnutzung wurden in Abschnitt 2.3.2 beschrieben. Die EHDS-Kategorie der Entlassungsberichte wird in ELGA durch den ELGA-Entlassungsbrief abgedeckt, der seit dem Start von ELGA im Jahr 2015 in Betrieb ist.[^371] Die Kategorien der Laborbefunde und der medizinischen Bildgebung werden durch die entsprechenden ELGA-Befunde abgedeckt, deren Speicherung im niedergelassenen Bereich seit dem 1. Juli 2025 schrittweise verpflichtend ist (siehe Abschnitt 5.2.2). Die Kategorien der elektronischen Verschreibung und der Abgabe werden durch die e-Medikation abgedeckt, deren Anwendung bis September 2019 schrittweise in ganz Österreich eingeführt wurde (siehe Abschnitt 5.1.4).[^372] Die Kategorie der Patientenkurzakte ist als Austrian Patient Summary (APS) spezifiziert. Der zugehörige Implementierungsleitfaden liegt seit Februar 2026 in der Version 1.0.0 als Erprobungsstandard vor, eine produktive Integration in ELGA steht jedoch noch aus (siehe Abschnitt 5.4.3).[^373]",
+   "footnotes": [
+    {
+     "num": 371,
+     "text": "Vgl. Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz (2026): ELGA.",
+     "sources": [
+      "bmasgpk-elga2026"
+     ]
+    },
+    {
+     "num": 372,
+     "text": "Vgl. Dachverband der Sozialversicherungsträger (2026): Rollout e-Medikation.",
+     "sources": [
+      "dachverband-emedrollout2026"
+     ]
+    },
+    {
+     "num": 373,
+     "text": "Vgl. HL7 Austria (2026): Austrian Patient Summary (R4), FHIR Implementation Guide, Version 1.0.0 (STU1); zum fehlenden Produktivstatus § 16 ELGA-VO 2015 und § 28c Abs 2 GTelG 2012.",
+     "sources": [
+      "hl7at-aps-ig2026",
+      "gtelg2012",
+      "elga-vo2015"
+     ]
+    }
+   ]
+  }
+ ]
+}

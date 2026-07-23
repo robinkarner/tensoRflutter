@@ -1,0 +1,66 @@
+{
+ "sectionId": "2.3.2",
+ "title": "Datenkategorien",
+ "chapter": 2,
+ "chapterTitle": "Europäischer Gesundheitsdatenraum",
+ "page": 14,
+ "pdfPage": 24,
+ "paragraphs": [
+  {
+   "id": "2.3.2-p1",
+   "type": "text",
+   "text": "Die EHDS-Verordnung definiert sechs prioritäre Kategorien personenbezogener elektronischer Gesundheitsdaten für die Primärnutzung:[^70]",
+   "footnotes": [
+    {
+     "num": 70,
+     "text": "Vgl. Art 14 Abs 1 lit a bis f VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3.2-p2",
+   "type": "list",
+   "items": [
+    "Patientenkurzakte, die wichtige klinische Fakten für eine effiziente Gesundheitsversorgung enthält, darunter Kontaktdaten und Allergien[^71]",
+    "elektronische Verschreibungen",
+    "elektronische Abgaben von Arzneimitteln",
+    "Medizinische Bildgebung und damit zusammenhängende, auf Bildgebung gestützte Befunde",
+    "Ergebnisse medizinischer Untersuchungen, einschließlich Labor- und anderer diagnostischer Ergebnisse und damit zusammenhängende Berichte",
+    "Entlassungsberichte"
+   ],
+   "footnotes": [
+    {
+     "num": 71,
+     "text": "Vgl. Anhang I VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3.2-p3",
+   "type": "text",
+   "text": "Die Priorisierung wird damit begründet, dass die genannten Kategorien vom eHealth-Netzwerk als besonders relevant für die meisten Fälle von Gesundheitsversorgung ermittelt worden seien und zugleich unterschiedliche Grade der Standardisierung aufwiesen, weshalb Interoperabilität und Datenaustausch schrittweise verbessert werden sollten.[^72] Die Hauptmerkmale dieser Kategorien werden in Anhang I der EHDS-Verordnung festgelegt, wobei es den Mitgliedstaaten freisteht, in ihrem nationalen Recht zusätzliche Kategorien für die Primärnutzung vorzusehen.[^73]",
+   "footnotes": [
+    {
+     "num": 72,
+     "text": "Vgl. ErwGr 25 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 73,
+     "text": "Vgl. Art 14 Abs 1 Satz 3 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

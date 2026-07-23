@@ -1,0 +1,51 @@
+{
+ "sectionId": "2.3.1",
+ "title": "Akteure",
+ "chapter": 2,
+ "chapterTitle": "Europäischer Gesundheitsdatenraum",
+ "page": 13,
+ "pdfPage": 23,
+ "paragraphs": [
+  {
+   "id": "2.3.1-p1",
+   "type": "text",
+   "text": "Im Mittelpunkt der Primärnutzung stehen natürliche Personen, Gesundheitsdienstleister und nationale Aufsichtsbehörden.",
+   "footnotes": []
+  },
+  {
+   "id": "2.3.1-p2",
+   "type": "text",
+   "text": "Natürliche Personen haben das Recht, über Zugangsdienste für elektronische Gesundheitsdaten Zugang zumindest zu den sie betreffenden personenbezogenen elektronischen Gesundheitsdaten, die unter prioritäre Kategorien fallen und für die Gesundheitsversorgung verarbeitet werden, zu erhalten. Der Zugang muss unter Berücksichtigung der technischen Umsetzbarkeit unverzüglich nach der Erfassung der personenbezogenen elektronischen Gesundheitsdaten in einem EHR-System kostenlos und in leicht lesbarer, konsolidierter und zugänglicher Form gewährt werden.[^67]",
+   "footnotes": [
+    {
+     "num": 67,
+     "text": "Vgl. Art 3 Abs 1 der VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3.1-p3",
+   "type": "text",
+   "text": "Gesundheitsdienstleister agieren als Gesundheitsdateninhaber und sind zur Aktualisierung und Bereitstellung dieser Daten verpflichtet.[^68] Die Governance-Funktion auf nationaler Ebene (nationale Aufsichtsbehörden) nehmen die von jedem Mitgliedstaat zu benennenden Stellen für digitale Gesundheit wahr. Sie sind für die Umsetzung und Durchsetzung der Primärnutzung zuständig und müssen der Kommission bis zum 26. März 2027 mitgeteilt werden.[^69]",
+   "footnotes": [
+    {
+     "num": 68,
+     "text": "Vgl. Art 13 Abs 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 69,
+     "text": "Vgl. Art 19 Abs 1 und 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

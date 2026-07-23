@@ -1,0 +1,59 @@
+{
+ "sectionId": "3.2.2.2",
+ "title": "HL7 FHIR und EEHRxF",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 23,
+ "pdfPage": 33,
+ "paragraphs": [
+  {
+   "id": "3.2.2.2-p1",
+   "type": "text",
+   "text": "HL7 FHIR (Fast Healthcare Interoperability Resources) wurde 2011 ebenfalls von Health Level Seven International eingeführt. Der Standard ist frei verfügbar und unterstützt REST, SOA, JAVA, .NET sowie XML. Die österreichische FHIR-Community ist im Technischen Komitee FHIR der HL7 Austria organisiert, welche die nationale Anpassung des Standards begleitet.[^125] Es basiert auf den vorhergehenden HL7-Standards und kombiniert deren Vorteile mit etablierten modernen Webtechnologien wie der Representational State Transfer (REST)-Architektur, den Formaten XML und JSON sowie Autorisierungstools (Open Authorization). Der zentrale konzeptionelle Unterschied zu CDA liegt darin, dass in FHIR der gesamte auszutauschende Inhalt durch klar definierte Bausteine, sogenannte Resources, abgebildet wird.[^126] Der ressourcenbasierte Ansatz ermöglicht damit den granularen Zugriff auf einzelne Datenelemente, anstatt stets ein vollständiges Dokument übertragen zu müssen.[^127]",
+   "footnotes": [
+    {
+     "num": 125,
+     "text": "Vgl. HL7 Austria MediaWiki (2024). FHIR.",
+     "sources": [
+      "hl7at-wiki2024"
+     ]
+    },
+    {
+     "num": 126,
+     "text": "Vgl. Vorisek et al. (2022): Fast Healthcare Interoperability Resources (FHIR) for Interoperability in Health Research, S. 2.",
+     "sources": [
+      "vorisek2022"
+     ]
+    },
+    {
+     "num": 127,
+     "text": "Vgl. Ayaz et al. (2021): The Fast Health Interoperability Resources (FHIR) Standard, S. 2.",
+     "sources": [
+      "ayaz2021"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.2.2.2-p2",
+   "type": "text",
+   "text": "Diese Eigenschaften sind ein wesentlicher Grund dafür, dass das Austauschformat EEHRxF nach dem Stand der europäischen Spezifikationsarbeiten auf FHIR aufbauen soll.[^128] Seine technischen Spezifikationen soll die Europäische Kommission bis zum 26. März 2027 mittels Durchführungsrechtsakten erlassen.[^129]",
+   "footnotes": [
+    {
+     "num": 128,
+     "text": "Vgl. HL7 Austria (2026): Austrian Patient Summary (R4), Umfeld.",
+     "sources": [
+      "hl7at-aps-umfeld2026"
+     ]
+    },
+    {
+     "num": 129,
+     "text": "Vgl. Art 15 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

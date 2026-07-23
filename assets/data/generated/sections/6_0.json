@@ -1,0 +1,373 @@
+{
+ "sectionId": "6.0",
+ "paragraphs": [
+  {
+   "id": "6.0-p1",
+   "type": "text",
+   "kernaussage": "Rahmensetzung des Fazits: Österreich ist gut positioniert, aber identifizierte Lücken erfordern bis zu den EHDS-Fristen gesetzgeberisches und technisches Handeln.",
+   "sentences": [
+    {
+     "text": "Die vorliegende Arbeit hat untersucht, inwieweit die österreichische Elektronische Gesundheitsakte ELGA die Anforderungen der EHDS-Verordnung erfüllt.",
+     "einfach": "Rückblick auf die Forschungsfrage: Erfüllt ELGA die EHDS-Anforderungen an die Primärnutzung?",
+     "kategorien": ["these"],
+     "marks": [],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Vorweg lässt sich festhalten, dass Österreich in großen Teilen bereits gut positioniert ist.",
+     "einfach": "Gesamturteil: überwiegend gut aufgestellt.",
+     "kategorien": ["these"],
+     "marks": [{"snippet": "in großen Teilen bereits gut positioniert", "kategorie": "these"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Dennoch konnten an bestimmten Stellen Lücken identifiziert werden, deren Schließung bis zu den jeweiligen EHDS-Umsetzungsfristen gesetzgeberisches und technisches Handeln erfordert.",
+     "einfach": "Aber: Es gibt konkrete Lücken, die vor den Fristen 2027/2029/2031 geschlossen werden müssen.",
+     "kategorien": ["luecke", "frist"],
+     "marks": [{"snippet": "Lücken identifiziert", "kategorie": "luecke"}, {"snippet": "EHDS-Umsetzungsfristen", "kategorie": "frist"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "6.0-p2",
+   "type": "text",
+   "kernaussage": "Positiv: ELGA erfüllt zentrale EHDS-Anforderungen schon heute — Zugangsrecht über das Portal, default-deny-Berechtigungssystem mit XACML-Feinsteuerung, vollständige Zugriffsprotokollierung inkl. dreijähriger Abrufbarkeit.",
+   "sentences": [
+    {
+     "text": "Eines der wichtigsten positiven Ergebnisse ist, dass Österreich mit ELGA über eine ausgereifte technische Infrastruktur verfügt, die viele EHDS-Anforderungen bereits heute erfüllt, wie das Zugangsrecht natürlicher Personen über das Bürger-Zugangsportal.",
+     "einfach": "Positiv-Befund 1: Das EHDS-Zugangsrecht (Art 3) ist über das Bürger-Zugangsportal faktisch schon umgesetzt.",
+     "kategorien": ["these", "tech"],
+     "marks": [{"snippet": "ausgereifte technische Infrastruktur", "kategorie": "these"}, {"snippet": "Bürger-Zugangsportal", "kategorie": "tech"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das Berechtigungssystem nach dem Grundsatz des default deny, kombiniert mit der rollenbezogenen Autorisierung und der XACML-basierten Feinsteuerung auf Dokumentenebene, entspricht dem granularen Zugangskontrollrecht der EHDS-Verordnung.",
+     "einfach": "Positiv-Befund 2: Die Zugriffskontrolle (standardmäßig alles verboten, Rollenrechte, XACML-Dokumentsteuerung) deckt das granulare Zugangskontrollrecht (Art 8) ab.",
+     "kategorien": ["these", "tech", "norm"],
+     "marks": [{"snippet": "default deny", "kategorie": "tech"}, {"snippet": "XACML-basierten Feinsteuerung", "kategorie": "tech"}, {"snippet": "granularen Zugangskontrollrecht", "kategorie": "norm"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Anforderungen an die Zugriffsprotokollierung von Zeitpunkt, Akteur, Datenkategorie und Transaktionsart werden durch das GTelG 2012 ebenso abgedeckt wie die geforderte dreijährige Mindestabrufbarkeit.",
+     "einfach": "Positiv-Befund 3: Auch die Protokollierungsanforderungen (Art 9) inklusive der Drei-Jahres-Frist erfüllt das GTelG 2012.",
+     "kategorien": ["these", "norm", "frist"],
+     "marks": [{"snippet": "GTelG 2012", "kategorie": "norm"}, {"snippet": "dreijährige Mindestabrufbarkeit", "kategorie": "frist"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "6.0-p3",
+   "type": "text",
+   "kernaussage": "Fünf von sechs prioritären Datenkategorien sind abgedeckt; offen ist nur die Patientenkurzakte (APS als Erprobungsstandard, nicht produktiv). Die nationalen Speicherpflicht-Termine liegen vor den EHDS-Fristen.",
+   "sentences": [
+    {
+     "text": "Von den sechs prioritären Datenkategorien der Primärnutzung deckt ELGA fünf bereits durch bestehende Anwendungen ab.",
+     "einfach": "5 von 6 Pflicht-Datenkategorien laufen schon (Entlassungsbrief, Labor, Bildgebung, e-Verschreibung, e-Abgabe).",
+     "kategorien": ["these", "zahl"],
+     "marks": [{"snippet": "fünf", "kategorie": "zahl"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Offen ist die Patientenkurzakte, die als Austrian Patient Summary bereits spezifiziert wurde, jedoch als Erprobungsstandard noch nicht in ELGA produktiv integriert ist.",
+     "einfach": "Die sechste — die Patientenkurzakte/APS — ist nur spezifiziert (Erprobungsstandard), nicht produktiv.",
+     "kategorien": ["luecke", "tech"],
+     "marks": [{"snippet": "Austrian Patient Summary", "kategorie": "tech"}, {"snippet": "noch nicht in ELGA produktiv integriert", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Insgesamt liegen die nationalen Termine für die Umsetzung von Speicherpflichten nach der ELGA-VO 2015 vor den EHDS-Umsetzungsfristen.",
+     "einfach": "Die österreichischen Speicherpflicht-Termine (2025–2030) liegen alle vor den jeweiligen EHDS-Fristen.",
+     "kategorien": ["frist", "these"],
+     "marks": [{"snippet": "vor den EHDS-Umsetzungsfristen", "kategorie": "frist"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Demnach sind also keine Probleme bezüglich Erfüllung des EHDS zu erwarten.",
+     "einfach": "Bewertung des Autors: Bei den Speicherpflichten drohen daher keine EHDS-Probleme. (Anmerkung: Diese optimistische Formulierung bezieht sich nur auf die Termine der Speicherpflichten, nicht auf die später genannten Lücken.)",
+     "kategorien": ["these"],
+     "marks": [{"snippet": "keine Probleme", "kategorie": "these"}],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "6.0-p4",
+   "type": "text",
+   "kernaussage": "Akteursbegriff: Das taxative GDA-Konzept des GTelG 2012 ist enger als der funktionale EHDS-Begriff — sichtbar bei Wahlärzten mit doppelter Ausnahmelage (ÄrzteG-Verhältnismäßigkeit + EU-Kleinstunternehmen).",
+   "sentences": [
+    {
+     "text": "Bezüglich der Akteure zeigen sich Unterschiede.",
+     "einfach": "Nächster Befund: Wer überhaupt teilnehmen muss, definieren EU und Österreich unterschiedlich.",
+     "kategorien": ["akteur"],
+     "marks": [],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Während das GTelG 2012 den Kreis der ELGA-Gesundheitsdiensteanbieter taxativ festlegt, definiert die EHDS-Verordnung den Gesundheitsdienstleister funktional und damit weiter.",
+     "einfach": "Österreich zählt die Teilnehmer abschließend auf (taxativ), die EU definiert offen über die Funktion — der EU-Begriff erfasst also potenziell mehr Akteure.",
+     "kategorien": ["norm", "these", "akteur"],
+     "marks": [{"snippet": "taxativ", "kategorie": "norm"}, {"snippet": "funktional und damit weiter", "kategorie": "these"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Praktisch sichtbar wird das bei den Wahlärztinnen und Wahlärzten, die in Österreich spezifisch über die Verhältnismäßigkeitsgrenze des ÄrzteG 1998 von Speicherpflichten und gleichzeitig auch unionsrechtlich über die Kleinstunternehmen-Ausnahme der EHDS-Verordnung ausgenommen sein können.",
+     "einfach": "Beispiel Wahlärzte: Sie können doppelt ausgenommen sein — national (unter 300 Patienten/Jahr, § 49 Abs 7 ÄrzteG) und europäisch (Kleinstunternehmen, Art 50 EHDS-VO). Das kann Lücken in der Patientenkurzakte hinterlassen.",
+     "kategorien": ["akteur", "norm", "luecke"],
+     "marks": [{"snippet": "Wahlärztinnen und Wahlärzten", "kategorie": "akteur"}, {"snippet": "Verhältnismäßigkeitsgrenze des ÄrzteG 1998", "kategorie": "norm"}, {"snippet": "Kleinstunternehmen-Ausnahme", "kategorie": "norm"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "6.0-p5",
+   "type": "text",
+   "kernaussage": "Lücke 1 — Benachrichtigung: Art 9 EHDS-VO verlangt auch automatische Zugriffs-Benachrichtigungen; Österreich kennt nur den Abruf. Da die Protokolldaten im A-ARR bereits vorliegen, fehlt „nur“ der Benachrichtigungskanal — bis 26. März 2029.",
+   "sentences": [
+    {
+     "text": "Die erste strukturelle Lücke betrifft die Information über erfolgte Datenzugriffe.",
+     "einfach": "Lücke Nr. 1: die Zugriffs-Benachrichtigung.",
+     "kategorien": ["luecke"],
+     "marks": [{"snippet": "erste strukturelle Lücke", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die EHDS-Verordnung räumt natürlichen Personen ausdrücklich das Recht ein, Informationen über jeden Zugriff auf ihre Gesundheitsdaten auch durch automatische Benachrichtigungen zu erhalten.",
+     "einfach": "Die EU verlangt: Betroffene sollen automatisch informiert werden können, wenn jemand zugreift (Art 9 Abs 1).",
+     "kategorien": ["norm"],
+     "marks": [{"snippet": "automatische Benachrichtigungen", "kategorie": "norm"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "GTelG 2012 und ELGA-VO 2015 kennen dagegen nur ein abrufbasiertes Auskunftsrecht über das Zugangsportal oder die ELGA-Ombudsstelle.",
+     "einfach": "Österreich bietet nur den umgekehrten Weg: selbst nachschauen.",
+     "kategorien": ["norm", "luecke"],
+     "marks": [{"snippet": "abrufbasiertes Auskunftsrecht", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Da die EHDS-Verordnung unmittelbar in jedem Mitgliedstaat gilt, entsteht dadurch keine inhaltliche nationale Rechtslücke und eine technische Umsetzung ist bis 26. März 2029 sicherzustellen.",
+     "einfach": "Rechtlich gilt das EU-Recht ohnehin direkt — es fehlt also „nur“ die technische Umsetzung, und zwar bis 26. März 2029.",
+     "kategorien": ["norm", "frist"],
+     "marks": [{"snippet": "unmittelbar in jedem Mitgliedstaat", "kategorie": "norm"}, {"snippet": "bis 26. März 2029", "kategorie": "frist"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Da das aggregierte Audit Record Repository (A-ARR) bereits jeden Zugriff protokolliert und die damit erforderlichen Daten vorliegen, liegt der verbleibende Teil bei der Einrichtung eines geeigneten Benachrichtigungskanals, etwa per E-Mail, SMS oder über Push-Benachrichtigung der angekündigten ELGA-App.",
+     "einfach": "Die Daten sind da (A-ARR protokolliert alles) — gebraucht wird nur noch der Kanal: E-Mail, SMS oder Push über die angekündigte ELGA-App.",
+     "kategorien": ["tech", "these"],
+     "marks": [{"snippet": "aggregierte Audit Record Repository (A-ARR)", "kategorie": "tech"}, {"snippet": "E-Mail, SMS oder über Push-Benachrichtigung", "kategorie": "tech"}, {"snippet": "ELGA-App", "kategorie": "tech"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "6.0-p6",
+   "type": "text",
+   "kernaussage": "Spannung — Opt-In: Österreichs Zustimmungserfordernis für MyHealth@EU geht über die Opt-Out-Option des Art 10 hinaus; das stärkt die Selbstbestimmung, könnte aber dem EHDS-Ziel des unionsweiten Austauschs widersprechen.",
+   "sentences": [
+    {
+     "text": "Weitere rechtliche Fragen ergeben sich aus den Widerspruchsrechten.",
+     "einfach": "Nächster Befund: die Widerspruchs- bzw. Zustimmungslogik.",
+     "kategorien": ["norm"],
+     "marks": [],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Österreich hat die Bereitstellung der Daten seiner Versicherten für die grenzüberschreitende Primärnutzung über MyHealth@EU an ein Opt-In geknüpft.",
+     "einfach": "Österreich verlangt fürs Ausland eine aktive Zustimmung (Opt-In).",
+     "kategorien": ["norm"],
+     "marks": [{"snippet": "Opt-In", "kategorie": "norm"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die EHDS-Verordnung räumt den Mitgliedstaaten hingegen lediglich die Option eines Widerspruchsrechts ein.",
+     "einfach": "Die EU sieht als Maximum nur ein Widerspruchsrecht (Opt-Out) vor — kein Zustimmungserfordernis.",
+     "kategorien": ["norm"],
+     "marks": [{"snippet": "Option eines Widerspruchsrechts", "kategorie": "norm"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das nationale Modell könnte über den Rahmen der Verordnung hinausgehen.",
+     "einfach": "These: Österreichs Modell ist womöglich strenger, als die Verordnung erlaubt.",
+     "kategorien": ["these", "luecke"],
+     "marks": [{"snippet": "über den Rahmen der Verordnung hinausgehen", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Wer innerstaatlich an ELGA teilnimmt, ohne das Opt-In explizit zu erklären, steht für den grenzüberschreitenden Austausch nicht zur Verfügung.",
+     "einfach": "Praktische Folge: ELGA-Teilnahme allein reicht nicht für den EU-Austausch.",
+     "kategorien": ["these"],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Das stärkt zwar die Selbstbestimmung der Betroffenen, könnte aber mit der Motivation des EHDS, den unionsweiten Austausch zu stärken, unvereinbar sein.",
+     "einfach": "Abwägung: mehr Datensouveränität, aber möglicherweise gegen den Zweck des EHDS (möglichst breiter Austausch).",
+     "kategorien": ["these", "luecke"],
+     "marks": [{"snippet": "Selbstbestimmung", "kategorie": "these"}, {"snippet": "unvereinbar", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "6.0-p7",
+   "type": "text",
+   "kernaussage": "Ab 26. März 2029 stellt sich die Vereinbarkeitsfrage des Opt-In konkret; zugleich ist der ab dann zwingende Sekundärnutzungs-Widerspruch (Art 71) in Österreich noch umzusetzen.",
+   "sentences": [
+    {
+     "text": "Spätestens mit dem Geltungsbeginn der Primärnutzungspflichten am 26. März 2029 wird sich daher die Frage stellen, ob das Opt-In-Erfordernis mit der unmittelbar geltenden Verordnung vereinbar ist.",
+     "einfach": "Die Opt-In-Frage wird spätestens 2029 akut, wenn die Primärnutzungspflichten unmittelbar gelten.",
+     "kategorien": ["frist", "luecke", "norm"],
+     "marks": [{"snippet": "26. März 2029", "kategorie": "frist"}, {"snippet": "vereinbar", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Für die Sekundärnutzung ab dem 26. März 2029 sieht die EHDS-Verordnung, anders als für die Primärnutzung, ein zwingendes Widerspruchsrecht vor, das in Österreich noch umzusetzen ist.",
+     "einfach": "Zusätzlich: Der Widerspruch gegen die Sekundärnutzung (Art 71) ist EU-weit Pflicht ab 2029 — Österreich hat dafür noch keinen Mechanismus.",
+     "kategorien": ["norm", "frist", "luecke"],
+     "marks": [{"snippet": "zwingendes Widerspruchsrecht", "kategorie": "norm"}, {"snippet": "noch umzusetzen", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "6.0-p8",
+   "type": "text",
+   "kernaussage": "Lücke 2 — Institutionen: DHA, Marktüberwachungsbehörde und Zugangsstelle für Gesundheitsdaten sind bis 26. März 2027 zu benennen, waren aber zum Stand der Arbeit nicht eingerichtet.",
+   "sentences": [
+    {
+     "text": "Ein weitere Regelungslücke betrifft die Stelle für digitale Gesundheit (Primärnutzung), die Marktüberwachungsbehörde für EHR-Systeme sowie die Zugangsstelle für Gesundheitsdaten (Sekundärnutzung), die bis 26. März 2027 zu benennen sind aber zum Zeitpunkt dieser Arbeit noch nicht benannt waren.",
+     "einfach": "Lücke Nr. 2: Drei Pflicht-Behörden fehlen noch komplett — die Digital Health Authority, die Marktüberwachung für EHR-Systeme und die Zugangsstelle für Gesundheitsdaten. Frist für die Benennung: 26. März 2027; nötig ist dafür erst eine gesetzliche Grundlage.",
+     "kategorien": ["luecke", "akteur", "frist"],
+     "marks": [{"snippet": "Stelle für digitale Gesundheit", "kategorie": "akteur"}, {"snippet": "Marktüberwachungsbehörde für EHR-Systeme", "kategorie": "akteur"}, {"snippet": "Zugangsstelle für Gesundheitsdaten", "kategorie": "akteur"}, {"snippet": "bis 26. März 2027", "kategorie": "frist"}, {"snippet": "noch nicht benannt", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "6.0-p9",
+   "type": "text",
+   "kernaussage": "Meilenstein: Seit Februar 2026 laufen EU-Rezept (ausgehend) und EU-Patientenkurzakte (eingehend) mit Tschechien — die Kette EHR-System → ELGA → NCPeH (AT-eHDSI) funktioniert; die ausgehende Patientenkurzakte fehlt noch.",
+   "sentences": [
+    {
+     "text": "Die grenzüberschreitende Anbindung für die Primärnutzung erfolgt über MyHealth@EU.",
+     "einfach": "Zum Stand der grenzüberschreitenden Anbindung:",
+     "kategorien": ["tech"],
+     "marks": [{"snippet": "MyHealth@EU", "kategorie": "tech"}],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Mit dem Start von MyHealth@EU im Februar 2026 wurden hier erstmals EU-Rezepte (ausgehend) und EU-Patientenkurzakten (eingehend) zwischen Österreich und Tschechien ausgetauscht und damit die Anschlussfähigkeit von EHR-Systemen über die ELGA-Bereiche bis zur nationalen Kontaktstelle des Projekts AT-eHDSI belegt.",
+     "einfach": "Seit Februar 2026 ist der Austausch mit Tschechien produktiv — der Beweis, dass die ganze Kette (Arztsystem → ELGA → Kontaktstelle → EU) funktioniert.",
+     "kategorien": ["frist", "tech", "these"],
+     "marks": [{"snippet": "Februar 2026", "kategorie": "frist"}, {"snippet": "AT-eHDSI", "kategorie": "tech"}, {"snippet": "Anschlussfähigkeit", "kategorie": "these"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die ausgehende Bereitstellung der österreichischen Patientenkurzakte steht noch aus.",
+     "einfach": "Offen bleibt: die eigene Patientenkurzakte ins Ausland liefern.",
+     "kategorien": ["luecke"],
+     "marks": [{"snippet": "steht noch aus", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "6.0-p10",
+   "type": "text",
+   "kernaussage": "Zeitkritik: Die Erfüllungsfiktion erlaubt technische Anbindung bis 31.12.2028 — nur ~3 Monate vor der ersten EHDS-Stufe (26.3.2029), ab der Kurzakte/e-Rezept-Austausch, Benachrichtigungsrecht und Sekundärnutzungs-Widerspruch gelten; 2031 folgt Gruppe 2.",
+   "sentences": [
+    {
+     "text": "Die technischen Voraussetzungen für die Nutzung der ELGA-Komponenten haben ELGA-Gesundheitsdiensteanbieter grundsätzlich mit 1. Jänner 2026 sicherzustellen.",
+     "einfach": "Eigentlich mussten alle GDA am 1. Jänner 2026 technisch angebunden sein.",
+     "kategorien": ["frist", "norm"],
+     "marks": [{"snippet": "1. Jänner 2026", "kategorie": "frist"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Nach der Erfüllungsfiktion der ELGA-VO 2015 gilt diese Pflicht aber auch dann als erfüllt, wenn bis zu diesem Zeitpunkt mit einem Softwareanbieter vertraglich ein Umsetzungstermin bis spätestens 31. Dezember 2028 vereinbart wird.",
+     "einfach": "Die „Erfüllungsfiktion“: Ein bis 1.1.2026 geschlossener Software-Vertrag mit Umsetzung bis Ende 2028 genügt — die Pflicht gilt dann schon mit dem Vertragsschluss als erfüllt.",
+     "kategorien": ["norm", "frist"],
+     "marks": [{"snippet": "Erfüllungsfiktion", "kategorie": "norm"}, {"snippet": "31. Dezember 2028", "kategorie": "frist"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die flächendeckende technische Anbindung kann sich damit bis knapp drei Monate vor die erste EHDS-Stufe am 26. März 2029 verschieben.",
+     "einfach": "Folge: Zwischen spätester Anbindung (31.12.2028) und der ersten EHDS-Stufe (26.3.2029) liegen nur rund drei Monate Puffer.",
+     "kategorien": ["frist", "luecke"],
+     "marks": [{"snippet": "knapp drei Monate", "kategorie": "zahl"}, {"snippet": "26. März 2029", "kategorie": "frist"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Ab diesem Datum sind Patientenkurzakte, elektronische Verschreibung und elektronische Abgabe verpflichtend über MyHealth@EU auszutauschen, zugleich gelten das Benachrichtigungsrecht des Artikels 9 der EHDS-Verordnung und der bereits erwähnte Sekundärnutzungs-Widerspruch.",
+     "einfach": "Ab 26.3.2029 gilt gebündelt: Pflicht-Austausch der ersten Datenkategorien-Gruppe, Benachrichtigungsrecht (Art 9) und Sekundärnutzungs-Widerspruch (Art 71).",
+     "kategorien": ["frist", "norm"],
+     "marks": [{"snippet": "Patientenkurzakte, elektronische Verschreibung und elektronische Abgabe", "kategorie": "tech"}, {"snippet": "Artikels 9", "kategorie": "norm"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Hierfür sind der Zugang und Empfang im Austauschformat EEHRxF umzusetzen, dessen technische Spezifikationen die Kommission bis zum 26. März 2027 mit Durchführungsrechtsakten festzulegen hat.",
+     "einfach": "Voraussetzung dafür: EEHRxF-Zugang und -Empfang — die Spezifikationen kommen bis 26.3.2027 von der Kommission.",
+     "kategorien": ["tech", "frist"],
+     "marks": [{"snippet": "EEHRxF", "kategorie": "tech"}, {"snippet": "26. März 2027", "kategorie": "frist"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Da Anhang II der Verordnung eine Schnittstellen- und keine Speicheranforderung normiert, kann der bestehende CDA-Bestand der Repositories dabei neben den neueren FHIR-Leitfäden fortgeführt werden.",
+     "einfach": "Gute Nachricht: Der CDA-Bestand darf bleiben — Anhang II verlangt nur die Schnittstelle, kein neues Speicherformat.",
+     "kategorien": ["these", "tech"],
+     "marks": [{"snippet": "Schnittstellen- und keine Speicheranforderung", "kategorie": "these"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Ab dem 26. März 2031 folgt die zweite Gruppe der prioritären Kategorien mit medizinischer Bildgebung, Laborergebnissen und Entlassungsberichten.",
+     "einfach": "2031 kommt dann die zweite Gruppe (Bildgebung, Labor, Entlassungsberichte) grenzüberschreitend dazu.",
+     "kategorien": ["frist", "tech"],
+     "marks": [{"snippet": "26. März 2031", "kategorie": "frist"}],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "6.0-p11",
+   "type": "text",
+   "kernaussage": "Schlussbewertung: ELGA ist eine solide Grundlage; die EHDS-Herausforderung liegt weniger in neuer Technik als in rechtlicher Anpassung und gezielter Erweiterung des Bestands innerhalb der Fristen.",
+   "sentences": [
+    {
+     "text": "Österreich verfügt mit ELGA über eine etablierte eHealth-Infrastruktur, die für die EHDS-Umsetzung der Primärnutzung eine solide Grundlage bildet.",
+     "einfach": "Gesamtbild: ELGA ist ein solides Fundament für den EHDS.",
+     "kategorien": ["these"],
+     "marks": [{"snippet": "solide Grundlage", "kategorie": "these"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der Umsetzungsstand ist dort am weitesten fortgeschritten, wo ELGA auf bestehende Datenkategorien und bewährte Standards zurückgreifen kann.",
+     "einfach": "Am besten steht Österreich da, wo Bewährtes weiterverwendet werden kann.",
+     "kategorien": ["these"],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Herausforderung der Primärnutzung nach EHDS wird insgesamt weniger in der Schaffung großer neuer technischer Kapazitäten liegen als in der rechtlichen Anpassung bestehender Normen und der gezielten Erweiterung der vorhandenen Infrastruktur innerhalb der verbleibenden Fristen.",
+     "einfach": "Kernthese des Fazits: Es ist vor allem eine Rechts- und Detailarbeit (Normen anpassen, Bestehendes erweitern) — kein technischer Neubau.",
+     "kategorien": ["these"],
+     "marks": [{"snippet": "weniger in der Schaffung großer neuer technischer Kapazitäten", "kategorie": "these"}, {"snippet": "rechtlichen Anpassung bestehender Normen", "kategorie": "these"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

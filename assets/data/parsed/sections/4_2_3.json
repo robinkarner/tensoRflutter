@@ -1,0 +1,150 @@
+{
+ "sectionId": "4.2.3",
+ "title": "Übergangsfristen",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 41,
+ "pdfPage": 51,
+ "paragraphs": [
+  {
+   "id": "4.2.3-p1",
+   "type": "text",
+   "text": "Neben dem allgemeinen Beginn der Speicherverpflichtung mit 1. Jänner 2026 dürfen ELGA-GDA auch schon vor dem für sie geltenden Verpflichtungstermin freiwillig speichern.[^229] Die ELGA-VO 2015 idF BGBl. II Nr. 11/2025 legt nach Dokumententypen folgende Verpflichtungstermine fest:",
+   "footnotes": [
+    {
+     "num": 229,
+     "text": "Vgl. § 4 Abs 2 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p2",
+   "type": "text",
+   "text": "Für Entlassungsbriefe durch Krankenanstalten gilt die Speicherpflicht ab Inkrafttreten der Verordnung mit 1. April 2025.[^230]",
+   "footnotes": [
+    {
+     "num": 230,
+     "text": "Vgl. § 5 Abs 1 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p3",
+   "type": "text",
+   "text": "Für Laborbefunde und Radiologiebefunde durch niedergelassene Laborfachärzte und Radiologen gilt die Speicherpflicht ab 1. Juli 2025[^231] und durch Krankenanstalten ab 1. Jänner 2026.[^232]",
+   "footnotes": [
+    {
+     "num": 231,
+     "text": "Vgl. § 6 Abs 2 Z 1 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    },
+    {
+     "num": 232,
+     "text": "Vgl. § 6 Abs 1 Z 2 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p4",
+   "type": "text",
+   "text": "Für Medikationsdaten bei Verordnung durch Vertragsärzte und Fachärzte gilt die Speicherpflicht ab 1. Jänner 2026[^233] und für hausapothekenführende Ärzte ebenfalls ab diesem Zeitpunkt.[^234] Öffentliche Apotheken sind dazu ab Inkrafttreten der Verordnung mit 1. April 2025 verpflichtet.[^235]",
+   "footnotes": [
+    {
+     "num": 233,
+     "text": "Vgl. §§ 7 Abs 2 Z 1 und 2 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    },
+    {
+     "num": 234,
+     "text": "Vgl. § 7 Abs 2 Z 3 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    },
+    {
+     "num": 235,
+     "text": "Vgl. § 7 Abs 4 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p5",
+   "type": "text",
+   "text": "Für Pflegesituationsberichte durch stationäre und mobile Pflegeeinrichtungen gilt die Speicherpflicht ab 1. Jänner 2026.[^236]",
+   "footnotes": [
+    {
+     "num": 236,
+     "text": "Vgl. § 8 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p6",
+   "type": "text",
+   "text": "Für Pathologiebefunde von Krankenanstalten und freiberuflichen Pathologen gilt die Speicherpflicht ab 1. Jänner 2028.[^237]",
+   "footnotes": [
+    {
+     "num": 237,
+     "text": "Vgl. § 5 Abs 2 Z 2 und Abs 3 Z 2 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p7",
+   "type": "text",
+   "text": "Für sonstige fachärztliche ambulante Befunde von Krankenanstalten und freiberuflichen Fachärzten gilt die Speicherpflicht ab 1. Jänner 2030.[^238]",
+   "footnotes": [
+    {
+     "num": 238,
+     "text": "Vgl. § 5 Abs 2 Z 3 und Abs 3 Z 3 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p8",
+   "type": "text",
+   "text": "ELGA-GDA kommen ihrer Verpflichtung auch dann nach, wenn sie bis 1. Jänner 2026 mit einem Softwareanbieter einen Vertrag abschließen, der die Herstellung der technischen Voraussetzungen (insbesondere der ELGA-Interoperabilitätsstufe „EIS Full Support“) bis spätestens 31. Dezember 2028 vorsieht.[^239] Diese Übergangsfrist endet damit nur drei Monate vor der Phase-1-Deadline der EHDS-Verordnung mit 26. März 2029,[^240] was den verbleibenden Umsetzungspuffer für die grenzüberschreitend verpflichtende Bereitstellung der Patientenkurzakte erheblich verengt.",
+   "footnotes": [
+    {
+     "num": 239,
+     "text": "Vgl. § 9 Abs 2 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    },
+    {
+     "num": 240,
+     "text": "Vgl. Art 105 lit a 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

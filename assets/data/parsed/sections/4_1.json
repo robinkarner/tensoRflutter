@@ -1,0 +1,24 @@
+{
+ "sectionId": "4.1",
+ "title": "Gesundheitstelematikgesetz 2012 (GTelG 2012)",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 35,
+ "pdfPage": 45,
+ "paragraphs": [
+  {
+   "id": "4.1-p1",
+   "type": "text",
+   "text": "Das GTelG 2012 regelt im 4. Abschnitt die Elektronische Gesundheitsakte (ELGA) als zentrale nationale eHealth-Infrastruktur. Dieses Gesetz verfolgt das Ziel, einheitliche Regelungen für die Kommunikation elektronischer Gesundheitsdaten zu schaffen, die Selbstbestimmungsrechte der Teilnehmerinnen und Teilnehmer zu stärken und durch Mindeststandards auf Bundesebene die Datensicherheit auszubauen.[^190] Mit der Novelle 2024 sowie den Anpassungen durch BGBl. I Nr. 71/2025 wurde das Gesetz auch im Hinblick auf die grenzüberschreitende Gesundheitsversorgung über MyHealth@EU sowie auf die bevorstehende Anwendung der EHDS-Verordnung weiterentwickelt.",
+   "footnotes": [
+    {
+     "num": 190,
+     "text": "Vgl. § 1 Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  }
+ ]
+}

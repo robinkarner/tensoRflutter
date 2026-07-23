@@ -1,0 +1,187 @@
+{
+  "sectionId": "3.0",
+  "paragraphs": [
+    {
+      "id": "3.0-p1",
+      "type": "text",
+      "kernaussage": "Kapitel 3 legt die technischen Grundlagen für das Verständnis der österreichischen eHealth-Infrastruktur und ihrer EHDS-Integration dar.",
+      "sentences": [
+        {
+          "text": "Dieses Kapitel beschreibt die technischen Grundlagen, die für das Verständnis der österreichischen eHealth-Infrastruktur und ihrer Integration in den Europäischen Gesundheitsdatenraum erforderlich sind.",
+          "einfach": "Das Kapitel erklärt die technischen Grundbegriffe, die man braucht, um zu verstehen, wie das digitale Gesundheitssystem Österreichs (eHealth-Infrastruktur) aufgebaut ist und wie es an den Europäischen Gesundheitsdatenraum (EHDS) angebunden werden soll.",
+          "kategorien": [
+            "tech"
+          ],
+          "marks": [
+            {
+              "snippet": "eHealth-Infrastruktur",
+              "kategorie": "tech"
+            }
+          ],
+          "wichtig": "kontext"
+        }
+      ],
+      "belege": []
+    },
+    {
+      "id": "3.0-p2",
+      "type": "text",
+      "kernaussage": "Das Kapitel behandelt Architekturmodelle, Interoperabilität auf technischer, syntaktischer und semantischer Ebene, Authentifizierung und Zugriffskontrolle sowie die grenzüberschreitende Infrastruktur MyHealth@EU.",
+      "sentences": [
+        {
+          "text": "Den Ausgangspunkt bilden die Architekturmodelle elektronischer Gesundheitsakten, also die grundlegenden Muster, nach denen Gesundheitsdaten gespeichert und organisiert werden können (siehe Abschnitt 3.1).",
+          "einfach": "Zuerst geht es um Architekturmodelle elektronischer Gesundheitsakten, also die grundsätzlichen Bauweisen, nach denen man Gesundheitsdaten speichern und organisieren kann (zentral, dezentral oder gemischt).",
+          "kategorien": [
+            "tech"
+          ],
+          "marks": [
+            {
+              "snippet": "Architekturmodelle elektronischer Gesundheitsakten",
+              "kategorie": "tech"
+            }
+          ],
+          "wichtig": "stuetz"
+        },
+        {
+          "text": "Darauf aufbauend wird Interoperabilität als zentrale Anforderung des EHDS auf drei Ebenen behandelt.",
+          "einfach": "Danach wird Interoperabilität behandelt, also die Fähigkeit verschiedener IT-Systeme, Daten auszutauschen und korrekt zu verstehen. Sie ist eine Kernanforderung des EHDS und wird auf drei Ebenen betrachtet.",
+          "kategorien": [
+            "tech"
+          ],
+          "marks": [
+            {
+              "snippet": "Interoperabilität",
+              "kategorie": "tech"
+            }
+          ],
+          "wichtig": "stuetz"
+        },
+        {
+          "text": "Der technischen Ebene mit Übertragungsprotokollen und IHE-Profilen,[^92] der syntaktischen Ebene mit den Datenformaten HL7 CDA R2[^93] und HL7 FHIR[^94] sowie der semantischen Ebene mit Terminologien und Codesystemen (siehe Abschnitt 3.2).",
+          "einfach": "Die drei Ebenen sind: die technische Ebene (wie Daten übertragen werden, z. B. mit Übertragungsprotokollen und IHE-Profilen, standardisierten Integrationsvorgaben), die syntaktische Ebene (in welchem Format Daten strukturiert sind, z. B. die Standards HL7 CDA R2 für klinische Dokumente und HL7 FHIR für moderne Web-Schnittstellen) und die semantische Ebene (was die Daten bedeuten, geregelt über Terminologien und Codesysteme).",
+          "kategorien": [
+            "tech"
+          ],
+          "marks": [
+            {
+              "snippet": "Übertragungsprotokollen",
+              "kategorie": "tech"
+            },
+            {
+              "snippet": "IHE-Profilen",
+              "kategorie": "tech"
+            },
+            {
+              "snippet": "HL7 CDA R2",
+              "kategorie": "tech"
+            },
+            {
+              "snippet": "HL7 FHIR",
+              "kategorie": "tech"
+            },
+            {
+              "snippet": "Terminologien und Codesystemen",
+              "kategorie": "tech"
+            }
+          ],
+          "wichtig": "kern"
+        },
+        {
+          "text": "Anschließend werden die Mechanismen der Authentifizierung und Zugriffskontrolle erläutert, die den sicheren Umgang mit besonders schützenswerten Gesundheitsdaten im Sinne von Artikel 9 DSGVO gewährleisten (siehe Abschnitt 3.3).",
+          "einfach": "Danach werden Authentifizierung (Prüfung, wer zugreift) und Zugriffskontrolle (Regelung, wer was sehen darf) erklärt. Beides ist nötig, weil Gesundheitsdaten nach Artikel 9 der Datenschutz-Grundverordnung (DSGVO) zu den besonders geschützten Datenkategorien gehören.",
+          "kategorien": [
+            "tech",
+            "norm"
+          ],
+          "marks": [
+            {
+              "snippet": "Authentifizierung und Zugriffskontrolle",
+              "kategorie": "tech"
+            },
+            {
+              "snippet": "Artikel 9 DSGVO",
+              "kategorie": "norm"
+            }
+          ],
+          "wichtig": "stuetz"
+        },
+        {
+          "text": "Das Kapitel schließt mit einer Beschreibung von MyHealth@EU als grenzüberschreitender Infrastruktur, über die die Mitgliedstaaten mit den nationalen Kontaktstellen für eHealth miteinander verbunden werden (siehe Abschnitt 3.4).",
+          "einfach": "Am Ende wird MyHealth@EU beschrieben, die EU-weite Infrastruktur, über die die Länder mittels ihrer nationalen Kontaktstellen für eHealth (offizielle Zugangsstellen je Land) Gesundheitsdaten grenzüberschreitend austauschen.",
+          "kategorien": [
+            "tech",
+            "akteur"
+          ],
+          "marks": [
+            {
+              "snippet": "MyHealth@EU",
+              "kategorie": "tech"
+            },
+            {
+              "snippet": "nationalen Kontaktstellen für eHealth",
+              "kategorie": "akteur"
+            }
+          ],
+          "wichtig": "stuetz"
+        }
+      ],
+      "belege": [
+        {
+          "num": 92,
+          "quellen": [
+            "ihe-iti2026"
+          ],
+          "claim": "Die Darstellung der technischen Interoperabilitätsebene mit IHE-Profilen stützt sich auf das IHE IT Infrastructure Technical Framework.",
+          "fundstelle": "",
+          "suchHinweis": "IHE IT Infrastructure Technical Framework profiles"
+        },
+        {
+          "num": 93,
+          "quellen": [
+            "pmc-cda2026"
+          ],
+          "claim": "HL7 CDA R2 wird als Datenformat der syntaktischen Interoperabilitätsebene mit der PMC-Publikation zur Clinical Document Architecture belegt.",
+          "fundstelle": "",
+          "suchHinweis": "HL7 Clinical Document Architecture Release 2"
+        },
+        {
+          "num": 94,
+          "quellen": [
+            "ayaz2021"
+          ],
+          "claim": "HL7 FHIR wird als Standard der syntaktischen Interoperabilitätsebene mit Ayaz et al. belegt.",
+          "fundstelle": "S. 16",
+          "suchHinweis": "FHIR Fast Healthcare Interoperability Resources standard"
+        }
+      ]
+    },
+    {
+      "id": "3.0-p3",
+      "type": "text",
+      "kernaussage": "Die vorgestellten Konzepte und Standards dienen als technische Referenzgrundlage für die Analyse in den Kapiteln 4 und 5.",
+      "sentences": [
+        {
+          "text": "Die in diesem Kapitel eingeführten Konzepte und Standards bilden die technische Referenzgrundlage für die Analyse des rechtlichen Rahmens in Kapitel 4 und der konkreten Umsetzung in Österreich in Kapitel 5.",
+          "einfach": "Die hier erklärten Konzepte und Standards werden später wieder gebraucht: Kapitel 4 analysiert damit den rechtlichen Rahmen, Kapitel 5 die konkrete technische Umsetzung in Österreich.",
+          "kategorien": [],
+          "marks": [
+            {
+              "snippet": "Konzepte und Standards",
+              "kategorie": "tech"
+            },
+            {
+              "snippet": "technische Referenzgrundlage",
+              "kategorie": "these"
+            },
+            {
+              "snippet": "Umsetzung in Österreich",
+              "kategorie": "schlag"
+            }
+          ],
+          "wichtig": "kontext"
+        }
+      ],
+      "belege": []
+    }
+  ]
+}

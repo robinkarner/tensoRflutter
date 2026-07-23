@@ -1,0 +1,191 @@
+{
+ "sectionId": "5.4.4",
+ "paragraphs": [
+  {
+   "id": "5.4.4-p1",
+   "type": "text",
+   "kernaussage": "MyHealth@EU funktioniert über die nationalen Kontaktstellen; Österreich agiert je nach Fall als Herkunfts- (Daten bereitstellen) oder Behandlungsmitgliedstaat (Daten abrufen).",
+   "sentences": [
+    {
+     "text": "MyHealth@EU beruht auf dem Zusammenwirken der nationalen Kontaktstellen, die mit den ELGA-Komponenten und mit den Kontaktstellen der anderen Mitgliedstaaten kommunizieren.[^383]",
+     "einfach": "Der grenzüberschreitende Austausch läuft über nationale Kontaktstellen (NCPeH): Österreichs Kontaktstelle spricht einerseits mit ELGA, andererseits mit den Kontaktstellen der anderen EU-Staaten.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [{"snippet": "MyHealth@EU", "kategorie": "tech"}, {"snippet": "nationalen Kontaktstellen", "kategorie": "akteur"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Österreich tritt dabei entweder als Herkunftsmitgliedstaat seiner sozialversicherten Personen oder als Behandlungsmitgliedstaat für im Ausland versicherte Personen auf.[^384]",
+     "einfach": "Zwei Rollen: Herkunftsmitgliedstaat (die eigenen Versicherten reisen ins Ausland) oder Behandlungsmitgliedstaat (ausländische Versicherte werden in Österreich behandelt).",
+     "kategorien": ["akteur", "norm"],
+     "marks": [{"snippet": "Herkunftsmitgliedstaat", "kategorie": "akteur"}, {"snippet": "Behandlungsmitgliedstaat", "kategorie": "akteur"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Wird eine in Österreich sozialversicherte Person im Ausland behandelt, stellt die österreichische Kontaktstelle deren Daten als Herkunftsmitgliedstaat bereit.[^385]",
+     "einfach": "Fall 1: Österreicher im Ausland → Österreich liefert die Daten.",
+     "kategorien": ["akteur"],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Wird umgekehrt eine im Ausland versicherte Person in Österreich behandelt, ruft die österreichische Kontaktstelle deren Daten als Behandlungsmitgliedstaat bei der Kontaktstelle des Herkunftsstaats ab.[^386]",
+     "einfach": "Fall 2: ausländischer Patient in Österreich → Österreich holt die Daten vom Herkunftsstaat.",
+     "kategorien": ["akteur"],
+     "marks": [],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {"num": 383, "quellen": ["gtelg2012"], "claim": "Belegt das Zusammenwirken der Kontaktstellen mit den ELGA-Komponenten und untereinander.", "fundstelle": "§ 24j", "suchHinweis": "Nationale Kontaktstelle Zusammenwirken"},
+    {"num": 384, "quellen": ["gtelg2012"], "claim": "Belegt die beiden Rollen Österreichs als Herkunfts- bzw. Behandlungsmitgliedstaat.", "fundstelle": "§§ 24k Abs 1 Z 1, 24r Abs 2 Z 2", "suchHinweis": "Herkunftsmitgliedstaat Behandlungsmitgliedstaat"},
+    {"num": 385, "quellen": ["goeg-myhealtheu2026"], "claim": "Belegt die Datenbereitstellung durch die österreichische Kontaktstelle im Herkunftsfall.", "fundstelle": "", "suchHinweis": "MyHealth@EU Österreich Daten bereitstellen"},
+    {"num": 386, "quellen": ["goeg-myhealtheu2026"], "claim": "Belegt den Datenabruf durch die österreichische Kontaktstelle im Behandlungsfall.", "fundstelle": "", "suchHinweis": "Behandlungsmitgliedstaat Abruf Herkunftsstaat"}
+   ]
+  },
+  {
+   "id": "5.4.4-p2",
+   "type": "text",
+   "kernaussage": "Mit AT-eHDSI ging Österreichs Kontaktstelle im Februar 2026 produktiv: EU-Rezept (ausgehend) und EU-Patientenkurzakte (eingehend), zunächst nur mit Tschechien und noch CDA-basiert; die eigene Patientenkurzakte fehlt noch ausgehend.",
+   "sentences": [
+    {
+     "text": "Ziel des Projekts AT-eHDSI ist die Errichtung dieser nationalen Kontaktstelle und ihre Integration in die bestehende ELGA-Infrastruktur.[^387]",
+     "einfach": "Das Projekt AT-eHDSI baut Österreichs Kontaktstelle auf und verbindet sie mit ELGA.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [{"snippet": "AT-eHDSI", "kategorie": "tech"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Mit dem EU-Rezept und der EU-Patientenkurzakte starteten im Februar 2026 zwei Kernservices von MyHealth@EU in Österreich.[^388]",
+     "einfach": "Seit Februar 2026 sind zwei Dienste live: das EU-Rezept und die EU-Patientenkurzakte.",
+     "kategorien": ["frist", "tech"],
+     "marks": [{"snippet": "im Februar 2026", "kategorie": "frist"}, {"snippet": "EU-Rezept", "kategorie": "tech"}, {"snippet": "EU-Patientenkurzakte", "kategorie": "tech"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der derzeitige Produktivbetrieb beruht dabei noch auf den bestehenden CDA-basierten MyHealth@EU-Spezifikationen, wobei die Pflicht zum Austausch im EEHRxF nach der EHDS-Verordnung erst greift, sobald dessen technische Spezifikationen vorliegen.",
+     "einfach": "Technisch läuft das noch im alten CDA-Format — die EEHRxF-Pflicht beginnt erst, wenn die Kommission die Spezifikationen erlassen hat.",
+     "kategorien": ["tech", "norm"],
+     "marks": [{"snippet": "CDA-basierten MyHealth@EU-Spezifikationen", "kategorie": "tech"}, {"snippet": "EEHRxF", "kategorie": "tech"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Zum Start war die Einlösung eines in Österreich ausgestellten elektronischen Rezepts ausschließlich in Tschechien möglich, weitere Länder folgen schrittweise.[^389]",
+     "einfach": "Erster Partner ist Tschechien; weitere Länder werden nach und nach angebunden.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [{"snippet": "ausschließlich in Tschechien", "kategorie": "akteur"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die EU-Patientenkurzakte ermöglicht es österreichischen Ärztinnen und Ärzten, eine standardisierte medizinische Zusammenfassung von Patientinnen und Patienten aus anderen MyHealth@EU-Staaten abzurufen, zum Start ebenfalls aus Tschechien.[^390]",
+     "einfach": "Eingehend funktioniert die Patientenkurzakte: Österreichische Ärzte können Kurzakten tschechischer Patienten abrufen.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [{"snippet": "standardisierte medizinische Zusammenfassung", "kategorie": "tech"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Für österreichische Patientinnen und Patienten steht im Ausland vorerst nur das EU-Rezept zur Verfügung, während die grenzüberschreitende Bereitstellung der österreichischen Patientenkurzakte einer weiteren Ausbaustufe vorbehalten bleibt.[^391]",
+     "einfach": "Ausgehend fehlt die österreichische Patientenkurzakte aber noch — im Ausland gibt es für Österreicher bislang nur das EU-Rezept. Das ist der kritische Pfad bis zur EHDS-Frist 2029.",
+     "kategorien": ["luecke", "tech"],
+     "marks": [{"snippet": "vorerst nur das EU-Rezept", "kategorie": "luecke"}, {"snippet": "weiteren Ausbaustufe vorbehalten", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 387, "quellen": ["goeg-atehdsi2026"], "claim": "Belegt Ziel und Auftrag des Projekts AT-eHDSI (Errichtung NCPeH, ELGA-Integration).", "fundstelle": "", "suchHinweis": "AT-eHDSI Kontaktstelle ELGA Integration"},
+    {"num": 388, "quellen": ["goeg-myhealtheu2026"], "claim": "Belegt den Start von EU-Rezept und EU-Patientenkurzakte im Februar 2026.", "fundstelle": "", "suchHinweis": "MyHealth@EU startet Februar 2026"},
+    {"num": 389, "quellen": ["bmasgpk-eurezept2026"], "claim": "Belegt den Startpartner Tschechien für das ausgehende EU-Rezept.", "fundstelle": "", "suchHinweis": "EU-Rezept Tschechien verfügbar"},
+    {"num": 390, "quellen": ["goeg-myhealtheu-rezept2026"], "claim": "Belegt den eingehenden Abruf der EU-Patientenkurzakte (Start mit Tschechien).", "fundstelle": "", "suchHinweis": "EU-Patientenkurzakte abrufen Tschechien"},
+    {"num": 391, "quellen": ["goeg-myhealtheu-rezept2026"], "claim": "Belegt, dass die ausgehende österreichische Patientenkurzakte einer weiteren Ausbaustufe vorbehalten bleibt.", "fundstelle": "", "suchHinweis": "Patientenkurzakte Ausbaustufe Ausland"}
+   ]
+  },
+  {
+   "id": "5.4.4-p3",
+   "type": "text",
+   "kernaussage": "Grenzüberschreitend gilt — anders als national — ein ausdrückliches Opt-In: Ohne aktive Erklärung bleiben innerstaatlich verfügbare Daten im Ausland unzugänglich.",
+   "sentences": [
+    {
+     "text": "Für in Österreich wohnhafte oder sozialversicherte Personen setzt die Teilnahme an MyHealth@EU ein ausdrückliches Opt-In voraus.[^392]",
+     "einfach": "Wer will, dass seine Daten grenzüberschreitend verfügbar sind, muss aktiv zustimmen (Opt-In).",
+     "kategorien": ["norm"],
+     "marks": [{"snippet": "ausdrückliches Opt-In", "kategorie": "norm"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Damit weicht der grenzüberschreitende Datenaustausch vom innerstaatlichen ELGA-Modell ab, das auf einem Opt-Out beruht und die Nutzung aller oder einzelner Arten von ELGA-Gesundheitsdaten ausnehmen kann.[^393]",
+     "einfach": "National ist es umgekehrt: Alle sind automatisch dabei (Opt-Out mit Widerspruchsmöglichkeit).",
+     "kategorien": ["norm", "these"],
+     "marks": [{"snippet": "Opt-Out", "kategorie": "norm"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das bedeutet, dass dieselben Gesundheitsdaten, die innerstaatlich verfügbar sind, erst nach einer aktiven Erklärung grenzüberschreitend verfügbar werden.",
+     "einfach": "Konsequenz: Dieselben Daten, die jeder österreichische Behandler sehen kann, sind im EU-Ausland unsichtbar, solange kein Opt-In vorliegt.",
+     "kategorien": ["these", "luecke"],
+     "marks": [{"snippet": "erst nach einer aktiven Erklärung", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 392, "quellen": ["gtelg2012"], "claim": "Belegt das Opt-In-Erfordernis für die MyHealth@EU-Teilnahme.", "fundstelle": "§ 24i Abs 2", "suchHinweis": "Einverständnis Opt-In MyHealth"},
+    {"num": 393, "quellen": ["gtelg2012"], "claim": "Belegt das innerstaatliche Opt-Out-Modell mit generellem/partiellem Widerspruch.", "fundstelle": "§ 15 Abs 2", "suchHinweis": "Widerspruch Teilnahme Arten Gesundheitsdaten"}
+   ]
+  },
+  {
+   "id": "5.4.4-p4",
+   "type": "text",
+   "kernaussage": "Praktisches Beispiel: Ohne Opt-In ist ein österreichisches EU-Rezept im Ausland nicht einlösbar; erst die Erklärung über Portal (ID Austria) oder Supporteinrichtung schaltet es frei.",
+   "sentences": [
+    {
+     "text": "Das lässt sich an einem einfachen Beispiel veranschaulichen.",
+     "einfach": "Ein Alltagsbeispiel macht die Wirkung des Opt-In greifbar.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Eine in Österreich versicherte Person, die kein Opt-In erklärt hat, kann ihr in Österreich ausgestelltes EU-Rezept im Ausland nicht über MyHealth@EU einlösen.[^394]",
+     "einfach": "Ohne Opt-In: Das Rezept existiert, aber die Apotheke im Ausland kommt nicht daran.",
+     "kategorien": ["these"],
+     "marks": [{"snippet": "nicht über MyHealth@EU einlösen", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Erst mit dem Opt-In über das Bürger-Zugangsportal mit ID Austria oder schriftlich über die eHealth-Supporteinrichtung wird das Rezept für die ausländische Apotheke abrufbar.[^395]",
+     "einfach": "Das Opt-In geht online (Bürger-Zugangsportal mit ID Austria) oder schriftlich bei der eHealth-Supporteinrichtung.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [{"snippet": "ID Austria", "kategorie": "tech"}, {"snippet": "eHealth-Supporteinrichtung", "kategorie": "akteur"}],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {"num": 394, "quellen": ["gtelg2012"], "claim": "Belegt, dass ohne Opt-In keine grenzüberschreitende Einlösung möglich ist.", "fundstelle": "§ 24i Abs 2", "suchHinweis": "Einverständnis Voraussetzung Verarbeitung"},
+    {"num": 395, "quellen": ["goeg-myhealtheu-rezept2026"], "claim": "Belegt die Opt-In-Wege (Portal mit ID Austria, schriftlich bei der Supporteinrichtung).", "fundstelle": "", "suchHinweis": "Opt-In ID Austria Zugangsportal"}
+   ]
+  },
+  {
+   "id": "5.4.4-p5",
+   "type": "text",
+   "kernaussage": "Das Opt-In wirkt nur für Österreich als Herkunftsmitgliedstaat; für ausländische Patienten in Österreich zählt das Recht ihres Herkunftsstaats.",
+   "sentences": [
+    {
+     "text": "Das Opt-In-Erfordernis betrifft dabei ausschließlich Österreich als Herkunftsmitgliedstaat und damit die Bereitstellung der Daten österreichischer Teilnehmender.[^396]",
+     "einfach": "Das Opt-In regelt nur, ob ÖSTERREICHISCHE Daten ins Ausland fließen.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [{"snippet": "ausschließlich Österreich als Herkunftsmitgliedstaat", "kategorie": "akteur"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Für eine im Ausland versicherte Person, die in Österreich behandelt wird, richtet sich die Verfügbarkeit ihrer Daten nach dem Recht ihres Herkunftsstaats und nicht nach dem österreichischen Opt-In.[^397]",
+     "einfach": "Umgekehrt entscheidet für ausländische Patienten deren Heimatrecht — Österreichs Opt-In spielt dann keine Rolle.",
+     "kategorien": ["norm"],
+     "marks": [{"snippet": "Recht ihres Herkunftsstaats", "kategorie": "norm"}],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {"num": 396, "quellen": ["gtelg2012"], "claim": "Belegt die Beschränkung des Opt-In auf die Herkunftsmitgliedstaat-Rolle Österreichs.", "fundstelle": "§ 24k Abs 1 Z 1", "suchHinweis": "Herkunftsmitgliedstaat Bereitstellung"},
+    {"num": 397, "quellen": ["goeg-myhealtheu2026"], "claim": "Belegt, dass für ausländische Versicherte das Recht des Herkunftsstaats maßgeblich ist.", "fundstelle": "", "suchHinweis": "Herkunftsstaat Recht Verfügbarkeit"}
+   ]
+  }
+ ]
+}

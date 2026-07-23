@@ -1,0 +1,24 @@
+{
+ "sectionId": "3.4",
+ "title": "MyHealth@EU als grenzüberschreitende Infrastruktur",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 30,
+ "pdfPage": 40,
+ "paragraphs": [
+  {
+   "id": "3.4-p1",
+   "type": "text",
+   "text": "Die vorangegangenen Abschnitte beschrieben die technischen Grundlagen - Architekturmodelle, Interoperabilitätsebenen sowie Authentifizierung und Zugriffskontrolle - und bezogen sich primär auf die nationale Ebene. Der EHDS erweitert diesen Rahmen auf die grenzüberschreitende Dimension indem Bürgerinnen und Bürgern, die in einem anderen Mitgliedstaat medizinisch behandelt werden möchten, ihre Gesundheitsdaten dort ebenso zugänglich gemacht werden soll wie im Inland. Die dafür eingerichtete Infrastruktur trägt die Bezeichnung MyHealth@EU.[^170]",
+   "footnotes": [
+    {
+     "num": 170,
+     "text": "Vgl. Art 23 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

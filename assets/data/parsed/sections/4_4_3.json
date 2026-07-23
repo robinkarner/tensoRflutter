@@ -1,0 +1,92 @@
+{
+ "sectionId": "4.4.3",
+ "title": "Sekundärnutzung - HealthData@EU",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 45,
+ "pdfPage": 55,
+ "paragraphs": [
+  {
+   "id": "4.4.3-p1",
+   "type": "text",
+   "text": "Für die Sekundärnutzung sieht die EHDS-Verordnung ein eigenes Widerspruchsrecht vor. Natürliche Personen können jederzeit und ohne Angabe von Gründen der Verarbeitung ihrer personenbezogenen elektronischen Gesundheitsdaten für die Sekundärnutzung widersprechen und diesen Widerspruch jederzeit wieder rückgängig machen.[^255] Anders als das für die Primärnutzung optionale Opt-Out muss dieses Recht von den Mitgliedstaaten zwingend bereitgestellt werden.[^256] Es wirkt dabei nicht nur auf den grenzüberschreitenden Austausch über HealthData@EU, sondern auf die Sekundärnutzung insgesamt, weil es auf der Ebene der Datengenehmigungen und Gesundheitsdatenanfragen ansetzt.[^257] Das Widerspruchsrecht gilt ab dem 26. März 2029.[^258]",
+   "footnotes": [
+    {
+     "num": 255,
+     "text": "Vgl. Art 71 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 256,
+     "text": "Vgl. Art 10 und Art 71 Abs 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 257,
+     "text": "Vgl. Art 71 Abs 3 iVm Art 68 und 69 VO (EU) 2025/327; HealthData@EU als grenzüberschreitende Infrastruktur Art 75 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 258,
+     "text": "Vgl. Art 105 lit a VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.4.3-p2",
+   "type": "text",
+   "text": "Ein nationaler Widerspruchsmechanismus für die Sekundärnutzung besteht in Österreich noch nicht. Seine Schaffung setzt zunächst die gesetzliche Verankerung der für die Sekundärnutzung zuständigen Zugangsstelle für Gesundheitsdaten voraus, deren Einrichtung derzeit noch evaluiert wird.[^259]",
+   "footnotes": [
+    {
+     "num": 259,
+     "text": "Siehe Österreichisches Parlament (2025): Vorbereitungsarbeiten auf den EHDS (374/AB), S. 11.",
+     "sources": [
+      "parlament374ab"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.4.3-p3",
+   "type": "text",
+   "text": "Zu den vier Situationen der Primärnutzung tritt damit ab dem 26. März 2029 der Sekundärnutzungs-Widerspruch nach Art 71 der EHDS-Verordnung als weitere Dimension hinzu. Dieser betrifft einen anderen Zweck als der grenzüberschreitende Datenfluss der Primärnutzung und wirkt unabhängig vom ELGA-Widerspruch wie vom MyHealth@EU-Opt-In.[^260] Für ihn ist überdies ein eigener technischer Mechanismus zu schaffen, der zum Zeitpunkt dieser Arbeit noch nicht implementiert ist.[^261]",
+   "footnotes": [
+    {
+     "num": 260,
+     "text": "Vgl. Art 71 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 261,
+     "text": "Siehe Österreichisches Parlament (2025): Vorbereitungsarbeiten auf den EHDS (374/AB), S. 11.",
+     "sources": [
+      "parlament374ab"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.4.3-p4",
+   "type": "text",
+   "text": "Im Überblick stellt sich die Teilnahme an der nationalen und grenzüberschreitenden Primärnutzung sowie der Sekundärnutzung nach der EHDS-Verordnung und dem rechtlichen Rahmen in Österreich wie folgt dar (siehe Tabelle ).",
+   "footnotes": []
+  },
+  {
+   "id": "4.4.3-p5",
+   "type": "table",
+   "text": "Teilnahme Primär- und Sekundärnutzung im Überblick — EHDS (EU): Primärnutzung national Widerspruch optional und reversibel (Art 10); Primärnutzung grenzüberschreitend wie national; Sekundärnutzung Widerspruch verpflichtend und reversibel (Art 71). GTelG (AT): Primärnutzung national Opt-Out generell oder partiell möglich und reversibel (§ 15); grenzüberschreitend Opt-In ausdrückliches Einverständnis (§§ 24i und 24k); Sekundärnutzung kein Mechanismus, Zugangsstelle noch nicht gesetzlich verankert. Bewertung: national konform - Österreich nutzt die von Art 10 eröffnete Option; grenzüberschreitend strenger als die Verordnung - begrenzt die Reichweite des Austauschs; Sekundärnutzung Umsetzungslücke: institutionell und technisch.",
+   "footnotes": []
+  }
+ ]
+}

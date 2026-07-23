@@ -1,0 +1,31 @@
+{
+ "sectionId": "3.2",
+ "title": "Interoperabilität",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 22,
+ "pdfPage": 32,
+ "paragraphs": [
+  {
+   "id": "3.2-p1",
+   "type": "text",
+   "text": "Interoperabilität bezeichnet im Kontext elektronischer Gesundheitssysteme die Fähigkeit unterschiedlicher informationstechnischer Systeme, Daten auszutauschen und diese korrekt zu interpretieren und zu verwenden.[^114] Das European Interoperability Framework (EIF) der Europäischen Kommission definiert hierfür vier Interoperabilitätsebenen: Die rechtliche, die organisatorische, die semantische und die technische Ebene.[^115] Wie bereits angeführt, stellt auch der EHDS die Interoperabilität in den Mittelpunkt seiner technischen Anforderungen. Nachfolgend werden daher die in der medizinischen Informatik üblichen Fragestellungen zur technischen, syntaktischen und semantischen Ebene beschrieben.",
+   "footnotes": [
+    {
+     "num": 114,
+     "text": "Vgl. HIMSS (2020): Interoperability in Healthcare.",
+     "sources": [
+      "himss2020"
+     ]
+    },
+    {
+     "num": 115,
+     "text": "Vgl. Europäische Kommission (2017): Europäischer Interoperabilitätsrahmen – Umsetzungsstrategie, 3. Einführung, S. 2.",
+     "sources": [
+      "ek-eif2017"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "sectionId": "3.2.2.1",
+ "paragraphs": [
+  {
+   "id": "3.2.2.1-p1",
+   "type": "text",
+   "kernaussage": "HL7 CDA ist ein XML-basierter Standard für klinische Dokumente, dessen Implementierungsunterschiede zu FHIR eine semantisch korrekte Modelltransformation erschweren.",
+   "sentences": [
+    {
+     "text": "HL7 CDA (Clinical Document Architecture) ist ein auf XML basierender Standard für das strukturierte Management klinischer Dokumente.",
+     "einfach": "HL7 CDA ist ein Standard, der festlegt, wie klinische Dokumente (etwa Arztbriefe oder Befunde) strukturiert aufgebaut und verwaltet werden; technisch basiert er auf XML, einer maschinenlesbaren Auszeichnungssprache.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "HL7 CDA (Clinical Document Architecture)", "kategorie": "tech" },
+      { "snippet": "XML", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Auch wenn CDA und auch FHIR auf Interoperabilität von Gesundheitsinformationssystemen ausgelegt sind, behindern die Unterschiede in der Implementierung die semantisch korrekte Modelltransformation.[^122]",
+     "einfach": "Obwohl CDA und der neuere Standard FHIR beide den Datenaustausch zwischen Gesundheits-IT-Systemen ermöglichen sollen, lassen sich Daten wegen der unterschiedlichen Umsetzung der beiden Standards nicht automatisch und ohne Bedeutungsverlust vom einen ins andere Datenmodell umwandeln.",
+     "kategorien": ["tech", "luecke"],
+     "marks": [
+      { "snippet": "CDA", "kategorie": "tech" },
+      { "snippet": "FHIR", "kategorie": "tech" },
+      { "snippet": "behindern die Unterschiede in der Implementierung die semantisch korrekte Modelltransformation", "kategorie": "luecke" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 122,
+     "quellen": ["bossenko2024"],
+     "claim": "Belegt, dass Implementierungsunterschiede zwischen CDA und FHIR die semantisch korrekte Modelltransformation behindern.",
+     "fundstelle": "S. 4",
+     "suchHinweis": "CDA FHIR model transformation semantic differences"
+    }
+   ]
+  },
+  {
+   "id": "3.2.2.1-p2",
+   "type": "text",
+   "kernaussage": "CDA überträgt klinische Dokumente stets als Ganzes; diese Dokumentenorientierung schränkt mobile und ressourcenbasierte Anwendungen ein und war ein wesentlicher Beweggrund für die Entwicklung von FHIR.",
+   "sentences": [
+    {
+     "text": "CDA folgt einem dokumentenzentrierten Ansatz, bei dem ein vollständiges klinisches Dokument als zusammenhängende Einheit übertragen wird.[^123]",
+     "einfach": "CDA arbeitet dokumentenzentriert: Ein Befund oder Arztbrief wird immer als komplettes Dokument am Stück übertragen, nicht in einzelnen Datenelementen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "dokumentenzentrierten Ansatz", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der dokumentenorientierte Charakter von CDA bringt jedoch strukturelle Einschränkungen mit sich, die insbesondere im Kontext mobiler und ressourcenbasierter Anwendungen zum Tragen kommen und einen wesentlichen Beweggrund für die Entwicklung von FHIR darstellten.[^124]",
+     "einfach": "Weil immer ganze Dokumente übertragen werden müssen, ist CDA unpraktisch für mobile Apps und für Anwendungen, die nur einzelne Datenelemente (Ressourcen) abrufen wollen - genau diese Einschränkung war ein Hauptgrund dafür, dass der Nachfolgestandard FHIR entwickelt wurde.",
+     "kategorien": ["tech", "luecke"],
+     "marks": [
+      { "snippet": "strukturelle Einschränkungen", "kategorie": "luecke" },
+      { "snippet": "mobiler und ressourcenbasierter Anwendungen", "kategorie": "tech" },
+      { "snippet": "FHIR", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 123,
+     "quellen": ["dolin2006"],
+     "claim": "Belegt den dokumentenzentrierten Ansatz von CDA, bei dem ein vollständiges klinisches Dokument als zusammenhängende Einheit übertragen wird.",
+     "fundstelle": "S. 33",
+     "suchHinweis": "Clinical Document Architecture complete document unit"
+    },
+    {
+     "num": 124,
+     "quellen": ["ayaz2021"],
+     "claim": "Belegt, dass die strukturellen Einschränkungen des dokumentenorientierten CDA ein wesentlicher Beweggrund für die Entwicklung von FHIR waren.",
+     "fundstelle": "S. 16",
+     "suchHinweis": "FHIR motivation CDA limitations mobile applications"
+    }
+   ]
+  }
+ ]
+}

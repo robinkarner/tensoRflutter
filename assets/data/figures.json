@@ -1,0 +1,79 @@
+{
+  "figuren": [
+    {
+      "id": "abb-3-3-2",
+      "nummer": "Abb. 3.1",
+      "sectionId": "3.3.2",
+      "paragraphId": "3.3.2-p4",
+      "file": "figures/abb-3-3-2-acm.png",
+      "titel": "Beispiel der Access Control Mechanism (ACM) Funktionen",
+      "credit": "Übernommen aus NIST, Hu et al. (2014): Guide to Attribute Based Access Control (ABAC) Definition and Considerations, S. 15, Fig. 5.",
+      "quelle": "nist-abac2014",
+      "beschreibung": "Die XACML-Referenzarchitektur der Zugriffskontrolle: Der Policy Enforcement Point (PEP) fängt die Anfrage zwischen Subjekt und Objekt ab und fragt den Policy Decision Point (PDP), der anhand des Policy Repository (gepflegt über den Policy Administration Point, PAP) und der vom Policy Information Point (PIP) gelieferten Attribute und Umgebungsbedingungen entscheidet."
+    },
+    {
+      "id": "abb-3-4-2",
+      "nummer": "Abb. 3.2",
+      "sectionId": "3.4.2",
+      "paragraphId": "3.4.2-p2",
+      "file": null,
+      "titel": "Beispiel elektronische Verschreibung über MyHealth@EU",
+      "credit": "Übernommen aus Europäische Kommission (2026): Public Health — Meine Rechte an meinen Gesundheitsdaten.",
+      "quelle": "ek-myrights2026",
+      "beschreibung": "Ablauf einer grenzüberschreitenden e-Verschreibung: Verschreibung im Heimatland, Abruf über die nationalen Kontaktstellen (NCPeH) beider Länder, Abgabe in der Apotheke des Aufenthaltslands, Rückmeldung der Abgabe ins Heimatland."
+    },
+    {
+      "id": "abb-5-1",
+      "nummer": "Abb. 5.1",
+      "sectionId": "5.1",
+      "paragraphId": "5.1-p2",
+      "file": "figures/abb-5-1-ueberblick.png",
+      "titel": "Überblick technische Infrastruktur ELGA",
+      "credit": "Übernommen aus Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH, S. 11.",
+      "quelle": "rh-elga2024",
+      "beschreibung": "Die drei Ebenen der ELGA-Infrastruktur: zentrale Komponenten (Patientenindex, GDA-Index, Berechtigungs- und Protokollierungssystem) mit den zentralen Anwendungen e-Impfpass und e-Medikation und dem ELGA-Portal; darunter die dezentralen Komponenten (e-Befunde in den Bereichen); darunter die Gesundheitsdiensteanbieter (Krankenhäuser, Arztpraxen …)."
+    },
+    {
+      "id": "abb-5-1-3",
+      "nummer": "Abb. 5.2",
+      "sectionId": "5.1.3",
+      "paragraphId": "5.1.3-p2",
+      "file": "figures/abb-5-1-3-detail.webp",
+      "titel": "Detailansicht der bestehenden nationalen Infrastruktur",
+      "credit": "Eigene Darstellung in Anlehnung an ELGA GmbH (2017): ELGA-Gesamtarchitektur, Version 2.30b, S. 9 und 58.",
+      "quelle": "elga-gesamtarchitektur2017",
+      "beschreibung": "Detailansicht: Zentrale Komponenten (GDA-Index/Identifikation, ETS/Authentifizierung, BeS/Berechtigungen, A-ARR/Protokollierung, zentraler Patientenindex, e-Medikation, e-Impfpass, Bürger-Zugangsportal); der ELGA-Bereich als XDS-Affinity-Domain (lokaler Patientenindex, Verweisregister, Datenspeicher, Anbindungsgateway mit Zugriffssteuerungsfassade und XCA-Handling, 13 Bereiche via XCA verbunden); darunter die GDA-Systeme (KIS, PVS, RIS …) als Document Source/Consumer und Patient Identity Source, angebunden über das GIN."
+    }
+  ],
+  "tabellen": [
+    {
+      "id": "tab-4-4-2",
+      "nummer": "Tab. 4.1",
+      "sectionId": "4.4.2",
+      "paragraphId": "4.4.2-p3",
+      "titel": "Situationen des Berechtigungssystems",
+      "credit": "Quellen: §§ 15 Abs 2 und 3, 21, 24o, 24s GTelG 2012.",
+      "kopf": ["Situation", "National (ELGA)", "Grenzüberschreitend (MyHealth@EU)"],
+      "zeilen": [
+        ["Kein Widerspruch + Opt-In", "alle ELGA-Dokumente verfügbar", "EU-Rezept und EU-Patientenkurzakte verfügbar"],
+        ["Kein Widerspruch + kein Opt-In", "alle ELGA-Dokumente verfügbar", "kein grenzüberschreitender Austausch"],
+        ["Genereller Widerspruch (Opt-In erklärt)", "keine ELGA-Dokumente im System", "EU-Rezept verfügbar (beruht auf unabhängigem e-Rezept); EU-Patientenkurzakte entfällt mangels Daten"],
+        ["Partieller Widerspruch, z. B. nur Medikation (Opt-In erklärt)", "nur die nicht widersprochenen Daten", "nur nicht betroffene Daten; EU-Patientenkurzakte nur sofern vorhanden und zutreffend"]
+      ]
+    },
+    {
+      "id": "tab-4-4-3",
+      "nummer": "Tab. 4.2",
+      "sectionId": "4.4.3",
+      "paragraphId": "4.4.3-p5",
+      "titel": "Teilnahme Primär- und Sekundärnutzung im Überblick",
+      "credit": "Gegenüberstellung EHDS-VO / GTelG 2012 mit Bewertung.",
+      "kopf": ["", "Primärnutzung national", "Primärnutzung grenzüberschreitend", "Sekundärnutzung"],
+      "zeilen": [
+        ["EHDS (EU)", "Widerspruch optional und reversibel (Art 10)", "wie national", "Widerspruch verpflichtend und reversibel (Art 71)"],
+        ["GTelG (AT)", "Opt-Out generell oder partiell, reversibel (§ 15)", "Opt-In: ausdrückliches Einverständnis (§§ 24i, 24k)", "kein Mechanismus; Zugangsstelle noch nicht gesetzlich verankert"],
+        ["Bewertung", "konform — Österreich nutzt die von Art 10 eröffnete Option", "strenger als die Verordnung — begrenzt die Reichweite des Austauschs", "Umsetzungslücke: institutionell und technisch"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+ "sectionId": "5.0",
+ "title": "Überblick",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 49,
+ "pdfPage": 59,
+ "paragraphs": [
+  {
+   "id": "5.0-p1",
+   "type": "text",
+   "text": "Der österreichische Umsetzungsstand des EHDS lässt sich erst vor dem Hintergrund der zuvor getrennt behandelten technischen Grundlagen (Kapitel 3) und des rechtlichen Rahmens (Kapitel 4) beurteilen. Dieses Kapitel führt beide Stränge zusammen und gibt einen Überblick darüber, wie die Anforderungen der EHDS-Verordnung in der österreichischen eHealth-Versorgung umgesetzt werden. Bezugspunkt ist dabei durchgehend die Elektronische Gesundheitsakte (ELGA). Für das Verständnis der folgenden Abschnitte ist eine Klarstellung wesentlich: Anders als ein EHR-System wird ELGA nicht als Produkt eines Herstellers für die Verwendung bei der Versorgung in Verkehr gebracht, sondern ist als gesetzlich definierte Infrastruktur eingerichtet, die die einrichtungsbezogenen EHR-Systeme vernetzt.[^269]",
+   "footnotes": [
+    {
+     "num": 269,
+     "text": "Vgl. § 2 Z 6 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.0-p2",
+   "type": "text",
+   "text": "Ausgehend von dieser Unterscheidung wird zunächst ELGA als nationale eHealth-Infrastruktur entlang ihrer Ebenen beschrieben: Der zentralen Komponenten der ELGA GmbH, des von der Sozialversicherungs-Chipkarten Betriebs- und Errichtungsgesellschaft (SVC-GmbH) betriebenen e-card-Systems und Gesundheitsinformationsnetzes (GIN) sowie der dreizehn dezentralen ELGA-Bereiche mit ihren Repositories. Die e-Medikation und der e-Impfpass werden dabei als architektonische Sonderfälle behandelt (siehe Abschnitt 5.1). Anschließend werden die eigentlichen EHR-Systeme, die Krankenhaus-, Praxisverwaltungs- und Radiologieinformationssysteme (KIS, PVS, RIS), eingeordnet und der Datenfluss von der Befunderstellung bis zur Ablage in ELGA nachgezeichnet (siehe Abschnitt 5.2) sowie die in den technischen Grundlagen behandelten Konzepte der Authentifizierung und Zugriffskontrolle der ELGA beschrieben (siehe Abschnitt 5.3). Zuletzt werden die Datenformate und die grenzüberschreitende Interoperabilität untersucht, wobei auf die CDA-Implementierungsleitfäden, die Abdeckung der prioritären EHDS-Datenkategorien, den Umsetzungsstand von HL7 FHIR und EEHRxF sowie die Anbindung an MyHealth@EU über das Projekt AT-eHDSI eingegangen wird (siehe Abschnitt 5.4).",
+   "footnotes": []
+  }
+ ]
+}

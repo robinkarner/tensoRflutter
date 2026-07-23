@@ -1,0 +1,12 @@
+{
+ "sourceId": "ihe-iti2026",
+ "dossier": "## Was ist diese Quelle?\nDas **IHE IT Infrastructure Technical Framework (Profiles)** ist die offizielle Spezifikationssammlung der Initiative *Integrating the Healthcare Enterprise* — der De-facto-Standardbaukasten für Gesundheitsdaten-Infrastrukturen.\n\n## Kerninhalte (zitierte Profile)\n- **XDS.b** (Vol. 1, Ch. 10): Cross-Enterprise Document Sharing — Registry/Repository-Modell für Dokumentenaustausch in einer Affinity Domain.\n- **XCA** (Vol. 1, Ch. 18): Cross-Community Access — verbindet mehrere XDS-Domänen (Grundlage der bereichsübergreifenden ELGA-Abrufe).\n- **PIX** (Vol. 1, Ch. 5): Patient Identifier Cross-Referencing — Abgleich lokaler Patienten-IDs (L-PI → Z-PI in ELGA).\n- **ATNA**: Audit Trail and Node Authentication — Audit-Events + Knoten-Authentifizierung (ELGA-Protokollierung).\n\n## Rolle in der Arbeit\n6 Zitierstellen: Die Profile sind das technische Rückgrat von Kapitel 3.2.1/3.3.3 und erklären, warum ELGA (XDS-Bereiche, XCA-Abrufe, PIX-Meldungen, ATNA-Logs) als standardkonform gilt.\n\n## Verlässlichkeit & Zugang\nOffizielle Standarddokumentation, frei unter profiles.ihe.net.",
+ "keyPoints": [
+  "XDS.b: Registry/Repository-Muster für Dokumententeilung.",
+  "XCA: domänenübergreifender Zugriff — genau das ELGA-Bereichsmodell.",
+  "PIX: Patienten-ID-Abgleich zwischen Systemen.",
+  "ATNA: standardisierte Audit-Protokollierung + Knoten-Authentifizierung."
+ ],
+ "zitierweise": "IHE International (2026): IT Infrastructure Technical Framework (Profiles)",
+ "hinweisOhnePdf": "Frei online unter profiles.ihe.net/ITI/TF — die Fußnoten nennen Volume und Chapter (z. B. Vol. 1 Ch. 10 für XDS.b), was die Navigation ohne PDF erlaubt."
+}

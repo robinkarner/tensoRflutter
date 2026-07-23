@@ -1,0 +1,51 @@
+{
+ "sectionId": "5.1",
+ "title": "ELGA als nationale eHealth-Infrastruktur",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 50,
+ "pdfPage": 60,
+ "paragraphs": [
+  {
+   "id": "5.1-p1",
+   "type": "text",
+   "text": "ELGA ist organisatorisch bei der ELGA GmbH angesiedelt, die 2009 gegründet wurde und an der der Bund, der Dachverband der Sozialversicherungsträger und die neun Bundesländer (mit jeweils 3,7 Prozent) zu je einem Drittel beteiligt sind.[^270] Gemeinsam bilden sie die ELGA-Systempartner.[^271]",
+   "footnotes": [
+    {
+     "num": 270,
+     "text": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH, S. 17.",
+     "sources": [
+      "rh-elga2024"
+     ]
+    },
+    {
+     "num": 271,
+     "text": "Vgl. § 2 Z 11 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.1-p2",
+   "type": "text",
+   "text": "Technisch beruht ELGA auf klar voneinander abgrenzbaren Ebenen, wie die nachfolgende Abbildung veranschaulicht: [ABBILDUNG: Überblick technische Infrastruktur ELGA — übernommen aus Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH, S. 11.]",
+   "footnotes": []
+  },
+  {
+   "id": "5.1-p3",
+   "type": "text",
+   "text": "Die technische Infrastruktur besteht aus zentralen und dezentralen Komponenten, Schnittstellen zu den IT-Systemen der Gesundheitsdiensteanbieter sowie Netzwerken zur Verbindung aller Komponenten. Die Anwendungen e-Medikation und e-Impfpass durchbrechen das dezentrale Modell und werden gesondert als architektonische Sonderfälle behandelt.[^272]",
+   "footnotes": [
+    {
+     "num": 272,
+     "text": "Vgl. Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH, S. 49f.",
+     "sources": [
+      "rh-elga2024"
+     ]
+    }
+   ]
+  }
+ ]
+}

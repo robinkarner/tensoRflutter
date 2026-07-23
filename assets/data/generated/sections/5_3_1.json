@@ -1,0 +1,315 @@
+{
+ "sectionId": "5.3.1",
+ "paragraphs": [
+  {
+   "id": "5.3.1-p1",
+   "type": "text",
+   "kernaussage": "Das Berechtigungssystem steuert alle Zugriffe auf ELGA-Gesundheitsdaten nach dem Default-Deny-Prinzip und setzt die Autorisierung auf drei technischen Ebenen (ATNA Secure Nodes, WS-Trust-Assertions, XACML-Policies) um.",
+   "sentences": [
+    {
+     "text": "Das Berechtigungssystem verwaltet die generellen und individuellen Zugriffsberechtigungen und steuert die Zugriffe auf ELGA-Gesundheitsdaten, wobei ohne Zugriffsberechtigung weder Daten noch Verweise darauf angezeigt werden dürfen.[^322]",
+     "einfach": "Das Berechtigungssystem verwaltet, wer generell (nach Rolle) und individuell (nach Wunsch der Betroffenen) auf ELGA-Daten zugreifen darf; ohne gültige Berechtigung dürfen weder die Gesundheitsdaten selbst noch die Verweise (Registereinträge) darauf angezeigt werden.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Berechtigungssystem", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Autorisierung erfolgt default deny-orientiert und ist auf drei Protokollebenen umgesetzt, der Authentifizierung aller Akteure auf Transportebene (ATNA Secure Nodes), der rollenbezogenen Autorisierung (WS-Trust-Assertions) und der zusätzlichen Bindung von Zugriffen auf Patientendaten (XACML-Policies).[^323]",
+     "einfach": "Zugriffe sind standardmäßig verboten und werden nur bei ausdrücklicher Erlaubnis gewährt (default deny). Technisch geschieht das auf drei Ebenen: Alle beteiligten Systeme müssen sich auf der Transportebene gegenseitig ausweisen (ATNA Secure Nodes, ein IHE-Sicherheitsprofil), Nutzer erhalten rollenabhängige, signierte Berechtigungsnachweise (WS-Trust-Assertions) und Zugriffe auf Patientendaten werden zusätzlich an maschinenlesbare Zugriffsregeln im XACML-Format gebunden.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "default deny-orientiert", "kategorie": "tech" },
+      { "snippet": "ATNA Secure Nodes", "kategorie": "tech" },
+      { "snippet": "WS-Trust-Assertions", "kategorie": "tech" },
+      { "snippet": "XACML-Policies", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 322,
+     "quellen": ["gtelg2012"],
+     "claim": "Belegt, dass das Berechtigungssystem die Zugriffe steuert und ohne Zugriffsberechtigung weder Daten noch Verweise angezeigt werden dürfen.",
+     "fundstelle": "§ 21 Abs 1",
+     "suchHinweis": "Berechtigungssystem Zugriffsberechtigung Verweise"
+    },
+    {
+     "num": 323,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Belegt die default-deny-orientierte Autorisierung auf drei Protokollebenen (ATNA Secure Nodes, WS-Trust-Assertions, XACML-Policies).",
+     "fundstelle": "S. 141",
+     "suchHinweis": "ATNA WS-Trust XACML Autorisierung"
+    }
+   ]
+  },
+  {
+   "id": "5.3.1-p2",
+   "type": "text",
+   "kernaussage": "Jeder Datenzugriff setzt einen technisch nachgewiesenen Behandlungszusammenhang voraus und wird anschließend zweistufig über den ELGA-Token-Service mit Healthcare-Provider-Assertion und Treatment-Assertion autorisiert.",
+   "sentences": [
+    {
+     "text": "Voraussetzung für jeden Datenzugriff ist ein technisch nachgewiesener Behandlungszusammenhang, der im niedergelassenen Bereich durch das Stecken der e-card hergestellt und dessen signierte Kontaktbestätigung an den zentralen Kontaktbestätigungsservice gemeldet wird.[^324]",
+     "einfach": "Daten dürfen nur abgerufen werden, wenn technisch nachgewiesen ist, dass tatsächlich ein Behandlungsverhältnis besteht (Behandlungszusammenhang). In der Arztpraxis entsteht dieser Nachweis durch das Stecken der e-card der Patientin oder des Patienten; die dabei erzeugte, digital signierte Kontaktbestätigung wird an einen zentralen Dienst, den Kontaktbestätigungsservice, gemeldet.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Behandlungszusammenhang", "kategorie": "tech" },
+      { "snippet": "e-card", "kategorie": "tech" },
+      { "snippet": "Kontaktbestätigungsservice", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Autorisierung erfolgt anschließend zweistufig über den ELGA-Token-Service, der zunächst eine Healthcare-Provider-Assertion zur Anmeldung des Gesundheitsdiensteanbieters und danach je Zielbereich eine Treatment-Assertion für den Zugriff auf personenbezogene Dokumente ausstellt.[^325]",
+     "einfach": "Danach läuft die Autorisierung in zwei Stufen über den ELGA-Token-Service: Zuerst stellt er eine Healthcare-Provider-Assertion aus (einen signierten Nachweis, dass sich der Gesundheitsdiensteanbieter angemeldet hat), dann für jeden ELGA-Bereich, auf den zugegriffen werden soll, eine Treatment-Assertion (einen Nachweis des Behandlungsverhältnisses) für den Zugriff auf die Dokumente der betroffenen Person.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "ELGA-Token-Service", "kategorie": "tech" },
+      { "snippet": "Healthcare-Provider-Assertion", "kategorie": "tech" },
+      { "snippet": "Gesundheitsdiensteanbieters", "kategorie": "akteur" },
+      { "snippet": "Treatment-Assertion", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 324,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Belegt die Herstellung des Behandlungszusammenhangs durch das Stecken der e-card und die Meldung der signierten Kontaktbestätigung an den zentralen Kontaktbestätigungsservice.",
+     "fundstelle": "S. 158",
+     "suchHinweis": "Kontaktbestätigung e-card Behandlungszusammenhang"
+    },
+    {
+     "num": 325,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Belegt die zweistufige Autorisierung über den ELGA-Token-Service mit Healthcare-Provider-Assertion und Treatment-Assertion.",
+     "fundstelle": "S. 46",
+     "suchHinweis": "ELGA Token Service HCP Assertion Treatment Assertion"
+    }
+   ]
+  },
+  {
+   "id": "5.3.1-p3",
+   "type": "text",
+   "kernaussage": "Generelle rollenbezogene und individuell von den Teilnehmenden festgelegte Zugriffsberechtigungen - wobei die individuellen Vorrang haben - werden bereichsübergreifend durch die dezentrale Zugriffssteuerungsfassade durchgesetzt.",
+   "sentences": [
+    {
+     "text": "Die generellen Zugriffsberechtigungen sind rollenbezogen und erlauben Angehörigen des ärztlichen Berufs, Krankenanstalten und Pflegeeinrichtungen den Zugriff auf alle ELGA-Gesundheitsdaten, Apotheken und Rettungsdiensten dagegen nur auf Medikationsdaten.[^326]",
+     "einfach": "Die allgemeinen Zugriffsrechte hängen von der Rolle ab: Ärztinnen und Ärzte, Krankenhäuser und Pflegeeinrichtungen dürfen alle ELGA-Gesundheitsdaten einsehen, Apotheken und Rettungsdienste dagegen nur die Medikationsdaten (Informationen über verordnete und abgegebene Arzneimittel).",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Angehörigen des ärztlichen Berufs", "kategorie": "akteur" },
+      { "snippet": "Krankenanstalten und Pflegeeinrichtungen", "kategorie": "akteur" },
+      { "snippet": "Apotheken und Rettungsdiensten", "kategorie": "akteur" },
+      { "snippet": "Medikationsdaten", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Darüber hinaus können ELGA-Teilnehmende über das Bürger-Zugangsportal individuelle Zugriffsberechtigungen festlegen und einzelne Verweise und Dokumente für bestimmte Gesundheitsdiensteanbieter ein- oder ausblenden.[^327]",
+     "einfach": "Zusätzlich können die ELGA-Teilnehmenden (die Bürgerinnen und Bürger) über das Online-Zugangsportal eigene Zugriffsregeln festlegen und einzelne Dokumente oder Verweise für bestimmte Gesundheitsdiensteanbieter sichtbar oder unsichtbar machen.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "ELGA-Teilnehmende", "kategorie": "akteur" },
+      { "snippet": "Bürger-Zugangsportal", "kategorie": "tech" },
+      { "snippet": "Gesundheitsdiensteanbieter", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Diese individuellen Berechtigungen haben Vorrang vor den generellen.[^328]",
+     "einfach": "Wenn individuelle und allgemeine Regeln einander widersprechen, gilt die individuelle Einstellung der Teilnehmenden.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Durchgesetzt werden beide bereichsübergreifend durch die dezentrale Zugriffssteuerungsfassade, welche die einheitliche Autorisierung der Zugriffe sicherstellt.[^329]",
+     "einfach": "Beide Arten von Berechtigungen setzt über alle ELGA-Bereiche hinweg die dezentrale Zugriffssteuerungsfassade durch - eine jedem Bereich vorgeschaltete Softwarekomponente, die die Zugriffsprüfung einheitlich durchführt.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Zugriffssteuerungsfassade", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 326,
+     "quellen": ["gtelg2012"],
+     "claim": "Belegt die rollenbezogenen generellen Zugriffsberechtigungen: voller Zugriff für Ärzteschaft, Krankenanstalten und Pflegeeinrichtungen, für Apotheken und Rettungsdienste nur Medikationsdaten.",
+     "fundstelle": "§ 21 Abs 2",
+     "suchHinweis": "Zugriffsberechtigung Apotheken Medikationsdaten"
+    },
+    {
+     "num": 327,
+     "quellen": ["gtelg2012"],
+     "claim": "Belegt das Recht der ELGA-Teilnehmenden, individuelle Zugriffsberechtigungen festzulegen und Verweise oder Dokumente ein- oder auszublenden.",
+     "fundstelle": "§ 16 Abs 1 Z 2",
+     "suchHinweis": "individuelle Zugriffsberechtigungen Verweise ausblenden"
+    },
+    {
+     "num": 328,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Belegt den Vorrang der individuellen Zugriffsberechtigungen vor den generellen.",
+     "fundstelle": "S. 148",
+     "suchHinweis": "individuelle Berechtigungen Vorrang Policies"
+    },
+    {
+     "num": 329,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Belegt die bereichsübergreifende Durchsetzung der Berechtigungen durch die dezentrale Zugriffssteuerungsfassade.",
+     "fundstelle": "S. 156",
+     "suchHinweis": "Zugriffssteuerungsfassade einheitliche Autorisierung"
+    }
+   ]
+  },
+  {
+   "id": "5.3.1-p4",
+   "type": "text",
+   "kernaussage": "Die Dauer der Zugriffsberechtigung ist nach Akteursgruppen gestaffelt (90 Tage für Niedergelassene, Aufnahme bis 90 Tage nach Entlassung für Krankenanstalten, 28 Tage für Apotheken und Rettungsdienste) und kann von den Teilnehmenden verkürzt, gesperrt oder auf bis zu ein Jahr verlängert werden.",
+   "sentences": [
+    {
+     "text": "Die Dauer der Zugriffsberechtigung ist nach Akteursgruppen gestaffelt.[^330]",
+     "einfach": "Wie lange ein Gesundheitsdiensteanbieter auf die Daten zugreifen darf, hängt davon ab, zu welcher Gruppe er gehört.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [
+      { "snippet": "Akteursgruppen", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Niedergelassene Ärztinnen und Ärzte haben ab dem Nachweis des Behandlungsverhältnisses standardmäßig neunzig Tage Zugriff.[^331]",
+     "einfach": "Ärztinnen und Ärzte mit eigener Praxis dürfen ab dem nachgewiesenen Behandlungskontakt (z. B. durch das Stecken der e-card) standardmäßig 90 Tage lang auf die Daten zugreifen.",
+     "kategorien": ["akteur", "frist", "zahl"],
+     "marks": [
+      { "snippet": "Niedergelassene Ärztinnen und Ärzte", "kategorie": "akteur" },
+      { "snippet": "neunzig Tage", "kategorie": "frist" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Krankenanstalten und Pflegeeinrichtungen haben ab der Aufnahme bis neunzig Tage nach der Entlassung Zugriff, der nicht verlängert werden kann.[^332]",
+     "einfach": "Krankenhäuser und Pflegeeinrichtungen dürfen ab der Aufnahme der Patientin oder des Patienten bis 90 Tage nach der Entlassung zugreifen; eine Verlängerung ist nicht möglich.",
+     "kategorien": ["akteur", "frist", "zahl"],
+     "marks": [
+      { "snippet": "Krankenanstalten und Pflegeeinrichtungen", "kategorie": "akteur" },
+      { "snippet": "bis neunzig Tage nach der Entlassung", "kategorie": "frist" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Apotheken sowie Rettungsdienste und die Gesundheitsberatung 1450 verfügen über achtundzwanzig Tage, bei Apotheken beschränkt auf Medikationsdaten und den e-Impfpass.[^333]",
+     "einfach": "Apotheken, Rettungsdienste und die telefonische Gesundheitsberatung 1450 haben 28 Tage Zugriff; Apotheken sehen dabei nur die Medikationsdaten und den elektronischen Impfpass (e-Impfpass).",
+     "kategorien": ["akteur", "frist", "zahl", "tech"],
+     "marks": [
+      { "snippet": "Apotheken", "kategorie": "akteur" },
+      { "snippet": "Rettungsdienste", "kategorie": "akteur" },
+      { "snippet": "Gesundheitsberatung 1450", "kategorie": "akteur" },
+      { "snippet": "achtundzwanzig Tage", "kategorie": "frist" },
+      { "snippet": "e-Impfpass", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "ELGA-Teilnehmende können diese Fristen über das Portal verkürzen, den Zugriff ganz sperren oder mit Zustimmung des Gesundheitsdiensteanbieters auf bis zu ein Jahr verlängern.[^334]",
+     "einfach": "Die Betroffenen selbst können diese Zeiträume im ELGA-Portal verkürzen, den Zugriff komplett sperren oder - wenn der Gesundheitsdiensteanbieter zustimmt - auf höchstens ein Jahr verlängern.",
+     "kategorien": ["akteur", "frist"],
+     "marks": [
+      { "snippet": "ELGA-Teilnehmende", "kategorie": "akteur" },
+      { "snippet": "bis zu ein Jahr", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 330,
+     "quellen": ["elga-datenschutz2026"],
+     "claim": "Belegt die Staffelung der Zugriffsdauer nach Akteursgruppen.",
+     "fundstelle": "",
+     "suchHinweis": "Zugriffsdauer Gesundheitsdiensteanbieter Fristen"
+    },
+    {
+     "num": 331,
+     "quellen": ["elga-datenschutz2026"],
+     "claim": "Belegt die standardmäßig 90-tägige Zugriffsdauer niedergelassener Ärztinnen und Ärzte ab Nachweis des Behandlungsverhältnisses.",
+     "fundstelle": "",
+     "suchHinweis": "90 Tage niedergelassene Ärzte Zugriff"
+    },
+    {
+     "num": 332,
+     "quellen": ["elga-datenschutz2026"],
+     "claim": "Belegt die Zugriffsdauer von Krankenanstalten und Pflegeeinrichtungen von der Aufnahme bis 90 Tage nach der Entlassung ohne Verlängerungsmöglichkeit.",
+     "fundstelle": "",
+     "suchHinweis": "Krankenanstalten Entlassung 90 Tage Zugriff"
+    },
+    {
+     "num": 333,
+     "quellen": ["elga-datenschutz2026"],
+     "claim": "Belegt die 28-tägige Zugriffsdauer für Apotheken, Rettungsdienste und die Gesundheitsberatung 1450 sowie die Beschränkung der Apotheken auf Medikationsdaten und e-Impfpass.",
+     "fundstelle": "",
+     "suchHinweis": "Apotheken 28 Tage Medikationsdaten e-Impfpass"
+    },
+    {
+     "num": 334,
+     "quellen": ["elga-datenschutz2026"],
+     "claim": "Belegt, dass Teilnehmende die Zugriffsfristen verkürzen, den Zugriff sperren oder mit Zustimmung des Gesundheitsdiensteanbieters auf bis zu ein Jahr verlängern können.",
+     "fundstelle": "",
+     "suchHinweis": "Zugriffsdauer verkürzen sperren verlängern ein Jahr"
+    }
+   ]
+  },
+  {
+   "id": "5.3.1-p5",
+   "type": "text",
+   "kernaussage": "ELGA-Teilnehmende können der Teilnahme jederzeit generell oder partiell widersprechen sowie situativ für einzelne Behandlungsfälle, worauf bei sensiblen Daten besonders hinzuweisen ist.",
+   "sentences": [
+    {
+     "text": "Der Teilnahme an ELGA kann generell oder partiell, beschränkt auf einzelne Arten von Gesundheitsdaten, jederzeit widersprochen werden.[^335]",
+     "einfach": "Jede Person kann jederzeit aus ELGA aussteigen (Opt-out) - entweder vollständig oder nur für bestimmte Arten von Gesundheitsdaten, etwa Medikationsdaten.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Darüber hinaus kann der Aufnahme von Daten für einen einzelnen Behandlungs- oder Betreuungsfall situativ widersprochen werden, worauf die Teilnehmenden insbesondere bei sensiblen Daten zu HIV-Infektionen, psychischen Erkrankungen, genetischen Daten oder Schwangerschaftsabbrüchen hinzuweisen sind.[^336]",
+     "einfach": "Zusätzlich kann man für einen einzelnen Behandlungs- oder Betreuungsfall widersprechen, sodass dessen Daten gar nicht in ELGA aufgenommen werden (situativer Widerspruch); auf diese Möglichkeit müssen die Teilnehmenden besonders hingewiesen werden, wenn es um sensible Daten geht - etwa zu HIV-Infektionen, psychischen Erkrankungen, genetischen Daten oder Schwangerschaftsabbrüchen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Teilnehmenden", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die daraus für die grenzüberschreitende Nutzung resultierenden Zustände des Berechtigungssystems wurden bereits in Abschnitt 4.4.2 dargestellt.",
+     "einfach": "Welche Folgen diese Widerspruchsmöglichkeiten für den grenzüberschreitenden Datenaustausch im EHDS haben, wurde bereits in Abschnitt 4.4.2 beschrieben.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Berechtigungssystems", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 335,
+     "quellen": ["gtelg2012"],
+     "claim": "Belegt das Recht, der ELGA-Teilnahme jederzeit generell oder partiell (beschränkt auf einzelne Datenarten) zu widersprechen.",
+     "fundstelle": "§ 15 Abs 2",
+     "suchHinweis": "Widerspruch Teilnahme generell partiell"
+    },
+    {
+     "num": 336,
+     "quellen": ["gtelg2012"],
+     "claim": "Belegt den situativen Widerspruch für einzelne Behandlungs- oder Betreuungsfälle und die Hinweispflicht bei sensiblen Daten.",
+     "fundstelle": "§ 16 Abs 2 Z 2",
+     "suchHinweis": "situativer Widerspruch Hinweispflicht sensible Daten"
+    }
+   ]
+  }
+ ]
+}

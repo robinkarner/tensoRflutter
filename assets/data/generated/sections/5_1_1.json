@@ -1,0 +1,129 @@
+{
+ "sectionId": "5.1.1",
+ "paragraphs": [
+  {
+   "id": "5.1.1-p1",
+   "type": "text",
+   "kernaussage": "Die zentralen ELGA-Komponenten (Z-PI, GDA-Index, Berechtigungssystem, A-ARR, Bürger-Zugangsportal) machen den dezentral gespeicherten Datenbestand auffindbar, kontrollierbar und zugänglich, während Verweise und Dokumente selbst dezentral in den ELGA-Bereichen liegen.",
+   "sentences": [
+    {
+     "text": "Die zentralen Komponenten stellen jene Verzeichnis-, Berechtigungs- und Protokolldienste bereit, ohne die der verteilt gespeicherte Datenbestand nicht auffindbar und nicht zugänglich wäre.",
+     "einfach": "Weil die Gesundheitsdaten in ELGA verteilt (dezentral) gespeichert sind, braucht es zentrale Dienste, die als Verzeichnisse dienen, Zugriffe erlauben oder verbieten und alles protokollieren. Ohne diese zentralen Komponenten könnte man die verteilten Daten weder finden noch abrufen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Verzeichnis-, Berechtigungs- und Protokolldienste", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der zentrale Patientenindex (Z-PI) verknüpft die unterschiedlichen lokalen Patientenkennungen einer Person zu einer eindeutigen Identität und ermittelt, in welchen ELGA-Bereichen Verweise auf Daten dieser Person liegen können.[^273]",
+     "einfach": "Eine Person hat in verschiedenen Spitälern und Systemen unterschiedliche Patientennummern. Der zentrale Patientenindex (Z-PI) führt diese lokalen Kennungen zu einer eindeutigen Identität zusammen und weiß, in welchen regionalen ELGA-Bereichen es Verweise auf Daten dieser Person geben kann.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "zentrale Patientenindex (Z-PI)", "kategorie": "tech" },
+      { "snippet": "lokalen Patientenkennungen", "kategorie": "tech" },
+      { "snippet": "ELGA-Bereichen", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der Gesundheitsdiensteanbieterindex (GDA-Index) dient der Überprüfung der Identität der ELGA-Gesundheitsdiensteanbieter und bezieht seine Daten aus dem eHealth-Verzeichnisdienst (eHVD).[^274]",
+     "einfach": "Der GDA-Index ist das Gegenstück zum Patientenindex für die Anbieterseite: Er prüft, ob ein zugreifender Gesundheitsdiensteanbieter (z. B. Arzt, Spital, Apotheke) wirklich der ist, der er vorgibt zu sein. Seine Daten stammen aus dem eHealth-Verzeichnisdienst (eHVD), einem Verzeichnis aller Gesundheitsdiensteanbieter.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "Gesundheitsdiensteanbieterindex (GDA-Index)", "kategorie": "tech" },
+      { "snippet": "ELGA-Gesundheitsdiensteanbieter", "kategorie": "akteur" },
+      { "snippet": "eHealth-Verzeichnisdienst (eHVD)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das von den ELGA-Systempartnern eingerichtete und im Bundesrechenzentrum betriebene Berechtigungssystem (BeS) entscheidet bei jedem Zugriff anhand der Zugriffsberechtigungen über dessen Zulässigkeit.[^275]",
+     "einfach": "Das Berechtigungssystem (BeS) prüft bei jedem einzelnen Zugriff auf ELGA-Daten, ob er nach den geltenden Zugriffsberechtigungen erlaubt ist. Eingerichtet wurde es von den ELGA-Systempartnern (Bund, Sozialversicherung, Länder); betrieben wird es im Bundesrechenzentrum, dem zentralen IT-Dienstleister des Bundes.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "ELGA-Systempartnern", "kategorie": "akteur" },
+      { "snippet": "Bundesrechenzentrum", "kategorie": "akteur" },
+      { "snippet": "Berechtigungssystem (BeS)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das Protokollierungssystem, technisch als Aggregiertes Audit Record Repository (A-ARR) ausgeführt, zeichnet jede Verarbeitung auf.[^276]",
+     "einfach": "Jede Verarbeitung von ELGA-Daten wird protokolliert. Technisch übernimmt das ein zentraler Protokollspeicher, das Aggregierte Audit Record Repository (A-ARR), das die Prüfprotokolle (Audit Records) aus allen Bereichen zusammenführt.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Protokollierungssystem", "kategorie": "tech" },
+      { "snippet": "Aggregiertes Audit Record Repository (A-ARR)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Den Zugang für Bürgerinnen und Bürger eröffnet schließlich das über gesundheit.gv.at erreichbare Bürger-Zugangsportal, das ausschließlich nach einer eindeutigen elektronischen Identifizierung zugänglich ist.[^277]",
+     "einfach": "Bürgerinnen und Bürger sehen ihre eigenen ELGA-Daten über das Bürger-Zugangsportal auf der Website gesundheit.gv.at ein. Der Zugang funktioniert nur nach eindeutiger elektronischer Identifizierung, in der Praxis etwa mit der ID Austria.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "gesundheit.gv.at", "kategorie": "tech" },
+      { "snippet": "Bürger-Zugangsportal", "kategorie": "tech" },
+      { "snippet": "eindeutigen elektronischen Identifizierung", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Verweise auf die Befunde und die Befunddokumente selbst werden hingegen nicht zentral gehalten, sondern liegen in den dezentralen ELGA-Bereichen.[^278]",
+     "einfach": "Die eigentlichen Befunddokumente und auch die Verweise (Registereinträge) darauf liegen nicht in einer zentralen Datenbank, sondern verteilt in den regionalen ELGA-Bereichen. Zentral sind nur die Hilfsdienste, die diese verteilten Daten auffindbar und zugänglich machen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Verweise auf die Befunde", "kategorie": "tech" },
+      { "snippet": "dezentralen ELGA-Bereichen", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 273,
+     "quellen": ["gtelg2012"],
+     "claim": "Die Funktion des zentralen Patientenindex, Patientenkennungen zu einer eindeutigen Identität zu verknüpfen, ist gesetzlich im GTelG 2012 verankert.",
+     "fundstelle": "§ 18 Abs 1",
+     "suchHinweis": "§ 18 Patientenindex eindeutige Identifikation"
+    },
+    {
+     "num": 274,
+     "quellen": ["gtelg2012"],
+     "claim": "Der GDA-Index zur Identitätsprüfung der ELGA-Gesundheitsdiensteanbieter ist im GTelG 2012 geregelt.",
+     "fundstelle": "§ 18 Abs 1",
+     "suchHinweis": "§ 18 Gesundheitsdiensteanbieterindex eHealth-Verzeichnisdienst"
+    },
+    {
+     "num": 275,
+     "quellen": ["elga-gesamtarchitektur2017", "gtelg2012"],
+     "claim": "Einrichtung des Berechtigungssystems durch die ELGA-Systempartner und dessen Zugriffsentscheidung anhand der Zugriffsberechtigungen sind gesetzlich und in der ELGA-Gesamtarchitektur dokumentiert.",
+     "fundstelle": "§ 21 Abs 1 (GTelG 2012); S. 116 (ELGA-Gesamtarchitektur)",
+     "suchHinweis": "Berechtigungssystem BeS Zugriffsberechtigungen Policy"
+    },
+    {
+     "num": 276,
+     "quellen": ["elga-gesamtarchitektur2017", "gtelg2012"],
+     "claim": "Die Protokollierungspflicht und die technische Ausführung als Aggregiertes Audit Record Repository (A-ARR) sind gesetzlich bzw. in der ELGA-Gesamtarchitektur belegt.",
+     "fundstelle": "§ 22 (GTelG 2012); S. 11 (ELGA-Gesamtarchitektur)",
+     "suchHinweis": "Protokollierung A-ARR Audit Record Repository"
+    },
+    {
+     "num": 277,
+     "quellen": ["elga-gesamtarchitektur2017", "gtelg2012"],
+     "claim": "Das Bürger-Zugangsportal über gesundheit.gv.at und das Erfordernis der eindeutigen elektronischen Identifizierung sind gesetzlich bzw. in der ELGA-Gesamtarchitektur festgelegt.",
+     "fundstelle": "§ 23 (GTelG 2012); S. 210 (ELGA-Gesamtarchitektur)",
+     "suchHinweis": "Zugangsportal Bürger elektronische Identifizierung gesundheit.gv.at"
+    },
+    {
+     "num": 278,
+     "quellen": ["elga-gesamtarchitektur2017", "gtelg2012"],
+     "claim": "Verweise und Befunddokumente werden dezentral in den ELGA-Bereichen und nicht zentral gespeichert.",
+     "fundstelle": "§ 20 Abs 3 (GTelG 2012); S. 330 (ELGA-Gesamtarchitektur)",
+     "suchHinweis": "dezentrale Speicherung Registry Repository ELGA-Bereich"
+    }
+   ]
+  }
+ ]
+}

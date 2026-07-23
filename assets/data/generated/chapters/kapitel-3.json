@@ -1,0 +1,36 @@
+{
+ "chapter": 3,
+ "title": "Technische Grundlagen",
+ "kurzfassung": "Kapitel 3 legt das technische Fundament der Analyse.\n\n### Architekturmodelle\nNationale Gesundheitsakten folgen drei Grundmustern: **zentral** (eine nationale Datenbank — vollständige Verfügbarkeit, aber Single Point of Failure und Spannung zur Datenminimierung; Referenz: Finnlands Kanta), **dezentral** (Daten bleiben beim Ersteller, ein Verzeichnis hält nur Metadaten — resilient und datensouverän, aber komplex; Referenz: Estlands X-Road/EHIS) und **hybrid** (Kategorien je nach Anforderungsprofil zentral oder dezentral; Referenz: Österreichs ELGA). Die EHDS-VO schreibt kein Modell vor — sie verlangt nur Interoperabilität auf Basis des EEHRxF.\n\n### Interoperabilität auf drei Ebenen\n**Technisch** transportieren IHE-Profile die Daten: XDS.b (Dokumentenaustausch in einer Domäne), XCA (domänenübergreifender Zugriff), PIX (Patienten-ID-Abgleich). **Syntaktisch** konkurrieren zwei HL7-Standards: das dokumentenzentrierte CDA (XML, ganzes Dokument als Einheit) und das ressourcenbasierte FHIR (REST, JSON/XML, granulare Zugriffe) — FHIR ist die designierte Basis des EEHRxF. **Semantisch** sichern Terminologien die gleiche Interpretation: SNOMED CT (>360.000 klinische Konzepte) und LOINC (>100.000 Labor-/Beobachtungscodes), seit 2013 formal verknüpft.\n\n### Zugriffssicherheit (IAAA)\nDas Rahmenmodell Identification–Authentication–Authorization–Accountability strukturiert die Anforderungen: Authentifizierung über Faktoren (Wissen/Besitz/Inhärenz, MFA, PKI) und föderiertes Identitätsmanagement (SAML-Assertions); Autorisierung über RBAC (statische Rollen) und ABAC (dynamische Attribute, umgesetzt in XACML mit PEP/PDP/PIP/PAP); Rechenschaft über lückenlose Protokollierung (IHE ATNA) — im EHDS über Anhang II verbindlich.\n\n### MyHealth@EU\nAus der freiwilligen eHDSI hervorgegangen, macht die EHDS-VO die Teilnahme zur Pflicht: Nationale Kontaktstellen (bis 26.3.2027 zu benennen) tauschen ePrescription/eDispensation und Patient Summaries aus, übersetzen semantisch zwischen den nationalen Systemen und verantworten die Daten gemeinsam; die Identifizierung läuft über eIDAS-anerkannte eIDs.",
+ "kernaussagen": [
+  "Zentral, dezentral, hybrid: Die Architekturwahl bleibt den Mitgliedstaaten überlassen — entscheidend ist die EEHRxF-Schnittstelle.",
+  "Interoperabilität hat drei Ebenen: Transport (IHE XDS/XCA/PIX), Syntax (CDA vs. FHIR), Semantik (SNOMED CT, LOINC).",
+  "FHIR ist als Basis des EEHRxF designiert — ressourcenbasiert statt dokumentenzentriert.",
+  "IAAA (Identifikation, Authentifizierung, Autorisierung, Rechenschaft) strukturiert die Zugriffssicherheit; XACML/ABAC ermöglicht feingranulare Politiken.",
+  "Die Protokollierung wird im EHDS von der Best Practice zur Rechtspflicht (Anhang II).",
+  "MyHealth@EU wurde von der freiwilligen eHDSI zur verpflichtenden Infrastruktur mit nationalen Kontaktstellen."
+ ],
+ "begriffe": [
+  {"begriff": "XDS.b / XCA / PIX", "erklaerung": "IHE-Profile für Dokumententeilung, domänenübergreifenden Abruf und Patienten-ID-Abgleich."},
+  {"begriff": "HL7 CDA", "erklaerung": "XML-Standard für klinische Dokumente als zusammenhängende Einheit."},
+  {"begriff": "HL7 FHIR", "erklaerung": "Moderner ressourcenbasierter Standard mit REST/JSON — Grundlage des EEHRxF."},
+  {"begriff": "SNOMED CT / LOINC", "erklaerung": "Die zwei dominierenden medizinischen Terminologien (Klinik bzw. Labor)."},
+  {"begriff": "IAAA", "erklaerung": "Identification, Authentication, Authorization, Accountability — Rahmenmodell der Zugriffssicherheit."},
+  {"begriff": "RBAC / ABAC", "erklaerung": "Rollen- bzw. attributbasierte Zugriffskontrolle; ABAC wird mit XACML formuliert."},
+  {"begriff": "XACML", "erklaerung": "XML-Sprache für Zugriffsrichtlinien mit den Komponenten PEP, PDP, PIP, PAP."},
+  {"begriff": "ATNA", "erklaerung": "IHE-Profil für Audit-Protokollierung und Knoten-Authentifizierung."},
+  {"begriff": "SAML", "erklaerung": "Föderationsstandard für signierte Authentifizierungs-Assertions zwischen Organisationen."},
+  {"begriff": "eIDAS", "erklaerung": "EU-Verordnung 910/2014 für anerkannte elektronische Identitäten (eIDs)."}
+ ],
+ "fristen": [
+  {"datum": "26. März 2027", "was": "Benennung der nationalen Kontaktstellen (NCPeH); Durchführungsrechtsakte zu MyHealth@EU und EEHRxF."}
+ ],
+ "abschnitte": [
+  {"id": "3.1", "titel": "Architekturmodelle", "einzeiler": "Zentral (Kanta), dezentral (X-Road), hybrid (ELGA) im Vergleich."},
+  {"id": "3.2", "titel": "Interoperabilität", "einzeiler": "IHE-Profile, CDA vs. FHIR, SNOMED CT und LOINC."},
+  {"id": "3.3", "titel": "Authentifizierung und Zugriffskontrolle", "einzeiler": "IAAA, MFA/PKI/SAML, RBAC/ABAC/XACML, Protokollierung."},
+  {"id": "3.4", "titel": "MyHealth@EU", "einzeiler": "Von der eHDSI zur verpflichtenden grenzüberschreitenden Infrastruktur."}
+ ],
+ "verbindungen": {"bautAuf": ["2"], "liefertFuer": ["4", "5"]},
+ "fazitBeitrag": "Stellt das technische Vokabular und die Referenzstandards bereit, mit denen das Fazit ELGAs Architektur (hybrid, IHE-basiert, XACML-gesteuert, ATNA-protokolliert) als EHDS-tauglich einordnet."
+}

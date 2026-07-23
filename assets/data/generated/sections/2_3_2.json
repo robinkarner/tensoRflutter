@@ -1,0 +1,192 @@
+{
+  "sectionId": "2.3.2",
+  "paragraphs": [
+    {
+      "id": "2.3.2-p1",
+      "type": "text",
+      "kernaussage": "Die EHDS-Verordnung legt sechs prioritäre Kategorien personenbezogener elektronischer Gesundheitsdaten für die Primärnutzung fest.",
+      "sentences": [
+        {
+          "text": "Die EHDS-Verordnung definiert sechs prioritäre Kategorien personenbezogener elektronischer Gesundheitsdaten für die Primärnutzung:[^70]",
+          "einfach": "Die EHDS-Verordnung (EU-Verordnung 2025/327 über den Europäischen Gesundheitsdatenraum) benennt sechs Datenarten, die bei der Primärnutzung, also der Nutzung der Daten für die Behandlung, vorrangig verfügbar gemacht werden müssen.",
+          "kategorien": [
+            "norm",
+            "zahl"
+          ],
+          "marks": [
+            {
+              "snippet": "EHDS-Verordnung",
+              "kategorie": "norm"
+            },
+            {
+              "snippet": "sechs prioritäre Kategorien",
+              "kategorie": "zahl"
+            }
+          ],
+          "wichtig": "kern"
+        }
+      ],
+      "belege": [
+        {
+          "num": 70,
+          "quellen": [
+            "ehds-vo"
+          ],
+          "claim": "Belegt die Festlegung der sechs prioritären Kategorien personenbezogener elektronischer Gesundheitsdaten für die Primärnutzung.",
+          "fundstelle": "Art 14 Abs 1 lit a bis f",
+          "suchHinweis": "Artikel 14 prioritäre Kategorien Patientenkurzakte Verschreibungen"
+        }
+      ]
+    },
+    {
+      "id": "2.3.2-p2",
+      "type": "list",
+      "kernaussage": "Zu den sechs prioritären Kategorien zählen Patientenkurzakte, elektronische Verschreibungen, elektronische Abgaben, medizinische Bildgebung samt Befunden, Untersuchungsergebnisse und Entlassungsberichte.",
+      "sentences": [
+        {
+          "text": "Patientenkurzakte, die wichtige klinische Fakten für eine effiziente Gesundheitsversorgung enthält, darunter Kontaktdaten und Allergien[^71]",
+          "einfach": "Die Patientenkurzakte ist eine kompakte Zusammenfassung der wichtigsten medizinischen Informationen einer Person, etwa Kontaktdaten und Allergien, damit Behandelnde schnell einen Überblick erhalten.",
+          "kategorien": [],
+          "marks": [
+            {
+              "snippet": "Patientenkurzakte",
+              "kategorie": "schlag"
+            }
+          ],
+          "wichtig": "stuetz"
+        },
+        {
+          "text": "elektronische Verschreibungen",
+          "einfach": "Elektronische Verschreibungen sind digital ausgestellte Rezepte, mit denen Ärztinnen und Ärzte Arzneimittel verordnen.",
+          "kategorien": [],
+          "marks": [
+            {
+              "snippet": "elektronische Verschreibungen",
+              "kategorie": "schlag"
+            }
+          ],
+          "wichtig": "stuetz"
+        },
+        {
+          "text": "elektronische Abgaben von Arzneimitteln",
+          "einfach": "Elektronische Abgaben dokumentieren digital, dass eine Apotheke ein verschriebenes Arzneimittel tatsächlich an die Person ausgehändigt hat.",
+          "kategorien": [],
+          "marks": [
+            {
+              "snippet": "elektronische Abgaben",
+              "kategorie": "schlag"
+            }
+          ],
+          "wichtig": "stuetz"
+        },
+        {
+          "text": "Medizinische Bildgebung und damit zusammenhängende, auf Bildgebung gestützte Befunde",
+          "einfach": "Gemeint sind Bilddaten aus Verfahren wie Röntgen, CT oder MRT sowie die ärztlichen Befunde, die auf Basis dieser Bilder erstellt wurden.",
+          "kategorien": [],
+          "marks": [
+            {
+              "snippet": "Medizinische Bildgebung",
+              "kategorie": "tech"
+            }
+          ],
+          "wichtig": "stuetz"
+        },
+        {
+          "text": "Ergebnisse medizinischer Untersuchungen, einschließlich Labor- und anderer diagnostischer Ergebnisse und damit zusammenhängende Berichte",
+          "einfach": "Diese Kategorie umfasst Untersuchungsergebnisse wie Laborwerte und andere diagnostische Resultate samt der zugehörigen Berichte.",
+          "kategorien": [],
+          "marks": [
+            {
+              "snippet": "Ergebnisse medizinischer Untersuchungen",
+              "kategorie": "schlag"
+            }
+          ],
+          "wichtig": "stuetz"
+        },
+        {
+          "text": "Entlassungsberichte",
+          "einfach": "Entlassungsberichte fassen nach einem Krankenhausaufenthalt zusammen, welche Diagnosen gestellt, welche Behandlungen durchgeführt und welche weiteren Schritte empfohlen wurden.",
+          "kategorien": [],
+          "marks": [
+            {
+              "snippet": "Entlassungsberichte",
+              "kategorie": "schlag"
+            }
+          ],
+          "wichtig": "stuetz"
+        }
+      ],
+      "belege": [
+        {
+          "num": 71,
+          "quellen": [
+            "ehds-vo"
+          ],
+          "claim": "Belegt, dass die inhaltlichen Merkmale der Patientenkurzakte (u. a. Kontaktdaten und Allergien) in Anhang I der Verordnung beschrieben sind.",
+          "fundstelle": "Anhang I",
+          "suchHinweis": "Anhang I Patientenkurzakte Allergien Kontaktdaten"
+        }
+      ]
+    },
+    {
+      "id": "2.3.2-p3",
+      "type": "text",
+      "kernaussage": "Die sechs Kategorien wurden wegen ihrer Versorgungsrelevanz und ihrer unterschiedlichen Standardisierungsgrade priorisiert; die Mitgliedstaaten können national zusätzliche Kategorien vorsehen.",
+      "sentences": [
+        {
+          "text": "Die Priorisierung wird damit begründet, dass die genannten Kategorien vom eHealth-Netzwerk als besonders relevant für die meisten Fälle von Gesundheitsversorgung ermittelt worden seien und zugleich unterschiedliche Grade der Standardisierung aufwiesen, weshalb Interoperabilität und Datenaustausch schrittweise verbessert werden sollten.[^72]",
+          "einfach": "Die EU begründet die Auswahl damit, dass das eHealth-Netzwerk (ein Gremium der Mitgliedstaaten für digitale Gesundheit) diese Datenarten als besonders wichtig für die meisten Behandlungssituationen eingestuft hat; weil sie unterschiedlich stark standardisiert sind, sollen Interoperabilität (das Zusammenspiel verschiedener IT-Systeme) und Datenaustausch Schritt für Schritt verbessert werden.",
+          "kategorien": [
+            "akteur"
+          ],
+          "marks": [
+            {
+              "snippet": "eHealth-Netzwerk",
+              "kategorie": "akteur"
+            }
+          ],
+          "wichtig": "stuetz"
+        },
+        {
+          "text": "Die Hauptmerkmale dieser Kategorien werden in Anhang I der EHDS-Verordnung festgelegt, wobei es den Mitgliedstaaten freisteht, in ihrem nationalen Recht zusätzliche Kategorien für die Primärnutzung vorzusehen.[^73]",
+          "einfach": "Anhang I der EHDS-Verordnung beschreibt die wesentlichen Merkmale jeder Kategorie; die einzelnen EU-Länder dürfen darüber hinaus in ihrem eigenen Recht weitere Datenkategorien für die Primärnutzung festlegen.",
+          "kategorien": [
+            "norm",
+            "akteur"
+          ],
+          "marks": [
+            {
+              "snippet": "Anhang I der EHDS-Verordnung",
+              "kategorie": "norm"
+            },
+            {
+              "snippet": "Mitgliedstaaten",
+              "kategorie": "akteur"
+            }
+          ],
+          "wichtig": "kern"
+        }
+      ],
+      "belege": [
+        {
+          "num": 72,
+          "quellen": [
+            "ehds-vo"
+          ],
+          "claim": "Belegt die Begründung der Priorisierung: besondere Versorgungsrelevanz laut eHealth-Netzwerk und unterschiedliche Standardisierungsgrade mit dem Ziel schrittweiser Verbesserung von Interoperabilität und Datenaustausch.",
+          "fundstelle": "ErwGr 25",
+          "suchHinweis": "Erwägungsgrund 25 eHealth-Netzwerk Standardisierung Interoperabilität"
+        },
+        {
+          "num": 73,
+          "quellen": [
+            "ehds-vo"
+          ],
+          "claim": "Belegt, dass die Mitgliedstaaten in ihrem nationalen Recht zusätzliche Datenkategorien für die Primärnutzung vorsehen können.",
+          "fundstelle": "Art 14 Abs 1 Satz 3",
+          "suchHinweis": "Artikel 14 zusätzliche Kategorien nationales Recht"
+        }
+      ]
+    }
+  ]
+}

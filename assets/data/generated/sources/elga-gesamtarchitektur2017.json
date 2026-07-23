@@ -1,0 +1,14 @@
+{
+ "sourceId": "elga-gesamtarchitektur2017",
+ "dossier": "## Was ist diese Quelle?\nDie **ELGA-Gesamtarchitektur, Version 2.30b (28.2.2017)** der ELGA GmbH ist das maßgebliche technische Architekturdokument des ELGA-Systems (~330 Seiten) — die Primärquelle für alle Implementierungsdetails der Arbeit.\n\n## Kerninhalte (zitierte Stellen)\n- **Überblick/Komponenten** (S. 9–16): Ebenenmodell, dreizehn Bereiche als XDS-Affinity-Domains, Verweisregister-Logik, A-ARR (S. 11), Rollen Document Source/Consumer (S. 16).\n- **Identität & Berechtigung**: PIX-Meldeketten L-PI→Z-PI (S. 48f, 64, 101ff), ETS-Assertions (S. 46), Drei-Ebenen-Autorisierung ATNA/WS-Trust/XACML (S. 141), individuelle vor generellen Rechten (S. 148), Zugriffssteuerungsfassade (S. 156, 163), Kontaktbestätigungsservice (S. 158), BeS im BRZ (S. 116).\n- **Anbindung & Datenfluss**: ELGA-Adapter/Proxy (S. 57f), CDA-Erzeugung nach Leitfäden (S. 87), XCA-Abrufe (S. 58).\n- **Protokollierung & Portal**: lokale/aggregierte ARR (S. 50), ATNA (S. 329), Portal-Zugriff und Protokolleinsicht (S. 210, 314, 317f, 330), e-Medikation-Sonderweg (S. 226f).\n\n## Rolle in der Arbeit\nMit 33 Zitierstellen die technische Hauptquelle von Kapitel 5: Jede Architekturaussage (Bereiche, Gateways, ETS, XACML, A-ARR) stützt sich auf dieses Dokument; die Benachrichtigungs-Machbarkeit (Rohdaten in Echtzeit) wird daraus abgeleitet.\n\n## Verlässlichkeit & Zugang\nOffizielles Betreiberdokument (graue Literatur, hohe technische Autorität), frei als PDF auf elga.gv.at. **Achtung Alter**: Stand 2017 — für Architekturprinzipien tragfähig, für den Betriebszustand 2026 ergänzt die Arbeit den Rechnungshofbericht 2024.",
+ "keyPoints": [
+  "Dreizehn ELGA-Bereiche als eigenständige IHE-XDS-Affinity-Domains mit Gateway.",
+  "Zweistufige Autorisierung über ETS-Assertions; XACML-Policies je Patient.",
+  "Zugriffssteuerungsfassade als einheitlicher Kontrollpunkt jedes Zugriffs.",
+  "Protokollierung nach ATNA in lokale + aggregierte Audit Record Repositories.",
+  "Portal-Zugriffe laufen über das Internet (ID Austria), GDA-Zugriffe über das GIN.",
+  "e-Medikation umgeht als zentrale Anwendung die Verweis-/XCA-Kette."
+ ],
+ "zitierweise": "ELGA GmbH (2017): ELGA-Gesamtarchitektur, Version 2.30b",
+ "hinweisOhnePdf": "Das PDF ist frei auf elga.gv.at verfügbar (Dateiname ELGA_Gesamtarchitektur_2.30b.pdf); die Fußnoten nennen exakte Seitenzahlen, sodass mit abgelegtem PDF jede Stelle direkt ansteuerbar ist."
+}

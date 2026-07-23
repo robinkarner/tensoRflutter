@@ -1,0 +1,32 @@
+{
+ "chapter": 6,
+ "title": "Fazit",
+ "kurzfassung": "Das Fazit beantwortet die Forschungsfrage differenziert: **Österreich ist in großen Teilen gut positioniert** — mit klar benannten Restlücken.\n\n### Was schon passt\nELGA erfüllt zentrale EHDS-Anforderungen heute: das Zugangsrecht über das Bürger-Zugangsportal (Art 3), die granulare Zugangskontrolle durch default deny + Rollen + XACML-Feinsteuerung (Art 8) und die Zugriffsprotokollierung samt dreijähriger Mindestabrufbarkeit (Art 9 Abs 2). Fünf der sechs prioritären Datenkategorien laufen produktiv; die nationalen Speicherpflicht-Termine liegen vor den EHDS-Fristen. Der MyHealth@EU-Start im Februar 2026 (EU-Rezept ausgehend, EU-Patientenkurzakte eingehend, je mit Tschechien) belegt die Anschlussfähigkeit der gesamten Kette bis zur Kontaktstelle AT-eHDSI.\n\n### Die Lücken\n**(1) Benachrichtigung:** Art 9 verlangt auch automatische Zugriffs-Benachrichtigungen; Österreich kennt nur den Abruf. Da das A-ARR alles protokolliert, fehlt „nur“ der Kanal (E-Mail/SMS/Push der angekündigten ELGA-App) — bis 26.3.2029. **(2) Institutionen:** DHA, Marktüberwachungsbehörde und Zugangsstelle für Gesundheitsdaten sind bis 26.3.2027 zu benennen, existieren aber nicht einmal gesetzlich. **(3) Patientenkurzakte:** Die APS ist nur Erprobungsstandard; ihre ausgehende Bereitstellung fehlt. **(4) Sekundärnutzungs-Widerspruch** (Art 71, zwingend ab 2029): noch kein Mechanismus.\n\n### Die Spannungen\nDas **Opt-In** für MyHealth@EU geht über die Opt-Out-Option des Art 10 hinaus — mehr Selbstbestimmung, aber möglicherweise unvereinbar mit dem EHDS-Ziel des unionsweiten Austauschs; die Frage wird spätestens 2029 akut. Der **taxative GDA-Kreis** ist enger als der funktionale EHDS-Begriff, sichtbar an der doppelten Wahlarzt-Ausnahme. Die **Erfüllungsfiktion** (Umsetzung bis 31.12.2028) lässt nur ~3 Monate Puffer zur ersten EHDS-Stufe.\n\n### Schlussthese\nDie EHDS-Primärnutzung scheitert in Österreich nicht an fehlender Technik: Die Herausforderung liegt in der **rechtlichen Anpassung bestehender Normen und der gezielten Erweiterung der vorhandenen Infrastruktur** innerhalb der verbleibenden Fristen.",
+ "kernaussagen": [
+  "Gesamturteil: gut positioniert — ELGA erfüllt Zugang, Zugangskontrolle und Protokollierung bereits heute.",
+  "5 von 6 prioritären Datenkategorien produktiv; offen ist allein die Patientenkurzakte (APS als Erprobungsstandard).",
+  "Lücke 1: automatische Zugriffs-Benachrichtigung (Art 9) fehlt — nur der Kanal, die Daten liegen im A-ARR bereit.",
+  "Lücke 2: DHA, Marktüberwachungsbehörde und Zugangsstelle fehlen samt gesetzlicher Grundlage (Frist 26.3.2027).",
+  "Spannung: Das MyHealth@EU-Opt-In ist strenger als Art 10 erlaubt — Vereinbarkeitsfrage ab 26.3.2029.",
+  "Der zwingende Sekundärnutzungs-Widerspruch (Art 71) ist noch umzusetzen.",
+  "Zeitkritik: Erfüllungsfiktion bis 31.12.2028 = nur ~3 Monate Puffer zur ersten EHDS-Stufe.",
+  "Schlussthese: rechtliche Anpassung und gezielte Erweiterung statt technischem Neubau."
+ ],
+ "begriffe": [
+  {"begriff": "Benachrichtigungslücke", "erklaerung": "Fehlende automatische Information über Datenzugriffe nach Art 9 Abs 1 EHDS-VO."},
+  {"begriff": "Opt-In-Spannung", "erklaerung": "Österreichs Zustimmungserfordernis für MyHealth@EU vs. bloße Opt-Out-Option des Art 10."},
+  {"begriff": "Doppelte Ausnahmelage", "erklaerung": "Wahlärzte: national (§ 49 Abs 7 ÄrzteG) und unionsrechtlich (Art 50, Kleinstunternehmen) ausnehmbar."},
+  {"begriff": "Erfüllungsfiktion", "erklaerung": "Vertragslösung bis 31.12.2028 statt sofortiger technischer Anbindung."}
+ ],
+ "fristen": [
+  {"datum": "26. März 2027", "was": "Behörden-Benennung und EEHRxF-Durchführungsrechtsakte."},
+  {"datum": "31. Dezember 2028", "was": "Spätester Umsetzungstermin der Erfüllungsfiktion."},
+  {"datum": "26. März 2029", "was": "Erste EHDS-Stufe: Kurzakte/e-Rezept-Austausch, Benachrichtigungsrecht, Sekundärnutzungs-Widerspruch."},
+  {"datum": "26. März 2031", "was": "Zweite Kategorien-Gruppe (Bildgebung, Labor, Entlassungsberichte)."}
+ ],
+ "abschnitte": [
+  {"id": "6.0", "titel": "Fazit", "einzeiler": "Ergebnisse, Lücken, Spannungen und Ausblick in elf Absätzen."}
+ ],
+ "verbindungen": {"bautAuf": ["2", "3", "4", "5"], "liefertFuer": []},
+ "fazitBeitrag": "Ist selbst das Fazit — bündelt die Befunde aller Kapitel zu Positivbilanz, vier Lücken, drei Spannungen und der Schlussthese."
+}

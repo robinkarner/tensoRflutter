@@ -1,0 +1,314 @@
+{
+ "sectionId": "4.1.2",
+ "paragraphs": [
+  {
+   "id": "4.1.2-p1",
+   "type": "text",
+   "kernaussage": "Das von den ELGA-Systempartnern betriebene Berechtigungssystem steuert, welche Berufsgruppen unter welchen Voraussetzungen auf welche ELGA-Gesundheitsdaten zugreifen dürfen.",
+   "sentences": [
+    {
+     "text": "Das Berechtigungssystem ist von den ELGA-Systempartnern einzurichten und zu betreiben.",
+     "einfach": "Die ELGA-Systempartner (Bund, Länder und Sozialversicherung) müssen das Berechtigungssystem aufbauen und betreiben – die zentrale Komponente, die Zugriffsrechte in ELGA verwaltet.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "Berechtigungssystem", "kategorie": "tech" },
+      { "snippet": "ELGA-Systempartnern", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Es verwaltet die generellen und individuellen Zugriffsberechtigungen auf ELGA und steuert die Zugriffe auf die ELGA-Gesundheitsdaten.",
+     "einfach": "Das System verwaltet sowohl die allgemeinen (generellen) Standard-Zugriffsrechte als auch die von Patientinnen und Patienten individuell gesetzten Rechte und kontrolliert damit jeden Zugriff auf ELGA-Gesundheitsdaten.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "generellen und individuellen Zugriffsberechtigungen", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Darüber hinaus umfasst es nach dem GTelG 2012 die Verwaltung spezifischer Zugriffsberechtigungen auf eHealth-Anwendungen und Anwendungen der grenzüberschreitenden Gesundheitsversorgung.[^202]",
+     "einfach": "Zusätzlich verwaltet es laut GTelG 2012 auch spezielle Zugriffsrechte für eHealth-Anwendungen (z. B. den e-Impfpass) und für Anwendungen, mit denen Gesundheitsdaten über Landesgrenzen hinweg ausgetauscht werden.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "GTelG 2012", "kategorie": "norm" },
+      { "snippet": "eHealth-Anwendungen", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Ein Zugriff auf ELGA-Gesundheitsdaten ist nur dann zulässig, wenn ein aufrechtes Behandlungs- oder Betreuungsverhältnis besteht, die ELGA-Teilnehmerin oder der ELGA-Teilnehmer eindeutig identifiziert wurde und keine Widerspruchslage vorliegt.[^203]",
+     "einfach": "Ein Zugriff ist nur erlaubt, wenn drei Bedingungen gleichzeitig erfüllt sind: Es besteht gerade ein Behandlungs- oder Betreuungsverhältnis, die betroffene Person wurde eindeutig identifiziert, und sie hat dem Zugriff nicht widersprochen (kein Opt-out und keine Ausblendung).",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "ELGA-Teilnehmerin oder der ELGA-Teilnehmer", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die generellen Zugriffsberechtigungen legen dabei fest, welche Berufsgruppen standardmäßig auf welche Datenkategorien zugreifen dürfen.",
+     "einfach": "Die generellen Zugriffsberechtigungen sind Standardregeln, die pro Berufsgruppe bestimmen, welche Kategorien von Daten sichtbar sind.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Berufsgruppen", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Beispielsweise haben Ärzte und Krankenanstalten Zugriff auf alle ELGA-Gesundheitsdaten, Apotheken und Rettungsdienste nur auf Medikationsdaten, Zahnärzte auf Befunde und Medikationsdaten.[^204]",
+     "einfach": "Konkret: Ärzte und Krankenhäuser sehen alle ELGA-Gesundheitsdaten, Apotheken und Rettungsdienste nur die Medikationsdaten (Arzneimittelliste), Zahnärzte Befunde und Medikationsdaten.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Ärzte und Krankenanstalten", "kategorie": "akteur" },
+      { "snippet": "Apotheken und Rettungsdienste", "kategorie": "akteur" },
+      { "snippet": "Zahnärzte", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 202,
+     "quellen": ["gtelg2012"],
+     "claim": "Das Berechtigungssystem ist von den ELGA-Systempartnern zu betreiben und umfasst auch Zugriffsberechtigungen auf eHealth-Anwendungen und grenzüberschreitende Anwendungen.",
+     "fundstelle": "§ 21 Abs 1",
+     "suchHinweis": "§ 21 Berechtigungssystem ELGA-Systempartner"
+    },
+    {
+     "num": 203,
+     "quellen": ["gtelg2012"],
+     "claim": "Zugriff auf ELGA-Gesundheitsdaten setzt ein aufrechtes Behandlungs- oder Betreuungsverhältnis, eindeutige Identifikation und das Fehlen eines Widerspruchs voraus.",
+     "fundstelle": "§ 14 Abs 1 und § 15 Abs 2",
+     "suchHinweis": "§ 14 Behandlungsverhältnis § 15 Widerspruch Identifikation"
+    },
+    {
+     "num": 204,
+     "quellen": ["gtelg2012"],
+     "claim": "Die generellen Zugriffsberechtigungen weisen Berufsgruppen Standard-Datenkategorien zu (Ärzte/Krankenanstalten alle Daten, Apotheken/Rettungsdienste Medikationsdaten, Zahnärzte Befunde und Medikationsdaten).",
+     "fundstelle": "§ 21 Abs 2",
+     "suchHinweis": "§ 21 Abs 2 generelle Zugriffsberechtigungen Medikationsdaten"
+    }
+   ]
+  },
+  {
+   "id": "4.1.2-p2",
+   "type": "text",
+   "kernaussage": "ELGA-Teilnehmer können ihre Zugriffsrechte individuell anpassen: Daten ein- oder ausblenden, Zugriffszeiten verkürzen oder einen GDA des besonderen Vertrauens festlegen.",
+   "sentences": [
+    {
+     "text": "ELGA-Teilnehmerinnen und ELGA-Teilnehmer können darüber hinaus individuelle Zugriffsberechtigungen festlegen, indem sie elektronische Verweise und ELGA-Gesundheitsdaten für bestimmte ELGA-GDA ein- oder ausblenden, Zugriffszeiten für bestehende Berechtigungen verkürzen oder einen ELGA-GDA des besonderen Vertrauens mit dessen Zustimmung festlegen.[^205]",
+     "einfach": "Patientinnen und Patienten können die Standardrechte selbst verfeinern: einzelne Dokumente oder Verweise für bestimmte Gesundheitsdiensteanbieter aus- oder wieder einblenden, die Dauer bestehender Zugriffsrechte verkürzen oder einen „ELGA-GDA des besonderen Vertrauens\" (z. B. die Hausärztin) benennen – Letzteres nur, wenn dieser Anbieter zustimmt.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "ELGA-Teilnehmerinnen und ELGA-Teilnehmer", "kategorie": "akteur" },
+      { "snippet": "ELGA-GDA des besonderen Vertrauens", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 205,
+     "quellen": ["gtelg2012"],
+     "claim": "ELGA-Teilnehmer können individuelle Zugriffsberechtigungen festlegen (Ein-/Ausblenden, Verkürzung von Zugriffszeiten, GDA des besonderen Vertrauens).",
+     "fundstelle": "§ 21 Abs 3",
+     "suchHinweis": "§ 21 Abs 3 individuelle Zugriffsberechtigungen besonderes Vertrauen"
+    }
+   ]
+  },
+  {
+   "id": "4.1.2-p3",
+   "type": "text",
+   "kernaussage": "Das Protokollierungssystem ist von den ELGA-Systempartnern zu betreiben und macht jede Verarbeitung von Gesundheitsdaten dokumentierbar und nachvollziehbar.",
+   "sentences": [
+    {
+     "text": "Zum Protokollierungssystem schreibt das GTelG 2012 vor, dass dieses von den ELGA-Systempartnern einzurichten und zu betreiben ist.",
+     "einfach": "Auch das Protokollierungssystem (das Audit-Logging von ELGA) müssen laut GTelG 2012 die ELGA-Systempartner einrichten und betreiben.",
+     "kategorien": ["norm", "tech", "akteur"],
+     "marks": [
+      { "snippet": "Protokollierungssystem", "kategorie": "tech" },
+      { "snippet": "GTelG 2012", "kategorie": "norm" },
+      { "snippet": "ELGA-Systempartnern", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Es dient der Dokumentation und Nachvollziehbarkeit der Verarbeitung von ELGA-Gesundheitsdaten sowie auch von Gesundheitsdaten in eHealth-Anwendungen und in Anwendungen der grenzüberschreitenden Gesundheitsversorgung.[^206]",
+     "einfach": "Es zeichnet auf, wer wann welche Daten verarbeitet hat – nicht nur für ELGA-Gesundheitsdaten, sondern auch für Gesundheitsdaten in eHealth-Anwendungen und in der grenzüberschreitenden Versorgung.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "eHealth-Anwendungen", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 206,
+     "quellen": ["gtelg2012"],
+     "claim": "Das Protokollierungssystem ist von den ELGA-Systempartnern zu betreiben und dient der Nachvollziehbarkeit der Verarbeitung von ELGA- und eHealth-Gesundheitsdaten.",
+     "fundstelle": "§ 22 Abs 1",
+     "suchHinweis": "§ 22 Protokollierungssystem Nachvollziehbarkeit"
+    }
+   ]
+  },
+  {
+   "id": "4.1.2-p4",
+   "type": "text",
+   "kernaussage": "Jede Verarbeitung von ELGA-Gesundheitsdaten wird mit detaillierten Angaben protokolliert und drei Jahre aufbewahrt, womit Österreich die Mindestanforderung der EHDS-Verordnung erfüllt.",
+   "sentences": [
+    {
+     "text": "Jede Verarbeitung von ELGA-Gesundheitsdaten ist als Datensicherheitsmaßnahme im Sinne des Artikel 32 DSGVO zu protokollieren.",
+     "einfach": "Jeder Verarbeitungsvorgang an ELGA-Gesundheitsdaten muss protokolliert werden. Rechtlich ist das eine Sicherheitsmaßnahme nach Artikel 32 der Datenschutz-Grundverordnung (DSGVO), der technische und organisatorische Schutzmaßnahmen für personenbezogene Daten verlangt.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "Artikel 32 DSGVO", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das Protokoll hat Datum und Zeit der Verarbeitung, die eindeutige Protokoll-Transaktionsnummer, die Art des Verarbeitungsvorgangs, die eindeutige elektronische Identität des ELGA-GDA oder der ELGA- und eHealth-Supporteinrichtung, den Namen der natürlichen Person, die tatsächlich verarbeitet hat, die eindeutige Kennung der verarbeiteten ELGA-Gesundheitsdaten, die Abfragekriterien sowie Fehlermeldungen bei Abfragen, die zu Fehlermeldungen führen, zu enthalten.[^207]",
+     "einfach": "Das Protokoll muss viele Details erfassen: Zeitpunkt, eine eindeutige Transaktionsnummer, die Art des Vorgangs (z. B. Lesen oder Speichern), die elektronische Identität der zugreifenden Einrichtung, den Namen der Person, die tatsächlich zugegriffen hat, die Kennung der betroffenen Daten, die verwendeten Suchkriterien sowie Fehlermeldungen bei fehlgeschlagenen Abfragen.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "Protokoll-Transaktionsnummer", "kategorie": "tech" },
+      { "snippet": "ELGA-GDA oder der ELGA- und eHealth-Supporteinrichtung", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Aufbewahrungsfrist für Protokolldaten beträgt drei Jahre nach dem jeweiligen Zugriff.[^208]",
+     "einfach": "Diese Protokolldaten müssen drei Jahre lang ab dem jeweiligen Zugriff aufbewahrt werden.",
+     "kategorien": ["frist"],
+     "marks": [
+      { "snippet": "drei Jahre nach dem jeweiligen Zugriff", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Damit entspricht Österreich der europäischen Mindestanforderung der EHDS-Verordnung, wonach die Zugriffsinformationen ab dem Tag des Zugriffs mindestens drei Jahre lang abrufbar sein müssen.[^209]",
+     "einfach": "Österreich erfüllt damit genau die Untergrenze der EHDS-Verordnung: Sie verlangt, dass Informationen über Zugriffe ab dem Zugriffstag mindestens drei Jahre lang abrufbar bleiben.",
+     "kategorien": ["norm", "frist", "these"],
+     "marks": [
+      { "snippet": "entspricht Österreich der europäischen Mindestanforderung", "kategorie": "these" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "mindestens drei Jahre", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 207,
+     "quellen": ["gtelg2012"],
+     "claim": "Das GTelG 2012 legt die Pflichtinhalte des Protokolls fest (Zeitpunkt, Transaktionsnummer, Vorgangsart, Identität des GDA, Name der handelnden Person, Datenkennung, Abfragekriterien, Fehlermeldungen).",
+     "fundstelle": "§ 22 Abs 2",
+     "suchHinweis": "§ 22 Abs 2 Protokoll Transaktionsnummer Abfragekriterien"
+    },
+    {
+     "num": 208,
+     "quellen": ["gtelg2012"],
+     "claim": "Die Aufbewahrungsfrist für Protokolldaten beträgt drei Jahre ab dem Zugriff.",
+     "fundstelle": "§ 22 Abs 3",
+     "suchHinweis": "§ 22 Abs 3 Protokolldaten drei Jahre"
+    },
+    {
+     "num": 209,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung verlangt, dass Zugriffsinformationen ab dem Tag des Zugriffs mindestens drei Jahre lang abrufbar sind.",
+     "fundstelle": "Art 9 Abs 2",
+     "suchHinweis": "Article 9 logging access three years"
+    }
+   ]
+  },
+  {
+   "id": "4.1.2-p5",
+   "type": "text",
+   "kernaussage": "ELGA-Teilnehmer sowie Ärzte und Apotheken haben ein Recht auf einfache, übersichtliche Auskunft über die sie betreffenden Protokolldaten.",
+   "sentences": [
+    {
+     "text": "ELGA-Teilnehmerinnen und ELGA-Teilnehmer haben das Recht, Auskunft über die sie betreffenden Protokolldaten zu erhalten und diese zu verarbeiten.",
+     "einfach": "Patientinnen und Patienten dürfen einsehen, wer wann auf ihre Daten zugegriffen hat, und diese Protokolldaten auch selbst nutzen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "ELGA-Teilnehmerinnen und ELGA-Teilnehmer", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Darstellung hat einfach und übersichtlich zu sein.[^210]",
+     "einfach": "Die Anzeige dieser Protokolldaten muss einfach und übersichtlich gestaltet sein, damit sie ohne Fachwissen verständlich ist.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Darüber hinaus haben auch Ärzte und Apotheken das Recht, Auskunft über die Protokolldaten ihrer eigenen Verarbeitungsvorgänge zu erhalten und zu verarbeiten.[^211]",
+     "einfach": "Auch Ärzte und Apotheken dürfen die Protokolle ihrer eigenen Zugriffe einsehen und verwenden – aber nur die ihrer eigenen Verarbeitungsvorgänge.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Ärzte und Apotheken", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 210,
+     "quellen": ["gtelg2012"],
+     "claim": "ELGA-Teilnehmer haben ein Recht auf einfache und übersichtliche Auskunft über die sie betreffenden Protokolldaten.",
+     "fundstelle": "§ 22 Abs 4",
+     "suchHinweis": "§ 22 Abs 4 Auskunft Protokolldaten übersichtlich"
+    },
+    {
+     "num": 211,
+     "quellen": ["gtelg2012"],
+     "claim": "Auch Ärzte und Apotheken haben ein Auskunftsrecht über die Protokolldaten ihrer eigenen Verarbeitungsvorgänge.",
+     "fundstelle": "§ 22 Abs 6",
+     "suchHinweis": "§ 22 Abs 6 Ärzte Apotheken Protokolldaten"
+    }
+   ]
+  },
+  {
+   "id": "4.1.2-p6",
+   "type": "text",
+   "kernaussage": "Protokolldaten dürfen nur für eng begrenzte Zwecke personenbezogen verarbeitet werden; Verstöße werden mit Geldstrafen bis zu 21.800 Euro geahndet.",
+   "sentences": [
+    {
+     "text": "Protokolldaten dürfen nicht personenbezogen verarbeitet werden, außer zur gerichtlichen oder außergerichtlichen Rechtsdurchsetzung, zur Sicherstellung rollenkonformer Verarbeitung, zur Information über Aktualisierungen von ELGA-Gesundheitsdaten, im Falle technischer Notwendigkeit oder zur Optimierung und Evaluierung von ELGA in pseudonymisierter Form, wobei eine Re-Identifikation mit rechtlich zulässigen Mitteln nicht möglich sein darf.[^212]",
+     "einfach": "Die Protokolle dürfen grundsätzlich nicht mit Personenbezug ausgewertet werden. Ausnahmen gibt es nur für die Durchsetzung von Rechtsansprüchen, die Kontrolle, ob Zugriffe zur jeweiligen Rolle passen, Benachrichtigungen über neue Daten, technische Notwendigkeiten sowie – nur pseudonymisiert, also mit ersetzten Identifikatoren ohne rechtlich zulässige Rückführungsmöglichkeit – die Optimierung und Evaluierung von ELGA.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "pseudonymisierter Form", "kategorie": "tech" },
+      { "snippet": "Re-Identifikation", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Verwaltungsübertretungen werden mit Geldstrafen bis zu 21.800 Euro geahndet.[^213]",
+     "einfach": "Wer gegen diese Regeln verstößt, begeht eine Verwaltungsübertretung (kein gerichtliches Strafverfahren, sondern eine Behördenstrafe), die mit bis zu 21.800 Euro Geldstrafe geahndet wird.",
+     "kategorien": ["zahl"],
+     "marks": [
+      { "snippet": "21.800 Euro", "kategorie": "zahl" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 212,
+     "quellen": ["gtelg2012"],
+     "claim": "Personenbezogene Verarbeitung von Protokolldaten ist nur für abschließend genannte Zwecke zulässig; für Optimierung und Evaluierung nur pseudonymisiert ohne Re-Identifikationsmöglichkeit.",
+     "fundstelle": "§ 22 Abs 5",
+     "suchHinweis": "§ 22 Abs 5 Protokolldaten pseudonymisiert Re-Identifikation"
+    },
+    {
+     "num": 213,
+     "quellen": ["gtelg2012"],
+     "claim": "Verstöße werden als Verwaltungsübertretung mit Geldstrafen bis zu 21.800 Euro geahndet.",
+     "fundstelle": "§ 25 Abs 3 Z 2",
+     "suchHinweis": "§ 25 Verwaltungsstrafbestimmung 21 800 Euro"
+    }
+   ]
+  }
+ ]
+}

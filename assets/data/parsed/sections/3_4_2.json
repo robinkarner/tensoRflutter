@@ -1,0 +1,94 @@
+{
+ "sectionId": "3.4.2",
+ "title": "Funktionsweise und Datenfluss",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 31,
+ "pdfPage": 41,
+ "paragraphs": [
+  {
+   "id": "3.4.2-p1",
+   "type": "text",
+   "text": "Der Datenaustausch für EHR über MyHealth@EU erfolgt auf der Grundlage des europäischen Austauschformats EEHRxF.[^178] Die nationalen Kontaktstellen fungieren dabei als gemeinsam Verantwortliche für die übermittelten personenbezogenen elektronischen Gesundheitsdaten, während die Kommission als Auftragsverarbeiterin auftritt und zentrale Dienste für die Infrastruktur erbringt.[^179] Jede nationale Kontaktstelle (NCPeH) bildet technisch das Gateway zwischen der jeweiligen nationalen Gesundheitsinfrastruktur und der EU-Plattform.[^180]",
+   "footnotes": [
+    {
+     "num": 178,
+     "text": "Vgl. Art 23 Abs 3 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 179,
+     "text": "Vgl. Art 23 Abs 7 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 180,
+     "text": "Vgl. Europäische Kommission (2026): Public Health: Meine Rechte an meinen Gesundheitsdaten.",
+     "sources": [
+      "ek-myrights2026"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.4.2-p2",
+   "type": "text",
+   "text": "Die Funktionsweise lässt sich exemplarisch an der grenzüberschreitenden elektronischen Verschreibung nachvollziehen. Apotheken haben Zugang zu elektronischen Verschreibungen, die ihnen aus anderen Mitgliedstaaten über MyHealth@EU übermittelt werden.[^181] Die folgende Abbildung veranschaulicht dazu die Funktion der nationalen Kontaktstellen: [ABBILDUNG: Beispiel elektronische Verschreibung über MyHealth@EU — übernommen aus Europäische Kommission (2026): Public Health: Meine Rechte an meinen Gesundheitsdaten.]",
+   "footnotes": [
+    {
+     "num": 181,
+     "text": "Vgl. Art 23 Abs 6 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.4.2-p3",
+   "type": "text",
+   "text": "Wenn eine Patientin oder ein Patient in einen anderen Mitgliedstaat (Country B) reist und eine Apotheke aufsucht, um ein Medikament aus einer elektronischen Verschreibung abzuholen, baut diese Kontakt mit der dortigen nationalen Kontaktstelle auf, die wiederum über MyHealth@EU mit der nationalen Kontaktstelle des Mitgliedstaats (Country A) verbunden ist, wo die elektronische Verschreibung des Patienten erfolgt ist. Die Apotheke gibt das Arzneimittel auf der Grundlage der Verschreibung aus und meldet die Abgabe wieder über MyHealth@EU an den Mitgliedstaat zurück, in dem die Verschreibung ausgestellt wurde.[^182] Eine zentrale Aufgabe der nationalen Kontaktstellen ist dabei die semantische Transformation der Daten, da die nationalen eHealth-Systeme unabhängig voneinander und ohne grenzüberschreitende Koordination entstanden sind und sich erheblich voneinander unterscheiden.[^183]",
+   "footnotes": [
+    {
+     "num": 182,
+     "text": "Vgl. Art 23 Abs 6 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 183,
+     "text": "Vgl. Bruthans et al. (2023): The Current State and Usage of European Electronic Cross-border Health Services (eHDSI). S. 1.",
+     "sources": [
+      "bruthans2023"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.4.2-p4",
+   "type": "text",
+   "text": "Neben der elektronischen Verschreibung und Abgabe ist die Patientenkurzakte der zweite Kerndienst, der grundlegende medizinische Daten wie Allergien, aktuelle Medikation und Vorerkrankungen bereitstellt und behandelnden Ärztinnen und Ärzten wesentliche Informationen - soweit möglich in ihrer eigenen Sprache - zugänglich macht.[^184] Die technischen Spezifikationen für die Sicherheit, Vertraulichkeit und den Schutz der Daten sowie die Bedingungen für die Konformitätsüberprüfungen beim Anschluss an MyHealth@EU hat die Kommission bis zum 26. März 2027 mittels Durchführungsrechtsakten festzulegen.[^185]",
+   "footnotes": [
+    {
+     "num": 184,
+     "text": "Vgl. Europäische Kommission (2026): Public Health: Elektronische grenzüberschreitende Gesundheitsdienste.",
+     "sources": [
+      "ek-crossborder2026"
+     ]
+    },
+    {
+     "num": 185,
+     "text": "Vgl. Art 23 Abs 4 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

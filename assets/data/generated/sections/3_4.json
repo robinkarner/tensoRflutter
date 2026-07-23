@@ -1,0 +1,51 @@
+{
+ "sectionId": "3.4",
+ "paragraphs": [
+  {
+   "id": "3.4-p1",
+   "type": "text",
+   "kernaussage": "Der EHDS erweitert die bisher national betrachteten technischen Grundlagen um die grenzüberschreitende Dimension; die dafür eingerichtete Infrastruktur heißt MyHealth@EU.",
+   "sentences": [
+    {
+     "text": "Die vorangegangenen Abschnitte beschrieben die technischen Grundlagen - Architekturmodelle, Interoperabilitätsebenen sowie Authentifizierung und Zugriffskontrolle - und bezogen sich primär auf die nationale Ebene.",
+     "einfach": "Die bisherigen Abschnitte behandelten Architekturmodelle, die Ebenen der Interoperabilität (Fähigkeit von Systemen, zusammenzuarbeiten) sowie Authentifizierung und Zugriffskontrolle - jeweils bezogen auf ein einzelnes Land.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Architekturmodelle", "kategorie": "tech" },
+      { "snippet": "Interoperabilitätsebenen", "kategorie": "tech" },
+      { "snippet": "Authentifizierung und Zugriffskontrolle", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Der EHDS erweitert diesen Rahmen auf die grenzüberschreitende Dimension indem Bürgerinnen und Bürgern, die in einem anderen Mitgliedstaat medizinisch behandelt werden möchten, ihre Gesundheitsdaten dort ebenso zugänglich gemacht werden soll wie im Inland.",
+     "einfach": "Der EHDS (Europäischer Gesundheitsdatenraum) dehnt diesen Rahmen auf grenzüberschreitende Fälle aus: Wer sich in einem anderen EU-Mitgliedstaat behandeln lässt, soll dort genauso auf seine Gesundheitsdaten zugreifen können wie zu Hause.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "EHDS", "kategorie": "norm" },
+      { "snippet": "Mitgliedstaat", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die dafür eingerichtete Infrastruktur trägt die Bezeichnung MyHealth@EU.[^170]",
+     "einfach": "Die technische Infrastruktur, die diesen grenzüberschreitenden Datenaustausch ermöglicht, heißt MyHealth@EU.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "MyHealth@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 170,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung richtet MyHealth@EU als Infrastruktur für den grenzüberschreitenden Austausch personenbezogener elektronischer Gesundheitsdaten ein.",
+     "fundstelle": "Art 23 Abs 1",
+     "suchHinweis": "Artikel 23 MyHealth@EU grenzüberschreitend Infrastruktur"
+    }
+   ]
+  }
+ ]
+}

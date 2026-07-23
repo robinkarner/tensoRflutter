@@ -1,0 +1,273 @@
+{
+ "sectionId": "5.3.3",
+ "paragraphs": [
+  {
+   "id": "5.3.3-p1",
+   "type": "text",
+   "kernaussage": "Die Protokollierungspflichten des GTelG 2012 decken die inhaltlichen EHDS-Anforderungen ab, einschließlich der dreijährigen Mindestabrufbarkeit.",
+   "sentences": [
+    {
+     "text": "Grundsätzlich spiegelt das GTelG 2012 mit dem Protokollierungssystem und der Zugriffsauskunft die inhaltlichen Anforderungen der EHDS-Verordnung.",
+     "einfach": "Im Kern verlangt die EHDS-Verordnung bei der Protokollierung nichts, was das österreichische Gesetz nicht schon vorsieht.",
+     "kategorien": ["these", "norm"],
+     "marks": [{"snippet": "spiegelt das GTelG 2012", "kategorie": "these"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das GTelG 2012 verlangt, dass jede Verarbeitung mit Datum und Zeit, der eindeutigen elektronischen Identität des zugreifenden Gesundheitsdiensteanbieters und der verarbeitenden natürlichen Person sowie der Kennung der verarbeiteten Daten protokolliert wird.[^343]",
+     "einfach": "Jeder Zugriff wird mit Zeitpunkt, zugreifender Einrichtung, zugreifender Person und betroffenen Daten festgehalten.",
+     "kategorien": ["norm", "tech"],
+     "marks": [{"snippet": "GTelG 2012", "kategorie": "norm"}, {"snippet": "Datum und Zeit", "kategorie": "tech"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Damit sind die in der EHDS-Verordnung geforderten Mindestangaben dazu, wer wann auf welche Daten zugegriffen hat, inhaltlich abgedeckt.[^344]",
+     "einfach": "Genau diese Angaben (wer, wann, welche Daten) fordert Art 9 Abs 1 der EHDS-Verordnung — inhaltlich also erfüllt.",
+     "kategorien": ["norm", "these"],
+     "marks": [{"snippet": "inhaltlich abgedeckt", "kategorie": "these"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die in der EHDS-Verordnung geforderte Mindestabrufbarkeit der Zugriffsinformationen von drei Jahren wird durch die dreijährige Aufbewahrungsfrist des GTelG 2012 erreicht.[^345]",
+     "einfach": "Auch die Fristen passen zusammen: drei Jahre Mindestabrufbarkeit (EHDS Art 9 Abs 2) = drei Jahre Aufbewahrung (§ 22 Abs 3 GTelG 2012).",
+     "kategorien": ["frist", "norm"],
+     "marks": [{"snippet": "drei Jahren", "kategorie": "frist"}, {"snippet": "dreijährige Aufbewahrungsfrist", "kategorie": "frist"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 343, "quellen": ["gtelg2012"], "claim": "Belegt den gesetzlichen Protokollinhalt (Zeit, Identität des GDA, verarbeitende Person, Datenkennung).", "fundstelle": "§ 22 Abs 2", "suchHinweis": "Protokoll Datum Zeit Identität Kennung"},
+    {"num": 344, "quellen": ["ehds-vo"], "claim": "Belegt die EHDS-Mindestangaben zur Zugriffsinformation (wer, wann, welche Daten).", "fundstelle": "Art 9 Abs 1", "suchHinweis": "Artikel 9 Informationen Zugriff Gesundheitsdaten"},
+    {"num": 345, "quellen": ["ehds-vo", "gtelg2012"], "claim": "Belegt die Deckungsgleichheit der dreijährigen Mindestabrufbarkeit (EHDS) mit der Aufbewahrungsfrist (GTelG).", "fundstelle": "Art 9 Abs 2; § 22 Abs 3 GTelG 2012", "suchHinweis": "drei Jahre abrufbar Aufbewahrung"}
+   ]
+  },
+  {
+   "id": "5.3.3-p2",
+   "type": "text",
+   "kernaussage": "Die zentrale Differenz: Die EHDS-Verordnung verlangt auch automatische Benachrichtigungen über Zugriffe, das österreichische Recht kennt nur ein abrufbasiertes Auskunftsrecht — diese Lücke ist bis März 2029 zu schließen.",
+   "sentences": [
+    {
+     "text": "Eine wesentliche Differenz besteht bei der Informationsbereitstellung.",
+     "einfach": "Der eigentliche Unterschied liegt darin, WIE die Betroffenen von Zugriffen erfahren.",
+     "kategorien": ["luecke"],
+     "marks": [{"snippet": "wesentliche Differenz", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Artikel 9 Absatz 1 der EHDS-Verordnung räumt natürlichen Personen das Recht ein, Informationen über jeden Zugriff auf ihre Gesundheitsdaten „auch durch automatische Benachrichtigungen\" zu erhalten, und sieht damit eine proaktive, ereignisgesteuerte Komponente vor.",
+     "einfach": "Die EU-Verordnung will, dass Betroffene aktiv informiert werden können (z. B. per automatischer Benachrichtigung), sobald jemand auf ihre Daten zugreift — nicht erst, wenn sie selbst nachsehen.",
+     "kategorien": ["norm", "luecke"],
+     "marks": [{"snippet": "Artikel 9 Absatz 1 der EHDS-Verordnung", "kategorie": "norm"}, {"snippet": "automatische Benachrichtigungen", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das GTelG 2012 normiert demgegenüber ein abrufbasiertes Auskunftsrecht, da die Protokolldaten auf Verlangen einfach und übersichtlich darzustellen sind.[^346]",
+     "einfach": "Österreich kennt bislang nur das Gegenteil: Die Betroffenen müssen selbst aktiv werden und die Protokolle abrufen.",
+     "kategorien": ["norm", "luecke"],
+     "marks": [{"snippet": "abrufbasiertes Auskunftsrecht", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Dieses Recht kann über das Zugangsportal oder die ELGA-Ombudsstelle ausgeübt werden.[^347]",
+     "einfach": "Der Abruf geht über das Bürger-Zugangsportal (gesundheit.gv.at) oder über die ELGA-Ombudsstelle.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [{"snippet": "Zugangsportal", "kategorie": "tech"}, {"snippet": "ELGA-Ombudsstelle", "kategorie": "akteur"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die ELGA-Gesamtarchitektur bestätigt diesen abrufbasierten Charakter, da die betroffene Person den entsprechenden Bereich des Bürger-Zugangsportals aktiv aufrufen muss, um eine Übersicht der erfolgten Zugriffe zu erhalten.[^348]",
+     "einfach": "Auch die technische Architekturdokumentation beschreibt nur diesen Weg: selbst einloggen, selbst nachsehen.",
+     "kategorien": ["tech"],
+     "marks": [{"snippet": "aktiv aufrufen", "kategorie": "luecke"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die nach der ELGA-VO 2015 im ELGA-Aushang vorgeschriebene Information über das Bestehen dieses Auskunftsrechts ist eine generelle Hinweispflicht und ersetzt keine fallbezogene Benachrichtigung bei einem konkreten Zugriffsereignis.[^349]",
+     "einfach": "Der ELGA-Aushang (Plakat/Information beim Arzt) informiert nur allgemein über das Recht — das ist keine Benachrichtigung im Einzelfall.",
+     "kategorien": ["norm"],
+     "marks": [{"snippet": "generelle Hinweispflicht", "kategorie": "these"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Eine automatisierte, proaktive Benachrichtigung im Sinne des Artikel 9 Absatz 1 EHDS-Verordnung, die bis März 2029 für die Patientenkurzakte, ePrescription und eDispensation einzurichten ist, fehlt damit sowohl im GTelG 2012 als auch in der ELGA-VO 2015.[^350]",
+     "einfach": "Fazit dieser Prüfung: Die automatische Zugriffbenachrichtigung fehlt in beiden österreichischen Rechtsakten — sie muss bis zum 26. März 2029 für die erste Gruppe der Datenkategorien funktionieren.",
+     "kategorien": ["luecke", "frist", "norm"],
+     "marks": [{"snippet": "bis März 2029", "kategorie": "frist"}, {"snippet": "fehlt damit sowohl im GTelG 2012 als auch in der ELGA-VO 2015", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 346, "quellen": ["gtelg2012"], "claim": "Belegt das abrufbasierte Auskunftsrecht (Darstellung der Protokolldaten auf Verlangen).", "fundstelle": "§ 22 Abs 4", "suchHinweis": "Auskunft Verlangen einfach übersichtlich"},
+    {"num": 347, "quellen": ["gtelg2012"], "claim": "Belegt die Ausübungswege des Auskunftsrechts (Zugangsportal, Ombudsstelle).", "fundstelle": "§ 16 Abs 1 Z 1", "suchHinweis": "Ombudsstelle Zugangsportal Auskunft"},
+    {"num": 348, "quellen": ["elga-gesamtarchitektur2017"], "claim": "Belegt den abrufbasierten Charakter laut Architekturdokument (aktiver Aufruf des Portalbereichs nötig).", "fundstelle": "S. 317f", "suchHinweis": "Zugriffsprotokoll Portal Übersicht Bürger"},
+    {"num": 349, "quellen": ["elga-vo2015"], "claim": "Belegt, dass der ELGA-Aushang nur eine generelle Hinweispflicht über das Auskunftsrecht enthält.", "fundstelle": "§ 18, § 19 Abs 2 Z 1", "suchHinweis": "Aushang Hinweis Auskunftsrecht"},
+    {"num": 350, "quellen": ["ehds-vo"], "claim": "Belegt Frist und Umfang der Benachrichtigungspflicht: Art 9 Abs 1 iVm Art 105/Art 14 — ab März 2029 für Patientenkurzakte, ePrescription und eDispensation.", "fundstelle": "Art 105 lit a iVm Art 14 Abs 1 lit a–c", "suchHinweis": "Artikel 105 Geltungsbeginn prioritäre Kategorien"}
+   ]
+  },
+  {
+   "id": "5.3.3-p3",
+   "type": "text",
+   "kernaussage": "Technisch ist die Benachrichtigungslücke klein: Das A-ARR liefert die Rohdaten bereits in Echtzeit; offen sind ein sicherer Kanal (E-Mail/SMS/Push) — Push bräuchte die erst angekündigte ELGA-App.",
+   "sentences": [
+    {
+     "text": "Diese Lücke berührt auch die Cybersicherheitsarchitektur von ELGA.",
+     "einfach": "Die Benachrichtigungsfrage ist nicht nur rechtlich, sondern auch sicherheitstechnisch relevant.",
+     "kategorien": ["kontext"],
+     "marks": [],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Das aggregierte Audit Record Repository protokolliert jeden Zugriff bereits kontinuierlich, sodass die für eine Benachrichtigung erforderlichen Rohdaten in Echtzeit vorliegen.[^351]",
+     "einfach": "Die Daten für Benachrichtigungen existieren schon: Das zentrale Protokoll-Repository (A-ARR) erfasst jeden Zugriff laufend.",
+     "kategorien": ["tech", "these"],
+     "marks": [{"snippet": "aggregierte Audit Record Repository", "kategorie": "tech"}, {"snippet": "in Echtzeit", "kategorie": "these"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Eine Erweiterung um eine Benachrichtigungsfunktion wäre daher primär eine Frage der Anbindung an die bestehende Protokollierungsinfrastruktur und nicht der Neuerhebung von Daten.[^352]",
+     "einfach": "Es müsste also „nur“ ein Benachrichtigungsdienst an das bestehende Protokollsystem angeschlossen werden — neue Datenerhebung braucht es nicht.",
+     "kategorien": ["these", "tech"],
+     "marks": [{"snippet": "Anbindung an die bestehende Protokollierungsinfrastruktur", "kategorie": "these"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Ein zusätzlicher, nach außen gerichteter Benachrichtigungskanal fiele jedoch unter die Sicherheitsanforderungen, die sich auch auf alle zur Kommunikation zwischen den ELGA-Komponenten erforderlichen Dienste erstrecken.[^353]",
+     "einfach": "Ein solcher Kanal wäre aber selbst ein sicherheitsrelevanter ELGA-Dienst und müsste die Sicherheitsanforderungen der ELGA-VO erfüllen.",
+     "kategorien": ["norm", "tech"],
+     "marks": [{"snippet": "Sicherheitsanforderungen", "kategorie": "norm"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Insbesondere wäre sicherzustellen, dass die Benachrichtigung selbst keine Rückschlüsse auf sensible Gesundheitsdaten zulässt, um eine sekundäre Datenschutzverletzung durch den Benachrichtigungsmechanismus zu vermeiden.[^354]",
+     "einfach": "Die Nachricht selbst darf keine Gesundheitsinformationen verraten (z. B. nicht „Zugriff auf Ihren HIV-Befund“), sonst schafft der Schutzmechanismus ein neues Datenschutzrisiko.",
+     "kategorien": ["these", "norm"],
+     "marks": [{"snippet": "keine Rückschlüsse auf sensible Gesundheitsdaten", "kategorie": "these"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Fraglich ist grundlegender die technische Umsetzbarkeit eines solchen Benachrichtigungskanals mit dem Zugangsportal als Webanwendung.",
+     "einfach": "Offene Frage: Wie soll eine Webanwendung wie das Zugangsportal überhaupt aktiv benachrichtigen?",
+     "kategorien": ["luecke", "tech"],
+     "marks": [{"snippet": "technische Umsetzbarkeit", "kategorie": "luecke"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Naheliegend wären zunächst gängige Kanäle wie E-Mail oder SMS.",
+     "einfach": "Kurzfristig kämen E-Mail oder SMS in Frage.",
+     "kategorien": ["tech"],
+     "marks": [{"snippet": "E-Mail oder SMS", "kategorie": "tech"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Push-Benachrichtigungen würden eine App voraussetzen, die zum Zeitpunkt dieser Arbeit noch nicht existiert.",
+     "einfach": "Push-Nachrichten bräuchten eine ELGA-App — die gibt es (Stand der Arbeit, Juli 2026) noch nicht.",
+     "kategorien": ["tech", "luecke"],
+     "marks": [{"snippet": "Push-Benachrichtigungen", "kategorie": "tech"}, {"snippet": "noch nicht existiert", "kategorie": "luecke"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Angekündigt wurde eine ELGA-App bereits und die technische Grundlage dafür soll bereits mit dem für 2026 geplanten Zugangsportal-Relaunch entstehen.[^355]",
+     "einfach": "Eine ELGA-App ist aber angekündigt; die Basis dafür soll der Portal-Relaunch 2026 legen.",
+     "kategorien": ["frist", "tech"],
+     "marks": [{"snippet": "für 2026 geplanten Zugangsportal-Relaunch", "kategorie": "frist"}],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {"num": 351, "quellen": ["elga-gesamtarchitektur2017"], "claim": "Belegt, dass das A-ARR jeden Zugriff kontinuierlich protokolliert und die Rohdaten in Echtzeit vorliegen.", "fundstelle": "S. 314", "suchHinweis": "Audit Record Repository kontinuierlich"},
+    {"num": 352, "quellen": ["elga-gesamtarchitektur2017"], "claim": "Stützt die Einschätzung, dass eine Benachrichtigungsfunktion primär Anbindung statt Neuerhebung bedeutet.", "fundstelle": "S. 317", "suchHinweis": "Protokollierung Zugriffe Portal"},
+    {"num": 353, "quellen": ["elga-vo2015"], "claim": "Belegt, dass die ELGA-Sicherheitsanforderungen auch Kommunikationsdienste zwischen den Komponenten erfassen.", "fundstelle": "§ 22 Abs 1 und 2 ELGA-VO 2015", "suchHinweis": "Sicherheitsanforderungen Kommunikation Komponenten"},
+    {"num": 354, "quellen": ["dsgvo"], "claim": "Belegt die Pflicht zu geeigneten technischen und organisatorischen Maßnahmen (Sicherheit der Verarbeitung).", "fundstelle": "Art 32", "suchHinweis": "Artikel 32 Sicherheit Verarbeitung Maßnahmen"},
+    {"num": 355, "quellen": ["orf2025"], "claim": "Belegt die Ankündigung der ELGA-App und den geplanten Zugangsportal-Relaunch 2026.", "fundstelle": "", "suchHinweis": "ELGA App Relaunch 2026 Medikamentenliste"}
+   ]
+  },
+  {
+   "id": "5.3.3-p4",
+   "type": "text",
+   "kernaussage": "Der Benachrichtigungskanal müsste sich in das NISG-Cybersicherheitsregime einfügen; für den Gesundheitssektor ist das Austrian Health CERT als sektorspezifisches Notfallteam vorgesehen.",
+   "sentences": [
+    {
+     "text": "Diese Sicherheitsanforderungen fügen sich in das Cybersicherheitsregime des Netz- und Informationssystemsicherheitsgesetzes (NISG) ein.[^356]",
+     "einfach": "Übergeordnet gilt das NISG, das österreichische Cybersicherheitsgesetz (Umsetzung der NIS-Richtlinien).",
+     "kategorien": ["norm"],
+     "marks": [{"snippet": "Netz- und Informationssystemsicherheitsgesetzes (NISG)", "kategorie": "norm"}],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Das Gesetz erfasst die Betreiber wesentlicher Dienste unter anderem auch im Sektor Gesundheitswesen.[^357]",
+     "einfach": "Auch Gesundheitseinrichtungen können „Betreiber wesentlicher Dienste“ im Sinne des NISG sein.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [{"snippet": "Betreiber wesentlicher Dienste", "kategorie": "akteur"}, {"snippet": "Sektor Gesundheitswesen", "kategorie": "akteur"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Diese haben geeignete und verhältnismäßige technische und organisatorische Sicherheitsvorkehrungen zu treffen, die den Stand der Technik berücksichtigen.[^358]",
+     "einfach": "Sie müssen Sicherheitsmaßnahmen nach dem Stand der Technik umsetzen.",
+     "kategorien": ["norm"],
+     "marks": [{"snippet": "Stand der Technik", "kategorie": "norm"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Einen Sicherheitsvorfall haben sie unverzüglich an das zuständige Computer-Notfallteam zu melden, das die Meldung an den Bundesminister für Inneres weiterleitet.[^359]",
+     "einfach": "Sicherheitsvorfälle sind sofort an das zuständige CERT zu melden, das an das Innenministerium weiterleitet.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [{"snippet": "Computer-Notfallteam", "kategorie": "akteur"}, {"snippet": "Bundesminister für Inneres", "kategorie": "akteur"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Für den Gesundheitssektor hat die für das Gesundheitswesen zuständige Bundesministerin oder der zuständige Bundesminister mit dem Austrian Health CERT ein sektorenspezifisches Computer-Notfallteam nach § 14 NISG einzurichten, das diese Aufgaben gegenüber jenen Gesundheitsdiensteanbietern wahrnimmt, die Betreiber wesentlicher Dienste sind.[^360]",
+     "einfach": "Für das Gesundheitswesen gibt es ein eigenes Notfallteam: das Austrian Health CERT (gesetzliche Grundlage: § 8a GTelG 2012 iVm § 14 NISG).",
+     "kategorien": ["akteur", "norm"],
+     "marks": [{"snippet": "Austrian Health CERT", "kategorie": "akteur"}, {"snippet": "§ 14 NISG", "kategorie": "norm"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 356, "quellen": ["nisg"], "claim": "Belegt die Einbettung in das NISG-Cybersicherheitsregime.", "fundstelle": "", "suchHinweis": "NISG Sicherheitsniveau Netz Informationssysteme"},
+    {"num": 357, "quellen": ["nisg"], "claim": "Belegt die Erfassung der Betreiber wesentlicher Dienste inkl. Sektor Gesundheitswesen.", "fundstelle": "§ 2", "suchHinweis": "Betreiber wesentlicher Dienste Gesundheitswesen"},
+    {"num": 358, "quellen": ["nisg"], "claim": "Belegt die Pflicht zu geeigneten, verhältnismäßigen Sicherheitsvorkehrungen nach dem Stand der Technik.", "fundstelle": "§ 17 Abs 1", "suchHinweis": "Sicherheitsvorkehrungen Stand der Technik"},
+    {"num": 359, "quellen": ["nisg"], "claim": "Belegt die unverzügliche Meldepflicht von Sicherheitsvorfällen an das Computer-Notfallteam.", "fundstelle": "§ 19 Abs 1", "suchHinweis": "Sicherheitsvorfall Meldung Notfallteam"},
+    {"num": 360, "quellen": ["gtelg2012"], "claim": "Belegt die Einrichtung des Austrian Health CERT als sektorspezifisches Notfallteam für das Gesundheitswesen.", "fundstelle": "§ 8a Abs 1", "suchHinweis": "Austrian Health CERT sektorspezifisch"}
+   ]
+  },
+  {
+   "id": "5.3.3-p5",
+   "type": "text",
+   "kernaussage": "Beim verpflichtenden Recht auf Zugangsbeschränkung (Art 8 EHDS-VO, für Behandler unsichtbar) bietet ELGA mit dem Ein-/Ausblenden einzelner Dokumente bereits eine vergleichbar feine Steuerung.",
+   "sentences": [
+    {
+     "text": "Über die Protokollierung hinaus betrifft die EHDS-Verordnung auch die granulare Zugangskontrolle.",
+     "einfach": "Neben der Protokollierung prüft die Arbeit hier auch das Recht, den Zugriff feingranular einzuschränken.",
+     "kategorien": ["norm"],
+     "marks": [{"snippet": "granulare Zugangskontrolle", "kategorie": "tech"}],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Die EHDS-Verordnung gewährt das Recht, den Zugang zu einzelnen Teilen der Gesundheitsdaten zu beschränken, wobei diese Beschränkung für die Gesundheitsdienstleister nicht sichtbar sein darf.[^361]",
+     "einfach": "Nach Art 8 dürfen Betroffene einzelne Datenteile sperren — und der Behandler darf nicht einmal sehen, DASS etwas gesperrt wurde.",
+     "kategorien": ["norm"],
+     "marks": [{"snippet": "Zugang zu einzelnen Teilen der Gesundheitsdaten zu beschränken", "kategorie": "norm"}, {"snippet": "nicht sichtbar", "kategorie": "these"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der Erwägungsgrund 17 der EHDS-Verordnung hebt dafür sensible Bereiche wie die psychische oder sexuelle Gesundheit hervor.",
+     "einfach": "Gedacht ist das besonders für sensible Bereiche wie psychische oder sexuelle Gesundheit.",
+     "kategorien": ["norm"],
+     "marks": [{"snippet": "Erwägungsgrund 17", "kategorie": "norm"}, {"snippet": "psychische oder sexuelle Gesundheit", "kategorie": "these"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "ELGA bietet mit dem Ein- und Ausblenden einzelner Dokumente eine vergleichbar feingliedrige Steuerung.[^362]",
+     "einfach": "ELGA erfüllt das im Kern schon: Einzelne Dokumente lassen sich für bestimmte Behandler aus- und wieder einblenden.",
+     "kategorien": ["these", "tech"],
+     "marks": [{"snippet": "Ein- und Ausblenden einzelner Dokumente", "kategorie": "tech"}, {"snippet": "vergleichbar feingliedrige Steuerung", "kategorie": "these"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 361, "quellen": ["ehds-vo"], "claim": "Belegt das Recht auf Zugangsbeschränkung einzelner Datenteile und deren Unsichtbarkeit für Gesundheitsdienstleister.", "fundstelle": "Art 8 Abs 1 iVm Art 11 Abs 5", "suchHinweis": "Artikel 8 Beschränkung Zugang restriction"},
+    {"num": 362, "quellen": ["gtelg2012"], "claim": "Belegt die vergleichbare ELGA-Funktion des Ein- und Ausblendens einzelner Dokumente.", "fundstelle": "§ 16", "suchHinweis": "ausblenden Verweise individuelle Zugriffsberechtigung"}
+   ]
+  }
+ ]
+}

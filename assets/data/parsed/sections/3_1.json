@@ -1,0 +1,31 @@
+{
+ "sectionId": "3.1",
+ "title": "Architekturmodelle elektronischer Gesundheitsakten",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 19,
+ "pdfPage": 29,
+ "paragraphs": [
+  {
+   "id": "3.1-p1",
+   "type": "text",
+   "text": "Elektronische Gesundheitsakten können nach grundlegend unterschiedlichen Architekturprinzipien organisiert sein, die jeweils unterschiedliche Konsequenzen für die Datenverfügbarkeit, die Datensouveränität, die Resilienz und den Verwaltungsaufwand haben. Für die nationale Integration elektronischer Gesundheitsakten werden typischerweise zwei Grundansätze unterschieden, eine zentrale und eine dezentrale Architektur sowie ein hybrides Modell, das die Vorteile beider Ansätze verbindet.[^95] Die EHDS-Verordnung schreibt keines dieser Modelle vor. Sie verlangt nur Harmonisierung, Interoperabilität und Wiederverwendung von Daten, ohne die konkret anzuwendenden technischen Standards zu regulieren.[^96] Die Wahl des Architekturmodells bleibt damit den Mitgliedstaaten überlassen, sofern die Anforderungen der EHDS-Verordnung, insbesondere die Verarbeitung im europäischen Austauschformat EEHRxF nach Anhang II der Verordnung erfüllt werden.",
+   "footnotes": [
+    {
+     "num": 95,
+     "text": "Vgl. AlJarullah et al. (2013): A Novel System Architecture for the National Integration of Electronic Health Records, S. 1.",
+     "sources": [
+      "aljarullah2013"
+     ]
+    },
+    {
+     "num": 96,
+     "text": "Vgl. Pedrera-Jiménez et al. (2023):Can OpenEHR, ISO 13606, and HL7 FHIR Work Together?, S. 1.",
+     "sources": [
+      "pedrera2023"
+     ]
+    }
+   ]
+  }
+ ]
+}

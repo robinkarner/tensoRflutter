@@ -1,0 +1,22 @@
+{
+  "titel": "Bewertung nach Bachelorarbeit-Standards",
+  "verdikt": "**Solide bis stark.** Die Arbeit erfüllt die formalen und wissenschaftlichen Anforderungen an eine Informatik-Bachelorarbeit mit rechtlichem Schwerpunkt deutlich und überzeugt vor allem durch die konsequente Verzahnung von Technik und Recht sowie eine ehrlich geführte Argumentation. Ausbaupotenzial liegt weniger im Kern als in einzelnen Belegketten und in der Konsistenz zwischen Analyse (Kap. 5) und Bilanz (Kap. 6).",
+  "markdown": "Bewertet wird gegen die üblichen Kriterien einer Abschlussarbeit: klare Fragestellung und Methodik, nachvollziehbarer Aufbau, wissenschaftliche Fundierung, eigenständige Argumentation, Redlichkeit und formale Sauberkeit. Die Einordnung ist **wohlwollend-kritisch** — sie benennt bewusst auch, was eine Überarbeitung noch heben könnte.",
+  "kriterien": [
+    { "name": "Fragestellung & Methodik", "note": "stark", "text": "Die Leitfrage (erfüllt ELGA die EHDS-Primärnutzungs-Anforderungen?) ist präzise, der Scope früh und diszipliniert auf die Primärnutzung begrenzt. Die Methode — Maßstab bauen, dann Realität daran messen — ist für eine Konformitätsanalyse genau richtig gewählt." },
+    { "name": "Aufbau & Gliederung", "note": "stark", "text": "Stringenter Trichter: EU-Recht (2) → Technik (3) → nationales Recht (4) → Umsetzung (5) → Bilanz (6). Vor- und Rückverweise halten den roten Faden; jedes Fazit-Ergebnis ist einem Herleitungskapitel zuordenbar." },
+    { "name": "Wissenschaftliche Fundierung", "note": "stark", "text": "Hohe Belegdichte (≈397 Fußnoten), Primärrecht mit exakter Artikel-/Paragraphenangabe, Kapitel 3 auf ~20 Peer-Review-Artikeln plus NIST-Standards. Referenzländer (Finnland, Estland) sind mit eigener Literatur belegt statt behauptet." },
+    { "name": "Argumentation & Eigenleistung", "note": "stark", "text": "Die Kernbefunde sind eigenständig entwickelt: die mustergültig hergeleitete Benachrichtigungslücke, die ehrlich als offene Rechtsfrage geführte Opt-In-Spannung und der originelle e-Impfpass/Art-8-Detailfund. Keine bloße Referatsarbeit." },
+    { "name": "Wissenschaftliche Redlichkeit", "note": "stark", "text": "Unsicheres wird im Konjunktiv geführt, Vorbehalte (fehlende Durchführungsrechtsakte, Standdatum) werden selbst benannt, die KI-Nutzung ist transparent offengelegt. Ergebnisse werden nicht überdehnt." },
+    { "name": "Formales & Aktualität", "note": "solide", "text": "Saubere LLNCS-/vutinfth-Form, konsistente Zitierweise, brandaktuelles Thema mit dokumentierten Zugriffsdaten. Kleiner Preis der Aktualität: viele Online-Quellen und eine tragende, neun Jahre alte Technikquelle (ELGA-Gesamtarchitektur 2017)." },
+    { "name": "Konsistenz Analyse ↔ Fazit", "note": "ausbaufaehig", "text": "Ein in Kapitel 5 sauber herausgearbeiteter Befund (e-Impfpass/Art 8) fehlt in der Fazit-Bilanz, und eine Pauschalaussage im Fazit („keine Probleme zu erwarten“) wirkt breiter, als sie gemeint ist. Beides ist mit kleinen Eingriffen behebbar." }
+  ],
+  "verbesserung": [
+    "Fazit-Konsistenz: Den e-Impfpass/Art-8-Befund aus 5.1.4 in die Bilanz von Kapitel 6 aufnehmen — aktuell geht eine identifizierte Lücke auf dem Weg ins Fazit verloren.",
+    "Missverständliche Pauschale entschärfen: 6.0-p3 („keine Probleme zu erwarten“) explizit auf die Speicherpflicht-Termine beschränken, da unmittelbar danach vier offene Lücken folgen.",
+    "Einzelbelege absichern: Tragende Detailfakten, die nur an je einer Website hängen (Zugriffsdauern via ELGA-FAQ, 300-Patienten-Grenze via ÄK NÖ, ELGA-App via ORF.at), mit einer zweiten, möglichst amtlichen Quelle stützen.",
+    "Aktualität der Technikbasis: Die zentrale, neun Jahre alte ELGA-Gesamtarchitektur (2017, v2.30b) wo möglich durch neuere Belege (Rechnungshof 2024, HL7-Austria-Leitfäden) ergänzen, um den Ist-Zustand 2026 breiter abzustützen.",
+    "Leichte Redundanzen glätten: Überschneidungen zwischen 5.1.3 und 5.3 (Zugriffssteuerungsfassade) sowie 4.4.1 und 5.3.1 (Widerspruchsformen) durch Verweise statt Wiederholung auflösen.",
+    "Ausblick schärfen: Die naheliegende Anschlussforschung (dogmatische Opt-In-Vereinbarkeit, empirischer APS-Produktivgang, Komponenten-Konformität nach 2027) im Fazit als eigenen kurzen Absatz sichtbar machen."
+  ]
+}

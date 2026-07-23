@@ -1,0 +1,106 @@
+{
+ "sectionId": "5.1",
+ "paragraphs": [
+  {
+   "id": "5.1-p1",
+   "type": "text",
+   "kernaussage": "Träger von ELGA ist die 2009 gegründete ELGA GmbH, an der Bund, Sozialversicherung und die neun Bundesländer als ELGA-Systempartner zu je einem Drittel beteiligt sind.",
+   "sentences": [
+    {
+     "text": "ELGA ist organisatorisch bei der ELGA GmbH angesiedelt, die 2009 gegründet wurde und an der der Bund, der Dachverband der Sozialversicherungsträger und die neun Bundesländer (mit jeweils 3,7 Prozent) zu je einem Drittel beteiligt sind.[^270]",
+     "einfach": "Organisatorisch wird ELGA von der ELGA GmbH verantwortet, einer 2009 gegründeten Gesellschaft. Ihre Eigentümer sind zu je einem Drittel der Bund, der Dachverband der Sozialversicherungsträger (Dachorganisation der Krankenkassen) und die neun Bundesländer, wobei jedes einzelne Bundesland 3,7 Prozent hält.",
+     "kategorien": ["akteur", "frist", "zahl"],
+     "marks": [
+      { "snippet": "ELGA GmbH", "kategorie": "akteur" },
+      { "snippet": "2009", "kategorie": "frist" },
+      { "snippet": "Dachverband der Sozialversicherungsträger", "kategorie": "akteur" },
+      { "snippet": "jeweils 3,7 Prozent", "kategorie": "zahl" },
+      { "snippet": "zu je einem Drittel", "kategorie": "zahl" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Gemeinsam bilden sie die ELGA-Systempartner.[^271]",
+     "einfach": "Bund, Sozialversicherung und Länder werden zusammen als ELGA-Systempartner bezeichnet; dieser Begriff ist im Gesundheitstelematikgesetz 2012 gesetzlich definiert.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "ELGA-Systempartner", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 270,
+     "quellen": ["rh-elga2024"],
+     "claim": "Gründungsjahr 2009 und die Drittel-Beteiligungsstruktur der ELGA GmbH (Bund, Dachverband, neun Länder mit je 3,7 Prozent) sind dem Rechnungshofbericht entnommen.",
+     "fundstelle": "S. 17",
+     "suchHinweis": "ELGA GmbH Gesellschafter Beteiligung 3,7 Prozent"
+    },
+    {
+     "num": 271,
+     "quellen": ["gtelg2012"],
+     "claim": "Der Begriff ELGA-Systempartner ist im GTelG 2012 legaldefiniert.",
+     "fundstelle": "§ 2 Z 11",
+     "suchHinweis": "§ 2 Z 11 ELGA-Systempartner Begriffsbestimmung"
+    }
+   ]
+  },
+  {
+   "id": "5.1-p2",
+   "type": "text",
+   "kernaussage": "Die technische Architektur von ELGA gliedert sich in klar abgrenzbare Ebenen, die eine aus dem Rechnungshofbericht übernommene Abbildung veranschaulicht.",
+   "sentences": [
+    {
+     "text": "Technisch beruht ELGA auf klar voneinander abgrenzbaren Ebenen, wie die nachfolgende Abbildung veranschaulicht: [ABBILDUNG: Überblick technische Infrastruktur ELGA — übernommen aus Rechnungshof Österreich (2024): Elektronische Gesundheitsakte ELGA und ELGA GmbH, S. 11.]",
+     "einfach": "ELGA ist technisch in mehrere klar getrennte Schichten (Ebenen) aufgebaut. Eine Abbildung, die aus dem ELGA-Bericht des österreichischen Rechnungshofs von 2024 übernommen wurde, zeigt diesen Aufbau im Überblick.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "klar voneinander abgrenzbaren Ebenen", "kategorie": "tech" },
+      { "snippet": "Rechnungshof Österreich", "kategorie": "akteur" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "5.1-p3",
+   "type": "text",
+   "kernaussage": "Die ELGA-Infrastruktur umfasst zentrale und dezentrale Komponenten, Schnittstellen zu den GDA-Systemen und verbindende Netzwerke, wobei e-Medikation und e-Impfpass das dezentrale Modell durchbrechen.",
+   "sentences": [
+    {
+     "text": "Die technische Infrastruktur besteht aus zentralen und dezentralen Komponenten, Schnittstellen zu den IT-Systemen der Gesundheitsdiensteanbieter sowie Netzwerken zur Verbindung aller Komponenten.",
+     "einfach": "Die ELGA-Technik hat vier Bausteine: zentrale Komponenten (landesweit einmalige Dienste), dezentrale Komponenten (verteilte Speicher in den Regionen), Schnittstellen zu den IT-Systemen der Gesundheitsdiensteanbieter (Spitäler, Ärzte, Apotheken) und Netzwerke, die alles miteinander verbinden.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "zentralen und dezentralen Komponenten", "kategorie": "tech" },
+      { "snippet": "Schnittstellen", "kategorie": "tech" },
+      { "snippet": "Gesundheitsdiensteanbieter", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Anwendungen e-Medikation und e-Impfpass durchbrechen das dezentrale Modell und werden gesondert als architektonische Sonderfälle behandelt.[^272]",
+     "einfach": "Die e-Medikation (elektronische Liste verordneter und abgegebener Medikamente) und der e-Impfpass speichern ihre Daten zentral statt verteilt und weichen damit vom dezentralen Grundmodell der ELGA ab. Sie werden deshalb als Sonderfälle eigens behandelt.",
+     "kategorien": ["tech", "these"],
+     "marks": [
+      { "snippet": "e-Medikation", "kategorie": "tech" },
+      { "snippet": "e-Impfpass", "kategorie": "tech" },
+      { "snippet": "durchbrechen das dezentrale Modell", "kategorie": "these" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 272,
+     "quellen": ["rh-elga2024"],
+     "claim": "Die Beschreibung des Aufbaus der technischen Infrastruktur und der Sonderstellung von e-Medikation und e-Impfpass stützt sich auf den Rechnungshofbericht.",
+     "fundstelle": "S. 49f",
+     "suchHinweis": "technische Infrastruktur e-Medikation e-Impfpass zentrale Speicherung"
+    }
+   ]
+  }
+ ]
+}

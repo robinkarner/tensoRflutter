@@ -1,0 +1,250 @@
+{
+ "sectionId": "4.2.1",
+ "paragraphs": [
+  {
+   "id": "4.2.1-p1",
+   "type": "text",
+   "kernaussage": "Die ELGA-VO 2015 regelt akteursbezogen, welche ELGA-Gesundheitsdaten ELGA-GDA speichern müssen, mit Beginn grundsätzlich am 1. Jänner 2026 und vorbehaltlich der Widerspruchsrechte der Teilnehmenden.",
+   "sentences": [
+    {
+     "text": "Die ELGA-VO 2015 legt die Speicherverpflichtungen von ELGA-Gesundheitsdaten für ELGA-GDA akteursbezogen fest.",
+     "einfach": "Die ELGA-Verordnung 2015 (eine österreichische Verordnung zur elektronischen Gesundheitsakte ELGA) bestimmt getrennt nach Berufsgruppen, welche Gesundheitsdaten die einzelnen ELGA-Gesundheitsdiensteanbieter (ELGA-GDA, z. B. Spitäler, Ärzte, Apotheken) in ELGA speichern müssen.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "ELGA-VO 2015", "kategorie": "norm" },
+      { "snippet": "ELGA-GDA", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Diese bestehen, sofern sich aus den Widerspruchsrechten der ELGA-Teilnehmenden nach dem GTelG 2012 nichts anderes ergibt.[^215]",
+     "einfach": "Die Speicherpflichten gelten nur, solange die betroffene Person nicht widersprochen hat: Nach dem Gesundheitstelematikgesetz 2012 (GTelG 2012) können ELGA-Teilnehmende der Speicherung ihrer Daten ganz oder teilweise widersprechen (Opt-out), und dieser Widerspruch geht der Speicherpflicht vor.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "GTelG 2012", "kategorie": "norm" },
+      { "snippet": "ELGA-Teilnehmenden", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Als Beginn der Speicherverpflichtung gilt der 1. Jänner 2026, sofern die ELGA-VO 2015 oder § 27 GTelG 2012 keinen früheren Zeitpunkt vorsehen.[^216]",
+     "einfach": "Die Speicherpflicht startet grundsätzlich am 1. Jänner 2026; für einzelne Fälle können die ELGA-VO 2015 oder § 27 GTelG 2012 aber schon einen früheren Starttermin festlegen.",
+     "kategorien": ["frist", "norm"],
+     "marks": [
+      { "snippet": "1. Jänner 2026", "kategorie": "frist" },
+      { "snippet": "ELGA-VO 2015", "kategorie": "norm" },
+      { "snippet": "§ 27 GTelG 2012", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 215,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die akteursbezogenen Speicherverpflichtungen bestehen nur vorbehaltlich der Widerspruchsrechte der ELGA-Teilnehmenden nach dem GTelG 2012.",
+     "fundstelle": "§ 3 Abs 1",
+     "suchHinweis": "§ 3 Speicherung Widerspruch GTelG"
+    },
+    {
+     "num": 216,
+     "quellen": ["elga-vo2015"],
+     "claim": "Der Beginn der Speicherverpflichtung ist der 1. Jänner 2026, sofern kein früherer Zeitpunkt vorgesehen ist.",
+     "fundstelle": "§ 4 Abs 1",
+     "suchHinweis": "§ 4 Zeitpunkt 1. Jänner 2026"
+    }
+   ]
+  },
+  {
+   "id": "4.2.1-p2",
+   "type": "text",
+   "kernaussage": "Krankenanstalten müssen ein breites Spektrum an Befunden und Entlassungsbriefen speichern, selbstständige Ambulatorien mit ärztlichem Leistungsspektrum Medikationsdaten nach Verordnungen.",
+   "sentences": [
+    {
+     "text": "Für Krankenanstalten, die über Landesgesundheitsfonds abgerechnet werden, für private Krankenanstalten sowie für Krankenanstalten, die von der Allgemeinen Unfallversicherungsanstalt betrieben werden, gelten Speicherverpflichtungen zu Entlassungsbriefen, Laborbefunden, Befunden der bildgebenden Diagnostik, Pathologiebefunden sowie sonstigen fachärztlichen Befunde im Rahmen ambulanter Behandlungen.[^217]",
+     "einfach": "Praktisch alle Arten von Krankenhäusern (öffentlich über Landesgesundheitsfonds finanzierte, private und die der Unfallversicherung AUVA) müssen fünf Dokumenttypen in ELGA speichern: Entlassungsbriefe, Laborbefunde, Befunde der bildgebenden Diagnostik (z. B. Röntgen, MRT), Pathologiebefunde und sonstige fachärztliche Befunde aus ambulanten Behandlungen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Krankenanstalten, die über Landesgesundheitsfonds abgerechnet werden", "kategorie": "akteur" },
+      { "snippet": "private Krankenanstalten", "kategorie": "akteur" },
+      { "snippet": "Allgemeinen Unfallversicherungsanstalt", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Selbstständige Ambulatorien, deren Leistungsspektrum ärztliche Aufgaben von ELGA-GDA umfasst, sind zur Speicherung von Medikationsdaten nach Verordnungen verpflichtet.[^218]",
+     "einfach": "Selbstständige Ambulatorien (eigenständige ambulante Behandlungseinrichtungen) müssen Medikationsdaten speichern, wenn sie ärztliche Aufgaben eines ELGA-Gesundheitsdiensteanbieters wahrnehmen; gemeint sind die Daten zu verordneten (verschriebenen) Arzneimitteln in der e-Medikation.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Selbstständige Ambulatorien", "kategorie": "akteur" },
+      { "snippet": "ELGA-GDA", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 217,
+     "quellen": ["elga-vo2015"],
+     "claim": "Für fondsfinanzierte, private und AUVA-Krankenanstalten gelten Speicherverpflichtungen zu Entlassungsbriefen und den genannten Befundarten.",
+     "fundstelle": "§ 3 Abs 2 Z 1",
+     "suchHinweis": "§ 3 Krankenanstalten Entlassungsbrief Laborbefund"
+    },
+    {
+     "num": 218,
+     "quellen": ["elga-vo2015"],
+     "claim": "Selbstständige Ambulatorien mit ärztlichem Leistungsspektrum sind zur Speicherung von Medikationsdaten nach Verordnungen verpflichtet.",
+     "fundstelle": "§ 3 Abs 2 Z 2",
+     "suchHinweis": "§ 3 selbstständige Ambulatorien Medikationsdaten"
+    }
+   ]
+  },
+  {
+   "id": "4.2.1-p3",
+   "type": "text",
+   "kernaussage": "Für freiberufliche Ärzte richtet sich die Speicherpflicht nach dem Sonderfach (Labor-, Radiologie-, Pathologie- bzw. sonstige Fachbefunde, ansonsten Medikationsdaten) und gilt auch für Gruppenpraxen und angestellte Ärzte.",
+   "sentences": [
+    {
+     "text": "Für freiberufliche Fachärzte des Sonderfachs Medizinisch-Chemische Labordiagnostik und des Sonderfachs Klinische Mikrobiologie und Hygiene gilt die Verpflichtung zur Speicherung von Laborbefunden.",
+     "einfach": "Niedergelassene Fachärzte für Labormedizin und für klinische Mikrobiologie (also die Laborfächer) müssen ihre Laborbefunde in ELGA speichern.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "freiberufliche Fachärzte", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Für freiberufliche Fachärzte des Sonderfachs Radiologie gilt die Verpflichtung zur Speicherung von Befunden der bildgebenden Diagnostik.",
+     "einfach": "Niedergelassene Radiologen müssen Befunde der bildgebenden Diagnostik (z. B. Röntgen-, CT- oder MRT-Befunde) in ELGA speichern.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Fachärzte des Sonderfachs Radiologie", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Für alle weiteren Angehörigen des ärztlichen Berufs gilt die Verpflichtung zur Speicherung von Medikationsdaten nach Verordnungen.",
+     "einfach": "Alle übrigen Ärzte (z. B. Allgemeinmediziner und andere Fachärzte) müssen zumindest die Daten der von ihnen verschriebenen Medikamente in der e-Medikation speichern.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Angehörigen des ärztlichen Berufs", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Für freiberufliche Fachärzte der Klinisch-Pathologischen Sonderfächer gilt die Verpflichtung zur Speicherung von Pathologiebefunden.",
+     "einfach": "Niedergelassene Pathologen (Fachärzte, die z. B. Gewebeproben untersuchen) müssen ihre Pathologiebefunde in ELGA speichern.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Fachärzte der Klinisch-Pathologischen Sonderfächer", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Für sonstige freiberufliche Fachärzte gilt die Verpflichtung zur Speicherung fachärztlicher ambulanter Befunde.",
+     "einfach": "Alle anderen niedergelassenen Fachärzte müssen die Befunde speichern, die sie bei ambulanten Behandlungen erstellen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "sonstige freiberufliche Fachärzte", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Alle genannten Verpflichtungen erstrecken sich auch auf Gruppenpraxen und bei freiberuflichen Ärzten angestellte Ärzte.[^219]",
+     "einfach": "Diese Speicherpflichten gelten nicht nur für Einzelordinationen, sondern auch für Gruppenpraxen (Zusammenschlüsse mehrerer Ärzte) und für Ärzte, die bei einem niedergelassenen Arzt angestellt sind.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Gruppenpraxen", "kategorie": "akteur" },
+      { "snippet": "angestellte Ärzte", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 219,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die nach Sonderfächern differenzierten Speicherpflichten freiberuflicher Ärzte samt Erstreckung auf Gruppenpraxen und angestellte Ärzte ergeben sich aus der ELGA-VO 2015.",
+     "fundstelle": "§ 3 Abs 3",
+     "suchHinweis": "§ 3 freiberufliche Fachärzte Sonderfach Gruppenpraxen"
+    }
+   ]
+  },
+  {
+   "id": "4.2.1-p4",
+   "type": "text",
+   "kernaussage": "Hausapothekenführende Ärzte müssen Medikationsdaten bei der Abgabe von Arzneimitteln speichern.",
+   "sentences": [
+    {
+     "text": "Hausapothekenführende Ärzte sind zur Speicherung von Medikationsdaten bei Abgabe verpflichtet.[^220]",
+     "einfach": "Ärzte, die eine Hausapotheke führen (also selbst Medikamente an Patienten abgeben dürfen, häufig am Land), müssen beim Ausgeben der Medikamente die Abgabedaten in der e-Medikation speichern.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Hausapothekenführende Ärzte", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 220,
+     "quellen": ["elga-vo2015"],
+     "claim": "Hausapothekenführende Ärzte sind zur Speicherung von Medikationsdaten bei Abgabe verpflichtet.",
+     "fundstelle": "§ 3 Abs 2 Z 4",
+     "suchHinweis": "§ 3 hausapothekenführende Ärzte Abgabe"
+    }
+   ]
+  },
+  {
+   "id": "4.2.1-p5",
+   "type": "text",
+   "kernaussage": "Öffentliche Apotheken müssen bei der Abgabe Medikationsdaten speichern, einschließlich wechselwirkungsrelevanter rezeptfreier Arzneimittel laut OTC-Liste.",
+   "sentences": [
+    {
+     "text": "Öffentliche Apotheken sind zur Speicherung von Medikationsdaten bei Abgabe verpflichtet, wobei neben verschreibungspflichtigen Arzneimitteln auch wechselwirkungsrelevante, nicht verschreibungspflichtige Arzneimittel gemäß der OTC-Liste zu erfassen sind.[^221]",
+     "einfach": "Apotheken müssen beim Verkauf die Abgabe von Medikamenten in der e-Medikation speichern; das betrifft rezeptpflichtige Medikamente und zusätzlich jene rezeptfreien Mittel (OTC = 'over the counter', ohne Rezept erhältlich), die auf einer eigenen Liste stehen, weil sie gefährliche Wechselwirkungen mit anderen Medikamenten haben können.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Öffentliche Apotheken", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 221,
+     "quellen": ["elga-vo2015"],
+     "claim": "Öffentliche Apotheken müssen Medikationsdaten bei Abgabe speichern, einschließlich wechselwirkungsrelevanter rezeptfreier Arzneimittel gemäß OTC-Liste.",
+     "fundstelle": "§ 3 Abs 4",
+     "suchHinweis": "§ 3 öffentliche Apotheken OTC-Liste wechselwirkungsrelevant"
+    }
+   ]
+  },
+  {
+   "id": "4.2.1-p6",
+   "type": "text",
+   "kernaussage": "Stationäre und mobile Pflegeeinrichtungen müssen den Pflegesituationsbericht speichern.",
+   "sentences": [
+    {
+     "text": "Stationäre Pflegeeinrichtungen und Einrichtungen der mobilen Pflege sind zur Speicherung des Pflegesituationsberichts verpflichtet.[^222]",
+     "einfach": "Pflegeheime und mobile Pflegedienste (Betreuung zu Hause) müssen den Pflegesituationsbericht in ELGA speichern; das ist ein Dokument, das den Pflegezustand und die Pflegesituation einer Person zusammenfasst.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Stationäre Pflegeeinrichtungen", "kategorie": "akteur" },
+      { "snippet": "Einrichtungen der mobilen Pflege", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 222,
+     "quellen": ["elga-vo2015"],
+     "claim": "Stationäre Pflegeeinrichtungen und Einrichtungen der mobilen Pflege sind zur Speicherung des Pflegesituationsberichts verpflichtet.",
+     "fundstelle": "§ 3 Abs 5",
+     "suchHinweis": "§ 3 Pflegesituationsbericht mobile Pflege"
+    }
+   ]
+  }
+ ]
+}

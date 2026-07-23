@@ -1,0 +1,41 @@
+{
+ "chapter": 5,
+ "title": "Umsetzung in Österreich",
+ "kurzfassung": "Kapitel 5 ist der analytische Kern: Es prüft die reale ELGA-Infrastruktur gegen die EHDS-Anforderungen. Wichtige Vorklärung: **ELGA ist kein EHR-System**, sondern die gesetzlich definierte Infrastruktur, die die einrichtungsbezogenen EHR-Systeme vernetzt — die CE-Pflicht des EHDS trifft daher die Systemhersteller, nicht ELGA.\n\n### Architektur\nZentral liegen bei der ELGA GmbH die Verzeichnis- und Kontrolldienste: Patientenindex (Z-PI), GDA-Index, Berechtigungssystem (BeS, im Bundesrechenzentrum), Protokollierung (A-ARR) und das Bürger-Zugangsportal (gesundheit.gv.at, Zugang via ID Austria). Die SVC-GmbH liefert Identifikation (e-card) und das geschlossene Netz **GIN** mit dem Kartenleser GINO. Die eigentlichen Dokumente liegen **dezentral in dreizehn ELGA-Bereichen** — je eine IHE-XDS-Affinity-Domain mit Repository, Registry, lokalem Patientenindex und Gateway; bereichsübergreifende Abrufe laufen zweistufig über PIX und XCA durch die Zugriffssteuerungsfassade. **e-Medikation** (zentral beim Dachverband, 18-Monats-Löschung) und **e-Impfpass** (zentrales Impfregister, kein Widerspruchsrecht, keine Einblendsteuerung — Spannungsfeld zu Art 8) durchbrechen das dezentrale Modell.\n\n### EHR-Systeme und Datenfluss\nKIS (Spitäler), PVS (Ordinationen) und RIS (Radiologie) erzeugen CDA-Dokumente nach den Leitfäden und legen sie über GIN im zuständigen Bereich ab. Lesen können alle GDA österreichweit; **Schreiben erfordert einen Bereichszugang**, den Niedergelassene erst über Provider/Vermittlungsdienst herstellen müssen — seit 2025 schließen die gestaffelten Speicherpflichten diese Lücke.\n\n### Berechtigung, Protokollierung, Formate\nDas Berechtigungssystem arbeitet **default deny** auf drei Ebenen (ATNA-Transportsicherung, WS-Trust-Rollen, XACML-Dokumentpolicies), verlangt den e-card-Behandlungskontext und staffelt Zugriffsdauern (90/28 Tage). Die Protokollierung erfüllt die EHDS-Mindestangaben samt Drei-Jahres-Frist — **es fehlt aber die automatische Zugriffs-Benachrichtigung** nach Art 9 (nur abrufbasierte Auskunft; die A-ARR-Daten lägen bereit, der Kanal fehlt, die ELGA-App ist erst angekündigt). Bei den Formaten decken die CDA-Leitfäden fünf der sechs prioritären Kategorien ab; die **Patientenkurzakte (APS)** existiert nur als FHIR-Erprobungsstandard (STU1, Februar 2026). Seit Februar 2026 ist Österreich über **AT-eHDSI** produktiv an MyHealth@EU: EU-Rezept ausgehend, EU-Patientenkurzakte eingehend — beides zunächst mit Tschechien, gebremst vom Opt-In-Erfordernis; die ausgehende APS fehlt.",
+ "kernaussagen": [
+  "ELGA ist Infrastruktur, kein EHR-System — die EHDS-Produktpflichten treffen die KIS/PVS/RIS-Hersteller.",
+  "Hybride Architektur: zentrale Dienste (Z-PI, BeS, A-ARR, Portal) + dreizehn dezentrale XDS-Bereiche; e-Medikation und e-Impfpass sind zentrale Sonderfälle.",
+  "Das Berechtigungssystem (default deny, XACML) und die Protokollierung erfüllen die EHDS-Kernanforderungen inhaltlich.",
+  "Die automatische Zugriffs-Benachrichtigung nach Art 9 fehlt — die Rohdaten im A-ARR wären vorhanden.",
+  "Fünf von sechs prioritären Kategorien sind produktiv; die Patientenkurzakte (APS) ist nur Erprobungsstandard.",
+  "Seit Februar 2026 produktive MyHealth@EU-Anbindung (AT-eHDSI) mit Tschechien; ausgehende Patientenkurzakte und Opt-In-Reichweite bleiben offen.",
+  "Beim e-Impfpass fehlt eine dem Ein-/Ausblenden vergleichbare Zugriffssteuerung, obwohl Art 8 ein Pflichtrecht ist."
+ ],
+ "begriffe": [
+  {"begriff": "Z-PI / L-PI", "erklaerung": "Zentraler bzw. lokaler Patientenindex zur eindeutigen Personenzuordnung."},
+  {"begriff": "BeS", "erklaerung": "Zentrales Berechtigungssystem im Bundesrechenzentrum."},
+  {"begriff": "A-ARR", "erklaerung": "Aggregiertes Audit Record Repository — zentrales Zugriffsprotokoll."},
+  {"begriff": "GIN / GINO", "erklaerung": "Geschlossenes Gesundheitsinformationsnetz der SVC und sein NFC-Kartenleser."},
+  {"begriff": "ELGA-Bereich", "erklaerung": "Eine von dreizehn XDS-Affinity-Domains mit eigenem Repository und Registry."},
+  {"begriff": "ETS", "erklaerung": "ELGA Token Service — stellt HCP- und Treatment-Assertions für Zugriffe aus."},
+  {"begriff": "Zugriffssteuerungsfassade", "erklaerung": "Kontrollschicht der Gateways, die jeden Zugriff prüft und protokolliert."},
+  {"begriff": "APS", "erklaerung": "Austrian Patient Summary — FHIR-Spezifikation der Patientenkurzakte (STU1, 2/2026)."},
+  {"begriff": "AT-eHDSI", "erklaerung": "Projekt zur Errichtung der österreichischen NCPeH und MyHealth@EU-Anbindung."},
+  {"begriff": "KIS / PVS / RIS", "erklaerung": "Krankenhaus-, Praxisverwaltungs- und Radiologieinformationssysteme — die EHR-Systeme im EHDS-Sinn."}
+ ],
+ "fristen": [
+  {"datum": "September 2019", "was": "Flächendeckender Abschluss des e-Medikation-Rollouts."},
+  {"datum": "1. Juli 2025", "was": "Beginn der gestaffelten Speicherpflicht für niedergelassene Labor-/Radiologiebefunde."},
+  {"datum": "Februar 2026", "was": "Produktivstart MyHealth@EU in Österreich (EU-Rezept, EU-Patientenkurzakte mit Tschechien); APS 1.0.0 als STU."},
+  {"datum": "2026", "was": "Geplanter Relaunch des Zugangsportals als Basis der angekündigten ELGA-App."},
+  {"datum": "26. März 2029", "was": "Benachrichtigungsrecht und Pflicht-Austausch der ersten Kategorien-Gruppe."}
+ ],
+ "abschnitte": [
+  {"id": "5.1", "titel": "ELGA als nationale eHealth-Infrastruktur", "einzeiler": "Zentrale Komponenten, e-card/GIN, dreizehn Bereiche, e-Medikation/e-Impfpass."},
+  {"id": "5.2", "titel": "EHR-Systeme", "einzeiler": "KIS/PVS/RIS-Landschaft und der Datenfluss ins ELGA-Repository."},
+  {"id": "5.3", "titel": "Berechtigungssystem und Protokollierung", "einzeiler": "Default deny, XACML, ATNA — und die fehlende Benachrichtigung nach Art 9."},
+  {"id": "5.4", "titel": "Datenformate und grenzüberschreitende Interoperabilität", "einzeiler": "CDA-Leitfäden, Kategorien-Abdeckung, FHIR/APS-Stand, AT-eHDSI."}
+ ],
+ "verbindungen": {"bautAuf": ["2", "3", "4"], "liefertFuer": ["6"]},
+ "fazitBeitrag": "Erbringt die empirischen Befunde des Fazits: erfüllte Anforderungen (Zugang, Zugriffskontrolle, Protokollierung, 5/6 Kategorien, MyHealth@EU-Start) und die Lücken (Benachrichtigung, APS-Produktivbetrieb, e-Impfpass-Steuerung)."
+}

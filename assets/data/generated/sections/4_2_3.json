@@ -1,0 +1,282 @@
+{
+ "sectionId": "4.2.3",
+ "paragraphs": [
+  {
+   "id": "4.2.3-p1",
+   "type": "text",
+   "kernaussage": "Die ELGA-VO 2015 staffelt die Speicherverpflichtung nach Dokumententypen, wobei ELGA-GDA schon vor ihrem jeweiligen Verpflichtungstermin freiwillig speichern dürfen.",
+   "sentences": [
+    {
+     "text": "Neben dem allgemeinen Beginn der Speicherverpflichtung mit 1. Jänner 2026 dürfen ELGA-GDA auch schon vor dem für sie geltenden Verpflichtungstermin freiwillig speichern.[^229]",
+     "einfach": "Grundsätzlich müssen ELGA-GDA (Gesundheitsdiensteanbieter wie Ärzte, Spitäler oder Apotheken, die an die elektronische Gesundheitsakte ELGA angeschlossen sind) ab dem 1. Jänner 2026 Dokumente in ELGA speichern. Sie dürfen aber freiwillig schon früher damit anfangen, bevor ihr eigener Pflichttermin erreicht ist.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [
+      { "snippet": "1. Jänner 2026", "kategorie": "frist" },
+      { "snippet": "ELGA-GDA", "kategorie": "akteur" },
+      { "snippet": "Verpflichtungstermin", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die ELGA-VO 2015 idF BGBl. II Nr. 11/2025 legt nach Dokumententypen folgende Verpflichtungstermine fest:",
+     "einfach": "Die ELGA-Verordnung 2015 (eine österreichische Rechtsverordnung, hier in der 2025 novellierten Fassung) legt für jede Art von Gesundheitsdokument einen eigenen Termin fest, ab dem die Speicherung in ELGA verpflichtend ist. Diese Termine werden in den folgenden Absätzen aufgezählt.",
+     "kategorien": ["norm", "frist"],
+     "marks": [
+      { "snippet": "ELGA-VO 2015 idF BGBl. II Nr. 11/2025", "kategorie": "norm" },
+      { "snippet": "Verpflichtungstermine", "kategorie": "frist" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 229,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die Arbeit belegt, dass ELGA-GDA schon vor ihrem jeweiligen Verpflichtungstermin freiwillig in ELGA speichern dürfen.",
+     "fundstelle": "§ 4 Abs 2",
+     "suchHinweis": "§ 4 freiwillige Speicherung Verpflichtungstermin"
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p2",
+   "type": "text",
+   "kernaussage": "Krankenanstalten müssen Entlassungsbriefe bereits ab dem 1. April 2025, dem Inkrafttreten der Verordnung, in ELGA speichern.",
+   "sentences": [
+    {
+     "text": "Für Entlassungsbriefe durch Krankenanstalten gilt die Speicherpflicht ab Inkrafttreten der Verordnung mit 1. April 2025.[^230]",
+     "einfach": "Entlassungsbriefe sind die Berichte, die ein Spital beim Entlassen eines Patienten erstellt. Krankenanstalten (Spitäler) müssen diese schon seit dem 1. April 2025 in ELGA speichern, also seit dem Tag, an dem die novellierte Verordnung in Kraft getreten ist.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [
+      { "snippet": "Krankenanstalten", "kategorie": "akteur" },
+      { "snippet": "1. April 2025", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 230,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die Arbeit belegt, dass die Speicherpflicht für Entlassungsbriefe von Krankenanstalten ab 1. April 2025 gilt.",
+     "fundstelle": "§ 5 Abs 1",
+     "suchHinweis": "§ 5 Entlassungsbrief Krankenanstalten Speicherpflicht"
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p3",
+   "type": "text",
+   "kernaussage": "Für Labor- und Radiologiebefunde gilt die Speicherpflicht im niedergelassenen Bereich ab 1. Juli 2025, in Krankenanstalten ab 1. Jänner 2026.",
+   "sentences": [
+    {
+     "text": "Für Laborbefunde und Radiologiebefunde durch niedergelassene Laborfachärzte und Radiologen gilt die Speicherpflicht ab 1. Juli 2025[^231] und durch Krankenanstalten ab 1. Jänner 2026.[^232]",
+     "einfach": "Niedergelassene Fachärzte (also solche mit eigener Ordination außerhalb eines Spitals) für Labor und Radiologie müssen ihre Befunde ab dem 1. Juli 2025 in ELGA speichern. Für dieselben Befundarten aus Spitälern beginnt die Pflicht erst ab dem 1. Jänner 2026.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [
+      { "snippet": "niedergelassene Laborfachärzte und Radiologen", "kategorie": "akteur" },
+      { "snippet": "1. Juli 2025", "kategorie": "frist" },
+      { "snippet": "Krankenanstalten", "kategorie": "akteur" },
+      { "snippet": "1. Jänner 2026", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 231,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die Arbeit belegt, dass niedergelassene Laborfachärzte und Radiologen ihre Befunde ab 1. Juli 2025 speichern müssen.",
+     "fundstelle": "§ 6 Abs 2 Z 1",
+     "suchHinweis": "§ 6 Laborbefund Radiologiebefund niedergelassen"
+    },
+    {
+     "num": 232,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die Arbeit belegt, dass Krankenanstalten Labor- und Radiologiebefunde ab 1. Jänner 2026 speichern müssen.",
+     "fundstelle": "§ 6 Abs 1 Z 2",
+     "suchHinweis": "§ 6 Krankenanstalten Befunde 2026"
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p4",
+   "type": "text",
+   "kernaussage": "Für Medikationsdaten gilt die Speicherpflicht für Vertrags-, Fach- und hausapothekenführende Ärzte ab 1. Jänner 2026, für öffentliche Apotheken bereits ab 1. April 2025.",
+   "sentences": [
+    {
+     "text": "Für Medikationsdaten bei Verordnung durch Vertragsärzte und Fachärzte gilt die Speicherpflicht ab 1. Jänner 2026[^233] und für hausapothekenführende Ärzte ebenfalls ab diesem Zeitpunkt.[^234]",
+     "einfach": "Medikationsdaten sind Informationen über verordnete Arzneimittel (Teil der e-Medikation in ELGA). Vertragsärzte (Ärzte mit Kassenvertrag), Fachärzte und hausapothekenführende Ärzte (Landärzte, die selbst Medikamente abgeben dürfen) müssen diese Daten ab dem 1. Jänner 2026 in ELGA speichern.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [
+      { "snippet": "Vertragsärzte und Fachärzte", "kategorie": "akteur" },
+      { "snippet": "1. Jänner 2026", "kategorie": "frist" },
+      { "snippet": "hausapothekenführende Ärzte", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Öffentliche Apotheken sind dazu ab Inkrafttreten der Verordnung mit 1. April 2025 verpflichtet.[^235]",
+     "einfach": "Öffentliche Apotheken müssen Medikationsdaten (z. B. die Abgabe von Medikamenten) schon seit dem 1. April 2025 speichern, also seit dem Inkrafttreten der novellierten ELGA-Verordnung.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [
+      { "snippet": "Öffentliche Apotheken", "kategorie": "akteur" },
+      { "snippet": "1. April 2025", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 233,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die Arbeit belegt, dass Vertragsärzte und Fachärzte Medikationsdaten ab 1. Jänner 2026 speichern müssen.",
+     "fundstelle": "§§ 7 Abs 2 Z 1 und 2",
+     "suchHinweis": "§ 7 Medikationsdaten Vertragsärzte Fachärzte"
+    },
+    {
+     "num": 234,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die Arbeit belegt, dass hausapothekenführende Ärzte Medikationsdaten ebenfalls ab 1. Jänner 2026 speichern müssen.",
+     "fundstelle": "§ 7 Abs 2 Z 3",
+     "suchHinweis": "§ 7 hausapothekenführende Ärzte"
+    },
+    {
+     "num": 235,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die Arbeit belegt, dass öffentliche Apotheken zur Speicherung von Medikationsdaten ab 1. April 2025 verpflichtet sind.",
+     "fundstelle": "§ 7 Abs 4",
+     "suchHinweis": "§ 7 öffentliche Apotheken Speicherung"
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p5",
+   "type": "text",
+   "kernaussage": "Pflegeeinrichtungen müssen Pflegesituationsberichte ab 1. Jänner 2026 in ELGA speichern.",
+   "sentences": [
+    {
+     "text": "Für Pflegesituationsberichte durch stationäre und mobile Pflegeeinrichtungen gilt die Speicherpflicht ab 1. Jänner 2026.[^236]",
+     "einfach": "Pflegesituationsberichte dokumentieren den Pflegezustand einer Person, etwa bei der Übergabe zwischen Pflegeheim und Spital. Sowohl stationäre Pflegeeinrichtungen (z. B. Pflegeheime) als auch mobile Pflegedienste müssen diese Berichte ab dem 1. Jänner 2026 in ELGA speichern.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [
+      { "snippet": "stationäre und mobile Pflegeeinrichtungen", "kategorie": "akteur" },
+      { "snippet": "1. Jänner 2026", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 236,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die Arbeit belegt, dass die Speicherpflicht für Pflegesituationsberichte ab 1. Jänner 2026 gilt.",
+     "fundstelle": "§ 8",
+     "suchHinweis": "§ 8 Pflegesituationsbericht Pflegeeinrichtungen"
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p6",
+   "type": "text",
+   "kernaussage": "Für Pathologiebefunde beginnt die Speicherpflicht erst am 1. Jänner 2028.",
+   "sentences": [
+    {
+     "text": "Für Pathologiebefunde von Krankenanstalten und freiberuflichen Pathologen gilt die Speicherpflicht ab 1. Jänner 2028.[^237]",
+     "einfach": "Pathologiebefunde sind Untersuchungsergebnisse von Gewebe- und Zellproben (z. B. bei Krebsdiagnosen). Für sie beginnt die Pflicht zur Speicherung in ELGA erst am 1. Jänner 2028, sowohl für Spitäler als auch für freiberuflich tätige Pathologen.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [
+      { "snippet": "Krankenanstalten und freiberuflichen Pathologen", "kategorie": "akteur" },
+      { "snippet": "1. Jänner 2028", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 237,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die Arbeit belegt, dass die Speicherpflicht für Pathologiebefunde von Krankenanstalten und freiberuflichen Pathologen ab 1. Jänner 2028 gilt.",
+     "fundstelle": "§ 5 Abs 2 Z 2 und Abs 3 Z 2",
+     "suchHinweis": "§ 5 Pathologiebefund 2028"
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p7",
+   "type": "text",
+   "kernaussage": "Sonstige fachärztliche ambulante Befunde unterliegen der Speicherpflicht erst ab 1. Jänner 2030 und bilden damit den spätesten Verpflichtungstermin.",
+   "sentences": [
+    {
+     "text": "Für sonstige fachärztliche ambulante Befunde von Krankenanstalten und freiberuflichen Fachärzten gilt die Speicherpflicht ab 1. Jänner 2030.[^238]",
+     "einfach": "Alle übrigen fachärztlichen Befunde aus dem ambulanten Bereich (also ohne stationären Spitalsaufenthalt) müssen erst ab dem 1. Jänner 2030 in ELGA gespeichert werden. Das ist der späteste Termin in der Staffelung und gilt für Spitalsambulanzen ebenso wie für freiberufliche Fachärzte.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [
+      { "snippet": "Krankenanstalten und freiberuflichen Fachärzten", "kategorie": "akteur" },
+      { "snippet": "1. Jänner 2030", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 238,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die Arbeit belegt, dass die Speicherpflicht für sonstige fachärztliche ambulante Befunde ab 1. Jänner 2030 gilt.",
+     "fundstelle": "§ 5 Abs 2 Z 3 und Abs 3 Z 3",
+     "suchHinweis": "§ 5 ambulante Befunde 2030"
+    }
+   ]
+  },
+  {
+   "id": "4.2.3-p8",
+   "type": "text",
+   "kernaussage": "Die vertragliche Übergangsfrist bis Ende 2028 erfüllt die ELGA-Pflicht formal, endet aber nur drei Monate vor der EHDS-Phase-1-Deadline am 26. März 2029 und verengt damit den Umsetzungspuffer erheblich.",
+   "sentences": [
+    {
+     "text": "ELGA-GDA kommen ihrer Verpflichtung auch dann nach, wenn sie bis 1. Jänner 2026 mit einem Softwareanbieter einen Vertrag abschließen, der die Herstellung der technischen Voraussetzungen (insbesondere der ELGA-Interoperabilitätsstufe „EIS Full Support“) bis spätestens 31. Dezember 2028 vorsieht.[^239]",
+     "einfach": "Ein ELGA-GDA (an ELGA angebundener Gesundheitsdiensteanbieter) gilt auch dann als pflichterfüllend, wenn er bis zum 1. Jänner 2026 lediglich einen Vertrag mit einem Softwareanbieter abschließt, der die technische Umsetzung bis spätestens 31. Dezember 2028 zusagt. Gemeint ist vor allem das Erreichen der Stufe „EIS Full Support“, der höchsten ELGA-Interoperabilitätsstufe, bei der die Praxissoftware alle ELGA-Funktionen vollständig integriert.",
+     "kategorien": ["frist", "akteur", "tech"],
+     "marks": [
+      { "snippet": "ELGA-GDA", "kategorie": "akteur" },
+      { "snippet": "1. Jänner 2026", "kategorie": "frist" },
+      { "snippet": "Softwareanbieter", "kategorie": "akteur" },
+      { "snippet": "EIS Full Support", "kategorie": "tech" },
+      { "snippet": "31. Dezember 2028", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Diese Übergangsfrist endet damit nur drei Monate vor der Phase-1-Deadline der EHDS-Verordnung mit 26. März 2029,[^240] was den verbleibenden Umsetzungspuffer für die grenzüberschreitend verpflichtende Bereitstellung der Patientenkurzakte erheblich verengt.",
+     "einfach": "Die EHDS-Verordnung (EU-Verordnung 2025/327 zum Europäischen Gesundheitsdatenraum) verlangt ab dem 26. März 2029, dass bestimmte Datenkategorien wie die Patientenkurzakte (eine standardisierte Zusammenfassung der wichtigsten Gesundheitsdaten einer Person) auch grenzüberschreitend bereitgestellt werden. Weil die österreichische Übergangsfrist erst drei Monate davor endet, bleibt kaum Zeit, um danach noch die EHDS-Anforderungen umzusetzen.",
+     "kategorien": ["frist", "norm", "these", "luecke"],
+     "marks": [
+      { "snippet": "drei Monate", "kategorie": "frist" },
+      { "snippet": "Phase-1-Deadline", "kategorie": "frist" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "26. März 2029", "kategorie": "frist" },
+      { "snippet": "verbleibenden Umsetzungspuffer", "kategorie": "luecke" },
+      { "snippet": "erheblich verengt", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 239,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die Arbeit belegt, dass ein bis 1. Jänner 2026 abgeschlossener Softwarevertrag mit Umsetzung bis 31. Dezember 2028 die Verpflichtung der ELGA-GDA erfüllt.",
+     "fundstelle": "§ 9 Abs 2",
+     "suchHinweis": "§ 9 Vertrag Softwareanbieter EIS Full Support"
+    },
+    {
+     "num": 240,
+     "quellen": ["ehds-vo"],
+     "claim": "Die Arbeit belegt, dass die Phase-1-Deadline der EHDS-Verordnung für die erste Gruppe von Datenkategorien am 26. März 2029 liegt.",
+     "fundstelle": "Art 105 lit a",
+     "suchHinweis": "Artikel 105 Geltungsbeginn Patientenkurzakte 26. März 2029"
+    }
+   ]
+  }
+ ]
+}

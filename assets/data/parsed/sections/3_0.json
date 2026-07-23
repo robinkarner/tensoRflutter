@@ -1,0 +1,50 @@
+{
+ "sectionId": "3.0",
+ "title": "Überblick",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 19,
+ "pdfPage": 29,
+ "paragraphs": [
+  {
+   "id": "3.0-p1",
+   "type": "text",
+   "text": "Dieses Kapitel beschreibt die technischen Grundlagen, die für das Verständnis der österreichischen eHealth-Infrastruktur und ihrer Integration in den Europäischen Gesundheitsdatenraum erforderlich sind.",
+   "footnotes": []
+  },
+  {
+   "id": "3.0-p2",
+   "type": "text",
+   "text": "Den Ausgangspunkt bilden die Architekturmodelle elektronischer Gesundheitsakten, also die grundlegenden Muster, nach denen Gesundheitsdaten gespeichert und organisiert werden können (siehe Abschnitt 3.1). Darauf aufbauend wird Interoperabilität als zentrale Anforderung des EHDS auf drei Ebenen behandelt. Der technischen Ebene mit Übertragungsprotokollen und IHE-Profilen,[^92] der syntaktischen Ebene mit den Datenformaten HL7 CDA R2[^93] und HL7 FHIR[^94] sowie der semantischen Ebene mit Terminologien und Codesystemen (siehe Abschnitt 3.2). Anschließend werden die Mechanismen der Authentifizierung und Zugriffskontrolle erläutert, die den sicheren Umgang mit besonders schützenswerten Gesundheitsdaten im Sinne von Artikel 9 DSGVO gewährleisten (siehe Abschnitt 3.3). Das Kapitel schließt mit einer Beschreibung von MyHealth@EU als grenzüberschreitender Infrastruktur, über die die Mitgliedstaaten mit den nationalen Kontaktstellen für eHealth miteinander verbunden werden (siehe Abschnitt 3.4).",
+   "footnotes": [
+    {
+     "num": 92,
+     "text": "Vgl. IHE International (2026): IHE IT Infrastructure Technical Framework (Profiles).",
+     "sources": [
+      "ihe-iti2026"
+     ]
+    },
+    {
+     "num": 93,
+     "text": "Vgl. PubMed Central (2026): HL7 Clinical Document Architecture, Release 2.",
+     "sources": [
+      "pmc-cda2026"
+     ]
+    },
+    {
+     "num": 94,
+     "text": "Vgl. Ayaz et al. (2021): The Fast Health Interoperability Resources (FHIR) Standard, S. 16.",
+     "sources": [
+      "ayaz2021"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.0-p3",
+   "type": "text",
+   "text": "Die in diesem Kapitel eingeführten Konzepte und Standards bilden die technische Referenzgrundlage für die Analyse des rechtlichen Rahmens in Kapitel 4 und der konkreten Umsetzung in Österreich in Kapitel 5.",
+   "footnotes": []
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "sectionId": "3.3.2",
+ "paragraphs": [
+  {
+   "id": "3.3.2-p1",
+   "type": "text",
+   "kernaussage": "Zugriffskontrolle (Autorisierung) legt fest, worauf eine authentifizierte Person zugreifen darf; bei elektronischen Gesundheitsakten kommen dafür vor allem RBAC und ABAC zum Einsatz.",
+   "sentences": [
+    {
+     "text": "Während die Authentifizierung feststellt, wer zugreift, entscheidet die Zugriffskontrolle (Autorisierung), worauf eine authentifizierte Person zugreifen darf.",
+     "einfach": "Authentifizierung prüft nur die Identität (wer greift zu?). Die Zugriffskontrolle - auch Autorisierung genannt - legt danach fest, welche Daten und Funktionen diese Person tatsächlich nutzen darf.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Authentifizierung", "kategorie": "tech" },
+      { "snippet": "Zugriffskontrolle (Autorisierung)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Für elektronische Gesundheitsakten kommen vor allem die rollenbasierte (Role-Based Access Control, RBAC) und die attributbasierte Zugriffskontrolle (Attribute-Based Access Control, ABAC) zur Anwendung.",
+     "einfach": "Bei elektronischen Gesundheitsakten werden vor allem zwei Modelle verwendet: RBAC vergibt Rechte über Rollen (z. B. 'Arzt' oder 'Pflegekraft'), ABAC entscheidet anhand von Eigenschaften (Attributen) wie Ort, Zeit oder Art der Daten.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "rollenbasierte (Role-Based Access Control, RBAC)", "kategorie": "tech" },
+      { "snippet": "attributbasierte Zugriffskontrolle (Attribute-Based Access Control, ABAC)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "3.3.2-p2",
+   "type": "text",
+   "kernaussage": "RBAC ist statisch und gut verwaltbar, während ABAC dynamische, kontextsensitive und feingranulare Zugriffsentscheidungen ermöglicht und daher besonders zu modernen Gesundheitssystemen passt.",
+   "sentences": [
+    {
+     "text": "Bei RBAC werden Berechtigungen auf der Ebene von Rollen definiert und Nutzer diesen Rollen statisch zugeordnet.[^157]",
+     "einfach": "Bei RBAC (rollenbasierter Zugriffskontrolle) bekommen nicht einzelne Personen Rechte, sondern Rollen; jede Person wird fest ('statisch') einer oder mehreren Rollen zugeordnet und erbt deren Berechtigungen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "RBAC", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Dieses Modell ist vorhersehbar und gut verwaltbar, berücksichtigt jedoch keine dynamischen, kontextbezogenen Faktoren wie Tageszeit oder Standort.[^158]",
+     "einfach": "RBAC ist einfach zu verwalten und man weiß immer, wer was darf. Der Nachteil: Der Kontext eines Zugriffs - etwa Uhrzeit oder Ort - kann nicht in die Entscheidung einfließen.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "ABAC trifft Zugriffsentscheidungen demgegenüber dynamisch auf Basis einer Kombination aus Attributen von Nutzer, Ressource, Aktion und Umgebung - etwa der Regel, dass ein Arzt auf eine Gesundheitsakte nur dann zugreifen darf, wenn er im Krankenhaus während der Arbeitszeit angemeldet ist.[^159]",
+     "einfach": "ABAC (attributbasierte Zugriffskontrolle) entscheidet bei jedem Zugriff neu anhand von Eigenschaften (Attributen) des Nutzers, der Daten, der gewünschten Aktion und der Umgebung. Beispiel: Ein Arzt darf eine Akte nur öffnen, wenn er gerade im Krankenhaus während der Arbeitszeit angemeldet ist.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "ABAC", "kategorie": "tech" },
+      { "snippet": "Arzt", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Damit eignet sich ABAC besonders für die dynamischen Anforderungen moderner Gesundheitssysteme und ermöglicht feingranulare, kontextsensitive Entscheidungen.[^160]",
+     "einfach": "Deshalb passt ABAC gut zu modernen Gesundheitssystemen: Es erlaubt sehr detaillierte ('feingranulare') Zugriffsregeln, die den jeweiligen Kontext der Situation berücksichtigen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "ABAC", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 157,
+     "quellen": ["atlam2025"],
+     "claim": "Bei RBAC werden Berechtigungen auf Rollenebene definiert und Nutzer den Rollen statisch zugeordnet.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "role-based access control RBAC roles permissions static"
+    },
+    {
+     "num": 158,
+     "quellen": ["nist-abac2014"],
+     "claim": "RBAC berücksichtigt keine dynamischen, kontextbezogenen Faktoren wie Tageszeit oder Standort.",
+     "fundstelle": "S. 6",
+     "suchHinweis": "RBAC limitations dynamic environment conditions time location"
+    },
+    {
+     "num": 159,
+     "quellen": ["atlam2025"],
+     "claim": "ABAC trifft Zugriffsentscheidungen dynamisch aus Attributen von Nutzer, Ressource, Aktion und Umgebung, etwa mit der Beispielregel zum Arztzugriff im Krankenhaus während der Arbeitszeit.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "ABAC attributes user resource action environment physician hospital"
+    },
+    {
+     "num": 160,
+     "quellen": ["atlam2025"],
+     "claim": "ABAC eignet sich besonders für dynamische Anforderungen moderner Gesundheitssysteme und ermöglicht feingranulare, kontextsensitive Entscheidungen.",
+     "fundstelle": "S. 17",
+     "suchHinweis": "ABAC fine-grained context-aware healthcare dynamic"
+    }
+   ]
+  },
+  {
+   "id": "3.3.2-p3",
+   "type": "text",
+   "kernaussage": "XACML ist der Standard zur technischen Umsetzung attributbasierter Zugriffskontrolle in verteilten Systemen.",
+   "sentences": [
+    {
+     "text": "Der Standard zur technischen Umsetzung attributbasierter Zugriffskontrolle ist eXtensible Access Control Markup Language (XACML), eine XML-basierte standardisierte Sprache zur Formulierung und zum Austausch von Zugriffsrichtlinien in verteilten Systemen.[^161]",
+     "einfach": "XACML ist eine standardisierte Sprache auf Basis von XML (einem textbasierten Datenformat), mit der man Zugriffsregeln ('Policies') formulieren und zwischen verteilten Systemen austauschen kann. Sie ist der etablierte Standard, um ABAC technisch umzusetzen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "eXtensible Access Control Markup Language (XACML)", "kategorie": "tech" },
+      { "snippet": "XML-basierte standardisierte Sprache", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 161,
+     "quellen": ["atlam2025"],
+     "claim": "XACML ist der Standard zur Formulierung und zum Austausch attributbasierter Zugriffsrichtlinien in verteilten Systemen.",
+     "fundstelle": "S. 17",
+     "suchHinweis": "XACML policy language access control standard"
+    }
+   ]
+  },
+  {
+   "id": "3.3.2-p4",
+   "type": "text",
+   "kernaussage": "Die XACML-Referenzarchitektur besteht aus funktional getrennten Komponenten, die in einer aus dem NIST-ABAC-Leitfaden übernommenen Abbildung dargestellt werden.",
+   "sentences": [
+    {
+     "text": "Die Referenzarchitektur umfasst funktional getrennte Komponenten, die auch der XACML-Architektur zugrunde liegen, wie in Abbildung dargestellt: [ABBILDUNG: Beispiel der Access Control Mechanism (ACM) Funktionen — übernommen aus NIST, Hu et al. (2014): Guide to Attribute Based Access Control (ABAC) Definition and Considerations, S. 15, Fig 5.]",
+     "einfach": "Die Standard-Architektur von XACML besteht aus mehreren Bausteinen mit klar getrennten Aufgaben. Die eingebundene Abbildung stammt aus dem ABAC-Leitfaden des US-Standardisierungsinstituts NIST und zeigt diese Funktionen des Zugriffskontrollmechanismus (Access Control Mechanism, ACM).",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "XACML-Architektur", "kategorie": "tech" },
+      { "snippet": "Access Control Mechanism (ACM)", "kategorie": "tech" },
+      { "snippet": "NIST", "kategorie": "akteur" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "3.3.2-p5",
+   "type": "text",
+   "kernaussage": "Die vier Komponenten PEP, PDP, PIP und PAP teilen die Aufgaben Durchsetzung, Entscheidung, Attributbereitstellung und Richtlinienverwaltung untereinander auf.",
+   "sentences": [
+    {
+     "text": "Der Policy Enforcement Point (PEP) fängt die Zugriffsanfrage auf ein Objekt ab und setzt die Entscheidung - Erlauben oder Verweigern - zur Laufzeit durch, der Policy Decision Point (PDP) ist die Kernkomponente, die die eigentliche Entscheidung über die Gewährung des Zugriffs trifft, der Policy Information Point (PIP) liefert die für die Entscheidung benötigten Attribute und der Policy Administration Point (PAP) dient der Erstellung und Speicherung der Richtlinien.[^162]",
+     "einfach": "Vier Bausteine arbeiten zusammen: Der PEP fängt jede Zugriffsanfrage ab und setzt die Entscheidung (Erlauben oder Verweigern) durch; der PDP trifft als Kernkomponente die eigentliche Entscheidung; der PIP liefert dafür die benötigten Attribute (Eigenschaften); der PAP dient dazu, die Zugriffsregeln zu erstellen und zu speichern.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Policy Enforcement Point (PEP)", "kategorie": "tech" },
+      { "snippet": "Policy Decision Point (PDP)", "kategorie": "tech" },
+      { "snippet": "Policy Information Point (PIP)", "kategorie": "tech" },
+      { "snippet": "Policy Administration Point (PAP)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 162,
+     "quellen": ["atlam2025", "nist-abac2014"],
+     "claim": "Die Funktionsaufteilung der ABAC/XACML-Referenzarchitektur auf PEP (Durchsetzung), PDP (Entscheidung), PIP (Attributlieferung) und PAP (Richtlinienverwaltung).",
+     "fundstelle": "S. 17 (Atlam) bzw. S. 14 (NIST)",
+     "suchHinweis": "policy enforcement point decision point PEP PDP PIP PAP"
+    }
+   ]
+  },
+  {
+   "id": "3.3.2-p6",
+   "type": "text",
+   "kernaussage": "ABAC-Richtlinien werden zentral verwaltet, aber lokal durchgesetzt, wodurch Sicherheitsregeln einheitlich über alle Komponenten eines Informationssystems gelten.",
+   "sentences": [
+    {
+     "text": "Ein wesentlicher Vorzug dieses Modells liegt darin, dass ABAC-Richtlinien zentral verwaltet werden und den dort geltenden Zugriffsregeln entsprechen, während die Entscheidungen lokal berechnet und durchgesetzt werden.",
+     "einfach": "Ein großer Vorteil von ABAC: Die Zugriffsregeln (Policies) werden an einer zentralen Stelle gepflegt, aber jede einzelne Zugriffsentscheidung wird direkt vor Ort im jeweiligen System berechnet und durchgesetzt.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "ABAC-Richtlinien", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "So lassen sich Sicherheitsrichtlinien einheitlich über die Komponenten eines Informationssystems hinweg anwenden.[^163]",
+     "einfach": "Dadurch gelten dieselben Sicherheitsregeln einheitlich in allen Teilen eines Informationssystems, ohne dass jede Komponente eigene Regeln pflegen muss.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 163,
+     "quellen": ["nist-abac2014"],
+     "claim": "Zentral verwaltete ABAC-Richtlinien bei lokaler Berechnung und Durchsetzung ermöglichen die einheitliche Anwendung von Sicherheitsrichtlinien über Systemkomponenten hinweg.",
+     "fundstelle": "S. 15",
+     "suchHinweis": "centrally managed policy local enforcement consistent"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "sectionId": "3.3.1",
+ "title": "Authentifizierung",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 26,
+ "pdfPage": 36,
+ "paragraphs": [
+  {
+   "id": "3.3.1-p1",
+   "type": "text",
+   "text": "Die Authentifizierung bildet die Grundlage jeder Zugriffsentscheidung und lässt sich von der vorgelagerten Identifikation abgrenzen. Bei der Identifikation behauptet eine Person, eine bestimmte Identität, etwa durch Eingabe einer Benutzerkennung, zu haben. Die Authentifizierung ist demgegenüber der Prozess, durch den ein Antragsteller den Besitz und die Kontrolle über einen oder mehrere Authentifikatoren nachweist, die mit einem Nutzerkonto verknüpft sind, und so belegt, dass er tatsächlich die dem Konto zugeordnete Person ist.[^145] Authentifizierung ist somit die Überprüfung der zuvor behaupteten Identität.[^146]",
+   "footnotes": [
+    {
+     "num": 145,
+     "text": "Vgl. National Institute of Standards and Technology (NIST), Grassi et al. (2017): Digital Identity Guidelines, S. 2.",
+     "sources": [
+      "nist-800-63b-2017"
+     ]
+    },
+    {
+     "num": 146,
+     "text": "Vgl. National Institute of Standards and Technology (NIST), Grassi et al. (2017): Digital Identity Guidelines, S. 2.",
+     "sources": [
+      "nist-800-63b-2017"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3.1-p2",
+   "type": "text",
+   "text": "Die hierfür eingesetzten Authentifizierungsfaktoren werden in drei Kategorien unterteilt: Wissen (etwas, das man weiß - beispielsweise ein Passwort, eine Passphrase oder eine PIN), Besitz (etwas, das man hat - beispielsweise eine Chipkarte oder ein Token) und Inhärenz (etwas, das man ist - beispielsweise ein Fingerabdruck oder ein Iris-Scan).[^147] Je nach Anzahl der kombinierten Faktoren unterscheidet man Einfaktor-, Zweifaktor- und Mehrfaktor-Authentifizierung.[^148] Während die Einfaktor-Authentifizierung - typischerweise die Kombination aus Benutzername und Passwort - nur auf einer einzigen Kategorie beruht, kombiniert die Mehrfaktor-Authentifizierung Faktoren aus mindestens zwei unterschiedlichen Kategorien und erhöht damit die Sicherheit erheblich.[^149] Ein in der Praxis weit verbreitetes und besonders sicheres Verfahren beruht auf einer Public-Key-Infrastruktur (PKI), die digitale Signaturen mittels digitaler Zertifikate zur Identitätsprüfung standardisiert.[^150]",
+   "footnotes": [
+    {
+     "num": 147,
+     "text": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 3.",
+     "sources": [
+      "cobrado2024"
+     ]
+    },
+    {
+     "num": 148,
+     "text": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 3.",
+     "sources": [
+      "cobrado2024"
+     ]
+    },
+    {
+     "num": 149,
+     "text": "Vgl. National Institute of Standards and Technology (NIST), Temoshok et al. (2025): Digital Identity Guidelines, S. 11.",
+     "sources": [
+      "nist-800-63-4-2025"
+     ]
+    },
+    {
+     "num": 150,
+     "text": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 10.",
+     "sources": [
+      "cobrado2024"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3.1-p3",
+   "type": "text",
+   "text": "Eine besondere Herausforderung in vernetzten Gesundheitssystemen ist die einrichtungsübergreifende Authentifizierung, da ein Behandler, der bei seiner eigenen Organisation angemeldet ist, auch auf Daten anderer Einrichtungen zugreifen können soll. Diese organisationsübergreifende Authentifizierung kann durch föderiertes Identitätsmanagement gelöst werden, bei dem Föderationstechnologien einem Service Provider sichere Methoden bereitstellen, um Nutzer zu identifizieren, die von einem Identity Provider authentifiziert wurden.[^151] Der maßgebliche Standard hierfür ist die Security Assertion Markup Language (SAML), ein von der Organization for the Advancement of Structured Information Standards (OASIS) verabschiedeter Föderationsstandard.[^152] SAML ermöglicht es, Authentifizierungs- und Autorisierungsinformationen in Form digital signierter Aussagen, sogenannter Assertions, zwischen einem Identity Provider und einem Service Provider auszutauschen, sodass eine an einer Stelle erfolgte Authentifizierung auch von anderen Stellen anerkannt werden kann.[^153]",
+   "footnotes": [
+    {
+     "num": 151,
+     "text": "Vgl. Fernández-Alemán et al. (2013): Security and privacy in electronic health records, S. 557.",
+     "sources": [
+      "fernandez2013"
+     ]
+    },
+    {
+     "num": 152,
+     "text": "Vgl. Fernández-Alemán et al. (2013): Security and privacy in electronic health records, S. 557.",
+     "sources": [
+      "fernandez2013"
+     ]
+    },
+    {
+     "num": 153,
+     "text": "Vgl. Fernández-Alemán et al. (2013): Security and privacy in electronic health records, S. 557.",
+     "sources": [
+      "fernandez2013"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3.1-p4",
+   "type": "text",
+   "text": "Im grenzüberschreitenden Kontext des EHDS gewinnt die Authentifizierung eine zusätzliche, europäische Dimension. Die Authentifizierung für den Zugang zu den EHDS-Diensten erfolgt mittels sicherer elektronischer Identifizierungsmethoden (eIDs), die nach Artikel 6 der eIDAS-Verordnung (EU) Nr. 910/2014 anerkannt sind. In vielen Fällen kommen dabei nationale eIDs zum Einsatz.[^154] Die zuverlässige Identifizierung von Patientinnen und Patienten sowie von Angehörigen der Gesundheitsberufe über Staatsgrenzen hinweg ist eine wesentliche Voraussetzung für vertrauenswürdige digitale Gesundheitsinteraktionen zwischen den Mitgliedstaaten.[^155] Da die eIDAS-Verordnung jedoch ursprünglich keine ausdrückliche Regelung für den im Gesundheitswesen erforderlichen Patientenidentifikator vorsah, wurde in entsprechenden EU-Projekten gezeigt, dass diese Information über die eIDAS-Infrastruktur und die nationale Kontaktstelle von Land zu Land übertragen werden kann.[^156]",
+   "footnotes": [
+    {
+     "num": 154,
+     "text": "Vgl. Europäische Kommission (2025): Frequently Asked Questions on the European Health Data Space (EHDS), S. 13.",
+     "sources": [
+      "ek-faq2025"
+     ]
+    },
+    {
+     "num": 155,
+     "text": "Verordnung (EU) Nr. 910/2014 des Europäischen Parlaments und des Rates vom 23. Juli 2014 über elektronische Identifizierung und Vertrauensdienste für elektronische Transaktionen im Binnenmarkt und zur Aufhebung der Richtlinie 1999/93/EG. ABl. L 257 vom 28.8.2014, S. 73.",
+     "sources": [
+      "eidas"
+     ]
+    },
+    {
+     "num": 156,
+     "text": "Vgl. Stasis et al. (2018): eIDAS - Electronic Identification for Cross Border eHealth, S. 1.",
+     "sources": [
+      "stasis2018"
+     ]
+    }
+   ]
+  }
+ ]
+}

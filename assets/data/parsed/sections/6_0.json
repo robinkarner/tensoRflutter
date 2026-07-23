@@ -1,0 +1,76 @@
+{
+ "sectionId": "6.0",
+ "title": "Überblick",
+ "chapter": 6,
+ "chapterTitle": "Fazit",
+ "page": 67,
+ "pdfPage": 77,
+ "paragraphs": [
+  {
+   "id": "6.0-p1",
+   "type": "text",
+   "text": "Die vorliegende Arbeit hat untersucht, inwieweit die österreichische Elektronische Gesundheitsakte ELGA die Anforderungen der EHDS-Verordnung erfüllt. Vorweg lässt sich festhalten, dass Österreich in großen Teilen bereits gut positioniert ist. Dennoch konnten an bestimmten Stellen Lücken identifiziert werden, deren Schließung bis zu den jeweiligen EHDS-Umsetzungsfristen gesetzgeberisches und technisches Handeln erfordert.",
+   "footnotes": []
+  },
+  {
+   "id": "6.0-p2",
+   "type": "text",
+   "text": "Eines der wichtigsten positiven Ergebnisse ist, dass Österreich mit ELGA über eine ausgereifte technische Infrastruktur verfügt, die viele EHDS-Anforderungen bereits heute erfüllt, wie das Zugangsrecht natürlicher Personen über das Bürger-Zugangsportal. Das Berechtigungssystem nach dem Grundsatz des default deny, kombiniert mit der rollenbezogenen Autorisierung und der XACML-basierten Feinsteuerung auf Dokumentenebene, entspricht dem granularen Zugangskontrollrecht der EHDS-Verordnung. Die Anforderungen an die Zugriffsprotokollierung von Zeitpunkt, Akteur, Datenkategorie und Transaktionsart werden durch das GTelG 2012 ebenso abgedeckt wie die geforderte dreijährige Mindestabrufbarkeit.",
+   "footnotes": []
+  },
+  {
+   "id": "6.0-p3",
+   "type": "text",
+   "text": "Von den sechs prioritären Datenkategorien der Primärnutzung deckt ELGA fünf bereits durch bestehende Anwendungen ab. Offen ist die Patientenkurzakte, die als Austrian Patient Summary bereits spezifiziert wurde, jedoch als Erprobungsstandard noch nicht in ELGA produktiv integriert ist. Insgesamt liegen die nationalen Termine für die Umsetzung von Speicherpflichten nach der ELGA-VO 2015 vor den EHDS-Umsetzungsfristen. Demnach sind also keine Probleme bezüglich Erfüllung des EHDS zu erwarten.",
+   "footnotes": []
+  },
+  {
+   "id": "6.0-p4",
+   "type": "text",
+   "text": "Bezüglich der Akteure zeigen sich Unterschiede. Während das GTelG 2012 den Kreis der ELGA-Gesundheitsdiensteanbieter taxativ festlegt, definiert die EHDS-Verordnung den Gesundheitsdienstleister funktional und damit weiter. Praktisch sichtbar wird das bei den Wahlärztinnen und Wahlärzten, die in Österreich spezifisch über die Verhältnismäßigkeitsgrenze des ÄrzteG 1998 von Speicherpflichten und gleichzeitig auch unionsrechtlich über die Kleinstunternehmen-Ausnahme der EHDS-Verordnung ausgenommen sein können.",
+   "footnotes": []
+  },
+  {
+   "id": "6.0-p5",
+   "type": "text",
+   "text": "Die erste strukturelle Lücke betrifft die Information über erfolgte Datenzugriffe. Die EHDS-Verordnung räumt natürlichen Personen ausdrücklich das Recht ein, Informationen über jeden Zugriff auf ihre Gesundheitsdaten auch durch automatische Benachrichtigungen zu erhalten. GTelG 2012 und ELGA-VO 2015 kennen dagegen nur ein abrufbasiertes Auskunftsrecht über das Zugangsportal oder die ELGA-Ombudsstelle. Da die EHDS-Verordnung unmittelbar in jedem Mitgliedstaat gilt, entsteht dadurch keine inhaltliche nationale Rechtslücke und eine technische Umsetzung ist bis 26. März 2029 sicherzustellen. Da das aggregierte Audit Record Repository (A-ARR) bereits jeden Zugriff protokolliert und die damit erforderlichen Daten vorliegen, liegt der verbleibende Teil bei der Einrichtung eines geeigneten Benachrichtigungskanals, etwa per E-Mail, SMS oder über Push-Benachrichtigung der angekündigten ELGA-App.",
+   "footnotes": []
+  },
+  {
+   "id": "6.0-p6",
+   "type": "text",
+   "text": "Weitere rechtliche Fragen ergeben sich aus den Widerspruchsrechten. Österreich hat die Bereitstellung der Daten seiner Versicherten für die grenzüberschreitende Primärnutzung über MyHealth@EU an ein Opt-In geknüpft. Die EHDS-Verordnung räumt den Mitgliedstaaten hingegen lediglich die Option eines Widerspruchsrechts ein. Das nationale Modell könnte über den Rahmen der Verordnung hinausgehen. Wer innerstaatlich an ELGA teilnimmt, ohne das Opt-In explizit zu erklären, steht für den grenzüberschreitenden Austausch nicht zur Verfügung. Das stärkt zwar die Selbstbestimmung der Betroffenen, könnte aber mit der Motivation des EHDS, den unionsweiten Austausch zu stärken, unvereinbar sein.",
+   "footnotes": []
+  },
+  {
+   "id": "6.0-p7",
+   "type": "text",
+   "text": "Spätestens mit dem Geltungsbeginn der Primärnutzungspflichten am 26. März 2029 wird sich daher die Frage stellen, ob das Opt-In-Erfordernis mit der unmittelbar geltenden Verordnung vereinbar ist. Für die Sekundärnutzung ab dem 26. März 2029 sieht die EHDS-Verordnung, anders als für die Primärnutzung, ein zwingendes Widerspruchsrecht vor, das in Österreich noch umzusetzen ist.",
+   "footnotes": []
+  },
+  {
+   "id": "6.0-p8",
+   "type": "text",
+   "text": "Ein weitere Regelungslücke betrifft die Stelle für digitale Gesundheit (Primärnutzung), die Marktüberwachungsbehörde für EHR-Systeme sowie die Zugangsstelle für Gesundheitsdaten (Sekundärnutzung), die bis 26. März 2027 zu benennen sind aber zum Zeitpunkt dieser Arbeit noch nicht benannt waren.",
+   "footnotes": []
+  },
+  {
+   "id": "6.0-p9",
+   "type": "text",
+   "text": "Die grenzüberschreitende Anbindung für die Primärnutzung erfolgt über MyHealth@EU. Mit dem Start von MyHealth@EU im Februar 2026 wurden hier erstmals EU-Rezepte (ausgehend) und EU-Patientenkurzakten (eingehend) zwischen Österreich und Tschechien ausgetauscht und damit die Anschlussfähigkeit von EHR-Systemen über die ELGA-Bereiche bis zur nationalen Kontaktstelle des Projekts AT-eHDSI belegt. Die ausgehende Bereitstellung der österreichischen Patientenkurzakte steht noch aus.",
+   "footnotes": []
+  },
+  {
+   "id": "6.0-p10",
+   "type": "text",
+   "text": "Die technischen Voraussetzungen für die Nutzung der ELGA-Komponenten haben ELGA-Gesundheitsdiensteanbieter grundsätzlich mit 1. Jänner 2026 sicherzustellen. Nach der Erfüllungsfiktion der ELGA-VO 2015 gilt diese Pflicht aber auch dann als erfüllt, wenn bis zu diesem Zeitpunkt mit einem Softwareanbieter vertraglich ein Umsetzungstermin bis spätestens 31. Dezember 2028 vereinbart wird. Die flächendeckende technische Anbindung kann sich damit bis knapp drei Monate vor die erste EHDS-Stufe am 26. März 2029 verschieben. Ab diesem Datum sind Patientenkurzakte, elektronische Verschreibung und elektronische Abgabe verpflichtend über MyHealth@EU auszutauschen, zugleich gelten das Benachrichtigungsrecht des Artikels 9 der EHDS-Verordnung und der bereits erwähnte Sekundärnutzungs-Widerspruch. Hierfür sind der Zugang und Empfang im Austauschformat EEHRxF umzusetzen, dessen technische Spezifikationen die Kommission bis zum 26. März 2027 mit Durchführungsrechtsakten festzulegen hat. Da Anhang II der Verordnung eine Schnittstellen- und keine Speicheranforderung normiert, kann der bestehende CDA-Bestand der Repositories dabei neben den neueren FHIR-Leitfäden fortgeführt werden. Ab dem 26. März 2031 folgt die zweite Gruppe der prioritären Kategorien mit medizinischer Bildgebung, Laborergebnissen und Entlassungsberichten.",
+   "footnotes": []
+  },
+  {
+   "id": "6.0-p11",
+   "type": "text",
+   "text": "Österreich verfügt mit ELGA über eine etablierte eHealth-Infrastruktur, die für die EHDS-Umsetzung der Primärnutzung eine solide Grundlage bildet. Der Umsetzungsstand ist dort am weitesten fortgeschritten, wo ELGA auf bestehende Datenkategorien und bewährte Standards zurückgreifen kann. Die Herausforderung der Primärnutzung nach EHDS wird insgesamt weniger in der Schaffung großer neuer technischer Kapazitäten liegen als in der rechtlichen Anpassung bestehender Normen und der gezielten Erweiterung der vorhandenen Infrastruktur innerhalb der verbleibenden Fristen.",
+   "footnotes": []
+  }
+ ]
+}

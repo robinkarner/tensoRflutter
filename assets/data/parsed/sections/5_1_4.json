@@ -1,0 +1,126 @@
+{
+ "sectionId": "5.1.4",
+ "title": "e-Medikation und e-Impfpass als architektonische Sonderfälle",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 54,
+ "pdfPage": 64,
+ "paragraphs": [
+  {
+   "id": "5.1.4-p1",
+   "type": "text",
+   "text": "Die Anwendungen e-Medikation und e-Impfpass weichen vom dezentralen Speichermodell ab. Die e-Medikation ist als ELGA-Anwendung beim Dachverband der Sozialversicherungsträger eingerichtet, die verordnete und abgegebene Arzneimittel nicht verteilt, sondern abweichend von der dezentralen Speicherung der übrigen ELGA-Gesundheitsdaten ohne Aufnahme elektronischer Verweise zentral in ELGA vorhält.[^298] Diese Medikationsdaten werden 18 Monate nach der Abgabe automatisch gelöscht, während die eigentliche Prüfung von Wechselwirkungen ausdrücklich in der Eigenverantwortung der Gesundheitsdiensteanbieter verbleibt.[^299] Die e-Medikation steht über das e-card-System und das GIN allen ELGA-Gesundheitsdiensteanbietern einschließlich Wahlärztinnen und Wahlärzten offen, ohne dass es hierfür eines eigenen ELGA-Bereichs bedarf.[^300] Im Sinne des EHDS entspricht sie damit der Anwendung der elektronischen Verschreibung und Abgabe (ePrescription und eDispensation).[^301]",
+   "footnotes": [
+    {
+     "num": 298,
+     "text": "Vgl. § 16a Abs 1 iVm § 20 Abs 4 Z 1 GTelG 2012..",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 299,
+     "text": "Vgl. § 20 Abs 4 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 300,
+     "text": "Vgl. § 21 Abs 2 GTelG 2012 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 226f.",
+     "sources": [
+      "elga-gesamtarchitektur2017",
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 301,
+     "text": "Vgl. Art 14 Abs 1 lit b und c VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.1.4-p2",
+   "type": "text",
+   "text": "Auch der e-Impfpass folgt einer zentralen Logik. Er ist rechtlich eine eigenständige eHealth-Anwendung, die zwar die ELGA-Komponenten nutzt, aber nicht Teil von ELGA im engeren Sinn ist. Seine Daten werden in einem zentralen Impfregister geführt.[^302] Anders als bei der ELGA-Teilnahme besteht für die Dokumentation im zentralen Impfregister kein Widerspruchsrecht.[^303] Welche Impfungen verpflichtend einzutragen sind, legt eine Verordnung des für das Gesundheitswesen zuständigen Bundesministeriums fest.[^304]",
+   "footnotes": [
+    {
+     "num": 302,
+     "text": "Vgl. §§ 24b Abs 1 und 24c Abs 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 303,
+     "text": "Vgl. § 24e Abs 5 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 304,
+     "text": "Vgl. § 28b Abs 4 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.1.4-p3",
+   "type": "text",
+   "text": "Beide Anwendungen bleiben in das Berechtigungs- und das Protokollierungssystem eingebunden, da diese nach dem GTelG 2012 auch die Zugriffsberechtigungen auf eHealth-Anwendungen verwalten und deren Verarbeitungen protokollieren (siehe Abschnitt 4.1.2).[^305] Der Zugriff der GDA-Systeme erfolgt dabei über das GIN direkt auf die jeweilige zentrale Anwendung. Die Kette aus Bereichsfindung, Verweisregister und XCA entfällt, weil keine Verweise bestehen.[^306]",
+   "footnotes": [
+    {
+     "num": 305,
+     "text": "Vgl. § 21 Abs 1 und § 22 Abs 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 306,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 226f.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.1.4-p4",
+   "type": "text",
+   "text": "Aus Sicht der EHDS-Verordnung sind die beiden Anwendungen dennoch unterschiedlich zu bewerten. Für die Medikationsdaten bestehen beide Steuerungsebenen der Verordnung: Der partielle und der situative Widerspruch entsprechen der von Artikel 10 eröffneten Opt-Out-Option, das Sperren und Ausblenden über das Zugangsportal dem verpflichtenden Recht auf Einschränkung des Zugangs nach Artikel 8.[^307] Der e-Impfpass weicht auf beiden Ebenen ab. Das fehlende Widerspruchsrecht ist dabei unproblematisch, da die Opt-Out-Regelung des Artikel 10 den Mitgliedstaaten freisteht.[^308] Es fehlt jedoch auch eine dem Ein- und Ausblenden vergleichbare individuelle Zugriffssteuerung, obwohl Artikel 8 ein verpflichtendes Recht normiert. Da Impfinformationen zugleich zu den Inhalten der Patientenkurzakte zählen, wäre zu klären, ob das Einschränkungsrecht künftig auch für Impfdaten umzusetzen ist oder ob die gesundheitspolitische Zwecksetzung des Impfregisters eine abweichende nationale Ausgestaltung trägt.[^309]",
+   "footnotes": [
+    {
+     "num": 307,
+     "text": "Vgl. §§ 15 Abs 2, 16 Abs 1 und 2 sowie 21 Abs 3 GTelG 2012 und Art 8 und 10 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo",
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 308,
+     "text": "Vgl. § 24e Abs 5 GTelG 2012 und Art 10 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo",
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 309,
+     "text": "Vgl. Anhang I VO (EU) 2025/327 und § 24s Abs 3 GTelG 2012.",
+     "sources": [
+      "ehds-vo",
+      "gtelg2012"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "sectionId": "4.2.2",
+ "paragraphs": [
+  {
+   "id": "4.2.2-p1",
+   "type": "text",
+   "kernaussage": "Die Speicherpflichten stehen unter dem Vorbehalt der technischen Verfügbarkeit der ELGA-Komponenten, was angesichts der gestaffelten Ausrollung ein Eingeständnis möglicher Infrastrukturlücken ist.",
+   "sentences": [
+    {
+     "text": "Die Speicherung der in der ELGA-VO 2015 genannten ELGA-Gesundheitsdaten gilt unter der Voraussetzung, dass die Nutzung der ELGA-Komponenten (Patient/inn/enindex, Gesundheitsdiensteanbieterindex, Verweisregister, Datenspeicher, Berechtigungssystem, Protokollierungssystem, Bürger-Zugangsportal) zur Verarbeitung von ELGA-Gesundheitsdaten technisch möglich ist.[^223]",
+     "einfach": "Die Speicherpflicht gilt nur, wenn die technischen Bausteine von ELGA am jeweiligen Ort tatsächlich nutzbar sind; dazu zählen die zentralen Komponenten wie der Patientenindex (Verzeichnis der Patienten), der Index der Gesundheitsdiensteanbieter, das Verweisregister (Verzeichnis, wo welche Dokumente liegen), die Datenspeicher, das Berechtigungssystem (regelt Zugriffe), das Protokollierungssystem (zeichnet Zugriffe auf) und das Bürger-Zugangsportal.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "ELGA-VO 2015", "kategorie": "norm" },
+      { "snippet": "ELGA-Komponenten", "kategorie": "tech" },
+      { "snippet": "Verweisregister", "kategorie": "tech" },
+      { "snippet": "Berechtigungssystem", "kategorie": "tech" },
+      { "snippet": "Protokollierungssystem", "kategorie": "tech" },
+      { "snippet": "Bürger-Zugangsportal", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Dies stellt einen gesetzlichen Vorbehalt dar, der angesichts der gestaffelten Ausrollung praktische Bedeutung hat und ein Eingeständnis ist, dass die Infrastruktur nicht überall rechtzeitig bereit gestellt sein könnte.",
+     "einfach": "Der Autor wertet diese Bedingung als eingebaute Rückfalloption: Weil ELGA schrittweise (gestaffelt) ausgerollt wird, räumt der Gesetzgeber damit indirekt ein, dass die technische Infrastruktur nicht überall pünktlich verfügbar sein könnte.",
+     "kategorien": ["these", "luecke"],
+     "marks": [
+      { "snippet": "gesetzlichen Vorbehalt", "kategorie": "these" },
+      { "snippet": "nicht überall rechtzeitig bereit gestellt sein könnte", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 223,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die Speicherpflichten gelten nur unter der Voraussetzung der technischen Nutzbarkeit der ELGA-Komponenten.",
+     "fundstelle": "§ 9 Abs 1",
+     "suchHinweis": "§ 9 technisch möglich ELGA-Komponenten"
+    }
+   ]
+  },
+  {
+   "id": "4.2.2-p2",
+   "type": "text",
+   "kernaussage": "Der Technikvorbehalt entbindet nicht dauerhaft: ELGA-GDA müssen die technischen Voraussetzungen mit 1. Jänner 2026 sicherstellen, wobei ein Softwarevertrag mit Umsetzungstermin bis Ende 2028 als Erfüllungsfiktion genügt und nur den Erfüllungszeitraum verschiebt.",
+   "sentences": [
+    {
+     "text": "Aus dem allgemeinen Vorbehalt folgt nicht, dass ELGA-GDA die technischen Voraussetzungen auf unbestimmte Zeit hinauszögern dürfen.",
+     "einfach": "Der Technikvorbehalt ist kein Freibrief: Gesundheitsdiensteanbieter dürfen die Herstellung der technischen Voraussetzungen nicht beliebig lange aufschieben.",
+     "kategorien": ["these", "akteur"],
+     "marks": [
+      { "snippet": "ELGA-GDA", "kategorie": "akteur" },
+      { "snippet": "auf unbestimmte Zeit hinauszögern", "kategorie": "these" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die ELGA-VO 2015 normiert vielmehr eine aktive Pflicht.",
+     "einfach": "Die Verordnung verlangt aktives Handeln: Die Anbieter müssen selbst dafür sorgen, dass die Technik einsatzbereit wird.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "ELGA-VO 2015", "kategorie": "norm" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "ELGA-GDA haben das Vorliegen der technischen Voraussetzungen für die Nutzung der ELGA-Komponenten jedenfalls mit 1. Jänner 2026 sicherzustellen.",
+     "einfach": "Spätestens am 1. Jänner 2026 müssen die Gesundheitsdiensteanbieter die technischen Voraussetzungen geschaffen haben, um die ELGA-Komponenten nutzen zu können.",
+     "kategorien": ["frist", "akteur", "tech"],
+     "marks": [
+      { "snippet": "ELGA-GDA", "kategorie": "akteur" },
+      { "snippet": "ELGA-Komponenten", "kategorie": "tech" },
+      { "snippet": "1. Jänner 2026", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der ELGA-GDA kommt dieser Pflicht auch dann nach, wenn er mit einem Softwareanbieter vertraglich einen Umsetzungstermin bis spätestens 31. Dezember 2028 vereinbart, zu dem die technischen Voraussetzungen, insbesondere hinsichtlich der ELGA-Interoperabilitätsstufe „EIS Full Support“, vorliegen werden.[^224]",
+     "einfach": "Die Pflicht gilt auch dann als erfüllt, wenn der Anbieter mit seiner Softwarefirma vertraglich vereinbart, dass die Technik spätestens am 31. Dezember 2028 fertig ist; das betrifft insbesondere die ELGA-Interoperabilitätsstufe 'EIS Full Support', also die höchste Stufe der technischen ELGA-Anbindung, bei der alle ELGA-Funktionen voll unterstützt werden.",
+     "kategorien": ["frist", "akteur", "tech"],
+     "marks": [
+      { "snippet": "ELGA-GDA", "kategorie": "akteur" },
+      { "snippet": "Softwareanbieter", "kategorie": "akteur" },
+      { "snippet": "31. Dezember 2028", "kategorie": "frist" },
+      { "snippet": "EIS Full Support", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Dabei handelt es sich um eine Erfüllungsfiktion, wonach die Pflicht nicht erst mit der tatsächlichen Umsetzung, sondern bereits mit dem Abschluss des entsprechenden Vertrags erfüllt ist.",
+     "einfach": "Juristisch ist das eine Erfüllungsfiktion: Das Gesetz tut so, als wäre die Pflicht schon erfüllt, sobald der Vertrag mit dem Softwareanbieter unterschrieben ist, auch wenn die Technik selbst noch nicht funktioniert.",
+     "kategorien": ["these"],
+     "marks": [
+      { "snippet": "Erfüllungsfiktion", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Eine eigene inhaltliche Ausnahme von den Speicherpflichten begründet die ELGA-VO 2015 damit nicht, sie verschiebt lediglich den Erfüllungszeitraum.",
+     "einfach": "Der Autor stellt klar: Inhaltlich wird niemand von der Speicherpflicht befreit; die Regelung gewährt nur mehr Zeit für die Umsetzung.",
+     "kategorien": ["these", "norm"],
+     "marks": [
+      { "snippet": "ELGA-VO 2015", "kategorie": "norm" },
+      { "snippet": "verschiebt lediglich den Erfüllungszeitraum", "kategorie": "these" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 224,
+     "quellen": ["elga-vo2015"],
+     "claim": "ELGA-GDA müssen die technischen Voraussetzungen mit 1. Jänner 2026 sicherstellen, wobei ein Vertrag mit einem Softwareanbieter über einen Umsetzungstermin bis 31. Dezember 2028 (EIS Full Support) genügt.",
+     "fundstelle": "§ 9 Abs 2",
+     "suchHinweis": "§ 9 Softwareanbieter 31. Dezember 2028 EIS Full Support"
+    }
+   ]
+  },
+  {
+   "id": "4.2.2-p3",
+   "type": "text",
+   "kernaussage": "Vertragsärzte, deren Kassenvertrag wegen der Altersgrenze binnen vier Jahren ab dem Verpflichtungszeitpunkt endet, sind von den Verpflichtungsterminen für Befunde und Entlassungsbriefe ausgenommen.",
+   "sentences": [
+    {
+     "text": "Die Verpflichtungstermine für die Speicherung von Entlassungsbriefen und sonstigen Befunden sowie für Laborbefunde und Befunde der bildgebenden Diagnostik erstrecken sich nicht auf Vertragsärzte (mit Ausnahme von Gruppenpraxen), deren Einzelvertrag aufgrund der im anzuwendenden Gesamtvertrag festgelegten Altersgrenze innerhalb von vier Jahren ab dem jeweiligen Verpflichtungszeitpunkt jedenfalls endet.[^225]",
+     "einfach": "Kassenärzte (Ärzte mit Vertrag zur Sozialversicherung), die wegen der im Gesamtvertrag festgelegten Altersgrenze innerhalb der nächsten vier Jahre ohnehin ihren Vertrag verlieren, also kurz vor der Pension stehen, müssen die Termine für die Speicherung von Entlassungsbriefen und Befunden nicht mehr einhalten; für Gruppenpraxen gilt diese Ausnahme aber nicht.",
+     "kategorien": ["akteur", "frist"],
+     "marks": [
+      { "snippet": "Vertragsärzte", "kategorie": "akteur" },
+      { "snippet": "Gruppenpraxen", "kategorie": "akteur" },
+      { "snippet": "innerhalb von vier Jahren", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 225,
+     "quellen": ["elga-vo2015"],
+     "claim": "Vertragsärzte, deren Einzelvertrag wegen der Altersgrenze binnen vier Jahren ab dem Verpflichtungszeitpunkt endet, sind von den Verpflichtungsterminen ausgenommen.",
+     "fundstelle": "§§ 5 Abs 3 Z 1 und 6 Abs 3 Z 1",
+     "suchHinweis": "§ 5 Altersgrenze Einzelvertrag vier Jahre"
+    }
+   ]
+  },
+  {
+   "id": "4.2.2-p4",
+   "type": "text",
+   "kernaussage": "Wahlärzte ohne Kassenvertrag sind bei unverhältnismäßigem Aufwand (unter 300 Patienten pro Jahr) von den Verpflichtungsterminen ausgenommen, müssen Patienten darüber informieren und riskieren bei Verstößen Strafen bis 21.800 Euro.",
+   "sentences": [
+    {
+     "text": "Die Verpflichtungstermine der ELGA-VO 2015 erstrecken sich auch nicht auf Ärzte, die nicht in einem Vertragsverhältnis zu einem Träger der gesetzlichen Sozialversicherung stehen, sofern eine Abwägung nach § 49 Absatz 7 ÄrzteG 1998[^226] ergibt, dass damit ein unverhältnismäßiger Aufwand verbunden wäre.",
+     "einfach": "Auch Wahlärzte (Ärzte ohne Vertrag mit der gesetzlichen Sozialversicherung; Patienten zahlen dort zunächst selbst) sind von den ELGA-Terminen ausgenommen, wenn eine Abwägung nach dem Ärztegesetz 1998 ergibt, dass die ELGA-Anbindung für sie einen unverhältnismäßig hohen Aufwand bedeuten würde.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "ELGA-VO 2015", "kategorie": "norm" },
+      { "snippet": "Träger der gesetzlichen Sozialversicherung", "kategorie": "akteur" },
+      { "snippet": "§ 49 Absatz 7 ÄrzteG 1998", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Verhältnismäßigkeitsgrenze liegt mit 1. Jänner 2026 nach Gesprächen zwischen dem Gesundheitsministerium, dem Dachverband der Sozialversicherungsträger und der Österreichischen Ärztekammer bei weniger als 300 verschiedenen Patienten pro Jahr.[^227]",
+     "einfach": "Ab dem 1. Jänner 2026 gilt als konkrete Grenze: Wer weniger als 300 verschiedene Patienten pro Jahr behandelt, für den gilt der Aufwand als unverhältnismäßig; diese Zahl haben Gesundheitsministerium, Dachverband der Sozialversicherungsträger und Ärztekammer ausverhandelt.",
+     "kategorien": ["frist", "zahl", "akteur"],
+     "marks": [
+      { "snippet": "1. Jänner 2026", "kategorie": "frist" },
+      { "snippet": "Gesundheitsministerium", "kategorie": "akteur" },
+      { "snippet": "Dachverband der Sozialversicherungsträger", "kategorie": "akteur" },
+      { "snippet": "Österreichischen Ärztekammer", "kategorie": "akteur" },
+      { "snippet": "weniger als 300 verschiedenen Patienten pro Jahr", "kategorie": "zahl" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Über eine Nichtanwendung von ELGA sind Patienten vor Durchführung der Leistung zu informieren.",
+     "einfach": "Nutzt ein Arzt ELGA nicht, muss er seine Patienten darüber informieren, bevor er sie behandelt.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Patienten", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Sanktionen bei Verstößen betragen bis zu 3.630 Euro, bei schwerwiegender Gefahr für Leib, Leben oder Gesundheit bis zu 21.800 Euro.[^228]",
+     "einfach": "Wer gegen diese Pflichten verstößt, riskiert eine Verwaltungsstrafe bis 3.630 Euro; bringt der Verstoß Menschen ernsthaft in Gefahr, kann die Strafe bis zu 21.800 Euro betragen.",
+     "kategorien": ["zahl"],
+     "marks": [
+      { "snippet": "3.630 Euro", "kategorie": "zahl" },
+      { "snippet": "21.800 Euro", "kategorie": "zahl" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 226,
+     "quellen": ["aerzteg1998"],
+     "claim": "Die Ausnahme für Ärzte ohne Kassenvertrag bei unverhältnismäßigem Aufwand stützt sich auf die Abwägungsregel des Ärztegesetzes 1998.",
+     "fundstelle": "§ 49 Abs 7",
+     "suchHinweis": "§ 49 elektronische Gesundheitsakte unverhältnismäßiger Aufwand"
+    },
+    {
+     "num": 227,
+     "quellen": ["aeknoe2025"],
+     "claim": "Die Verhältnismäßigkeitsgrenze liegt ab 1. Jänner 2026 bei weniger als 300 verschiedenen Patienten pro Jahr.",
+     "fundstelle": "",
+     "suchHinweis": "e-Card-Anbindung Wahlärzte 300 Patienten Grenze"
+    },
+    {
+     "num": 228,
+     "quellen": ["aerzteg1998"],
+     "claim": "Verstöße werden mit bis zu 3.630 Euro, bei schwerwiegender Gefahr für Leib, Leben oder Gesundheit mit bis zu 21.800 Euro sanktioniert.",
+     "fundstelle": "§ 199 Abs 3",
+     "suchHinweis": "§ 199 Verwaltungsübertretung 21.800 Euro"
+    }
+   ]
+  },
+  {
+   "id": "4.2.2-p5",
+   "type": "text",
+   "kernaussage": "Die nationale Wahlarzt-Ausnahme überlagert sich mit der Kleinstunternehmen-Ausnahme des Artikel 50 EHDS-Verordnung zu einer doppelten Ausnahmelage, die die Vollständigkeit der bis März 2029 bereitzustellenden Patientenkurzakte und damit auch die Datenbasis der Sekundärnutzung beeinträchtigt.",
+   "sentences": [
+    {
+     "text": "Die nationale Ausnahme für Wahlärzte trifft auf europäischer Ebene auf Artikel 50 der EHDS-Verordnung, der Mitgliedstaaten zugesteht, Kleinstunternehmen (weniger als 10 Mitarbeiter und weniger als 2 Millionen Euro Jahresumsatz) von bestimmten Pflichten der EHDS-Verordnung auszunehmen.",
+     "einfach": "Parallel zur österreichischen Wahlarzt-Ausnahme erlaubt Artikel 50 der EHDS-Verordnung (der EU-Verordnung zum europäischen Gesundheitsdatenraum) den Mitgliedstaaten, Kleinstunternehmen mit weniger als 10 Mitarbeitern und unter 2 Millionen Euro Jahresumsatz von bestimmten EHDS-Pflichten zu befreien.",
+     "kategorien": ["norm", "akteur", "zahl"],
+     "marks": [
+      { "snippet": "Wahlärzte", "kategorie": "akteur" },
+      { "snippet": "Artikel 50 der EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Kleinstunternehmen", "kategorie": "akteur" },
+      { "snippet": "weniger als 10 Mitarbeiter", "kategorie": "zahl" },
+      { "snippet": "weniger als 2 Millionen Euro Jahresumsatz", "kategorie": "zahl" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Wenn Wahlärzte diese Schwellenwerte unterschreiten, entsteht de facto eine doppelte Ausnahmelage.",
+     "einfach": "Da viele Wahlarztordinationen so klein sind, dass sie unter diese Schwellenwerte fallen, greifen für sie faktisch zwei Ausnahmen gleichzeitig.",
+     "kategorien": ["these", "luecke", "akteur"],
+     "marks": [
+      { "snippet": "Wahlärzte", "kategorie": "akteur" },
+      { "snippet": "doppelte Ausnahmelage", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "National nach § 49 Absatz 7 ÄrzteG 1998 und europäisch nach Artikel 50 EHDS-Verordnung.",
+     "einfach": "Die eine Ausnahme kommt aus dem österreichischen Ärztegesetz (§ 49 Abs 7 ÄrzteG 1998), die andere aus dem EU-Recht (Artikel 50 EHDS-Verordnung).",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "§ 49 Absatz 7 ÄrzteG 1998", "kategorie": "norm" },
+      { "snippet": "Artikel 50 EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Dies hat unmittelbare Auswirkungen auf die Vollständigkeit der nach der EHDS-Verordnung bis März 2029 bereitzustellenden Patientenkurzakte für die Primärnutzung sowie in weiterer Folge auch auf die Datenbasis für die Sekundärnutzung.",
+     "einfach": "Die Folge: Die Patientenkurzakte (eine Zusammenfassung der wichtigsten Gesundheitsdaten einer Person), die laut EHDS-Verordnung bis März 2029 für die Primärnutzung (Nutzung in der Behandlung) bereitstehen muss, bleibt lückenhaft, weil Daten der ausgenommenen Ärzte fehlen; das schwächt auch die Datenbasis für die Sekundärnutzung (Nutzung z. B. für Forschung).",
+     "kategorien": ["frist", "norm", "these", "luecke", "tech"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "bis März 2029", "kategorie": "frist" },
+      { "snippet": "Patientenkurzakte", "kategorie": "tech" },
+      { "snippet": "Vollständigkeit", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "sectionId": "2.3.1",
+ "paragraphs": [
+  {
+   "id": "2.3.1-p1",
+   "type": "text",
+   "kernaussage": "Die Primärnutzung im EHDS betrifft drei zentrale Akteursgruppen: natürliche Personen, Gesundheitsdienstleister und nationale Aufsichtsbehörden.",
+   "sentences": [
+    {
+     "text": "Im Mittelpunkt der Primärnutzung stehen natürliche Personen, Gesundheitsdienstleister und nationale Aufsichtsbehörden.",
+     "einfach": "Bei der Primärnutzung (der Verwendung von Gesundheitsdaten für die eigentliche Gesundheitsversorgung) gibt es drei Hauptbeteiligte: die Patientinnen und Patienten selbst (rechtlich \"natürliche Personen\"), die Gesundheitsdienstleister (z. B. Ärztinnen, Ärzte, Krankenhäuser) und staatliche Aufsichtsstellen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "natürliche Personen", "kategorie": "akteur" },
+      { "snippet": "Gesundheitsdienstleister", "kategorie": "akteur" },
+      { "snippet": "nationale Aufsichtsbehörden", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "2.3.1-p2",
+   "type": "text",
+   "kernaussage": "Natürliche Personen erhalten ein Recht auf unverzüglichen, kostenlosen und leicht lesbaren elektronischen Zugang zu ihren prioritären Gesundheitsdaten.",
+   "sentences": [
+    {
+     "text": "Natürliche Personen haben das Recht, über Zugangsdienste für elektronische Gesundheitsdaten Zugang zumindest zu den sie betreffenden personenbezogenen elektronischen Gesundheitsdaten, die unter prioritäre Kategorien fallen und für die Gesundheitsversorgung verarbeitet werden, zu erhalten.",
+     "einfach": "Jede Person hat das Recht, über spezielle Online-Zugangsdienste mindestens auf ihre eigenen elektronischen Gesundheitsdaten zuzugreifen, sofern diese zu den prioritären Datenkategorien gehören (z. B. Patientenkurzakte oder elektronische Verschreibungen) und für die Behandlung verarbeitet werden.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Natürliche Personen", "kategorie": "akteur" },
+      { "snippet": "Zugangsdienste für elektronische Gesundheitsdaten", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der Zugang muss unter Berücksichtigung der technischen Umsetzbarkeit unverzüglich nach der Erfassung der personenbezogenen elektronischen Gesundheitsdaten in einem EHR-System kostenlos und in leicht lesbarer, konsolidierter und zugänglicher Form gewährt werden.[^67]",
+     "einfach": "Der Zugriff muss kostenlos sein und – soweit technisch machbar – sofort möglich sein, sobald die Daten in einem EHR-System (Software zur Führung elektronischer Gesundheitsakten, Electronic Health Record) gespeichert wurden; die Daten müssen dabei gut lesbar, zusammengeführt und leicht zugänglich aufbereitet sein.",
+     "kategorien": ["frist", "tech"],
+     "marks": [
+      { "snippet": "unverzüglich nach der Erfassung", "kategorie": "frist" },
+      { "snippet": "EHR-System", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 67,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt das Recht natürlicher Personen auf unverzüglichen, kostenlosen Zugang zu ihren prioritären personenbezogenen elektronischen Gesundheitsdaten in leicht lesbarer, konsolidierter Form.",
+     "fundstelle": "Art 3 Abs 1",
+     "suchHinweis": "Artikel 3 Recht Zugang Zugangsdienst kostenlos"
+    }
+   ]
+  },
+  {
+   "id": "2.3.1-p3",
+   "type": "text",
+   "kernaussage": "Gesundheitsdienstleister sind als Gesundheitsdateninhaber zur Datenpflege verpflichtet, während von den Mitgliedstaaten zu benennende Stellen für digitale Gesundheit die nationale Aufsicht über die Primärnutzung übernehmen.",
+   "sentences": [
+    {
+     "text": "Gesundheitsdienstleister agieren als Gesundheitsdateninhaber und sind zur Aktualisierung und Bereitstellung dieser Daten verpflichtet.[^68]",
+     "einfach": "Ärztinnen, Ärzte, Krankenhäuser und andere Gesundheitsdienstleister gelten rechtlich als \"Gesundheitsdateninhaber\", also als die Stellen, die über die Daten verfügen; sie müssen die Gesundheitsdaten aktuell halten und zugänglich machen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Gesundheitsdienstleister", "kategorie": "akteur" },
+      { "snippet": "Gesundheitsdateninhaber", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Governance-Funktion auf nationaler Ebene (nationale Aufsichtsbehörden) nehmen die von jedem Mitgliedstaat zu benennenden Stellen für digitale Gesundheit wahr.",
+     "einfach": "Jeder EU-Mitgliedstaat muss eine eigene \"Stelle für digitale Gesundheit\" benennen; diese Behörde übernimmt die staatliche Steuerung (Governance) der Primärnutzung im jeweiligen Land.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "nationale Aufsichtsbehörden", "kategorie": "akteur" },
+      { "snippet": "Mitgliedstaat", "kategorie": "akteur" },
+      { "snippet": "Stellen für digitale Gesundheit", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie sind für die Umsetzung und Durchsetzung der Primärnutzung zuständig und müssen der Kommission bis zum 26. März 2027 mitgeteilt werden.[^69]",
+     "einfach": "Diese Stellen setzen die Regeln der Primärnutzung um und kontrollieren deren Einhaltung; die Mitgliedstaaten müssen der EU-Kommission bis spätestens 26. März 2027 melden, welche Stelle diese Aufgabe übernimmt.",
+     "kategorien": ["akteur", "frist"],
+     "marks": [
+      { "snippet": "Kommission", "kategorie": "akteur" },
+      { "snippet": "26. März 2027", "kategorie": "frist" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 68,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt die Pflicht der Gesundheitsdienstleister als Gesundheitsdateninhaber, die Daten zu aktualisieren und bereitzustellen.",
+     "fundstelle": "Art 13 Abs 2",
+     "suchHinweis": "Artikel 13 Gesundheitsdienstleister Aktualisierung Bereitstellung"
+    },
+    {
+     "num": 69,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt die Benennung der nationalen Stellen für digitale Gesundheit und deren Mitteilung an die Kommission bis zum 26. März 2027.",
+     "fundstelle": "Art 19 Abs 1 und 2",
+     "suchHinweis": "Artikel 19 Stelle für digitale Gesundheit benennen Kommission"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "sectionId": "3.3",
+ "paragraphs": [
+  {
+   "id": "3.3-p1",
+   "type": "text",
+   "kernaussage": "Weil Gesundheitsdaten nach der DSGVO besonders geschützt sind, müssen elektronische Gesundheitsakten den Zugriff technisch so absichern, dass nur berechtigte Personen zur richtigen Zeit Zugang erhalten.",
+   "sentences": [
+    {
+     "text": "Gesundheitsdaten zählen nach der DSGVO zu den besonderen Kategorien personenbezogener Daten, deren Verarbeitung grundsätzlich untersagt ist und nur für ausdrücklich geregelte Ausnahmen, wie zum Beispiel für Zwecke der Gesundheitsversorgung, zulässig ist.[^139]",
+     "einfach": "Die europäische Datenschutz-Grundverordnung (DSGVO) stuft Gesundheitsdaten als besonders sensibel ein ('besondere Kategorien personenbezogener Daten'). Ihre Verarbeitung ist grundsätzlich verboten und nur in gesetzlich genau definierten Ausnahmefällen erlaubt, etwa für die medizinische Versorgung.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "DSGVO", "kategorie": "norm" },
+      { "snippet": "besonderen Kategorien personenbezogener Daten", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Dieser erhöhte Schutzbedarf stellt besondere Anforderungen an die technische Absicherung des Zugriffs.",
+     "einfach": "Weil die Daten rechtlich so streng geschützt sind, muss auch die Technik den Zugriff besonders gut absichern.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die zentrale Herausforderung elektronischer Gesundheitsakten besteht darin, den richtigen Personen zur richtigen Zeit und am richtigen Ort Zugang zu gewähren und allen übrigen zu verwehren.[^140]",
+     "einfach": "Das Kernproblem elektronischer Gesundheitsakten ist die Zugriffssteuerung: Berechtigte sollen genau dann und dort Zugang bekommen, wo sie ihn brauchen - alle anderen dürfen keinen Zugriff haben.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 139,
+     "quellen": ["dsgvo"],
+     "claim": "Gesundheitsdaten gehören zu den besonderen Kategorien personenbezogener Daten, deren Verarbeitung grundsätzlich untersagt und nur für ausdrücklich geregelte Ausnahmen zulässig ist.",
+     "fundstelle": "Art 9 Abs 1 und Abs 2",
+     "suchHinweis": "Artikel 9 besondere Kategorien Gesundheitsdaten Verarbeitung untersagt"
+    },
+    {
+     "num": 140,
+     "quellen": ["cobrado2024"],
+     "claim": "Die zentrale Herausforderung elektronischer Gesundheitsakten ist, den richtigen Personen zur richtigen Zeit und am richtigen Ort Zugang zu gewähren und allen übrigen zu verwehren.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "access right people right time right place"
+    }
+   ]
+  },
+  {
+   "id": "3.3-p2",
+   "type": "text",
+   "kernaussage": "Das in der Literatur etablierte IAAA-Modell strukturiert die Zugriffssicherheit in vier eng verknüpfte Kategorien: Identification, Authentication, Authorization und Accountability.",
+   "sentences": [
+    {
+     "text": "In der wissenschaftlichen Literatur hat sich hierfür ein Rahmenmodell aus vier aufeinander bezogenen Kategorien etabliert, das unter dem Akronym IAAA zusammengefasst wird und für Identification, Authentication, Authorization und Accountability steht.[^141]",
+     "einfach": "In der Forschung hat sich dafür das IAAA-Modell durchgesetzt. Die Abkürzung steht für vier zusammenhängende Bausteine: Identification (Identifikation), Authentication (Authentifizierung), Authorization (Autorisierung) und Accountability (Rechenschaftspflicht).",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "IAAA", "kategorie": "tech" },
+      { "snippet": "Identification, Authentication, Authorization und Accountability", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Identifikation und Authentifizierung stellen fest und überprüfen, wer auf das System zugreift.",
+     "einfach": "Identifikation klärt, wer jemand zu sein behauptet; Authentifizierung prüft, ob diese Behauptung stimmt.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Autorisierung (Zugriffskontrolle) entscheidet, worauf eine authentifizierte Person zugreifen darf und die Rechenschaftspflicht (Accountability) gewährleistet durch lückenlose Protokollierung die nachträgliche Nachvollziehbarkeit aller Zugriffe.[^142]",
+     "einfach": "Die Autorisierung (Zugriffskontrolle) legt fest, auf welche Daten eine bereits authentifizierte Person zugreifen darf. Die Rechenschaftspflicht (Accountability) sorgt dafür, dass jeder Zugriff protokolliert wird und im Nachhinein nachvollziehbar bleibt.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Autorisierung (Zugriffskontrolle)", "kategorie": "tech" },
+      { "snippet": "Rechenschaftspflicht (Accountability)", "kategorie": "tech" },
+      { "snippet": "Protokollierung", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Diese vier Kategorien sind nicht isoliert, sondern eng miteinander verknüpft.[^143]",
+     "einfach": "Die vier Bausteine bauen aufeinander auf und greifen ineinander - keiner funktioniert sinnvoll ohne die anderen.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 141,
+     "quellen": ["cobrado2024"],
+     "claim": "In der Literatur ist das IAAA-Rahmenmodell (Identification, Authentication, Authorization, Accountability) für die Zugriffssicherheit von EHR-Systemen etabliert.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "IAAA identification authentication authorization accountability"
+    },
+    {
+     "num": 142,
+     "quellen": ["cobrado2024"],
+     "claim": "Autorisierung entscheidet über den Zugriffsumfang authentifizierter Personen, Accountability sichert über Protokollierung die Nachvollziehbarkeit aller Zugriffe.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "authorization access accountability logging traceability"
+    },
+    {
+     "num": 143,
+     "quellen": ["cobrado2024"],
+     "claim": "Die vier IAAA-Kategorien sind nicht isoliert, sondern eng miteinander verknüpft.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "categories interrelated interconnected linked"
+    }
+   ]
+  },
+  {
+   "id": "3.3-p3",
+   "type": "text",
+   "kernaussage": "Der EHDS regelt die Sicherheitsanforderungen an EHR-Systeme über die Protokollierungssoftwarekomponente; die folgenden Abschnitte behandeln Authentifizierung, Zugriffskontrolle und Protokollierung.",
+   "sentences": [
+    {
+     "text": "Die Sicherheitsanforderungen für EHR-Systeme werden im EHDS über die Protokollierungssoftwarekomponente geregelt.[^144]",
+     "einfach": "Die EHDS-Verordnung schreibt für EHR-Systeme (Systeme für elektronische Patientenakten) eine eigene Software-Komponente für die Protokollierung vor - über sie werden die Sicherheitsanforderungen geregelt.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "EHR-Systeme", "kategorie": "tech" },
+      { "snippet": "Protokollierungssoftwarekomponente", "kategorie": "tech" },
+      { "snippet": "EHDS", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die folgenden Abschnitte behandeln zunächst die Authentifizierung, anschließend die Zugriffskontrolle und schließlich die Protokollierung als Umsetzung der Rechenschaftspflicht.",
+     "einfach": "Die nächsten Abschnitte gehen die drei technischen Bausteine der Reihe nach durch: erst Authentifizierung, dann Zugriffskontrolle, zuletzt Protokollierung (als praktische Umsetzung der Rechenschaftspflicht).",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 144,
+     "quellen": ["ehds-vo"],
+     "claim": "Die Sicherheitsanforderungen für EHR-Systeme werden im EHDS über die Protokollierungssoftwarekomponente geregelt.",
+     "fundstelle": "Anhang II Nr 3",
+     "suchHinweis": "Anhang II Protokollierung Softwarekomponente EHR-System"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "sectionId": "2.1.3",
+ "title": "Verhältnis zum Daten-Governance-Rechtsakt (DGA)",
+ "chapter": 2,
+ "chapterTitle": "Europäischer Gesundheitsdatenraum",
+ "page": 9,
+ "pdfPage": 19,
+ "paragraphs": [
+  {
+   "id": "2.1.3-p1",
+   "type": "text",
+   "text": "Der DGA schafft einen allgemeinen sektorenübergreifenden Rahmen für öffentliche Stellen oder Datenvermittlungsdienste, während die EHDS-Verordnung spezifische Regeln für den Zugang zu elektronischen Gesundheitsdaten festlegt.[^30]",
+   "footnotes": [
+    {
+     "num": 30,
+     "text": "Vgl. Art 1 Abs 1 VO (EU) 2025/327 und Art 1 Abs 2 VO (EU) 2022/868.",
+     "sources": [
+      "ehds-vo",
+      "dga"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.1.3-p2",
+   "type": "text",
+   "text": "Die allgemeinen Regelungen des DGA verpflichten öffentliche Stellen und Anbieter von Datenvermittlungsdiensten, die Weiterverwendung personenbezogener Daten zu nichtdiskriminierenden, verhältnismäßigen und objektiv gerechtfertigten Bedingungen zu ermöglichen, wobei keine konkreten Entscheidungsverfahren vorgegeben werden und auf sektorspezifische Genehmigungs- und Zertifizierungsverfahren verwiesen wird.[^31] Die EHDS-Verordnung konkretisiert dazu die Kriterien sowie die Prüfung des Zugangs zu elektronischen Gesundheitsdaten durch Zugangsstellen.[^32]",
+   "footnotes": [
+    {
+     "num": 31,
+     "text": "Vgl. Art 1 Abs 1 VO (EU) 2022/868.",
+     "sources": [
+      "dga"
+     ]
+    },
+    {
+     "num": 32,
+     "text": "Vgl. Art 68 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.1.3-p3",
+   "type": "text",
+   "text": "Auf der anderen Seite verweist die EHDS-Verordnung auch explizit auf Regelungen des DGA sowie der Datenverordnung wie beispielsweise für die einzurichtende grenzüberschreitende Infrastruktur (HealthData@EU) hinsichtlich der Interoperabilität.[^33]",
+   "footnotes": [
+    {
+     "num": 33,
+     "text": "Vgl. Art 75 Abs 11 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

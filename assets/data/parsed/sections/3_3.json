@@ -1,0 +1,73 @@
+{
+ "sectionId": "3.3",
+ "title": "Authentifizierung und Zugriffskontrolle",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 25,
+ "pdfPage": 35,
+ "paragraphs": [
+  {
+   "id": "3.3-p1",
+   "type": "text",
+   "text": "Gesundheitsdaten zählen nach der DSGVO zu den besonderen Kategorien personenbezogener Daten, deren Verarbeitung grundsätzlich untersagt ist und nur für ausdrücklich geregelte Ausnahmen, wie zum Beispiel für Zwecke der Gesundheitsversorgung, zulässig ist.[^139] Dieser erhöhte Schutzbedarf stellt besondere Anforderungen an die technische Absicherung des Zugriffs. Die zentrale Herausforderung elektronischer Gesundheitsakten besteht darin, den richtigen Personen zur richtigen Zeit und am richtigen Ort Zugang zu gewähren und allen übrigen zu verwehren.[^140]",
+   "footnotes": [
+    {
+     "num": 139,
+     "text": "Vgl. Art 9 Abs 1 und Abs 2 VO (EU) 2016/679.",
+     "sources": [
+      "dsgvo"
+     ]
+    },
+    {
+     "num": 140,
+     "text": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 1.",
+     "sources": [
+      "cobrado2024"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3-p2",
+   "type": "text",
+   "text": "In der wissenschaftlichen Literatur hat sich hierfür ein Rahmenmodell aus vier aufeinander bezogenen Kategorien etabliert, das unter dem Akronym IAAA zusammengefasst wird und für Identification, Authentication, Authorization und Accountability steht.[^141] Identifikation und Authentifizierung stellen fest und überprüfen, wer auf das System zugreift. Die Autorisierung (Zugriffskontrolle) entscheidet, worauf eine authentifizierte Person zugreifen darf und die Rechenschaftspflicht (Accountability) gewährleistet durch lückenlose Protokollierung die nachträgliche Nachvollziehbarkeit aller Zugriffe.[^142] Diese vier Kategorien sind nicht isoliert, sondern eng miteinander verknüpft.[^143]",
+   "footnotes": [
+    {
+     "num": 141,
+     "text": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 1.",
+     "sources": [
+      "cobrado2024"
+     ]
+    },
+    {
+     "num": 142,
+     "text": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 1.",
+     "sources": [
+      "cobrado2024"
+     ]
+    },
+    {
+     "num": 143,
+     "text": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 1.",
+     "sources": [
+      "cobrado2024"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3-p3",
+   "type": "text",
+   "text": "Die Sicherheitsanforderungen für EHR-Systeme werden im EHDS über die Protokollierungssoftwarekomponente geregelt.[^144] Die folgenden Abschnitte behandeln zunächst die Authentifizierung, anschließend die Zugriffskontrolle und schließlich die Protokollierung als Umsetzung der Rechenschaftspflicht.",
+   "footnotes": [
+    {
+     "num": 144,
+     "text": "Vgl. Anhang II Nr 3 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

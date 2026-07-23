@@ -1,0 +1,150 @@
+{
+ "sectionId": "5.4.4",
+ "title": "MyHealth@EU-Anbindung mit AT-eHDSI",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 64,
+ "pdfPage": 74,
+ "paragraphs": [
+  {
+   "id": "5.4.4-p1",
+   "type": "text",
+   "text": "MyHealth@EU beruht auf dem Zusammenwirken der nationalen Kontaktstellen, die mit den ELGA-Komponenten und mit den Kontaktstellen der anderen Mitgliedstaaten kommunizieren.[^383] Österreich tritt dabei entweder als Herkunftsmitgliedstaat seiner sozialversicherten Personen oder als Behandlungsmitgliedstaat für im Ausland versicherte Personen auf.[^384] Wird eine in Österreich sozialversicherte Person im Ausland behandelt, stellt die österreichische Kontaktstelle deren Daten als Herkunftsmitgliedstaat bereit.[^385] Wird umgekehrt eine im Ausland versicherte Person in Österreich behandelt, ruft die österreichische Kontaktstelle deren Daten als Behandlungsmitgliedstaat bei der Kontaktstelle des Herkunftsstaats ab.[^386]",
+   "footnotes": [
+    {
+     "num": 383,
+     "text": "Vgl. § 24j GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 384,
+     "text": "Vgl. §§ 24k Abs 1 Z 1 und 24r Abs 2 Z 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 385,
+     "text": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU.",
+     "sources": [
+      "goeg-myhealtheu2026"
+     ]
+    },
+    {
+     "num": 386,
+     "text": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU.",
+     "sources": [
+      "goeg-myhealtheu2026"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.4.4-p2",
+   "type": "text",
+   "text": "Ziel des Projekts AT-eHDSI ist die Errichtung dieser nationalen Kontaktstelle und ihre Integration in die bestehende ELGA-Infrastruktur.[^387] Mit dem EU-Rezept und der EU-Patientenkurzakte starteten im Februar 2026 zwei Kernservices von MyHealth@EU in Österreich.[^388] Der derzeitige Produktivbetrieb beruht dabei noch auf den bestehenden CDA-basierten MyHealth@EU-Spezifikationen, wobei die Pflicht zum Austausch im EEHRxF nach der EHDS-Verordnung erst greift, sobald dessen technische Spezifikationen vorliegen. Zum Start war die Einlösung eines in Österreich ausgestellten elektronischen Rezepts ausschließlich in Tschechien möglich, weitere Länder folgen schrittweise.[^389] Die EU-Patientenkurzakte ermöglicht es österreichischen Ärztinnen und Ärzten, eine standardisierte medizinische Zusammenfassung von Patientinnen und Patienten aus anderen MyHealth@EU-Staaten abzurufen, zum Start ebenfalls aus Tschechien.[^390] Für österreichische Patientinnen und Patienten steht im Ausland vorerst nur das EU-Rezept zur Verfügung, während die grenzüberschreitende Bereitstellung der österreichischen Patientenkurzakte einer weiteren Ausbaustufe vorbehalten bleibt.[^391]",
+   "footnotes": [
+    {
+     "num": 387,
+     "text": "Vgl. Gesundheit Österreich GmbH (2026): AT-eHDSI.",
+     "sources": [
+      "goeg-atehdsi2026"
+     ]
+    },
+    {
+     "num": 388,
+     "text": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU.",
+     "sources": [
+      "goeg-myhealtheu2026"
+     ]
+    },
+    {
+     "num": 389,
+     "text": "Vgl. Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz (2026): EU-Rezept ab jetzt verfügbar.",
+     "sources": [
+      "bmasgpk-eurezept2026"
+     ]
+    },
+    {
+     "num": 390,
+     "text": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU: EU-Rezept und EU-Patientenkurzakte.",
+     "sources": [
+      "goeg-myhealtheu-rezept2026"
+     ]
+    },
+    {
+     "num": 391,
+     "text": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU: EU-Rezept und EU-Patientenkurzakte.",
+     "sources": [
+      "goeg-myhealtheu-rezept2026"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.4.4-p3",
+   "type": "text",
+   "text": "Für in Österreich wohnhafte oder sozialversicherte Personen setzt die Teilnahme an MyHealth@EU ein ausdrückliches Opt-In voraus.[^392] Damit weicht der grenzüberschreitende Datenaustausch vom innerstaatlichen ELGA-Modell ab, das auf einem Opt-Out beruht und die Nutzung aller oder einzelner Arten von ELGA-Gesundheitsdaten ausnehmen kann.[^393] Das bedeutet, dass dieselben Gesundheitsdaten, die innerstaatlich verfügbar sind, erst nach einer aktiven Erklärung grenzüberschreitend verfügbar werden.",
+   "footnotes": [
+    {
+     "num": 392,
+     "text": "Vgl. § 24i Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 393,
+     "text": "Vgl. § 15 Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.4.4-p4",
+   "type": "text",
+   "text": "Das lässt sich an einem einfachen Beispiel veranschaulichen. Eine in Österreich versicherte Person, die kein Opt-In erklärt hat, kann ihr in Österreich ausgestelltes EU-Rezept im Ausland nicht über MyHealth@EU einlösen.[^394] Erst mit dem Opt-In über das Bürger-Zugangsportal mit ID Austria oder schriftlich über die eHealth-Supporteinrichtung wird das Rezept für die ausländische Apotheke abrufbar.[^395]",
+   "footnotes": [
+    {
+     "num": 394,
+     "text": "Vgl. § 24i Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 395,
+     "text": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU: EU-Rezept und EU-Patientenkurzakte.",
+     "sources": [
+      "goeg-myhealtheu-rezept2026"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.4.4-p5",
+   "type": "text",
+   "text": "Das Opt-In-Erfordernis betrifft dabei ausschließlich Österreich als Herkunftsmitgliedstaat und damit die Bereitstellung der Daten österreichischer Teilnehmender.[^396] Für eine im Ausland versicherte Person, die in Österreich behandelt wird, richtet sich die Verfügbarkeit ihrer Daten nach dem Recht ihres Herkunftsstaats und nicht nach dem österreichischen Opt-In.[^397]",
+   "footnotes": [
+    {
+     "num": 396,
+     "text": "Vgl. § 24k Abs 1 Z 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 397,
+     "text": "Vgl. Gesundheit Österreich GmbH (2026): MyHealth@EU.",
+     "sources": [
+      "goeg-myhealtheu2026"
+     ]
+    }
+   ]
+  }
+ ]
+}

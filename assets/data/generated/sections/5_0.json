@@ -1,0 +1,113 @@
+{
+ "sectionId": "5.0",
+ "paragraphs": [
+  {
+   "id": "5.0-p1",
+   "type": "text",
+   "kernaussage": "Kapitel 5 führt Technik und Recht zusammen und stellt klar, dass ELGA kein in Verkehr gebrachtes EHR-System eines Herstellers ist, sondern eine gesetzlich definierte Infrastruktur, die einrichtungsbezogene EHR-Systeme vernetzt.",
+   "sentences": [
+    {
+     "text": "Der österreichische Umsetzungsstand des EHDS lässt sich erst vor dem Hintergrund der zuvor getrennt behandelten technischen Grundlagen (Kapitel 3) und des rechtlichen Rahmens (Kapitel 4) beurteilen.",
+     "einfach": "Um zu bewerten, wie weit Österreich bei der Umsetzung des europäischen Gesundheitsdatenraums (EHDS) ist, braucht man beides: die technischen Grundlagen aus Kapitel 3 und den rechtlichen Rahmen aus Kapitel 4.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Dieses Kapitel führt beide Stränge zusammen und gibt einen Überblick darüber, wie die Anforderungen der EHDS-Verordnung in der österreichischen eHealth-Versorgung umgesetzt werden.",
+     "einfach": "Dieses Kapitel verbindet die technische und die rechtliche Perspektive und zeigt im Überblick, wie die Vorgaben der EHDS-Verordnung (EU-Verordnung 2025/327) in der österreichischen digitalen Gesundheitsversorgung umgesetzt werden.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Bezugspunkt ist dabei durchgehend die Elektronische Gesundheitsakte (ELGA).",
+     "einfach": "Alle Betrachtungen des Kapitels orientieren sich an ELGA, der österreichischen Elektronischen Gesundheitsakte, in der Befunde und Medikationsdaten der Bevölkerung vernetzt abrufbar sind.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Elektronische Gesundheitsakte (ELGA)", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Für das Verständnis der folgenden Abschnitte ist eine Klarstellung wesentlich: Anders als ein EHR-System wird ELGA nicht als Produkt eines Herstellers für die Verwendung bei der Versorgung in Verkehr gebracht, sondern ist als gesetzlich definierte Infrastruktur eingerichtet, die die einrichtungsbezogenen EHR-Systeme vernetzt.[^269]",
+     "einfach": "Ein EHR-System (Electronic Health Record System, z. B. eine Krankenhaus-Software) ist ein Produkt, das ein Hersteller verkauft ('in Verkehr bringt'). ELGA ist dagegen kein solches Produkt, sondern eine per Gesetz eingerichtete Infrastruktur, die die EHR-Systeme der einzelnen Einrichtungen (Spitäler, Ordinationen usw.) miteinander verbindet - das ist wichtig, weil viele EHDS-Pflichten an Hersteller von EHR-Systemen anknüpfen.",
+     "kategorien": ["tech", "these"],
+     "marks": [
+      { "snippet": "EHR-System", "kategorie": "tech" },
+      { "snippet": "nicht als Produkt eines Herstellers für die Verwendung bei der Versorgung in Verkehr gebracht", "kategorie": "these" },
+      { "snippet": "gesetzlich definierte Infrastruktur", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 269,
+     "quellen": ["gtelg2012"],
+     "claim": "ELGA ist im GTelG 2012 als Infrastruktur legaldefiniert und nicht als in Verkehr gebrachtes Herstellerprodukt.",
+     "fundstelle": "§ 2 Z 6",
+     "suchHinweis": "§ 2 Z 6 ELGA Begriffsbestimmung Informationssystem"
+    }
+   ]
+  },
+  {
+   "id": "5.0-p2",
+   "type": "text",
+   "kernaussage": "Der Absatz kündigt den Aufbau des Kapitels an: ELGA-Infrastrukturebenen (5.1), EHR-Systeme und Datenfluss (5.2), Authentifizierung und Zugriffskontrolle (5.3) sowie Datenformate und grenzüberschreitende Interoperabilität (5.4).",
+   "sentences": [
+    {
+     "text": "Ausgehend von dieser Unterscheidung wird zunächst ELGA als nationale eHealth-Infrastruktur entlang ihrer Ebenen beschrieben: Der zentralen Komponenten der ELGA GmbH, des von der Sozialversicherungs-Chipkarten Betriebs- und Errichtungsgesellschaft (SVC-GmbH) betriebenen e-card-Systems und Gesundheitsinformationsnetzes (GIN) sowie der dreizehn dezentralen ELGA-Bereiche mit ihren Repositories.",
+     "einfach": "Zuerst wird ELGA als landesweite Infrastruktur in drei Ebenen beschrieben: die zentralen Dienste der ELGA GmbH, das e-card-System (Chipkartensystem der Sozialversicherung) samt Gesundheitsinformationsnetz (GIN, das geschützte Netzwerk des Gesundheitswesens), betrieben von der SVC-GmbH, sowie dreizehn dezentrale ELGA-Bereiche mit eigenen Repositories (Dokumentenspeichern).",
+     "kategorien": ["akteur", "tech", "zahl"],
+     "marks": [
+      { "snippet": "ELGA GmbH", "kategorie": "akteur" },
+      { "snippet": "SVC-GmbH", "kategorie": "akteur" },
+      { "snippet": "e-card-Systems", "kategorie": "tech" },
+      { "snippet": "Gesundheitsinformationsnetzes (GIN)", "kategorie": "tech" },
+      { "snippet": "dreizehn dezentralen ELGA-Bereiche", "kategorie": "zahl" },
+      { "snippet": "Repositories", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Die e-Medikation und der e-Impfpass werden dabei als architektonische Sonderfälle behandelt (siehe Abschnitt 5.1).",
+     "einfach": "Die Anwendungen e-Medikation (elektronische Medikamentenliste) und e-Impfpass folgen nicht dem üblichen dezentralen Aufbau von ELGA und werden deshalb in Abschnitt 5.1 gesondert betrachtet.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "e-Medikation", "kategorie": "tech" },
+      { "snippet": "e-Impfpass", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Anschließend werden die eigentlichen EHR-Systeme, die Krankenhaus-, Praxisverwaltungs- und Radiologieinformationssysteme (KIS, PVS, RIS), eingeordnet und der Datenfluss von der Befunderstellung bis zur Ablage in ELGA nachgezeichnet (siehe Abschnitt 5.2) sowie die in den technischen Grundlagen behandelten Konzepte der Authentifizierung und Zugriffskontrolle der ELGA beschrieben (siehe Abschnitt 5.3).",
+     "einfach": "Danach geht es um die eigentlichen EHR-Systeme in den Einrichtungen: Krankenhausinformationssysteme (KIS), Praxisverwaltungssysteme (PVS) und Radiologieinformationssysteme (RIS). Abschnitt 5.2 verfolgt den Weg eines Befunds von der Erstellung bis zur Speicherung in ELGA, Abschnitt 5.3 beschreibt, wie sich Nutzer authentifizieren und wie Zugriffe kontrolliert werden.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "EHR-Systeme", "kategorie": "tech" },
+      { "snippet": "KIS, PVS, RIS", "kategorie": "tech" },
+      { "snippet": "Authentifizierung und Zugriffskontrolle", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Zuletzt werden die Datenformate und die grenzüberschreitende Interoperabilität untersucht, wobei auf die CDA-Implementierungsleitfäden, die Abdeckung der prioritären EHDS-Datenkategorien, den Umsetzungsstand von HL7 FHIR und EEHRxF sowie die Anbindung an MyHealth@EU über das Projekt AT-eHDSI eingegangen wird (siehe Abschnitt 5.4).",
+     "einfach": "Abschnitt 5.4 behandelt schließlich die Datenformate und den Datenaustausch über Grenzen hinweg: die CDA-Implementierungsleitfäden (Vorgaben für das Dokumentformat Clinical Document Architecture), die Abdeckung der vom EHDS priorisierten Datenkategorien, den Stand des moderneren Standards HL7 FHIR und des europäischen Austauschformats EEHRxF (European Electronic Health Record Exchange Format) sowie die Anbindung an MyHealth@EU über das österreichische Projekt AT-eHDSI.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "CDA-Implementierungsleitfäden", "kategorie": "tech" },
+      { "snippet": "HL7 FHIR", "kategorie": "tech" },
+      { "snippet": "EEHRxF", "kategorie": "tech" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" },
+      { "snippet": "AT-eHDSI", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

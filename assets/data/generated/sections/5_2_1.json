@@ -1,0 +1,141 @@
+{
+ "sectionId": "5.2.1",
+ "paragraphs": [
+  {
+   "id": "5.2.1-p1",
+   "type": "text",
+   "kernaussage": "Die österreichischen EHR-Systeme gliedern sich nach Versorgungsbereichen in Krankenhausinformationssysteme (KIS), Praxisverwaltungssysteme (PVS), Radiologieinformationssysteme (RIS) und Apothekensoftware.",
+   "sentences": [
+    {
+     "text": "Die in Österreich eingesetzten EHR-Systeme lassen sich nach Versorgungsbereichen gliedern.",
+     "einfach": "Die in Österreich verwendeten EHR-Systeme (elektronische Gesundheitsakten-Software) kann man danach einteilen, in welchem Bereich der Gesundheitsversorgung sie eingesetzt werden.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "EHR-Systeme", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "In den Krankenanstalten laufen Krankenhausinformationssysteme (KIS), die Entlassungsbriefe sowie Labor- und Radiologiebefunde erzeugen.",
+     "einfach": "In Krankenhäusern laufen Krankenhausinformationssysteme (KIS). Sie erzeugen Entlassungsbriefe (Berichte am Ende eines Spitalsaufenthalts) sowie Labor- und Radiologiebefunde.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "Krankenanstalten", "kategorie": "akteur" },
+      { "snippet": "Krankenhausinformationssysteme (KIS)", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Im niedergelassenen Bereich kommen Praxisverwaltungssysteme (PVS) zum Einsatz, die neben der Dokumentation auch Verordnungen für die e-Medikation erstellen können.",
+     "einfach": "Im niedergelassenen Bereich, also in Arztpraxen außerhalb von Krankenhäusern, werden Praxisverwaltungssysteme (PVS) eingesetzt. Sie dienen der Dokumentation der Behandlung und können auch Rezepte (Verordnungen) für die e-Medikation, die elektronische Medikamentenliste, erstellen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Praxisverwaltungssysteme (PVS)", "kategorie": "tech" },
+      { "snippet": "e-Medikation", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Zudem gibt es Radiologieinformationssysteme (RIS) für die bildgebende Diagnostik und Apothekensoftware.",
+     "einfach": "Außerdem gibt es Radiologieinformationssysteme (RIS) für die bildgebende Diagnostik (z. B. Röntgen, CT, MRT) sowie spezielle Software für Apotheken.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Radiologieinformationssysteme (RIS)", "kategorie": "tech" },
+      { "snippet": "Apothekensoftware", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "5.2.1-p2",
+   "type": "text",
+   "kernaussage": "Die im Verband Österreichischer Medizinsoftware-Hersteller organisierten Anbieter integrieren e-Befund und e-Medikation direkt in die Ordinationssysteme und erzeugen die ELGA-Dokumente im Format HL7 CDA nach den ELGA-Implementierungsleitfäden.",
+   "sentences": [
+    {
+     "text": "Der Softwaremarkt umfasst zahlreiche Produkte unterschiedlicher Hersteller, die im Verband Österreichischer Medizinsoftware-Hersteller organisiert sind.",
+     "einfach": "Auf dem österreichischen Markt gibt es viele Medizinsoftware-Produkte von verschiedenen Herstellern. Diese Hersteller sind im Verband Österreichischer Medizinsoftware-Hersteller (ÖMS), einer Branchenvereinigung, zusammengeschlossen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Verband Österreichischer Medizinsoftware-Hersteller", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Diese binden auch die ELGA-Funktionen e-Befund und e-Medikation in die Ordinationssysteme unmittelbar ein[^310] und erzeugen unabhängig vom Versorgungsbereich die ELGA-Dokumente im Format HL7 CDA nach den ELGA-Implementierungsleitfäden.[^311]",
+     "einfach": "Die Hersteller bauen die ELGA-Funktionen e-Befund (elektronischer Befundaustausch) und e-Medikation direkt in die Praxissoftware ein. Egal für welchen Versorgungsbereich: Die ELGA-Dokumente werden im Format HL7 CDA (Clinical Document Architecture, ein internationaler Standard für strukturierte medizinische Dokumente) nach den ELGA-Implementierungsleitfäden erstellt - das sind die österreichischen Vorgaben, wie diese Dokumente technisch aufgebaut sein müssen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "e-Befund", "kategorie": "tech" },
+      { "snippet": "e-Medikation", "kategorie": "tech" },
+      { "snippet": "HL7 CDA", "kategorie": "tech" },
+      { "snippet": "ELGA-Implementierungsleitfäden", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 310,
+     "quellen": ["oems2026"],
+     "claim": "Die Medizinsoftware-Hersteller binden die ELGA-Funktionen e-Befund und e-Medikation unmittelbar in die Ordinationssysteme ein.",
+     "fundstelle": "",
+     "suchHinweis": "e-Befund e-Medikation Ordinationssoftware Integration"
+    },
+    {
+     "num": 311,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Die ELGA-Dokumente werden versorgungsbereichsunabhängig im Format HL7 CDA nach den ELGA-Implementierungsleitfäden erzeugt.",
+     "fundstelle": "S. 87",
+     "suchHinweis": "CDA Implementierungsleitfaden ELGA-Dokumente Erstellung"
+    }
+   ]
+  },
+  {
+   "id": "5.2.1-p3",
+   "type": "text",
+   "kernaussage": "Der ELGA-Rollout begann 2015 in öffentlichen Krankenanstalten und Pflegeeinrichtungen, erreichte 2018/2019 den niedergelassenen Bereich und dauert bei den Bilddaten noch an.",
+   "sentences": [
+    {
+     "text": "Im Jahr 2015 begann der Rollout in den öffentlichen Krankenanstalten und Pflegeeinrichtungen und erreichte in den Jahren 2018 und 2019 auch den niedergelassenen Bereich.[^312]",
+     "einfach": "Die schrittweise Einführung von ELGA (der Rollout) startete 2015 in den öffentlichen Krankenhäusern und Pflegeeinrichtungen. In den Jahren 2018 und 2019 folgten die niedergelassenen Ärztinnen und Ärzte, also die Arztpraxen und Apotheken.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [
+      { "snippet": "Im Jahr 2015", "kategorie": "frist" },
+      { "snippet": "öffentlichen Krankenanstalten und Pflegeeinrichtungen", "kategorie": "akteur" },
+      { "snippet": "in den Jahren 2018 und 2019", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Zum Zeitpunkt der Erstellung dieser Arbeit befand sich beispielsweise der Austausch von Bilddaten über die ELGA-Infrastruktur in der Rollout-Phase.[^313]",
+     "einfach": "Der Rollout ist noch nicht abgeschlossen: Als diese Arbeit geschrieben wurde, wurde etwa der Austausch von Bilddaten (z. B. Röntgen- und CT-Aufnahmen) über die ELGA-Infrastruktur gerade erst eingeführt.",
+     "kategorien": ["frist", "tech"],
+     "marks": [
+      { "snippet": "Zum Zeitpunkt der Erstellung dieser Arbeit", "kategorie": "frist" },
+      { "snippet": "Austausch von Bilddaten", "kategorie": "tech" },
+      { "snippet": "ELGA-Infrastruktur", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 312,
+     "quellen": ["bmasgpk-elga2026"],
+     "claim": "Der ELGA-Rollout begann 2015 in den öffentlichen Krankenanstalten und Pflegeeinrichtungen und erreichte 2018 und 2019 den niedergelassenen Bereich.",
+     "fundstelle": "",
+     "suchHinweis": "ELGA Rollout 2015 Krankenanstalten niedergelassener Bereich"
+    },
+    {
+     "num": 313,
+     "quellen": ["pdg-roadmap2026", "oems2026"],
+     "claim": "Der Austausch von Bilddaten über die ELGA-Infrastruktur befand sich zum Erstellungszeitpunkt der Arbeit in der Rollout-Phase.",
+     "fundstelle": "",
+     "suchHinweis": "e-Befund Bilddaten Rollout eHealth-Roadmap"
+    }
+   ]
+  }
+ ]
+}

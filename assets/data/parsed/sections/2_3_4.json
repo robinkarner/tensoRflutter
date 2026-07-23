@@ -1,0 +1,59 @@
+{
+ "sectionId": "2.3.4",
+ "title": "Grenzüberschreitende Infrastruktur",
+ "chapter": 2,
+ "chapterTitle": "Europäischer Gesundheitsdatenraum",
+ "page": 16,
+ "pdfPage": 26,
+ "paragraphs": [
+  {
+   "id": "2.3.4-p1",
+   "type": "text",
+   "text": "Neben der Marktüberwachungsbehörde, die für die Überwachung der Produktsicherheit und Rechtskonformität verantwortlich ist, hat jeder Mitgliedstaat auch eine nationale Kontaktstelle für digitale Gesundheit als organisatorische und technische Zugangsstelle zu benennen, die für den grenzüberschreitenden Austausch personenbezogener elektronischer Gesundheitsdaten mit allen anderen nationalen Kontaktstellen für digitale Gesundheit verbunden sein muss.[^86] Die Kommission richtet dafür die zentrale Interoperabilitätsplattform MyHealth@EU ein, die durch ihre Dienste den Austausch personenbezogener elektronischer Gesundheitsdaten zwischen den nationalen Kontaktstellen für digitale Gesundheit der Mitgliedstaaten unterstützt und erleichtert.[^87]",
+   "footnotes": [
+    {
+     "num": 86,
+     "text": "Vgl. Art 23 Abs 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 87,
+     "text": "Vgl. Art 23 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3.4-p2",
+   "type": "text",
+   "text": "Der Datenaustausch erfolgt auf der Grundlage des europäischen Austauschformats für EHR.[^88] Die nationalen Kontaktstellen fungieren dabei als gemeinsam Verantwortliche für die übermittelten personenbezogenen elektronischen Gesundheitsdaten, während die Kommission als Auftragsverarbeiterin auftritt und zentrale Dienste für die Infrastruktur erbringt.[^89] Drittstaaten und internationale Organisationen können unter Einhaltung der Anforderungen an MyHealth@EU ebenfalls als befugte Teilnehmer angebunden werden.[^90]",
+   "footnotes": [
+    {
+     "num": 88,
+     "text": "Vgl. Art 23 Abs 3 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 89,
+     "text": "Vgl. Art 23 Abs 7 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 90,
+     "text": "Vgl. Art 24 Abs 3 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

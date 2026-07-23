@@ -1,0 +1,67 @@
+{
+ "sectionId": "3.2",
+ "paragraphs": [
+  {
+   "id": "3.2-p1",
+   "type": "text",
+   "kernaussage": "Interoperabilität - die Fähigkeit verschiedener IT-Systeme, Daten auszutauschen und korrekt zu interpretieren - gliedert sich nach dem EIF in vier Ebenen und steht im Zentrum der technischen EHDS-Anforderungen.",
+   "sentences": [
+    {
+     "text": "Interoperabilität bezeichnet im Kontext elektronischer Gesundheitssysteme die Fähigkeit unterschiedlicher informationstechnischer Systeme, Daten auszutauschen und diese korrekt zu interpretieren und zu verwenden.[^114]",
+     "einfach": "Interoperabilität bedeutet, dass verschiedene IT-Systeme Daten nicht nur hin- und herschicken können, sondern die empfangenen Daten auch richtig verstehen und sinnvoll weiterverwenden können.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Interoperabilität", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das European Interoperability Framework (EIF) der Europäischen Kommission definiert hierfür vier Interoperabilitätsebenen: Die rechtliche, die organisatorische, die semantische und die technische Ebene.[^115]",
+     "einfach": "Das EIF ist ein Rahmenwerk der EU-Kommission und unterscheidet vier Ebenen, auf denen Systeme zusammenpassen müssen: Recht (dürfen die Daten ausgetauscht werden?), Organisation (wie arbeiten die Beteiligten zusammen?), Semantik (bedeuten die Daten für beide Seiten dasselbe?) und Technik (können die Systeme physisch kommunizieren?).",
+     "kategorien": ["tech", "akteur", "zahl"],
+     "marks": [
+      { "snippet": "European Interoperability Framework (EIF)", "kategorie": "tech" },
+      { "snippet": "Europäischen Kommission", "kategorie": "akteur" },
+      { "snippet": "vier Interoperabilitätsebenen", "kategorie": "zahl" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Wie bereits angeführt, stellt auch der EHDS die Interoperabilität in den Mittelpunkt seiner technischen Anforderungen.",
+     "einfach": "Auch der europäische Gesundheitsdatenraum EHDS (European Health Data Space) baut seine technischen Vorgaben um das Ziel der Interoperabilität herum auf.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "EHDS", "kategorie": "norm" },
+      { "snippet": "Interoperabilität", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Nachfolgend werden daher die in der medizinischen Informatik üblichen Fragestellungen zur technischen, syntaktischen und semantischen Ebene beschrieben.",
+     "einfach": "Die folgenden Abschnitte behandeln die drei in der medizinischen Informatik üblichen Ebenen: die technische (Übertragung), die syntaktische (Datenstruktur) und die semantische (Bedeutung der Daten).",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "technischen, syntaktischen und semantischen Ebene", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 114,
+     "quellen": ["himss2020"],
+     "claim": "Belegt die Definition von Interoperabilität als Fähigkeit unterschiedlicher Systeme, Daten auszutauschen, korrekt zu interpretieren und zu verwenden.",
+     "fundstelle": "",
+     "suchHinweis": "interoperability definition exchange interpret use data"
+    },
+    {
+     "num": 115,
+     "quellen": ["ek-eif2017"],
+     "claim": "Belegt, dass das EIF vier Interoperabilitätsebenen (rechtlich, organisatorisch, semantisch, technisch) definiert.",
+     "fundstelle": "Kap. 3 Einführung, S. 2",
+     "suchHinweis": "Interoperabilitätsebenen rechtlich organisatorisch semantisch technisch"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "sectionId": "3.1.3",
+ "paragraphs": [
+  {
+   "id": "3.1.3-p1",
+   "type": "text",
+   "kernaussage": "Das hybride Modell speichert Datenkategorien je nach Anforderungsprofil zentral oder dezentral und vereint so die Vorteile beider Architekturen.",
+   "sentences": [
+    {
+     "text": "Das hybride Modell kombiniert zentrale und dezentrale Elemente, indem unterschiedliche Datenkategorien je nach Anforderungsprofil unterschiedlich gespeichert werden.",
+     "einfach": "Ein hybrides System mischt beide Ansätze: Manche Datenarten werden zentral auf einem gemeinsamen Server gespeichert, andere bleiben dezentral bei den Einrichtungen - je nachdem, welche Anforderungen an die jeweilige Datenart gestellt werden.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "hybride Modell", "kategorie": "tech" },
+      { "snippet": "zentrale und dezentrale Elemente", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Datenkategorien, für die eine vollständige, einrichtungsübergreifende Verfügbarkeit in Echtzeit essenziell ist, werden zentral abgelegt.[^109]",
+     "einfach": "Daten, die jederzeit sofort und über alle Einrichtungen hinweg vollständig abrufbar sein müssen, kommen in den zentralen Speicher.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Verfügbarkeit in Echtzeit", "kategorie": "tech" },
+      { "snippet": "zentral abgelegt", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Datenkategorien, bei denen die Datensouveränität der erstellenden Einrichtung im Vordergrund steht, verbleiben dezentral.[^110]",
+     "einfach": "Daten, bei denen es vor allem darauf ankommt, dass die erstellende Einrichtung die Kontrolle behält (Datensouveränität), bleiben dagegen dezentral bei dieser Einrichtung gespeichert.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "Datensouveränität", "kategorie": "tech" },
+      { "snippet": "erstellenden Einrichtung", "kategorie": "akteur" },
+      { "snippet": "verbleiben dezentral", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Dieser hybride Ansatz vereint die Vorteile sowohl der zentralen als auch der dezentralen Architektur.[^111]",
+     "einfach": "Durch diese Aufteilung kann ein hybrides System die Stärken beider Modelle nutzen: schnelle Verfügbarkeit wie im zentralen Modell und Datenkontrolle wie im dezentralen Modell.",
+     "kategorien": ["tech", "these"],
+     "marks": [
+      { "snippet": "hybride Ansatz", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 109,
+     "quellen": ["mccarthy2014"],
+     "claim": "Belegt, dass Datenkategorien mit Bedarf an vollständiger, einrichtungsübergreifender Echtzeit-Verfügbarkeit zentral abgelegt werden.",
+     "fundstelle": "S. 5",
+     "suchHinweis": "centralized architecture health information exchange availability"
+    },
+    {
+     "num": 110,
+     "quellen": ["scheibner2021"],
+     "claim": "Belegt, dass Datenkategorien, bei denen die Datensouveränität der erstellenden Einrichtung im Vordergrund steht, dezentral verbleiben.",
+     "fundstelle": "S. 12",
+     "suchHinweis": "hybrid architecture data sovereignty decentralized storage"
+    },
+    {
+     "num": 111,
+     "quellen": ["aljarullah2013"],
+     "claim": "Belegt, dass der hybride Ansatz die Vorteile der zentralen und der dezentralen Architektur vereint.",
+     "fundstelle": "S. 16",
+     "suchHinweis": "hybrid architecture national EHR advantages centralized decentralized"
+    }
+   ]
+  },
+  {
+   "id": "3.1.3-p2",
+   "type": "text",
+   "kernaussage": "Der hybride Ansatz ist mit dem EHDS vereinbar, weil die Verordnung keine Architektur vorschreibt, sondern Interoperabilität über das EEHRxF verlangt; Österreichs ELGA gilt als Referenzbeispiel.",
+   "sentences": [
+    {
+     "text": "Aus EHDS-Perspektive ist der hybride Ansatz auch mit den Anforderungen der Verordnung vereinbar, da diese keinen konkreten Architekturansatz vorschreibt, sondern Interoperabilität und Datenaustausch auf Basis des EEHRxF in den Vordergrund stellt.[^112]",
+     "einfach": "Die EHDS-Verordnung (EU-Verordnung 2025/327 zum europäischen Gesundheitsdatenraum) schreibt keine bestimmte Systemarchitektur vor; entscheidend ist nur, dass die Systeme interoperabel sind und Daten im europäischen Austauschformat für elektronische Patientenakten (EEHRxF) ausgetauscht werden können - das kann auch ein hybrides System erfüllen.",
+     "kategorien": ["norm", "tech", "these"],
+     "marks": [
+      { "snippet": "Anforderungen der Verordnung", "kategorie": "norm" },
+      { "snippet": "EEHRxF", "kategorie": "tech" },
+      { "snippet": "Interoperabilität", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Hybride Architekturen können sowohl die Vorgaben zur Datenverfügbarkeit als auch das Gebot der Datenminimierung in Einklang bringen.",
+     "einfach": "Ein hybrides System kann zwei Ziele gleichzeitig erfüllen: Daten dort verfügbar machen, wo sie gebraucht werden, und zugleich nur so wenige Daten wie nötig zentral speichern (Datenminimierung, ein Grundsatz des Datenschutzrechts).",
+     "kategorien": ["these", "norm", "tech"],
+     "marks": [
+      { "snippet": "Hybride Architekturen", "kategorie": "tech" },
+      { "snippet": "Datenminimierung", "kategorie": "norm" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Voraussetzung ist allerdings, dass alle Komponenten - zentrale wie dezentrale - die in Anhang II der EHDS-Verordnung normierten Anforderungen an die europäische Interoperabilitäts- und Protokollierungssoftwarekomponente erfüllen.",
+     "einfach": "Bedingung ist, dass jede Systemkomponente - egal ob zentral oder dezentral - die technischen Anforderungen aus Anhang II der EHDS-Verordnung einhält; dieser Anhang regelt die Softwarekomponenten für Interoperabilität (Datenaustausch) und Protokollierung (Aufzeichnung der Zugriffe).",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "Anhang II der EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Interoperabilitäts- und Protokollierungssoftwarekomponente", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Österreich gilt mit ELGA als Referenzbeispiel für eine hybride nationale Architektur (siehe Kapitel 5).[^113]",
+     "einfach": "Die österreichische Elektronische Gesundheitsakte ELGA ist ein bekanntes Beispiel für ein solches hybrides nationales System; Kapitel 5 der Arbeit behandelt sie im Detail.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Österreich", "kategorie": "akteur" },
+      { "snippet": "ELGA", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 112,
+     "quellen": ["pedrera2023"],
+     "claim": "Belegt, dass der EHDS keinen konkreten Architekturansatz vorschreibt, sondern Interoperabilität und Datenaustausch auf Basis des EEHRxF in den Vordergrund stellt.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "EHDS European Electronic Health Record Exchange Format interoperability"
+    },
+    {
+     "num": 113,
+     "quellen": ["rh-elga2024"],
+     "claim": "Belegt, dass Österreich mit ELGA als Referenzbeispiel für eine hybride nationale Architektur gilt.",
+     "fundstelle": "S. 11 und 49f",
+     "suchHinweis": "ELGA Architektur zentral dezentral Speicherung"
+    }
+   ]
+  }
+ ]
+}

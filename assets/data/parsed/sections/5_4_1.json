@@ -1,0 +1,60 @@
+{
+ "sectionId": "5.4.1",
+ "title": "CDA-Implementierungsleitfäden in ELGA",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 62,
+ "pdfPage": 72,
+ "paragraphs": [
+  {
+   "id": "5.4.1-p1",
+   "type": "text",
+   "text": "In ELGA werden die medizinischen Dokumente in standardisierte XML-Dateien im Format HL7 CDA umgesetzt.[^365] Für die erste Umsetzungsphase wurden die Dokumentenklassen Entlassungsbrief, Laborbefund, Befunde der bildgebenden Diagnostik sowie die Daten der e-Medikation ausgewählt.[^366] Die Vorgaben für die Erstellung dieser Dokumente sind in CDA-Implementierungsleitfäden, die von Arbeitsgruppen unter Beteiligung der Ärzteschaft, der Pflege, der Krankenanstalten, der Forschung, der Softwarehersteller und der Standardisierungsorganisationen erstellt wurden, geregelt.[^367] Die Leitfäden umfassen unter anderem den Entlassungsbrief-Ärztlich, den Entlassungsbrief-Pflege, den Pflegesituationsbericht, die Labor- und Mikrobiologiebefunde, den Befund bildgebender Diagnostik, die e-Medikation und die XDS-Metadaten.[^368] Neue Hauptversionen der Leitfäden müssen spätestens achtzehn Monate nach ihrer Veröffentlichung verwendet werden.[^369] Für die zentralen Dokumentenklassen gilt dabei die ELGA-Interoperabilitätsstufe „EIS Full Support“als Mindeststandard.[^370]",
+   "footnotes": [
+    {
+     "num": 365,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 87.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    },
+    {
+     "num": 366,
+     "text": "Vgl. ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 87.",
+     "sources": [
+      "elga-gesamtarchitektur2017"
+     ]
+    },
+    {
+     "num": 367,
+     "text": "Vgl. § 16 ELGA-VO 2015 und ELGA GmbH (2017), ELGA-Gesamtarchitektur, Version 2.30b, S. 87.",
+     "sources": [
+      "elga-gesamtarchitektur2017",
+      "elga-vo2015"
+     ]
+    },
+    {
+     "num": 368,
+     "text": "Vgl. Gesundheit Österreich GmbH (2026): ELGA-CDA-Implementierungsleitfäden.",
+     "sources": [
+      "goeg-cdaleitfaeden2026"
+     ]
+    },
+    {
+     "num": 369,
+     "text": "Vgl. § 16 Abs 5 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    },
+    {
+     "num": 370,
+     "text": "Vgl. § 13 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  }
+ ]
+}

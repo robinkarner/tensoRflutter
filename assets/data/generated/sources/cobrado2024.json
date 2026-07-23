@@ -1,0 +1,12 @@
+{
+ "sourceId": "cobrado2024",
+ "dossier": "## Was ist diese Quelle?\n**Cobrado u. a. (2024): „Access control solutions in electronic health record systems: A systematic review“**, Informatics in Medicine Unlocked, Bd. 49 — ein systematisches Review über Zugriffskontrolllösungen in EHR-Systemen.\n\n## Kerninhalte (zitierte Aussagen)\n- **S. 1**: Kernherausforderung von EHR-Systemen („den Richtigen zur richtigen Zeit Zugang, allen anderen nicht“) und das **IAAA-Rahmenmodell** (Identification, Authentication, Authorization, Accountability) samt Verzahnung der Kategorien.\n- **S. 3**: Authentifizierungsfaktoren (Wissen/Besitz/Inhärenz) und Ein-/Mehrfaktor-Klassifikation.\n- **S. 10**: PKI als verbreitetes, besonders sicheres Verfahren.\n- **S. 13**: Protokollierung/Accountability — Notfallzugriff, kontinuierliche Überwachung, klinische Auswertbarkeit von Logs.\n\n## Rolle in der Arbeit\n11 Zitierstellen: Die Quelle strukturiert den gesamten Abschnitt 3.3 (Authentifizierung, Zugriffskontrolle, Protokollierung) über das IAAA-Modell, das später in 5.3 auf ELGA gemappt wird (e-card/GDA-Index → Identifikation, ETS → Authentifizierung, BeS → Autorisierung, A-ARR → Accountability).\n\n## Verlässlichkeit & Zugang\nPeer-Review-Journal (Elsevier, Open Access), DOI 10.1016/j.imu.2024.101552.",
+ "keyPoints": [
+  "IAAA-Rahmenmodell als Struktur der Zugriffssicherheit in EHR-Systemen.",
+  "Drei Faktorkategorien (Wissen, Besitz, Inhärenz); MFA erhöht Sicherheit deutlich.",
+  "PKI-basierte Verfahren gelten als besonders sicher.",
+  "Accountability erfordert lückenlose Protokollierung, besonders beim Notfallzugriff."
+ ],
+ "zitierweise": "Cobrado et al. (2024): Access control solutions in electronic health record systems",
+ "hinweisOhnePdf": "Open Access über DOI 10.1016/j.imu.2024.101552 — PDF herunterladen und als sources/cobrado2024.pdf ablegen; die zitierten Aussagen stehen auf S. 1, 3, 10 und 13."
+}

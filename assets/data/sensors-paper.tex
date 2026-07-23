@@ -1,0 +1,442 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.21 of 2022/01/12
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{url}
+% T1 fonts will be used to generate the final print and online PDFs,
+% so please use T1 fonts in your manuscript whenever possible.
+% Other font encondings may result in incorrect characters.
+%
+\usepackage{graphicx}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following two lines
+% to display URLs in blue roman font according to Springer's eBook style:
+%\usepackage{color}
+%\renewcommand\UrlFont{\color{blue}\rmfamily}
+%\urlstyle{rm}
+%
+\begin{document}
+%
+\title{Mobile Sensors as a Source for Context-Aware Technologies in Education}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{Robin Karner - 12217029}
+%
+\authorrunning{R. Karner}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{Technische Universität Wien, Karlsplatz 13, 1040 Wien}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+Mobile devices and wearables have turned everyday learning environments into dense sources of contextual data, yet it remains unclear which of these signals are pedagogically meaningful and how they should be processed. This paper categorises mobile sensors into spatio-temporal, physiological, behavioural and audiovisual sensors and links them to established learning theories. Then it traces the path from raw signal to learning adaptation along a four stage pipeline of acquisition, representation, reasoning and adaptation. Based on systematic reviews of context-aware and multimodal learning systems, it shows that the most reliably measurable signals are rarely the most important learning constructs, since motivation, self-efficacy and prior knowledge lie beyond the observability line that separates measurable signals from latent states. Several structural tensions follow: the limit of observability, the largely unused potential of social proximity and the unjustified adoption of easily measured factors. The paper emphasises that a good sensor-based learning system processes the available signals in a way that is pedagogically meaningful, thereby creating the conditions for successful learning.
+
+\keywords{context-aware learning  \and mobile sensors \and multimodal learning \and self-regulated learning \and adaptive learning.}
+\end{abstract}
+%
+%
+%
+
+
+% =====================================================================
+%  V6.1 — Mobile Sensors as a Source for Context-Aware Technologies in Education
+%  Body only (in eigene Pr\"aambel einsetzen).
+%  Stil: keine Doppelpunkte/Semikolons in der Prosa.
+%  Abbildung 1: nur als Beschreibung (extern erstellen, siehe Block nach 3.3).
+% =====================================================================
+
+\section{Introduction}
+
+\subsection{Motivation}
+
+When exploring context-aware technologies, it immediately becomes apparent how many different meanings the word "context" can have. In terms of information technology, which is relevant for this paper, Abowd and Dey (1999) defined context broadly as any information that characterizes the situation of an entity, which can be a person, a place or an object \cite{abowd_towards_1999}. \\
+To specify the meaning more precisely for technology in education, Abu-Rasheed et al. (2023) distinguished context into purely pedagogical, purely technical and technical-pedagogically-informed. The purely pedagogical definition considers the concepts of learning theories for defining a learning context and its indicators. The purely technical perspective focuses only on the technical capability to collect a learners data within a given environment, e.g. sensors, operating systems or apps. The technical-pedagogically-informed approach refers to context-aware technology that is founded on pedagogical requirements or learning theories \cite{abu-rasheed_context_2023}. All three are relevant to this paper. Section 2 will focus primarily on the pedagogical perspective and in Section 3.1 the purely technical plays a significant role. Throughout the paper and particularly in the conclusion, the technical-pedagogical perspective is crucial, as it especially emphasizes the pedagogically meaningful use of mobile sensors. \\
+The reason mobile devices and wearables are important for context-aware technologies in education is due to the density of context sources. In an empirical review of 53 studies on adaptive context-aware learning environments conducted between 2010 and 2018, mobile phones were already the most common client type \cite{hasanov_survey_2019}.
+%A single mobile phone bundles besides the whole display functionality also GPS, motion sensors, a microphone, a loudspeaker and a camera which makes it a extremely dense single context source in everyday learning.**
+
+\subsection{Target Group}
+
+This paper focuses on independent learners, specifically university students and adults. Both in formal (structured and institutionalised) and informal (everyday life) learning settings. \\ As 95\% of 13–17-year-olds already have unrestricted access to a smartphone the technical prerequisites for the target group are met \cite{pew2024teens}.
+For younger learners under the age of 14, different guidelines may be applicable which might be too restrictive for (adult) independent learners.  %quelle ableitung suchen \cite{best_developmental_2010}.
+
+
+
+
+
+\subsection{Objectives}
+
+Derived from the title these three aspects are in the relevant scope: mobile sensors as the source, context-aware technologies as the processing layer and education as the application.
+The overall question that will be explored is why you need a bridge between education and technology. That involves questions like how contextual factors can be designed to support learning objectives or how to identify factors that have no pedagogical value.
+The next section begins on the pedagogical side, about the underlying learning theories.
+Then the paper moves on to categorising available sensor types, describing their pedagogical potential. Finally it should evaluate where pedagogically meaningful applications succeed and where they fail.\\
+
+
+%Abu-Rasheed et al. (2023) observe that factors from recommendation systems outside the field, such as "reviews" or "number of likes", are incorporated into learning recommendation systems without any pedagogical justification \cite{abu-rasheed_context_2023}.
+
+%Research also focuses primarily on this group, as demonstrated by Naveed et al. (2023), whose review finds that most mobile learning studies involve students \cite{naveed_mobile_2023}.\\
+
+%In an informal setting, there is no teacher to structure the learning process, which is why technical support must be effective without human supervision \cite{youssef_when_2025}.
+%The workload of structuring itself could be eased by mobile sensor technology, more on that later. For younger learners however, its use would need to be more strictly regulated, as sensor data can be sensitive personal information and using it would require informed consent as well as parental involvement \cite{hong_advances_2025}.
+
+
+% =====================================================================
+\section{Theoretical Background}
+
+This section summarizes the pedagogical principles that the literature has identified as most relevant to mobile sensor signals for context-aware learning. It is not an exhaustive list of all relevant learning theories, but a choice based on their applicability to this paper.
+%Die folgenden Ansätze stützen sich auf zentrale Reviews kontextsensitiver Lernsysteme (u.\,a.\ Abu-Rasheed et al.\ 2023, Giannakos \& Cukurova 2023) sowie auf das Paradigma des selbstregulierten Lernens, das für selbstständig Lernende das Rückgrat bildet (1.2). Ein Befund rahmt die Arbeit. In diesem Forschungsfeld wird Lerntheorie meist nur genannt, aber nicht mit den Sensordaten verbunden, und keine Arbeit führt mehrere Theorien zu einem gemeinsamen Rahmen zusammen \cite{giannakos_role_2023} (Sec.~"How learning theories are used", p.~1254). Genau diese Verknüpfung ist das Ziel der Kapitel~3 und~4.
+
+\subsection{Situated Learning and Social Constructivism}
+
+Situated learning relates learning to context-bound social practice. Lave and Wenger (1991) conceptualize learning not as the internal acquisition of isolated mental structures, but as a situated process of legitimate peripheral participation through which beginners move toward full participation in the sociocultural practices of a community \cite{Lave_Wenger_1991}.\\
+Social constructivism builds on this by emphasising that meaning only emerges through interaction with others and that learning is therefore not only context-dependent but also social \cite{abu-rasheed_context_2023}. Lee (2022) demonstrates how central this component is using the example of language learning. First language acquisition is regarded as a prime example of situated learning, while traditional foreign language teaching tends to detach language from its context \cite{lee_systematic_2022}. In the review, context-sensitive technology measurably improved comprehension, saved learning time and increased efficiency, provided it delivered the right content at the right time and in the right place \cite{lee_systematic_2022}. \\
+%Ähm das ist zu ungenau, und nicht gefunden genauso in quelle, vl auch weglassen: Liu et al. (2026) konnten experimentell bestätigen, dass eine ortsbezogene Lernumgebung gegenüber zwei Kontrollgruppen zu besseren Schreib- und Sprechleistungen und zu höherer Motivation führte \cite{liu_effect_2026} (Sec.~3.3--3.4, p.~363).
+Overall, this approach treats the location and the social environment as a lever. Lee identifies three mechanisms through which the location has an effect: the correspondence between words and real objects, genuine interaction with others at the location and the sense of familiarity that reduces anxiety \cite{lee_systematic_2022}. Also an important observation was that familiar everyday places are more effective for learning than spectacular but unfamiliar places, because they activate prior knowledge \cite{lee_systematic_2022}. The effect therefore depends on the design, not on the sensory signal alone.
+
+\subsection{Self-Determination Theory}
+
+Self-Determination Theory (SDT) says that learning is supported by three basic psychological needs, namely autonomy, competence and relatedness. Autonomy requires a sense of control over the learning process, competence a sense of ability to achieve self-defined goals, and relatedness a sense of connection and belonging \cite{ryan_intrinsic_2020}.
+The theory is grounded in a broad empirical basis, as support for autonomy combined with clear structure predicts a higher level of self-determined motivation, more self-regulated learning and lower levels of anxiety \cite{ryan_intrinsic_2020}.\\
+The theory also provides an important criterion for sensor-based adaptation, as structure only serves a supportive role if it is not presented in a controlling manner. The same technical adaptation can be perceived as either a help or a form of paternalism, depending on its form \cite{ryan_intrinsic_2020}.\\
+Not every technically correct adaptation is therefore also effective in terms of motivation. Lee (2022) demonstrates that this affective level is central. The main mechanism of action of context-aware technology operates through it, because greater motivation and engagement lead to increased activity and to better outcomes \cite{lee_systematic_2022}. Through relatedness, SDT also anchors the social aspect from Section 2.1.
+
+
+\subsection{Self-Regulated Learning}
+
+Self-regulated learning describes how learners manage their own learning by setting goals, monitoring their progress and adapting their strategies. In a review of six influential models, Panadero (2017) shows based on the SRL model that this process has 3 phases: forethought, performance and self-reflection \cite{panadero_review_2017}. All models treat context as a separate variable from which learners continuously draw information and adapt their strategies \cite{panadero_review_2017}. This point serves as the interface where mobile sensor technology can be applied.\\
+The empirical basis is particularly significant for this study. A synthesis of meta-analyses in higher education identifies the goal level, persistence, effort and self-efficacy as predictors of learning success \cite{panadero_review_2017}. Self-efficacy was described as the strongest independent predictor, which is a learners belief in their own capacity to organise and carry out the actions a goal requires. But overall the synthesis suggests that learning success is not determined by these variables alone \cite{panadero_review_2017}. \\
+%what is socially shared regulation
+Self-regulation does not occur only on an individual basis, as socially shared regulation operates across cognitive, metacognitive, motivational and emotional domains and promotes learning and performance \cite{panadero_review_2017}.
+This is happening for example in a group negotiating goals through mutual exchange, rather than one member directing the others. %\cite{panadero_review_2017}
+For independent learners, self-regulation is therefore the backbone of the process. The strongest predictors are motivational-metacognitive constructs that cannot be measured directly by any sensor and are too complex to be deduced simply from individual signals.
+The realistic starting points are therefore observable footprints, the temporal structure of task processing in behavioural data, and shared regulation, which is tied to social proximity \cite{panadero_review_2017}.
+
+\subsection{Cognitive Load Theory}
+
+The theory is based on the fact that working memory is limited. Cognitive Load Theory distinguishes between three types of load: that caused by the material itself (intrinsic), that caused by poor presentation (extraneous) and that used for actual understanding (germane). Building on this, the Cognitive Theory of Multimedia Learning (CTML) specifies three assumptions: separate channels for auditory and visual information, a limited capacity per channel and active processing involving selection, organisation and integration \cite{mayer_past_2024}.\\
+%was ist modality-segmentierung, später genauer erklärt?
+Mayer derives specific design principles from these assumptions. The modality principle states that a picture combined with spoken words is learned better than the same picture with on-screen text, because it spreads load across the visual and auditory channel. The segmenting principle states that a lesson broken into user-paced units is learned better than one continuous stream \cite{mayer_past_2024}.
+Prior knowledge is a decisive individual-differences dimension. Learners with little prior knowledge benefit most from well-structured material, an advantage that diminishes and can reverse as expertise grows \cite{kalyuga_expertise_2007}. \\
+%\footnote{\textbf{[V]} Dass \emph{Vorwissen} der stärkste \emph{kognitive} Prädiktor ist, ist im Quellenbestand nur indirekt belegt (Mayer 2024). Zitierfähige Primärquellen wären Hattie (2009), \emph{Visible Learning}, oder die Expertise-Reversal-Literatur (Kalyuga 2007).}
+This theory provides a powerful framework for presenting content. Because cognitive load is a latent construct, its measurement is primarily linked to physiological sensors and to some extent also to behavioural signals such as processing speed \cite{youssef_when_2025}. Mayer (2024) builds this bridge by demanding that the methodology be expanded to include biometric methods, citing heart rate variability and electrodermal activity for emotional arousal, portable EEG for distraction, as well as eye-tracking and brief surveys during the lesson \cite{mayer_past_2024}. Giannakos and Cukurova (2023) confirm that cognitive load is most frequently measured through a combination of eye-tracking, EDA, GSR and HRV, as these methods are both reliable and minimally intrusive \cite{giannakos_role_2023}.
+Throughout, two uses of a sensor must be kept apart, validating at design time which signals are pedagogically meaningful and driving the running adaptation.
+%- Gennerell unterscheidung was für sensoren nötig sind um herauszufinden wie sensorverwendung/app design pedagogisch sinnvoll und welche sensoren für laufenden betrieb wichitg. letztendlich großes ziel gleich. vl ein absatz irgendwo wo passend oder speziell quelle übernehmen die das beschreibt/einordnet.
+
+\subsection{Embodied Cognition}
+
+Embodied cognition views learning as an embodied process in which movement, gestures and posture are not merely accompanying phenomena, but integral to the thinking process \cite{giannakos_role_2023}. Giannakos and Cukurova (2023) emphasise that the hands, in particular, open a sensitive window onto the mental state.\\
+%The hands in particular opens a sensitive window onto the mental state, with iconic gestures a notable exception in that they decrease as expertise grows, so the movement itself can signal learning progress \cite{giannakos_role_2023}.
+%Weiß ich nicht.It is interesting to note that typical hand gestures decrease as expertise grows, so that the movement itself reveals something about learning progress \cite{giannakos_role_2023}.
+For mobile sensor technology, this perspective provides a link to audiovisual and motoric data acquisition. From this perspective, the signals recorded there are not just indicators of other constructs, but are part of the learning process themselves \cite{di_mitri_signals_2018}.
+On a mobile device this links directly to wrist-worn inertial sensors, where a smartwatch captures hand and arm motion as a motoric signal \cite{hong_advances_2025}.
+
+%vl ganz kurz forschung, zusatzquelle, hand mit smartwatch?
+
+% =====================================================================
+\section{From Mobile Sensors to Pedagogically-Informed Adaptation}
+
+This section starts with the collectable sensor data in Section 3.1, continues with their representation in Section 3.2 and ends with pedagogically meaningful adjustments in Section 3.3.
+%Wieso hier und nicht nur in 3.2? The framework used is the context lifecycle proposed by Perera et al. (2014), comprising acquisition, modelling, reasoning and distribution \cite {perera_context_2014}
+
+%Two clarifications first. Sensors provide only \emph{raw data}, whilst \emph{contextual information} is only generated through its processing \cite{perera_context_2014} (Sec. III.A.1, p. 7). And a system can capture context without changing its behaviour, which is why \emph{context capture} (3.2) and \emph{adaptation} (3.3) must be distinguished \cite{hasanov_survey_2019} (Sec.~1, p.~402).
+
+%\begin{figure}[tb]
+%\centering
+%\includegraphics[width=\textwidth]{sensors.png}
+%\caption{Occurrences of sensor types through time. Fig. 18 \cite{hasanov_survey_2019}}
+%\label{fig:sensors}
+%\end{figure}
+
+
+\subsection{Collecting}
+
+The following classification divides mobile sensors into four categories.
+Table 1 summarises this Section and shows possible links between learning theories and the four categories.
+Worth mentioning is that another purely hardware-oriented classification could also be applicable which distinguishes between motion, bio and environmental sensors \cite{hong_advances_2025}.
+
+% Eher was für letztes kapitel conclusion. Welche Kategorie am wichtigsten ist, lässt sich nicht pauschal sagen, doch Abu-Rasheed et al. (2023) liefern ein brauchbares Raster. Ob ein Kontextfaktor genutzt wird, hängt von drei Dingen ab, nämlich von seiner pädagogischen Begründung, seiner technischen Erfassbarkeit und seiner Herkunft \cite{abu-rasheed_context_2023} (Sec.~5.3, p.~14). Das erklärt eine Asymmetrie, die im Folgenden wiederkehrt. Räumlich-zeitliche Faktoren dominieren, weil sie pädagogisch begründet \emph{und} technisch leicht erfassbar sind, während physiologische und soziale Faktoren trotz ähnlicher Begründung zurückbleiben, weil sie schwerer verlässlich zu messen sind. Kapitel~4 nimmt dieses Spannungsfeld auf.
+
+\subsubsection{Spatial-temporal.}
+This category tracks location, time, patterns of presence and movement via GPS, Bluetooth Low Energy beacons (BLE beacons) and RFID/NFC. It also includes social proximity, i.e. the presence of other learners or devices via Bluetooth, BLE and NFC. \\
+This data has a strong theoretical link to situated learning (see Section 2.1), as it can provide insights to a learner’s situation.
+The context of location was identified as the most frequently used in studies examined regarding context-aware mobile learning and ubiquitous learning processes \cite{vallejo-correa_systematic_2021}.  For example, a location-based vocabulary app can notice that the learner is on the bus and offer words that fit the situation, a pattern implemented in reviewed systems such as MicroMandarin \cite{lee_systematic_2022}.\\ %cite ...
+Social proximity can be especially linked to social constructivism and the relatedness aspect of SDT. Technically, it is already feasible, as location-based applications can find nearby learning partners and invite them to share resources \cite{gumbheer_personalized_2022}. At the research level, socio-relational context is among the least used and was identified as an opportunity for future research \cite{vallejo-correa_systematic_2021}.\\ %emotions woanders
+%eher nur am schluss und wenn mit quelle. Diese Lücke zwischen belegter Wirkung, vorhandener Technik und fehlender Nutzung ist eine der größten ungenutzten Chancen mobiler Sensorik .
+From a technical point of view spatial-temporal sensor data is easy to capture, but has clear limitations, such as limited availability due to slow Wi-Fi, inaccurate location detection or pre-defined functional restrictions \cite{lee_systematic_2022}.
+
+\subsubsection{Physiological.}
+This category measures physical arousal via heart rate (PPG at the wrist or ECG), heart rate variability, electrodermal activity (EDA/GSR), skin temperature and respiratory rate. Eye-tracking adds pupil dilation and eye movements. In research settings, EEG is also used \cite{hong_advances_2025}. A theoretical connection can be opened with the Cognitive Load Theory (see Section 2.4), as stress and other affective states can be derived from physiological data \cite{youssef_when_2025}.\\
+With regard to technical measurability these emotions can be predicted because they are linked to physical changes in the autonomic nervous system. For example arousal can be reliably measured using EDA \cite{di_mitri_signals_2018}. As described in limits of observability (see Section 3.2) it reaches the limit for higher-order constructs such as "understanding". \\
+In an examination of adaptive learning environments only 3.8\% used physiological sensors \cite{hasanov_survey_2019}.
+
+%This could be because simple heart rate measurements (e.g. via smartwatch) may not be sufficient enough.
+
+%TODO ? In the context of mobile learning, Gumbheer et al. (2022) conclude that these measurements are not directly linked to the learning experience, but must first be converted using a model-based approach \cite{gumbheer_personalized_2022}.
+
+
+\subsubsection{Behavioural.}
+This category covers software-based interaction with the learning application, i.e. app usage patterns, click paths, navigation paths, dwell times, help requests and standardised learning activity records (such as via xAPI). It requires no additional hardware beyond the screen and is therefore the most widely used source in real-world mobile learning systems. A fundamental distinction can be made between behavioural data (indicators of engagement and fatigue) and performance data (task completion and quiz results as indicators of effectiveness) \cite{youssef_when_2025}.\\
+Its strongest link is to self-regulated learning (see Section 2.3), as the focus is on the temporal structure of task completion. It also touches on cognitive load, for instance when speed and error rates are interpreted as load indicators. A small subset may also consist of purely technical and usage metadata, such as installed apps or the device type, which could be used both for behavioural analysis and to assess social proximity, as identical devices suggest similar technical capabilities.
+
+\subsubsection{Audio-Visual.}
+
+Using a microphone and camera, this category captures audiovisual signals from the learner and their surroundings, such as facial expressions, eye direction, gestures, body posture, speech rhythm and ambient noise. It is relatable to embodied cognition (see Section 2.5), since the motor signals from the head (facial expressions, eyes, speech) and body can be seen as independent modalities \cite{di_mitri_signals_2018}.\\ %was hat das mit wirkung zu tun. erweiterung des satzes
+Facial video has become the standard for emotion recognition because facial movements are easy to capture, widely accepted and simple to analyse using available tools. This is why emotion-focused studies rely almost exclusively on facial expressions, while cognition-focused studies tend to use eye-tracking \cite{giannakos_role_2023}. Because every smartphone has a camera, the method is technically inexpensive, but its application is sensitive due to the high privacy concerns involved. %vl noch random quelle zu privacy
+
+
+%TODO theoretical connections verbessern.
+
+\begin{table}[tb]
+\centering
+\caption{Sensor categories, captured signals and theoretical connections.}
+\label{tab:mapping}
+\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{4.2cm}>{\raggedright\arraybackslash}p{4.6cm}}
+\hline
+\textbf{Category} & \textbf{Captured signals} & \textbf{Theoretical connections} \\
+\hline
+Spatial-temporal & GPS, BLE beacons, RFID/NFC & Situated Learning ~~~~~~~~~~ (social proximity by SDT) \\
+Physiological & heart rate, HRV, eye-tracking, EEG & Cognitive Load Theory ~~~~~~~ (affective level) \\
+Behavioural & app logs, click paths, dwell time, xAPI & Self-Regulated Learning ~~~~~~~ (speed and error rates) \\
+Audio-visual & microphone, camera (facial expression + gesture) & Embodied Cognition ~~~~~~~ (emotion recognition) \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+\subsection{Representing \& Reasoning}
+
+The relationship between the raw signal and the educational adaptation can be described using the concept of the Multimodal Learning Analytics Model. It breaks down the path from signal to response as follows: Capture of multiple modalities (P1); Annotation with learning labels (P2);  Machine-based derivation of latent states (P3); Feedback interpretation to behavioural change (P4) \cite{di_mitri_signals_2018}.
+
+%Abbildung~1 zeigt die Pipeline im Überblick und vl überblick mit kapiteln
+
+\subsubsection{Acquisition.}
+
+The way in which a signal enters the system (P1) can be categorised along three axes. An application can actively retrieve data or have it delivered by the sensor (pull vs. push), it can respond to individual events or to continuous data streams (instant vs. interval). In addition it can communicate with the sensor directly, by a middleware layer or by a remote context server \cite{perera_context_2014}.
+%(Perera et al. 2014, Sec. IV.A, Tables V–VII, p. 14).
+The vocabulary app from Section 3.1 fits a classical push model with location-based triggers.
+In comparison physiological data mostly requires a pull model with sampling, because the meaningful patterns emerge over time and do not occur at a single moment \cite{hong_advances_2025}.
+%(Hong et al. 2025, Sec. 3.2, Fig. 4, p. 9).
+In terms of processing architecture, the middleware approach is the norm for smartphone systems, as these devices incorporate a large number of heterogeneous sensors, with a single mobile device integrating everything from GPS and accelerometers to cameras \cite{perera_context_2014}.
+%(Perera et al. 2014, Tab.~VII, S.~14)
+For heavy tasks such as AI, the inference load is typically offloaded in a mobile context, for which cloud and fog computing are the established architectures \cite{gumbheer_personalized_2022}.
+%(Gumbheer et al. 2022, Sec.~2.9).
+
+
+%Dump
+%\textbf{[V]} Für Smartphone-Systeme ist anzunehmen, dass die Middleware-Variante die pragmatisch häufigste Wahl darstellt, weil ein Gerät schon mehrere heterogene Sensoren bündelt. ja alter was soll das ich sagte doch du darfst auch fremde quellen miteinbeziehen, hast du hier nichts gefunden absoult keine vermutung?
+%\footnote{\textbf{[V]} Belegt sind die Architekturoptionen allgemein (Perera 2014, Tab.~VII) und Cloud/Fog im Mobile Learning (Gumbheer 2022, Sec.~2.9). Dass im engeren Sinn die Middleware dominiert, ist meine Folgerung, gestützt auf die Ontologie-Dominanz bei Hasanov (Fig.~8), da ontologiegetriebene Systeme typischerweise eine Middleware-Schicht haben.}
+
+%ganz schwierig, wenn genau brücke bauen, was hat das damit zu tun: Bemerkenswert ist vor allem, woher der Kontext kommt. In den 53 ausgewerteten Systemen wurde er noch in 79,2~\% manuell eingegeben und nur in 49,1~\% sensorisch erfasst \cite{hasanov_survey_2019} (Fig.~7, p.~409), ein klarer Hinweis, dass das sensorische Potenzial bei Weitem nicht ausgeschöpft ist.
+
+\subsubsection{Representation.}
+
+The collected data must be converted into a format that can then be combined, filtered and annotated
+(P2). In educational practice, ontologies and
+database models are primarily used for this purpose \cite{hasanov_survey_2019}.
+%(Hasanov et al. 2019, Fig. 8, p. 409)
+An ontology explicitly defines concepts and their relationships, such as a location,
+content, learner and curriculum level, which together link a GPS point to a
+learning object \cite{hasanov_survey_2019}. For example it can give a
+coordinate its own learning context. Knowledge graphs are the
+more scalable manifestation of the same principle.\\
+%(Hasanov et al. 2019, Table 2, p. 414, describes learner/device/domain/content ontologies)
+Overall (P2) aims to enhance the representation of the low‐semantic sensor data with pedagogically meaningful annotations \cite{di_mitri_signals_2018}.
+The representation is the basis for what the reasoning process can utilise.
+At this stage, factors of pedagogical value can be overlooked or identified.
+A constructivist factor such as a learners social integration cannot be utilised by a recommendation system unless it is represented by a value, for example, the number of courses attended together or shared interests. It is a known difficulty in quantifying qualitative pedagogical factors without losing their meaning \cite{abu-rasheed_context_2023}.
+Specialized pedagogical ontologies could provide an important foundation for that  \cite{hasanov_survey_2019}.
+
+
+
+%dump
+%(Abu-Rasheed et al. 2023, Sec.~5.3, S.~13)
+%Der Ort lässt sich aus dem GPS auslesen, der sozioökonomische
+%Kontext dagegen kaum und nicht einmal verlässlich per Befragung, weil seine
+%Bewertung Fachwissen verlangt \cite{abu-rasheed_context_2023}.
+
+%(Abu-Rasheed et al. 2023, Sec.~5.3, S.~13)
+%Zur Einordnung schlagen dieselben Autoren drei Dimensionen vor, Learner, Educational Resource und Environment, wobei das Environment in technische Faktoren wie Lärm und Licht und in pädagogische wie organisatorische Struktur oder Eltern- und Lehrerbeteiligung zerfällt \cite{abu-rasheed_context_2023}.
+%(Abu-Rasheed et al. 2023, Sec.~5.2, Fig.~6, S.~13)
+
+
+
+
+
+\subsubsection{Reasoning.}
+% >>> neu geschrieben: ML-Abgrenzung über die NATUR (nicht in Regeln fassbar)
+%     statt über Kanalzahl (dein Einwand "regelbasiert kann auch mehrere Kanäle").
+%     Schüring sauber via \cite, ohne Meta-Kommentar. Kein "zweischneidig".
+Reasoning is the step from representation to a statement about the state of a learner (P3). In educational practice, there are three approaches.\\
+Rule-based reasoning is transparent and is sufficient for clearly defined cases such as
+location-based or time-based triggers. In mobile learning, it is
+the most frequently used adaptation mechanism \cite{hasanov_survey_2019}.
+%(Hasanov et al. 2019, Abstract; Fig.~13)
+Machine learning is primarily used in situations where latent states
+are statistically inferred from multiple channels that cannot be expressed as explicit
+rules \cite{hong_advances_2025}.
+%bleibt für jetz draußen
+%Die Kanäle werden als Feature-Level-Fusion (Rohdaten vor
+%der Analyse) oder als Decision-Level-Fusion (Einzelergebnisse danach)
+%zusammengeführt .
+%(Hong et al. 2025, Sec.~2, S.~6)
+The benefit often lies in their capability to handle complex signal combinations. For example facial expressions combined with physiological signals can distinguish genuine from superficial engagement \cite{hong_advances_2025}.
+%(Hong et al. 2025, Sec.~2, p.~6)
+The most recent approach uses generative language models as reasoners. When a model
+is provided with structured learner information, it can shift from content-centred to learner-centred pedagogy, which alone has potential to improve context-aware learning significantly \cite{hatchett_learning_2026}.
+%(Hatchett et al. 2026, Sec.~4, Fig.~3, p.~10)
+%However, the literature found no clear correlation between the pedagogical relevance of a feature and its actual influence, as sometimes irrelevant features are weighted and key features are sometimes ignored \cite{hatchett_learning_2026}. %checke nicht gpt zusammenhang herstellen features und generative leanguage etc OPT-TODO
+An example application in this regard uses a multi-agent architecture based on structured context artefacts to generate learning materials. Those were rated higher than those written by experts in terms of clarity and relevance and achieved measurable learning gains. At the same time, hallucination and prompt injection are cited as risks and transparent, reproducible retrieval of contextual information is demanded \cite{schuring_generating_2025}.
+%(Schüring et al. 2025, Abstract; Sec. IV)
+
+
+
+\subsubsection{The limits of observability.}
+No matter how good a sensory system or a representation is, as long as you cannot see inside a persons mind, there will remain a technical boundary. Di Mitri et al. (2018)
+refer to this as the "Observability Line" and distinguish the space of observable
+signals from the space of latent constructs \cite{di_mitri_signals_2018}.
+%(Di Mitri et al. 2018, Sec.~2.1, Fig.~2, p.~344)
+Understanding, motivation or engagement will always lie above this line and can only be
+inferred with a degree of probability. The same elevated heart rate can indicate stress or
+positive engagement \cite{hong_advances_2025}. Direct links with learning outcomes would generally be weak. The only chance is to make approximations as realistic as possible, by combining a lot of sensor data.
+%(Hong et al. 2025, Sec.~5.2, ‘Limited Predictive Accuracy’)
+%This means the limit mentioned for the physiological category has been reached, as it provides robust values for arousal and emotion, but not for understanding.
+
+\subsection{Adapting}
+
+The final step translates the contextual information into an adaptation of the
+learning programme and corresponds to the feedback (P4) that closes the loop back to the learner \cite{di_mitri_signals_2018}.
+%(Fig.~12, p.~411).
+The adaptation targets identified by Hasanov et al. (2019) were grouped into the following four main categories: Content, Sequence, Presentation and Feedback. Each category and finally a supplementary category on intervention dimensions is discussed below \cite{hasanov_survey_2019}.
+
+%\footnote{Die
+%Vier-Klassen-Bündelung fasst die zwölf Hasanov-Targets (Fig.~12) zusammen. Die
+%kanonische Einteilung der adaptiven Hypermedia unterscheidet primär
+%\emph{Adaptive Presentation} und \emph{Adaptive Navigation Support}
+%\cite{brusilovsky_adaptive_2001}.}
+
+\subsubsection{Content adaptation.}
+
+Here the content should be tailored to prior knowledge, interests or current situation of a learner.
+Besides that also device information like screen size, processor or internet connection speed can become relevant for adaptions. For example to fit a text to a small screen or to switch to less demanding visualisation (video to image, image to text) \cite{gumbheer_personalized_2022}.
+%(Gumbheer et al. 2022, Sec.~2.8.2, p.~7498).
+What at first appears to be purely technical can have pedagogical implications. As addressed in the modality principle (see Section 2.4), the choice between text and image or between text and spoken word can be significant, as our reception channels are limited \cite{mayer_past_2024}.
+%(Mayer 2024, Table~6, p.~20).
+One of the most effective forms of adaptation is adaptation to prior knowledge, particularly for learners with limited prior knowledge \cite{mayer_past_2024}.
+%(Mayer 2024, pre-training principle, d=0.78, Table 6, p. 20) — .
+Prior knowledge is the one factor that no sensor directly measures, but the longer the recording the better approximations from behavioural data can be made.
+In narrowly defined domains such as vocabulary learning, repetition algorithms estimate from the response history when a word is due. Duolingo’s half-life regression increased a learners daily activity by 12\% \cite{settles_trainable_2016}. Also of interest is the more recent stochastic shortest-path scheduler, which minimises memorisation cost \cite{ye_stochastic_2022}. Generative language models extend this approach beyond such narrowly defined domains because they can also estimate prior knowledge from free text \cite{hatchett_learning_2026}.
+
+%ergänzung behavioural mit quelle - kurz wieso fürher schwierig und nur in einem definierten environment wie vokabellernen möglich und mit llm chancen breiter.
+
+
+\subsubsection{Sequence adaptation.}
+Here the best order of the units is wanted. For example the spatial-temporal sensors could enable location-based sequencing, in which the next appropriate unit could be determined by the current location \cite{lee_systematic_2022}. %OPT TODO naja was, quelle
+%(Lee 2022, p.~298).
+If physiological signals are also taken into account, signs of fatigue could suggest that it is better to present consolidating rather than new content \cite{youssef_when_2025}.
+%(Youssef et al. 2025, Sec.~III.D, p.~833)
+For the sequence itself the information about level of knowledge will be significant. To find a fitting representation including annotations is crucial for applying the stochastic schedulers mentioned above \cite{ye_stochastic_2022}.
+
+\subsubsection{Presentation adaptation.}
+Here the focus is on the presentation. The format could be adapted to the current cognitive load, based on Mayer’s CTML. The segmenting principle allows the size of the user-paced units to be dynamically reduced when a cognitive load is detected. The modality principle could allow switching from speech to text when noise is detected via the microphone \cite{mayer_past_2024}. The generative activity principle could be integrated as well, with dynamic self-explanation-prompts based on the cognitive capacity \cite{mayer_past_2024}. Overall, cognitive load signals offer great potential, as this forms the basis for a challenging but not overwhelming design.
+
+\subsubsection{Feedback adaptation.}
+
+Here feedback should be tailored. The simplest form of purely informative feedback is also the most common, as more complex forms are more difficult to implement \cite{hasanov_survey_2019}.
+%(Hasanov et al. 2019, Sec.~4.4, p.~415).
+%Scaffolding and fading not mentioned anywhere – is this important?
+Effective adaptive feedback is adapted to the learners level of competence. Scaffolding refers to initial support through close, explicit guidance, whilst fading refers to the gradual reduction of this support as the learner becomes more confident \cite{hasanov_survey_2019}.
+An adaptive system can therefore make the guidance more subtle as competence grows.
+From the perspective of self-determination theory, feedback is particularly relevant because the same information can either support or undermine a sense of competence and autonomy, depending on how it is presented \cite{ryan_intrinsic_2020}.
+%(Ryan & Deci 2020, Sec.~3.2, p.~3).
+%Physiological state and general characteristics of the person (nowadays ascertainable with LLM, requires textual explanations or short, concise definitions...) could also be relevant when using sources...
+That sensor-triggered, real-time feedback can really operationalise this satisfaction of needs was demonstrated by a context-sensitive language learning environment with real-time pronunciation assessment. As a result it achieved better performance and higher motivation compared to a group without the smart feedback mechanism \cite{liu_effect_2026}. %which control conditions
+%(Liu et al. 2026, Sec.~3.4, S.~363).
+
+
+\subsubsection{Dimensions of intervention.}
+The four categories specify what is adapted, not how or when intervention takes place. Each intervention can be described in terms of the five dimensions: modality, intrusiveness, task adaptation, task support and task regulation \cite{youssef_when_2025}.
+For independent learners, intrusiveness is particularly crucial, as there is a conflict of objectives between it and reaction speed. A factually correct adjustment at the wrong time is more likely to disrupt concentration than to support it \cite{youssef_when_2025}. \\
+%(Youssef et al. 2025, Sec.~IV, p.~834).
+In the context of task regulation, guidance on taking breaks, choosing a learning strategy or collaborating takes on some of the structuring work that would otherwise fall to the learner \cite{youssef_when_2025}. A limitation lies in the observation itself, as those being observed change their behaviour, meaning that the measurement actually interferes with precisely what it intends to capture \cite{hong_advances_2025}. Therefore, unobtrusive helping mechanisms can also be effective.
+
+
+% =====================================================================
+% ABBILDUNG 1 (bitte extern erstellen und hier einf\"ugen).
+% Inhalt:
+%  - Links eine vertikale Verarbeitungskette: Sensoren (3.1) -> Akquisition
+%    (Push/Pull, Instant/Interval, Direct/Middleware) -> Repr\"asentation
+%    (Ontologie / Datenbank) -> Reasoning (Rules / ML / LLM, Feature-/Decision-Fusion).
+%    Pfeil P1 zwischen Sensoren und Akquisition, Pfeil P4 zwischen Reasoning und Adaption.
+%  - In der Mitte eine senkrechte gestrichelte "Observability Line" (Di Mitri 2018).
+%  - Rechts ein Kasten "Latente Konstrukte": Cognitive Load, Engagement, Motivation,
+%    Verstehen, M\"udigkeit. Ein gestrichelter Pfeil "Inferenz (probabilistisch)" kreuzt
+%    die Linie vom Reasoning zu den latenten Konstrukten.
+%  - Unten die Adaptionsschicht: Adaption (3.3) Content/Sequence/Presentation/Feedback
+%    -> Autonomiestufe (Personalisation -> Passive -> Active)
+%    -> Interventionsdimensionen (Youssef 2025): Modalit\"at, Aufdringlichkeit,
+%       Aufgabenanpassung/-unterst\"utzung/-regulation.
+%  Bildunterschrift: "Pipeline von der Sensorerfassung zur Lernadaption. Die Observability
+%  Line (Di Mitri et al. 2018) trennt die beobachtbaren Signale (links) von den latenten
+%  Lernkonstrukten (rechts), die nur probabilistisch erschlossen werden k\"onnen."
+% =====================================================================
+
+% =====================================================================
+\section{Discussion}
+This discussion aims to list and categorise the areas of tension that have been identified.
+Section 2 shows that the strongest predictors of learning success are motivational-metacognitive constructs such as self-efficacy and persistence. If we add prior knowledge as a decisive cognitive predictor, it becomes clear that often the most important aspects of a learner are not something that a sensor can measure directly. Mobile sensors do not directly capture central learning constructs as demonstrated with regard to the limited usability of the location on its own.
+%One finding was that spatio-temporal tracking is not dominant for context-aware technologies in education.
+%(Abu-Rasheed et al. 2023, Sec.~5.4, p.~17).
+The gap between what is important and what is (easily) measurable results in the following areas of tension including directions for development:
+\subsubsection{The limits of observability constrain all inference.} Understanding, motivation and interest are latent and can only be inferred indirectly, and the same physiological signal can have different meanings \cite{di_mitri_signals_2018} \cite{hong_advances_2025}.
+%(Di Mitri et al. 2018, Sec.~2.1, p.~344) (Hong et al. 2025, Sec.~5.2).
+The solution is not more sensors, but a better combination of the available signals. \cite{giannakos_role_2023}.
+%(Giannakos & Cukurova 2023, “CLT”, p.~1256).
+\subsubsection{Significant untapped potential in social proximity.} The technology for peer matching is available and its effectiveness is well-founded on social constructivism, the relatedness of the SDT and shared regulation \cite{gumbheer_personalized_2022}.
+%(Gumbheer et al. 2022, Sec.~2.8.1, p.~7497)  (Ryan & Deci 2020, Sec.~1, p.~1)
+Nevertheless, it is barely used \cite{vallejo-correa_systematic_2021}.
+%(Vallejo-Correa et al. 2021, Sec.~4.2.2, p.~12).
+Plausible reasons include data protection concerns and the problem that peer matching only becomes effective once a critical mass of users is reached. % vl also social discrepancy; not everyone wants to learn with others at all, so a new source is unlikely.
+\subsubsection{Technical factors adopted without any pedagogical justification.}
+A GPS signal does not automatically represent a situated context and an elevated heart rate does not automatically indicate engagement. The direction of development should be a conceptual approach, where learning theories or empirical evidence are considered first and then integrated into fitting representations like ontologies. The theory-grounded language learning environment (see Section 3.3) shows the potential with a conceptual approach \cite{liu_effect_2026}.
+\subsubsection{Generative language models change reasoning.}
+Although a fitting learning context shifts the choice of strategy towards learner-centred pedagogy sometimes it still overrates features or cannot match a expert policy \cite{hatchett_learning_2026}.
+%(Hatchett et al. 2026, Sec.~4–5, pp.~9–11).
+A language model behind the reasoning layer is therefore not automatically valid in itself. It requires learning context engineering to determine which sensor information is transferred in what form \cite{schuring_generating_2025}.
+%(Schüring et al. 2025, Sec.~II, document_pdf_4).
+\subsubsection{The design decides.} Across all four tensions above, the lasting educational impact depends on the design, not on the signal alone. Even the best possible use of sensors cannot turn an unmotivated learner into a motivated one. It can reduce barriers, but the motivational and self-regulatory prerequisites lie beyond what is directly achievable through sensory means. For autonomous learners a more passively implemented context awareness, where the system only makes suggestions and the learner decides, can be better as it preserves more autonomy and is less distracting \cite{perera_context_2014}. Other problems for personalized context-aware technologies remain, such as data protection, unwanted surveillance or biased algorithms  \cite{hong_advances_2025}.
+
+
+
+%The lasting educational impact depends on the design, not on the signal alone. The difference between a poor and an effective sensor-based learning system does not stem from additional sensors, but from the pedagogically sound linking of existing signals with well-established learning conditions.
+%Even the best possible usage of sensors cannot turn an unmotivated learner into a motivated one. It can reduce barriers, but the motivational and self-regulatory prerequisites lie beyond what is directly achievable through sensory means.\\
+%(Ryan & Deci 2020, Sec.~4, p.~4).
+%For autonomous learners, therefore, passive context awareness where the system makes suggestions and the learner decides is often preferable to active context sensitivity, as it preserves the need for autonomy \cite{perera_context_2014}. \\
+%(Perera et al. 2014, Sec.~III.D, p.~11; this also aligns with the human-driven P2/P4 from 3.2).
+%Other notable problems include data protection and unwanted surveillance, biased algorithms resulting from limited training data, and inequality, for example when the use of wearables is too expensive for poorer institutions \cite{hong_advances_2025}.
+%(Hong et al. 2025, Sec.~5.1, pp.~13–14).
+% =====================================================================
+\section{Conclusion}
+
+Mobile devices and wearables combine many sensors, which can be used effectively for educational purposes. Across the four categories, spatial-temporal, physiological, behavioural and audio-visual, they provide a high density of contextual data sources.
+%(Hong et al. 2025, Table 1, p. 3)
+Each has theoretical connections to learning theory foundations. The presented pipeline consisting of acquisition, representation, reasoning and adaptation has recently been extended by generative language models as a type of new reasoning layer.
+%Gefällt mir nicht, entweder ersetzen oder ganz anders angehen.Verzahnung von Sensorik und Theorie kommt inzwischen von beiden Seiten, da die Lerntheorie selbst nach biometrischer Erfassung verlangt \cite{}
+ %(Mayer 2024, „Expanding Research Methodologies", S.~21)
+The fact that no perfect system for independent learners exists is primarily due to the identified boundary of observability between signal and construct. Sometimes instead of looking for additional sensors, it can be more important to process the available signals in a pedagogically meaningful way, for example with annotations or approximations.
+Future potential exists especially for the use of social proximity but also for other learning success related data . Also use of generative language-model-based reasoning opens up new possibilities.
+\bibliographystyle{splncs04}
+\bibliography{lit}
+
+\end{document}

@@ -1,0 +1,12 @@
+{
+ "sourceId": "dsgvo",
+ "dossier": "## Was ist diese Quelle?\nDie **Datenschutz-Grundverordnung (EU) 2016/679** ist das allgemeine EU-Datenschutzrecht, auf dem die EHDS-Verordnung aufbaut.\n\n## Kerninhalte (zitierte Artikel)\n- **Art 5 Abs 1 lit a/c**: Grundsätze, insb. **Datenminimierung** — Spannungsfeld zentraler Architekturen (3.1.1).\n- **Art 9**: Verarbeitungsverbot für Gesundheitsdaten mit Ausnahmen (u. a. Versorgung) — Grundlage des erhöhten Schutzbedarfs (3.3).\n- **Art 15/16/20/21**: Auskunft, Berichtigung, Portabilität, Widerspruch — die Vergleichsfolie, über die die EHDS-VO hinausgeht (2.1.2).\n- **Art 32**: Sicherheit der Verarbeitung — Maßstab für Protokollierung (§ 22 GTelG) und den Benachrichtigungskanal (5.3.3).\n- **Art 26/40**: gemeinsame Verantwortliche (EU-Rezept), Verhaltensregeln (Datenstrategie).\n\n## Rolle in der Arbeit\n11 Zitierstellen als Referenzrahmen: Die Arbeit zeigt systematisch, wo der EHDS die DSGVO präzisiert (dauerhafter Zugang statt Auskunft, Interoperabilität statt Portabilität) und wo er auf ihr aufsetzt (Art 9-Ausnahmen, Art 32-Sicherheit).\n\n## Verlässlichkeit & Zugang\nAmtlicher EU-Rechtsakt, frei auf EUR-Lex.",
+ "keyPoints": [
+  "Gesundheitsdaten sind besondere Kategorie (Art 9) — Verarbeitung nur ausnahmsweise.",
+  "EHDS ersetzt das Auskunfts-/Portabilitätsmodell der DSGVO durch dauerhaften, interoperablen Zugang.",
+  "Art 32 (Sicherheit) trägt Protokollierungspflichten und die Anforderungen an einen Benachrichtigungskanal.",
+  "Datenminimierung (Art 5) spricht gegen volle Datenzentralisierung."
+ ],
+ "zitierweise": "Verordnung (EU) 2016/679 (DSGVO), ABl. L 119 vom 4.5.2016, S. 1",
+ "hinweisOhnePdf": "Frei auf EUR-Lex; Fußnoten mit Art/Abs/lit. EUR-Lex-PDF als sources/dsgvo.pdf ablegen genügt."
+}

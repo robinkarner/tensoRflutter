@@ -1,0 +1,62 @@
+{
+ "sectionId": "5.3.2",
+ "paragraphs": [
+  {
+   "id": "5.3.2-p1",
+   "type": "text",
+   "kernaussage": "Das ELGA-Protokollierungssystem ist nach IHE ATNA umgesetzt, protokolliert jede Verarbeitung mit den gesetzlich vorgegebenen Angaben, bewahrt sie drei Jahre auf und macht sie den Teilnehmenden über das Portal zugänglich.",
+   "sentences": [
+    {
+     "text": "Das Protokollierungssystem dient der Dokumentation und der Nachvollziehbarkeit jeder Verarbeitung von ELGA-Gesundheitsdaten.[^337]",
+     "einfach": "Das Protokollierungssystem schreibt mit, was mit ELGA-Daten passiert, damit sich jeder Zugriff im Nachhinein nachvollziehen lässt.",
+     "kategorien": ["tech", "norm"],
+     "marks": [{"snippet": "Protokollierungssystem", "kategorie": "tech"}, {"snippet": "Nachvollziehbarkeit jeder Verarbeitung", "kategorie": "these"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Technisch ist es nach dem IHE-Profil ATNA umgesetzt.[^338]",
+     "einfach": "Die technische Umsetzung folgt dem internationalen Standard-Profil ATNA (Audit Trail and Node Authentication) der IHE-Initiative, das Audit-Ereignisse und die gegenseitige Authentifizierung der Systemknoten festlegt.",
+     "kategorien": ["tech"],
+     "marks": [{"snippet": "IHE-Profil ATNA", "kategorie": "tech"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Zugriffe werden dabei in lokalen Audit Record Repositories und einem aggregierten Audit Record Repository protokolliert.[^339]",
+     "einfach": "Jeder ELGA-Bereich führt ein eigenes Zugriffsprotokoll (lokales Audit Record Repository); zusätzlich laufen alle Einträge in einem zentralen, aggregierten Repository (A-ARR) zusammen.",
+     "kategorien": ["tech"],
+     "marks": [{"snippet": "lokalen Audit Record Repositories", "kategorie": "tech"}, {"snippet": "aggregierten Audit Record Repository", "kategorie": "tech"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Jede Verarbeitung ist nach GTelG 2012 mit Datum und Zeit, einer eindeutigen Transaktionsnummer, der Art des Vorgangs, der eindeutigen elektronischen Identität des auslösenden Gesundheitsdiensteanbieters, dem Namen der verarbeitenden Person, der Kennung der verarbeiteten Daten, den Abfragekriterien und etwaigen Fehlermeldungen zu protokollieren.[^340]",
+     "einfach": "Das Gesetz schreibt genau vor, was jeder Protokolleintrag enthalten muss: wann zugegriffen wurde, wer (Einrichtung und namentlich die Person), auf welche Daten, mit welcher Abfrage und ob Fehler auftraten.",
+     "kategorien": ["norm", "tech"],
+     "marks": [{"snippet": "GTelG 2012", "kategorie": "norm"}, {"snippet": "Datum und Zeit", "kategorie": "tech"}, {"snippet": "eindeutigen elektronischen Identität", "kategorie": "tech"}, {"snippet": "Namen der verarbeitenden Person", "kategorie": "tech"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Protokolldaten sind drei Jahre nach dem Zugriff aufzubewahren und lesbar sowie verfügbar zu halten.[^341]",
+     "einfach": "Die Protokolle müssen ab dem Zugriff drei Jahre lang aufgehoben und abrufbar bleiben — das entspricht genau der Mindestanforderung der EHDS-Verordnung (Art 9 Abs 2).",
+     "kategorien": ["frist", "norm"],
+     "marks": [{"snippet": "drei Jahre nach dem Zugriff", "kategorie": "frist"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "ELGA-Teilnehmende haben das Recht, über das Zugangsportal einfach und übersichtlich Auskunft über die sie betreffenden Protokolldaten zu erhalten.[^342]",
+     "einfach": "Bürgerinnen und Bürger können im Bürger-Zugangsportal selbst nachsehen, wer auf ihre Daten zugegriffen hat — allerdings nur auf eigene Initiative (Abruf), nicht per automatischer Benachrichtigung.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [{"snippet": "über das Zugangsportal", "kategorie": "tech"}, {"snippet": "Auskunft über die sie betreffenden Protokolldaten", "kategorie": "norm"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 337, "quellen": ["gtelg2012"], "claim": "Belegt Zweck des Protokollierungssystems: Dokumentation und Nachvollziehbarkeit jeder Verarbeitung von ELGA-Gesundheitsdaten.", "fundstelle": "§ 22 Abs 1", "suchHinweis": "Protokollierungssystem Dokumentation Nachvollziehbarkeit"},
+    {"num": 338, "quellen": ["elga-gesamtarchitektur2017"], "claim": "Belegt die technische Umsetzung des Protokollierungssystems nach dem IHE-Profil ATNA.", "fundstelle": "S. 329", "suchHinweis": "ATNA Audit Trail Node Authentication"},
+    {"num": 339, "quellen": ["elga-gesamtarchitektur2017"], "claim": "Belegt die zweistufige Protokollierung in lokalen Audit Record Repositories und einem aggregierten Audit Record Repository.", "fundstelle": "S. 50", "suchHinweis": "Audit Record Repository aggregiert A-ARR"},
+    {"num": 340, "quellen": ["gtelg2012"], "claim": "Belegt den gesetzlichen Mindestinhalt jedes Protokolleintrags (Zeit, Transaktionsnummer, Vorgang, Identität, Name, Datenkennung, Abfragekriterien, Fehlermeldungen).", "fundstelle": "§ 22 Abs 2", "suchHinweis": "Protokoll Datum Zeit Transaktionsnummer Abfragekriterien"},
+    {"num": 341, "quellen": ["gtelg2012"], "claim": "Belegt die dreijährige Aufbewahrungs- und Verfügbarkeitspflicht für Protokolldaten.", "fundstelle": "§ 22 Abs 3", "suchHinweis": "Protokolldaten drei Jahre aufbewahren"},
+    {"num": 342, "quellen": ["gtelg2012"], "claim": "Belegt das Auskunftsrecht der ELGA-Teilnehmenden über ihre Protokolldaten in einfacher und übersichtlicher Darstellung.", "fundstelle": "§ 22 Abs 4", "suchHinweis": "Auskunft Protokolldaten einfach übersichtlich"}
+   ]
+  }
+ ]
+}

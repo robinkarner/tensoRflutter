@@ -1,0 +1,37 @@
+{
+ "sectionId": "3.4.3",
+ "title": "Grenzüberschreitende Identifizierung",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 32,
+ "pdfPage": 42,
+ "paragraphs": [
+  {
+   "id": "3.4.3-p1",
+   "type": "text",
+   "text": "Eine wesentliche Voraussetzung für vertrauenswürdige grenzüberschreitende Gesundheitsinteraktionen ist die zuverlässige Identifizierung natürlicher Personen über Staatsgrenzen hinweg. Nach der EHDS-Verordnung haben natürliche Personen das Recht, sich mit allen nach Artikel 6 der eIDAS-Verordnung anerkannten elektronischen Identifizierungsmitteln auszuweisen. Die Mitgliedstaaten können ergänzende Mechanismen vorsehen, um einen angemessenen Identitätsabgleich in grenzüberschreitenden Situationen sicherzustellen.[^186] Die Kommission legt die Anforderungen für den interoperablen, grenzüberschreitenden Identifizierungs- und Authentifizierungsmechanismus für natürliche Personen und Angehörige der Gesundheitsberufe mittels Durchführungsrechtsakten fest und richtet die hierfür erforderlichen Dienste als Teil der grenzüberschreitenden Infrastruktur auf Unionsebene ein.[^187]",
+   "footnotes": [
+    {
+     "num": 186,
+     "text": "Vgl. Art 16 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 187,
+     "text": "Vgl. Art 16 Abs 2 und 3 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.4.3-p2",
+   "type": "text",
+   "text": "Damit wird das in Abschnitt 3.3 beschriebene Identitäts- und Authentifizierungskonzept auf die europäische Ebene gehoben und unmittelbar mit der MyHealth@EU-Infrastruktur verknüpft. Die konkrete Anbindung der österreichischen Infrastruktur an MyHealth@EU wird in Abschnitt 5.4 dargestellt.",
+   "footnotes": []
+  }
+ ]
+}

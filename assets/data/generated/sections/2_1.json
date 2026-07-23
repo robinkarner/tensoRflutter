@@ -1,0 +1,95 @@
+{
+ "sectionId": "2.1",
+ "paragraphs": [
+  {
+   "id": "2.1-p1",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung trat am 26. März 2025 in Kraft und gilt als EU-Verordnung unmittelbar und verbindlich in jedem Mitgliedstaat.",
+   "sentences": [
+    {
+     "text": "Die EHDS-Verordnung, veröffentlicht am 5. März 2025 im Amtsblatt der Europäischen Union, trat am 26. März 2025 in Kraft. [^9]",
+     "einfach": "Die EHDS-Verordnung wurde am 5. März 2025 im Amtsblatt der EU (dem offiziellen Veröffentlichungsorgan für EU-Recht) veröffentlicht und ist seit dem 26. März 2025 in Kraft.",
+     "kategorien": ["norm", "frist"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "5. März 2025", "kategorie": "frist" },
+      { "snippet": "26. März 2025", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Als Verordnung ist sie ein Rechtsakt mit allgemeiner Geltung, der in allen Teilen verbindlich ist und unmittelbar in jedem Mitgliedsland gilt.[^10]",
+     "einfach": "Eine EU-Verordnung wirkt wie ein Gesetz, das direkt in jedem EU-Land gilt: Sie ist vollständig verbindlich und muss - anders als eine Richtlinie - nicht erst in nationales Recht umgesetzt werden.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 9,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung wurde am 5. März 2025 im Amtsblatt veröffentlicht und trat am 26. März 2025 in Kraft.",
+     "fundstelle": "Art 105",
+     "suchHinweis": "Artikel 105 Inkrafttreten Geltungsbeginn"
+    },
+    {
+     "num": 10,
+     "quellen": ["aeuv"],
+     "claim": "Eine EU-Verordnung hat allgemeine Geltung, ist in allen Teilen verbindlich und gilt unmittelbar in jedem Mitgliedstaat.",
+     "fundstelle": "Art 288",
+     "suchHinweis": "Artikel 288 Verordnung allgemeine Geltung unmittelbar"
+    }
+   ]
+  },
+  {
+   "id": "2.1-p2",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung schafft den europäischen Gesundheitsdatenraum mit gemeinsamen Vorschriften, Standards und Infrastrukturen und knüpft an Vorläufer wie die Richtlinie 2011/24/EU und die europäische Datenstrategie an.",
+   "sentences": [
+    {
+     "text": "Durch die EHDS-Verordnung wurde der europäische Gesundheitsdatenraum mit gemeinsamen Vorschriften, Standards und Infrastrukturen geschaffen.[^11]",
+     "einfach": "Mit der EHDS-Verordnung wurde der europäische Gesundheitsdatenraum eingerichtet: gemeinsame Regeln, technische Standards und Infrastrukturen für den Umgang mit Gesundheitsdaten in der EU.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie folgt damit den Vorläufern des EHDS wie der Richtlinie 2011/24/EU[^12] über die Ausübung der Patientenrechte in der grenzüberschreitenden Gesundheitsversorgung und der europäischen Datenstrategie der Kommission zur Verknüpfung der verschiedenen gemeinsamen europäischen Datenräume.[^13]",
+     "einfach": "Die Verordnung baut auf früheren Initiativen auf: der Richtlinie 2011/24/EU, die Patientenrechte bei Behandlungen in anderen EU-Ländern regelt, und der europäischen Datenstrategie der EU-Kommission, die die verschiedenen gemeinsamen europäischen Datenräume miteinander verknüpfen will.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "Richtlinie 2011/24/EU", "kategorie": "norm" },
+      { "snippet": "Kommission", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 11,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung schafft den europäischen Gesundheitsdatenraum mit gemeinsamen Vorschriften, Standards und Infrastrukturen.",
+     "fundstelle": "Art 1 Abs 1",
+     "suchHinweis": "Artikel 1 Gegenstand Vorschriften Standards Infrastrukturen"
+    },
+    {
+     "num": 12,
+     "quellen": ["rl-2011-24"],
+     "claim": "Die Richtlinie 2011/24/EU regelt die Ausübung der Patientenrechte in der grenzüberschreitenden Gesundheitsversorgung.",
+     "fundstelle": "",
+     "suchHinweis": "Richtlinie 2011/24/EU Patientenrechte grenzüberschreitende Gesundheitsversorgung"
+    },
+    {
+     "num": 13,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung knüpft an Vorläufer wie die Richtlinie 2011/24/EU und die europäische Datenstrategie zur Verknüpfung der gemeinsamen europäischen Datenräume an.",
+     "fundstelle": "ErwGr 80",
+     "suchHinweis": "Erwägungsgrund 80 Richtlinie 2011/24 Datenstrategie"
+    }
+   ]
+  }
+ ]
+}

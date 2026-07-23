@@ -1,0 +1,113 @@
+{
+ "sectionId": "3.2.1",
+ "paragraphs": [
+  {
+   "id": "3.2.1-p1",
+   "type": "text",
+   "kernaussage": "Technische Interoperabilität betrifft die physische Übermittlung von Gesundheitsdaten; die Initiative IHE bündelt dafür bestehende Standards zu praxistauglichen Integrationsprofilen.",
+   "sentences": [
+    {
+     "text": "Die technische Interoperabilität betrifft die Frage, über welche Protokolle und Infrastrukturen Gesundheitsdaten physisch von einem System zu einem anderen übermittelt werden.",
+     "einfach": "Auf der technischen Ebene geht es um den reinen Transport: Über welche Netzwerkprotokolle und welche Infrastruktur gelangen Gesundheitsdaten tatsächlich von einem System zum anderen?",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "technische Interoperabilität", "kategorie": "tech" },
+      { "snippet": "Protokolle und Infrastrukturen", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Eine zentrale Rolle spielt dabei die Initiative Integrating the Healthcare Enterprise (IHE), die bestehende Standards wie HL7 und DICOM zu praxistauglichen Implementierungsanleitungen - sogenannten Integrationsprofilen - kombiniert.[^116]",
+     "einfach": "IHE ist eine internationale Initiative, die keine neuen Standards erfindet, sondern vorhandene - etwa HL7 (Standard für medizinische Nachrichten) und DICOM (Standard für medizinische Bilddaten) - zu konkreten, praxistauglichen Umsetzungsanleitungen kombiniert, den sogenannten Integrationsprofilen.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Integrating the Healthcare Enterprise (IHE)", "kategorie": "akteur" },
+      { "snippet": "HL7", "kategorie": "tech" },
+      { "snippet": "DICOM", "kategorie": "tech" },
+      { "snippet": "Integrationsprofilen", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 116,
+     "quellen": ["ihe-iti2026"],
+     "claim": "Belegt, dass die Initiative IHE bestehende Standards wie HL7 und DICOM zu Integrationsprofilen (Implementierungsanleitungen) kombiniert.",
+     "fundstelle": "",
+     "suchHinweis": "IHE IT Infrastructure integration profiles HL7 DICOM"
+    }
+   ]
+  },
+  {
+   "id": "3.2.1-p2",
+   "type": "text",
+   "kernaussage": "Die IHE-Profile XDS.b, XCA und PIX regeln den Dokumentenaustausch innerhalb einer Domäne, den domänenübergreifenden Zugriff und den Abgleich lokaler Patienten-IDs.",
+   "sentences": [
+    {
+     "text": "Das zentrale IHE-Profil für die einrichtungsübergreifende Dokumentenkommunikation ist XDS.b (Cross-Enterprise Document Sharing).",
+     "einfach": "Das wichtigste IHE-Profil für den Dokumentenaustausch zwischen verschiedenen Gesundheitseinrichtungen heißt XDS.b (Cross-Enterprise Document Sharing).",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "XDS.b (Cross-Enterprise Document Sharing)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Es definiert ein System aus Standards für die Katalogisierung und gemeinsame Nutzung von Patientendaten zwischen Gesundheitseinrichtungen und stellt ein Register für Abfragen sowie Methoden für den Dokumentenabruf bereit.[^117]",
+     "einfach": "XDS.b legt fest, wie Patientendokumente katalogisiert und zwischen Einrichtungen geteilt werden: Es gibt ein zentrales Register (Registry), das man nach Dokumenten durchsuchen kann, und definierte Verfahren, um die gefundenen Dokumente abzurufen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Register für Abfragen", "kategorie": "tech" },
+      { "snippet": "Dokumentenabruf", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Den Zusammenschluss mehrerer XDS-Domänen über organisatorische Grenzen hinweg regelt das ergänzende Profil XCA (Cross-Community Access), mit dessen Hilfe Teilnehmer ihre Dokumente gegenseitig zugänglich machen können.[^118]",
+     "einfach": "Wenn mehrere XDS-Verbünde (Domänen, z. B. verschiedene Regionen oder Träger) verbunden werden sollen, kommt das Zusatzprofil XCA (Cross-Community Access) zum Einsatz: Damit können die Teilnehmer über die Grenzen ihres eigenen Verbunds hinweg gegenseitig auf Dokumente zugreifen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "XDS-Domänen", "kategorie": "tech" },
+      { "snippet": "XCA (Cross-Community Access)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das Profil PIX (Patient Identifier Cross-Referencing) wiederum dient der gegenseitigen Referenzierung lokaler Patienten-IDs zwischen Krankenhäusern, Standorten und Gesundheitsinformationsnetzen.[^119]",
+     "einfach": "Da jede Einrichtung ihre Patienten mit eigenen lokalen IDs verwaltet, braucht es eine Zuordnung: Das Profil PIX (Patient Identifier Cross-Referencing) verknüpft die verschiedenen lokalen Patienten-IDs, damit klar ist, dass sie zur selben Person gehören.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "PIX (Patient Identifier Cross-Referencing)", "kategorie": "tech" },
+      { "snippet": "Patienten-IDs", "kategorie": "tech" },
+      { "snippet": "Krankenhäusern", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 117,
+     "quellen": ["ihe-iti2026"],
+     "claim": "Belegt, dass XDS.b ein Standardsystem für Katalogisierung und gemeinsame Nutzung von Patientendaten definiert und ein Register für Abfragen sowie Methoden für den Dokumentenabruf bereitstellt.",
+     "fundstelle": "Vol. 1 Ch. 10",
+     "suchHinweis": "XDS.b Cross-Enterprise Document Sharing registry repository"
+    },
+    {
+     "num": 118,
+     "quellen": ["ihe-iti2026"],
+     "claim": "Belegt, dass XCA den Zusammenschluss mehrerer XDS-Domänen regelt und Teilnehmern den gegenseitigen Dokumentenzugriff ermöglicht.",
+     "fundstelle": "Vol. 1 Ch. 18",
+     "suchHinweis": "XCA Cross-Community Access communities document sharing"
+    },
+    {
+     "num": 119,
+     "quellen": ["ihe-iti2026"],
+     "claim": "Belegt, dass PIX der gegenseitigen Referenzierung lokaler Patienten-IDs zwischen Krankenhäusern, Standorten und Gesundheitsinformationsnetzen dient.",
+     "fundstelle": "Vol. 1 Ch. 5",
+     "suchHinweis": "PIX Patient Identifier Cross-Referencing cross-reference"
+    }
+   ]
+  }
+ ]
+}

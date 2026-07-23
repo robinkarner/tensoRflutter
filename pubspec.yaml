@@ -1,0 +1,140 @@
+name: thesor
+description: "Thesis Studio — Flutter-Konvertierung der thesoR-Web-App (KI-gestützte Quellen- und Belegarbeit für wissenschaftliche Arbeiten)."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- State (Riverpod v3 + Codegen) ---
+  flutter_riverpod: ^3.3.2
+  riverpod_annotation: ^4.0.3
+
+  # --- Router ---
+  go_router: ^17.3.0
+
+  # --- Datenbank (SQLite via Drift, Web über WASM/OPFS) ---
+  drift: ^2.34.2
+  drift_flutter: ^0.3.1
+
+  # --- PDF ---
+  pdfrx: ^2.4.7
+  printing: ^5.15.0
+  pdf: ^3.13.0
+
+  # --- Dateien / Import / Export ---
+  file_picker: ^11.0.2
+  archive: ^4.0.9
+  path_provider: ^2.1.6
+
+  # --- Inhalt / Rendering ---
+  flutter_markdown_plus: ^1.0.12
+  markdown: ^7.3.1
+  flutter_math_fork: ^0.7.4
+  fl_chart: ^1.2.0
+  flutter_highlight: ^0.7.0
+
+  # --- Studio-Layout ---
+  multi_split_view: ^3.6.2
+  scrollable_positioned_list: ^0.3.8
+
+  # --- Sonstiges ---
+  url_launcher: ^6.3.2
+  shared_preferences: ^2.5.5
+  http: ^1.2.0
+  collection: ^1.19.0
+  intl: ^0.20.3
+  crypto: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ">=2.11.0 <3.0.0"
+  riverpod_generator: ">=4.0.0 <5.0.0"
+  drift_dev: ">=2.34.0 <3.0.0"
+  riverpod_lint: ">=3.0.0 <4.0.0"
+
+# Build-Infrastruktur (KEINE Paket-Deklaration): Die Egress-Policy dieser
+# Build-Umgebung blockiert die Downloads der vorkompilierten sqlite3-Binaries
+# (GitHub Releases und sqlite.org) — ohne diese Einstellung schlägt jeder
+# `flutter test`/`flutter build` für native Targets beim Native-Assets-Schritt
+# fehl. Wir binden stattdessen das System-libsqlite3 ein (auf dem Runner
+# vorhanden, v3.45). Für spätere Android/iOS/Windows-Builds außerhalb dieser
+# Umgebung ggf. entfernen oder auf `source: source` + Amalgamation umstellen.
+hooks:
+  user_defines:
+    sqlite3:
+      source: system
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/
+    - assets/data/bundles/
+    - assets/data/parsed/
+    - assets/data/parsed/sections/
+    - assets/data/generated/
+    - assets/data/generated/sections/
+    - assets/data/generated/chapters/
+    - assets/data/generated/analyse/
+    - assets/data/generated/sources/
+    - assets/figures/
+    - assets/sources/
+
+  fonts:
+    # Literatur-Satz (Lesen-Modus, Serifen-Ersatz laut Original-Stack folgt im Theme)
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter-400.ttf
+          weight: 400
+        - asset: assets/fonts/inter-500.ttf
+          weight: 500
+        - asset: assets/fonts/inter-600.ttf
+          weight: 600
+        - asset: assets/fonts/inter-700.ttf
+          weight: 700
+    - family: JetBrains Mono
+      fonts:
+        - asset: assets/fonts/jetbrains-mono-400.ttf
+          weight: 400
+        - asset: assets/fonts/jetbrains-mono-600.ttf
+          weight: 600
+    - family: Baloo 2
+      fonts:
+        - asset: assets/fonts/baloo2-500.ttf
+          weight: 500
+        - asset: assets/fonts/baloo2-700.ttf
+          weight: 700
+        - asset: assets/fonts/baloo2-800.ttf
+          weight: 800
+    - family: Space Grotesk
+      fonts:
+        - asset: assets/fonts/space-grotesk-500.ttf
+          weight: 500
+        - asset: assets/fonts/space-grotesk-700.ttf
+          weight: 700
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/nunito-800.ttf
+          weight: 800
+    # Lese-/Zitatflächen (Original: System-Serif Iowan/Palatino/Georgia — kanonisch: PT Serif)
+    - family: PT Serif
+      fonts:
+        - asset: assets/fonts/PT_Serif-Web-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/PT_Serif-Web-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/PT_Serif-Web-Bold.ttf
+          weight: 700
+    # Fallback für Sondersymbole ⭳⭱⌖⌗⇤⇥∅⤳◐ … (rendern sonst nicht auf allen Plattformen)
+    - family: Noto Sans Symbols 2
+      fonts:
+        - asset: assets/fonts/NotoSansSymbols2-Regular.ttf

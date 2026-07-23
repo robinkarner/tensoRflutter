@@ -1,0 +1,136 @@
+{
+ "sectionId": "4.1.2",
+ "title": "Audit-Logging und granulare Zugangskontrolle",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 37,
+ "pdfPage": 47,
+ "paragraphs": [
+  {
+   "id": "4.1.2-p1",
+   "type": "text",
+   "text": "Das Berechtigungssystem ist von den ELGA-Systempartnern einzurichten und zu betreiben. Es verwaltet die generellen und individuellen Zugriffsberechtigungen auf ELGA und steuert die Zugriffe auf die ELGA-Gesundheitsdaten. Darüber hinaus umfasst es nach dem GTelG 2012 die Verwaltung spezifischer Zugriffsberechtigungen auf eHealth-Anwendungen und Anwendungen der grenzüberschreitenden Gesundheitsversorgung.[^202] Ein Zugriff auf ELGA-Gesundheitsdaten ist nur dann zulässig, wenn ein aufrechtes Behandlungs- oder Betreuungsverhältnis besteht, die ELGA-Teilnehmerin oder der ELGA-Teilnehmer eindeutig identifiziert wurde und keine Widerspruchslage vorliegt.[^203] Die generellen Zugriffsberechtigungen legen dabei fest, welche Berufsgruppen standardmäßig auf welche Datenkategorien zugreifen dürfen. Beispielsweise haben Ärzte und Krankenanstalten Zugriff auf alle ELGA-Gesundheitsdaten, Apotheken und Rettungsdienste nur auf Medikationsdaten, Zahnärzte auf Befunde und Medikationsdaten.[^204]",
+   "footnotes": [
+    {
+     "num": 202,
+     "text": "Vgl. § 21 Abs 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 203,
+     "text": "Vgl. § 14 Abs 1 und § 15 Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 204,
+     "text": "Vgl. § 21 Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.1.2-p2",
+   "type": "text",
+   "text": "ELGA-Teilnehmerinnen und ELGA-Teilnehmer können darüber hinaus individuelle Zugriffsberechtigungen festlegen, indem sie elektronische Verweise und ELGA-Gesundheitsdaten für bestimmte ELGA-GDA ein- oder ausblenden, Zugriffszeiten für bestehende Berechtigungen verkürzen oder einen ELGA-GDA des besonderen Vertrauens mit dessen Zustimmung festlegen.[^205]",
+   "footnotes": [
+    {
+     "num": 205,
+     "text": "Vgl. § 21 Abs 3 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.1.2-p3",
+   "type": "text",
+   "text": "Zum Protokollierungssystem schreibt das GTelG 2012 vor, dass dieses von den ELGA-Systempartnern einzurichten und zu betreiben ist. Es dient der Dokumentation und Nachvollziehbarkeit der Verarbeitung von ELGA-Gesundheitsdaten sowie auch von Gesundheitsdaten in eHealth-Anwendungen und in Anwendungen der grenzüberschreitenden Gesundheitsversorgung.[^206]",
+   "footnotes": [
+    {
+     "num": 206,
+     "text": "Vgl. § 22 Abs 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.1.2-p4",
+   "type": "text",
+   "text": "Jede Verarbeitung von ELGA-Gesundheitsdaten ist als Datensicherheitsmaßnahme im Sinne des Artikel 32 DSGVO zu protokollieren. Das Protokoll hat Datum und Zeit der Verarbeitung, die eindeutige Protokoll-Transaktionsnummer, die Art des Verarbeitungsvorgangs, die eindeutige elektronische Identität des ELGA-GDA oder der ELGA- und eHealth-Supporteinrichtung, den Namen der natürlichen Person, die tatsächlich verarbeitet hat, die eindeutige Kennung der verarbeiteten ELGA-Gesundheitsdaten, die Abfragekriterien sowie Fehlermeldungen bei Abfragen, die zu Fehlermeldungen führen, zu enthalten.[^207] Die Aufbewahrungsfrist für Protokolldaten beträgt drei Jahre nach dem jeweiligen Zugriff.[^208] Damit entspricht Österreich der europäischen Mindestanforderung der EHDS-Verordnung, wonach die Zugriffsinformationen ab dem Tag des Zugriffs mindestens drei Jahre lang abrufbar sein müssen.[^209]",
+   "footnotes": [
+    {
+     "num": 207,
+     "text": "Vgl. § 22 Abs 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 208,
+     "text": "Vgl. § 22 Abs 3 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 209,
+     "text": "Vgl. Art 9 Abs 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.1.2-p5",
+   "type": "text",
+   "text": "ELGA-Teilnehmerinnen und ELGA-Teilnehmer haben das Recht, Auskunft über die sie betreffenden Protokolldaten zu erhalten und diese zu verarbeiten. Die Darstellung hat einfach und übersichtlich zu sein.[^210] Darüber hinaus haben auch Ärzte und Apotheken das Recht, Auskunft über die Protokolldaten ihrer eigenen Verarbeitungsvorgänge zu erhalten und zu verarbeiten.[^211]",
+   "footnotes": [
+    {
+     "num": 210,
+     "text": "Vgl. § 22 Abs 4 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 211,
+     "text": "Vgl. § 22 Abs 6 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.1.2-p6",
+   "type": "text",
+   "text": "Protokolldaten dürfen nicht personenbezogen verarbeitet werden, außer zur gerichtlichen oder außergerichtlichen Rechtsdurchsetzung, zur Sicherstellung rollenkonformer Verarbeitung, zur Information über Aktualisierungen von ELGA-Gesundheitsdaten, im Falle technischer Notwendigkeit oder zur Optimierung und Evaluierung von ELGA in pseudonymisierter Form, wobei eine Re-Identifikation mit rechtlich zulässigen Mitteln nicht möglich sein darf.[^212] Verwaltungsübertretungen werden mit Geldstrafen bis zu 21.800 Euro geahndet.[^213]",
+   "footnotes": [
+    {
+     "num": 212,
+     "text": "Vgl. § 22 Abs 5 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 213,
+     "text": "Vgl. § 25 Abs 3 Z 2 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  }
+ ]
+}

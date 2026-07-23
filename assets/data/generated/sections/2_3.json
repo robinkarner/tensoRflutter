@@ -1,0 +1,33 @@
+{
+ "sectionId": "2.3",
+ "paragraphs": [
+  {
+   "id": "2.3-p1",
+   "type": "text",
+   "kernaussage": "Kapitel II der EHDS-Verordnung regelt die Primärnutzung anhand von vier verzahnten Dimensionen - Akteure, Datenkategorien, Anforderungen an EHR-Systeme und grenzüberschreitende Infrastruktur - mit gestuftem Umsetzungsfahrplan.",
+   "sentences": [
+    {
+     "text": "Die Primärnutzung elektronischer Gesundheitsdaten ist in Kapitel II der EHDS-Verordnung geregelt und betrifft die Verarbeitung personenbezogener elektronischer Gesundheitsdaten unmittelbar im Kontext der Gesundheitsversorgung.",
+     "einfach": "Die Regeln zur Primärnutzung stehen in Kapitel II der EHDS-Verordnung. Sie betreffen die Verwendung persönlicher elektronischer Gesundheitsdaten direkt für die medizinische Versorgung der betroffenen Person.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "Kapitel II der EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das Regelungsregime umfasst vier miteinander verzahnte Dimensionen, die beteiligten Akteure, die erfassten Datenkategorien, die technischen Anforderungen an EHR-Systeme sowie die grenzüberschreitende Infrastruktur, jeweils begleitet von einem gestuften Umsetzungsfahrplan.",
+     "einfach": "Die Regelung besteht aus vier zusammenhängenden Bausteinen: den beteiligten Akteuren (wer mitwirkt), den erfassten Datenarten, den technischen Anforderungen an EHR-Systeme (Systeme für elektronische Patientenakten, englisch \"Electronic Health Record\") und der Infrastruktur für den Datenaustausch zwischen EU-Ländern. Für alles gibt es einen zeitlich gestaffelten Umsetzungsplan.",
+     "kategorien": ["tech", "zahl", "frist"],
+     "marks": [
+      { "snippet": "vier miteinander verzahnte Dimensionen", "kategorie": "zahl" },
+      { "snippet": "EHR-Systeme", "kategorie": "tech" },
+      { "snippet": "gestuften Umsetzungsfahrplan", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

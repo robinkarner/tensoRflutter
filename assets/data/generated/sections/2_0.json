@@ -1,0 +1,166 @@
+{
+  "sectionId": "2.0",
+  "paragraphs": [
+    {
+      "id": "2.0-p1",
+      "type": "text",
+      "kernaussage": "Das Kapitel führt in Motive, Entstehung und regulatorisches Umfeld des EHDS ein, der auf der Europäischen Datenstrategie aufbaut und die Gesundheitssysteme verbessern soll.",
+      "sentences": [
+        {
+          "text": "Dieses Kapitel gibt einen Überblick zu den Motiven, der Entstehung und dem regulatorischen Umfeld des Europäischen Gesundheitsdatenraums (European Health Data Space - EHDS), der auf Grundlage der Europäischen Datenstrategie Fortschritte bei der Prävention, Erkennung und Heilung von Krankheiten sowie fundierte, faktengestützte Entscheidungen zur Verbesserung der Zugänglichkeit, Wirksamkeit und Nachhaltigkeit der Gesundheitssysteme unterstützen soll.[^4]",
+          "einfach": "Dieses Kapitel erklärt, warum und wie der Europäische Gesundheitsdatenraum (EHDS) entstanden ist und welche Regeln ihn umgeben. Der EHDS geht auf die Europäische Datenstrategie zurück und soll helfen, Krankheiten besser vorzubeugen, zu erkennen und zu behandeln sowie Gesundheitssysteme durch datenbasierte Entscheidungen zugänglicher, wirksamer und nachhaltiger zu machen.",
+          "kategorien": [],
+          "marks": [
+            {
+              "snippet": "European Health Data Space",
+              "kategorie": "schlag"
+            },
+            {
+              "snippet": "EHDS",
+              "kategorie": "abk"
+            },
+            {
+              "snippet": "Europäischen Datenstrategie",
+              "kategorie": "schlag"
+            },
+            {
+              "snippet": "Prävention, Erkennung und Heilung",
+              "kategorie": "schlag"
+            },
+            {
+              "snippet": "Zugänglichkeit, Wirksamkeit und Nachhaltigkeit",
+              "kategorie": "these"
+            }
+          ],
+          "wichtig": "kontext"
+        }
+      ],
+      "belege": [
+        {
+          "num": 4,
+          "quellen": [
+            "ek-datenstrategie2020"
+          ],
+          "claim": "Der EHDS soll laut Europäischer Datenstrategie Fortschritte bei Prävention, Erkennung und Heilung von Krankheiten sowie faktengestützte Entscheidungen zur Verbesserung der Gesundheitssysteme unterstützen.",
+          "fundstelle": "Abschnitt D",
+          "suchHinweis": "Gesundheitsdatenraum Prävention Erkennung Heilung Krankheiten"
+        }
+      ]
+    },
+    {
+      "id": "2.0-p2",
+      "type": "text",
+      "kernaussage": "Die EHDS-Verordnung ist der erste sektorspezifische Datenraum der europäischen Datenstrategie und konkretisiert die DSGVO im Umfeld von DGA, Datenverordnung und NIS-2-Richtlinie.",
+      "sentences": [
+        {
+          "text": "Die EHDS-Verordnung ist Teil des Projekts einer europäischen Gesundheitsunion[^5] und der erste sektorspezifische gemeinsame Datenraum der europäischen Datenstrategie.",
+          "einfach": "Die EHDS-Verordnung ist ein EU-Gesetz und gehört zum größeren Vorhaben einer 'europäischen Gesundheitsunion'. Sie ist der erste Datenraum der europäischen Datenstrategie, der speziell für einen einzelnen Sektor (das Gesundheitswesen) geschaffen wurde.",
+          "kategorien": [
+            "norm"
+          ],
+          "marks": [
+            {
+              "snippet": "EHDS-Verordnung",
+              "kategorie": "norm"
+            }
+          ],
+          "wichtig": "kern"
+        },
+        {
+          "text": "Sie konkretisiert die Vorgaben der DSGVO für elektronische Gesundheitsdaten und fügt sich in das Umfeld des Daten-Governance-Rechtsakts (DGA)[^6], der Datenverordnung[^7] und der NIS-2-Richtlinie ein (siehe Abschnitt 2.1).",
+          "einfach": "Die Verordnung macht die allgemeinen Datenschutzregeln der DSGVO (EU-Datenschutz-Grundverordnung) für elektronische Gesundheitsdaten konkreter. Sie steht dabei neben anderen EU-Regelwerken: dem Daten-Governance-Rechtsakt (DGA, Regeln für das Teilen von Daten), der Datenverordnung (fairer Datenzugang) und der NIS-2-Richtlinie (Cybersicherheit).",
+          "kategorien": [
+            "norm"
+          ],
+          "marks": [
+            {
+              "snippet": "DSGVO",
+              "kategorie": "norm"
+            },
+            {
+              "snippet": "Daten-Governance-Rechtsakts (DGA)",
+              "kategorie": "norm"
+            },
+            {
+              "snippet": "Datenverordnung",
+              "kategorie": "norm"
+            },
+            {
+              "snippet": "NIS-2-Richtlinie",
+              "kategorie": "norm"
+            }
+          ],
+          "wichtig": "kern"
+        }
+      ],
+      "belege": [
+        {
+          "num": 5,
+          "quellen": [
+            "ek-gesundheitsunion2020"
+          ],
+          "claim": "Die EHDS-Verordnung ist Teil des Projekts einer europäischen Gesundheitsunion.",
+          "fundstelle": "Abschnitt 1",
+          "suchHinweis": "europäische Gesundheitsunion Schaffung Einleitung"
+        },
+        {
+          "num": 6,
+          "quellen": [
+            "dga"
+          ],
+          "claim": "Der Daten-Governance-Rechtsakt (DGA) ist Teil des regulatorischen Umfelds, in das sich die EHDS-Verordnung einfügt.",
+          "fundstelle": "",
+          "suchHinweis": "Verordnung 2022/868 Daten-Governance-Rechtsakt Titel"
+        },
+        {
+          "num": 7,
+          "quellen": [
+            "datenverordnung"
+          ],
+          "claim": "Die Datenverordnung gehört zum regulatorischen Umfeld, in das sich die EHDS-Verordnung einfügt.",
+          "fundstelle": "",
+          "suchHinweis": "Verordnung 2023/2854 Datenverordnung fairer Datenzugang"
+        }
+      ]
+    },
+    {
+      "id": "2.0-p3",
+      "type": "text",
+      "kernaussage": "Die EHDS-Verordnung regelt den Zugang zu elektronischen Gesundheitsdaten für Primär- und Sekundärnutzung; das Kapitel grenzt beide ab und vertieft anschließend die Primärnutzung.",
+      "sentences": [
+        {
+          "text": "Die EHDS-Verordnung regelt den Zugang zu elektronischen Gesundheitsdaten sowohl für Zwecke der Primärnutzung als auch für Zwecke der Sekundärnutzung[^8] (siehe Abschnitt 2.2).",
+          "einfach": "Die EHDS-Verordnung regelt zwei Arten der Datennutzung: die Primärnutzung (Nutzung der Daten für die Gesundheitsversorgung der betroffenen Person selbst) und die Sekundärnutzung (Nutzung für andere Zwecke wie Forschung oder Statistik).",
+          "kategorien": [
+            "norm"
+          ],
+          "marks": [
+            {
+              "snippet": "EHDS-Verordnung",
+              "kategorie": "norm"
+            }
+          ],
+          "wichtig": "kern"
+        },
+        {
+          "text": "Nach der Abgrenzung der beiden Nutzungsarten wird auf die Primärnutzung von elektronischen Gesundheitsdaten eingegangen (siehe Abschnitt 2.3).",
+          "einfach": "Das Kapitel erklärt zuerst den Unterschied zwischen beiden Nutzungsarten und behandelt danach die Primärnutzung genauer.",
+          "kategorien": [],
+          "marks": [],
+          "wichtig": "kontext"
+        }
+      ],
+      "belege": [
+        {
+          "num": 8,
+          "quellen": [
+            "ehds-vo"
+          ],
+          "claim": "Die EHDS-Verordnung regelt den Zugang zu elektronischen Gesundheitsdaten sowohl für die Primärnutzung als auch für die Sekundärnutzung.",
+          "fundstelle": "Art 1 Abs 1",
+          "suchHinweis": "Artikel 1 Gegenstand Primärnutzung Sekundärnutzung"
+        }
+      ]
+    }
+  ]
+}

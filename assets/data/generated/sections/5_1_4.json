@@ -1,0 +1,325 @@
+{
+ "sectionId": "5.1.4",
+ "paragraphs": [
+  {
+   "id": "5.1.4-p1",
+   "type": "text",
+   "kernaussage": "Die e-Medikation weicht vom dezentralen ELGA-Speichermodell ab, indem sie Medikationsdaten zentral beim Dachverband der Sozialversicherungsträger vorhält, und entspricht im EHDS der elektronischen Verschreibung und Abgabe.",
+   "sentences": [
+    {
+     "text": "Die Anwendungen e-Medikation und e-Impfpass weichen vom dezentralen Speichermodell ab.",
+     "einfach": "Zwei ELGA-nahe Anwendungen, die e-Medikation (elektronische Medikamentenliste) und der e-Impfpass (elektronische Impfdokumentation), funktionieren anders als der Rest von ELGA: Ihre Daten liegen nicht verteilt bei den einzelnen Einrichtungen, sondern zentral an einer Stelle.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "e-Medikation", "kategorie": "tech" },
+      { "snippet": "e-Impfpass", "kategorie": "tech" },
+      { "snippet": "dezentralen Speichermodell", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die e-Medikation ist als ELGA-Anwendung beim Dachverband der Sozialversicherungsträger eingerichtet, die verordnete und abgegebene Arzneimittel nicht verteilt, sondern abweichend von der dezentralen Speicherung der übrigen ELGA-Gesundheitsdaten ohne Aufnahme elektronischer Verweise zentral in ELGA vorhält.[^298]",
+     "einfach": "Die e-Medikation wird als ELGA-Anwendung beim Dachverband der Sozialversicherungsträger (der gemeinsamen Organisation der österreichischen Krankenkassen) betrieben. Verschriebene und ausgegebene Medikamente werden dort zentral in einer Datenbank gespeichert, statt wie andere ELGA-Daten dezentral bei den Einrichtungen zu liegen und nur über elektronische Verweise (Links in einem Verzeichnis) auffindbar zu sein.",
+     "kategorien": ["tech", "akteur", "norm"],
+     "marks": [
+      { "snippet": "e-Medikation", "kategorie": "tech" },
+      { "snippet": "Dachverband der Sozialversicherungsträger", "kategorie": "akteur" },
+      { "snippet": "ohne Aufnahme elektronischer Verweise", "kategorie": "tech" },
+      { "snippet": "zentral in ELGA vorhält", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Diese Medikationsdaten werden 18 Monate nach der Abgabe automatisch gelöscht, während die eigentliche Prüfung von Wechselwirkungen ausdrücklich in der Eigenverantwortung der Gesundheitsdiensteanbieter verbleibt.[^299]",
+     "einfach": "Die Medikationsdaten werden 18 Monate nach der Ausgabe des Medikaments automatisch gelöscht. Ob sich Medikamente gegenseitig beeinflussen (Wechselwirkungen), müssen weiterhin die Gesundheitsdiensteanbieter, also z. B. Ärztinnen und Apotheken, selbst prüfen - das System nimmt ihnen diese Verantwortung nicht ab.",
+     "kategorien": ["frist", "akteur"],
+     "marks": [
+      { "snippet": "18 Monate nach der Abgabe", "kategorie": "frist" },
+      { "snippet": "Gesundheitsdiensteanbieter", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die e-Medikation steht über das e-card-System und das GIN allen ELGA-Gesundheitsdiensteanbietern einschließlich Wahlärztinnen und Wahlärzten offen, ohne dass es hierfür eines eigenen ELGA-Bereichs bedarf.[^300]",
+     "einfach": "Alle ELGA-Gesundheitsdiensteanbieter, auch Wahlärztinnen und Wahlärzte (Ärzte ohne Kassenvertrag), können die e-Medikation über das e-card-System (die Infrastruktur der Sozialversicherungs-Chipkarte) und das GIN (Gesundheitsinformationsnetz, das geschlossene Netzwerk des Gesundheitswesens) nutzen. Sie müssen dafür keinem eigenen ELGA-Bereich (einer organisatorischen Speicher-Einheit von ELGA) angehören.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "e-card-System", "kategorie": "tech" },
+      { "snippet": "GIN", "kategorie": "tech" },
+      { "snippet": "ELGA-Gesundheitsdiensteanbietern", "kategorie": "akteur" },
+      { "snippet": "Wahlärztinnen und Wahlärzten", "kategorie": "akteur" },
+      { "snippet": "eigenen ELGA-Bereichs", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Im Sinne des EHDS entspricht sie damit der Anwendung der elektronischen Verschreibung und Abgabe (ePrescription und eDispensation).[^301]",
+     "einfach": "In der Begriffswelt der EHDS-Verordnung (der EU-Verordnung zum europäischen Gesundheitsdatenraum) ist die e-Medikation das Gegenstück zur elektronischen Verschreibung (ePrescription) und zur elektronischen Abgabe von Medikamenten (eDispensation).",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "EHDS", "kategorie": "norm" },
+      { "snippet": "ePrescription und eDispensation", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 298,
+     "quellen": ["gtelg2012"],
+     "claim": "Die e-Medikation ist als ELGA-Anwendung beim Dachverband der Sozialversicherungsträger eingerichtet und hält Medikationsdaten abweichend vom dezentralen Modell ohne elektronische Verweise zentral vor.",
+     "fundstelle": "§ 16a Abs 1 iVm § 20 Abs 4 Z 1",
+     "suchHinweis": "§ 16a e-Medikation Dachverband zentrale Speicherung"
+    },
+    {
+     "num": 299,
+     "quellen": ["gtelg2012"],
+     "claim": "Medikationsdaten werden 18 Monate nach der Abgabe automatisch gelöscht und die Prüfung von Wechselwirkungen bleibt in der Eigenverantwortung der Gesundheitsdiensteanbieter.",
+     "fundstelle": "§ 20 Abs 4",
+     "suchHinweis": "§ 20 Medikationsdaten Löschung 18 Monate Wechselwirkungen"
+    },
+    {
+     "num": 300,
+     "quellen": ["elga-gesamtarchitektur2017", "gtelg2012"],
+     "claim": "Die e-Medikation ist über das e-card-System und das GIN allen ELGA-Gesundheitsdiensteanbietern einschließlich Wahlärztinnen und Wahlärzten ohne eigenen ELGA-Bereich zugänglich.",
+     "fundstelle": "§ 21 Abs 2 GTelG 2012; S. 226f",
+     "suchHinweis": "e-Medikation e-card GIN Wahlärzte Zugriff"
+    },
+    {
+     "num": 301,
+     "quellen": ["ehds-vo"],
+     "claim": "Die e-Medikation entspricht den im EHDS vorgesehenen Anwendungen der elektronischen Verschreibung und Abgabe (ePrescription und eDispensation).",
+     "fundstelle": "Art 14 Abs 1 lit b und c",
+     "suchHinweis": "Artikel 14 elektronische Verschreibungen Abgabe prioritäre Kategorien"
+    }
+   ]
+  },
+  {
+   "id": "5.1.4-p2",
+   "type": "text",
+   "kernaussage": "Der e-Impfpass ist eine eigenständige, zentral organisierte eHealth-Anwendung mit zentralem Impfregister, gegen dessen Dokumentation kein Widerspruchsrecht besteht.",
+   "sentences": [
+    {
+     "text": "Auch der e-Impfpass folgt einer zentralen Logik.",
+     "einfach": "Auch der e-Impfpass, die elektronische Impfdokumentation, speichert seine Daten zentral an einer Stelle statt verteilt.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "e-Impfpass", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Er ist rechtlich eine eigenständige eHealth-Anwendung, die zwar die ELGA-Komponenten nutzt, aber nicht Teil von ELGA im engeren Sinn ist.",
+     "einfach": "Rechtlich ist der e-Impfpass eine eigene eHealth-Anwendung, also eine eigenständige digitale Gesundheitsanwendung. Er verwendet zwar die technischen Bausteine von ELGA, gehört aber formal nicht zu ELGA selbst.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "eigenständige eHealth-Anwendung", "kategorie": "tech" },
+      { "snippet": "ELGA-Komponenten", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Seine Daten werden in einem zentralen Impfregister geführt.[^302]",
+     "einfach": "Die Impfdaten liegen in einem zentralen Impfregister, also einer einzigen zentralen Datenbank für ganz Österreich.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "zentralen Impfregister", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Anders als bei der ELGA-Teilnahme besteht für die Dokumentation im zentralen Impfregister kein Widerspruchsrecht.[^303]",
+     "einfach": "Bei ELGA können Bürgerinnen und Bürger der Teilnahme widersprechen (Opt-Out). Beim zentralen Impfregister gibt es dieses Widerspruchsrecht nicht: Impfungen werden dort dokumentiert, ohne dass man das ablehnen kann.",
+     "kategorien": ["luecke"],
+     "marks": [
+      { "snippet": "kein Widerspruchsrecht", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Welche Impfungen verpflichtend einzutragen sind, legt eine Verordnung des für das Gesundheitswesen zuständigen Bundesministeriums fest.[^304]",
+     "einfach": "Welche Impfungen verpflichtend in das Register eingetragen werden müssen, bestimmt das Gesundheitsministerium durch eine Verordnung, also eine von der Verwaltung erlassene Rechtsvorschrift unterhalb eines Gesetzes.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "Verordnung", "kategorie": "norm" },
+      { "snippet": "für das Gesundheitswesen zuständigen Bundesministeriums", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 302,
+     "quellen": ["gtelg2012"],
+     "claim": "Der e-Impfpass ist eine eigenständige eHealth-Anwendung, deren Daten in einem zentralen Impfregister geführt werden.",
+     "fundstelle": "§§ 24b Abs 1 und 24c Abs 1",
+     "suchHinweis": "§ 24b zentrales Impfregister eHealth-Anwendung"
+    },
+    {
+     "num": 303,
+     "quellen": ["gtelg2012"],
+     "claim": "Für die Dokumentation im zentralen Impfregister besteht - anders als bei der ELGA-Teilnahme - kein Widerspruchsrecht.",
+     "fundstelle": "§ 24e Abs 5",
+     "suchHinweis": "§ 24e Widerspruch Impfregister ausgeschlossen"
+    },
+    {
+     "num": 304,
+     "quellen": ["gtelg2012"],
+     "claim": "Die verpflichtend einzutragenden Impfungen werden durch Verordnung des für das Gesundheitswesen zuständigen Bundesministeriums festgelegt.",
+     "fundstelle": "§ 28b Abs 4",
+     "suchHinweis": "§ 28b Verordnung verpflichtende Eintragung Impfungen"
+    }
+   ]
+  },
+  {
+   "id": "5.1.4-p3",
+   "type": "text",
+   "kernaussage": "e-Medikation und e-Impfpass bleiben in Berechtigungs- und Protokollierungssystem eingebunden, werden aber über das GIN direkt zentral angesprochen, sodass Bereichsfindung, Verweisregister und XCA entfallen.",
+   "sentences": [
+    {
+     "text": "Beide Anwendungen bleiben in das Berechtigungs- und das Protokollierungssystem eingebunden, da diese nach dem GTelG 2012 auch die Zugriffsberechtigungen auf eHealth-Anwendungen verwalten und deren Verarbeitungen protokollieren (siehe Abschnitt 4.1.2).[^305]",
+     "einfach": "Auch e-Medikation und e-Impfpass nutzen das zentrale Berechtigungssystem (das prüft, wer auf welche Daten zugreifen darf) und das Protokollierungssystem (das jeden Zugriff aufzeichnet). Das Gesundheitstelematikgesetz 2012 (GTelG 2012) sieht vor, dass diese beiden Systeme nicht nur für ELGA, sondern auch für eHealth-Anwendungen zuständig sind.",
+     "kategorien": ["tech", "norm"],
+     "marks": [
+      { "snippet": "Berechtigungs- und das Protokollierungssystem", "kategorie": "tech" },
+      { "snippet": "GTelG 2012", "kategorie": "norm" },
+      { "snippet": "eHealth-Anwendungen", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der Zugriff der GDA-Systeme erfolgt dabei über das GIN direkt auf die jeweilige zentrale Anwendung.",
+     "einfach": "Die IT-Systeme der Gesundheitsdiensteanbieter (GDA), also z. B. Krankenhaus- oder Ordinationssoftware, greifen über das GIN (Gesundheitsinformationsnetz) direkt auf die zentrale Datenbank der jeweiligen Anwendung zu.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "GDA-Systeme", "kategorie": "tech" },
+      { "snippet": "GIN", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Kette aus Bereichsfindung, Verweisregister und XCA entfällt, weil keine Verweise bestehen.[^306]",
+     "einfach": "Der übliche mehrstufige ELGA-Abrufweg entfällt hier: keine Bereichsfindung (Ermittlung, welcher ELGA-Bereich Daten hat), kein Verweisregister (Verzeichnis mit Links auf Dokumente) und kein XCA (Cross-Community Access, das Standardprotokoll für den Abruf über Bereichsgrenzen hinweg). Der Grund: Bei zentraler Speicherung gibt es schlicht keine Verweise, denen man folgen müsste.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Bereichsfindung", "kategorie": "tech" },
+      { "snippet": "Verweisregister", "kategorie": "tech" },
+      { "snippet": "XCA", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 305,
+     "quellen": ["gtelg2012"],
+     "claim": "Berechtigungs- und Protokollierungssystem verwalten nach dem GTelG 2012 auch die Zugriffsberechtigungen auf eHealth-Anwendungen und protokollieren deren Verarbeitungen.",
+     "fundstelle": "§ 21 Abs 1 und § 22 Abs 1",
+     "suchHinweis": "§ 21 Berechtigungssystem § 22 Protokollierung eHealth-Anwendungen"
+    },
+    {
+     "num": 306,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Der Zugriff auf die zentralen Anwendungen erfolgt über das GIN direkt, sodass Bereichsfindung, Verweisregister und XCA entfallen.",
+     "fundstelle": "S. 226f",
+     "suchHinweis": "e-Medikation zentrale Anwendung Zugriff Architektur"
+    }
+   ]
+  },
+  {
+   "id": "5.1.4-p4",
+   "type": "text",
+   "kernaussage": "Die e-Medikation erfüllt beide Steuerungsebenen der EHDS-Verordnung (Opt-Out nach Artikel 10 und Zugriffseinschränkung nach Artikel 8), während der e-Impfpass auf beiden Ebenen abweicht und beim verpflichtenden Einschränkungsrecht des Artikel 8 eine offene Umsetzungsfrage aufwirft.",
+   "sentences": [
+    {
+     "text": "Aus Sicht der EHDS-Verordnung sind die beiden Anwendungen dennoch unterschiedlich zu bewerten.",
+     "einfach": "Gemessen an der EHDS-Verordnung (der EU-Verordnung zum europäischen Gesundheitsdatenraum) schneiden e-Medikation und e-Impfpass trotz ähnlicher Architektur unterschiedlich ab.",
+     "kategorien": ["norm", "these"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "unterschiedlich zu bewerten", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Für die Medikationsdaten bestehen beide Steuerungsebenen der Verordnung: Der partielle und der situative Widerspruch entsprechen der von Artikel 10 eröffneten Opt-Out-Option, das Sperren und Ausblenden über das Zugangsportal dem verpflichtenden Recht auf Einschränkung des Zugangs nach Artikel 8.[^307]",
+     "einfach": "Bei der e-Medikation gibt es beide Kontrollmöglichkeiten, die die EHDS-Verordnung vorsieht: Erstens können Patientinnen und Patienten teilweise (partiell, nur für die e-Medikation) oder situativ (im Einzelfall, etwa bei einem bestimmten Arztbesuch) widersprechen - das entspricht dem Opt-Out, das Artikel 10 den Mitgliedstaaten als Option erlaubt. Zweitens können sie einzelne Daten über das ELGA-Zugangsportal sperren oder ausblenden - das entspricht dem verpflichtenden Recht aus Artikel 8, den Zugriff auf einzelne Daten einzuschränken.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "partielle und der situative Widerspruch", "kategorie": "norm" },
+      { "snippet": "Artikel 10", "kategorie": "norm" },
+      { "snippet": "Zugangsportal", "kategorie": "tech" },
+      { "snippet": "Recht auf Einschränkung des Zugangs", "kategorie": "norm" },
+      { "snippet": "Artikel 8", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der e-Impfpass weicht auf beiden Ebenen ab.",
+     "einfach": "Der e-Impfpass erfüllt keine dieser beiden Steuerungsebenen: Es gibt weder ein Opt-Out noch eine individuelle Zugriffseinschränkung.",
+     "kategorien": ["tech", "these"],
+     "marks": [
+      { "snippet": "e-Impfpass", "kategorie": "tech" },
+      { "snippet": "weicht auf beiden Ebenen ab", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das fehlende Widerspruchsrecht ist dabei unproblematisch, da die Opt-Out-Regelung des Artikel 10 den Mitgliedstaaten freisteht.[^308]",
+     "einfach": "Dass man dem Impfregister nicht widersprechen kann, verstößt nicht gegen die EHDS-Verordnung: Artikel 10 stellt es den EU-Mitgliedstaaten frei, ob sie überhaupt ein Opt-Out (Widerspruchsmöglichkeit) anbieten.",
+     "kategorien": ["norm", "akteur", "these"],
+     "marks": [
+      { "snippet": "Artikel 10", "kategorie": "norm" },
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" },
+      { "snippet": "unproblematisch", "kategorie": "these" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Es fehlt jedoch auch eine dem Ein- und Ausblenden vergleichbare individuelle Zugriffssteuerung, obwohl Artikel 8 ein verpflichtendes Recht normiert.",
+     "einfach": "Problematisch ist aber, dass es beim e-Impfpass keine Möglichkeit gibt, einzelne Daten für bestimmte Behandler auszublenden, wie es bei ELGA möglich ist. Artikel 8 der EHDS-Verordnung schreibt ein solches Recht auf Zugriffseinschränkung aber verbindlich vor - hier ist keine Wahlfreiheit der Mitgliedstaaten vorgesehen.",
+     "kategorien": ["norm", "luecke"],
+     "marks": [
+      { "snippet": "fehlt jedoch auch eine dem Ein- und Ausblenden vergleichbare individuelle Zugriffssteuerung", "kategorie": "luecke" },
+      { "snippet": "Artikel 8", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Da Impfinformationen zugleich zu den Inhalten der Patientenkurzakte zählen, wäre zu klären, ob das Einschränkungsrecht künftig auch für Impfdaten umzusetzen ist oder ob die gesundheitspolitische Zwecksetzung des Impfregisters eine abweichende nationale Ausgestaltung trägt.[^309]",
+     "einfach": "Impfdaten gehören laut EHDS-Verordnung auch zur Patientenkurzakte (Patient Summary, der EU-weit vorgesehenen Zusammenfassung der wichtigsten Gesundheitsdaten). Deshalb bleibt offen, ob Österreich das Einschränkungsrecht künftig auch für Impfdaten einführen muss oder ob der gesundheitspolitische Zweck des Impfregisters (z. B. Überblick über Durchimpfungsraten) eine abweichende nationale Lösung rechtfertigt.",
+     "kategorien": ["norm", "tech", "luecke", "these"],
+     "marks": [
+      { "snippet": "Patientenkurzakte", "kategorie": "tech" },
+      { "snippet": "Einschränkungsrecht", "kategorie": "norm" },
+      { "snippet": "wäre zu klären", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 307,
+     "quellen": ["ehds-vo", "gtelg2012"],
+     "claim": "Partieller und situativer Widerspruch sowie Sperren und Ausblenden bei den Medikationsdaten entsprechen der Opt-Out-Option des Artikel 10 und dem Einschränkungsrecht des Artikel 8 der EHDS-Verordnung.",
+     "fundstelle": "§§ 15 Abs 2, 16 Abs 1 und 2, 21 Abs 3 GTelG 2012; Art 8 und 10 VO (EU) 2025/327",
+     "suchHinweis": "§ 15 Widerspruch § 16 Sperren Ausblenden Artikel 8 Einschränkung"
+    },
+    {
+     "num": 308,
+     "quellen": ["ehds-vo", "gtelg2012"],
+     "claim": "Das fehlende Widerspruchsrecht beim Impfregister ist zulässig, weil die Opt-Out-Regelung des Artikel 10 EHDS-VO den Mitgliedstaaten freisteht.",
+     "fundstelle": "§ 24e Abs 5 GTelG 2012; Art 10 Abs 1 VO (EU) 2025/327",
+     "suchHinweis": "Artikel 10 Mitgliedstaaten können vorsehen Opt-Out"
+    },
+    {
+     "num": 309,
+     "quellen": ["ehds-vo", "gtelg2012"],
+     "claim": "Impfinformationen zählen nach Anhang I der EHDS-Verordnung zu den Inhalten der Patientenkurzakte.",
+     "fundstelle": "Anhang I VO (EU) 2025/327; § 24s Abs 3 GTelG 2012",
+     "suchHinweis": "Anhang I Patientenkurzakte Impfungen Immunisierung"
+    }
+   ]
+  }
+ ]
+}

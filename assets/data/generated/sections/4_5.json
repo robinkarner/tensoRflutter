@@ -1,0 +1,161 @@
+{
+ "sectionId": "4.5",
+ "paragraphs": [
+  {
+   "id": "4.5-p1",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung etabliert MyHealth@EU als europäische Infrastruktur für die grenzüberschreitende Primärnutzung von Gesundheitsdaten, an die die Mitgliedstaaten über ihre nationalen Kontaktstellen (NCPeH) angebunden sind.",
+   "sentences": [
+    {
+     "text": "Auf europäischer Ebene sieht die EHDS-Verordnung die Infrastruktur MyHealth@EU als grenzüberschreitende Infrastruktur für die Verarbeitung elektronischer Gesundheitsdaten für Primärnutzungszwecke vor.",
+     "einfach": "Die EHDS-Verordnung (die EU-Verordnung 2025/327 über den europäischen Gesundheitsdatenraum) legt fest, dass es eine gemeinsame EU-Plattform namens MyHealth@EU gibt. Über diese Plattform sollen Gesundheitsdaten zwischen den EU-Ländern für die Behandlung von Patientinnen und Patienten (sogenannte Primärnutzung) ausgetauscht werden.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die nationalen Kontaktstellen für digitale Gesundheit (NCPeH) der Mitgliedstaaten dienen als technische und organisatorische Zugangstore zu dieser Infrastruktur.[^262]",
+     "einfach": "Jedes EU-Land betreibt eine nationale Kontaktstelle für digitale Gesundheit (NCPeH, National Contact Point for eHealth). Diese Stelle ist das Verbindungsstück, über das das jeweilige nationale Gesundheitssystem technisch und organisatorisch an MyHealth@EU angeschlossen wird.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "nationalen Kontaktstellen für digitale Gesundheit (NCPeH)", "kategorie": "akteur" },
+      { "snippet": "Zugangstore zu dieser Infrastruktur", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 262,
+     "quellen": ["gtelg2012"],
+     "claim": "Die nationale Kontaktstelle für digitale Gesundheit ist im österreichischen Recht als Zugangstor zur grenzüberschreitenden Infrastruktur legaldefiniert.",
+     "fundstelle": "§ 2 Z 24",
+     "suchHinweis": "§ 2 Z 24 Nationale Kontaktstelle digitale Gesundheit"
+    }
+   ]
+  },
+  {
+   "id": "4.5-p2",
+   "type": "text",
+   "kernaussage": "Für die grenzüberschreitende Datenverarbeitung darf die Nationale Kontaktstelle auf fünf zentrale ELGA-Komponenten zugreifen.",
+   "sentences": [
+    {
+     "text": "Für die Datenverarbeitung im grenzüberschreitenden Kontext darf die Nationale Kontaktstelle dazu auf die ELGA-Komponenten Patientenindex, Gesundheitsdiensteanbieterindex, Berechtigungssystem, Protokollierungssystem und Zugangsportal zugreifen.[^263]",
+     "einfach": "Damit die österreichische Kontaktstelle Daten mit anderen EU-Ländern austauschen kann, darf sie fünf Kernbausteine der Elektronischen Gesundheitsakte (ELGA) mitbenutzen: den Patientenindex (eindeutige Zuordnung von Personen), den Gesundheitsdiensteanbieterindex (Verzeichnis der Ärzte, Spitäler usw.), das Berechtigungssystem (prüft, wer zugreifen darf), das Protokollierungssystem (zeichnet Zugriffe auf) und das Zugangsportal.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Nationale Kontaktstelle", "kategorie": "akteur" },
+      { "snippet": "Patientenindex", "kategorie": "tech" },
+      { "snippet": "Gesundheitsdiensteanbieterindex", "kategorie": "tech" },
+      { "snippet": "Berechtigungssystem", "kategorie": "tech" },
+      { "snippet": "Protokollierungssystem", "kategorie": "tech" },
+      { "snippet": "Zugangsportal", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 263,
+     "quellen": ["gtelg2012"],
+     "claim": "Die gesetzliche Ermächtigung der Nationalen Kontaktstelle zum Zugriff auf die genannten ELGA-Komponenten ergibt sich aus dem GTelG 2012.",
+     "fundstelle": "§ 24k Abs 3",
+     "suchHinweis": "§ 24k Nationale Kontaktstelle ELGA-Komponenten Zugriff"
+    }
+   ]
+  },
+  {
+   "id": "4.5-p3",
+   "type": "text",
+   "kernaussage": "Der 6. Abschnitt des GTelG 2012 regelt neben MyHealth@EU auch das EU-Rezept und die EU-Patientenkurzakte als Anwendungsfälle der grenzüberschreitenden Gesundheitsversorgung.",
+   "sentences": [
+    {
+     "text": "Zur grenzüberschreitenden Gesundheitsversorgung regelt der 6. Abschnitt des GTelG 2012 neben MyHealth@EU auch Verschreibungen und elektronische Abgaben (EU-Rezept) sowie die EU-Patientenkurzakte.",
+     "einfach": "Das Gesundheitstelematikgesetz 2012 (GTelG 2012, das zentrale österreichische eHealth-Gesetz) enthält einen eigenen Abschnitt zur grenzüberschreitenden Versorgung. Dort sind neben der Anbindung an MyHealth@EU zwei konkrete Anwendungen geregelt: das EU-Rezept (elektronische Verschreibungen, die im EU-Ausland eingelöst werden können) und die EU-Patientenkurzakte (eine Zusammenfassung der wichtigsten Gesundheitsdaten einer Person).",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "6. Abschnitt des GTelG 2012", "kategorie": "norm" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" },
+      { "snippet": "EU-Rezept", "kategorie": "tech" },
+      { "snippet": "EU-Patientenkurzakte", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "4.5-p4",
+   "type": "text",
+   "kernaussage": "Das EU-Rezept wird vom Dachverband der Sozialversicherungsträger betrieben und deckt beide Richtungen des grenzüberschreitenden Einlösens ab; die für die gemeinsame datenschutzrechtliche Verantwortlichkeit erforderliche Verordnung fehlt jedoch noch.",
+   "sentences": [
+    {
+     "text": "Das EU-Rezept wird vom Dachverband der Sozialversicherungsträger im übertragenen Wirkungsbereich eingerichtet und betrieben.[^264]",
+     "einfach": "Zuständig für Aufbau und Betrieb des EU-Rezepts ist der Dachverband der Sozialversicherungsträger, also die Dachorganisation der österreichischen Krankenkassen und anderer Sozialversicherungen. 'Im übertragenen Wirkungsbereich' bedeutet, dass er dabei eine staatliche Aufgabe nach Weisung des Bundes wahrnimmt.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "EU-Rezept", "kategorie": "tech" },
+      { "snippet": "Dachverband der Sozialversicherungsträger", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Es umfasst sowohl in Österreich ausgestellte elektronische Verschreibungen, die in Apotheken anderer MyHealth@EU-Mitgliedstaaten eingelöst werden (Österreich als Herkunftsmitgliedstaat),[^265] als auch in anderen Mitgliedstaaten ausgestellte Verschreibungen, die in österreichischen Apotheken eingelöst werden (Österreich als Behandlungsmitgliedstaat).[^266]",
+     "einfach": "Das EU-Rezept funktioniert in beide Richtungen: Ein in Österreich ausgestelltes E-Rezept kann in einer Apotheke eines anderen teilnehmenden EU-Landes eingelöst werden (Österreich ist dann 'Herkunftsmitgliedstaat'), und umgekehrt können Rezepte aus anderen EU-Ländern in österreichischen Apotheken eingelöst werden (Österreich ist dann 'Behandlungsmitgliedstaat').",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "elektronische Verschreibungen", "kategorie": "tech" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Gemeinsame datenschutzrechtlich Verantwortliche nach Artikel 26 der DSGVO sind jeweils die Nationale Kontaktstelle und der behandelnde Arzt bzw. die abgebende Apotheke, die durch Verordnung des Bundesministers festzulegen sind,[^267] aber zum Zeitpunkt dieser Arbeit noch nicht erlassen wurden.",
+     "einfach": "Nach der Datenschutz-Grundverordnung (DSGVO) können mehrere Stellen gemeinsam für eine Datenverarbeitung verantwortlich sein (Art 26 DSGVO). Beim EU-Rezept sind das die Nationale Kontaktstelle und der jeweilige Arzt bzw. die Apotheke; die Details sollte eine Verordnung des Gesundheitsministers regeln, die es aber bei Abschluss der Arbeit noch nicht gibt.",
+     "kategorien": ["norm", "akteur", "luecke"],
+     "marks": [
+      { "snippet": "Artikel 26 der DSGVO", "kategorie": "norm" },
+      { "snippet": "Nationale Kontaktstelle", "kategorie": "akteur" },
+      { "snippet": "behandelnde Arzt", "kategorie": "akteur" },
+      { "snippet": "abgebende Apotheke", "kategorie": "akteur" },
+      { "snippet": "noch nicht erlassen wurden", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 264,
+     "quellen": ["gtelg2012"],
+     "claim": "Der Dachverband der Sozialversicherungsträger richtet das EU-Rezept im übertragenen Wirkungsbereich ein und betreibt es.",
+     "fundstelle": "§ 24o Abs 1",
+     "suchHinweis": "§ 24o Dachverband EU-Rezept übertragener Wirkungsbereich"
+    },
+    {
+     "num": 265,
+     "quellen": ["gtelg2012"],
+     "claim": "Die Einlösung österreichischer elektronischer Verschreibungen in Apotheken anderer MyHealth@EU-Mitgliedstaaten (Österreich als Herkunftsmitgliedstaat) ist gesetzlich geregelt.",
+     "fundstelle": "§ 24p",
+     "suchHinweis": "§ 24p Herkunftsmitgliedstaat elektronische Verschreibung"
+    },
+    {
+     "num": 266,
+     "quellen": ["gtelg2012"],
+     "claim": "Die Einlösung ausländischer Verschreibungen in österreichischen Apotheken (Österreich als Behandlungsmitgliedstaat) ist gesetzlich geregelt.",
+     "fundstelle": "§ 24q",
+     "suchHinweis": "§ 24q Behandlungsmitgliedstaat Abgabe Apotheke"
+    },
+    {
+     "num": 267,
+     "quellen": ["gtelg2012"],
+     "claim": "Die gemeinsamen datenschutzrechtlich Verantwortlichen beim EU-Rezept sind durch Verordnung des Bundesministers festzulegen.",
+     "fundstelle": "§ 24r Abs 2",
+     "suchHinweis": "§ 24r Verordnung gemeinsame Verantwortliche"
+    }
+   ]
+  }
+ ]
+}

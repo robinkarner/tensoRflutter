@@ -1,0 +1,77 @@
+{
+ "sectionId": "5.3",
+ "paragraphs": [
+  {
+   "id": "5.3-p1",
+   "type": "text",
+   "kernaussage": "Die IAAA-Pflichten sind in der österreichischen Infrastruktur bereits abgedeckt: Identifikation über e-card-System und GDA-Index, Authentifizierung über den ELGA Token Service sowie Berechtigungs- und Protokollierungssystem als zentrale, von der Bundesrechenzentrum GmbH betriebene ELGA-Services.",
+   "sentences": [
+    {
+     "text": "Die in Abschnitt 3.3 behandelten Pflichten IAAA (Identification, Authentication, Authorization und Accountability) sind in der österreichischen Infrastruktur bereits aufzufinden.",
+     "einfach": "Die in Abschnitt 3.3 beschriebenen vier Sicherheitspflichten IAAA - Identifikation (Wer ist die Person?), Authentifizierung (Nachweis der Identität), Autorisierung (Was darf die Person?) und Accountability (Nachvollziehbarkeit der Zugriffe) - sind in der österreichischen Gesundheits-IT bereits vorhanden.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "IAAA", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Identifikation erfolgt über e-card-System und GDA-Index und die Authentifizierung über den ELGA Token Service.",
+     "einfach": "Wer jemand ist, wird über das e-card-System (das Chipkarten-System der Sozialversicherung) und den GDA-Index (das zentrale Verzeichnis der Gesundheitsdiensteanbieter) festgestellt; den Nachweis der Identität übernimmt der ELGA Token Service, der digitale Berechtigungsnachweise (Tokens) ausstellt.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "e-card-System", "kategorie": "tech" },
+      { "snippet": "GDA-Index", "kategorie": "tech" },
+      { "snippet": "ELGA Token Service", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das Berechtigungssystem zur Autorisierung und das Protokollierungssystem zu Rechenschafszwecken werden als zentrale Komponenten der ELGA in folgenden Abschnitten vertieft behandelt.[^320]",
+     "einfach": "Das Berechtigungssystem (regelt, wer worauf zugreifen darf) und das Protokollierungssystem (zeichnet alle Zugriffe für die Rechenschaftspflicht auf) sind zentrale ELGA-Komponenten und werden in den folgenden Abschnitten genauer erklärt.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Berechtigungssystem", "kategorie": "tech" },
+      { "snippet": "Protokollierungssystem", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Beide werden als zentrale ELGA-Services von der Bundesrechenzentrum GmbH betrieben.[^321]",
+     "einfach": "Beide Systeme laufen als zentrale ELGA-Dienste bei der Bundesrechenzentrum GmbH, dem IT-Dienstleister des Bundes.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "zentrale ELGA-Services", "kategorie": "tech" },
+      { "snippet": "Bundesrechenzentrum GmbH", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Damit sind die in Abschnitt 3.3 behandelten IAAA-Kategorien abgedeckt.",
+     "einfach": "Die österreichische Infrastruktur erfüllt damit nach Einschätzung der Arbeit alle vier IAAA-Kategorien aus Abschnitt 3.3.",
+     "kategorien": ["these", "tech"],
+     "marks": [
+      { "snippet": "IAAA-Kategorien abgedeckt", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 320,
+     "quellen": ["rh-elga2024"],
+     "claim": "Belegt, dass Berechtigungssystem und Protokollierungssystem zentrale Komponenten der ELGA sind.",
+     "fundstelle": "S. 11",
+     "suchHinweis": "Berechtigungssystem Protokollierungssystem zentrale Komponenten"
+    },
+    {
+     "num": 321,
+     "quellen": ["elga-vo2015"],
+     "claim": "Belegt, dass die zentralen ELGA-Services von der Bundesrechenzentrum GmbH betrieben werden.",
+     "fundstelle": "§ 20",
+     "suchHinweis": "Bundesrechenzentrum Betrieb zentrale ELGA-Services"
+    }
+   ]
+  }
+ ]
+}

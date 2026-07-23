@@ -1,0 +1,187 @@
+{
+ "sectionId": "1.2",
+ "paragraphs": [
+  {
+   "id": "1.2-p1",
+   "type": "text",
+   "kernaussage": "Die Arbeit dokumentiert den Umsetzungsstand von Mai bis Juli 2026 und gliedert sich in sechs Kapitel, die vom EU-Recht über Technik und nationales Recht zur Analyse der österreichischen Umsetzung führen.",
+   "sentences": [
+    {
+     "text": "Diese Arbeit gibt den Umsetzungsstand im Zeitraum Mai bis Juli 2026 wieder und gliedert sich in sechs Kapitel, die schrittweise von den unionsrechtlichen Grundlagen über die technischen und nationalen Rahmenbedingungen bis hin zur Analyse des österreichischen Umsetzungsstands führen.",
+     "einfach": "Die Arbeit beschreibt den Stand von Mai bis Juli 2026 (spätere Entwicklungen sind also nicht erfasst). Sie hat sechs Kapitel und geht schrittweise vor: zuerst das EU-Recht ('unionsrechtliche Grundlagen'), dann die technischen Grundlagen und das österreichische Recht, zuletzt die Analyse, wie weit Österreich mit der Umsetzung ist.",
+     "kategorien": ["frist", "zahl"],
+     "marks": [
+      { "snippet": "Mai bis Juli 2026", "kategorie": "frist" },
+      { "snippet": "sechs Kapitel", "kategorie": "zahl" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "1.2-p2",
+   "type": "text",
+   "kernaussage": "Kapitel 2 führt in den EHDS ein: Entstehung und Umfeld der Verordnung (EU) 2025/327, Abgrenzung von Primär- und Sekundärnutzung sowie Akteure, Datenkategorien, EHR-System-Anforderungen, grenzüberschreitende Infrastruktur und Umsetzungsfristen der Primärnutzung.",
+   "sentences": [
+    {
+     "text": "Kapitel 2 stellt den europäischen Gesundheitsdatenraum vor.",
+     "einfach": "Kapitel 2 führt in den europäischen Gesundheitsdatenraum (EHDS) ein, das geplante EU-weite System für den Austausch von Gesundheitsdaten.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Es erläutert Motivation, Entstehung und regulatorisches Umfeld der Verordnung (EU) 2025/327, grenzt Primär- von Sekundärnutzung ab und beschreibt die Primärnutzung im Detail.",
+     "einfach": "Das Kapitel erklärt, warum und wie die EHDS-Verordnung entstanden ist und welche anderen Rechtsakte sie umgeben. Außerdem unterscheidet es Primärnutzung (Daten für die Behandlung der betroffenen Person) von Sekundärnutzung (Weiterverwendung z. B. für Forschung) und vertieft die Primärnutzung.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "Verordnung (EU) 2025/327", "kategorie": "norm" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Im Mittelpunkt stehen die beteiligten Akteure, die prioritären Datenkategorien, die Anforderungen an EHR-Systeme, die grenzüberschreitende Infrastruktur sowie die gestuften Umsetzungsfristen.",
+     "einfach": "Schwerpunkte sind: die beteiligten Stellen und Rollen, die vorrangigen Datenkategorien (Datenarten, die zuerst austauschbar sein müssen, z. B. Patientenkurzakten), die Anforderungen an EHR-Systeme (Systeme für elektronische Gesundheitsakten, engl. Electronic Health Record), die Infrastruktur für den grenzüberschreitenden Austausch und die zeitlich gestaffelten Fristen.",
+     "kategorien": ["akteur", "tech", "frist"],
+     "marks": [
+      { "snippet": "beteiligten Akteure", "kategorie": "akteur" },
+      { "snippet": "EHR-Systeme", "kategorie": "tech" },
+      { "snippet": "gestuften Umsetzungsfristen", "kategorie": "frist" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "1.2-p3",
+   "type": "text",
+   "kernaussage": "Kapitel 3 behandelt die technischen Grundlagen elektronischer Gesundheitsakten: Architekturmodelle, Interoperabilitätsebenen (IHE, HL7 CDA, FHIR, Terminologien), Sicherheitsmechanismen und MyHealth@EU.",
+   "sentences": [
+    {
+     "text": "Kapitel 3 vermittelt die technischen Grundlagen elektronischer Gesundheitsakten.",
+     "einfach": "Kapitel 3 erklärt die Technik hinter elektronischen Gesundheitsakten, also den Systemen, die Gesundheitsdaten digital speichern und austauschen.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Behandelt werden zentrale, dezentrale und hybride Architekturmodelle, die Ebenen der Interoperabilität von IHE-Profilen über HL7 CDA und FHIR bis zu Terminologien sowie Mechanismen der Authentifizierung, Zugriffskontrolle und Protokollierung.",
+     "einfach": "Es geht um drei Bauweisen solcher Systeme (alle Daten an einem Ort, verteilt bei den Erzeugern, oder gemischt) und um Interoperabilitätsstandards: IHE-Profile (Anleitungen, wie Standards kombiniert werden), HL7 CDA und FHIR (Formate bzw. Schnittstellen für medizinische Daten) und Terminologien (einheitliche medizinische Codelisten). Dazu kommen Sicherheitsmechanismen: Authentifizierung (Identitätsprüfung), Zugriffskontrolle (wer darf was) und Protokollierung (Aufzeichnung der Zugriffe).",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "zentrale, dezentrale und hybride Architekturmodelle", "kategorie": "tech" },
+      { "snippet": "IHE-Profilen", "kategorie": "tech" },
+      { "snippet": "HL7 CDA", "kategorie": "tech" },
+      { "snippet": "FHIR", "kategorie": "tech" },
+      { "snippet": "Terminologien", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Abschließend wird MyHealth@EU als grenzüberschreitende Infrastruktur des EHDS vorgestellt.",
+     "einfach": "Zum Schluss stellt das Kapitel MyHealth@EU vor: die EU-Infrastruktur, über die Gesundheitsdaten für die Behandlung zwischen den Mitgliedstaaten ausgetauscht werden.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "MyHealth@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "1.2-p4",
+   "type": "text",
+   "kernaussage": "Kapitel 4 analysiert den österreichischen Rechtsrahmen: GTelG 2012, ELGA-VO 2015, Marktüberwachung von EHR-Systemen, Opt-Out-Harmonisierung, NCPeH-Anbindung und den nationalen Stufenplan im Verhältnis zu den EHDS-Fristen.",
+   "sentences": [
+    {
+     "text": "Kapitel 4 untersucht den rechtlichen Rahmen in Österreich.",
+     "einfach": "Kapitel 4 betrachtet die österreichischen Gesetze und Verordnungen, die für ELGA und den EHDS relevant sind.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Analysiert werden das Gesundheitstelematikgesetz 2012 und die ELGA-Verordnung 2015 sowie die Marktüberwachung von EHR-Systemen.",
+     "einfach": "Untersucht werden das Gesundheitstelematikgesetz 2012 (das österreichische Gesetz, das ELGA rechtlich regelt), die ELGA-Verordnung 2015 (die zugehörige Durchführungsverordnung) und die Marktüberwachung von EHR-Systemen, also die behördliche Kontrolle, ob solche Systeme die EU-Anforderungen einhalten.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "Gesundheitstelematikgesetz 2012", "kategorie": "norm" },
+      { "snippet": "ELGA-Verordnung 2015", "kategorie": "norm" },
+      { "snippet": "EHR-Systemen", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Weitere Schwerpunkte bilden die Harmonisierung der Opt-Out-Regelungen, die grenzüberschreitende Anbindung über den National Contact Point for eHealth sowie der nationale Stufenplan im Verhältnis zu den EHDS-Umsetzungsfristen.",
+     "einfach": "Weitere Themen: die Angleichung der Opt-Out-Regeln (Opt-Out heißt, dass man standardmäßig teilnimmt und aktiv widersprechen muss), die Anbindung Österreichs an den EU-Datenaustausch über den National Contact Point for eHealth (die nationale Kontaktstelle für den grenzüberschreitenden Austausch) und der Vergleich des österreichischen Zeitplans mit den Fristen der EHDS-Verordnung.",
+     "kategorien": ["norm", "akteur", "frist"],
+     "marks": [
+      { "snippet": "Opt-Out-Regelungen", "kategorie": "norm" },
+      { "snippet": "National Contact Point for eHealth", "kategorie": "akteur" },
+      { "snippet": "EHDS-Umsetzungsfristen", "kategorie": "frist" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "1.2-p5",
+   "type": "text",
+   "kernaussage": "Kapitel 5 ist der analytische Kern: Es beschreibt ELGA (Komponenten, EHR-Systeme, Berechtigungs- und Protokollierungssystem, Datenformate) und prüft laufend die Konformität mit den Primärnutzungs-Anforderungen der Verordnung (EU) 2025/327.",
+   "sentences": [
+    {
+     "text": "Kapitel 5 bildet den analytischen Kern der Arbeit und untersucht die Umsetzung in Österreich.",
+     "einfach": "Kapitel 5 ist der wichtigste Teil der Arbeit: Hier wird konkret geprüft, wie Österreich die EHDS-Vorgaben umsetzt.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Es beschreibt ELGA als nationale eHealth-Infrastruktur mit ihren zentralen und dezentralen Komponenten, die angebundenen EHR-Systeme, das Berechtigungs- und Protokollierungssystem sowie die eingesetzten Datenformate.",
+     "einfach": "Das Kapitel beschreibt den Aufbau von ELGA: zentrale Komponenten (gemeinsam betriebene Dienste) und dezentrale Komponenten (bei den einzelnen Einrichtungen), die angeschlossenen EHR-Systeme, das System für Zugriffsberechtigungen und die Protokollierung der Zugriffe sowie die verwendeten Datenformate.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "ELGA", "kategorie": "tech" },
+      { "snippet": "zentralen und dezentralen Komponenten", "kategorie": "tech" },
+      { "snippet": "EHR-Systeme", "kategorie": "tech" },
+      { "snippet": "Berechtigungs- und Protokollierungssystem", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Dabei wird durchgehend geprüft, inwieweit ELGA die Anforderungen der Verordnung (EU) 2025/327 an die Primärnutzung bereits erfüllt.",
+     "einfach": "Bei jedem Thema wird direkt abgeglichen, ob ELGA die jeweiligen Vorgaben der EHDS-Verordnung für die Primärnutzung schon erfüllt.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "ELGA", "kategorie": "tech" },
+      { "snippet": "Verordnung (EU) 2025/327", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "1.2-p6",
+   "type": "text",
+   "kernaussage": "Kapitel 6 fasst die Ergebnisse und identifizierten Lücken zusammen und skizziert die nötigen Schritte für eine EHDS-konforme Weiterentwicklung von ELGA.",
+   "sentences": [
+    {
+     "text": "Kapitel 6 fasst die wesentlichen Ergebnisse zusammen, bündelt die identifizierten technischen und rechtlichen Lücken und gibt einen Ausblick auf die für eine EHDS-konforme Weiterentwicklung von ELGA erforderlichen Schritte.",
+     "einfach": "Das Schlusskapitel fasst die Ergebnisse zusammen, listet die gefundenen technischen und rechtlichen Lücken auf und zeigt, welche Schritte nötig sind, damit ELGA die Anforderungen des EHDS erfüllt.",
+     "kategorien": ["luecke", "tech"],
+     "marks": [
+      { "snippet": "identifizierten technischen und rechtlichen Lücken", "kategorie": "luecke" },
+      { "snippet": "ELGA", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

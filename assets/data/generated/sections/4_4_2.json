@@ -1,0 +1,141 @@
+{
+ "sectionId": "4.4.2",
+ "paragraphs": [
+  {
+   "id": "4.4.2-p1",
+   "type": "text",
+   "kernaussage": "Die grenzüberschreitende Datenverarbeitung über MyHealth@EU setzt in Österreich ein ausdrückliches Einverständnis (Opt-In) voraus, das unabhängig vom ELGA-Widerspruch erklärt und differenziert werden kann.",
+   "sentences": [
+    {
+     "text": "Die Datenverarbeitung in MyHealth@EU für die Primärnutzung ist - im Falle Österreichs als Herkunftsmitgliedstaat - nur zulässig, wenn das Einverständnis (Opt-In) erklärt wurde, die natürliche Person eindeutig identifiziert wurde und die Nationale Kontaktstelle identifiziert und zur Verarbeitung berechtigt ist.[^251]",
+     "einfach": "Damit österreichische Gesundheitsdaten über MyHealth@EU (die EU-Infrastruktur für den grenzüberschreitenden Austausch bei der Behandlung) verarbeitet werden dürfen, müssen drei Bedingungen erfüllt sein: Die Person muss aktiv zugestimmt haben (Opt-In), sie muss eindeutig identifiziert sein, und die Nationale Kontaktstelle (die staatliche Vermittlungsstelle zwischen den Ländern) muss identifiziert und zur Verarbeitung berechtigt sein. 'Herkunftsmitgliedstaat' bedeutet hier: Österreich ist das Land, aus dem die Daten stammen.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "MyHealth@EU", "kategorie": "tech" },
+      { "snippet": "Herkunftsmitgliedstaat", "kategorie": "akteur" },
+      { "snippet": "Nationale Kontaktstelle", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "In Österreich wohnhafte oder sozialversicherte natürliche Personen können ihr Einverständnis über das Bürger-Zugangsportal oder direkt gegenüber dem Bundesminister als ELGA- und eHealth-Supporteinrichtung abgeben oder zurückziehen.[^252]",
+     "einfach": "Wer in Österreich wohnt oder hier sozialversichert ist, kann diese Zustimmung auf zwei Wegen erteilen oder widerrufen: online über das Bürger-Zugangsportal (das ELGA-Webportal für Bürgerinnen und Bürger) oder direkt beim Gesundheitsministerium, das als Support-Stelle für ELGA und eHealth fungiert.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Bürger-Zugangsportal", "kategorie": "tech" },
+      { "snippet": "Bundesminister als ELGA- und eHealth-Supporteinrichtung", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Das MyHealth@EU-Opt-In tritt dabei neben den ELGA-Widerspruch, ist von diesem unabhängig und kann nach Anwendungsfällen differenziert erklärt werden beziehungsweise besteht selbst bei aufrechtem ELGA-Widerspruch fort.[^253]",
+     "einfach": "Das Opt-In für MyHealth@EU und der ELGA-Widerspruch (das Recht, aus der nationalen elektronischen Gesundheitsakte ELGA auszusteigen) sind zwei getrennte Schalter: Man kann das Opt-In für einzelne Anwendungsfälle (etwa nur E-Rezept) erklären, und es bleibt sogar bestehen, wenn man ELGA widersprochen hat.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "MyHealth@EU-Opt-In", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 251,
+     "quellen": ["gtelg2012"],
+     "claim": "Die Datenverarbeitung in MyHealth@EU ist nur bei erklärtem Opt-In, eindeutiger Identifikation der Person und identifizierter, verarbeitungsberechtigter Nationaler Kontaktstelle zulässig.",
+     "fundstelle": "§ 24k Abs 1",
+     "suchHinweis": "§ 24k Zulässigkeit Einverständnis Nationale Kontaktstelle"
+    },
+    {
+     "num": 252,
+     "quellen": ["gtelg2012"],
+     "claim": "Das Einverständnis kann über das Bürger-Zugangsportal oder gegenüber dem Bundesminister als ELGA- und eHealth-Supporteinrichtung abgegeben oder zurückgezogen werden.",
+     "fundstelle": "§ 24n Abs 1 Z 2",
+     "suchHinweis": "§ 24n Zugangsportal Einverständnis abgeben zurückziehen"
+    },
+    {
+     "num": 253,
+     "quellen": ["gtelg2012", "erlaeuterungen38me"],
+     "claim": "Das MyHealth@EU-Opt-In ist vom ELGA-Widerspruch unabhängig, nach Anwendungsfällen differenzierbar und besteht auch bei aufrechtem ELGA-Widerspruch fort.",
+     "fundstelle": "§ 24i Abs 2 GTelG 2012; Erläuterungen 38/ME S. 7",
+     "suchHinweis": "§ 24i Opt-In Widerspruch unabhängig Anwendungsfälle"
+    }
+   ]
+  },
+  {
+   "id": "4.4.2-p2",
+   "type": "text",
+   "kernaussage": "Aus der Kombination von ELGA-Widerspruch und MyHealth@EU-Opt-In ergeben sich vier mögliche Situationen für das Berechtigungssystem nach GTelG 2012.",
+   "sentences": [
+    {
+     "text": "Aus dem Zusammenwirken von ELGA-Widerspruch und MyHealth@EU-Opt-In ergeben sich für das Berechtigungssystem nach GTelG 2012 die folgenden vier Situationen (siehe Tabelle ).[^254]",
+     "einfach": "Weil ELGA-Widerspruch und MyHealth@EU-Opt-In zwei unabhängige Entscheidungen sind, gibt es vier Kombinationen, die das Berechtigungssystem (die technische Zugriffssteuerung von ELGA) nach dem Gesundheitstelematikgesetz 2012 (GTelG 2012) abbilden muss; die folgende Tabelle zeigt sie.",
+     "kategorien": ["norm", "tech", "zahl"],
+     "marks": [
+      { "snippet": "ELGA-Widerspruch", "kategorie": "tech" },
+      { "snippet": "MyHealth@EU-Opt-In", "kategorie": "tech" },
+      { "snippet": "Berechtigungssystem", "kategorie": "tech" },
+      { "snippet": "GTelG 2012", "kategorie": "norm" },
+      { "snippet": "vier Situationen", "kategorie": "zahl" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 254,
+     "quellen": ["gtelg2012"],
+     "claim": "Das ELGA-Berechtigungssystem, auf das sich die vier Situationen beziehen, ist in § 21 GTelG 2012 geregelt.",
+     "fundstelle": "§ 21",
+     "suchHinweis": "§ 21 Berechtigungssystem Zugriff"
+    }
+   ]
+  },
+  {
+   "id": "4.4.2-p3",
+   "type": "table",
+   "kernaussage": "Je nach Kombination von ELGA-Widerspruch (keiner, generell, partiell) und MyHealth@EU-Opt-In ist unterschiedlich, welche Daten national in ELGA und welche grenzüberschreitend (EU-Rezept, EU-Patientenkurzakte) verfügbar sind.",
+   "beschreibung": "Die Tabelle stellt die vier Situationen des Berechtigungssystems gegenüber: kein Widerspruch mit und ohne Opt-In sowie genereller und partieller Widerspruch bei erklärtem Opt-In, jeweils mit den Folgen für die nationale und die grenzüberschreitende Datenverfügbarkeit. Sie verdeutlicht insbesondere, dass das EU-Rezept auch bei generellem ELGA-Widerspruch verfügbar bleibt (weil es auf dem unabhängigen e-Rezept beruht), während die EU-Patientenkurzakte mangels Daten entfällt; Rechtsgrundlagen sind die §§ 15 Abs 2 und 3, 21, 24o und 24s GTelG 2012.",
+   "sentences": [],
+   "belege": []
+  },
+  {
+   "id": "4.4.2-p4",
+   "type": "text",
+   "kernaussage": "Mit dem Opt-In für MyHealth@EU hat Österreich ein strengeres Zustimmungserfordernis gewählt, als Art 10 der EHDS-Verordnung verlangt - mehr Selbstbestimmung, aber weniger grenzüberschreitender Datenfluss.",
+   "sentences": [
+    {
+     "text": "Österreich hat damit für MyHealth@EU - im Unterschied zu ELGA selbst - ein strengeres Zustimmungserfordernis gewählt, als der EHDS-Rahmen es verlangt.",
+     "einfach": "Für den grenzüberschreitenden Austausch über MyHealth@EU verlangt Österreich eine aktive Zustimmung (Opt-In), während für die nationale ELGA nur ein Widerspruchsrecht (Opt-Out) gilt; damit geht Österreich über das hinaus, was die EHDS-Verordnung (die EU-Verordnung 2025/327 zum Europäischen Gesundheitsdatenraum) mindestens fordert.",
+     "kategorien": ["these", "tech", "norm"],
+     "marks": [
+      { "snippet": "MyHealth@EU", "kategorie": "tech" },
+      { "snippet": "strengeres Zustimmungserfordernis", "kategorie": "these" },
+      { "snippet": "EHDS-Rahmen", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Artikel 10 der EHDS-Verordnung lässt den Mitgliedstaaten die Option, ein Widerspruchsrecht zu gewähren oder nicht.",
+     "einfach": "Artikel 10 der EHDS-Verordnung stellt es den EU-Mitgliedstaaten frei, ob sie den Betroffenen für die Primärnutzung überhaupt ein Widerspruchsrecht (Opt-Out) einräumen - verpflichtend ist es nicht.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "Artikel 10 der EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Österreich hat stattdessen ein Einverständniserfordernis eingeführt, was einer stärkeren Selbstbestimmung der Betroffenen entspricht, aber damit auch die Reichweite des grenzüberschreitenden Datenflusses begrenzt.",
+     "einfach": "Österreich verlangt stattdessen eine ausdrückliche Zustimmung: Das gibt den Betroffenen mehr Kontrolle über ihre Daten, führt aber dazu, dass weniger Daten über die Grenze fließen, weil nur die Daten von Personen ausgetauscht werden, die aktiv zugestimmt haben.",
+     "kategorien": ["these"],
+     "marks": [
+      { "snippet": "stärkeren Selbstbestimmung der Betroffenen", "kategorie": "these" },
+      { "snippet": "Reichweite des grenzüberschreitenden Datenflusses begrenzt", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

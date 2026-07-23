@@ -1,0 +1,241 @@
+{
+ "sectionId": "2.2",
+ "title": "Abgrenzung von Primär- und Sekundärnutzung",
+ "chapter": 2,
+ "chapterTitle": "Europäischer Gesundheitsdatenraum",
+ "page": 10,
+ "pdfPage": 20,
+ "paragraphs": [
+  {
+   "id": "2.2-p1",
+   "type": "text",
+   "text": "Die EHDS-Verordnung strukturiert die Verarbeitung elektronischer Gesundheitsdaten anhand der zentralen Abgrenzung zwischen Primär- und Sekundärnutzung,[^44] und legt gemeinsame Vorschriften und Mechanismen für beide Nutzungsformen fest.[^45] Diese Zweiteilung bildet auch den konzeptionellen Aufbau der Verordnung und bestimmt maßgeblich, welche Rechte, Pflichten und Governance-Strukturen im jeweiligen Kontext zur Anwendung kommen. Während Kapitel II und III der Verordnung der Primärnutzung gewidmet sind, regelt Kapitel IV ausführlich die Sekundärnutzung.",
+   "footnotes": [
+    {
+     "num": 44,
+     "text": "Vgl. Art 1 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 45,
+     "text": "Vgl. Art 1 Abs 2 lit c VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2-p2",
+   "type": "text",
+   "text": "Die Primärnutzung betrifft die Verarbeitung elektronischer Gesundheitsdaten für die Gesundheitsversorgung zur Beurteilung, Erhaltung oder Wiederherstellung des Gesundheitszustands der natürlichen Person, auf die sich diese Daten beziehen, einschließlich der Verschreibung, Abgabe und Bereitstellung von Arzneimitteln und Medizinprodukten, sowie für die einschlägigen Sozialleistungen und für die einschlägigen Dienste der Verwaltung oder Kostenerstattung.[^46]",
+   "footnotes": [
+    {
+     "num": 46,
+     "text": "Vgl. Art 2 Abs 2 lit d VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2-p3",
+   "type": "text",
+   "text": "Darüber hinaus konkretisiert die Verordnung die Nutzung über Zugriffsrechte. Betroffene Personen haben das Recht, Zugang zu ihren elektronischen Gesundheitsdaten zu erhalten.[^47] Parallel dazu regelt die Verordnung den Zugriff durch Angehörige der Gesundheitsberufe. Diese erhalten über eigene Zugangsdienste Zugang zu den prioritären Datenkategorien der von ihnen behandelten Personen, soweit dies für die Gesundheitsversorgung erforderlich ist.[^48] Daneben haben natürliche Personen das Recht, einem Gesundheitsdienstleister ihrer Wahl Zugang zu ihren Daten zu gewähren oder deren Übermittlung an einen Empfänger zu verlangen.[^49] Angesichts der Sensibilität personenbezogener elektronischer Gesundheitsdaten soll die Verordnung auf Unionsebene wie auf nationaler Ebene ausreichende Schutzmaßnahmen bieten, um ein hohes Maß an Datenschutz, Sicherheit und Vertraulichkeit sicherzustellen.[^50]",
+   "footnotes": [
+    {
+     "num": 47,
+     "text": "Vgl. Art 3 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 48,
+     "text": "Vgl. Art 11 Abs 1 und 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 49,
+     "text": "Vgl. Art 7 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 50,
+     "text": "Vgl. ErwGr 4 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2-p4",
+   "type": "text",
+   "text": "Während die Primärnutzung die Verarbeitung für die unmittelbare Gesundheitsversorgung der betroffenen Person bezeichnet, erfasst die Sekundärnutzung die Verarbeitung für die in Kapitel IV genannten Zwecke – etwa Forschung, Innovation, Statistik oder Politikgestaltung –, sofern es sich nicht um die ursprünglichen Erhebungs- oder Erstellungszwecke handelt.[^51] Der für die Sekundärnutzung verfügbare Datenbestand ist dabei nicht auf zuvor primär genutzte Daten beschränkt, sondern wird durch einen eigenen Katalog von Datenkategorien definiert, der etwa auch genetische Daten, Biobank- und Registerdaten umfasst.[^52]",
+   "footnotes": [
+    {
+     "num": 51,
+     "text": "Vgl. Art 2 Abs 2 lit d und e VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 52,
+     "text": "Vgl. Art 51 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2-p5",
+   "type": "text",
+   "text": "Als zulässige Zwecke der Sekundärnutzung sind öffentliches Interesse im Bereich der öffentlichen Gesundheit, Politikgestaltung und Regulierungstätigkeiten, amtliche Statistiken, Bildungs- und Lehrtätigkeiten im Gesundheitswesen oder im Pflegesektor, wissenschaftliche Forschung im Bereich des Gesundheitswesens oder des Pflegesektors sowie die Verbesserung der Pflege und Behandlung auf Grundlage der Daten anderer Personen definiert.[^53]",
+   "footnotes": [
+    {
+     "num": 53,
+     "text": "Vgl. Art 53 Abs 1 lit a bis f VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2-p6",
+   "type": "text",
+   "text": "Der Erwägungsgrund 62 der EHDS-Verordnung betont dabei, dass der Datenzugang für die Sekundärnutzung dem allgemeinen Interesse der Gesellschaft dienen soll. Um missbräuchlichen Verwendungen zu begegnen, zählt die Verordnung verbotene Sekundärnutzungen auf. Sie untersagt insbesondere das Treffen von Entscheidungen zum Nachteil von natürlichen Personen oder Gruppen auf Basis ihrer Gesundheitsdaten, die Durchführung von Werbe- oder Vermarktungstätigkeiten, die Entwicklung von Produkten oder Diensten, die der Gesundheit oder der Gesellschaft schaden können sowie die Vornahme von Tätigkeiten, die im Widerspruch zu im nationalen Recht festgelegten ethischen Bestimmungen stehen.[^54]",
+   "footnotes": [
+    {
+     "num": 54,
+     "text": "Vgl. Art 54 lit a bis e VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2-p7",
+   "type": "text",
+   "text": "Die Unterscheidung hat wichtige rechtspraktische Konsequenzen. Für die Primärnutzung sind die Stellen für digitale Gesundheit (Digital Health Authorities, DHA) zuständig. Sie arbeiten mit anderen Stellen für digitale Gesundheit sowie der Kommission bei der Weiterentwicklung der Infrastruktur MyHealth@EU für den grenzüberschreitenden Austausch zusammen.[^55] Für die Sekundärnutzung hingegen ist in jedem Mitgliedstaat eine Zugangsstelle für Gesundheitsdaten (Health Data Access Bodies, HDAB) zu benennen,[^56] die den Zugang zur Nutzung elektronischer Gesundheitsdaten auf Grund sicherer Verarbeitungsumgebungen mit einem mehrstufigen Genehmigungsverfahren gewähren.[^57] Zugangsstellen für Gesundheitsdaten haben auch sicherzustellen, dass der Datenzugang nur zu denjenigen elektronischen Gesundheitsdaten gewährt wird, die angemessen, erheblich und auf das für denjenigen Verarbeitungszweck notwendige Maß beschränkt sind.[^58] Für die grenzüberschreitende Sekundärnutzung wird eine eigene Infrastruktur - HealthData@EU - errichtet.[^59]",
+   "footnotes": [
+    {
+     "num": 55,
+     "text": "Vgl. Art 19 Abs 2 lit f VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 56,
+     "text": "Vgl. Art 55 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 57,
+     "text": "Vgl. Art 68 und Art 73 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 58,
+     "text": "Vgl. Art 66 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 59,
+     "text": "Vgl. Art 75 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2-p8",
+   "type": "text",
+   "text": "Auf Ebene des Datenschutzniveaus legt die Verordnung für die Sekundärnutzung personenbezogener elektronischer Gesundheitsdaten fest, dass diese grundsätzlich nur auf Basis pseudonymisierter oder anonymisierter Daten zulässig ist und dafür organisatorische Schutzmaßnahmen bei Zugangsstellen für Gesundheitsdaten sicherzustellen sind.[^60] Zugangsstellen dürfen dafür die Daten zunächst nur in anonymisiertem Format zur Verfügung stellen, wenn der Verarbeitungszweck damit erreicht werden kann.[^61] Der Zugang zu pseudonymisierten Daten ist nur zulässig, wenn der Gesundheitsdatennutzer hinreichend begründet, dass anonymisierte Daten nicht ausreichen. Die Informationen zur Rückgängigmachung der Pseudonymisierung verbleiben ausschließlich bei der Zugangsstelle oder einem vertrauenswürdigen Dritten und sind in nationalem Recht festzulegen.[^62]",
+   "footnotes": [
+    {
+     "num": 60,
+     "text": "Vgl. Art 55 Abs 3 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 61,
+     "text": "Vgl. Art 66 Abs 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 62,
+     "text": "Vgl. Art 66 Abs 3 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2-p9",
+   "type": "text",
+   "text": "Auch die datenschutzrechtliche Verantwortlichkeit unterscheidet sich. Während bei der Primärnutzung hauptsächlich Gesundheitsdienstleister als verantwortliche Stellen handeln, übernehmen bei der Sekundärnutzung die Zugangsstellen für Gesundheitsdaten je nach Konstellation die Rolle des Verantwortlichen oder des Auftragsverarbeiters.[^63] Schließlich sieht die Verordnung vor, dass Sensibilisierungskampagnen der Mitgliedstaaten Patienten und die Öffentlichkeit über die Primär- und Sekundärnutzung im Rahmen des EHDS, einschließlich der sich daraus ergebenden Rechte, sowie über die Vorteile, Risiken und den potenziellen Nutzen der Primär- und Sekundärnutzung für Wissenschaft und Gesellschaft informieren sollen.[^64]",
+   "footnotes": [
+    {
+     "num": 63,
+     "text": "Vgl. Art 74 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 64,
+     "text": "Vgl. Art 84 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2-p10",
+   "type": "text",
+   "text": "Für die Primärnutzung ist ein Widerspruch nicht zwingend vorgesehen. Mitgliedstaaten haben aber die Möglichkeit, in ihrem nationalen Recht einen Widerspruch gegen den Zugang zu personenbezogenen elektronischen Gesundheitsdaten für die Primärnutzung vorzusehen, der dann auch reversibel sein muss.[^65] Der Erwägungsgrund 54 der EHDS-Verordnung stellt dazu klar, dass das Widerspruchsrecht dem Ausgleich zwischen dem Bedürfnis nach umfassenden Datensätzen für Forschungszwecke und der Autonomie natürlicher Personen in Bezug auf ihre personenbezogenen elektronischen Gesundheitsdaten, die als besonders sensibel gelten, dienen soll. Natürliche Personen haben das Recht, jederzeit und ohne Angabe von Gründen Widerspruch gegen die Verarbeitung ihrer Daten für die Sekundärnutzung einzulegen, wobei dieses Recht reversibel sein und über einen barrierefreien Mechanismus ausgeübt werden können muss.[^66]",
+   "footnotes": [
+    {
+     "num": 65,
+     "text": "Vgl. Art 10 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 66,
+     "text": "Vgl. Art 71 Abs 1 und 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

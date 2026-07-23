@@ -1,0 +1,87 @@
+{
+ "sectionId": "2.1.4",
+ "title": "Verhältnis zur Datenverordnung",
+ "chapter": 2,
+ "chapterTitle": "Europäischer Gesundheitsdatenraum",
+ "page": 9,
+ "pdfPage": 19,
+ "paragraphs": [
+  {
+   "id": "2.1.4-p1",
+   "type": "text",
+   "text": "Die Datenverordnung über harmonisierte Vorschriften für einen fairen Datenzugang und eine faire Datennutzung und die EHDS-Verordnung bilden zwei sich ergänzende, aber systematisch unterschiedlich ausgerichtete Grundlagen des europäischen Datenwirtschaftsrechts.",
+   "footnotes": []
+  },
+  {
+   "id": "2.1.4-p2",
+   "type": "text",
+   "text": "Die Datenverordnung verfolgt einen sektorübergreifenden Ansatz. Sie legt Regeln für den Zugang zu und die Nutzung von Daten fest, die bei der Verwendung vernetzter Produkte und verbundener Dienste generiert werden, und schafft dabei einen allgemeinen Rahmen für die faire Datenweitergabe im Binnenmarkt der Union.[^34]",
+   "footnotes": [
+    {
+     "num": 34,
+     "text": "Vgl. Art 1 Abs 1 VO (EU) 2023/2854.",
+     "sources": [
+      "datenverordnung"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.1.4-p3",
+   "type": "text",
+   "text": "Im Gesundheitskontext zählen beispielsweise Insulinpumpen, Wearables, Fitness-Tracker oder Telemedizingeräte dazu, die nach der EHDS-Verordnung automatisch generierte Daten aus Medizinprodukten oder Wellness-Anwendungen für die Sekundärnutzung darstellen.[^35] Die Datenverordnung definiert, wer Zugang zu diesen Gerätedaten hat,[^36] die EHDS-Verordnung regelt, wie diese Daten beispielsweise für die Forschungstätigkeit im Bereich des Gesundheitswesens im Rahmen der EHDS-Sekundärnutzung über HealthData@EU genutzt werden dürfen.[^37]",
+   "footnotes": [
+    {
+     "num": 35,
+     "text": "Vgl. Art 51 Abs 1 lit h und i VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 36,
+     "text": "Vgl. Art 1 Abs 3 VO (EU) 2023/2854.",
+     "sources": [
+      "datenverordnung"
+     ]
+    },
+    {
+     "num": 37,
+     "text": "Vgl. Art 75 Abs 4 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.1.4-p4",
+   "type": "text",
+   "text": "Die EHDS-Verordnung lässt die Datenverordnung ausdrücklich unberührt.[^38] Umgekehrt weist die Datenverordnung dem spezialgesetzlichen Gesundheitsdatenrecht seinen Raum zu. Der EHDS-Rahmen geht etwa beim Datenzugang öffentlicher Stellen über den auf außergewöhnliche Notwendigkeit beschränkten Geltungsbereich von Kapitel V der Datenverordnung hinaus,[^39] während für Gebühren bei der Sekundärnutzung über Zugangsstellen für Gesundheitsdaten die Datenverordnung angewendet werden soll.[^40]",
+   "footnotes": [
+    {
+     "num": 38,
+     "text": "Vgl. Art 1 Abs 3 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 39,
+     "text": "Vgl. Art 15 VO (EU) 2023/2854.",
+     "sources": [
+      "datenverordnung"
+     ]
+    },
+    {
+     "num": 40,
+     "text": "Vgl. ErwGr 70 und Art 62 Abs 1 VO (EU) 2025/327 sowie Art Art 9 VO (EU) 2023/2854.",
+     "sources": [
+      "ehds-vo",
+      "datenverordnung"
+     ]
+    }
+   ]
+  }
+ ]
+}

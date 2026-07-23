@@ -1,0 +1,132 @@
+{
+ "findings": [
+  {
+   "id": "f1",
+   "label": "Zugang & Portal erfüllt",
+   "typ": "positiv",
+   "beschreibung": "Das EHDS-Zugangsrecht natürlicher Personen (Art 3) ist über das Bürger-Zugangsportal mit ID-Austria-Identifizierung bereits umgesetzt; der Abruf folgt derselben XCA-Logik wie bei den GDA-Systemen.",
+   "fazitParagraphId": "6.0-p2",
+   "abschnitte": ["5.1.1", "5.1.3", "2.3.1"],
+   "fristen": []
+  },
+  {
+   "id": "f2",
+   "label": "Zugangskontrolle EHDS-konform",
+   "typ": "positiv",
+   "beschreibung": "Default deny, rollenbezogene Autorisierung und XACML-Feinsteuerung auf Dokumentenebene decken das granulare Zugangskontrollrecht (Art 8) ab — inklusive Ein-/Ausblenden einzelner Dokumente.",
+   "fazitParagraphId": "6.0-p2",
+   "abschnitte": ["5.3.1", "3.3.2", "4.1.2"],
+   "fristen": []
+  },
+  {
+   "id": "f3",
+   "label": "Protokollierung erfüllt",
+   "typ": "positiv",
+   "beschreibung": "Vollprotokollierung (wer, wann, welche Daten) nach § 22 GTelG 2012 und die dreijährige Aufbewahrung decken die Mindestanforderungen des Art 9 Abs 2 ab; technisch via IHE ATNA und A-ARR.",
+   "fazitParagraphId": "6.0-p2",
+   "abschnitte": ["5.3.2", "5.3.3", "4.1.2", "3.3.3"],
+   "fristen": []
+  },
+  {
+   "id": "f4",
+   "label": "5 von 6 Kategorien produktiv",
+   "typ": "positiv",
+   "beschreibung": "Entlassungsbrief, Labor, Bildgebung, e-Verschreibung und e-Abgabe sind über bestehende ELGA-Anwendungen abgedeckt; die nationalen Speicherpflicht-Termine liegen vor den EHDS-Fristen.",
+   "fazitParagraphId": "6.0-p3",
+   "abschnitte": ["5.4.2", "5.1.4", "4.2.3", "2.3.2"],
+   "fristen": []
+  },
+  {
+   "id": "f5",
+   "label": "Patientenkurzakte offen",
+   "typ": "luecke",
+   "beschreibung": "Die Austrian Patient Summary ist nur als FHIR-Erprobungsstandard (STU1, Februar 2026) spezifiziert und nicht produktiv in ELGA integriert; ihre ausgehende Bereitstellung über MyHealth@EU fehlt — der kritische Pfad bis 2029.",
+   "fazitParagraphId": "6.0-p3",
+   "abschnitte": ["5.4.2", "5.4.3", "5.4.4", "4.6"],
+   "fristen": ["26. März 2029"]
+  },
+  {
+   "id": "f6",
+   "label": "Enger GDA-Kreis, Wahlarzt-Ausnahme",
+   "typ": "spannung",
+   "beschreibung": "Der taxative ELGA-GDA-Katalog ist enger als der funktionale EHDS-Gesundheitsdienstleister-Begriff; Wahlärzte können national (§ 49 Abs 7 ÄrzteG) und unionsrechtlich (Art 50, Kleinstunternehmen) doppelt ausgenommen sein — mit Folgen für die Datenvollständigkeit.",
+   "fazitParagraphId": "6.0-p4",
+   "abschnitte": ["4.1.1", "4.2.2"],
+   "fristen": ["26. März 2029"]
+  },
+  {
+   "id": "f7",
+   "label": "Benachrichtigungslücke (Art 9)",
+   "typ": "luecke",
+   "beschreibung": "Die EHDS-VO verlangt Zugriffsinformation auch durch automatische Benachrichtigungen; GTelG und ELGA-VO kennen nur den Abruf. Die Rohdaten liegen im A-ARR bereit — es fehlt der sichere Kanal (E-Mail/SMS/Push der angekündigten ELGA-App).",
+   "fazitParagraphId": "6.0-p5",
+   "abschnitte": ["5.3.3", "5.3.2", "4.1.2"],
+   "fristen": ["26. März 2029"]
+  },
+  {
+   "id": "f8",
+   "label": "Opt-In-Spannung (MyHealth@EU)",
+   "typ": "spannung",
+   "beschreibung": "Österreich knüpft die grenzüberschreitende Bereitstellung an ein ausdrückliches Opt-In, während Art 10 nur die Option eines Widerspruchsrechts eröffnet. Das stärkt die Selbstbestimmung, begrenzt aber den Austausch und wirft ab 2029 die Vereinbarkeitsfrage auf.",
+   "fazitParagraphId": "6.0-p6",
+   "abschnitte": ["4.4.2", "5.4.4", "2.2"],
+   "fristen": ["26. März 2029"]
+  },
+  {
+   "id": "f9",
+   "label": "Sekundärnutzungs-Widerspruch fehlt",
+   "typ": "luecke",
+   "beschreibung": "Das ab 26.3.2029 zwingende Widerspruchsrecht gegen die Sekundärnutzung (Art 71) hat in Österreich weder Rechtsgrundlage noch technischen Mechanismus; es hängt an der noch fehlenden Zugangsstelle für Gesundheitsdaten.",
+   "fazitParagraphId": "6.0-p7",
+   "abschnitte": ["4.4.3", "2.2"],
+   "fristen": ["26. März 2029"]
+  },
+  {
+   "id": "f10",
+   "label": "Drei Behörden fehlen",
+   "typ": "luecke",
+   "beschreibung": "Stelle für digitale Gesundheit (Primärnutzung), Marktüberwachungsbehörde (EHR-Systeme) und Zugangsstelle für Gesundheitsdaten (Sekundärnutzung) sind bis 26.3.2027 zu benennen, waren aber zum Stand der Arbeit weder eingerichtet noch gesetzlich verankert.",
+   "fazitParagraphId": "6.0-p8",
+   "abschnitte": ["4.3", "2.3.1", "4.4.3"],
+   "fristen": ["26. März 2027"]
+  },
+  {
+   "id": "f11",
+   "label": "MyHealth@EU-Start belegt Anschlussfähigkeit",
+   "typ": "positiv",
+   "beschreibung": "Seit Februar 2026 werden EU-Rezepte (ausgehend) und EU-Patientenkurzakten (eingehend) mit Tschechien ausgetauscht — die Kette EHR-System → ELGA-Bereiche → Kontaktstelle (AT-eHDSI) funktioniert produktiv.",
+   "fazitParagraphId": "6.0-p9",
+   "abschnitte": ["5.4.4", "4.5", "3.4.2"],
+   "fristen": []
+  },
+  {
+   "id": "f12",
+   "label": "Erfüllungsfiktion & Fristenkaskade",
+   "typ": "ausblick",
+   "beschreibung": "Die Erfüllungsfiktion erlaubt die technische Anbindung bis 31.12.2028 — knapp drei Monate vor der ersten EHDS-Stufe (26.3.2029), ab der Kurzakte/e-Rezept-Austausch, Benachrichtigungsrecht und Sekundärnutzungs-Widerspruch gelten; 2031 folgt Gruppe 2. Der CDA-Bestand darf dank Schnittstellenanforderung (Anhang II) fortgeführt werden.",
+   "fazitParagraphId": "6.0-p10",
+   "abschnitte": ["4.2.3", "4.2.2", "5.4", "2.3.5"],
+   "fristen": ["31. Dezember 2028", "26. März 2029", "26. März 2031"]
+  },
+  {
+   "id": "f13",
+   "label": "Rechtsprojekt statt Technikprojekt",
+   "typ": "ausblick",
+   "beschreibung": "Schlussthese: ELGA ist eine solide Grundlage; die EHDS-Herausforderung liegt in der rechtlichen Anpassung bestehender Normen und der gezielten Erweiterung der vorhandenen Infrastruktur — nicht im Aufbau neuer technischer Kapazitäten.",
+   "fazitParagraphId": "6.0-p11",
+   "abschnitte": ["5.1", "4.6", "5.4.2"],
+   "fristen": []
+  }
+ ],
+ "rahmen": ["6.0-p1"],
+ "kapitelFluss": [
+  {"from": "1", "to": "2", "label": "Forschungsfrage → EU-Maßstab"},
+  {"from": "2", "to": "5", "label": "Anforderungskatalog"},
+  {"from": "3", "to": "5", "label": "technische Referenz"},
+  {"from": "4", "to": "5", "label": "nationaler Rechtsrahmen"},
+  {"from": "2", "to": "4", "label": "EHDS-Pflichten fürs nationale Recht"},
+  {"from": "3", "to": "4", "label": "Technikbegriffe fürs Recht"},
+  {"from": "5", "to": "6", "label": "empirische Befunde"},
+  {"from": "4", "to": "6", "label": "rechtliche Lücken"}
+ ]
+}

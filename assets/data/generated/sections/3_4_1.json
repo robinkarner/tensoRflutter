@@ -1,0 +1,150 @@
+{
+ "sectionId": "3.4.1",
+ "paragraphs": [
+  {
+   "id": "3.4.1-p1",
+   "type": "text",
+   "kernaussage": "MyHealth@EU ging aus der ursprünglich freiwilligen eHDSI mit den Kerndiensten ePrescription/eDispensation und Patient Summary hervor, die bis 2022 erst von wenigen Ländern und überwiegend zu Testzwecken genutzt wurde.",
+   "sentences": [
+    {
+     "text": "MyHealth@EU ist aus der eHealth Digital Service Infrastructure (eHDSI) hervorgegangen, einer Infrastruktur zur Sicherstellung der Versorgungskontinuität für europäische Bürgerinnen und Bürger während Auslandsaufenthalten innerhalb der EU.[^171]",
+     "einfach": "Der Vorläufer von MyHealth@EU war die eHDSI (eHealth Digital Service Infrastructure). Ihr Ziel: EU-Bürgerinnen und -Bürger sollen auch bei Aufenthalten in anderen EU-Ländern medizinisch ohne Unterbrechung weiterversorgt werden können ('Versorgungskontinuität').",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "MyHealth@EU", "kategorie": "tech" },
+      { "snippet": "eHealth Digital Service Infrastructure (eHDSI)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Infrastruktur war ursprünglich freiwillig angelegt und gab den Mitgliedstaaten erstmals die Möglichkeit, natürlichen Personen die Weitergabe ihrer personenbezogenen elektronischen Gesundheitsdaten während Auslandsaufenthalten an Gesundheitsdienstleister zu ermöglichen.[^172]",
+     "einfach": "Die Teilnahme an der eHDSI war anfangs freiwillig. Mitgliedstaaten konnten es ihren Bürgerinnen und Bürgern damit erstmals ermöglichen, ihre elektronischen Gesundheitsdaten bei Auslandsaufenthalten an Ärztinnen, Apotheken und andere Gesundheitsdienstleister weiterzugeben.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" },
+      { "snippet": "Gesundheitsdienstleister", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Sie umfasst die Kerndienste elektronische Verschreibung und Abgabe (ePrescription und eDispensation), bei der nationale elektronische Verschreibungssysteme miteinander verknüpft werden, sowie die Patientenkurzakte (Patient Summary), die den grundlegenden Satz medizinischer Daten einer Person bereitstellt.[^173]",
+     "einfach": "Die eHDSI bietet zwei Kerndienste: ePrescription/eDispensation verknüpft die nationalen E-Rezept-Systeme, sodass elektronische Verschreibungen im Ausland eingelöst werden können; die Patientenkurzakte (Patient Summary) stellt die wichtigsten medizinischen Basisdaten einer Person bereit.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "ePrescription und eDispensation", "kategorie": "tech" },
+      { "snippet": "Patientenkurzakte (Patient Summary)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der im vierten Quartal 2019 gestartete Betrieb von eHDSI zeigte im Rahmen einer wissenschaftlichen Analyse der Nutzungsdaten, dass bis zum zweiten Quartal 2022 elf Länder über Fähigkeiten in mindestens einem dieser beiden Dienste verfügten und davon neun tatsächlich Transaktionen meldeten, wobei die Infrastruktur überwiegend noch zu Testzwecken genutzt wurde.[^174]",
+     "einfach": "Die eHDSI ist seit Ende 2019 in Betrieb. Eine wissenschaftliche Auswertung der Nutzungsdaten zeigte: Bis Mitte 2022 konnten erst elf Länder mindestens einen der beiden Dienste technisch anbieten, nur neun davon meldeten tatsächlich Transaktionen - und die Nutzung war überwiegend noch Testbetrieb.",
+     "kategorien": ["frist", "zahl", "tech"],
+     "marks": [
+      { "snippet": "im vierten Quartal 2019", "kategorie": "frist" },
+      { "snippet": "eHDSI", "kategorie": "tech" },
+      { "snippet": "bis zum zweiten Quartal 2022", "kategorie": "frist" },
+      { "snippet": "elf Länder", "kategorie": "zahl" },
+      { "snippet": "neun", "kategorie": "zahl" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 171,
+     "quellen": ["ek-crossborder2026"],
+     "claim": "MyHealth@EU ist aus der eHDSI hervorgegangen, die die Versorgungskontinuität für EU-Bürger bei Auslandsaufenthalten sicherstellen sollte.",
+     "fundstelle": "",
+     "suchHinweis": "eHDSI Versorgungskontinuität grenzüberschreitende Gesundheitsdienste"
+    },
+    {
+     "num": 172,
+     "quellen": ["ehds-vo"],
+     "claim": "Die eHDSI war ursprünglich freiwillig und ermöglichte den Mitgliedstaaten erstmals, die grenzüberschreitende Weitergabe personenbezogener elektronischer Gesundheitsdaten an Gesundheitsdienstleister anzubieten.",
+     "fundstelle": "ErwGr 33",
+     "suchHinweis": "Erwägungsgrund 33 MyHealth@EU freiwillig Weitergabe"
+    },
+    {
+     "num": 173,
+     "quellen": ["bruthans2023"],
+     "claim": "Die eHDSI umfasst die Kerndienste ePrescription/eDispensation (Verknüpfung nationaler Verschreibungssysteme) und Patient Summary (grundlegender medizinischer Datensatz).",
+     "fundstelle": "S. 3",
+     "suchHinweis": "ePrescription eDispensation patient summary core services"
+    },
+    {
+     "num": 174,
+     "quellen": ["bruthans2023"],
+     "claim": "Seit dem Start im Q4 2019 verfügten bis Q2 2022 elf Länder über Fähigkeiten in mindestens einem der beiden Dienste, neun meldeten Transaktionen, überwiegend zu Testzwecken.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "eleven countries nine transactions testing 2022"
+    }
+   ]
+  },
+  {
+   "id": "3.4.1-p2",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung macht die Teilnahme an MyHealth@EU verpflichtend: Eine zentrale Interoperabilitätsplattform der Kommission unterstützt den Austausch, und jeder Mitgliedstaat muss bis 26. März 2027 eine nationale Kontaktstelle (NCPeH) benennen.",
+   "sentences": [
+    {
+     "text": "Mit der EHDS-Verordnung wurde die Teilnahme von einer freiwilligen Option zu einer rechtlichen Verpflichtung für die Mitgliedstaaten, die mit MyHealth@EU auch auf den Erfahrungen von eHDSI aufbaute.[^175]",
+     "einfach": "Mit der EHDS-Verordnung wurde aus der freiwilligen Teilnahme eine Rechtspflicht für alle EU-Mitgliedstaaten. MyHealth@EU baut dabei auf den Erfahrungen auf, die mit der Vorgänger-Infrastruktur eHDSI gesammelt wurden.",
+     "kategorien": ["norm", "akteur", "tech"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" },
+      { "snippet": "eHDSI", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die zentrale Interoperabilitätsplattform für digitale Gesundheit der Kommission soll den Austausch personenbezogener elektronischer Gesundheitsdaten zwischen den nationalen Kontaktstellen für digitale Gesundheit in den Mitgliedstaaten unterstützen und erleichtern.[^176]",
+     "einfach": "Die Europäische Kommission betreibt eine zentrale Interoperabilitätsplattform (eine gemeinsame technische Vermittlungsstelle). Sie soll den Austausch elektronischer Gesundheitsdaten zwischen den nationalen Kontaktstellen der einzelnen Länder unterstützen und erleichtern.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "zentrale Interoperabilitätsplattform für digitale Gesundheit", "kategorie": "tech" },
+      { "snippet": "Kommission", "kategorie": "akteur" },
+      { "snippet": "nationalen Kontaktstellen für digitale Gesundheit", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "In weiterer Folge hat jeder Mitgliedstaat bis zum 26. März 2027 eine nationale Kontaktstelle für digitale Gesundheit (NCPeH) als organisatorische und technische Zugangsstelle zu benennen, die mit allen anderen nationalen Kontaktstellen und der zentralen Plattform verbunden sein muss.[^177]",
+     "einfach": "Jedes EU-Land muss bis zum 26. März 2027 eine nationale Kontaktstelle für digitale Gesundheit (NCPeH, National Contact Point for eHealth) benennen. Sie ist die organisatorische und technische Andockstelle des Landes und muss mit allen anderen Kontaktstellen sowie der zentralen Plattform verbunden sein.",
+     "kategorien": ["frist", "akteur", "tech"],
+     "marks": [
+      { "snippet": "Mitgliedstaat", "kategorie": "akteur" },
+      { "snippet": "bis zum 26. März 2027", "kategorie": "frist" },
+      { "snippet": "nationale Kontaktstelle für digitale Gesundheit (NCPeH)", "kategorie": "akteur" },
+      { "snippet": "zentralen Plattform", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 175,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung machte die Teilnahme an MyHealth@EU von einer freiwilligen Option zu einer rechtlichen Verpflichtung und baut auf den Erfahrungen der eHDSI auf.",
+     "fundstelle": "ErwGr 33",
+     "suchHinweis": "Erwägungsgrund 33 verbindlich Erfahrungen MyHealth@EU"
+    },
+    {
+     "num": 176,
+     "quellen": ["ehds-vo"],
+     "claim": "Die zentrale Interoperabilitätsplattform der Kommission soll den Austausch personenbezogener elektronischer Gesundheitsdaten zwischen den nationalen Kontaktstellen unterstützen und erleichtern.",
+     "fundstelle": "Art 23 Abs 1",
+     "suchHinweis": "Artikel 23 zentrale Interoperabilitätsplattform Kontaktstellen"
+    },
+    {
+     "num": 177,
+     "quellen": ["ehds-vo"],
+     "claim": "Jeder Mitgliedstaat muss bis zum 26. März 2027 eine NCPeH benennen, die mit allen anderen nationalen Kontaktstellen und der zentralen Plattform verbunden sein muss.",
+     "fundstelle": "Art 23 Abs 2",
+     "suchHinweis": "Artikel 23 Absatz 2 nationale Kontaktstelle benennen 2027"
+    }
+   ]
+  }
+ ]
+}

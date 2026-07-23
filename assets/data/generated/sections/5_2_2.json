@@ -1,0 +1,252 @@
+{
+ "sectionId": "5.2.2",
+ "paragraphs": [
+  {
+   "id": "5.2.2-p1",
+   "type": "text",
+   "kernaussage": "Ein Befund gelangt aus dem EHR-System als CDA-Dokument über standardisierte Schnittstellen und das GIN in den zuständigen ELGA-Bereich, wo er dezentral gespeichert und über das Verweisregister für berechtigte Gesundheitsdiensteanbieter abrufbar gemacht wird.",
+   "sentences": [
+    {
+     "text": "Der typische Datenfluss eines Befundes von einem EHR-System in ELGA erfolgt vereinfacht nach folgendem Schema.",
+     "einfach": "Der Weg, den ein medizinischer Befund von der Software einer Arztpraxis oder eines Krankenhauses (EHR-System, Electronic Health Record) in die österreichische elektronische Gesundheitsakte ELGA nimmt, lässt sich als vereinfachter Ablauf beschreiben.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "EHR-System", "kategorie": "tech" },
+      { "snippet": "ELGA", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Das EHR-System erzeugt aus der Dokumentation ein CDA-Dokument nach dem einschlägigen Implementierungsleitfaden und übergibt es - unmittelbar über standardisierte IHE-Schnittstellen oder über den ELGA-Adapter und den ELGA-Proxy - über das GIN an den zuständigen ELGA-Bereich.",
+     "einfach": "Die Software erstellt aus der Behandlungsdokumentation ein Dokument im Format CDA (Clinical Document Architecture, ein HL7-Standard für medizinische Dokumente) nach dem passenden Leitfaden und schickt es über das geschützte Gesundheitsnetz GIN (Gesundheits-Informations-Netz) an den zuständigen ELGA-Bereich - entweder direkt über genormte IHE-Schnittstellen (Integrating the Healthcare Enterprise) oder über die vorgeschalteten Komponenten ELGA-Adapter und ELGA-Proxy.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "CDA-Dokument", "kategorie": "tech" },
+      { "snippet": "IHE-Schnittstellen", "kategorie": "tech" },
+      { "snippet": "ELGA-Adapter", "kategorie": "tech" },
+      { "snippet": "ELGA-Proxy", "kategorie": "tech" },
+      { "snippet": "GIN", "kategorie": "tech" },
+      { "snippet": "ELGA-Bereich", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Dort legt es das Dokument als Document Source dezentral im lokalen Datenspeicher ab und lässt die zugehörigen Metadaten im lokalen Verweisregister registrieren, womit der Befund für alle berechtigten Gesundheitsdiensteanbieter über ELGA abrufbar wird.[^314]",
+     "einfach": "Im ELGA-Bereich wird das Dokument dezentral im lokalen Datenspeicher abgelegt - das einliefernde System agiert dabei in der IHE-Rolle 'Document Source' (Dokumentenquelle) - und die Metadaten (beschreibende Angaben wie Dokumenttyp und Datum) werden in ein lokales Verzeichnis, das Verweisregister, eingetragen. Ab diesem Zeitpunkt können alle zugriffsberechtigten Gesundheitsdiensteanbieter (z. B. Ärztinnen und Ärzte oder Krankenhäuser) den Befund über ELGA finden und abrufen.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "Document Source", "kategorie": "tech" },
+      { "snippet": "Verweisregister", "kategorie": "tech" },
+      { "snippet": "Gesundheitsdiensteanbieter", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 314,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Belegt den beschriebenen Ablauf der dezentralen Dokumentenspeicherung als Document Source und der Registrierung der Metadaten im lokalen Verweisregister.",
+     "fundstelle": "S. 87",
+     "suchHinweis": "Document Source Verweisregister Metadaten Registrierung"
+    }
+   ]
+  },
+  {
+   "id": "5.2.2-p2",
+   "type": "text",
+   "kernaussage": "Auch das Einstellen eines Dokuments wird wie ein Lesezugriff protokolliert und im aggregierten Audit Record Repository zusammengeführt.",
+   "sentences": [
+    {
+     "text": "Dieser Vorgang wird genauso wie ein lesender Zugriff eines Gesundheitsdiensteanbieters auf ELGA-Gesundheitsdaten protokolliert und im aggregierten Audit Record Repository zusammengeführt.[^315]",
+     "einfach": "Auch das Speichern eines Dokuments wird - genauso wie das Lesen von Daten durch einen Gesundheitsdiensteanbieter - in Protokolldateien festgehalten; diese Protokolle laufen in einem zentralen Sammelspeicher, dem aggregierten Audit Record Repository, zusammen.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "Gesundheitsdiensteanbieters", "kategorie": "akteur" },
+      { "snippet": "aggregierten Audit Record Repository", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 315,
+     "quellen": ["elga-gesamtarchitektur2017", "gtelg2012"],
+     "claim": "Belegt, dass schreibende Vorgänge ebenso wie lesende Zugriffe protokolliert und im aggregierten Audit Record Repository zusammengeführt werden.",
+     "fundstelle": "§ 22 Abs 2; S. 50",
+     "suchHinweis": "Protokollierung aggregiertes Audit Record Repository"
+    }
+   ]
+  },
+  {
+   "id": "5.2.2-p3",
+   "type": "text",
+   "kernaussage": "Niedergelassene Ärztinnen und Ärzte können ELGA zwar österreichweit lesen, für das Speichern eigener Befunde brauchen sie aber einen Read-Write-Zugang zu einem ELGA-Bereich - ein eigener Bereich für sie fehlte zum Zeitpunkt der Rechnungshofprüfung.",
+   "sentences": [
+    {
+     "text": "Der Ablauf setzt allerdings voraus, dass der Gesundheitsdiensteanbieter über einen Bereich verfügt, dessen Datenspeicher und Verweisregister seine Dokumente aufnehmen.",
+     "einfach": "Damit dieser Ablauf funktioniert, muss der Gesundheitsdiensteanbieter einem ELGA-Bereich zugeordnet sein, dessen Datenspeicher und Verweisregister seine Dokumente aufnehmen können.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Gesundheitsdiensteanbieter", "kategorie": "akteur" },
+      { "snippet": "Datenspeicher und Verweisregister", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Hier greift für den niedergelassenen Bereich eine Einschränkung.",
+     "einfach": "Für niedergelassene Ärztinnen und Ärzte (also Praxen außerhalb von Krankenhäusern) gibt es an dieser Stelle eine Einschränkung.",
+     "kategorien": ["luecke", "akteur"],
+     "marks": [
+      { "snippet": "niedergelassenen Bereich", "kategorie": "akteur" },
+      { "snippet": "Einschränkung", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der lesende Zugriff nach Abschnitt 5.1.3 steht über das e-card-System allen Anbietern österreichweit offen, da er keine Zuordnung zu einem eigenen Bereich erfordert.",
+     "einfach": "Lesen dürfen alle Anbieter in ganz Österreich über das e-card-System (das Chipkarten-System der Sozialversicherung), weil dafür keine Zugehörigkeit zu einem eigenen ELGA-Bereich nötig ist.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "e-card-System", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Das Schreiben - die Speicherung eigener Befunde - setzt hingegen einen Read-Write-Zugang zu einem ELGA-Bereich voraus, den niedergelassene Ärztinnen und Ärzte entweder vertraglich bei einem zugelassenen Bereichsprovider oder über den zentralen Vermittlungsdienst des Dachverbands herstellen müssen.[^316]",
+     "einfach": "Wer eigene Befunde in ELGA speichern will, braucht dagegen einen Schreibzugang (Read-Write) zu einem ELGA-Bereich; niedergelassene Ärztinnen und Ärzte müssen diesen entweder per Vertrag mit einem zugelassenen Bereichsprovider (dem Betreiber eines ELGA-Bereichs) oder über den zentralen Vermittlungsdienst des Dachverbands der Sozialversicherungsträger herstellen.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "Read-Write-Zugang", "kategorie": "tech" },
+      { "snippet": "niedergelassene Ärztinnen und Ärzte", "kategorie": "akteur" },
+      { "snippet": "Bereichsprovider", "kategorie": "akteur" },
+      { "snippet": "zentralen Vermittlungsdienst", "kategorie": "tech" },
+      { "snippet": "Dachverbands", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Ein eigener ELGA-Bereich war für sie zum Zeitpunkt der Rechnungshofprüfung noch nicht eingerichtet.",
+     "einfach": "Als der Rechnungshof (die staatliche Prüfbehörde) ELGA prüfte, existierte noch kein eigener ELGA-Bereich für niedergelassene Ärztinnen und Ärzte.",
+     "kategorien": ["akteur", "luecke", "tech"],
+     "marks": [
+      { "snippet": "ELGA-Bereich", "kategorie": "tech" },
+      { "snippet": "Rechnungshofprüfung", "kategorie": "akteur" },
+      { "snippet": "noch nicht eingerichtet", "kategorie": "luecke" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Ein kostenfreier Grundversorgungsbereich wurde zwar erwogen, aber nicht umgesetzt.[^317]",
+     "einfach": "Die Idee eines kostenlosen 'Grundversorgungsbereichs' - eines für Ärztinnen und Ärzte gratis nutzbaren ELGA-Bereichs - wurde zwar diskutiert, aber nie verwirklicht.",
+     "kategorien": ["luecke"],
+     "marks": [
+      { "snippet": "nicht umgesetzt", "kategorie": "luecke" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 316,
+     "quellen": ["rh-elga2024", "elga-gesamtarchitektur2017"],
+     "claim": "Belegt, dass die Speicherung eigener Befunde einen Read-Write-Zugang zu einem ELGA-Bereich erfordert, den Niedergelassene über einen Bereichsprovider oder den Vermittlungsdienst des Dachverbands herstellen müssen.",
+     "fundstelle": "S. 57; S. 51",
+     "suchHinweis": "Read-Write Bereichsprovider Vermittlungsdienst Dachverband"
+    },
+    {
+     "num": 317,
+     "quellen": ["rh-elga2024"],
+     "claim": "Belegt, dass ein eigener ELGA-Bereich für Niedergelassene noch nicht eingerichtet war und ein kostenfreier Grundversorgungsbereich erwogen, aber nicht umgesetzt wurde.",
+     "fundstelle": "S. 50f",
+     "suchHinweis": "Grundversorgungsbereich niedergelassene Ärzte kostenfrei"
+    }
+   ]
+  },
+  {
+   "id": "5.2.2-p4",
+   "type": "text",
+   "kernaussage": "Seit 1. Juli 2025 schließt eine gestufte Speicherverpflichtung in der geänderten ELGA-VO 2015 diese Lücke: Zuerst müssen Labordiagnostik und Radiologie ihre Befunde in ELGA speichern, bis 2030 folgen die übrigen Fachgebiete.",
+   "sentences": [
+    {
+     "text": "Diese Lücke wird seit dem Jahr 2025 regulatorisch geschlossen.",
+     "einfach": "Diese fehlende Speichermöglichkeit für den niedergelassenen Bereich wird seit 2025 durch neue Rechtsvorschriften behoben.",
+     "kategorien": ["frist", "luecke"],
+     "marks": [
+      { "snippet": "Lücke", "kategorie": "luecke" },
+      { "snippet": "seit dem Jahr 2025", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Mit der Änderung der ELGA-VO 2015 gilt seit 1. Juli 2025 eine gestufte Speicherverpflichtung, die zunächst freiberufliche Fachärztinnen und Fachärzte der Labordiagnostik und der Radiologie zur Speicherung von Labor- bzw. Radiologiebefunden in ELGA verpflichtet und bis zum Jahr 2030 schrittweise auch die übrigen Fachgebiete.[^318]",
+     "einfach": "Eine Novelle der ELGA-Verordnung 2015 (die Verordnung, die den ELGA-Betrieb im Detail regelt) führt seit dem 1. Juli 2025 eine stufenweise Speicherpflicht ein: Zuerst müssen freiberufliche Fachärztinnen und Fachärzte für Labordiagnostik und Radiologie ihre Labor- und Röntgenbefunde in ELGA speichern; bis 2030 werden schrittweise auch alle übrigen medizinischen Fachrichtungen verpflichtet.",
+     "kategorien": ["norm", "frist", "akteur"],
+     "marks": [
+      { "snippet": "ELGA-VO 2015", "kategorie": "norm" },
+      { "snippet": "1. Juli 2025", "kategorie": "frist" },
+      { "snippet": "Fachärztinnen und Fachärzte der Labordiagnostik und der Radiologie", "kategorie": "akteur" },
+      { "snippet": "bis zum Jahr 2030", "kategorie": "frist" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 318,
+     "quellen": ["elga-vo2015"],
+     "claim": "Belegt die gestufte Speicherverpflichtung ab 1. Juli 2025, beginnend mit Labordiagnostik und Radiologie und schrittweiser Ausweitung bis 2030.",
+     "fundstelle": "§§ 5 bis 9",
+     "suchHinweis": "Speicherverpflichtung Labordiagnostik Radiologie Befunde"
+    }
+   ]
+  },
+  {
+   "id": "5.2.2-p5",
+   "type": "text",
+   "kernaussage": "Für die EHDS-Verordnung sind bei diesem Datenfluss die EHR-Systeme maßgeblich: Sie müssen künftig harmonisierte Softwarekomponenten umsetzen und eine CE-Kennzeichnung auf Basis der Hersteller-Selbstbewertung tragen, überwacht durch die noch einzurichtende Marktüberwachungsbehörde.",
+   "sentences": [
+    {
+     "text": "Für die EHDS-Verordnung sind bei diesem Datenfluss die EHR-Systeme selbst maßgeblich.",
+     "einfach": "Aus Sicht der EU-Verordnung zum Europäischen Gesundheitsdatenraum (EHDS-Verordnung, VO (EU) 2025/327) kommt es bei diesem Ablauf vor allem auf die EHR-Systeme selbst an, also auf die Software der Gesundheitsdiensteanbieter.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "EHR-Systeme", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie müssen künftig die harmonisierten Softwarekomponenten umsetzen und die CE-Kennzeichnung auf Basis der Selbstbewertung des Herstellers tragen.",
+     "einfach": "Diese Systeme müssen in Zukunft die EU-weit vereinheitlichten (harmonisierten) Softwarekomponenten enthalten und eine CE-Kennzeichnung tragen; die Konformität bewertet der Hersteller dabei selbst, statt eine externe Prüfstelle einzuschalten.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "harmonisierten Softwarekomponenten", "kategorie": "tech" },
+      { "snippet": "CE-Kennzeichnung", "kategorie": "tech" },
+      { "snippet": "Herstellers", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Einhaltung überwacht die noch einzurichtende Marktüberwachungsbehörde (siehe Abschnitt 4.3).[^319]",
+     "einfach": "Ob die Hersteller diese Regeln einhalten, kontrolliert eine Marktüberwachungsbehörde, die Österreich allerdings erst noch schaffen muss.",
+     "kategorien": ["akteur", "luecke"],
+     "marks": [
+      { "snippet": "noch einzurichtende", "kategorie": "luecke" },
+      { "snippet": "Marktüberwachungsbehörde", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 319,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt die Pflichten der EHR-Systeme zu harmonisierten Softwarekomponenten, Selbstbewertung des Herstellers, CE-Kennzeichnung und Marktüberwachung nach der EHDS-Verordnung.",
+     "fundstelle": "Art 25 Abs 1, Art 39 Abs 1, Art 41 Abs 1, Art 43 Abs 2",
+     "suchHinweis": "harmonised software components CE marking market surveillance"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "sectionId": "3.2.2.2",
+ "paragraphs": [
+  {
+   "id": "3.2.2.2-p1",
+   "type": "text",
+   "kernaussage": "HL7 FHIR ist ein moderner, frei verfügbarer Interoperabilitätsstandard, der Inhalte im Unterschied zu CDA in einzelne Ressourcen zerlegt und so granularen Datenzugriff statt der Übertragung ganzer Dokumente ermöglicht.",
+   "sentences": [
+    {
+     "text": "HL7 FHIR (Fast Healthcare Interoperability Resources) wurde 2011 ebenfalls von Health Level Seven International eingeführt.",
+     "einfach": "FHIR ('Fast Healthcare Interoperability Resources') ist ein Standard für den Austausch von Gesundheitsdaten. Er stammt von derselben Standardisierungsorganisation wie die älteren HL7-Standards, nämlich Health Level Seven International, und existiert seit 2011.",
+     "kategorien": ["tech", "frist", "akteur"],
+     "marks": [
+      { "snippet": "HL7 FHIR (Fast Healthcare Interoperability Resources)", "kategorie": "tech" },
+      { "snippet": "2011", "kategorie": "frist" },
+      { "snippet": "Health Level Seven International", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der Standard ist frei verfügbar und unterstützt REST, SOA, JAVA, .NET sowie XML.",
+     "einfach": "FHIR kostet keine Lizenzgebühren und lässt sich mit gängigen Web- und Programmiertechnologien nutzen: REST-Schnittstellen, serviceorientierten Architekturen (SOA), den Programmierplattformen Java und .NET sowie dem Datenformat XML.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "REST, SOA, JAVA, .NET sowie XML", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die österreichische FHIR-Community ist im Technischen Komitee FHIR der HL7 Austria organisiert, welche die nationale Anpassung des Standards begleitet.[^125]",
+     "einfach": "In Österreich kümmert sich ein eigenes Fachgremium, das Technische Komitee FHIR des Vereins HL7 Austria, darum, den internationalen FHIR-Standard an österreichische Gegebenheiten anzupassen.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Technischen Komitee FHIR der HL7 Austria", "kategorie": "akteur" },
+      { "snippet": "FHIR-Community", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Es basiert auf den vorhergehenden HL7-Standards und kombiniert deren Vorteile mit etablierten modernen Webtechnologien wie der Representational State Transfer (REST)-Architektur, den Formaten XML und JSON sowie Autorisierungstools (Open Authorization).",
+     "einfach": "FHIR übernimmt Bewährtes aus den älteren HL7-Standards und verbindet es mit Techniken, die aus dem normalen Web bekannt sind: REST als Architekturstil für Schnittstellen, XML und JSON als Datenformate sowie OAuth ('Open Authorization') für die Zugriffsfreigabe.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "HL7-Standards", "kategorie": "tech" },
+      { "snippet": "Representational State Transfer (REST)-Architektur", "kategorie": "tech" },
+      { "snippet": "Formaten XML und JSON", "kategorie": "tech" },
+      { "snippet": "Autorisierungstools (Open Authorization)", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Der zentrale konzeptionelle Unterschied zu CDA liegt darin, dass in FHIR der gesamte auszutauschende Inhalt durch klar definierte Bausteine, sogenannte Resources, abgebildet wird.[^126]",
+     "einfach": "Anders als das dokumentorientierte Format CDA (Clinical Document Architecture) zerlegt FHIR alle Inhalte in kleine, genau definierte Bausteine, die 'Resources' heißen (z. B. eine Resource für einen Patienten oder einen Laborwert).",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "CDA", "kategorie": "tech" },
+      { "snippet": "FHIR", "kategorie": "tech" },
+      { "snippet": "Resources", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der ressourcenbasierte Ansatz ermöglicht damit den granularen Zugriff auf einzelne Datenelemente, anstatt stets ein vollständiges Dokument übertragen zu müssen.[^127]",
+     "einfach": "Weil die Daten in einzelne Ressourcen zerlegt sind, kann ein System gezielt nur die benötigte Information abrufen (etwa einen einzelnen Laborwert), statt immer ein komplettes Dokument herunterzuladen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "ressourcenbasierte Ansatz", "kategorie": "tech" },
+      { "snippet": "granularen Zugriff auf einzelne Datenelemente", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 125,
+     "quellen": ["hl7at-wiki2024"],
+     "claim": "Die österreichische FHIR-Community ist im Technischen Komitee FHIR der HL7 Austria organisiert und begleitet die nationale Anpassung des Standards.",
+     "fundstelle": "",
+     "suchHinweis": "FHIR Technisches Komitee HL7 Austria nationale Anpassung"
+    },
+    {
+     "num": 126,
+     "quellen": ["vorisek2022"],
+     "claim": "FHIR bildet im Unterschied zu CDA den gesamten auszutauschenden Inhalt durch klar definierte Resources ab und kombiniert HL7-Vorteile mit modernen Webtechnologien.",
+     "fundstelle": "S. 2",
+     "suchHinweis": "FHIR resources REST XML JSON building blocks"
+    },
+    {
+     "num": 127,
+     "quellen": ["ayaz2021"],
+     "claim": "Der ressourcenbasierte Ansatz von FHIR erlaubt granularen Zugriff auf einzelne Datenelemente statt der Übertragung vollständiger Dokumente.",
+     "fundstelle": "S. 2",
+     "suchHinweis": "granular access data elements resources document"
+    }
+   ]
+  },
+  {
+   "id": "3.2.2.2-p2",
+   "type": "text",
+   "kernaussage": "Das europäische Austauschformat EEHRxF soll auf FHIR aufbauen, und die Europäische Kommission muss seine technischen Spezifikationen bis zum 26. März 2027 per Durchführungsrechtsakt festlegen.",
+   "sentences": [
+    {
+     "text": "Diese Eigenschaften sind ein wesentlicher Grund dafür, dass das Austauschformat EEHRxF nach dem Stand der europäischen Spezifikationsarbeiten auf FHIR aufbauen soll.[^128]",
+     "einfach": "Wegen dieser Vorteile (Granularität, Webtechnologien) soll das im EHDS vorgesehene einheitliche europäische Austauschformat für elektronische Patientenakten (EEHRxF, 'European Electronic Health Record Exchange Format') nach aktuellem Stand der Spezifikationsarbeiten technisch auf FHIR basieren.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "EEHRxF", "kategorie": "tech" },
+      { "snippet": "FHIR", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Seine technischen Spezifikationen soll die Europäische Kommission bis zum 26. März 2027 mittels Durchführungsrechtsakten erlassen.[^129]",
+     "einfach": "Die Europäische Kommission muss bis zum 26. März 2027 in sogenannten Durchführungsrechtsakten (verbindliche EU-Umsetzungsvorschriften, die eine Verordnung konkretisieren) genau festlegen, wie das Austauschformat technisch aussehen soll.",
+     "kategorien": ["akteur", "frist", "norm"],
+     "marks": [
+      { "snippet": "Europäische Kommission", "kategorie": "akteur" },
+      { "snippet": "26. März 2027", "kategorie": "frist" },
+      { "snippet": "Durchführungsrechtsakten", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 128,
+     "quellen": ["hl7at-aps-umfeld2026"],
+     "claim": "Das Austauschformat EEHRxF soll nach dem Stand der europäischen Spezifikationsarbeiten auf FHIR aufbauen.",
+     "fundstelle": "Abschnitt Umfeld",
+     "suchHinweis": "Austrian Patient Summary EEHRxF FHIR Umfeld"
+    },
+    {
+     "num": 129,
+     "quellen": ["ehds-vo"],
+     "claim": "Die Europäische Kommission hat die technischen Spezifikationen des EEHRxF bis zum 26. März 2027 mittels Durchführungsrechtsakten zu erlassen.",
+     "fundstelle": "Art 15",
+     "suchHinweis": "Artikel 15 Durchführungsrechtsakte Austauschformat technische Spezifikationen"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,572 @@
+[
+ {
+  "text": "Elektronische Gesundheitsdaten zählen zu den sensibelsten personenbezogenen Daten unserer Gesellschaft. Ihre koordinierte und sichere Verfügbarkeit ist zugleich eine wesentliche Voraussetzung für eine qualitativ hochwertige, sektorenübergreifende Gesundheitsversorgung. Mit der Elektronischen Gesundheitsakte ELGA betreibt Österreich seit ihrer schrittweisen Einführung ab 2015 eine nationale Infrastruktur, die Gesundheitsdiensteanbieter sowie Patientinnen und Patienten über gemeinsame Komponenten für den Austausch medizinischer Dokumente verbindet, etwa für elektronische Befunde, die e-Medikation und den elektronischen Impfpass.",
+  "sents": [
+   {
+    "start": 0,
+    "end": 103,
+    "text": "Elektronische Gesundheitsdaten zählen zu den sensibelsten personenbezogenen Daten unserer Gesellschaft."
+   },
+   {
+    "start": 104,
+    "end": 269,
+    "text": "Ihre koordinierte und sichere Verfügbarkeit ist zugleich eine wesentliche Voraussetzung für eine qualitativ hochwertige, sektorenübergreifende Gesundheitsversorgung."
+   },
+   {
+    "start": 270,
+    "end": 634,
+    "text": "Mit der Elektronischen Gesundheitsakte ELGA betreibt Österreich seit ihrer schrittweisen Einführung ab 2015 eine nationale Infrastruktur, die Gesundheitsdiensteanbieter sowie Patientinnen und Patienten über gemeinsame Komponenten für den Austausch medizinischer Dokumente verbindet, etwa für elektronische Befunde, die e-Medikation und den elektronischen Impfpass."
+   }
+  ]
+ },
+ {
+  "text": "Kapitel 4 untersucht den rechtlichen Rahmen in Österreich. Analysiert werden das Gesundheitstelematikgesetz 2012 und die ELGA-Verordnung 2015 sowie die Marktüberwachung von EHR-Systemen. Weitere Schwerpunkte bilden die Harmonisierung der Opt-Out-Regelungen, die grenzüberschreitende Anbindung über den National Contact Point for eHealth sowie der nationale Stufenplan im Verhältnis zu den EHDS-Umsetzungsfristen.",
+  "sents": [
+   {
+    "start": 0,
+    "end": 58,
+    "text": "Kapitel 4 untersucht den rechtlichen Rahmen in Österreich."
+   },
+   {
+    "start": 59,
+    "end": 186,
+    "text": "Analysiert werden das Gesundheitstelematikgesetz 2012 und die ELGA-Verordnung 2015 sowie die Marktüberwachung von EHR-Systemen."
+   },
+   {
+    "start": 187,
+    "end": 412,
+    "text": "Weitere Schwerpunkte bilden die Harmonisierung der Opt-Out-Regelungen, die grenzüberschreitende Anbindung über den National Contact Point for eHealth sowie der nationale Stufenplan im Verhältnis zu den EHDS-Umsetzungsfristen."
+   }
+  ]
+ },
+ {
+  "text": "Durch die EHDS-Verordnung wurde der europäische Gesundheitsdatenraum mit gemeinsamen Vorschriften, Standards und Infrastrukturen geschaffen.[^11] Sie folgt damit den Vorläufern des EHDS wie der Richtlinie 2011/24/EU[^12] über die Ausübung der Patientenrechte in der grenzüberschreitenden Gesundheitsversorgung und der europäischen Datenstrategie der Kommission zur Verknüpfung der verschiedenen gemeinsamen europäischen Datenräume.[^13]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 145,
+    "text": "Durch die EHDS-Verordnung wurde der europäische Gesundheitsdatenraum mit gemeinsamen Vorschriften, Standards und Infrastrukturen geschaffen.[^11]"
+   },
+   {
+    "start": 146,
+    "end": 436,
+    "text": "Sie folgt damit den Vorläufern des EHDS wie der Richtlinie 2011/24/EU[^12] über die Ausübung der Patientenrechte in der grenzüberschreitenden Gesundheitsversorgung und der europäischen Datenstrategie der Kommission zur Verknüpfung der verschiedenen gemeinsamen europäischen Datenräume.[^13]"
+   }
+  ]
+ },
+ {
+  "text": "Inhaltlich bedeutet dies, dass Gesundheitsdaten in elektronischer Form zwischen den Mitgliedstaaten interoperabel verfügbar sein müssen.[^21] Statt des klassischen Auskunftsrechts einer betroffenen Person auf Verlangen nach der DSGVO entsteht im EHDS ein dauerhafter, technisch ermöglichter Zugang.[^22]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 141,
+    "text": "Inhaltlich bedeutet dies, dass Gesundheitsdaten in elektronischer Form zwischen den Mitgliedstaaten interoperabel verfügbar sein müssen.[^21]"
+   },
+   {
+    "start": 142,
+    "end": 303,
+    "text": "Statt des klassischen Auskunftsrechts einer betroffenen Person auf Verlangen nach der DSGVO entsteht im EHDS ein dauerhafter, technisch ermöglichter Zugang.[^22]"
+   }
+  ]
+ },
+ {
+  "text": "Die Datenverordnung über harmonisierte Vorschriften für einen fairen Datenzugang und eine faire Datennutzung und die EHDS-Verordnung bilden zwei sich ergänzende, aber systematisch unterschiedlich ausgerichtete Grundlagen des europäischen Datenwirtschaftsrechts.",
+  "sents": [
+   {
+    "start": 0,
+    "end": 261,
+    "text": "Die Datenverordnung über harmonisierte Vorschriften für einen fairen Datenzugang und eine faire Datennutzung und die EHDS-Verordnung bilden zwei sich ergänzende, aber systematisch unterschiedlich ausgerichtete Grundlagen des europäischen Datenwirtschaftsrechts."
+   }
+  ]
+ },
+ {
+  "text": "Die EHDS-Verordnung strukturiert die Verarbeitung elektronischer Gesundheitsdaten anhand der zentralen Abgrenzung zwischen Primär- und Sekundärnutzung,[^44] und legt gemeinsame Vorschriften und Mechanismen für beide Nutzungsformen fest.[^45] Diese Zweiteilung bildet auch den konzeptionellen Aufbau der Verordnung und bestimmt maßgeblich, welche Rechte, Pflichten und Governance-Strukturen im jeweiligen Kontext zur Anwendung kommen. Während Kapitel II und III der Verordnung der Primärnutzung gewidmet sind, regelt Kapitel IV ausführlich die Sekundärnutzung.",
+  "sents": [
+   {
+    "start": 0,
+    "end": 241,
+    "text": "Die EHDS-Verordnung strukturiert die Verarbeitung elektronischer Gesundheitsdaten anhand der zentralen Abgrenzung zwischen Primär- und Sekundärnutzung,[^44] und legt gemeinsame Vorschriften und Mechanismen für beide Nutzungsformen fest.[^45]"
+   },
+   {
+    "start": 242,
+    "end": 433,
+    "text": "Diese Zweiteilung bildet auch den konzeptionellen Aufbau der Verordnung und bestimmt maßgeblich, welche Rechte, Pflichten und Governance-Strukturen im jeweiligen Kontext zur Anwendung kommen."
+   },
+   {
+    "start": 434,
+    "end": 559,
+    "text": "Während Kapitel II und III der Verordnung der Primärnutzung gewidmet sind, regelt Kapitel IV ausführlich die Sekundärnutzung."
+   }
+  ]
+ },
+ {
+  "text": "Auf Ebene des Datenschutzniveaus legt die Verordnung für die Sekundärnutzung personenbezogener elektronischer Gesundheitsdaten fest, dass diese grundsätzlich nur auf Basis pseudonymisierter oder anonymisierter Daten zulässig ist und dafür organisatorische Schutzmaßnahmen bei Zugangsstellen für Gesundheitsdaten sicherzustellen sind.[^60] Zugangsstellen dürfen dafür die Daten zunächst nur in anonymisiertem Format zur Verfügung stellen, wenn der Verarbeitungszweck damit erreicht werden kann.[^61] Der Zugang zu pseudonymisierten Daten ist nur zulässig, wenn der Gesundheitsdatennutzer hinreichend begründet, dass anonymisierte Daten nicht ausreichen. Die Informationen zur Rückgängigmachung der Pseudonymisierung verbleiben ausschließlich bei der Zugangsstelle oder einem vertrauenswürdigen Dritten und sind in nationalem Recht festzulegen.[^62]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 338,
+    "text": "Auf Ebene des Datenschutzniveaus legt die Verordnung für die Sekundärnutzung personenbezogener elektronischer Gesundheitsdaten fest, dass diese grundsätzlich nur auf Basis pseudonymisierter oder anonymisierter Daten zulässig ist und dafür organisatorische Schutzmaßnahmen bei Zugangsstellen für Gesundheitsdaten sicherzustellen sind.[^60]"
+   },
+   {
+    "start": 339,
+    "end": 498,
+    "text": "Zugangsstellen dürfen dafür die Daten zunächst nur in anonymisiertem Format zur Verfügung stellen, wenn der Verarbeitungszweck damit erreicht werden kann.[^61]"
+   },
+   {
+    "start": 499,
+    "end": 652,
+    "text": "Der Zugang zu pseudonymisierten Daten ist nur zulässig, wenn der Gesundheitsdatennutzer hinreichend begründet, dass anonymisierte Daten nicht ausreichen."
+   },
+   {
+    "start": 653,
+    "end": 847,
+    "text": "Die Informationen zur Rückgängigmachung der Pseudonymisierung verbleiben ausschließlich bei der Zugangsstelle oder einem vertrauenswürdigen Dritten und sind in nationalem Recht festzulegen.[^62]"
+   }
+  ]
+ },
+ {
+  "text": "Die EHDS-Verordnung definiert sechs prioritäre Kategorien personenbezogener elektronischer Gesundheitsdaten für die Primärnutzung:[^70]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 135,
+    "text": "Die EHDS-Verordnung definiert sechs prioritäre Kategorien personenbezogener elektronischer Gesundheitsdaten für die Primärnutzung:[^70]"
+   }
+  ]
+ },
+ {
+  "text": "Neben der Marktüberwachungsbehörde, die für die Überwachung der Produktsicherheit und Rechtskonformität verantwortlich ist, hat jeder Mitgliedstaat auch eine nationale Kontaktstelle für digitale Gesundheit als organisatorische und technische Zugangsstelle zu benennen, die für den grenzüberschreitenden Austausch personenbezogener elektronischer Gesundheitsdaten mit allen anderen nationalen Kontaktstellen für digitale Gesundheit verbunden sein muss.[^86] Die Kommission richtet dafür die zentrale Interoperabilitätsplattform MyHealth@EU ein, die durch ihre Dienste den Austausch personenbezogener elektronischer Gesundheitsdaten zwischen den nationalen Kontaktstellen für digitale Gesundheit der Mitgliedstaaten unterstützt und erleichtert.[^87]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 456,
+    "text": "Neben der Marktüberwachungsbehörde, die für die Überwachung der Produktsicherheit und Rechtskonformität verantwortlich ist, hat jeder Mitgliedstaat auch eine nationale Kontaktstelle für digitale Gesundheit als organisatorische und technische Zugangsstelle zu benennen, die für den grenzüberschreitenden Austausch personenbezogener elektronischer Gesundheitsdaten mit allen anderen nationalen Kontaktstellen für digitale Gesundheit verbunden sein muss.[^86]"
+   },
+   {
+    "start": 457,
+    "end": 747,
+    "text": "Die Kommission richtet dafür die zentrale Interoperabilitätsplattform MyHealth@EU ein, die durch ihre Dienste den Austausch personenbezogener elektronischer Gesundheitsdaten zwischen den nationalen Kontaktstellen für digitale Gesundheit der Mitgliedstaaten unterstützt und erleichtert.[^87]"
+   }
+  ]
+ },
+ {
+  "text": "Im zentralen Modell werden alle elektronischen Gesundheitsdaten in einer einzigen nationalen Datenbank - einem zentralen EHR-Datenrepository - gespeichert. Dokumente werden vom erstellenden Gesundheitsdiensteanbieter direkt in das zentrale System hochgeladen, wo sie jeder berechtigte Behandler abrufen kann.[^97] Das Modell bietet den Vorteil vollständiger Datenverfügbarkeit und erleichtert die einrichtungsübergreifende Auswertung, da alle Daten an einem Ort vorliegen und einheitlich formatiert sind.[^98]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 155,
+    "text": "Im zentralen Modell werden alle elektronischen Gesundheitsdaten in einer einzigen nationalen Datenbank - einem zentralen EHR-Datenrepository - gespeichert."
+   },
+   {
+    "start": 156,
+    "end": 313,
+    "text": "Dokumente werden vom erstellenden Gesundheitsdiensteanbieter direkt in das zentrale System hochgeladen, wo sie jeder berechtigte Behandler abrufen kann.[^97]"
+   },
+   {
+    "start": 314,
+    "end": 509,
+    "text": "Das Modell bietet den Vorteil vollständiger Datenverfügbarkeit und erleichtert die einrichtungsübergreifende Auswertung, da alle Daten an einem Ort vorliegen und einheitlich formatiert sind.[^98]"
+   }
+  ]
+ },
+ {
+  "text": "Interoperabilität bezeichnet im Kontext elektronischer Gesundheitssysteme die Fähigkeit unterschiedlicher informationstechnischer Systeme, Daten auszutauschen und diese korrekt zu interpretieren und zu verwenden.[^114] Das European Interoperability Framework (EIF) der Europäischen Kommission definiert hierfür vier Interoperabilitätsebenen: Die rechtliche, die organisatorische, die semantische und die technische Ebene.[^115] Wie bereits angeführt, stellt auch der EHDS die Interoperabilität in den Mittelpunkt seiner technischen Anforderungen. Nachfolgend werden daher die in der medizinischen Informatik üblichen Fragestellungen zur technischen, syntaktischen und semantischen Ebene beschrieben.",
+  "sents": [
+   {
+    "start": 0,
+    "end": 218,
+    "text": "Interoperabilität bezeichnet im Kontext elektronischer Gesundheitssysteme die Fähigkeit unterschiedlicher informationstechnischer Systeme, Daten auszutauschen und diese korrekt zu interpretieren und zu verwenden.[^114]"
+   },
+   {
+    "start": 219,
+    "end": 427,
+    "text": "Das European Interoperability Framework (EIF) der Europäischen Kommission definiert hierfür vier Interoperabilitätsebenen: Die rechtliche, die organisatorische, die semantische und die technische Ebene.[^115]"
+   },
+   {
+    "start": 428,
+    "end": 546,
+    "text": "Wie bereits angeführt, stellt auch der EHDS die Interoperabilität in den Mittelpunkt seiner technischen Anforderungen."
+   },
+   {
+    "start": 547,
+    "end": 699,
+    "text": "Nachfolgend werden daher die in der medizinischen Informatik üblichen Fragestellungen zur technischen, syntaktischen und semantischen Ebene beschrieben."
+   }
+  ]
+ },
+ {
+  "text": "Diese Eigenschaften sind ein wesentlicher Grund dafür, dass das Austauschformat EEHRxF nach dem Stand der europäischen Spezifikationsarbeiten auf FHIR aufbauen soll.[^128] Seine technischen Spezifikationen soll die Europäische Kommission bis zum 26. März 2027 mittels Durchführungsrechtsakten erlassen.[^129]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 171,
+    "text": "Diese Eigenschaften sind ein wesentlicher Grund dafür, dass das Austauschformat EEHRxF nach dem Stand der europäischen Spezifikationsarbeiten auf FHIR aufbauen soll.[^128]"
+   },
+   {
+    "start": 172,
+    "end": 249,
+    "text": "Seine technischen Spezifikationen soll die Europäische Kommission bis zum 26."
+   },
+   {
+    "start": 250,
+    "end": 308,
+    "text": "März 2027 mittels Durchführungsrechtsakten erlassen.[^129]"
+   }
+  ]
+ },
+ {
+  "text": "Die Authentifizierung bildet die Grundlage jeder Zugriffsentscheidung und lässt sich von der vorgelagerten Identifikation abgrenzen. Bei der Identifikation behauptet eine Person, eine bestimmte Identität, etwa durch Eingabe einer Benutzerkennung, zu haben. Die Authentifizierung ist demgegenüber der Prozess, durch den ein Antragsteller den Besitz und die Kontrolle über einen oder mehrere Authentifikatoren nachweist, die mit einem Nutzerkonto verknüpft sind, und so belegt, dass er tatsächlich die dem Konto zugeordnete Person ist.[^145] Authentifizierung ist somit die Überprüfung der zuvor behaupteten Identität.[^146]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 132,
+    "text": "Die Authentifizierung bildet die Grundlage jeder Zugriffsentscheidung und lässt sich von der vorgelagerten Identifikation abgrenzen."
+   },
+   {
+    "start": 133,
+    "end": 256,
+    "text": "Bei der Identifikation behauptet eine Person, eine bestimmte Identität, etwa durch Eingabe einer Benutzerkennung, zu haben."
+   },
+   {
+    "start": 257,
+    "end": 539,
+    "text": "Die Authentifizierung ist demgegenüber der Prozess, durch den ein Antragsteller den Besitz und die Kontrolle über einen oder mehrere Authentifikatoren nachweist, die mit einem Nutzerkonto verknüpft sind, und so belegt, dass er tatsächlich die dem Konto zugeordnete Person ist.[^145]"
+   },
+   {
+    "start": 540,
+    "end": 622,
+    "text": "Authentifizierung ist somit die Überprüfung der zuvor behaupteten Identität.[^146]"
+   }
+  ]
+ },
+ {
+  "text": "Die Referenzarchitektur umfasst funktional getrennte Komponenten, die auch der XACML-Architektur zugrunde liegen, wie in Abbildung dargestellt: [ABBILDUNG: Beispiel der Access Control Mechanism (ACM) Funktionen — übernommen aus NIST, Hu et al. (2014): Guide to Attribute Based Access Control (ABAC) Definition and Considerations, S. 15, Fig 5.]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 344,
+    "text": "Die Referenzarchitektur umfasst funktional getrennte Komponenten, die auch der XACML-Architektur zugrunde liegen, wie in Abbildung dargestellt: [ABBILDUNG: Beispiel der Access Control Mechanism (ACM) Funktionen — übernommen aus NIST, Hu et al. (2014): Guide to Attribute Based Access Control (ABAC) Definition and Considerations, S. 15, Fig 5.]"
+   }
+  ]
+ },
+ {
+  "text": "MyHealth@EU ist aus der eHealth Digital Service Infrastructure (eHDSI) hervorgegangen, einer Infrastruktur zur Sicherstellung der Versorgungskontinuität für europäische Bürgerinnen und Bürger während Auslandsaufenthalten innerhalb der EU.[^171] Die Infrastruktur war ursprünglich freiwillig angelegt und gab den Mitgliedstaaten erstmals die Möglichkeit, natürlichen Personen die Weitergabe ihrer personenbezogenen elektronischen Gesundheitsdaten während Auslandsaufenthalten an Gesundheitsdienstleister zu ermöglichen.[^172] Sie umfasst die Kerndienste elektronische Verschreibung und Abgabe (ePrescription und eDispensation), bei der nationale elektronische Verschreibungssysteme miteinander verknüpft werden, sowie die Patientenkurzakte (Patient Summary), die den grundlegenden Satz medizinischer Daten einer Person bereitstellt.[^173] Der im vierten Quartal 2019 gestartete Betrieb von eHDSI zeigte im Rahmen einer wissenschaftlichen Analyse der Nutzungsdaten, dass bis zum zweiten Quartal 2022 elf Länder über Fähigkeiten in mindestens einem dieser beiden Dienste verfügten und davon neun tatsächlich Transaktionen meldeten, wobei die Infrastruktur überwiegend noch zu Testzwecken genutzt wurde.[^174]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 244,
+    "text": "MyHealth@EU ist aus der eHealth Digital Service Infrastructure (eHDSI) hervorgegangen, einer Infrastruktur zur Sicherstellung der Versorgungskontinuität für europäische Bürgerinnen und Bürger während Auslandsaufenthalten innerhalb der EU.[^171]"
+   },
+   {
+    "start": 245,
+    "end": 524,
+    "text": "Die Infrastruktur war ursprünglich freiwillig angelegt und gab den Mitgliedstaaten erstmals die Möglichkeit, natürlichen Personen die Weitergabe ihrer personenbezogenen elektronischen Gesundheitsdaten während Auslandsaufenthalten an Gesundheitsdienstleister zu ermöglichen.[^172]"
+   },
+   {
+    "start": 525,
+    "end": 837,
+    "text": "Sie umfasst die Kerndienste elektronische Verschreibung und Abgabe (ePrescription und eDispensation), bei der nationale elektronische Verschreibungssysteme miteinander verknüpft werden, sowie die Patientenkurzakte (Patient Summary), die den grundlegenden Satz medizinischer Daten einer Person bereitstellt.[^173]"
+   },
+   {
+    "start": 838,
+    "end": 1205,
+    "text": "Der im vierten Quartal 2019 gestartete Betrieb von eHDSI zeigte im Rahmen einer wissenschaftlichen Analyse der Nutzungsdaten, dass bis zum zweiten Quartal 2022 elf Länder über Fähigkeiten in mindestens einem dieser beiden Dienste verfügten und davon neun tatsächlich Transaktionen meldeten, wobei die Infrastruktur überwiegend noch zu Testzwecken genutzt wurde.[^174]"
+   }
+  ]
+ },
+ {
+  "text": "Damit wird das in Abschnitt 3.3 beschriebene Identitäts- und Authentifizierungskonzept auf die europäische Ebene gehoben und unmittelbar mit der MyHealth@EU-Infrastruktur verknüpft. Die konkrete Anbindung der österreichischen Infrastruktur an MyHealth@EU wird in Abschnitt 5.4 dargestellt.",
+  "sents": [
+   {
+    "start": 0,
+    "end": 181,
+    "text": "Damit wird das in Abschnitt 3.3 beschriebene Identitäts- und Authentifizierungskonzept auf die europäische Ebene gehoben und unmittelbar mit der MyHealth@EU-Infrastruktur verknüpft."
+   },
+   {
+    "start": 182,
+    "end": 289,
+    "text": "Die konkrete Anbindung der österreichischen Infrastruktur an MyHealth@EU wird in Abschnitt 5.4 dargestellt."
+   }
+  ]
+ },
+ {
+  "text": "Die für den Aufbau des Austrian Patient Summary (APS) relevante gesetzliche Grundlage als Brücke zur Patientenkurzakte der EHDS-Verordnung ist durch Verordnungsermächtigungen für den zuständigen Bundesminister oder die zuständige Bundesministerin geregelt.[^201]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 262,
+    "text": "Die für den Aufbau des Austrian Patient Summary (APS) relevante gesetzliche Grundlage als Brücke zur Patientenkurzakte der EHDS-Verordnung ist durch Verordnungsermächtigungen für den zuständigen Bundesminister oder die zuständige Bundesministerin geregelt.[^201]"
+   }
+  ]
+ },
+ {
+  "text": "Die ELGA-VO 2015 ist die zentrale Durchführungsverordnung zum GTelG 2012. Sie konkretisiert auf Grundlage der Verordnungsermächtigungen des GTelG 2012 sechs Themenkomplexe. Den Beginn der Speicherverpflichtung für ELGA-GDA, die Liste der wechselwirkungsrelevanten, nicht verschreibungspflichtigen Arzneimittel (OTC-Liste), Standards für Struktur und Format von ELGA-Gesundheitsdaten, die Mindestanforderungen an den ELGA-Aushang, die Betreiberfestlegungen für Berechtigungs- und Protokollierungssystem sowie die Sicherheitsanforderungen für ELGA-Komponenten.[^214] Im Folgenden werden die für diese Arbeit relevanten Bestimmungen behandelt.",
+  "sents": [
+   {
+    "start": 0,
+    "end": 73,
+    "text": "Die ELGA-VO 2015 ist die zentrale Durchführungsverordnung zum GTelG 2012."
+   },
+   {
+    "start": 74,
+    "end": 172,
+    "text": "Sie konkretisiert auf Grundlage der Verordnungsermächtigungen des GTelG 2012 sechs Themenkomplexe."
+   },
+   {
+    "start": 173,
+    "end": 564,
+    "text": "Den Beginn der Speicherverpflichtung für ELGA-GDA, die Liste der wechselwirkungsrelevanten, nicht verschreibungspflichtigen Arzneimittel (OTC-Liste), Standards für Struktur und Format von ELGA-Gesundheitsdaten, die Mindestanforderungen an den ELGA-Aushang, die Betreiberfestlegungen für Berechtigungs- und Protokollierungssystem sowie die Sicherheitsanforderungen für ELGA-Komponenten.[^214]"
+   },
+   {
+    "start": 565,
+    "end": 640,
+    "text": "Im Folgenden werden die für diese Arbeit relevanten Bestimmungen behandelt."
+   }
+  ]
+ },
+ {
+  "text": "Die Speicherung der in der ELGA-VO 2015 genannten ELGA-Gesundheitsdaten gilt unter der Voraussetzung, dass die Nutzung der ELGA-Komponenten (Patient/inn/enindex, Gesundheitsdiensteanbieterindex, Verweisregister, Datenspeicher, Berechtigungssystem, Protokollierungssystem, Bürger-Zugangsportal) zur Verarbeitung von ELGA-Gesundheitsdaten technisch möglich ist.[^223] Dies stellt einen gesetzlichen Vorbehalt dar, der angesichts der gestaffelten Ausrollung praktische Bedeutung hat und ein Eingeständnis ist, dass die Infrastruktur nicht überall rechtzeitig bereit gestellt sein könnte.",
+  "sents": [
+   {
+    "start": 0,
+    "end": 365,
+    "text": "Die Speicherung der in der ELGA-VO 2015 genannten ELGA-Gesundheitsdaten gilt unter der Voraussetzung, dass die Nutzung der ELGA-Komponenten (Patient/inn/enindex, Gesundheitsdiensteanbieterindex, Verweisregister, Datenspeicher, Berechtigungssystem, Protokollierungssystem, Bürger-Zugangsportal) zur Verarbeitung von ELGA-Gesundheitsdaten technisch möglich ist.[^223]"
+   },
+   {
+    "start": 366,
+    "end": 584,
+    "text": "Dies stellt einen gesetzlichen Vorbehalt dar, der angesichts der gestaffelten Ausrollung praktische Bedeutung hat und ein Eingeständnis ist, dass die Infrastruktur nicht überall rechtzeitig bereit gestellt sein könnte."
+   }
+  ]
+ },
+ {
+  "text": "Für Laborbefunde und Radiologiebefunde durch niedergelassene Laborfachärzte und Radiologen gilt die Speicherpflicht ab 1. Juli 2025[^231] und durch Krankenanstalten ab 1. Jänner 2026.[^232]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 121,
+    "text": "Für Laborbefunde und Radiologiebefunde durch niedergelassene Laborfachärzte und Radiologen gilt die Speicherpflicht ab 1."
+   },
+   {
+    "start": 122,
+    "end": 170,
+    "text": "Juli 2025[^231] und durch Krankenanstalten ab 1."
+   },
+   {
+    "start": 171,
+    "end": 189,
+    "text": "Jänner 2026.[^232]"
+   }
+  ]
+ },
+ {
+  "text": "Weder eine DHA nach Artikel 19 EHDS-VO noch eine Marktüberwachungsbehörde für EHR-Systeme wurde in Österreich zum Zeitpunkt dieser Arbeit benannt. In einer parlamentarischen Anfragebeantwortung teilt das zuständige Bundesministerium dazu mit:",
+  "sents": [
+   {
+    "start": 0,
+    "end": 146,
+    "text": "Weder eine DHA nach Artikel 19 EHDS-VO noch eine Marktüberwachungsbehörde für EHR-Systeme wurde in Österreich zum Zeitpunkt dieser Arbeit benannt."
+   },
+   {
+    "start": 147,
+    "end": 242,
+    "text": "In einer parlamentarischen Anfragebeantwortung teilt das zuständige Bundesministerium dazu mit:"
+   }
+  ]
+ },
+ {
+  "text": "Neben dem Opt-Out stehen ELGA-Teilnehmenden auch granulare individuelle Zugriffssteuerungsrechte zu. Sie können einzelne Verweise und Gesundheitsdaten für bestimmte ELGA-GDA ein- oder ausblenden, Zugriffszeiten verkürzen oder einen ELGA-GDA des besonderen Vertrauens festlegen. Diese Rechte können über das Bürger-Zugangsportal oder über die ELGA-Ombudsstelle ausgeübt werden.[^250]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 100,
+    "text": "Neben dem Opt-Out stehen ELGA-Teilnehmenden auch granulare individuelle Zugriffssteuerungsrechte zu."
+   },
+   {
+    "start": 101,
+    "end": 277,
+    "text": "Sie können einzelne Verweise und Gesundheitsdaten für bestimmte ELGA-GDA ein- oder ausblenden, Zugriffszeiten verkürzen oder einen ELGA-GDA des besonderen Vertrauens festlegen."
+   },
+   {
+    "start": 278,
+    "end": 382,
+    "text": "Diese Rechte können über das Bürger-Zugangsportal oder über die ELGA-Ombudsstelle ausgeübt werden.[^250]"
+   }
+  ]
+ },
+ {
+  "text": "Im Überblick stellt sich die Teilnahme an der nationalen und grenzüberschreitenden Primärnutzung sowie der Sekundärnutzung nach der EHDS-Verordnung und dem rechtlichen Rahmen in Österreich wie folgt dar (siehe Tabelle ).",
+  "sents": [
+   {
+    "start": 0,
+    "end": 220,
+    "text": "Im Überblick stellt sich die Teilnahme an der nationalen und grenzüberschreitenden Primärnutzung sowie der Sekundärnutzung nach der EHDS-Verordnung und dem rechtlichen Rahmen in Österreich wie folgt dar (siehe Tabelle )."
+   }
+  ]
+ },
+ {
+  "text": "Der österreichische Umsetzungsstand des EHDS lässt sich erst vor dem Hintergrund der zuvor getrennt behandelten technischen Grundlagen (Kapitel 3) und des rechtlichen Rahmens (Kapitel 4) beurteilen. Dieses Kapitel führt beide Stränge zusammen und gibt einen Überblick darüber, wie die Anforderungen der EHDS-Verordnung in der österreichischen eHealth-Versorgung umgesetzt werden. Bezugspunkt ist dabei durchgehend die Elektronische Gesundheitsakte (ELGA). Für das Verständnis der folgenden Abschnitte ist eine Klarstellung wesentlich: Anders als ein EHR-System wird ELGA nicht als Produkt eines Herstellers für die Verwendung bei der Versorgung in Verkehr gebracht, sondern ist als gesetzlich definierte Infrastruktur eingerichtet, die die einrichtungsbezogenen EHR-Systeme vernetzt.[^269]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 198,
+    "text": "Der österreichische Umsetzungsstand des EHDS lässt sich erst vor dem Hintergrund der zuvor getrennt behandelten technischen Grundlagen (Kapitel 3) und des rechtlichen Rahmens (Kapitel 4) beurteilen."
+   },
+   {
+    "start": 199,
+    "end": 379,
+    "text": "Dieses Kapitel führt beide Stränge zusammen und gibt einen Überblick darüber, wie die Anforderungen der EHDS-Verordnung in der österreichischen eHealth-Versorgung umgesetzt werden."
+   },
+   {
+    "start": 380,
+    "end": 455,
+    "text": "Bezugspunkt ist dabei durchgehend die Elektronische Gesundheitsakte (ELGA)."
+   },
+   {
+    "start": 456,
+    "end": 789,
+    "text": "Für das Verständnis der folgenden Abschnitte ist eine Klarstellung wesentlich: Anders als ein EHR-System wird ELGA nicht als Produkt eines Herstellers für die Verwendung bei der Versorgung in Verkehr gebracht, sondern ist als gesetzlich definierte Infrastruktur eingerichtet, die die einrichtungsbezogenen EHR-Systeme vernetzt.[^269]"
+   }
+  ]
+ },
+ {
+  "text": "Die Anbindung der GDA-Systeme an einen ELGA-Bereich erfolgt entweder unmittelbar über standardisierte IHE-Schnittstellen oder über proprietäre Anbindungsbausteine wie den ELGA-Adapter (ELGAAD), der ein solches System über den zentral aufgestellten Vermittlungsdienst des Dachverbands (ELGA-Proxy) an den Zielbereich anbindet.[^282]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 331,
+    "text": "Die Anbindung der GDA-Systeme an einen ELGA-Bereich erfolgt entweder unmittelbar über standardisierte IHE-Schnittstellen oder über proprietäre Anbindungsbausteine wie den ELGA-Adapter (ELGAAD), der ein solches System über den zentral aufgestellten Vermittlungsdienst des Dachverbands (ELGA-Proxy) an den Zielbereich anbindet.[^282]"
+   }
+  ]
+ },
+ {
+  "text": "Ein bereichsübergreifender Abruf erfolgt zweistufig nach dem IHE-Profil XCA über das Anbindungsgateway. Zunächst ermittelt der zentrale Patientenindex, in welchen Bereichen die Person registriert ist.[^292] An die Gateways genau dieser Bereiche richtet das anfragende Anbindungsgateway anschließend die bereichsübergreifende XCA-Suche. Die Zugriffssteuerungsfassade des Ziel-Gateways prüft erneut Berechtigungen anhand der Assertions des ETS sowie der im BeS hinterlegten generellen und individuellen Zugriffsberechtigungen und liefert eine entsprechend gefilterte Verweisliste zurück.[^293] Durch einen anschließenden XCA-Abruf können dann die in der Verweisliste angeführten Dokumente aus dem Datenspeicher abgerufen werden.[^294] Ein Verweis macht damit ein dezentral gespeichertes Dokument bereichsübergreifend auffindbar.",
+  "sents": [
+   {
+    "start": 0,
+    "end": 103,
+    "text": "Ein bereichsübergreifender Abruf erfolgt zweistufig nach dem IHE-Profil XCA über das Anbindungsgateway."
+   },
+   {
+    "start": 104,
+    "end": 206,
+    "text": "Zunächst ermittelt der zentrale Patientenindex, in welchen Bereichen die Person registriert ist.[^292]"
+   },
+   {
+    "start": 207,
+    "end": 335,
+    "text": "An die Gateways genau dieser Bereiche richtet das anfragende Anbindungsgateway anschließend die bereichsübergreifende XCA-Suche."
+   },
+   {
+    "start": 336,
+    "end": 591,
+    "text": "Die Zugriffssteuerungsfassade des Ziel-Gateways prüft erneut Berechtigungen anhand der Assertions des ETS sowie der im BeS hinterlegten generellen und individuellen Zugriffsberechtigungen und liefert eine entsprechend gefilterte Verweisliste zurück.[^293]"
+   },
+   {
+    "start": 592,
+    "end": 732,
+    "text": "Durch einen anschließenden XCA-Abruf können dann die in der Verweisliste angeführten Dokumente aus dem Datenspeicher abgerufen werden.[^294]"
+   },
+   {
+    "start": 733,
+    "end": 826,
+    "text": "Ein Verweis macht damit ein dezentral gespeichertes Dokument bereichsübergreifend auffindbar."
+   }
+  ]
+ },
+ {
+  "text": "Die in Österreich eingesetzten EHR-Systeme lassen sich nach Versorgungsbereichen gliedern. In den Krankenanstalten laufen Krankenhausinformationssysteme (KIS), die Entlassungsbriefe sowie Labor- und Radiologiebefunde erzeugen. Im niedergelassenen Bereich kommen Praxisverwaltungssysteme (PVS) zum Einsatz, die neben der Dokumentation auch Verordnungen für die e-Medikation erstellen können. Zudem gibt es Radiologieinformationssysteme (RIS) für die bildgebende Diagnostik und Apothekensoftware.",
+  "sents": [
+   {
+    "start": 0,
+    "end": 90,
+    "text": "Die in Österreich eingesetzten EHR-Systeme lassen sich nach Versorgungsbereichen gliedern."
+   },
+   {
+    "start": 91,
+    "end": 226,
+    "text": "In den Krankenanstalten laufen Krankenhausinformationssysteme (KIS), die Entlassungsbriefe sowie Labor- und Radiologiebefunde erzeugen."
+   },
+   {
+    "start": 227,
+    "end": 390,
+    "text": "Im niedergelassenen Bereich kommen Praxisverwaltungssysteme (PVS) zum Einsatz, die neben der Dokumentation auch Verordnungen für die e-Medikation erstellen können."
+   },
+   {
+    "start": 391,
+    "end": 494,
+    "text": "Zudem gibt es Radiologieinformationssysteme (RIS) für die bildgebende Diagnostik und Apothekensoftware."
+   }
+  ]
+ },
+ {
+  "text": "Für die EHDS-Verordnung sind bei diesem Datenfluss die EHR-Systeme selbst maßgeblich. Sie müssen künftig die harmonisierten Softwarekomponenten umsetzen und die CE-Kennzeichnung auf Basis der Selbstbewertung des Herstellers tragen. Die Einhaltung überwacht die noch einzurichtende Marktüberwachungsbehörde (siehe Abschnitt 4.3).[^319]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 85,
+    "text": "Für die EHDS-Verordnung sind bei diesem Datenfluss die EHR-Systeme selbst maßgeblich."
+   },
+   {
+    "start": 86,
+    "end": 231,
+    "text": "Sie müssen künftig die harmonisierten Softwarekomponenten umsetzen und die CE-Kennzeichnung auf Basis der Selbstbewertung des Herstellers tragen."
+   },
+   {
+    "start": 232,
+    "end": 334,
+    "text": "Die Einhaltung überwacht die noch einzurichtende Marktüberwachungsbehörde (siehe Abschnitt 4.3).[^319]"
+   }
+  ]
+ },
+ {
+  "text": "Das Protokollierungssystem dient der Dokumentation und der Nachvollziehbarkeit jeder Verarbeitung von ELGA-Gesundheitsdaten.[^337] Technisch ist es nach dem IHE-Profil ATNA umgesetzt.[^338] Die Zugriffe werden dabei in lokalen Audit Record Repositories und einem aggregierten Audit Record Repository protokolliert.[^339] Jede Verarbeitung ist nach GTelG 2012 mit Datum und Zeit, einer eindeutigen Transaktionsnummer, der Art des Vorgangs, der eindeutigen elektronischen Identität des auslösenden Gesundheitsdiensteanbieters, dem Namen der verarbeitenden Person, der Kennung der verarbeiteten Daten, den Abfragekriterien und etwaigen Fehlermeldungen zu protokollieren.[^340] Die Protokolldaten sind drei Jahre nach dem Zugriff aufzubewahren und lesbar sowie verfügbar zu halten.[^341] ELGA-Teilnehmende haben das Recht, über das Zugangsportal einfach und übersichtlich Auskunft über die sie betreffenden Protokolldaten zu erhalten.[^342]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 130,
+    "text": "Das Protokollierungssystem dient der Dokumentation und der Nachvollziehbarkeit jeder Verarbeitung von ELGA-Gesundheitsdaten.[^337]"
+   },
+   {
+    "start": 131,
+    "end": 189,
+    "text": "Technisch ist es nach dem IHE-Profil ATNA umgesetzt.[^338]"
+   },
+   {
+    "start": 190,
+    "end": 320,
+    "text": "Die Zugriffe werden dabei in lokalen Audit Record Repositories und einem aggregierten Audit Record Repository protokolliert.[^339]"
+   },
+   {
+    "start": 321,
+    "end": 673,
+    "text": "Jede Verarbeitung ist nach GTelG 2012 mit Datum und Zeit, einer eindeutigen Transaktionsnummer, der Art des Vorgangs, der eindeutigen elektronischen Identität des auslösenden Gesundheitsdiensteanbieters, dem Namen der verarbeitenden Person, der Kennung der verarbeiteten Daten, den Abfragekriterien und etwaigen Fehlermeldungen zu protokollieren.[^340]"
+   },
+   {
+    "start": 674,
+    "end": 783,
+    "text": "Die Protokolldaten sind drei Jahre nach dem Zugriff aufzubewahren und lesbar sowie verfügbar zu halten.[^341]"
+   },
+   {
+    "start": 784,
+    "end": 936,
+    "text": "ELGA-Teilnehmende haben das Recht, über das Zugangsportal einfach und übersichtlich Auskunft über die sie betreffenden Protokolldaten zu erhalten.[^342]"
+   }
+  ]
+ },
+ {
+  "text": "Anhang II verlangt grundsätzlich kein bestimmtes Speicherformat, sondern definiert eine Schnittstellenanforderung. Der CDA-Bestand in den Repositories kann bestehen bleiben, solange der Zugang und der Empfang im EEHRxF möglich sind - durch Konversion oder durch native FHIR-Erzeugung.[^364]",
+  "sents": [
+   {
+    "start": 0,
+    "end": 114,
+    "text": "Anhang II verlangt grundsätzlich kein bestimmtes Speicherformat, sondern definiert eine Schnittstellenanforderung."
+   },
+   {
+    "start": 115,
+    "end": 290,
+    "text": "Der CDA-Bestand in den Repositories kann bestehen bleiben, solange der Zugang und der Empfang im EEHRxF möglich sind - durch Konversion oder durch native FHIR-Erzeugung.[^364]"
+   }
+  ]
+ }
+]

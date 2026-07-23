@@ -1,0 +1,13 @@
+{
+ "sourceId": "elga-vo2015",
+ "dossier": "## Was ist diese Quelle?\nDie **ELGA-Verordnung 2015 (ELGA-VO 2015)**, BGBl. II Nr. 106/2015 idF BGBl. II Nr. 11/2025, ist die zentrale Durchführungsverordnung zum GTelG 2012 — die Novelle 2025 setzt die aktuellen Speicherpflicht-Termine.\n\n## Kerninhalte (zitierte Bestimmungen)\n- **§ 1**: sechs Regelungskomplexe (Speicherbeginn, OTC-Liste, Formate, Aushang, Betreiber, Sicherheit).\n- **§§ 3–4**: akteursbezogene **Speicherverpflichtungen** (Krankenanstalten, Fachärzte nach Sonderfach, Hausapotheken, öffentliche Apotheken inkl. OTC-Liste, Pflege) und genereller Beginn 1.1.2026.\n- **§§ 5–8**: Termine je Dokumenttyp — Entlassungsbriefe 1.4.2025, Labor/Radiologie niedergelassen 1.7.2025 / Krankenanstalten 1.1.2026, Medikation 1.1.2026 (Apotheken 1.4.2025), Pflegebericht 1.1.2026, Pathologie 1.1.2028, sonstige Fachbefunde 1.1.2030; Altersgrenzen-Ausnahme für auslaufende Kassenverträge.\n- **§ 9**: Technikvorbehalt und **Erfüllungsfiktion** — Vertrag bis 1.1.2026 mit Umsetzung („EIS Full Support“) bis 31.12.2028.\n- **§§ 13, 16**: Interoperabilitätsstufen (EIS Full Support als Mindeststandard) und CDA-Implementierungsleitfäden inkl. 18-Monats-Übernahmefrist.\n- **§§ 18–22**: ELGA-Aushang, Betreiberfestlegung (Bundesrechenzentrum für BeS/Protokollierung, § 20), Sicherheitsanforderungen (§ 22).\n\n## Rolle in der Arbeit\n33 Zitierstellen: Die VO liefert den nationalen Stufenplan, der in 4.2/4.6 gegen die EHDS-Fristen gehalten wird, sowie die Format- (CDA/EIS) und Betreiberregeln für Kapitel 5. Die Erfüllungsfiktion ist Grundlage der Fazit-Zeitkritik (~3 Monate Puffer).\n\n## Verlässlichkeit & Zugang\nAmtliche Primärquelle, konsolidiert frei im RIS.",
+ "keyPoints": [
+  "Gestaffelte Speicherpflichten 2025–2030 je Akteur und Dokumenttyp.",
+  "Erfüllungsfiktion (§ 9 Abs 2): Softwarevertrag bis 1.1.2026, Umsetzung bis 31.12.2028.",
+  "EIS Full Support als Mindeststandard; CDA-Leitfäden mit 18-Monats-Frist (§§ 13, 16).",
+  "Bundesrechenzentrum als Betreiber von Berechtigungs- und Protokollierungssystem (§ 20).",
+  "Wahlarzt-Bezug über den Technikvorbehalt und die ÄrzteG-Verhältnismäßigkeitsgrenze."
+ ],
+ "zitierweise": "ELGA-VO 2015, BGBl. II Nr. 106/2015 idF BGBl. II Nr. 11/2025",
+ "hinweisOhnePdf": "Konsolidierte Fassung frei im RIS; Fußnoten nennen §/Abs/Z. RIS-Abdruck als sources/elga-vo2015.pdf ablegen, um Fundstellen zu verlinken."
+}

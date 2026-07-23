@@ -1,0 +1,442 @@
+{
+ "sectionId": "5.1.3",
+ "paragraphs": [
+  {
+   "id": "5.1.3-p1",
+   "type": "text",
+   "kernaussage": "Die ELGA-Datenhaltung ist bewusst auf dreizehn dezentrale Bereiche verteilt, was laut Rechnungshof Datenschutzvorteile bringt, aber Aufwand und technische Komplexität erhöht.",
+   "sentences": [
+    {
+     "text": "Die eigentliche Datenhaltung erfolgt verteilt auf dreizehn ELGA-Bereiche, die teils von den Ländern, teils von privaten Betreibern geführt werden.[^284]",
+     "einfach": "Die Gesundheitsdaten liegen nicht an einem zentralen Ort, sondern verteilt in dreizehn sogenannten ELGA-Bereichen. Diese Bereiche werden teils von den Bundesländern, teils von privaten Betreibern geführt.",
+     "kategorien": ["zahl", "akteur"],
+     "marks": [
+      { "snippet": "dreizehn ELGA-Bereiche", "kategorie": "zahl" },
+      { "snippet": "Ländern", "kategorie": "akteur" },
+      { "snippet": "privaten Betreibern", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der Österreichische Rechnungshof führt die dezentrale Architektur auf eine bewusste Aufbauentscheidung zurück, bestehende Datenspeicher zu integrieren statt neue zentrale Strukturen zu schaffen.",
+     "einfach": "Der Rechnungshof (das staatliche Prüforgan für die öffentliche Verwaltung) erklärt die verteilte Architektur als bewusste Entscheidung beim Aufbau von ELGA: Man wollte die bereits vorhandenen Datenspeicher weiterverwenden, statt eine neue zentrale Infrastruktur zu bauen.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Österreichische Rechnungshof", "kategorie": "akteur" },
+      { "snippet": "dezentrale Architektur", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Außerdem sprachen nach seiner Beurteilung datenschutzrechtliche Bedenken gegen eine Konzentration aller Daten.[^285]",
+     "einfach": "Nach Einschätzung des Rechnungshofs sprach auch der Datenschutz gegen eine zentrale Lösung: Alle Gesundheitsdaten an einem Ort zu sammeln, wurde als rechtlich bedenklich angesehen.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Demgegenüber hält er fest, dass die Mehrfachvorhaltung von Infrastruktur in dreizehn Bereichen den Aufwand und die technische Komplexität erhöht.[^286]",
+     "einfach": "Als Nachteil hält der Rechnungshof fest, dass dieselbe Infrastruktur dreizehnmal betrieben werden muss. Das erhöht die Kosten, den Betriebsaufwand und die technische Komplexität des Gesamtsystems.",
+     "kategorien": ["zahl", "luecke"],
+     "marks": [
+      { "snippet": "dreizehn Bereichen", "kategorie": "zahl" },
+      { "snippet": "Aufwand und die technische Komplexität erhöht", "kategorie": "luecke" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 284,
+     "quellen": ["rh-elga2024"],
+     "claim": "Die Datenhaltung ist auf dreizehn ELGA-Bereiche verteilt, die von Ländern und privaten Betreibern geführt werden.",
+     "fundstelle": "S. 11",
+     "suchHinweis": "dreizehn ELGA-Bereiche Länder Betreiber"
+    },
+    {
+     "num": 285,
+     "quellen": ["rh-elga2024"],
+     "claim": "Die dezentrale Architektur beruht auf der Entscheidung, bestehende Datenspeicher zu integrieren, und auf datenschutzrechtlichen Bedenken gegen eine Datenkonzentration.",
+     "fundstelle": "S. 51",
+     "suchHinweis": "dezentral Datenspeicher Datenschutz Konzentration"
+    },
+    {
+     "num": 286,
+     "quellen": ["rh-elga2024"],
+     "claim": "Die Mehrfachvorhaltung von Infrastruktur in dreizehn Bereichen erhöht Aufwand und technische Komplexität.",
+     "fundstelle": "S. 52",
+     "suchHinweis": "Mehrfachvorhaltung Infrastruktur Komplexität Aufwand"
+    }
+   ]
+  },
+  {
+   "id": "5.1.3-p2",
+   "type": "figure",
+   "kernaussage": "Die Abbildung zeigt eine Detailansicht der bestehenden nationalen ELGA-Infrastruktur mit zentralen Komponenten, dezentralen ELGA-Bereichen und angebundenen GDA-Systemen.",
+   "beschreibung": "Eigene Darstellung in Anlehnung an die ELGA-Gesamtarchitektur (Version 2.30b, S. 9 und 58), die das Zusammenspiel der zentralen Komponenten, der dezentralen ELGA-Bereiche und der GDA-Systeme visualisiert. Sie dient als Orientierung für die in Kapitel 5 beschriebene Infrastruktur, insbesondere für die EHDS-relevanten Elemente.",
+   "sentences": [],
+   "belege": []
+  },
+  {
+   "id": "5.1.3-p3",
+   "type": "text",
+   "kernaussage": "Die Abbildung fasst die in Kapitel 5 beschriebene bestehende Infrastruktur zusammen und veranschaulicht mit Pfeilen das Zusammenspiel von dezentraler Architektur, zentralen Komponenten und GDA-Systemen.",
+   "sentences": [
+    {
+     "text": "Die folgende Abbildung liefert eine Ansicht der im gesamten Kapitel 5 beschriebenen bestehenden Infrastruktur, insbesondere jener Elemente, die für die Erfüllung des EHDS relevant sind.",
+     "einfach": "Die Abbildung zeigt die bestehende österreichische Infrastruktur, die in Kapitel 5 beschrieben wird. Hervorgehoben sind vor allem die Bausteine, die für die Anforderungen des EHDS (European Health Data Space, der europäische Gesundheitsdatenraum nach der EU-Verordnung 2025/327) wichtig sind.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "EHDS", "kategorie": "norm" }
+     ],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Zudem dienen die eingezeichneten Pfeile dem Verständnis der im folgenden Abschnitt beschriebenen dezentralen Architektur im Zusammenspiel mit den zentralen Komponenten und den GDA-Systemen.",
+     "einfach": "Die Pfeile in der Abbildung zeigen die Kommunikationswege: Sie machen sichtbar, wie die verteilten ELGA-Bereiche, die zentralen Komponenten und die Systeme der Gesundheitsdiensteanbieter (GDA-Systeme) zusammenspielen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "dezentralen Architektur", "kategorie": "tech" },
+      { "snippet": "GDA-Systemen", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "5.1.3-p4",
+   "type": "text",
+   "kernaussage": "Jeder ELGA-Bereich ist eine eigene IHE-XDS-Affinity-Domain mit Document Repository, lokalem Verweisregister, lokalem Patientenindex und Anbindungsgateway für die GDA-Systeme.",
+   "sentences": [
+    {
+     "text": "Jeder der dreizehn ELGA-Bereiche bildet technisch eine eigenständige Affinity Domain nach dem IHE-Profil XDS und umfasst einen Datenspeicher (Document Repository) für die Befunddokumente, ein lokales Verweisregister (Document Registry), einen lokalen Patientenindex (L-PI) und ein Anbindungsgateway.[^287]",
+     "einfach": "Technisch ist jeder der dreizehn ELGA-Bereiche eine eigene 'Affinity Domain' nach dem IHE-Profil XDS (Cross-Enterprise Document Sharing), also ein abgegrenzter Verbund mit gemeinsamen Regeln für den Dokumentenaustausch. Jeder Bereich hat vier Bausteine: einen Speicher für die Befunddokumente (Document Repository), ein Verzeichnis mit Verweisen auf diese Dokumente (Document Registry), einen lokalen Patientenindex (L-PI), der die Patientenidentitäten des Bereichs führt, und ein Anbindungsgateway als Zugangspunkt.",
+     "kategorien": ["zahl", "tech"],
+     "marks": [
+      { "snippet": "dreizehn ELGA-Bereiche", "kategorie": "zahl" },
+      { "snippet": "Affinity Domain", "kategorie": "tech" },
+      { "snippet": "IHE-Profil XDS", "kategorie": "tech" },
+      { "snippet": "Datenspeicher (Document Repository)", "kategorie": "tech" },
+      { "snippet": "Verweisregister (Document Registry)", "kategorie": "tech" },
+      { "snippet": "Patientenindex (L-PI)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Über dieses Gateway sind die GDA-Systeme mit den IHE-Rollen Document Source und Document Consumer angebunden.[^288]",
+     "einfach": "Die Software der Gesundheitsdiensteanbieter ist über dieses Gateway angebunden und übernimmt dabei zwei standardisierte IHE-Rollen: 'Document Source' (liefert Dokumente ein) und 'Document Consumer' (ruft Dokumente ab).",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "GDA-Systeme", "kategorie": "tech" },
+      { "snippet": "Document Source", "kategorie": "tech" },
+      { "snippet": "Document Consumer", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 287,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Jeder ELGA-Bereich bildet eine eigenständige Affinity Domain nach IHE XDS mit Document Repository, Document Registry, lokalem Patientenindex und Anbindungsgateway.",
+     "fundstelle": "S. 13",
+     "suchHinweis": "Affinity Domain XDS Repository Registry"
+    },
+    {
+     "num": 288,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Die GDA-Systeme sind über das Gateway mit den IHE-Rollen Document Source und Document Consumer angebunden.",
+     "fundstelle": "S. 16",
+     "suchHinweis": "Document Source Document Consumer GDA"
+    }
+   ]
+  },
+  {
+   "id": "5.1.3-p5",
+   "type": "text",
+   "kernaussage": "Die Zugriffssteuerungsfassade im Anbindungsgateway sichert die GDA-Zugriffe ab, indem sie die zentralen Komponenten GDA-Index, BeS, ETS und A-ARR einbindet.",
+   "sentences": [
+    {
+     "text": "Die im Anbindungsgateway eingebaute Zugriffssteuerungsfassade nutzt dabei die relevanten zentralen Komponenten, um die Zugriffe der GDA-Systeme abzusichern und nachvollziehbar zu machen.",
+     "einfach": "Im Anbindungsgateway sitzt eine Zugriffssteuerungsfassade, also eine vorgeschaltete Kontrollschicht, durch die jeder Zugriff laufen muss. Sie bindet die zentralen ELGA-Komponenten ein, damit Zugriffe der GDA-Systeme geprüft, abgesichert und protokolliert werden.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Anbindungsgateway", "kategorie": "tech" },
+      { "snippet": "Zugriffssteuerungsfassade", "kategorie": "tech" },
+      { "snippet": "GDA-Systeme", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Darunter die Identifikation der Anbieter über den GDA-Index, die Berechtigungsverwaltung über das BeS, die Authentifizierung über den ELGA Token Service (ETS) und die Protokollierung über das A-ARR.[^289]",
+     "einfach": "Konkret sind das vier zentrale Dienste: Der GDA-Index identifiziert den zugreifenden Anbieter (ein Verzeichnis aller Gesundheitsdiensteanbieter), das Berechtigungssystem BeS verwaltet, wer worauf zugreifen darf, der ELGA Token Service (ETS) stellt nach erfolgreicher Authentifizierung signierte Berechtigungsnachweise (Tokens) aus, und das A-ARR (Audit Record Repository) zeichnet alle Zugriffe in Protokollen auf.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "GDA-Index", "kategorie": "tech" },
+      { "snippet": "BeS", "kategorie": "tech" },
+      { "snippet": "ELGA Token Service (ETS)", "kategorie": "tech" },
+      { "snippet": "A-ARR", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 289,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Die Zugriffssteuerungsfassade nutzt GDA-Index, BeS, ETS und A-ARR, um Zugriffe der GDA-Systeme abzusichern und zu protokollieren.",
+     "fundstelle": "S. 156 und 163",
+     "suchHinweis": "Zugriffssteuerungsfassade ETS Berechtigungssystem Audit"
+    }
+   ]
+  },
+  {
+   "id": "5.1.3-p6",
+   "type": "text",
+   "kernaussage": "Patientenidentitäten werden vom GDA-System an den lokalen Patientenindex gemeldet und über das IHE-Profil PIX an den zentralen Patientenindex weitergegeben, der bereichsübergreifend weiß, wo Daten einer Person liegen, während die Dokumentverzeichnisse lokal bleiben.",
+   "sentences": [
+    {
+     "text": "Wird eine Patientin oder ein Patient beim Gesundheitsdiensteanbieter über das e-card-System identifiziert, meldet das GDA-System diese Identität in der Rolle der Patient Identity Source an den lokalen Patientenindex seines ELGA-Bereichs.",
+     "einfach": "Steckt eine Patientin oder ein Patient beim Arzt die e-card, wird sie oder er darüber eindeutig identifiziert. Die Praxissoftware (GDA-System) meldet diese Identität dann in der IHE-Rolle 'Patient Identity Source' (Quelle für Patientenidentitäten) an den lokalen Patientenindex ihres ELGA-Bereichs.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Gesundheitsdiensteanbieter", "kategorie": "akteur" },
+      { "snippet": "e-card-System", "kategorie": "tech" },
+      { "snippet": "GDA-System", "kategorie": "tech" },
+      { "snippet": "Patient Identity Source", "kategorie": "tech" },
+      { "snippet": "lokalen Patientenindex", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der lokale Patientenindex speichert die Identitäten des Bereichs und meldet sie an den zentralen Patientenindex nach dem IHE-Profil PIX (siehe Abschnitt 3.2.1) weiter, spätestens bevor das erste Dokument zu dieser Person im Bereich registriert wird.[^290]",
+     "einfach": "Der lokale Patientenindex speichert die Identitäten seines Bereichs und meldet sie nach dem IHE-Profil PIX (Patient Identifier Cross-Referencing, ein Standard zum Abgleich von Patienten-IDs über Systemgrenzen) an den zentralen Patientenindex weiter. Das muss spätestens passieren, bevor das erste Dokument zu dieser Person im Bereich registriert wird.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "lokale Patientenindex", "kategorie": "tech" },
+      { "snippet": "zentralen Patientenindex", "kategorie": "tech" },
+      { "snippet": "IHE-Profil PIX", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der zentrale Patientenindex verknüpft die gemeldeten Identitäten und weiß dadurch, in welchen Bereichen Gesundheitsdaten zu einer Person auffindbar sind.",
+     "einfach": "Der zentrale Patientenindex führt die gemeldeten Identitäten aus allen Bereichen zusammen. Er weiß dadurch für jede Person, in welchen ELGA-Bereichen Gesundheitsdaten zu ihr zu finden sind, ohne die Daten selbst zu kennen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "zentrale Patientenindex", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Das Verzeichnis der einzelnen Dokumente verbleibt in den lokalen Verweisregistern.[^291]",
+     "einfach": "Welche einzelnen Dokumente es zu einer Person gibt, steht dagegen nicht zentral, sondern nur in den lokalen Verweisregistern (Document Registries) der jeweiligen Bereiche.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "lokalen Verweisregistern", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 290,
+     "quellen": ["elga-gesamtarchitektur2017", "gtelg2012"],
+     "claim": "Der lokale Patientenindex meldet die Identitäten nach dem IHE-Profil PIX an den zentralen Patientenindex, spätestens bevor das erste Dokument einer Person im Bereich registriert wird.",
+     "fundstelle": "§ 18 GTelG 2012; S. 48f, 64 und 101ff",
+     "suchHinweis": "Patientenindex PIX Meldung Registrierung"
+    },
+    {
+     "num": 291,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Der zentrale Patientenindex kennt nur die Bereiche mit Daten zu einer Person, während das Dokumentverzeichnis in den lokalen Verweisregistern verbleibt.",
+     "fundstelle": "S. 10",
+     "suchHinweis": "zentraler Patientenindex Verweisregister lokal"
+    }
+   ]
+  },
+  {
+   "id": "5.1.3-p7",
+   "type": "text",
+   "kernaussage": "Der bereichsübergreifende Dokumentenabruf läuft zweistufig nach dem IHE-Profil XCA: Der Z-PI nennt die Bereiche, die Ziel-Gateways prüfen die Berechtigungen und liefern gefilterte Verweislisten, über die die Dokumente abgerufen werden.",
+   "sentences": [
+    {
+     "text": "Ein bereichsübergreifender Abruf erfolgt zweistufig nach dem IHE-Profil XCA über das Anbindungsgateway.",
+     "einfach": "Sollen Dokumente aus einem anderen ELGA-Bereich geholt werden, läuft das in zwei Stufen über das Anbindungsgateway. Grundlage ist das IHE-Profil XCA (Cross-Community Access), ein Standard für den Dokumentenaustausch zwischen getrennten Verbünden: erst suchen, dann abrufen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "IHE-Profil XCA", "kategorie": "tech" },
+      { "snippet": "Anbindungsgateway", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Zunächst ermittelt der zentrale Patientenindex, in welchen Bereichen die Person registriert ist.[^292]",
+     "einfach": "Im ersten Schritt fragt das System den zentralen Patientenindex, in welchen ELGA-Bereichen die Person überhaupt registriert ist. So müssen nicht alle dreizehn Bereiche angefragt werden.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "zentrale Patientenindex", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "An die Gateways genau dieser Bereiche richtet das anfragende Anbindungsgateway anschließend die bereichsübergreifende XCA-Suche.",
+     "einfach": "Das anfragende Gateway schickt die XCA-Suchanfrage dann gezielt nur an die Gateways jener Bereiche, in denen die Person registriert ist.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Anbindungsgateway", "kategorie": "tech" },
+      { "snippet": "XCA-Suche", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Zugriffssteuerungsfassade des Ziel-Gateways prüft erneut Berechtigungen anhand der Assertions des ETS sowie der im BeS hinterlegten generellen und individuellen Zugriffsberechtigungen und liefert eine entsprechend gefilterte Verweisliste zurück.[^293]",
+     "einfach": "Auch das Ziel-Gateway prüft die Zugriffsrechte noch einmal selbst: Es kontrolliert die Assertions des ELGA Token Service (signierte Berechtigungsnachweise, die belegen, wer da mit welcher Rolle zugreift) und gleicht sie mit den im Berechtigungssystem BeS gespeicherten generellen und individuellen Zugriffsberechtigungen ab. Als Antwort schickt es nur eine gefilterte Liste der Dokumentverweise, die der Anfragende sehen darf.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Zugriffssteuerungsfassade", "kategorie": "tech" },
+      { "snippet": "Assertions", "kategorie": "tech" },
+      { "snippet": "ETS", "kategorie": "tech" },
+      { "snippet": "BeS", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Durch einen anschließenden XCA-Abruf können dann die in der Verweisliste angeführten Dokumente aus dem Datenspeicher abgerufen werden.[^294]",
+     "einfach": "Im zweiten Schritt werden die Dokumente aus der Verweisliste per XCA-Abruf direkt aus dem Datenspeicher (Document Repository) des jeweiligen Bereichs geladen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "XCA-Abruf", "kategorie": "tech" },
+      { "snippet": "Datenspeicher", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Ein Verweis macht damit ein dezentral gespeichertes Dokument bereichsübergreifend auffindbar.",
+     "einfach": "Der Verweis ist also der Schlüssel des Systems: Ein Dokument bleibt dezentral in seinem Bereich gespeichert, wird aber über seinen Verweis österreichweit auffindbar.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Verweis", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 292,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Beim bereichsübergreifenden Abruf ermittelt zunächst der zentrale Patientenindex, in welchen Bereichen die Person registriert ist.",
+     "fundstelle": "S. 10",
+     "suchHinweis": "zentraler Patientenindex Bereiche registriert"
+    },
+    {
+     "num": 293,
+     "quellen": ["elga-gesamtarchitektur2017", "gtelg2012"],
+     "claim": "Das Ziel-Gateway prüft Berechtigungen anhand der ETS-Assertions und der im BeS hinterlegten generellen und individuellen Zugriffsberechtigungen und liefert eine gefilterte Verweisliste.",
+     "fundstelle": "§ 21 Abs 1 GTelG 2012; S. 46, 58 und 156",
+     "suchHinweis": "Assertion ETS Berechtigung Verweisliste XCA"
+    },
+    {
+     "num": 294,
+     "quellen": ["elga-gesamtarchitektur2017"],
+     "claim": "Die in der Verweisliste angeführten Dokumente werden über einen anschließenden XCA-Abruf aus dem Datenspeicher geholt.",
+     "fundstelle": "S. 58",
+     "suchHinweis": "XCA Abruf Dokument Repository"
+    }
+   ]
+  },
+  {
+   "id": "5.1.3-p8",
+   "type": "text",
+   "kernaussage": "Das bestehende ELGA-System deckt bereits den Großteil der EHDS-Primärnutzungsfunktionen ab; natürliche Personen greifen über das internetbasierte Zugangsportal mit ID Austria zu und verwalten dort Berechtigungen und Protokolle.",
+   "sentences": [
+    {
+     "text": "Das bestehende System aus zentralen Komponenten und den ELGA-Bereichen mit ihren dezentralen Repositories bildet damit die Basis für den Großteil der von der EHDS-Verordnung geforderten Funktionen der Primärnutzung.",
+     "einfach": "Das heutige ELGA-System aus zentralen Komponenten und dezentralen Dokumentspeichern (Repositories) deckt damit schon die Grundlage für die meisten Funktionen ab, die die EHDS-Verordnung (EU-Verordnung 2025/327 zum europäischen Gesundheitsdatenraum) für die Primärnutzung verlangt. Primärnutzung bedeutet die Verwendung von Gesundheitsdaten direkt für die Behandlung der betroffenen Person.",
+     "kategorien": ["norm", "tech", "these"],
+     "marks": [
+      { "snippet": "dezentralen Repositories", "kategorie": "tech" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "bildet damit die Basis für den Großteil", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der Zugriff für natürliche Personen erfolgt gesichert über das Zugangsportal.[^295]",
+     "einfach": "Bürgerinnen und Bürger (im Rechtstext 'natürliche Personen') greifen auf ihre eigenen Daten über das gesicherte ELGA-Zugangsportal zu, das über das Gesundheitsportal erreichbar ist.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "natürliche Personen", "kategorie": "akteur" },
+      { "snippet": "Zugangsportal", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Der Befundabruf über das Portal folgt derselben Logik wie der Abruf durch die GDA-Systeme.",
+     "einfach": "Ruft jemand seine Befunde über das Portal ab, passiert technisch dasselbe wie beim Abruf durch die Systeme der Gesundheitsdiensteanbieter.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "GDA-Systeme", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Der Z-PI ermittelt die Bereiche, der Abruf erfolgt dann wieder über die Anbindungsgateways.",
+     "einfach": "Der zentrale Patientenindex (Z-PI) sagt, in welchen ELGA-Bereichen Daten zur Person liegen, und die Dokumente werden dann wieder über die Anbindungsgateways dieser Bereiche geholt.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Z-PI", "kategorie": "tech" },
+      { "snippet": "Anbindungsgateways", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Anders als die GDA-Systeme ist das Portal dabei keinem Bereich zugeordnet und nutzt auch nicht das GIN, sondern greift als zentrale Komponente nach der Identifizierung mit ID Austria über das Internet zu.[^296]",
+     "einfach": "Das Portal unterscheidet sich aber in zwei Punkten von den GDA-Systemen: Es gehört zu keinem ELGA-Bereich und läuft nicht über das geschlossene GIN-Netz. Stattdessen ist es eine zentrale Komponente, die über das offene Internet zugreift, nachdem sich die Person mit ID Austria (dem staatlichen elektronischen Identitätsnachweis) angemeldet hat.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "GDA-Systeme", "kategorie": "tech" },
+      { "snippet": "GIN", "kategorie": "tech" },
+      { "snippet": "ID Austria", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Das Portal ist zugleich die Plattform, über die Teilnehmende ihre individuellen Zugriffsberechtigungen verwalten und die Zugriffsprotokolle einsehen (siehe Abschnitte 5.3.1 und 5.3.2).[^297]",
+     "einfach": "Über dasselbe Portal steuern die ELGA-Teilnehmenden auch ihre individuellen Zugriffsberechtigungen, legen also fest, wer ihre Daten sehen darf. Außerdem können sie dort in den Zugriffsprotokollen nachsehen, wer wann auf ihre Daten zugegriffen hat.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "Teilnehmende", "kategorie": "akteur" },
+      { "snippet": "Zugriffsberechtigungen", "kategorie": "tech" },
+      { "snippet": "Zugriffsprotokolle", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 295,
+     "quellen": ["ehds-vo", "gtelg2012"],
+     "claim": "Der gesicherte Zugriff natürlicher Personen auf ihre Gesundheitsdaten über ein Zugangsportal entspricht den Vorgaben der EHDS-Verordnung und des GTelG 2012.",
+     "fundstelle": "Art 3 VO (EU) 2025/327; § 23 GTelG 2012",
+     "suchHinweis": "access electronic health data natural persons"
+    },
+    {
+     "num": 296,
+     "quellen": ["elga-gesamtarchitektur2017", "gtelg2012"],
+     "claim": "Das Zugangsportal ist keinem ELGA-Bereich zugeordnet und greift als zentrale Komponente nach Identifizierung mit ID Austria über das Internet statt über das GIN zu.",
+     "fundstelle": "§ 23 GTelG 2012; S. 210 und 330",
+     "suchHinweis": "Zugangsportal Portal Internet Identifizierung Bürger"
+    },
+    {
+     "num": 297,
+     "quellen": ["gtelg2012"],
+     "claim": "Teilnehmende verwalten über das Portal ihre individuellen Zugriffsberechtigungen und können die Zugriffsprotokolle einsehen.",
+     "fundstelle": "§ 16 Abs 1 und § 22 Abs 4 GTelG 2012",
+     "suchHinweis": "individuelle Zugriffsberechtigung Protokolldaten Einsicht"
+    }
+   ]
+  }
+ ]
+}

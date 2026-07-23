@@ -1,0 +1,62 @@
+{
+ "sectionId": "5.4.1",
+ "paragraphs": [
+  {
+   "id": "5.4.1-p1",
+   "type": "text",
+   "kernaussage": "ELGA-Dokumente sind standardisierte HL7-CDA-XML-Dateien, deren Erstellung durch abgestimmte Implementierungsleitfäden geregelt ist; für die zentralen Dokumentenklassen gilt „EIS Full Support“ als Mindeststandard.",
+   "sentences": [
+    {
+     "text": "In ELGA werden die medizinischen Dokumente in standardisierte XML-Dateien im Format HL7 CDA umgesetzt.[^365]",
+     "einfach": "Befunde und Briefe liegen in ELGA als XML-Dokumente nach dem Standard HL7 CDA (Clinical Document Architecture) vor.",
+     "kategorien": ["tech"],
+     "marks": [{"snippet": "standardisierte XML-Dateien", "kategorie": "tech"}, {"snippet": "HL7 CDA", "kategorie": "tech"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Für die erste Umsetzungsphase wurden die Dokumentenklassen Entlassungsbrief, Laborbefund, Befunde der bildgebenden Diagnostik sowie die Daten der e-Medikation ausgewählt.[^366]",
+     "einfach": "Gestartet wurde mit vier Dokumentarten: Entlassungsbrief, Laborbefund, Radiologiebefund und e-Medikation.",
+     "kategorien": ["tech", "zahl"],
+     "marks": [{"snippet": "Entlassungsbrief, Laborbefund, Befunde der bildgebenden Diagnostik", "kategorie": "tech"}, {"snippet": "e-Medikation", "kategorie": "tech"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Vorgaben für die Erstellung dieser Dokumente sind in CDA-Implementierungsleitfäden, die von Arbeitsgruppen unter Beteiligung der Ärzteschaft, der Pflege, der Krankenanstalten, der Forschung, der Softwarehersteller und der Standardisierungsorganisationen erstellt wurden, geregelt.[^367]",
+     "einfach": "Wie ein gültiges ELGA-Dokument aufgebaut sein muss, steht in Implementierungsleitfäden, die breite Arbeitsgruppen (Ärzteschaft, Pflege, Spitäler, Forschung, Hersteller, Standardisierer) gemeinsam erarbeitet haben.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [{"snippet": "CDA-Implementierungsleitfäden", "kategorie": "tech"}, {"snippet": "Ärzteschaft, der Pflege, der Krankenanstalten", "kategorie": "akteur"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Leitfäden umfassen unter anderem den Entlassungsbrief-Ärztlich, den Entlassungsbrief-Pflege, den Pflegesituationsbericht, die Labor- und Mikrobiologiebefunde, den Befund bildgebender Diagnostik, die e-Medikation und die XDS-Metadaten.[^368]",
+     "einfach": "Es gibt eigene Leitfäden pro Dokumentklasse — vom ärztlichen Entlassungsbrief über Labor- und Radiologiebefunde bis zu den XDS-Metadaten (den Katalogdaten für das Verweisregister).",
+     "kategorien": ["tech"],
+     "marks": [{"snippet": "XDS-Metadaten", "kategorie": "tech"}],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Neue Hauptversionen der Leitfäden müssen spätestens achtzehn Monate nach ihrer Veröffentlichung verwendet werden.[^369]",
+     "einfach": "Für neue Hauptversionen der Leitfäden gilt eine Umstellungsfrist von 18 Monaten ab Veröffentlichung.",
+     "kategorien": ["frist", "norm"],
+     "marks": [{"snippet": "achtzehn Monate", "kategorie": "frist"}],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Für die zentralen Dokumentenklassen gilt dabei die ELGA-Interoperabilitätsstufe „EIS Full Support“als Mindeststandard.[^370]",
+     "einfach": "Die wichtigsten Dokumentklassen müssen die höchste ELGA-Interoperabilitätsstufe „EIS Full Support“ erfüllen — also vollständig strukturierte, maschinenlesbare Dokumente.",
+     "kategorien": ["tech", "norm"],
+     "marks": [{"snippet": "ELGA-Interoperabilitätsstufe", "kategorie": "tech"}, {"snippet": "EIS Full Support", "kategorie": "tech"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 365, "quellen": ["elga-gesamtarchitektur2017"], "claim": "Belegt, dass ELGA-Dokumente als standardisierte XML-Dateien im Format HL7 CDA umgesetzt werden.", "fundstelle": "S. 87", "suchHinweis": "CDA XML Dokumente standardisiert"},
+    {"num": 366, "quellen": ["elga-gesamtarchitektur2017"], "claim": "Belegt die Auswahl der vier Dokumentenklassen der ersten Umsetzungsphase.", "fundstelle": "S. 87", "suchHinweis": "Entlassungsbrief Laborbefund bildgebende Diagnostik e-Medikation"},
+    {"num": 367, "quellen": ["elga-vo2015", "elga-gesamtarchitektur2017"], "claim": "Belegt die Regelung der Dokumenterstellung durch CDA-Implementierungsleitfäden und deren Entstehung in breiten Arbeitsgruppen.", "fundstelle": "§ 16 ELGA-VO 2015; S. 87", "suchHinweis": "Implementierungsleitfäden Arbeitsgruppen"},
+    {"num": 368, "quellen": ["goeg-cdaleitfaeden2026"], "claim": "Belegt den Umfang der veröffentlichten Leitfäden (Entlassungsbriefe, Pflegesituationsbericht, Labor, Bildgebung, e-Medikation, XDS-Metadaten).", "fundstelle": "", "suchHinweis": "ELGA CDA Implementierungsleitfäden Liste"},
+    {"num": 369, "quellen": ["elga-vo2015"], "claim": "Belegt die 18-Monats-Frist für die verpflichtende Verwendung neuer Hauptversionen.", "fundstelle": "§ 16 Abs 5", "suchHinweis": "Hauptversion achtzehn Monate Veröffentlichung"},
+    {"num": 370, "quellen": ["elga-vo2015"], "claim": "Belegt „EIS Full Support“ als Mindeststandard für die zentralen Dokumentenklassen.", "fundstelle": "§ 13", "suchHinweis": "EIS Full Support Interoperabilitätsstufe"}
+   ]
+  }
+ ]
+}

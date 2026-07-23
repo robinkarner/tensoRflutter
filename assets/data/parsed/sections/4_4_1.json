@@ -1,0 +1,91 @@
+{
+ "sectionId": "4.4.1",
+ "title": "ELGA",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 43,
+ "pdfPage": 53,
+ "paragraphs": [
+  {
+   "id": "4.4.1-p1",
+   "type": "text",
+   "text": "Das österreichische ELGA-System beruht auf einem Opt-Out-Modell. Alle in Österreich wohnhaften oder sozialversicherten natürlichen Personen nehmen automatisch an ELGA teil, sofern sie keinen Widerspruch erklären.[^244]",
+   "footnotes": [
+    {
+     "num": 244,
+     "text": "Vgl. § 15 Abs 2 GTelG 2012 und Gesundheit Österreich GmbH (2026): Widerspruch.",
+     "sources": [
+      "goeg-widerspruch2026",
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.4.1-p2",
+   "type": "text",
+   "text": "Der Widerspruch ist in zwei Formen möglich. Als genereller Widerspruch, der die Teilnahme an ELGA insgesamt beendet, oder als partieller Widerspruch, der sich nur auf einzelne Arten von ELGA-Gesundheitsdaten bezieht. Der Widerspruch kann schriftlich gegenüber der ELGA- und eHealth-Supporteinrichtung[^245] oder elektronisch über das Bürger-Zugangsportal erklärt werden.[^246] Der Widerspruch kann jederzeit rückgängig gemacht werden.[^247]",
+   "footnotes": [
+    {
+     "num": 245,
+     "text": "Vgl. § 17 Abs 2 Z 3 GTelG 2012 und Gesundheit Österreich GmbH (2026): Widerspruch.",
+     "sources": [
+      "goeg-widerspruch2026",
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 246,
+     "text": "Vgl. § 23 GTelG 2012 und Gesundheit Österreich GmbH (2026): Widerspruch.",
+     "sources": [
+      "goeg-widerspruch2026",
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 247,
+     "text": "Vgl. § 15 Abs 4 GTelG 2012 und Gesundheit Österreich GmbH (2026): Widerspruch.",
+     "sources": [
+      "goeg-widerspruch2026",
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.4.1-p3",
+   "type": "text",
+   "text": "Die Rechtsfolge des generellen Widerspruchs ist weitreichend. Alle bis zum Zeitpunkt des Widerspruchs vorhandenen Verweise und Gesundheitsdaten sind zu löschen. Lediglich gesetzlich vorgeschriebene Dokumentationsverpflichtungen oder Protokolldaten zur gerichtlichen oder außergerichtlichen Durchsetzung sowie zur Abwehr geltend gemachter rechtlicher Ansprüche bleiben unberührt, sind aber für ELGA unzugänglich zu machen.[^248] Solange ein gültiger Widerspruch besteht, dürfen keine Verweise und Gesundheitsdaten neu gespeichert werden, und es besteht kein Rechtsanspruch auf nachträgliche Aufnahme von Verweisen.[^249]",
+   "footnotes": [
+    {
+     "num": 248,
+     "text": "Vgl. § 15 Abs 3 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 249,
+     "text": "Vgl. § 15 Abs 4 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.4.1-p4",
+   "type": "text",
+   "text": "Neben dem Opt-Out stehen ELGA-Teilnehmenden auch granulare individuelle Zugriffssteuerungsrechte zu. Sie können einzelne Verweise und Gesundheitsdaten für bestimmte ELGA-GDA ein- oder ausblenden, Zugriffszeiten verkürzen oder einen ELGA-GDA des besonderen Vertrauens festlegen. Diese Rechte können über das Bürger-Zugangsportal oder über die ELGA-Ombudsstelle ausgeübt werden.[^250]",
+   "footnotes": [
+    {
+     "num": 250,
+     "text": "Vgl. § 16 Abs 1 GTelG 2012.",
+     "sources": [
+      "gtelg2012"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "sectionId": "4.2",
+ "paragraphs": [
+  {
+   "id": "4.2-p1",
+   "type": "text",
+   "kernaussage": "Die ELGA-VO 2015 konkretisiert als zentrale Durchführungsverordnung zum GTelG 2012 sechs Themenkomplexe des ELGA-Betriebs, von der Speicherverpflichtung bis zu Sicherheitsanforderungen.",
+   "sentences": [
+    {
+     "text": "Die ELGA-VO 2015 ist die zentrale Durchführungsverordnung zum GTelG 2012.",
+     "einfach": "Die ELGA-Verordnung 2015 ist die wichtigste Durchführungsverordnung zum GTelG 2012 – also eine vom Ministerium erlassene Rechtsvorschrift, die die Vorgaben des Gesetzes im Detail umsetzt.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "ELGA-VO 2015", "kategorie": "norm" },
+      { "snippet": "GTelG 2012", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie konkretisiert auf Grundlage der Verordnungsermächtigungen des GTelG 2012 sechs Themenkomplexe.",
+     "einfach": "Sie stützt sich auf Verordnungsermächtigungen (gesetzliche Erlaubnisse, Details per Verordnung zu regeln) im GTelG 2012 und präzisiert sechs Themenbereiche.",
+     "kategorien": ["norm", "zahl"],
+     "marks": [
+      { "snippet": "GTelG 2012", "kategorie": "norm" },
+      { "snippet": "sechs Themenkomplexe", "kategorie": "zahl" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Den Beginn der Speicherverpflichtung für ELGA-GDA, die Liste der wechselwirkungsrelevanten, nicht verschreibungspflichtigen Arzneimittel (OTC-Liste), Standards für Struktur und Format von ELGA-Gesundheitsdaten, die Mindestanforderungen an den ELGA-Aushang, die Betreiberfestlegungen für Berechtigungs- und Protokollierungssystem sowie die Sicherheitsanforderungen für ELGA-Komponenten.[^214]",
+     "einfach": "Die sechs Bereiche sind: der Startzeitpunkt der Pflicht der ELGA-Gesundheitsdiensteanbieter, Daten in ELGA zu speichern; die OTC-Liste (rezeptfreie Arzneimittel, die wegen möglicher Wechselwirkungen in der eMedikation erfasst werden); Standards für Struktur und Format der ELGA-Gesundheitsdaten; Mindestinhalte des ELGA-Aushangs (der Patienteninformation z. B. in Ordinationen); die Festlegung, wer Berechtigungs- und Protokollierungssystem betreibt; und Sicherheitsanforderungen an die ELGA-Komponenten.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "ELGA-GDA", "kategorie": "akteur" },
+      { "snippet": "OTC-Liste", "kategorie": "tech" },
+      { "snippet": "Standards für Struktur und Format von ELGA-Gesundheitsdaten", "kategorie": "tech" },
+      { "snippet": "Berechtigungs- und Protokollierungssystem", "kategorie": "tech" },
+      { "snippet": "ELGA-Komponenten", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Im Folgenden werden die für diese Arbeit relevanten Bestimmungen behandelt.",
+     "einfach": "Der Abschnitt behandelt anschließend nur jene Bestimmungen, die für die Fragestellung der Arbeit relevant sind.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 214,
+     "quellen": ["elga-vo2015"],
+     "claim": "Die ELGA-VO 2015 regelt die sechs genannten Themenkomplexe (Speicherverpflichtung, OTC-Liste, Datenstandards, ELGA-Aushang, Betreiberfestlegungen, Sicherheitsanforderungen).",
+     "fundstelle": "§ 1",
+     "suchHinweis": "§ 1 Regelungsgegenstand ELGA-Verordnung"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "sectionId": "3.2.3",
+ "title": "Semantische Interoperabilität: Terminologien und Codesysteme",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 24,
+ "pdfPage": 34,
+ "paragraphs": [
+  {
+   "id": "3.2.3-p1",
+   "type": "text",
+   "text": "Neben der syntaktischen ist auch die semantische Interoperabilität zu beachten. Selbst wenn zwei Systeme ein Dokument strukturell gleich lesen können, müssen sie dessen Inhalt auch gleich interpretieren können. Die zunehmende Verbreitung elektronischer Gesundheitsakten hat zu Interoperabilitätsproblemen auf unterschiedlichen Ebenen geführt, sowohl auf struktureller als auch auf semantischer Ebene.[^130] Standards sind dabei nicht nur für den erfolgreichen Datenaustausch wichtig, sondern auch für die korrekte Interpretation, die semantische Interoperabilität.[^131] Die semantische Interoperabilität ist dafür verantwortlich, dass die Bedeutung der Daten beim Transfer zwischen Systemen erhalten bleibt. Ein wesentlicher Aspekt ist dabei die konsequente Verwendung geeigneter Codesysteme und medizinischer Standards für medizinische Begriffe.[^132]",
+   "footnotes": [
+    {
+     "num": 130,
+     "text": "Vgl. Amar et al. (2024): Electronic Health Record and Semantic Issues Using Fast Healthcare Interoperability Resources, S. 1.",
+     "sources": [
+      "amar2024"
+     ]
+    },
+    {
+     "num": 131,
+     "text": "Vgl. Amar et al. (2024): Electronic Health Record and Semantic Issues Using Fast Healthcare Interoperability Resources, S. 1.",
+     "sources": [
+      "amar2024"
+     ]
+    },
+    {
+     "num": 132,
+     "text": "Vgl. Ohlsen et al. (2025): A Validation Tool (VaPCE) for Postcoordinated SNOMED CT Expressions, S. 2.",
+     "sources": [
+      "ohlsen2025"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.2.3-p2",
+   "type": "text",
+   "text": "In der praktischen Anwendung haben sich vor allem zwei internationale Terminologien durchgesetzt: SNOMED CT und LOINC. SNOMED CT (Systematized Nomenclature of Medicine - Clinical Terms) ist mit über 360.000 medizinischen Begriffen die umfassendste, mehrsprachige Terminologie für den klinischen Gesundheitsbereich. Sie ermöglicht maschinenlesbaren Datenaustausch und reduziert Probleme im Zusammenhang mit länder- und domänenspezifischer Codierung.[^133] Allerdings kann SNOMED CT trotz seiner Reichhaltigkeit nicht jeden denkbaren medizinischen Sachverhalt abdecken. Für komplexe Fälle erlaubt der Standard daher die sogenannte Nachkoordination, bei der bestehende Basis-Konzepte miteinander verknüpft werden, um einen neuen, genaueren Ausdruck zu bilden.[^134] LOINC (Logical Observation Identifiers Names and Codes) wurde 1994 vom Regenstrief Institute geschaffen, um die Interoperabilität im Gesundheitswesen zu fördern. LOINC enthält heute mehr als 100.000 Begriffe für klinische Beobachtungen und Laboruntersuchungen.[^135]",
+   "footnotes": [
+    {
+     "num": 133,
+     "text": "Vgl. Ohlsen et al. (2025): A Validation Tool (VaPCE) for Postcoordinated SNOMED CT Expressions, S. 1.",
+     "sources": [
+      "ohlsen2025"
+     ]
+    },
+    {
+     "num": 134,
+     "text": "Vgl. Ohlsen et al. (2025): A Validation Tool (VaPCE) for Postcoordinated SNOMED CT Expressions, S. 1.",
+     "sources": [
+      "ohlsen2025"
+     ]
+    },
+    {
+     "num": 135,
+     "text": "Vgl. Regenstrief Institute / SNOMED International (2023) Regenstrief and SNOMED International broaden collaboration to facilitate interoperability nationally and globally by linking LOINC and SNOMED CT.",
+     "sources": [
+      "regenstrief2023"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.2.3-p3",
+   "type": "text",
+   "text": "Beide Terminologien werden zunehmend miteinander verknüpft. Seit 2013 besteht eine formale Kooperation zwischen dem Regenstrief Institute und SNOMED International, die die klinische Semantik von SNOMED CT mit den Beobachtungskonzepten von LOINC verbindet und so die Identifikation, den Austausch und die Erhebung von Daten zwischen Gesundheitssystemen ermöglicht.[^136] Eine systematische Übersicht zur semantischen Interoperabilität mittels FHIR bestätigt die zentrale Stellung dieser beiden Terminologien. Unter den untersuchten Studien waren SNOMED CT und LOINC mit Abstand die am häufigsten verwendeten Codesysteme.[^137] Im Kontext des EHDS ist die semantische Interoperabilität von besonderer Bedeutung, da das Austauschformat EEHRxF auf die einheitliche Codierung medizinischer Inhalte angewiesen ist, um den grenzüberschreitenden Austausch von Gesundheitsdaten sinnvoll zu ermöglichen.[^138]",
+   "footnotes": [
+    {
+     "num": 136,
+     "text": "Vgl. Regenstrief Institute / SNOMED International (2023) Regenstrief and SNOMED International broaden collaboration to facilitate interoperability nationally and globally by linking LOINC and SNOMED CT.",
+     "sources": [
+      "regenstrief2023"
+     ]
+    },
+    {
+     "num": 137,
+     "text": "Vgl. Amar et al. (2024): Electronic Health Record and Semantic Issues Using Fast Healthcare Interoperability Resources, S. 11.",
+     "sources": [
+      "amar2024"
+     ]
+    },
+    {
+     "num": 138,
+     "text": "Vgl. Art 15 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

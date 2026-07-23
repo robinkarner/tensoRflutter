@@ -1,0 +1,73 @@
+{
+ "sectionId": "3.4.1",
+ "title": "Entstehung und Rechtsgrundlage",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 30,
+ "pdfPage": 40,
+ "paragraphs": [
+  {
+   "id": "3.4.1-p1",
+   "type": "text",
+   "text": "MyHealth@EU ist aus der eHealth Digital Service Infrastructure (eHDSI) hervorgegangen, einer Infrastruktur zur Sicherstellung der Versorgungskontinuität für europäische Bürgerinnen und Bürger während Auslandsaufenthalten innerhalb der EU.[^171] Die Infrastruktur war ursprünglich freiwillig angelegt und gab den Mitgliedstaaten erstmals die Möglichkeit, natürlichen Personen die Weitergabe ihrer personenbezogenen elektronischen Gesundheitsdaten während Auslandsaufenthalten an Gesundheitsdienstleister zu ermöglichen.[^172] Sie umfasst die Kerndienste elektronische Verschreibung und Abgabe (ePrescription und eDispensation), bei der nationale elektronische Verschreibungssysteme miteinander verknüpft werden, sowie die Patientenkurzakte (Patient Summary), die den grundlegenden Satz medizinischer Daten einer Person bereitstellt.[^173] Der im vierten Quartal 2019 gestartete Betrieb von eHDSI zeigte im Rahmen einer wissenschaftlichen Analyse der Nutzungsdaten, dass bis zum zweiten Quartal 2022 elf Länder über Fähigkeiten in mindestens einem dieser beiden Dienste verfügten und davon neun tatsächlich Transaktionen meldeten, wobei die Infrastruktur überwiegend noch zu Testzwecken genutzt wurde.[^174]",
+   "footnotes": [
+    {
+     "num": 171,
+     "text": "Vgl. Europäische Kommission (2026): Public Health: Elektronische grenzüberschreitende Gesundheitsdienste.",
+     "sources": [
+      "ek-crossborder2026"
+     ]
+    },
+    {
+     "num": 172,
+     "text": "Vgl. ErwGr 33 der VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 173,
+     "text": "Vgl. Bruthans et al. (2023): The Current State and Usage of European Electronic Cross-border Health Services (eHDSI). S. 3.",
+     "sources": [
+      "bruthans2023"
+     ]
+    },
+    {
+     "num": 174,
+     "text": "Vgl. Bruthans et al. (2023): The Current State and Usage of European Electronic Cross-border Health Services (eHDSI). S. 1.",
+     "sources": [
+      "bruthans2023"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.4.1-p2",
+   "type": "text",
+   "text": "Mit der EHDS-Verordnung wurde die Teilnahme von einer freiwilligen Option zu einer rechtlichen Verpflichtung für die Mitgliedstaaten, die mit MyHealth@EU auch auf den Erfahrungen von eHDSI aufbaute.[^175] Die zentrale Interoperabilitätsplattform für digitale Gesundheit der Kommission soll den Austausch personenbezogener elektronischer Gesundheitsdaten zwischen den nationalen Kontaktstellen für digitale Gesundheit in den Mitgliedstaaten unterstützen und erleichtern.[^176] In weiterer Folge hat jeder Mitgliedstaat bis zum 26. März 2027 eine nationale Kontaktstelle für digitale Gesundheit (NCPeH) als organisatorische und technische Zugangsstelle zu benennen, die mit allen anderen nationalen Kontaktstellen und der zentralen Plattform verbunden sein muss.[^177]",
+   "footnotes": [
+    {
+     "num": 175,
+     "text": "Vgl. ErwGr 33 der VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 176,
+     "text": "Vgl. Art 23 Abs 1 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 177,
+     "text": "Vgl. Art 23 Abs 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

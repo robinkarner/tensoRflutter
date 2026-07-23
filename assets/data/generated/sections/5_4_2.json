@@ -1,0 +1,59 @@
+{
+ "sectionId": "5.4.2",
+ "paragraphs": [
+  {
+   "id": "5.4.2-p1",
+   "type": "text",
+   "kernaussage": "Fünf der sechs prioritären EHDS-Datenkategorien sind in ELGA durch bestehende Anwendungen abgedeckt; offen ist nur die Patientenkurzakte, die als Austrian Patient Summary erst als Erprobungsstandard vorliegt.",
+   "sentences": [
+    {
+     "text": "Die prioritären Datenkategorien der EHDS-Verordnung für die Primärnutzung wurden in Abschnitt 2.3.2 beschrieben.",
+     "einfach": "Rückverweis: Die sechs prioritären Datenkategorien (Patientenkurzakte, e-Verschreibung, e-Abgabe, Bildgebung, Laborergebnisse, Entlassungsberichte) wurden in Kapitel 2 eingeführt.",
+     "kategorien": ["norm"],
+     "marks": [],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Die EHDS-Kategorie der Entlassungsberichte wird in ELGA durch den ELGA-Entlassungsbrief abgedeckt, der seit dem Start von ELGA im Jahr 2015 in Betrieb ist.[^371]",
+     "einfach": "Entlassungsberichte: erfüllt — der ELGA-Entlassungsbrief läuft seit 2015.",
+     "kategorien": ["tech", "frist"],
+     "marks": [{"snippet": "ELGA-Entlassungsbrief", "kategorie": "tech"}, {"snippet": "seit dem Start von ELGA im Jahr 2015", "kategorie": "frist"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Kategorien der Laborbefunde und der medizinischen Bildgebung werden durch die entsprechenden ELGA-Befunde abgedeckt, deren Speicherung im niedergelassenen Bereich seit dem 1. Juli 2025 schrittweise verpflichtend ist (siehe Abschnitt 5.2.2).",
+     "einfach": "Labor und Bildgebung: erfüllt — als ELGA-Befunde vorhanden, seit 1. Juli 2025 auch für niedergelassene Fachärzte schrittweise verpflichtend.",
+     "kategorien": ["tech", "frist"],
+     "marks": [{"snippet": "Laborbefunde", "kategorie": "tech"}, {"snippet": "medizinischen Bildgebung", "kategorie": "tech"}, {"snippet": "seit dem 1. Juli 2025", "kategorie": "frist"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Kategorien der elektronischen Verschreibung und der Abgabe werden durch die e-Medikation abgedeckt, deren Anwendung bis September 2019 schrittweise in ganz Österreich eingeführt wurde (siehe Abschnitt 5.1.4).[^372]",
+     "einfach": "e-Verschreibung und e-Abgabe: erfüllt — über die e-Medikation, die seit September 2019 flächendeckend läuft.",
+     "kategorien": ["tech", "frist"],
+     "marks": [{"snippet": "e-Medikation", "kategorie": "tech"}, {"snippet": "bis September 2019", "kategorie": "frist"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Kategorie der Patientenkurzakte ist als Austrian Patient Summary (APS) spezifiziert.",
+     "einfach": "Die sechste Kategorie, die Patientenkurzakte, existiert bislang nur als Spezifikation: das Austrian Patient Summary (APS).",
+     "kategorien": ["tech", "luecke"],
+     "marks": [{"snippet": "Austrian Patient Summary (APS)", "kategorie": "tech"}],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der zugehörige Implementierungsleitfaden liegt seit Februar 2026 in der Version 1.0.0 als Erprobungsstandard vor, eine produktive Integration in ELGA steht jedoch noch aus (siehe Abschnitt 5.4.3).[^373]",
+     "einfach": "Der APS-Leitfaden ist seit Februar 2026 als „Standard for Trial Use“ (Erprobungsstandard) veröffentlicht — produktiv in ELGA integriert ist die Patientenkurzakte aber noch nicht. Das ist die zentrale offene Lücke bis zur EHDS-Frist 26. März 2029.",
+     "kategorien": ["frist", "luecke", "tech"],
+     "marks": [{"snippet": "seit Februar 2026 in der Version 1.0.0 als Erprobungsstandard", "kategorie": "frist"}, {"snippet": "produktive Integration in ELGA steht jedoch noch aus", "kategorie": "luecke"}],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {"num": 371, "quellen": ["bmasgpk-elga2026"], "claim": "Belegt, dass der ELGA-Entlassungsbrief seit dem ELGA-Start 2015 in Betrieb ist.", "fundstelle": "", "suchHinweis": "ELGA Entlassungsbrief 2015 Rollout"},
+    {"num": 372, "quellen": ["dachverband-emedrollout2026"], "claim": "Belegt die schrittweise flächendeckende Einführung der e-Medikation bis September 2019.", "fundstelle": "", "suchHinweis": "Rollout e-Medikation September 2019"},
+    {"num": 373, "quellen": ["hl7at-aps-ig2026", "gtelg2012", "elga-vo2015"], "claim": "Belegt den APS-Stand: Implementierungsleitfaden Version 1.0.0 (STU1) seit Februar 2026, aber keine produktive ELGA-Integration (fehlende Verordnung nach § 28c Abs 2 GTelG 2012, § 16 ELGA-VO 2015).", "fundstelle": "APS IG 1.0.0 (STU1); § 28c Abs 2 GTelG 2012; § 16 ELGA-VO 2015", "suchHinweis": "Austrian Patient Summary STU1 1.0.0"}
+   ]
+  }
+ ]
+}

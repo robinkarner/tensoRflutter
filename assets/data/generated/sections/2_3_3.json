@@ -1,0 +1,269 @@
+{
+ "sectionId": "2.3.3",
+ "paragraphs": [
+  {
+   "id": "2.3.3-p1",
+   "type": "text",
+   "kernaussage": "Kapitel III der EHDS-Verordnung verpflichtet EHR-Systeme zu zwei harmonisierten Softwarekomponenten, deren gemeinsame Spezifikationen die Kommission bis zum 26. März 2027 erlassen muss, die aber noch nicht vorliegen.",
+   "sentences": [
+    {
+     "text": "Das Kapitel III der EHDS-Verordnung normiert umfassende technische Anforderungen für EHR-Systeme.",
+     "einfach": "Kapitel III der EHDS-Verordnung enthält verbindliche technische Vorgaben für EHR-Systeme, also Software zur Führung elektronischer Gesundheitsakten (Electronic Health Record).",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "Kapitel III der EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "EHR-Systeme", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Demnach müssen EHR-Systeme zwingend zwei harmonisierte Softwarekomponenten umfassen: Die europäische Interoperabilitätssoftwarekomponente und die europäische Protokollierungssoftwarekomponente.[^74]",
+     "einfach": "Jedes EHR-System muss zwei EU-weit vereinheitlichte Softwarebausteine enthalten: eine Komponente für Interoperabilität (den Datenaustausch mit anderen Systemen) und eine für Protokollierung (die Aufzeichnung aller Datenzugriffe).",
+     "kategorien": ["tech", "zahl"],
+     "marks": [
+      { "snippet": "zwei harmonisierte Softwarekomponenten", "kategorie": "zahl" },
+      { "snippet": "europäische Interoperabilitätssoftwarekomponente", "kategorie": "tech" },
+      { "snippet": "europäische Protokollierungssoftwarekomponente", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die konkreten gemeinsamen Spezifikationen für diese Komponenten hat die Kommission bis zum 26. März 2027 mit Durchführungsrechtsakten zu erlassen.[^75]",
+     "einfach": "Die genauen technischen Spezifikationen dieser beiden Komponenten muss die EU-Kommission bis zum 26. März 2027 in Durchführungsrechtsakten festlegen; das sind verbindliche Umsetzungsvorschriften, welche die Kommission selbst erlässt.",
+     "kategorien": ["akteur", "frist", "norm"],
+     "marks": [
+      { "snippet": "Kommission", "kategorie": "akteur" },
+      { "snippet": "26. März 2027", "kategorie": "frist" },
+      { "snippet": "Durchführungsrechtsakten", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Zum Zeitpunkt dieser Arbeit lagen diese noch nicht vor.",
+     "einfach": "Als die Arbeit verfasst wurde, waren diese Spezifikationen noch nicht veröffentlicht; die genauen technischen Vorgaben sind also noch offen.",
+     "kategorien": ["luecke"],
+     "marks": [
+      { "snippet": "lagen diese noch nicht vor", "kategorie": "luecke" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 74,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt die Pflicht, dass EHR-Systeme die europäische Interoperabilitätssoftwarekomponente und die europäische Protokollierungssoftwarekomponente umfassen müssen.",
+     "fundstelle": "Art 25 Abs 1",
+     "suchHinweis": "Artikel 25 harmonisierte Softwarekomponenten Interoperabilität Protokollierung"
+    },
+    {
+     "num": 75,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt die Pflicht der Kommission, die gemeinsamen Spezifikationen bis zum 26. März 2027 mit Durchführungsrechtsakten zu erlassen.",
+     "fundstelle": "Art 36 Abs 1",
+     "suchHinweis": "Artikel 36 gemeinsame Spezifikationen Durchführungsrechtsakte"
+    }
+   ]
+  },
+  {
+   "id": "2.3.3-p2",
+   "type": "text",
+   "kernaussage": "Anhang II verlangt eine Schnittstelle für Zugang zu und Empfang von Daten im europäischen Austauschformat EEHRxF und verbietet Funktionen, die autorisierten Zugang oder Export behindern.",
+   "sentences": [
+    {
+     "text": "Die Interoperabilitätsanforderungen im Anhang II der EHDS-Verordnung konkretisieren diese Pflichten.",
+     "einfach": "Anhang II der EHDS-Verordnung führt genauer aus, was die Interoperabilitätskomponente eines EHR-Systems leisten muss.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "Anhang II der EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Systeme, die personenbezogene elektronische Gesundheitsdaten speichern, müssen über eine Schnittstelle verfügen, die den Zugang zu diesen Daten im europäischen elektronischen Austauschformat für Gesundheitsaufzeichnungen EEHRxF (European Electronic Health Record exchange Format) ermöglicht.",
+     "einfach": "Systeme, die persönliche Gesundheitsdaten speichern, brauchen eine Schnittstelle, über die auf diese Daten im EEHRxF zugegriffen werden kann; das EEHRxF ist das geplante einheitliche europäische Austauschformat für elektronische Gesundheitsakten.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Schnittstelle", "kategorie": "tech" },
+      { "snippet": "EEHRxF (European Electronic Health Record exchange Format)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie müssen auch in der Lage sein, Daten in diesem Format zu empfangen.",
+     "einfach": "Die Systeme müssen Daten im EEHRxF nicht nur bereitstellen, sondern auch entgegennehmen und einlesen können.",
+     "kategorien": ["tech"],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Dabei sind Funktionen, die den autorisierten Zugang oder Export von Daten verbieten, einschränken oder unangemessen erschweren, unzulässig.[^76]",
+     "einfach": "Verboten sind Funktionen, die berechtigten Nutzern den Zugriff auf die Daten oder deren Export untersagen, einschränken oder unnötig erschweren; ein solches Blockieren von Daten ist unzulässig.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 76,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt die Interoperabilitätsanforderungen des Anhangs II: EEHRxF-Schnittstelle für Zugang und Empfang sowie das Verbot von Funktionen, die autorisierten Zugang oder Export behindern.",
+     "fundstelle": "Anhang II Nr 2",
+     "suchHinweis": "Anhang II Interoperabilität Austauschformat Schnittstelle Export"
+    }
+   ]
+  },
+  {
+   "id": "2.3.3-p3",
+   "type": "text",
+   "kernaussage": "Das Austauschformat EEHRxF wird nach dem derzeitigen Stand der europäischen Spezifikationsarbeiten auf dem Standard FHIR basieren.",
+   "sentences": [
+    {
+     "text": "Das Austauschformat EEHRxF soll nach derzeitigem Stand der europäischen Spezifikationsarbeiten auf FHIR aufbauen.[^77]",
+     "einfach": "Nach dem aktuellen Stand der europäischen Spezifikationsarbeiten soll das Austauschformat EEHRxF auf FHIR aufsetzen; FHIR (Fast Healthcare Interoperability Resources) ist ein moderner Standard der Organisation HL7 für den Austausch von Gesundheitsdaten über Web-Schnittstellen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "EEHRxF", "kategorie": "tech" },
+      { "snippet": "FHIR", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 77,
+     "quellen": ["hl7at-aps-umfeld2026"],
+     "claim": "Belegt, dass das EEHRxF nach dem derzeitigen Stand der europäischen Spezifikationsarbeiten auf FHIR aufbauen soll.",
+     "fundstelle": "Austrian Patient Summary (R4), Abschnitt Umfeld",
+     "suchHinweis": "Umfeld EEHRxF FHIR European Electronic Health Record exchange Format"
+    }
+   ]
+  },
+  {
+   "id": "2.3.3-p4",
+   "type": "text",
+   "kernaussage": "Die europäische Protokollierungssoftwarekomponente muss eine zuverlässige Authentifizierung von Gesundheitsberufsangehörigen und eine detaillierte Protokollierung jedes Datenzugriffs sicherstellen.",
+   "sentences": [
+    {
+     "text": "Die Sicherheitsanforderungen der europäischen Protokollierungssoftwarekomponente verlangen unter anderem zuverlässige Authentifizierungsmechanismen für Angehörige der Gesundheitsberufe sowie ausreichende Protokollierungsmechanismen wie die Identität des Zugreifenden, die betroffene Person, die Herkunft der Daten, die Datenkategorien sowie Uhrzeit und Datum des Zugriffs.[^78]",
+     "einfach": "Die Protokollierungskomponente muss sicherstellen, dass sich Angehörige der Gesundheitsberufe zuverlässig authentifizieren (also ihre Identität nachweisen), und jeden Datenzugriff protokollieren: wer zugegriffen hat, wessen Daten betroffen waren, woher die Daten stammen, welche Datenkategorien betroffen waren sowie Datum und Uhrzeit des Zugriffs.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "europäischen Protokollierungssoftwarekomponente", "kategorie": "tech" },
+      { "snippet": "Authentifizierungsmechanismen", "kategorie": "tech" },
+      { "snippet": "Angehörige der Gesundheitsberufe", "kategorie": "akteur" },
+      { "snippet": "Protokollierungsmechanismen", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 78,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt die Sicherheitsanforderungen der Protokollierungskomponente: zuverlässige Authentifizierung und Protokollierung von Identität, betroffener Person, Datenherkunft, Datenkategorien sowie Uhrzeit und Datum des Zugriffs.",
+     "fundstelle": "Anhang II Nr 3",
+     "suchHinweis": "Anhang II Sicherheit Protokollierung Authentifizierung"
+    }
+   ]
+  },
+  {
+   "id": "2.3.3-p5",
+   "type": "text",
+   "kernaussage": "Für EHR-Systeme gilt ein Konformitätsregime mit funktionaler Komponententrennung, technischer Dokumentation, EU-Konformitätserklärung, CE-Kennzeichnung, Registrierung in der EU-Datenbank und nationaler Marktüberwachung.",
+   "sentences": [
+    {
+     "text": "Beide Komponenten müssen voneinander unabhängig operieren, da ihre funktionale Trennung ausdrücklich verlangt wird.[^79]",
+     "einfach": "Die Interoperabilitäts- und die Protokollierungskomponente müssen unabhängig voneinander funktionieren; die Verordnung schreibt diese funktionale Trennung ausdrücklich vor.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "funktionale Trennung", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "EHR-Systeme dürfen daher nur dann in Verkehr gebracht oder in Betrieb genommen werden, wenn sie diesen Anforderungen genügen.[^80]",
+     "einfach": "Ein EHR-System darf nur auf den Markt gebracht (\"in Verkehr gebracht\") oder tatsächlich genutzt (\"in Betrieb genommen\") werden, wenn es alle diese Anforderungen erfüllt.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "EHR-Systeme", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Hersteller von EHR-Systemen haben die technische Dokumentation zu erstellen,[^81] die Konformität durch eine EU-Konformitätserklärung nachzuweisen,[^82] die CE-Konformitätskennzeichnung anzubringen[^83] und das System in der EU-Datenbank für EHR-Systeme und Wellness-Anwendungen zu registrieren.[^84]",
+     "einfach": "Hersteller müssen vier Pflichten erfüllen: eine technische Dokumentation erstellen, mit einer EU-Konformitätserklärung bestätigen, dass ihr System die Vorgaben einhält, das CE-Zeichen (Kennzeichnung für EU-Konformität) anbringen und das System in einer zentralen EU-Datenbank registrieren.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Hersteller von EHR-Systemen", "kategorie": "akteur" },
+      { "snippet": "CE-Konformitätskennzeichnung", "kategorie": "tech" },
+      { "snippet": "EU-Datenbank für EHR-Systeme und Wellness-Anwendungen", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Mitgliedstaaten haben dazu Marktüberwachungsbehörden zu benennen, die mit den erforderlichen Befugnissen und Ressourcen ausgestattet sind, um die sich aus der Verordnung ergebenden Aufgaben erfüllen zu können.[^85]",
+     "einfach": "Jeder EU-Mitgliedstaat muss Marktüberwachungsbehörden benennen, also Behörden, die kontrollieren, ob die EHR-Systeme am Markt die Vorgaben einhalten; diese Behörden müssen ausreichende Befugnisse und Ressourcen erhalten.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" },
+      { "snippet": "Marktüberwachungsbehörden", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 79,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt, dass die funktionale Trennung der beiden Softwarekomponenten in den Begriffsbestimmungen ausdrücklich verlangt wird.",
+     "fundstelle": "Art 2 Abs 2 lit n und o",
+     "suchHinweis": "Artikel 2 Begriffsbestimmungen Softwarekomponente Trennung"
+    },
+    {
+     "num": 80,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt, dass EHR-Systeme nur bei Erfüllung der Anforderungen in Verkehr gebracht oder in Betrieb genommen werden dürfen.",
+     "fundstelle": "Art 26 Abs 1",
+     "suchHinweis": "Artikel 26 Inverkehrbringen Inbetriebnahme Anforderungen"
+    },
+    {
+     "num": 81,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt die Pflicht der Hersteller zur Erstellung der technischen Dokumentation.",
+     "fundstelle": "Art 30 Abs 1",
+     "suchHinweis": "Artikel 30 technische Dokumentation Hersteller"
+    },
+    {
+     "num": 82,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt die Pflicht, die Konformität durch eine EU-Konformitätserklärung nachzuweisen.",
+     "fundstelle": "Art 39 Abs 1",
+     "suchHinweis": "Artikel 39 EU-Konformitätserklärung"
+    },
+    {
+     "num": 83,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt die Pflicht zur Anbringung der CE-Konformitätskennzeichnung.",
+     "fundstelle": "Art 41 Abs 1",
+     "suchHinweis": "Artikel 41 CE-Konformitätskennzeichnung"
+    },
+    {
+     "num": 84,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt die Pflicht zur Registrierung des Systems in der EU-Datenbank für EHR-Systeme und Wellness-Anwendungen.",
+     "fundstelle": "Art 49 Abs 2",
+     "suchHinweis": "Artikel 49 EU-Datenbank Registrierung Wellness-Anwendungen"
+    },
+    {
+     "num": 85,
+     "quellen": ["ehds-vo"],
+     "claim": "Belegt die Pflicht der Mitgliedstaaten, Marktüberwachungsbehörden mit den erforderlichen Befugnissen und Ressourcen zu benennen.",
+     "fundstelle": "Art 43 Abs 2",
+     "suchHinweis": "Artikel 43 Marktüberwachungsbehörden benennen Ressourcen"
+    }
+   ]
+  }
+ ]
+}

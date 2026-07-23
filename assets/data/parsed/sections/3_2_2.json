@@ -1,0 +1,31 @@
+{
+ "sectionId": "3.2.2",
+ "title": "Syntaktische Interoperabilität: Datenformate",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 23,
+ "pdfPage": 33,
+ "paragraphs": [
+  {
+   "id": "3.2.2-p1",
+   "type": "text",
+   "text": "Die syntaktische Ebene betrifft die strukturelle Formatierung der ausgetauschten Daten. Die Technische Interoperabilität stellt sicher, dass ein Dokument übertragen werden kann.[^120] Die syntaktische Interoperabilität stellt sicher, dass das empfangende System die Struktur dieses Dokuments versteht und maschinell verarbeiten kann. Im Gesundheitswesen haben sich HL7 CDA und HL7 FHIR etabliert. Die beiden weit verbreiteten Standards, herausgegeben von Health Level Seven International, unterscheiden sich jedoch in ihrem grundlegenden Paradigma.[^121]",
+   "footnotes": [
+    {
+     "num": 120,
+     "text": "Vgl. HIMSS (2020): Interoperability in Healthcare.",
+     "sources": [
+      "himss2020"
+     ]
+    },
+    {
+     "num": 121,
+     "text": "Vgl. Bossenko et al. (2024):Interoperability of health data using FHIR Mapping Language, S. 4.",
+     "sources": [
+      "bossenko2024"
+     ]
+    }
+   ]
+  }
+ ]
+}

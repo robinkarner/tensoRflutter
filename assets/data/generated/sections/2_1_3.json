@@ -1,0 +1,105 @@
+{
+ "sectionId": "2.1.3",
+ "paragraphs": [
+  {
+   "id": "2.1.3-p1",
+   "type": "text",
+   "kernaussage": "Der DGA setzt einen allgemeinen sektorenübergreifenden Rahmen, während die EHDS-Verordnung spezifische Regeln für den Zugang zu elektronischen Gesundheitsdaten festlegt.",
+   "sentences": [
+    {
+     "text": "Der DGA schafft einen allgemeinen sektorenübergreifenden Rahmen für öffentliche Stellen oder Datenvermittlungsdienste, während die EHDS-Verordnung spezifische Regeln für den Zugang zu elektronischen Gesundheitsdaten festlegt.[^30]",
+     "einfach": "Der DGA (Daten-Governance-Rechtsakt, Verordnung (EU) 2022/868) regelt allgemein und branchenübergreifend, wie öffentliche Stellen Daten weiterverwendbar machen und wie Datenvermittlungsdienste (neutrale Vermittler zwischen Datengebern und Datennutzern) arbeiten. Die EHDS-Verordnung ist demgegenüber das Spezialgesetz für den Zugang zu elektronischen Gesundheitsdaten.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "DGA", "kategorie": "norm" },
+      { "snippet": "öffentliche Stellen", "kategorie": "akteur" },
+      { "snippet": "Datenvermittlungsdienste", "kategorie": "akteur" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 30,
+     "quellen": ["ehds-vo", "dga"],
+     "claim": "Der DGA schafft einen allgemeinen sektorenübergreifenden Rahmen, während die EHDS-Verordnung spezifische Regeln für den Zugang zu elektronischen Gesundheitsdaten festlegt.",
+     "fundstelle": "Art 1 Abs 1 (EHDS-VO); Art 1 Abs 2 (DGA)",
+     "suchHinweis": "Artikel 1 Gegenstand Anwendungsbereich Weiterverwendung Datenvermittlungsdienste"
+    }
+   ]
+  },
+  {
+   "id": "2.1.3-p2",
+   "type": "text",
+   "kernaussage": "Während der DGA nur allgemeine, diskriminierungsfreie Bedingungen für die Weiterverwendung von Daten vorgibt, konkretisiert die EHDS-Verordnung Kriterien und Prüfverfahren des Datenzugangs durch Zugangsstellen.",
+   "sentences": [
+    {
+     "text": "Die allgemeinen Regelungen des DGA verpflichten öffentliche Stellen und Anbieter von Datenvermittlungsdiensten, die Weiterverwendung personenbezogener Daten zu nichtdiskriminierenden, verhältnismäßigen und objektiv gerechtfertigten Bedingungen zu ermöglichen, wobei keine konkreten Entscheidungsverfahren vorgegeben werden und auf sektorspezifische Genehmigungs- und Zertifizierungsverfahren verwiesen wird.[^31]",
+     "einfach": "Der DGA verlangt von öffentlichen Stellen und Datenvermittlungsdiensten nur allgemein, dass die Weiterverwendung personenbezogener Daten zu fairen Bedingungen möglich ist: ohne Diskriminierung, verhältnismäßig und sachlich begründet. Wie konkret über einen Datenzugang entschieden wird, legt der DGA nicht fest, sondern er verweist auf Genehmigungs- und Zertifizierungsverfahren der einzelnen Sektoren.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "DGA", "kategorie": "norm" },
+      { "snippet": "öffentliche Stellen", "kategorie": "akteur" },
+      { "snippet": "Anbieter von Datenvermittlungsdiensten", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die EHDS-Verordnung konkretisiert dazu die Kriterien sowie die Prüfung des Zugangs zu elektronischen Gesundheitsdaten durch Zugangsstellen.[^32]",
+     "einfach": "Genau diese Lücke füllt die EHDS-Verordnung für den Gesundheitsbereich: Sie legt fest, nach welchen Kriterien und in welchem Prüfverfahren die Zugangsstellen für Gesundheitsdaten (nationale Behörden, die Anträge auf Datenzugang prüfen und genehmigen) über den Zugang entscheiden.",
+     "kategorien": ["norm", "akteur"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "Zugangsstellen", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 31,
+     "quellen": ["dga"],
+     "claim": "Der DGA verpflichtet zu nichtdiskriminierenden, verhältnismäßigen und objektiv gerechtfertigten Bedingungen der Weiterverwendung, ohne konkrete Entscheidungsverfahren vorzugeben.",
+     "fundstelle": "Art 1 Abs 1",
+     "suchHinweis": "Artikel 1 Gegenstand Weiterverwendung Bedingungen"
+    },
+    {
+     "num": 32,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung konkretisiert die Kriterien und die Prüfung des Zugangs zu elektronischen Gesundheitsdaten durch die Zugangsstellen.",
+     "fundstelle": "Art 68 Abs 1",
+     "suchHinweis": "Artikel 68 Datenantrag Prüfung Zugangsstelle"
+    }
+   ]
+  },
+  {
+   "id": "2.1.3-p3",
+   "type": "text",
+   "kernaussage": "Umgekehrt verweist die EHDS-Verordnung selbst auf Regelungen des DGA und der Datenverordnung, etwa für die Interoperabilität der grenzüberschreitenden Infrastruktur HealthData@EU.",
+   "sentences": [
+    {
+     "text": "Auf der anderen Seite verweist die EHDS-Verordnung auch explizit auf Regelungen des DGA sowie der Datenverordnung wie beispielsweise für die einzurichtende grenzüberschreitende Infrastruktur (HealthData@EU) hinsichtlich der Interoperabilität.[^33]",
+     "einfach": "Die Beziehung gilt auch in die andere Richtung: Die EHDS-Verordnung verweist selbst ausdrücklich auf Regeln des DGA und der Datenverordnung (Data Act). Ein Beispiel ist HealthData@EU, die geplante grenzüberschreitende Infrastruktur für die Sekundärnutzung von Gesundheitsdaten, bei deren Interoperabilität (Zusammenspiel der Systeme) diese Rechtsakte zu beachten sind.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "DGA", "kategorie": "norm" },
+      { "snippet": "Datenverordnung", "kategorie": "norm" },
+      { "snippet": "HealthData@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 33,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung verweist für die Interoperabilität der grenzüberschreitenden Infrastruktur HealthData@EU explizit auf Regelungen des DGA und der Datenverordnung.",
+     "fundstelle": "Art 75 Abs 11",
+     "suchHinweis": "Artikel 75 HealthData@EU Interoperabilität"
+    }
+   ]
+  }
+ ]
+}

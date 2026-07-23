@@ -1,0 +1,24 @@
+{
+ "sectionId": "4.2",
+ "title": "ELGA-Verordnung 2015 (ELGA-VO 2015)",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 39,
+ "pdfPage": 49,
+ "paragraphs": [
+  {
+   "id": "4.2-p1",
+   "type": "text",
+   "text": "Die ELGA-VO 2015 ist die zentrale Durchführungsverordnung zum GTelG 2012. Sie konkretisiert auf Grundlage der Verordnungsermächtigungen des GTelG 2012 sechs Themenkomplexe. Den Beginn der Speicherverpflichtung für ELGA-GDA, die Liste der wechselwirkungsrelevanten, nicht verschreibungspflichtigen Arzneimittel (OTC-Liste), Standards für Struktur und Format von ELGA-Gesundheitsdaten, die Mindestanforderungen an den ELGA-Aushang, die Betreiberfestlegungen für Berechtigungs- und Protokollierungssystem sowie die Sicherheitsanforderungen für ELGA-Komponenten.[^214] Im Folgenden werden die für diese Arbeit relevanten Bestimmungen behandelt.",
+   "footnotes": [
+    {
+     "num": 214,
+     "text": "Vgl. § 1 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  }
+ ]
+}

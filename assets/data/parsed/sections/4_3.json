@@ -1,0 +1,64 @@
+{
+ "sectionId": "4.3",
+ "title": "Marktüberwachung von EHR-Systemen",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 42,
+ "pdfPage": 52,
+ "paragraphs": [
+  {
+   "id": "4.3-p1",
+   "type": "text",
+   "text": "Die EHDS-Verordnung verpflichtet die Mitgliedstaaten, die für die Umsetzung der EHR-Systeme zuständige Marktüberwachungsbehörde oder die zuständigen Behörden zu benennen und der Kommission mitzuteilen. Die EHDS-Verordnung lässt ausdrücklich zu, dass die gemäß Artikel 19 EHDS-VO zu benennende Stelle für digitale Gesundheit (Digital Health Authority, DHA) gleichzeitig auch als Marktüberwachungsbehörde fungieren kann, sofern Interessenkonflikte verhindert werden.[^241]",
+   "footnotes": [
+    {
+     "num": 241,
+     "text": "Vgl. Art 43 Abs 3 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.3-p2",
+   "type": "text",
+   "text": "Weder eine DHA nach Artikel 19 EHDS-VO noch eine Marktüberwachungsbehörde für EHR-Systeme wurde in Österreich zum Zeitpunkt dieser Arbeit benannt. In einer parlamentarischen Anfragebeantwortung teilt das zuständige Bundesministerium dazu mit:",
+   "footnotes": []
+  },
+  {
+   "id": "4.3-p3",
+   "type": "text",
+   "text": "„Die Einrichtung der vom EHDS vorgeschriebenen Behörden in Österreich und welche bestehenden Institutionen deren Aufgaben wahrnehmen könnten, wird derzeit evaluiert. Dies geschieht entsprechend den Grundsätzen der Sparsamkeit, Wirtschaftlichkeit und Zweckmäßigkeit sowie unter Heranziehung von best practice-Modellen aus dem europäischen und internationalen Umfeld.\" [^242]",
+   "footnotes": [
+    {
+     "num": 242,
+     "text": "Siehe Österreichisches Parlament (2025): Vorbereitungsarbeiten auf den EHDS (374/AB), S. 11.",
+     "sources": [
+      "parlament374ab"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.3-p4",
+   "type": "text",
+   "text": "Darüber hinaus weist die Anfragebeantwortung darauf hin, dass allen drei genannten Einrichtungen teils hoheitlich zu vollziehende Aufgaben zukommen, weshalb deren Einrichtung jedenfalls einer gesetzlichen Verankerung bedarf. Zum Zeitpunkt der Anfragebeantwortung fehlt eine solche gesetzliche Grundlage im österreichischen Recht vollständig. Die Schaffung dieser Grundlage ist damit eine der zentralen offenen Gesetzgebungsaufgaben auf dem Weg zur EHDS-Konformität Österreichs.",
+   "footnotes": []
+  },
+  {
+   "id": "4.3-p5",
+   "type": "text",
+   "text": "Die CE-Kennzeichnungspflicht der EHDS-Verordnung trifft die Softwarehersteller von Krankenhausinformationssystemen (KIS), Praxisverwaltungssystemen für niedergelassene Arztpraxen und medizinische Versorgungszentren (PVS) sowie Radiologieinformationssystemen (RIS). Für sie entsteht damit eine neue Compliance-Pflicht, die bisher nicht existierte. Die bisherige ELGA-CDA-Konformität (Clinical Document Architecture) war über die CDA-Implementierungsleitfäden und die ELGA-Interoperabilitätsstufen (EIS) der ELGA-VO 2015 geregelt, ohne ein förmliches Zertifizierungs- oder Kennzeichnungsregime nach Art der CE-Kennzeichnung vorzusehen.[^243]",
+   "footnotes": [
+    {
+     "num": 243,
+     "text": "Vgl. §§ 13 und 16 ELGA-VO 2015.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  }
+ ]
+}

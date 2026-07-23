@@ -1,0 +1,111 @@
+{
+ "sectionId": "2.3.4",
+ "paragraphs": [
+  {
+   "id": "2.3.4-p1",
+   "type": "text",
+   "kernaussage": "Jeder Mitgliedstaat muss eine nationale Kontaktstelle für digitale Gesundheit benennen, die über die von der Kommission betriebene zentrale Plattform MyHealth@EU mit den Kontaktstellen aller anderen Mitgliedstaaten vernetzt ist.",
+   "sentences": [
+    {
+     "text": "Neben der Marktüberwachungsbehörde, die für die Überwachung der Produktsicherheit und Rechtskonformität verantwortlich ist, hat jeder Mitgliedstaat auch eine nationale Kontaktstelle für digitale Gesundheit als organisatorische und technische Zugangsstelle zu benennen, die für den grenzüberschreitenden Austausch personenbezogener elektronischer Gesundheitsdaten mit allen anderen nationalen Kontaktstellen für digitale Gesundheit verbunden sein muss.[^86]",
+     "einfach": "Jedes EU-Land muss neben der Marktüberwachungsbehörde (der Behörde, die Produktsicherheit und Rechtskonformität kontrolliert) auch eine nationale Kontaktstelle für digitale Gesundheit einrichten. Diese Kontaktstelle ist der offizielle organisatorische und technische Zugangspunkt des Landes und muss mit den Kontaktstellen aller anderen EU-Länder verbunden sein, damit persönliche Gesundheitsdaten über Ländergrenzen hinweg ausgetauscht werden können.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Marktüberwachungsbehörde", "kategorie": "akteur" },
+      { "snippet": "nationale Kontaktstelle für digitale Gesundheit", "kategorie": "akteur" },
+      { "snippet": "nationalen Kontaktstellen für digitale Gesundheit", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Kommission richtet dafür die zentrale Interoperabilitätsplattform MyHealth@EU ein, die durch ihre Dienste den Austausch personenbezogener elektronischer Gesundheitsdaten zwischen den nationalen Kontaktstellen für digitale Gesundheit der Mitgliedstaaten unterstützt und erleichtert.[^87]",
+     "einfach": "Die EU-Kommission baut dafür die zentrale Plattform MyHealth@EU auf. Sie verbindet die nationalen Kontaktstellen der Länder technisch miteinander und stellt Dienste bereit, die den Austausch persönlicher Gesundheitsdaten zwischen ihnen erleichtern (Interoperabilität = Fähigkeit verschiedener Systeme, zusammenzuarbeiten).",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Kommission", "kategorie": "akteur" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" },
+      { "snippet": "nationalen Kontaktstellen für digitale Gesundheit", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 86,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung verpflichtet jeden Mitgliedstaat zur Benennung einer nationalen Kontaktstelle für digitale Gesundheit, die mit allen anderen nationalen Kontaktstellen verbunden sein muss.",
+     "fundstelle": "Art 23 Abs 2",
+     "suchHinweis": "nationale Kontaktstelle für digitale Gesundheit benennen"
+    },
+    {
+     "num": 87,
+     "quellen": ["ehds-vo"],
+     "claim": "Die Kommission richtet die zentrale Interoperabilitätsplattform MyHealth@EU für den Datenaustausch zwischen den nationalen Kontaktstellen ein.",
+     "fundstelle": "Art 23 Abs 1",
+     "suchHinweis": "MyHealth@EU zentrale Interoperabilitätsplattform Kommission"
+    }
+   ]
+  },
+  {
+   "id": "2.3.4-p2",
+   "type": "text",
+   "kernaussage": "Der grenzüberschreitende Austausch läuft im europäischen EHR-Austauschformat ab, wobei die Kontaktstellen gemeinsam datenschutzrechtlich verantwortlich sind, die Kommission als Auftragsverarbeiterin agiert und auch Drittstaaten angebunden werden können.",
+   "sentences": [
+    {
+     "text": "Der Datenaustausch erfolgt auf der Grundlage des europäischen Austauschformats für EHR.[^88]",
+     "einfach": "Die Gesundheitsdaten werden beim grenzüberschreitenden Austausch in einem einheitlichen europäischen Datenformat für elektronische Gesundheitsakten (EHR = Electronic Health Record) übermittelt, damit alle Länder sie verarbeiten können.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "europäischen Austauschformats für EHR", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die nationalen Kontaktstellen fungieren dabei als gemeinsam Verantwortliche für die übermittelten personenbezogenen elektronischen Gesundheitsdaten, während die Kommission als Auftragsverarbeiterin auftritt und zentrale Dienste für die Infrastruktur erbringt.[^89]",
+     "einfach": "Datenschutzrechtlich tragen die nationalen Kontaktstellen gemeinsam die Verantwortung für die ausgetauschten Daten ('gemeinsam Verantwortliche' im Sinne der DSGVO entscheiden zusammen über Zweck und Mittel der Verarbeitung). Die EU-Kommission ist nur 'Auftragsverarbeiterin', das heißt sie verarbeitet die Daten im Auftrag der Verantwortlichen und betreibt die zentralen Dienste der Infrastruktur.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "nationalen Kontaktstellen", "kategorie": "akteur" },
+      { "snippet": "gemeinsam Verantwortliche", "kategorie": "akteur" },
+      { "snippet": "Kommission", "kategorie": "akteur" },
+      { "snippet": "Auftragsverarbeiterin", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Drittstaaten und internationale Organisationen können unter Einhaltung der Anforderungen an MyHealth@EU ebenfalls als befugte Teilnehmer angebunden werden.[^90]",
+     "einfach": "Auch Länder außerhalb der EU (Drittstaaten) und internationale Organisationen dürfen sich an MyHealth@EU anschließen, wenn sie dieselben Anforderungen erfüllen wie die EU-Mitgliedstaaten.",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "Drittstaaten und internationale Organisationen", "kategorie": "akteur" },
+      { "snippet": "MyHealth@EU", "kategorie": "tech" }
+     ],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 88,
+     "quellen": ["ehds-vo"],
+     "claim": "Der Datenaustausch über MyHealth@EU erfolgt auf Grundlage des europäischen Austauschformats für elektronische Gesundheitsakten.",
+     "fundstelle": "Art 23 Abs 3",
+     "suchHinweis": "Austauschformat elektronische Patientenakten Datenaustausch"
+    },
+    {
+     "num": 89,
+     "quellen": ["ehds-vo"],
+     "claim": "Die nationalen Kontaktstellen sind gemeinsam Verantwortliche, die Kommission ist Auftragsverarbeiterin für die über MyHealth@EU übermittelten Daten.",
+     "fundstelle": "Art 23 Abs 7",
+     "suchHinweis": "gemeinsam Verantwortliche Auftragsverarbeiter Kommission"
+    },
+    {
+     "num": 90,
+     "quellen": ["ehds-vo"],
+     "claim": "Drittstaaten und internationale Organisationen können unter den Voraussetzungen der Verordnung als befugte Teilnehmer an MyHealth@EU angebunden werden.",
+     "fundstelle": "Art 24 Abs 3",
+     "suchHinweis": "Drittländer internationale Organisationen befugte Teilnehmer MyHealth@EU"
+    }
+   ]
+  }
+ ]
+}

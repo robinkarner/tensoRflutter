@@ -1,0 +1,37 @@
+{
+ "sectionId": "4.0",
+ "title": "Überblick",
+ "chapter": 4,
+ "chapterTitle": "Rechtlicher Rahmen in Österreich",
+ "page": 35,
+ "pdfPage": 45,
+ "paragraphs": [
+  {
+   "id": "4.0-p1",
+   "type": "text",
+   "text": "Der österreichische Rechtsrahmen für die digitale Gesundheitsversorgung wird vom Gesundheitstelematikgesetz 2012 (GTelG 2012)[^188] und der ELGA-Verordnung 2015 (ELGA-VO 2015)[^189] gebildet. Sie regeln Speicherpflichten, Akteure und Zugriffsrechte innerhalb der nationalen eHealth-Infrastruktur.",
+   "footnotes": [
+    {
+     "num": 188,
+     "text": "Bundesgesetz betreffend Datensicherheitsmaßnahmen bei der Verarbeitung elektronischer Gesundheitsdaten und genetischer Daten (Gesundheitstelematikgesetz 2012 – GTelG 2012), BGBl. I Nr. 111/2012 idF BGBl. I Nr. 94/2025.",
+     "sources": [
+      "gtelg2012"
+     ]
+    },
+    {
+     "num": 189,
+     "text": "Verordnung der Bundesministerin für Gesundheit zur Implementierung und Weiterentwicklung von ELGA (ELGA-Verordnung 2015 – ELGA-VO 2015), BGBl. II Nr. 106/2015 idF BGBl. II Nr. 11/2025.",
+     "sources": [
+      "elga-vo2015"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.0-p2",
+   "type": "text",
+   "text": "Mit der EHDS-Verordnung entstehen jedoch neue Anforderungen, die sich auf den rechtlichen Rahmen in Österreich auswirken. Nationale Marktüberwachungsbehörden müssen für die CE-Konformität von EHR-Systemen eingerichtet werden (siehe Abschnitt 4.3), das Zusammenspiel des österreichischen Opt-Out-Modells mit dem zusätzlichen Opt-In-Erfordernis für den grenzüberschreitenden Austausch ist mit dem europäischen Primärnutzungsregime abzugleichen (siehe Abschnitt 4.4), und die grenzüberschreitende Anbindung über die nationale Kontaktstelle (National Contact Point for eHealth - NCPeH) im Rahmen von MyHealth@EU erfordert sowohl technische als auch rechtliche Anpassungen (siehe Abschnitt 4.5). Schlussendlich ordnet ein nationaler Stufenplan diese Herausforderungen in die verbindlichen EHDS-Umsetzungsfristen bis 2029 bzw. 2031 ein (siehe Abschnitt 4.6).",
+   "footnotes": []
+  }
+ ]
+}

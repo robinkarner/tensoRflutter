@@ -1,0 +1,285 @@
+{
+ "sectionId": "3.3.1",
+ "paragraphs": [
+  {
+   "id": "3.3.1-p1",
+   "type": "text",
+   "kernaussage": "Authentifizierung ist - in Abgrenzung zur vorgelagerten Identifikation - die Überprüfung einer behaupteten Identität durch den Nachweis der Kontrolle über kontogebundene Authentifikatoren.",
+   "sentences": [
+    {
+     "text": "Die Authentifizierung bildet die Grundlage jeder Zugriffsentscheidung und lässt sich von der vorgelagerten Identifikation abgrenzen.",
+     "einfach": "Bevor ein System über einen Zugriff entscheiden kann, muss es wissen, wer zugreift. Dabei sind zwei Schritte zu unterscheiden: zuerst die Identifikation, dann die Authentifizierung.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Bei der Identifikation behauptet eine Person, eine bestimmte Identität, etwa durch Eingabe einer Benutzerkennung, zu haben.",
+     "einfach": "Identifikation ist nur eine Behauptung: Jemand gibt z. B. einen Benutzernamen ein und sagt damit 'ich bin diese Person' - bewiesen ist damit noch nichts.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Authentifizierung ist demgegenüber der Prozess, durch den ein Antragsteller den Besitz und die Kontrolle über einen oder mehrere Authentifikatoren nachweist, die mit einem Nutzerkonto verknüpft sind, und so belegt, dass er tatsächlich die dem Konto zugeordnete Person ist.[^145]",
+     "einfach": "Authentifizierung ist der Beweis-Schritt: Die Person zeigt, dass sie ein an das Konto gebundenes Beweismittel ('Authentifikator', z. B. ein Passwort oder eine Chipkarte) besitzt und kontrolliert - und belegt so, dass sie wirklich die Kontoinhaberin bzw. der Kontoinhaber ist.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Authentifikatoren", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Authentifizierung ist somit die Überprüfung der zuvor behaupteten Identität.[^146]",
+     "einfach": "Kurz gesagt: Die Authentifizierung prüft, ob die bei der Identifikation behauptete Identität stimmt.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 145,
+     "quellen": ["nist-800-63b-2017"],
+     "claim": "Authentifizierung ist nach NIST der Prozess, durch den ein Antragsteller Besitz und Kontrolle über kontogebundene Authentifikatoren nachweist und so seine Kontozugehörigkeit belegt.",
+     "fundstelle": "S. 2",
+     "suchHinweis": "authentication process demonstrating possession control authenticators"
+    },
+    {
+     "num": 146,
+     "quellen": ["nist-800-63b-2017"],
+     "claim": "Authentifizierung ist die Überprüfung der zuvor behaupteten Identität.",
+     "fundstelle": "S. 2",
+     "suchHinweis": "verify claimed identity subscriber account"
+    }
+   ]
+  },
+  {
+   "id": "3.3.1-p2",
+   "type": "text",
+   "kernaussage": "Authentifizierungsfaktoren gliedern sich in Wissen, Besitz und Inhärenz; Mehrfaktor-Authentifizierung kombiniert mindestens zwei Kategorien und erhöht die Sicherheit deutlich, wobei PKI-basierte Verfahren als besonders sicher gelten.",
+   "sentences": [
+    {
+     "text": "Die hierfür eingesetzten Authentifizierungsfaktoren werden in drei Kategorien unterteilt: Wissen (etwas, das man weiß - beispielsweise ein Passwort, eine Passphrase oder eine PIN), Besitz (etwas, das man hat - beispielsweise eine Chipkarte oder ein Token) und Inhärenz (etwas, das man ist - beispielsweise ein Fingerabdruck oder ein Iris-Scan).[^147]",
+     "einfach": "Es gibt drei Arten von Nachweisen ('Faktoren'): Wissen (etwas, das nur ich weiß, z. B. ein Passwort), Besitz (etwas, das nur ich habe, z. B. eine Chipkarte) und Inhärenz (etwas, das ich bin, z. B. ein Fingerabdruck).",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Wissen", "kategorie": "tech" },
+      { "snippet": "Besitz", "kategorie": "tech" },
+      { "snippet": "Inhärenz", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Je nach Anzahl der kombinierten Faktoren unterscheidet man Einfaktor-, Zweifaktor- und Mehrfaktor-Authentifizierung.[^148]",
+     "einfach": "Je nachdem, wie viele dieser Faktoren kombiniert werden, spricht man von Einfaktor-, Zweifaktor- oder Mehrfaktor-Authentifizierung.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Einfaktor-, Zweifaktor- und Mehrfaktor-Authentifizierung", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Während die Einfaktor-Authentifizierung - typischerweise die Kombination aus Benutzername und Passwort - nur auf einer einzigen Kategorie beruht, kombiniert die Mehrfaktor-Authentifizierung Faktoren aus mindestens zwei unterschiedlichen Kategorien und erhöht damit die Sicherheit erheblich.[^149]",
+     "einfach": "Benutzername plus Passwort ist nur ein einziger Faktor (Wissen). Mehrfaktor-Authentifizierung verlangt Nachweise aus mindestens zwei verschiedenen Kategorien (z. B. Passwort plus Chipkarte) - ein Angreifer müsste dann beides überwinden, was die Sicherheit stark erhöht.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Einfaktor-Authentifizierung", "kategorie": "tech" },
+      { "snippet": "Mehrfaktor-Authentifizierung", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Ein in der Praxis weit verbreitetes und besonders sicheres Verfahren beruht auf einer Public-Key-Infrastruktur (PKI), die digitale Signaturen mittels digitaler Zertifikate zur Identitätsprüfung standardisiert.[^150]",
+     "einfach": "Besonders sicher sind Verfahren auf Basis einer Public-Key-Infrastruktur (PKI): Dabei bestätigen digitale Zertifikate (elektronische Ausweise, ausgestellt von einer vertrauenswürdigen Stelle) über kryptografische Signaturen, wer jemand ist.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Public-Key-Infrastruktur (PKI)", "kategorie": "tech" },
+      { "snippet": "digitaler Zertifikate", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 147,
+     "quellen": ["cobrado2024"],
+     "claim": "Authentifizierungsfaktoren werden in die drei Kategorien Wissen, Besitz und Inhärenz unterteilt.",
+     "fundstelle": "S. 3",
+     "suchHinweis": "knowledge possession inherence authentication factors"
+    },
+    {
+     "num": 148,
+     "quellen": ["cobrado2024"],
+     "claim": "Nach der Anzahl kombinierter Faktoren wird zwischen Einfaktor-, Zweifaktor- und Mehrfaktor-Authentifizierung unterschieden.",
+     "fundstelle": "S. 3",
+     "suchHinweis": "single-factor two-factor multi-factor authentication"
+    },
+    {
+     "num": 149,
+     "quellen": ["nist-800-63-4-2025"],
+     "claim": "Mehrfaktor-Authentifizierung kombiniert Faktoren aus mindestens zwei unterschiedlichen Kategorien und erhöht die Sicherheit erheblich gegenüber der Einfaktor-Authentifizierung.",
+     "fundstelle": "S. 11",
+     "suchHinweis": "multi-factor authentication two different factors security"
+    },
+    {
+     "num": 150,
+     "quellen": ["cobrado2024"],
+     "claim": "PKI-basierte Verfahren mit digitalen Zertifikaten sind ein weit verbreitetes und besonders sicheres Authentifizierungsverfahren.",
+     "fundstelle": "S. 10",
+     "suchHinweis": "public key infrastructure digital certificates signatures"
+    }
+   ]
+  },
+  {
+   "id": "3.3.1-p3",
+   "type": "text",
+   "kernaussage": "Einrichtungsübergreifende Authentifizierung wird durch föderiertes Identitätsmanagement gelöst, dessen maßgeblicher Standard SAML digital signierte Assertions zwischen Identity Provider und Service Provider austauscht.",
+   "sentences": [
+    {
+     "text": "Eine besondere Herausforderung in vernetzten Gesundheitssystemen ist die einrichtungsübergreifende Authentifizierung, da ein Behandler, der bei seiner eigenen Organisation angemeldet ist, auch auf Daten anderer Einrichtungen zugreifen können soll.",
+     "einfach": "In vernetzten Gesundheitssystemen reicht die Anmeldung bei der eigenen Organisation nicht: Eine Ärztin oder ein Arzt soll z. B. auch Befunde aus einem anderen Krankenhaus abrufen können - ohne sich dort separat anmelden zu müssen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Behandler", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Diese organisationsübergreifende Authentifizierung kann durch föderiertes Identitätsmanagement gelöst werden, bei dem Föderationstechnologien einem Service Provider sichere Methoden bereitstellen, um Nutzer zu identifizieren, die von einem Identity Provider authentifiziert wurden.[^151]",
+     "einfach": "Die Lösung heißt föderiertes Identitätsmanagement: Ein 'Identity Provider' (die Stelle, die die Anmeldung durchführt) bestätigt die Identität, und ein 'Service Provider' (der Dienst, auf den zugegriffen wird) verlässt sich über sichere Föderationstechnik auf diese Bestätigung.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "föderiertes Identitätsmanagement", "kategorie": "tech" },
+      { "snippet": "Service Provider", "kategorie": "tech" },
+      { "snippet": "Identity Provider", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der maßgebliche Standard hierfür ist die Security Assertion Markup Language (SAML), ein von der Organization for the Advancement of Structured Information Standards (OASIS) verabschiedeter Föderationsstandard.[^152]",
+     "einfach": "Der wichtigste Standard dafür ist SAML (Security Assertion Markup Language), verabschiedet von OASIS, einer internationalen Organisation für IT-Standards.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "Security Assertion Markup Language (SAML)", "kategorie": "tech" },
+      { "snippet": "Organization for the Advancement of Structured Information Standards (OASIS)", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "SAML ermöglicht es, Authentifizierungs- und Autorisierungsinformationen in Form digital signierter Aussagen, sogenannter Assertions, zwischen einem Identity Provider und einem Service Provider auszutauschen, sodass eine an einer Stelle erfolgte Authentifizierung auch von anderen Stellen anerkannt werden kann.[^153]",
+     "einfach": "Mit SAML verschickt der Identity Provider digital signierte 'Assertions' (fälschungssichere Bestätigungen der Form 'diese Person wurde authentifiziert und hat folgende Rechte') an den Service Provider. So gilt eine einmal erfolgte Anmeldung auch bei anderen Stellen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "SAML", "kategorie": "tech" },
+      { "snippet": "Assertions", "kategorie": "tech" },
+      { "snippet": "Identity Provider", "kategorie": "tech" },
+      { "snippet": "Service Provider", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 151,
+     "quellen": ["fernandez2013"],
+     "claim": "Organisationsübergreifende Authentifizierung kann durch föderiertes Identitätsmanagement gelöst werden, bei dem Service Provider von einem Identity Provider authentifizierte Nutzer sicher identifizieren.",
+     "fundstelle": "S. 557",
+     "suchHinweis": "federated identity management service provider identity provider"
+    },
+    {
+     "num": 152,
+     "quellen": ["fernandez2013"],
+     "claim": "SAML ist der maßgebliche, von OASIS verabschiedete Föderationsstandard.",
+     "fundstelle": "S. 557",
+     "suchHinweis": "SAML OASIS federation standard"
+    },
+    {
+     "num": 153,
+     "quellen": ["fernandez2013"],
+     "claim": "SAML tauscht Authentifizierungs- und Autorisierungsinformationen als digital signierte Assertions zwischen Identity Provider und Service Provider aus.",
+     "fundstelle": "S. 557",
+     "suchHinweis": "SAML assertions authentication authorization exchange"
+    }
+   ]
+  },
+  {
+   "id": "3.3.1-p4",
+   "type": "text",
+   "kernaussage": "Im EHDS erfolgt die Authentifizierung über nach Art 6 eIDAS-Verordnung anerkannte eIDs; da eIDAS ursprünglich keinen Patientenidentifikator vorsah, zeigten EU-Projekte dessen Übertragung über die eIDAS-Infrastruktur und die nationalen Kontaktstellen.",
+   "sentences": [
+    {
+     "text": "Im grenzüberschreitenden Kontext des EHDS gewinnt die Authentifizierung eine zusätzliche, europäische Dimension.",
+     "einfach": "Sobald Gesundheitsdaten über Ländergrenzen hinweg ausgetauscht werden (wie im EHDS vorgesehen), muss die Authentifizierung auch europaweit funktionieren.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    },
+    {
+     "text": "Die Authentifizierung für den Zugang zu den EHDS-Diensten erfolgt mittels sicherer elektronischer Identifizierungsmethoden (eIDs), die nach Artikel 6 der eIDAS-Verordnung (EU) Nr. 910/2014 anerkannt sind.",
+     "einfach": "Für den Zugang zu den EHDS-Diensten werden elektronische Identitäten (eIDs) verwendet - digitale Ausweise, die nach Artikel 6 der eIDAS-Verordnung (der EU-Verordnung über elektronische Identifizierung und Vertrauensdienste) EU-weit anerkannt sind.",
+     "kategorien": ["norm", "tech"],
+     "marks": [
+      { "snippet": "elektronischer Identifizierungsmethoden (eIDs)", "kategorie": "tech" },
+      { "snippet": "Artikel 6 der eIDAS-Verordnung (EU) Nr. 910/2014", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "In vielen Fällen kommen dabei nationale eIDs zum Einsatz.[^154]",
+     "einfach": "Meist werden dafür die nationalen elektronischen Identitäten der Mitgliedstaaten genutzt (in Österreich z. B. die ID Austria).",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "nationale eIDs", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die zuverlässige Identifizierung von Patientinnen und Patienten sowie von Angehörigen der Gesundheitsberufe über Staatsgrenzen hinweg ist eine wesentliche Voraussetzung für vertrauenswürdige digitale Gesundheitsinteraktionen zwischen den Mitgliedstaaten.[^155]",
+     "einfach": "Damit sich Gesundheitssysteme verschiedener EU-Länder gegenseitig vertrauen können, müssen sowohl Patienten als auch Gesundheitspersonal über Grenzen hinweg eindeutig und zuverlässig identifizierbar sein.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Angehörigen der Gesundheitsberufe", "kategorie": "akteur" },
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Da die eIDAS-Verordnung jedoch ursprünglich keine ausdrückliche Regelung für den im Gesundheitswesen erforderlichen Patientenidentifikator vorsah, wurde in entsprechenden EU-Projekten gezeigt, dass diese Information über die eIDAS-Infrastruktur und die nationale Kontaktstelle von Land zu Land übertragen werden kann.[^156]",
+     "einfach": "Die eIDAS-Verordnung sah ursprünglich keinen speziellen Patientenidentifikator vor - also keine eindeutige Kennnummer, mit der ein Patient im Gesundheitswesen identifiziert wird. EU-Pilotprojekte haben aber gezeigt, dass sich diese Kennung trotzdem über die bestehende eIDAS-Infrastruktur und die nationalen Kontaktstellen (die zentralen Vermittlungsstellen jedes Landes für den grenzüberschreitenden Gesundheitsdatenaustausch) übermitteln lässt.",
+     "kategorien": ["norm", "tech", "akteur", "luecke"],
+     "marks": [
+      { "snippet": "eIDAS-Verordnung", "kategorie": "norm" },
+      { "snippet": "keine ausdrückliche Regelung für den im Gesundheitswesen erforderlichen Patientenidentifikator", "kategorie": "luecke" },
+      { "snippet": "eIDAS-Infrastruktur", "kategorie": "tech" },
+      { "snippet": "nationale Kontaktstelle", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 154,
+     "quellen": ["ek-faq2025"],
+     "claim": "Die Authentifizierung für den Zugang zu den EHDS-Diensten erfolgt über nach Art 6 eIDAS anerkannte eIDs, in vielen Fällen nationale eIDs.",
+     "fundstelle": "S. 13",
+     "suchHinweis": "authentication eID eIDAS national electronic identification"
+    },
+    {
+     "num": 155,
+     "quellen": ["eidas"],
+     "claim": "Die zuverlässige grenzüberschreitende Identifizierung von Patienten und Gesundheitsberufen ist eine wesentliche Voraussetzung für vertrauenswürdige digitale Gesundheitsinteraktionen zwischen den Mitgliedstaaten.",
+     "fundstelle": "ABl. L 257 vom 28.8.2014, S. 73",
+     "suchHinweis": "elektronische Identifizierung grenzüberschreitend Vertrauensdienste Binnenmarkt"
+    },
+    {
+     "num": 156,
+     "quellen": ["stasis2018"],
+     "claim": "EU-Projekte haben gezeigt, dass der Patientenidentifikator über die eIDAS-Infrastruktur und die nationale Kontaktstelle von Land zu Land übertragen werden kann.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "eIDAS patient identifier cross-border eHealth national contact point"
+    }
+   ]
+  }
+ ]
+}

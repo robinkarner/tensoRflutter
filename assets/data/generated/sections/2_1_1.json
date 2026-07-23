@@ -1,0 +1,240 @@
+{
+ "sectionId": "2.1.1",
+ "paragraphs": [
+  {
+   "id": "2.1.1-p1",
+   "type": "text",
+   "kernaussage": "Die europäische Datenstrategie zielt auf einen einheitlichen europäischen Datenraum, in dem personenbezogene wie nicht-personenbezogene Daten sicher sind.",
+   "sentences": [
+    {
+     "text": "Die europäische Datenstrategie der Kommission verfolgt das Ziel, einen einheitlichen europäischen Datenraum zu schaffen, in dem sowohl personenbezogene als auch nicht-personenbezogene Daten sicher sind.[^14]",
+     "einfach": "Die europäische Datenstrategie ist ein Plan der EU-Kommission für einen gemeinsamen europäischen Datenraum. In diesem sollen sowohl personenbezogene Daten (Daten mit Bezug zu einer bestimmten Person) als auch nicht-personenbezogene Daten sicher sein.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Kommission", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 14,
+     "quellen": ["ek-datenstrategie2020"],
+     "claim": "Ziel der europäischen Datenstrategie ist ein einheitlicher europäischer Datenraum, in dem personenbezogene und nicht-personenbezogene Daten sicher sind.",
+     "fundstelle": "3. Zielvorstellungen, S. 5",
+     "suchHinweis": "einheitlicher europäischer Datenraum Zielvorstellungen"
+    }
+   ]
+  },
+  {
+   "id": "2.1.1-p2",
+   "type": "text",
+   "kernaussage": "Für den Gesundheitsdatenraum betont die Datenstrategie das Zugangs- und Verfügungsrecht der Bürger über ihre Gesundheitsdaten, einschließlich sicherer Patientenakten, Datenübertragbarkeit und jederzeit widerrufbarer Einwilligung.",
+   "sentences": [
+    {
+     "text": "Als sektorspezifische Maßnahme für den gemeinsamen europäischen Gesundheitsdatenraum hebt die Strategie insbesondere das Zugangsrecht von Bürgerinnen und Bürgern zu ihren persönlichen Gesundheitsdaten und das persönliche Verfügungsrecht dieser Daten hervor.",
+     "einfach": "Für den Gesundheitsbereich betont die Datenstrategie zwei Rechte der Bürger: das Recht, auf die eigenen Gesundheitsdaten zuzugreifen, und das Recht, selbst über diese Daten zu bestimmen.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Da diese Rechte bislang uneinheitlich umgesetzt werden, sind die Bemühungen darauf gerichtet, dass alle Bürger einen sicheren Zugang zu ihren elektronischen Patientenakten haben und für die Übertragbarkeit ihrer Daten - innerhalb des Landes und über Grenzen hinweg - sorgen können.",
+     "einfach": "Weil diese Rechte in den EU-Ländern bisher unterschiedlich umgesetzt sind, soll erreicht werden, dass alle Bürger sicher auf ihre elektronischen Patientenakten zugreifen und ihre Daten übertragen können - sowohl im eigenen Land als auch über Landesgrenzen hinweg.",
+     "kategorien": ["luecke", "tech"],
+     "marks": [
+      { "snippet": "bislang uneinheitlich umgesetzt", "kategorie": "luecke" },
+      { "snippet": "elektronischen Patientenakten", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Außerdem müssen diese sicher sein können, dass ihre Daten, nachdem sie ihre Einwilligung zu deren Nutzung gegeben haben, in den Gesundheitssystemen ethisch korrekt verwendet werden, und dass sie die erteilte Einwilligung jederzeit widerrufen können. [^15]",
+     "einfach": "Bürger sollen sich außerdem darauf verlassen können, dass ihre Daten nach einer Einwilligung (Zustimmung zur Datennutzung) in den Gesundheitssystemen ethisch korrekt genutzt werden, und sie sollen diese Einwilligung jederzeit zurückziehen können.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 15,
+     "quellen": ["ek-datenstrategie2020"],
+     "claim": "Die Datenstrategie fordert für alle Bürger sicheren Zugang zu elektronischen Patientenakten, Übertragbarkeit ihrer Daten sowie ethisch korrekte Datennutzung mit jederzeit widerrufbarer Einwilligung.",
+     "fundstelle": "Anlage 4, S. 34",
+     "suchHinweis": "Gemeinsamer europäischer Gesundheitsdatenraum Patientenakten Übertragbarkeit Einwilligung"
+    }
+   ]
+  },
+  {
+   "id": "2.1.1-p3",
+   "type": "text",
+   "kernaussage": "Die Datenstrategie kündigt konkrete Maßnahmen zur Vorbereitung des europäischen Gesundheitsdatenraums an, die Versorgung, Forschung und Gesundheitspolitik der Mitgliedstaaten unterstützen sollen.",
+   "sentences": [
+    {
+     "text": "Die Strategie der Kommission führt zudem konkrete Maßnahmen zur Vorbereitung des europäischen Gesundheitsdatenraums an, die zu Prävention, Diagnose und Behandlung, Forschung und Innovation, Politikgestaltung und Regulierungsmaßnahmen der Mitgliedstaaten im Bereich der öffentlichen Gesundheit beitragen sollen.",
+     "einfach": "Die Datenstrategie nennt außerdem konkrete Schritte, um den europäischen Gesundheitsdatenraum vorzubereiten. Diese sollen Vorbeugung, Diagnose und Behandlung von Krankheiten, Forschung und Innovation sowie die Gesundheitspolitik und Regulierung der EU-Länder unterstützen.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "Kommission", "kategorie": "akteur" },
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Dazu zählen:[^16]",
+     "einfach": "Es folgt eine Aufzählung dieser Maßnahmen.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 16,
+     "quellen": ["ek-datenstrategie2020"],
+     "claim": "Die Datenstrategie führt konkrete Maßnahmen zur Vorbereitung des europäischen Gesundheitsdatenraums an.",
+     "fundstelle": "Anlage 4, S. 35",
+     "suchHinweis": "Gesundheitsdatenraum Maßnahmen Patientenakten eHDSI"
+    }
+   ]
+  },
+  {
+   "id": "2.1.1-p4",
+   "type": "list",
+   "kernaussage": "Die Datenstrategie listet sechs konkrete Maßnahmen zur Vorbereitung des Gesundheitsdatenraums auf - von ergänzenden Rechtsakten über einen DSGVO-Verhaltenskodex und das europäische Austauschformat bis zum grenzüberschreitenden Datenaustausch über die eHDSI.",
+   "sentences": [
+    {
+     "text": "legislative oder nicht-legislative Maßnahmen, die den Rahmen der gemeinsamen Datenräume ergänzen,",
+     "einfach": "Gemeint sind neue Gesetze oder andere Maßnahmen (z. B. Leitlinien und Förderprogramme), die die allgemeinen Regeln für die gemeinsamen Datenräume ergänzen.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "einen Verhaltenskodex für die Verarbeitung personenbezogener Daten im Einklang mit Artikel 40 DSGVO ausarbeiten,",
+     "einfach": "Es soll ein Verhaltenskodex entstehen, also branchenspezifische Regeln für den Umgang mit personenbezogenen Daten; Artikel 40 DSGVO sieht solche Kodizes ausdrücklich vor.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "Artikel 40 DSGVO", "kategorie": "norm" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "die Entwicklung nationaler elektronischer Patientenakten und die Interoperabilität von Gesundheitsdaten durch die Anwendung des europäischen Austauschformats für elektronische Patientenakten fördern,",
+     "einfach": "Die EU-Länder sollen elektronische Patientenakten aufbauen; damit die Systeme zusammenarbeiten können (Interoperabilität), soll ein gemeinsames europäisches Austauschformat für Patientenakten genutzt werden.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "europäischen Austauschformats für elektronische Patientenakten", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Genominformationen (für mindestens 10 Millionen Menschen bis 2025) und digitale medizinische Bilddaten im Einklang mit der DSGVO über sichere zusammengeschlossene Archive verknüpfen und nutzen,",
+     "einfach": "Genomdaten (Erbgutinformationen) von mindestens 10 Millionen Menschen bis 2025 sowie digitale medizinische Bilddaten sollen über sichere, miteinander verbundene Datenarchive verknüpft und genutzt werden - unter Einhaltung der DSGVO.",
+     "kategorien": ["zahl", "frist", "norm"],
+     "marks": [
+      { "snippet": "mindestens 10 Millionen Menschen", "kategorie": "zahl" },
+      { "snippet": "bis 2025", "kategorie": "frist" },
+      { "snippet": "DSGVO", "kategorie": "norm" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "bis zum Jahr 2022 die Weitergabe elektronischer Patientenkurzakten und elektronischer Verschreibungen zwischen 22 Mitgliedstaaten, die an der digitalen eHealth-Diensteinfrastruktur (eHDSI) teilnehmen, ermöglichen und",
+     "einfach": "Bis 2022 sollten 22 EU-Länder über die gemeinsame technische Infrastruktur eHDSI (eHealth Digital Service Infrastructure) Patientenkurzakten (kompakte Zusammenfassungen der wichtigsten Gesundheitsdaten) und elektronische Rezepte austauschen können.",
+     "kategorien": ["frist", "zahl", "tech"],
+     "marks": [
+      { "snippet": "bis zum Jahr 2022", "kategorie": "frist" },
+      { "snippet": "22 Mitgliedstaaten", "kategorie": "zahl" },
+      { "snippet": "eHealth-Diensteinfrastruktur (eHDSI)", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "den Beginn der grenzüberschreitenden elektronischen Weitergabe von medizinischen Bilddaten, Laborergebnissen und Entlassungsberichten über die eHDSI einläuten sowie das Modell der virtuellen ärztlichen Beratung und Register Europäischer Referenznetzwerke verbessern.",
+     "einfach": "Über die eHDSI soll auch der grenzüberschreitende Austausch von medizinischen Bilddaten, Laborbefunden und Entlassungsberichten beginnen. Außerdem sollen virtuelle Arztberatungen und die Register der Europäischen Referenznetzwerke (EU-weite Netzwerke von Spezialkliniken, v. a. für seltene Krankheiten) verbessert werden.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "eHDSI", "kategorie": "tech" },
+      { "snippet": "Europäischer Referenznetzwerke", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": []
+  },
+  {
+   "id": "2.1.1-p5",
+   "type": "text",
+   "kernaussage": "Neben der Datenstrategie bildeten die Cyberresilienz-Verordnung, die Richtlinie 2011/24/EU und die Empfehlung zum europäischen Austauschformat Grundlagen der EHDS-Verordnung, die diese Rechtsakte teilweise auch abändert.",
+   "sentences": [
+    {
+     "text": "Neben der europäischen Datenstrategie bildeten die Cyberresilienz-Verordnung (CRA)[^17], die bereits erwähnte Richtlinie 2011/24/EU zur grenzüberschreitenden Gesundheitsversorgung sowie die Empfehlung über das europäische Austauschformat für elektronische Patientenakten[^18] eine Grundlage für die EHDS-Verordnung und wurden durch diese teilweise auch abgeändert.[^19]",
+     "einfach": "Grundlagen der EHDS-Verordnung waren neben der Datenstrategie drei weitere EU-Rechtsakte: die Cyberresilienz-Verordnung (CRA, Cybersicherheitsanforderungen für Produkte mit digitalen Elementen), die Richtlinie 2011/24/EU zur grenzüberschreitenden Gesundheitsversorgung und die Empfehlung zum europäischen Austauschformat für Patientenakten. Einige dieser Rechtsakte wurden durch die EHDS-Verordnung auch teilweise geändert.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "Cyberresilienz-Verordnung (CRA)", "kategorie": "norm" },
+      { "snippet": "Richtlinie 2011/24/EU", "kategorie": "norm" },
+      { "snippet": "Empfehlung über das europäische Austauschformat für elektronische Patientenakten", "kategorie": "norm" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 17,
+     "quellen": ["cra"],
+     "claim": "Die Cyberresilienz-Verordnung (CRA) regelt horizontale Cybersicherheitsanforderungen für Produkte mit digitalen Elementen und zählt zu den Grundlagen der EHDS-Verordnung.",
+     "fundstelle": "",
+     "suchHinweis": "Verordnung 2024/2847 Cyberresilienz Produkte digitale Elemente"
+    },
+    {
+     "num": 18,
+     "quellen": ["empfehlung2019-243"],
+     "claim": "Die Empfehlung (EU) 2019/243 betrifft ein europäisches Austauschformat für elektronische Patientenakten und war eine Grundlage der EHDS-Verordnung.",
+     "fundstelle": "",
+     "suchHinweis": "Empfehlung 2019/243 Austauschformat elektronische Patientenakten"
+    },
+    {
+     "num": 19,
+     "quellen": ["ehds-vo"],
+     "claim": "Die EHDS-Verordnung ändert vorbestehende Rechtsakte wie die Richtlinie 2011/24/EU und die Verordnung (EU) 2024/2847 teilweise ab.",
+     "fundstelle": "Art 103 und Art 104",
+     "suchHinweis": "Artikel 103 Artikel 104 Änderung Richtlinie 2011/24"
+    }
+   ]
+  },
+  {
+   "id": "2.1.1-p6",
+   "type": "text",
+   "kernaussage": "Die EHDS-Verordnung präzisiert und ergänzt als sektorspezifischer Rechtsakt die DSGVO für elektronische Gesundheitsdaten und besteht neben DGA, Datenverordnung und NIS-2-Richtlinie, ohne diese zu verdrängen.",
+   "sentences": [
+    {
+     "text": "Als sektorspezifischer Rechtsakt des europäischen Datenwirtschaftsrechts steht die EHDS-Verordnung in einem engen Wechselverhältnis zu einer Reihe von Unionsrechtsakten.",
+     "einfach": "Die EHDS-Verordnung ist ein EU-Rechtsakt speziell für den Gesundheitssektor und hängt eng mit mehreren anderen EU-Rechtsakten zum Datenrecht zusammen.",
+     "kategorien": ["norm", "these"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "in einem engen Wechselverhältnis", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie baut auf den Grundrechten und Verarbeitungsregeln der DSGVO auf, die sie für elektronische Gesundheitsdaten präzisiert und ergänzt, ohne den DGA, die Datenverordnung oder die Anforderungen der NIS-2-Richtlinie an Cybersicherheit und Meldepflichten zu verdrängen.",
+     "einfach": "Sie baut auf der DSGVO auf und macht deren Regeln für elektronische Gesundheitsdaten genauer. Andere Rechtsakte wie der DGA (Daten-Governance-Rechtsakt), die Datenverordnung und die NIS-2-Richtlinie (Cybersicherheit und Pflichten zur Meldung von Sicherheitsvorfällen) gelten daneben unverändert weiter.",
+     "kategorien": ["norm", "these"],
+     "marks": [
+      { "snippet": "DSGVO", "kategorie": "norm" },
+      { "snippet": "DGA", "kategorie": "norm" },
+      { "snippet": "Datenverordnung", "kategorie": "norm" },
+      { "snippet": "NIS-2-Richtlinie", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": []
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "sectionId": "3.3.3",
+ "title": "Protokollierung",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 29,
+ "pdfPage": 39,
+ "paragraphs": [
+  {
+   "id": "3.3.3-p1",
+   "type": "text",
+   "text": "Die dritte Säule der Zugriffssicherheit ist die Rechenschaftspflicht (Accountability), die durch lückenlose Protokollierung umgesetzt wird. Sie gewährleistet, dass nachträglich nachvollzogen werden kann, wer auf welche Gesundheitsdaten zugegriffen hat, welche Aktion durchgeführt wurde und wann dies geschah.[^164] Die Protokollierung ist eng mit den übrigen Kategorien des Zugriffsmanagements verknüpft und erfordert die kontinuierliche Überwachung sämtlicher Aktivitäten innerhalb eines Gesundheitssystems.[^165] Eine besondere Bedeutung kommt ihr beim Notfallzugriff zu, wo sie Nutzer für ihre Handlungen während eines solchen Zugriffs verantwortlich macht.[^166] Darüber hinaus kann die Auswertung von Protokolldaten auch der Untersuchung klinischer Aktivitäten dienen, etwa zur Verbesserung klinischer Entscheidungsprozesse.[^167]",
+   "footnotes": [
+    {
+     "num": 164,
+     "text": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 13.",
+     "sources": [
+      "cobrado2024"
+     ]
+    },
+    {
+     "num": 165,
+     "text": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 13.",
+     "sources": [
+      "cobrado2024"
+     ]
+    },
+    {
+     "num": 166,
+     "text": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 13.",
+     "sources": [
+      "cobrado2024"
+     ]
+    },
+    {
+     "num": 167,
+     "text": "Vgl. Cobrado et al. (2024): Access control solutions in electronic health record systems, S. 13.",
+     "sources": [
+      "cobrado2024"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3.3-p2",
+   "type": "text",
+   "text": "Für die technische Umsetzung stellt IHE mit dem Profil ATNA (Audit Trail and Node Authentication) einen etablierten Standard bereit, der die Erstellung von Audit-Ereignissen und die gegenseitige Authentifizierung der beteiligten Systemknoten festlegt.[^168]",
+   "footnotes": [
+    {
+     "num": 168,
+     "text": "Vgl. IHE International (2026): IHE IT Infrastructure Technical Framework (Profiles).",
+     "sources": [
+      "ihe-iti2026"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3.3-p3",
+   "type": "text",
+   "text": "Im EHDS wird die Protokollierung verbindlich vorgeschrieben. Anhang II der EHDS-Verordnung verpflichtet EHR-Systeme dazu, über eine Protokollierungskomponente zu verfügen, die mindestens Informationen über den Gesundheitsdienstleister oder eine sonstige Person, die auf elektronische Gesundheitsdaten zugegriffen hat, sowie über die betreffende Person, die Art und den Zeitpunkt des Zugriffs bereitstellt.[^169] Damit wird die in der Literatur als IAAA beschriebene Rechenschaftspflicht zu einer unmittelbaren rechtlichen Anforderung an alle EHR-Systeme im Geltungsbereich der Verordnung.",
+   "footnotes": [
+    {
+     "num": 169,
+     "text": "Vgl. Anhang II Nr 3 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

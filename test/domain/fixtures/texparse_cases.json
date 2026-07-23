@@ -1,0 +1,329 @@
+[
+ {
+  "name": "leer",
+  "tex": "",
+  "result": {
+   "ok": false,
+   "errors": [
+    "Leere oder viel zu kurze Eingabe — bitte den vollständigen LaTeX-Quelltext übergeben."
+   ],
+   "warnings": []
+  }
+ },
+ {
+  "name": "zu-kurz",
+  "tex": "\\section{Hi} x",
+  "result": {
+   "ok": false,
+   "errors": [
+    "Leere oder viel zu kurze Eingabe — bitte den vollständigen LaTeX-Quelltext übergeben."
+   ],
+   "warnings": []
+  }
+ },
+ {
+  "name": "pdf-statt-tex",
+  "tex": "%PDF-1.7 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "result": {
+   "ok": false,
+   "errors": [
+    "Das ist eine PDF-Datei, kein LaTeX-Quelltext (.tex). Bitte den Quelltext der Arbeit laden."
+   ],
+   "warnings": []
+  }
+ },
+ {
+  "name": "keine-gliederung",
+  "tex": "\\begin{document}\nNur Text ohne jede Überschrift, aber lang genug für die Mindestlänge.\n\\end{document}",
+  "result": {
+   "ok": false,
+   "errors": [
+    "Kein \\chapter{…} oder \\section{…} im Hauptteil gefunden — ohne Gliederung kann die Arbeit nicht aufgebaut werden."
+   ],
+   "warnings": [
+    "Kein Titel gefunden (\\settitle/\\title) — „Unbenannte Arbeit“ verwendet."
+   ]
+  }
+ },
+ {
+  "name": "section-shift-sticky",
+  "tex": "\\begin{document}\n\\section{Alpha}\nText A.\n\\subsubsection{Tief}\nText T.\n\\subsubsection{Tief2}\nText T2.\n\\subsection{Beta}\nText B.\n\\end{document}",
+  "result": {
+   "ok": true,
+   "errors": [],
+   "warnings": [
+    "Kein Titel gefunden (\\settitle/\\title) — „Unbenannte Arbeit“ verwendet.",
+    "Keine \\chapter-Ebene gefunden — \\section wird als oberste Ebene behandelt.",
+    "Keine \\footnote{…} gefunden — ohne Fußnoten gibt es keine Belege zum Prüfen.",
+    "Keine Quellen-Registry übergeben — Fußnoten bleiben ohne Quellenzuordnung (per Registry-Import nachholbar)."
+   ],
+   "stats": {
+    "kapitel": 1,
+    "abschnitte": 4,
+    "fussnoten": 0,
+    "quellen": 0
+   },
+   "thesis": {
+    "meta": {
+     "title": "Unbenannte Arbeit",
+     "subtitle": "",
+     "author": "",
+     "university": "",
+     "date": "",
+     "thesisPdf": "sources/thesis.pdf",
+     "pageOffset": 0
+    },
+    "chapters": [
+     {
+      "id": "1",
+      "num": 1,
+      "title": "Alpha",
+      "sections": [
+       {
+        "id": "1.0",
+        "title": "Überblick",
+        "level": 2,
+        "paragraphs": [
+         {
+          "id": "1.0-p1",
+          "type": "text",
+          "text": "Text A.",
+          "footnotes": []
+         }
+        ],
+        "children": [],
+        "isIntro": true
+       },
+       {
+        "id": "1.1",
+        "title": "Tief",
+        "level": 2,
+        "paragraphs": [
+         {
+          "id": "1.1-p1",
+          "type": "text",
+          "text": "Text T.",
+          "footnotes": []
+         }
+        ],
+        "children": []
+       },
+       {
+        "id": "1.2",
+        "title": "Tief2",
+        "level": 2,
+        "paragraphs": [
+         {
+          "id": "1.2-p1",
+          "type": "text",
+          "text": "Text T2.",
+          "footnotes": []
+         }
+        ],
+        "children": []
+       },
+       {
+        "id": "1.3",
+        "title": "Beta",
+        "level": 2,
+        "paragraphs": [
+         {
+          "id": "1.3-p1",
+          "type": "text",
+          "text": "Text B.",
+          "footnotes": []
+         }
+        ],
+        "children": []
+       }
+      ]
+     }
+    ]
+   },
+   "footnotes": [],
+   "sources": []
+  }
+ },
+ {
+  "name": "mixed-features",
+  "tex": "% Kommentarzeile\n\\documentclass{article}\n\\usepackage{tikz}\n\\usepackage{siunitx}\n\\title{Misch-Test}\n\\author{Tester}\n\\begin{document}\n\\maketitle\n\\chapter{Eins}\nIntro mit Fußnote.\\footnote{Vgl. Quelle-X, S.~3.} Und Mathe $x^2$ dazu.\n\\paragraph{Absatzkopf.} Es folgt \\enquote{zitiert} und \\textbf{fett}~mit \\S~5 und 100\\,\\%.\n\\section{Liste}\n\\begin{itemize}\\item Erstens\\item Zweitens\\end{itemize}\n\\begin{description}\\item[Begriff] Erklärung\\end{description}\n\\begin{figure}\\includegraphics{x}\\caption{Eine Grafik}\\end{figure}\n\\begin{verbatim}code %here\\end{verbatim}\nAkzente: Gr\\\"o\\ss e, caf\\'e, gar\\c{c}on. \\unknowncmd{bleibt}.\n\\section*{Literatur}\nWeg damit.\n\\end{document}",
+  "result": {
+   "ok": true,
+   "errors": [],
+   "warnings": [
+    "Nicht abgedeckt: Paket „tikz“ — Zeichnungen (TikZ) werden als [GRAFIK]-Marker ersetzt.",
+    "Nicht abgedeckt: Paket „siunitx“ — Einheiten-Makros (\\SI, \\si, \\num) erscheinen roh im Text (siehe Restbefehl-Bericht).",
+    "1 Code-/Algorithmus-Block durch [CODE]-Marker ersetzt — Listings sind im Studio nicht darstellbar.",
+    "1 Formel(n) durch [Formel]-Marker ersetzt — Mathematik ist im Studio nicht darstellbar.",
+    "\\paragraph-Überschriften wurden als Absatzanfänge übernommen (keine eigene Gliederungsebene).",
+    "LaTeX nicht vollständig übersetzbar — verbleibende Befehle im Text: \\unknowncmdbleibt (1×, z. B. Abschnitt 1.1). Diese Stellen erscheinen roh; oben stehen die nicht abgedeckten Pakete dazu.",
+    "Keine Quellen-Registry übergeben — Fußnoten bleiben ohne Quellenzuordnung (per Registry-Import nachholbar)."
+   ],
+   "stats": {
+    "kapitel": 1,
+    "abschnitte": 2,
+    "fussnoten": 1,
+    "quellen": 0
+   },
+   "thesis": {
+    "meta": {
+     "title": "Misch-Test",
+     "subtitle": "",
+     "author": "Tester",
+     "university": "",
+     "date": "",
+     "thesisPdf": "sources/thesis.pdf",
+     "pageOffset": 0
+    },
+    "chapters": [
+     {
+      "id": "1",
+      "num": 1,
+      "title": "Eins",
+      "sections": [
+       {
+        "id": "1.0",
+        "title": "Überblick",
+        "level": 2,
+        "paragraphs": [
+         {
+          "id": "1.0-p1",
+          "type": "text",
+          "text": "Intro mit Fußnote.[^1] Und Mathe [Formel] dazu.",
+          "footnotes": [
+           {
+            "num": 1,
+            "text": "Vgl. Quelle-X, S. 3.",
+            "sources": []
+           }
+          ]
+         },
+         {
+          "id": "1.0-p2",
+          "type": "text",
+          "text": "Absatzkopf. Es folgt „zitiert“ und fett mit § 5 und 100 %.",
+          "footnotes": []
+         }
+        ],
+        "children": [],
+        "isIntro": true
+       },
+       {
+        "id": "1.1",
+        "title": "Liste",
+        "level": 2,
+        "paragraphs": [
+         {
+          "id": "1.1-p1",
+          "type": "list",
+          "items": [
+           "Erstens",
+           "Zweitens"
+          ],
+          "footnotes": []
+         },
+         {
+          "id": "1.1-p2",
+          "type": "list",
+          "items": [
+           "Begriff: Erklärung"
+          ],
+          "footnotes": []
+         },
+         {
+          "id": "1.1-p3",
+          "type": "figure",
+          "text": "Eine Grafik",
+          "footnotes": []
+         },
+         {
+          "id": "1.1-p4",
+          "type": "text",
+          "text": "[CODE: Quelltext-Auszug]",
+          "footnotes": []
+         },
+         {
+          "id": "1.1-p5",
+          "type": "text",
+          "text": "Akzente: Größ e, café, garçon. \\unknowncmdbleibt.",
+          "footnotes": []
+         }
+        ],
+        "children": []
+       }
+      ]
+     }
+    ]
+   },
+   "footnotes": [
+    {
+     "num": 1,
+     "text": "Vgl. Quelle-X, S. 3.",
+     "sectionId": "1.0",
+     "paragraphId": "1.0-p1"
+    }
+   ],
+   "sources": []
+  }
+ },
+ {
+  "name": "unbalancierte-fussnote",
+  "tex": "\\begin{document}\n\\section{S}\nText mit kaputter Fußnote.\\footnote{offen bleibt das\nund noch mehr Text damit die Länge reicht.\n\\end{document}",
+  "result": {
+   "ok": false,
+   "errors": [
+    "Nicht geschlossene \\footnote{…} ab Zeile ~3 — geschweifte Klammern prüfen."
+   ],
+   "warnings": [
+    "Kein Titel gefunden (\\settitle/\\title) — „Unbenannte Arbeit“ verwendet.",
+    "Keine \\chapter-Ebene gefunden — \\section wird als oberste Ebene behandelt.",
+    "LaTeX nicht vollständig übersetzbar — verbleibende Befehle im Text: \\footnoteoffen (1×, z. B. Abschnitt 1.0). Diese Stellen erscheinen roh; oben stehen die nicht abgedeckten Pakete dazu.",
+    "Keine \\footnote{…} gefunden — ohne Fußnoten gibt es keine Belege zum Prüfen.",
+    "Keine Quellen-Registry übergeben — Fußnoten bleiben ohne Quellenzuordnung (per Registry-Import nachholbar)."
+   ],
+   "stats": {
+    "kapitel": 1,
+    "abschnitte": 1,
+    "fussnoten": 0,
+    "quellen": 0
+   },
+   "thesis": {
+    "meta": {
+     "title": "Unbenannte Arbeit",
+     "subtitle": "",
+     "author": "",
+     "university": "",
+     "date": "",
+     "thesisPdf": "sources/thesis.pdf",
+     "pageOffset": 0
+    },
+    "chapters": [
+     {
+      "id": "1",
+      "num": 1,
+      "title": "S",
+      "sections": [
+       {
+        "id": "1.0",
+        "title": "Überblick",
+        "level": 2,
+        "paragraphs": [
+         {
+          "id": "1.0-p1",
+          "type": "text",
+          "text": "Text mit kaputter Fußnote.\\footnoteoffen bleibt das und noch mehr Text damit die Länge reicht.",
+          "footnotes": []
+         }
+        ],
+        "children": [],
+        "isIntro": true
+       }
+      ]
+     }
+    ]
+   },
+   "footnotes": [],
+   "sources": []
+  }
+ }
+]

@@ -1,0 +1,100 @@
+{
+ "sectionId": "3.3.2",
+ "title": "Zugriffskontrolle",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 27,
+ "pdfPage": 37,
+ "paragraphs": [
+  {
+   "id": "3.3.2-p1",
+   "type": "text",
+   "text": "Während die Authentifizierung feststellt, wer zugreift, entscheidet die Zugriffskontrolle (Autorisierung), worauf eine authentifizierte Person zugreifen darf. Für elektronische Gesundheitsakten kommen vor allem die rollenbasierte (Role-Based Access Control, RBAC) und die attributbasierte Zugriffskontrolle (Attribute-Based Access Control, ABAC) zur Anwendung.",
+   "footnotes": []
+  },
+  {
+   "id": "3.3.2-p2",
+   "type": "text",
+   "text": "Bei RBAC werden Berechtigungen auf der Ebene von Rollen definiert und Nutzer diesen Rollen statisch zugeordnet.[^157] Dieses Modell ist vorhersehbar und gut verwaltbar, berücksichtigt jedoch keine dynamischen, kontextbezogenen Faktoren wie Tageszeit oder Standort.[^158] ABAC trifft Zugriffsentscheidungen demgegenüber dynamisch auf Basis einer Kombination aus Attributen von Nutzer, Ressource, Aktion und Umgebung - etwa der Regel, dass ein Arzt auf eine Gesundheitsakte nur dann zugreifen darf, wenn er im Krankenhaus während der Arbeitszeit angemeldet ist.[^159] Damit eignet sich ABAC besonders für die dynamischen Anforderungen moderner Gesundheitssysteme und ermöglicht feingranulare, kontextsensitive Entscheidungen.[^160]",
+   "footnotes": [
+    {
+     "num": 157,
+     "text": "Vgl. Atlam et al. (2025): Enhancing Healthcare Security, S. 1.",
+     "sources": [
+      "atlam2025"
+     ]
+    },
+    {
+     "num": 158,
+     "text": "Vgl. National Institute of Standards and Technology (NIST), Hu et al. (2014): Guide to Attribute Based Access Control (ABAC) Definition and Considerations, S. 6.",
+     "sources": [
+      "nist-abac2014"
+     ]
+    },
+    {
+     "num": 159,
+     "text": "Vgl. Atlam et al. (2025): Enhancing Healthcare Security, S. 1.",
+     "sources": [
+      "atlam2025"
+     ]
+    },
+    {
+     "num": 160,
+     "text": "Vgl. Atlam et al. (2025): Enhancing Healthcare Security, S. 17.",
+     "sources": [
+      "atlam2025"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3.2-p3",
+   "type": "text",
+   "text": "Der Standard zur technischen Umsetzung attributbasierter Zugriffskontrolle ist eXtensible Access Control Markup Language (XACML), eine XML-basierte standardisierte Sprache zur Formulierung und zum Austausch von Zugriffsrichtlinien in verteilten Systemen.[^161]",
+   "footnotes": [
+    {
+     "num": 161,
+     "text": "Vgl. Atlam et al. (2025): Enhancing Healthcare Security, S. 17.",
+     "sources": [
+      "atlam2025"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3.2-p4",
+   "type": "text",
+   "text": "Die Referenzarchitektur umfasst funktional getrennte Komponenten, die auch der XACML-Architektur zugrunde liegen, wie in Abbildung dargestellt: [ABBILDUNG: Beispiel der Access Control Mechanism (ACM) Funktionen — übernommen aus NIST, Hu et al. (2014): Guide to Attribute Based Access Control (ABAC) Definition and Considerations, S. 15, Fig 5.]",
+   "footnotes": []
+  },
+  {
+   "id": "3.3.2-p5",
+   "type": "text",
+   "text": "Der Policy Enforcement Point (PEP) fängt die Zugriffsanfrage auf ein Objekt ab und setzt die Entscheidung - Erlauben oder Verweigern - zur Laufzeit durch, der Policy Decision Point (PDP) ist die Kernkomponente, die die eigentliche Entscheidung über die Gewährung des Zugriffs trifft, der Policy Information Point (PIP) liefert die für die Entscheidung benötigten Attribute und der Policy Administration Point (PAP) dient der Erstellung und Speicherung der Richtlinien.[^162]",
+   "footnotes": [
+    {
+     "num": 162,
+     "text": "Vgl. Atlam et al. (2025): Enhancing Healthcare Security, S. 17. und National Institute of Standards and Technology (NIST), Hu et al. (2014): Guide to Attribute Based Access Control (ABAC) Definition and Considerations, S. 14.",
+     "sources": [
+      "atlam2025",
+      "nist-abac2014"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3.2-p6",
+   "type": "text",
+   "text": "Ein wesentlicher Vorzug dieses Modells liegt darin, dass ABAC-Richtlinien zentral verwaltet werden und den dort geltenden Zugriffsregeln entsprechen, während die Entscheidungen lokal berechnet und durchgesetzt werden. So lassen sich Sicherheitsrichtlinien einheitlich über die Komponenten eines Informationssystems hinweg anwenden.[^163]",
+   "footnotes": [
+    {
+     "num": 163,
+     "text": "Vgl. National Institute of Standards and Technology (NIST), Hu et al. (2014): Guide to Attribute Based Access Control (ABAC) Definition and Considerations, S. 15.",
+     "sources": [
+      "nist-abac2014"
+     ]
+    }
+   ]
+  }
+ ]
+}

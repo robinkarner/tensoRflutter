@@ -1,0 +1,1234 @@
+{
+ "edges": [
+  {
+   "id": "fz-f1-5.1.1",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.1.1"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p2"
+   },
+   "label": "Zugang & Portal erfüllt",
+   "text": "Das EHDS-Zugangsrecht natürlicher Personen (Art 3) ist über das Bürger-Zugangsportal mit ID-Austria-Identifizierung bereits umgesetzt; der Abruf folgt derselben XCA-Logik wie bei den GDA-Systemen.",
+   "findingId": "f1",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f1-5.1.3",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.1.3"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p2"
+   },
+   "label": "Zugang & Portal erfüllt",
+   "text": "Das EHDS-Zugangsrecht natürlicher Personen (Art 3) ist über das Bürger-Zugangsportal mit ID-Austria-Identifizierung bereits umgesetzt; der Abruf folgt derselben XCA-Logik wie bei den GDA-Systemen.",
+   "findingId": "f1",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f1-2.3.1",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "2.3.1"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p2"
+   },
+   "label": "Zugang & Portal erfüllt",
+   "text": "Das EHDS-Zugangsrecht natürlicher Personen (Art 3) ist über das Bürger-Zugangsportal mit ID-Austria-Identifizierung bereits umgesetzt; der Abruf folgt derselben XCA-Logik wie bei den GDA-Systemen.",
+   "findingId": "f1",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f2-5.3.1",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.3.1"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p2"
+   },
+   "label": "Zugangskontrolle EHDS-konform",
+   "text": "Default deny, rollenbezogene Autorisierung und XACML-Feinsteuerung auf Dokumentenebene decken das granulare Zugangskontrollrecht (Art 8) ab — inklusive Ein-/Ausblenden einzelner Dokumente.",
+   "findingId": "f2",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f2-3.3.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "3.3.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p2"
+   },
+   "label": "Zugangskontrolle EHDS-konform",
+   "text": "Default deny, rollenbezogene Autorisierung und XACML-Feinsteuerung auf Dokumentenebene decken das granulare Zugangskontrollrecht (Art 8) ab — inklusive Ein-/Ausblenden einzelner Dokumente.",
+   "findingId": "f2",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f2-4.1.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.1.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p2"
+   },
+   "label": "Zugangskontrolle EHDS-konform",
+   "text": "Default deny, rollenbezogene Autorisierung und XACML-Feinsteuerung auf Dokumentenebene decken das granulare Zugangskontrollrecht (Art 8) ab — inklusive Ein-/Ausblenden einzelner Dokumente.",
+   "findingId": "f2",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f3-5.3.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.3.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p2"
+   },
+   "label": "Protokollierung erfüllt",
+   "text": "Vollprotokollierung (wer, wann, welche Daten) nach § 22 GTelG 2012 und die dreijährige Aufbewahrung decken die Mindestanforderungen des Art 9 Abs 2 ab; technisch via IHE ATNA und A-ARR.",
+   "findingId": "f3",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f3-5.3.3",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.3.3"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p2"
+   },
+   "label": "Protokollierung erfüllt",
+   "text": "Vollprotokollierung (wer, wann, welche Daten) nach § 22 GTelG 2012 und die dreijährige Aufbewahrung decken die Mindestanforderungen des Art 9 Abs 2 ab; technisch via IHE ATNA und A-ARR.",
+   "findingId": "f3",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f3-3.3.3",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "3.3.3"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p2"
+   },
+   "label": "Protokollierung erfüllt",
+   "text": "Vollprotokollierung (wer, wann, welche Daten) nach § 22 GTelG 2012 und die dreijährige Aufbewahrung decken die Mindestanforderungen des Art 9 Abs 2 ab; technisch via IHE ATNA und A-ARR.",
+   "findingId": "f3",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f4-5.4.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p3"
+   },
+   "label": "5 von 6 Kategorien produktiv",
+   "text": "Entlassungsbrief, Labor, Bildgebung, e-Verschreibung und e-Abgabe sind über bestehende ELGA-Anwendungen abgedeckt; die nationalen Speicherpflicht-Termine liegen vor den EHDS-Fristen.",
+   "findingId": "f4",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f4-5.1.4",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.1.4"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p3"
+   },
+   "label": "5 von 6 Kategorien produktiv",
+   "text": "Entlassungsbrief, Labor, Bildgebung, e-Verschreibung und e-Abgabe sind über bestehende ELGA-Anwendungen abgedeckt; die nationalen Speicherpflicht-Termine liegen vor den EHDS-Fristen.",
+   "findingId": "f4",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f4-4.2.3",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.2.3"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p3"
+   },
+   "label": "5 von 6 Kategorien produktiv",
+   "text": "Entlassungsbrief, Labor, Bildgebung, e-Verschreibung und e-Abgabe sind über bestehende ELGA-Anwendungen abgedeckt; die nationalen Speicherpflicht-Termine liegen vor den EHDS-Fristen.",
+   "findingId": "f4",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f4-2.3.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "2.3.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p3"
+   },
+   "label": "5 von 6 Kategorien produktiv",
+   "text": "Entlassungsbrief, Labor, Bildgebung, e-Verschreibung und e-Abgabe sind über bestehende ELGA-Anwendungen abgedeckt; die nationalen Speicherpflicht-Termine liegen vor den EHDS-Fristen.",
+   "findingId": "f4",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f5-5.4.3",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.3"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p3"
+   },
+   "label": "Patientenkurzakte offen",
+   "text": "Die Austrian Patient Summary ist nur als FHIR-Erprobungsstandard (STU1, Februar 2026) spezifiziert und nicht produktiv in ELGA integriert; ihre ausgehende Bereitstellung über MyHealth@EU fehlt — der kritische Pfad bis 2029.",
+   "findingId": "f5",
+   "findingTyp": "luecke"
+  },
+  {
+   "id": "fz-f5-5.4.4",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.4"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p3"
+   },
+   "label": "Patientenkurzakte offen",
+   "text": "Die Austrian Patient Summary ist nur als FHIR-Erprobungsstandard (STU1, Februar 2026) spezifiziert und nicht produktiv in ELGA integriert; ihre ausgehende Bereitstellung über MyHealth@EU fehlt — der kritische Pfad bis 2029.",
+   "findingId": "f5",
+   "findingTyp": "luecke"
+  },
+  {
+   "id": "fz-f5-4.6",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.6"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p3"
+   },
+   "label": "Patientenkurzakte offen",
+   "text": "Die Austrian Patient Summary ist nur als FHIR-Erprobungsstandard (STU1, Februar 2026) spezifiziert und nicht produktiv in ELGA integriert; ihre ausgehende Bereitstellung über MyHealth@EU fehlt — der kritische Pfad bis 2029.",
+   "findingId": "f5",
+   "findingTyp": "luecke"
+  },
+  {
+   "id": "fz-f6-4.1.1",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.1.1"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p4"
+   },
+   "label": "Enger GDA-Kreis, Wahlarzt-Ausnahme",
+   "text": "Der taxative ELGA-GDA-Katalog ist enger als der funktionale EHDS-Gesundheitsdienstleister-Begriff; Wahlärzte können national (§ 49 Abs 7 ÄrzteG) und unionsrechtlich (Art 50, Kleinstunternehmen) doppelt ausgenommen sein — mit Folgen für die Datenvollständigkeit.",
+   "findingId": "f6",
+   "findingTyp": "spannung"
+  },
+  {
+   "id": "fz-f6-4.2.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.2.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p4"
+   },
+   "label": "Enger GDA-Kreis, Wahlarzt-Ausnahme",
+   "text": "Der taxative ELGA-GDA-Katalog ist enger als der funktionale EHDS-Gesundheitsdienstleister-Begriff; Wahlärzte können national (§ 49 Abs 7 ÄrzteG) und unionsrechtlich (Art 50, Kleinstunternehmen) doppelt ausgenommen sein — mit Folgen für die Datenvollständigkeit.",
+   "findingId": "f6",
+   "findingTyp": "spannung"
+  },
+  {
+   "id": "fz-f7-5.3.3",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.3.3"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p5"
+   },
+   "label": "Benachrichtigungslücke (Art 9)",
+   "text": "Die EHDS-VO verlangt Zugriffsinformation auch durch automatische Benachrichtigungen; GTelG und ELGA-VO kennen nur den Abruf. Die Rohdaten liegen im A-ARR bereit — es fehlt der sichere Kanal (E-Mail/SMS/Push der angekündigten ELGA-App).",
+   "findingId": "f7",
+   "findingTyp": "luecke"
+  },
+  {
+   "id": "fz-f7-5.3.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.3.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p5"
+   },
+   "label": "Benachrichtigungslücke (Art 9)",
+   "text": "Die EHDS-VO verlangt Zugriffsinformation auch durch automatische Benachrichtigungen; GTelG und ELGA-VO kennen nur den Abruf. Die Rohdaten liegen im A-ARR bereit — es fehlt der sichere Kanal (E-Mail/SMS/Push der angekündigten ELGA-App).",
+   "findingId": "f7",
+   "findingTyp": "luecke"
+  },
+  {
+   "id": "fz-f7-4.1.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.1.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p5"
+   },
+   "label": "Benachrichtigungslücke (Art 9)",
+   "text": "Die EHDS-VO verlangt Zugriffsinformation auch durch automatische Benachrichtigungen; GTelG und ELGA-VO kennen nur den Abruf. Die Rohdaten liegen im A-ARR bereit — es fehlt der sichere Kanal (E-Mail/SMS/Push der angekündigten ELGA-App).",
+   "findingId": "f7",
+   "findingTyp": "luecke"
+  },
+  {
+   "id": "fz-f8-4.4.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.4.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p6"
+   },
+   "label": "Opt-In-Spannung (MyHealth@EU)",
+   "text": "Österreich knüpft die grenzüberschreitende Bereitstellung an ein ausdrückliches Opt-In, während Art 10 nur die Option eines Widerspruchsrechts eröffnet. Das stärkt die Selbstbestimmung, begrenzt aber den Austausch und wirft ab 2029 die Vereinbarkeitsfrage auf.",
+   "findingId": "f8",
+   "findingTyp": "spannung"
+  },
+  {
+   "id": "fz-f8-5.4.4",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.4"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p6"
+   },
+   "label": "Opt-In-Spannung (MyHealth@EU)",
+   "text": "Österreich knüpft die grenzüberschreitende Bereitstellung an ein ausdrückliches Opt-In, während Art 10 nur die Option eines Widerspruchsrechts eröffnet. Das stärkt die Selbstbestimmung, begrenzt aber den Austausch und wirft ab 2029 die Vereinbarkeitsfrage auf.",
+   "findingId": "f8",
+   "findingTyp": "spannung"
+  },
+  {
+   "id": "fz-f8-2.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "2.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p6"
+   },
+   "label": "Opt-In-Spannung (MyHealth@EU)",
+   "text": "Österreich knüpft die grenzüberschreitende Bereitstellung an ein ausdrückliches Opt-In, während Art 10 nur die Option eines Widerspruchsrechts eröffnet. Das stärkt die Selbstbestimmung, begrenzt aber den Austausch und wirft ab 2029 die Vereinbarkeitsfrage auf.",
+   "findingId": "f8",
+   "findingTyp": "spannung"
+  },
+  {
+   "id": "fz-f9-4.4.3",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.4.3"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p7"
+   },
+   "label": "Sekundärnutzungs-Widerspruch fehlt",
+   "text": "Das ab 26.3.2029 zwingende Widerspruchsrecht gegen die Sekundärnutzung (Art 71) hat in Österreich weder Rechtsgrundlage noch technischen Mechanismus; es hängt an der noch fehlenden Zugangsstelle für Gesundheitsdaten.",
+   "findingId": "f9",
+   "findingTyp": "luecke"
+  },
+  {
+   "id": "fz-f9-2.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "2.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p7"
+   },
+   "label": "Sekundärnutzungs-Widerspruch fehlt",
+   "text": "Das ab 26.3.2029 zwingende Widerspruchsrecht gegen die Sekundärnutzung (Art 71) hat in Österreich weder Rechtsgrundlage noch technischen Mechanismus; es hängt an der noch fehlenden Zugangsstelle für Gesundheitsdaten.",
+   "findingId": "f9",
+   "findingTyp": "luecke"
+  },
+  {
+   "id": "fz-f10-4.3",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.3"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p8"
+   },
+   "label": "Drei Behörden fehlen",
+   "text": "Stelle für digitale Gesundheit (Primärnutzung), Marktüberwachungsbehörde (EHR-Systeme) und Zugangsstelle für Gesundheitsdaten (Sekundärnutzung) sind bis 26.3.2027 zu benennen, waren aber zum Stand der Arbeit weder eingerichtet noch gesetzlich verankert.",
+   "findingId": "f10",
+   "findingTyp": "luecke"
+  },
+  {
+   "id": "fz-f10-2.3.1",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "2.3.1"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p8"
+   },
+   "label": "Drei Behörden fehlen",
+   "text": "Stelle für digitale Gesundheit (Primärnutzung), Marktüberwachungsbehörde (EHR-Systeme) und Zugangsstelle für Gesundheitsdaten (Sekundärnutzung) sind bis 26.3.2027 zu benennen, waren aber zum Stand der Arbeit weder eingerichtet noch gesetzlich verankert.",
+   "findingId": "f10",
+   "findingTyp": "luecke"
+  },
+  {
+   "id": "fz-f10-4.4.3",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.4.3"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p8"
+   },
+   "label": "Drei Behörden fehlen",
+   "text": "Stelle für digitale Gesundheit (Primärnutzung), Marktüberwachungsbehörde (EHR-Systeme) und Zugangsstelle für Gesundheitsdaten (Sekundärnutzung) sind bis 26.3.2027 zu benennen, waren aber zum Stand der Arbeit weder eingerichtet noch gesetzlich verankert.",
+   "findingId": "f10",
+   "findingTyp": "luecke"
+  },
+  {
+   "id": "fz-f11-5.4.4",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.4"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p9"
+   },
+   "label": "MyHealth@EU-Start belegt Anschlussfähigkeit",
+   "text": "Seit Februar 2026 werden EU-Rezepte (ausgehend) und EU-Patientenkurzakten (eingehend) mit Tschechien ausgetauscht — die Kette EHR-System → ELGA-Bereiche → Kontaktstelle (AT-eHDSI) funktioniert produktiv.",
+   "findingId": "f11",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f11-4.5",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.5"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p9"
+   },
+   "label": "MyHealth@EU-Start belegt Anschlussfähigkeit",
+   "text": "Seit Februar 2026 werden EU-Rezepte (ausgehend) und EU-Patientenkurzakten (eingehend) mit Tschechien ausgetauscht — die Kette EHR-System → ELGA-Bereiche → Kontaktstelle (AT-eHDSI) funktioniert produktiv.",
+   "findingId": "f11",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f11-3.4.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "3.4.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p9"
+   },
+   "label": "MyHealth@EU-Start belegt Anschlussfähigkeit",
+   "text": "Seit Februar 2026 werden EU-Rezepte (ausgehend) und EU-Patientenkurzakten (eingehend) mit Tschechien ausgetauscht — die Kette EHR-System → ELGA-Bereiche → Kontaktstelle (AT-eHDSI) funktioniert produktiv.",
+   "findingId": "f11",
+   "findingTyp": "positiv"
+  },
+  {
+   "id": "fz-f12-4.2.3",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.2.3"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p10"
+   },
+   "label": "Erfüllungsfiktion & Fristenkaskade",
+   "text": "Die Erfüllungsfiktion erlaubt die technische Anbindung bis 31.12.2028 — knapp drei Monate vor der ersten EHDS-Stufe (26.3.2029), ab der Kurzakte/e-Rezept-Austausch, Benachrichtigungsrecht und Sekundärnutzungs-Widerspruch gelten; 2031 folgt Gruppe 2. Der CDA-Bestand darf dank Schnittstellenanforderung (Anhang II) fortgeführt werden.",
+   "findingId": "f12",
+   "findingTyp": "ausblick"
+  },
+  {
+   "id": "fz-f12-4.2.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.2.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p10"
+   },
+   "label": "Erfüllungsfiktion & Fristenkaskade",
+   "text": "Die Erfüllungsfiktion erlaubt die technische Anbindung bis 31.12.2028 — knapp drei Monate vor der ersten EHDS-Stufe (26.3.2029), ab der Kurzakte/e-Rezept-Austausch, Benachrichtigungsrecht und Sekundärnutzungs-Widerspruch gelten; 2031 folgt Gruppe 2. Der CDA-Bestand darf dank Schnittstellenanforderung (Anhang II) fortgeführt werden.",
+   "findingId": "f12",
+   "findingTyp": "ausblick"
+  },
+  {
+   "id": "fz-f12-5.4",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p10"
+   },
+   "label": "Erfüllungsfiktion & Fristenkaskade",
+   "text": "Die Erfüllungsfiktion erlaubt die technische Anbindung bis 31.12.2028 — knapp drei Monate vor der ersten EHDS-Stufe (26.3.2029), ab der Kurzakte/e-Rezept-Austausch, Benachrichtigungsrecht und Sekundärnutzungs-Widerspruch gelten; 2031 folgt Gruppe 2. Der CDA-Bestand darf dank Schnittstellenanforderung (Anhang II) fortgeführt werden.",
+   "findingId": "f12",
+   "findingTyp": "ausblick"
+  },
+  {
+   "id": "fz-f12-2.3.5",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "2.3.5"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p10"
+   },
+   "label": "Erfüllungsfiktion & Fristenkaskade",
+   "text": "Die Erfüllungsfiktion erlaubt die technische Anbindung bis 31.12.2028 — knapp drei Monate vor der ersten EHDS-Stufe (26.3.2029), ab der Kurzakte/e-Rezept-Austausch, Benachrichtigungsrecht und Sekundärnutzungs-Widerspruch gelten; 2031 folgt Gruppe 2. Der CDA-Bestand darf dank Schnittstellenanforderung (Anhang II) fortgeführt werden.",
+   "findingId": "f12",
+   "findingTyp": "ausblick"
+  },
+  {
+   "id": "fz-f13-5.1",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.1"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p11"
+   },
+   "label": "Rechtsprojekt statt Technikprojekt",
+   "text": "Schlussthese: ELGA ist eine solide Grundlage; die EHDS-Herausforderung liegt in der rechtlichen Anpassung bestehender Normen und der gezielten Erweiterung der vorhandenen Infrastruktur — nicht im Aufbau neuer technischer Kapazitäten.",
+   "findingId": "f13",
+   "findingTyp": "ausblick"
+  },
+  {
+   "id": "fz-f13-4.6",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.6"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p11"
+   },
+   "label": "Rechtsprojekt statt Technikprojekt",
+   "text": "Schlussthese: ELGA ist eine solide Grundlage; die EHDS-Herausforderung liegt in der rechtlichen Anpassung bestehender Normen und der gezielten Erweiterung der vorhandenen Infrastruktur — nicht im Aufbau neuer technischer Kapazitäten.",
+   "findingId": "f13",
+   "findingTyp": "ausblick"
+  },
+  {
+   "id": "fz-f13-5.4.2",
+   "typ": "fazit",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.2"
+   },
+   "nach": {
+    "sectionId": "6.0",
+    "paraId": "6.0-p11"
+   },
+   "label": "Rechtsprojekt statt Technikprojekt",
+   "text": "Schlussthese: ELGA ist eine solide Grundlage; die EHDS-Herausforderung liegt in der rechtlichen Anpassung bestehender Normen und der gezielten Erweiterung der vorhandenen Infrastruktur — nicht im Aufbau neuer technischer Kapazitäten.",
+   "findingId": "f13",
+   "findingTyp": "ausblick"
+  },
+  {
+   "id": "xr-1.2-p2-2.0",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "1.2",
+    "paraId": "1.2-p2"
+   },
+   "nach": {
+    "sectionId": "2.0"
+   }
+  },
+  {
+   "id": "xr-1.2-p3-3.0",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "1.2",
+    "paraId": "1.2-p3"
+   },
+   "nach": {
+    "sectionId": "3.0"
+   }
+  },
+  {
+   "id": "xr-1.2-p4-4.0",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "1.2",
+    "paraId": "1.2-p4"
+   },
+   "nach": {
+    "sectionId": "4.0"
+   }
+  },
+  {
+   "id": "xr-1.2-p5-5.0",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "1.2",
+    "paraId": "1.2-p5"
+   },
+   "nach": {
+    "sectionId": "5.0"
+   }
+  },
+  {
+   "id": "xr-1.2-p6-6.0",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "1.2",
+    "paraId": "1.2-p6"
+   },
+   "nach": {
+    "sectionId": "6.0"
+   }
+  },
+  {
+   "id": "xr-2.0-p2-2.1",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "2.0",
+    "paraId": "2.0-p2"
+   },
+   "nach": {
+    "sectionId": "2.1"
+   }
+  },
+  {
+   "id": "xr-2.0-p3-2.2",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "2.0",
+    "paraId": "2.0-p3"
+   },
+   "nach": {
+    "sectionId": "2.2"
+   }
+  },
+  {
+   "id": "xr-2.0-p3-2.3",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "2.0",
+    "paraId": "2.0-p3"
+   },
+   "nach": {
+    "sectionId": "2.3"
+   }
+  },
+  {
+   "id": "xr-3.0-p2-3.1",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "3.0",
+    "paraId": "3.0-p2"
+   },
+   "nach": {
+    "sectionId": "3.1"
+   }
+  },
+  {
+   "id": "xr-3.0-p2-3.2",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "3.0",
+    "paraId": "3.0-p2"
+   },
+   "nach": {
+    "sectionId": "3.2"
+   }
+  },
+  {
+   "id": "xr-3.0-p2-3.3",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "3.0",
+    "paraId": "3.0-p2"
+   },
+   "nach": {
+    "sectionId": "3.3"
+   }
+  },
+  {
+   "id": "xr-3.0-p2-3.4",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "3.0",
+    "paraId": "3.0-p2"
+   },
+   "nach": {
+    "sectionId": "3.4"
+   }
+  },
+  {
+   "id": "xr-3.0-p3-4.0",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "3.0",
+    "paraId": "3.0-p3"
+   },
+   "nach": {
+    "sectionId": "4.0"
+   }
+  },
+  {
+   "id": "xr-3.0-p3-5.0",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "3.0",
+    "paraId": "3.0-p3"
+   },
+   "nach": {
+    "sectionId": "5.0"
+   }
+  },
+  {
+   "id": "xr-3.1.3-p2-5.0",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "3.1.3",
+    "paraId": "3.1.3-p2"
+   },
+   "nach": {
+    "sectionId": "5.0"
+   }
+  },
+  {
+   "id": "xr-3.4.3-p2-3.3",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "3.4.3",
+    "paraId": "3.4.3-p2"
+   },
+   "nach": {
+    "sectionId": "3.3"
+   }
+  },
+  {
+   "id": "xr-3.4.3-p2-5.4",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "3.4.3",
+    "paraId": "3.4.3-p2"
+   },
+   "nach": {
+    "sectionId": "5.4"
+   }
+  },
+  {
+   "id": "xr-4.0-p2-4.3",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.0",
+    "paraId": "4.0-p2"
+   },
+   "nach": {
+    "sectionId": "4.3"
+   }
+  },
+  {
+   "id": "xr-4.0-p2-4.4",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.0",
+    "paraId": "4.0-p2"
+   },
+   "nach": {
+    "sectionId": "4.4"
+   }
+  },
+  {
+   "id": "xr-4.0-p2-4.5",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.0",
+    "paraId": "4.0-p2"
+   },
+   "nach": {
+    "sectionId": "4.5"
+   }
+  },
+  {
+   "id": "xr-4.0-p2-4.6",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.0",
+    "paraId": "4.0-p2"
+   },
+   "nach": {
+    "sectionId": "4.6"
+   }
+  },
+  {
+   "id": "xr-5.0-p1-3.0",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.0",
+    "paraId": "5.0-p1"
+   },
+   "nach": {
+    "sectionId": "3.0"
+   }
+  },
+  {
+   "id": "xr-5.0-p1-4.0",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.0",
+    "paraId": "5.0-p1"
+   },
+   "nach": {
+    "sectionId": "4.0"
+   }
+  },
+  {
+   "id": "xr-5.0-p2-5.1",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.0",
+    "paraId": "5.0-p2"
+   },
+   "nach": {
+    "sectionId": "5.1"
+   }
+  },
+  {
+   "id": "xr-5.0-p2-5.2",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.0",
+    "paraId": "5.0-p2"
+   },
+   "nach": {
+    "sectionId": "5.2"
+   }
+  },
+  {
+   "id": "xr-5.0-p2-5.3",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.0",
+    "paraId": "5.0-p2"
+   },
+   "nach": {
+    "sectionId": "5.3"
+   }
+  },
+  {
+   "id": "xr-5.0-p2-5.4",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.0",
+    "paraId": "5.0-p2"
+   },
+   "nach": {
+    "sectionId": "5.4"
+   }
+  },
+  {
+   "id": "xr-5.1.3-p3-5.0",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.1.3",
+    "paraId": "5.1.3-p3"
+   },
+   "nach": {
+    "sectionId": "5.0"
+   }
+  },
+  {
+   "id": "xr-5.1.3-p6-3.2.1",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.1.3",
+    "paraId": "5.1.3-p6"
+   },
+   "nach": {
+    "sectionId": "3.2.1"
+   }
+  },
+  {
+   "id": "xr-5.1.4-p3-4.1.2",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.1.4",
+    "paraId": "5.1.4-p3"
+   },
+   "nach": {
+    "sectionId": "4.1.2"
+   }
+  },
+  {
+   "id": "xr-5.2.2-p3-5.1.3",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.2.2",
+    "paraId": "5.2.2-p3"
+   },
+   "nach": {
+    "sectionId": "5.1.3"
+   }
+  },
+  {
+   "id": "xr-5.2.2-p5-4.3",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.2.2",
+    "paraId": "5.2.2-p5"
+   },
+   "nach": {
+    "sectionId": "4.3"
+   }
+  },
+  {
+   "id": "xr-5.3-p1-3.3",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.3",
+    "paraId": "5.3-p1"
+   },
+   "nach": {
+    "sectionId": "3.3"
+   }
+  },
+  {
+   "id": "xr-5.3.1-p5-4.4.2",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.3.1",
+    "paraId": "5.3.1-p5"
+   },
+   "nach": {
+    "sectionId": "4.4.2"
+   }
+  },
+  {
+   "id": "xr-5.4.2-p1-2.3.2",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.2",
+    "paraId": "5.4.2-p1"
+   },
+   "nach": {
+    "sectionId": "2.3.2"
+   }
+  },
+  {
+   "id": "xr-5.4.2-p1-5.2.2",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.2",
+    "paraId": "5.4.2-p1"
+   },
+   "nach": {
+    "sectionId": "5.2.2"
+   }
+  },
+  {
+   "id": "xr-5.4.2-p1-5.1.4",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.2",
+    "paraId": "5.4.2-p1"
+   },
+   "nach": {
+    "sectionId": "5.1.4"
+   }
+  },
+  {
+   "id": "xr-5.4.2-p1-5.4.3",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.2",
+    "paraId": "5.4.2-p1"
+   },
+   "nach": {
+    "sectionId": "5.4.3"
+   }
+  },
+  {
+   "id": "xr-5.4.3-p1-3.2",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.3",
+    "paraId": "5.4.3-p1"
+   },
+   "nach": {
+    "sectionId": "3.2"
+   }
+  },
+  {
+   "id": "xr-5.4.3-p2-5.3.3",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.3",
+    "paraId": "5.4.3-p2"
+   },
+   "nach": {
+    "sectionId": "5.3.3"
+   }
+  },
+  {
+   "id": "xr-5.4.3-p3-5.1.4",
+   "typ": "xref",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "5.4.3",
+    "paraId": "5.4.3-p3"
+   },
+   "nach": {
+    "sectionId": "5.1.4"
+   }
+  },
+  {
+   "id": "qs-1.1-2.1.1",
+   "typ": "quellen",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "1.1"
+   },
+   "nach": {
+    "sectionId": "2.1.1"
+   },
+   "label": "gemeinsame Quellen: CRA",
+   "text": "Beide Abschnitte stützen sich auf 1 gemeinsame, selten zitierte Quelle(n)."
+  },
+  {
+   "id": "qs-1.1-2.1.5",
+   "typ": "quellen",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "1.1"
+   },
+   "nach": {
+    "sectionId": "2.1.5"
+   },
+   "label": "gemeinsame Quellen: NIS-2",
+   "text": "Beide Abschnitte stützen sich auf 1 gemeinsame, selten zitierte Quelle(n)."
+  },
+  {
+   "id": "qs-1.1-3.3.1",
+   "typ": "quellen",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "1.1"
+   },
+   "nach": {
+    "sectionId": "3.3.1"
+   },
+   "label": "gemeinsame Quellen: eIDAS",
+   "text": "Beide Abschnitte stützen sich auf 1 gemeinsame, selten zitierte Quelle(n)."
+  },
+  {
+   "id": "qs-4.6-5.2.1",
+   "typ": "quellen",
+   "herkunft": "auto",
+   "von": {
+    "sectionId": "4.6"
+   },
+   "nach": {
+    "sectionId": "5.2.1"
+   },
+   "label": "gemeinsame Quellen: Plattform 2026",
+   "text": "Beide Abschnitte stützen sich auf 1 gemeinsame, selten zitierte Quelle(n)."
+  }
+ ],
+ "forSection": {
+  "1.1": {
+   "out": [
+    "qs-1.1-2.1.1",
+    "qs-1.1-2.1.5",
+    "qs-1.1-3.3.1"
+   ],
+   "in": []
+  },
+  "3.2": {
+   "out": [],
+   "in": [
+    "xr-3.0-p2-3.2",
+    "xr-5.4.3-p1-3.2"
+   ]
+  },
+  "6.0": {
+   "out": [],
+   "in": [
+    "fz-f1-5.1.1",
+    "fz-f1-5.1.3",
+    "fz-f1-2.3.1",
+    "fz-f2-5.3.1",
+    "fz-f2-3.3.2",
+    "fz-f2-4.1.2",
+    "fz-f3-5.3.2",
+    "fz-f3-5.3.3",
+    "fz-f3-3.3.3",
+    "fz-f4-5.4.2",
+    "fz-f4-5.1.4",
+    "fz-f4-4.2.3",
+    "fz-f4-2.3.2",
+    "fz-f5-5.4.3",
+    "fz-f5-5.4.4",
+    "fz-f5-4.6",
+    "fz-f6-4.1.1",
+    "fz-f6-4.2.2",
+    "fz-f7-5.3.3",
+    "fz-f7-5.3.2",
+    "fz-f7-4.1.2",
+    "fz-f8-4.4.2",
+    "fz-f8-5.4.4",
+    "fz-f8-2.2",
+    "fz-f9-4.4.3",
+    "fz-f9-2.2",
+    "fz-f10-4.3",
+    "fz-f10-2.3.1",
+    "fz-f10-4.4.3",
+    "fz-f11-5.4.4",
+    "fz-f11-4.5",
+    "fz-f11-3.4.2",
+    "fz-f12-4.2.3",
+    "fz-f12-4.2.2",
+    "fz-f12-5.4",
+    "fz-f12-2.3.5",
+    "fz-f13-5.1",
+    "fz-f13-4.6",
+    "fz-f13-5.4.2",
+    "xr-1.2-p6-6.0"
+   ]
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "sectionId": "5.4",
+ "title": "Datenformate und grenzüberschreitende Interoperabilität",
+ "chapter": 5,
+ "chapterTitle": "Umsetzung in Österreich",
+ "page": 61,
+ "pdfPage": 71,
+ "paragraphs": [
+  {
+   "id": "5.4-p1",
+   "type": "text",
+   "text": "Die EHDS-Verordnung verlangt, dass Systeme zur Speicherung personenbezogener elektronischer Gesundheitsdaten den Zugang zu diesen Daten im europäischen Austauschformat EEHRxF ermöglichen und Daten in diesem Format empfangen können.[^363]",
+   "footnotes": [
+    {
+     "num": 363,
+     "text": "Vgl. Anhang II Nr 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.4-p2",
+   "type": "text",
+   "text": "Anhang II verlangt grundsätzlich kein bestimmtes Speicherformat, sondern definiert eine Schnittstellenanforderung. Der CDA-Bestand in den Repositories kann bestehen bleiben, solange der Zugang und der Empfang im EEHRxF möglich sind - durch Konversion oder durch native FHIR-Erzeugung.[^364]",
+   "footnotes": [
+    {
+     "num": 364,
+     "text": "Vgl. Anhang II Nr 2 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

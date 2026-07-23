@@ -1,0 +1,45 @@
+{
+ "sectionId": "3.2.2.1",
+ "title": "HL7 CDA",
+ "chapter": 3,
+ "chapterTitle": "Technische Grundlagen",
+ "page": 23,
+ "pdfPage": 33,
+ "paragraphs": [
+  {
+   "id": "3.2.2.1-p1",
+   "type": "text",
+   "text": "HL7 CDA (Clinical Document Architecture) ist ein auf XML basierender Standard für das strukturierte Management klinischer Dokumente. Auch wenn CDA und auch FHIR auf Interoperabilität von Gesundheitsinformationssystemen ausgelegt sind, behindern die Unterschiede in der Implementierung die semantisch korrekte Modelltransformation.[^122]",
+   "footnotes": [
+    {
+     "num": 122,
+     "text": "Vgl. Bossenko et al. (2024):Interoperability of health data using FHIR Mapping Language, S. 4.",
+     "sources": [
+      "bossenko2024"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.2.2.1-p2",
+   "type": "text",
+   "text": "CDA folgt einem dokumentenzentrierten Ansatz, bei dem ein vollständiges klinisches Dokument als zusammenhängende Einheit übertragen wird.[^123] Der dokumentenorientierte Charakter von CDA bringt jedoch strukturelle Einschränkungen mit sich, die insbesondere im Kontext mobiler und ressourcenbasierter Anwendungen zum Tragen kommen und einen wesentlichen Beweggrund für die Entwicklung von FHIR darstellten.[^124]",
+   "footnotes": [
+    {
+     "num": 123,
+     "text": "Vgl. Dolin et al. (2006):HL7 Clinical Document Architecture, S. 33.",
+     "sources": [
+      "dolin2006"
+     ]
+    },
+    {
+     "num": 124,
+     "text": "Vgl. Ayaz et al. (2021): The Fast Health Interoperability Resources (FHIR) Standard, S. 16.",
+     "sources": [
+      "ayaz2021"
+     ]
+    }
+   ]
+  }
+ ]
+}

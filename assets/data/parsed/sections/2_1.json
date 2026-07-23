@@ -1,0 +1,59 @@
+{
+ "sectionId": "2.1",
+ "title": "Motivation, Entstehung und regulatorisches Umfeld",
+ "chapter": 2,
+ "chapterTitle": "Europäischer Gesundheitsdatenraum",
+ "page": 6,
+ "pdfPage": 16,
+ "paragraphs": [
+  {
+   "id": "2.1-p1",
+   "type": "text",
+   "text": "Die EHDS-Verordnung, veröffentlicht am 5. März 2025 im Amtsblatt der Europäischen Union, trat am 26. März 2025 in Kraft. [^9] Als Verordnung ist sie ein Rechtsakt mit allgemeiner Geltung, der in allen Teilen verbindlich ist und unmittelbar in jedem Mitgliedsland gilt.[^10]",
+   "footnotes": [
+    {
+     "num": 9,
+     "text": "Vgl. Art 105 der VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 10,
+     "text": "Vgl. Art 288 des Vertrags über die Arbeitsweise der Europäischen Union (AEUV), ABl. C 202 vom 7.6.2016, S.1.",
+     "sources": [
+      "aeuv"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.1-p2",
+   "type": "text",
+   "text": "Durch die EHDS-Verordnung wurde der europäische Gesundheitsdatenraum mit gemeinsamen Vorschriften, Standards und Infrastrukturen geschaffen.[^11] Sie folgt damit den Vorläufern des EHDS wie der Richtlinie 2011/24/EU[^12] über die Ausübung der Patientenrechte in der grenzüberschreitenden Gesundheitsversorgung und der europäischen Datenstrategie der Kommission zur Verknüpfung der verschiedenen gemeinsamen europäischen Datenräume.[^13]",
+   "footnotes": [
+    {
+     "num": 11,
+     "text": "Vgl. Art 1 Abs. 1 der VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    },
+    {
+     "num": 12,
+     "text": "Richtlinie 2011/24/EU des Europäischen Parlaments und des Rates vom 9. März 2011 über die Ausübung der Patientenrechte in der grenzüberschreitenden Gesundheitsversorgung, ABl. L 88 vom 4. April 2011, S. 45.",
+     "sources": [
+      "rl-2011-24"
+     ]
+    },
+    {
+     "num": 13,
+     "text": "Vgl. ErwGr 80 der VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  }
+ ]
+}

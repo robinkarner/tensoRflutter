@@ -1,0 +1,29 @@
+{
+ "chapter": 1,
+ "title": "Einleitung",
+ "kurzfassung": "Die Einleitung verankert die Arbeit in einem doppelten Befund: Elektronische Gesundheitsdaten gehören zu den sensibelsten personenbezogenen Daten überhaupt — und zugleich hängt eine gute, sektorenübergreifende Versorgung davon ab, dass sie koordiniert und sicher verfügbar sind. Österreich betreibt dafür seit 2015 die Elektronische Gesundheitsakte **ELGA**; auf EU-Ebene schafft die **Verordnung (EU) 2025/327 (EHDS-Verordnung)** einen neuen, unmittelbar geltenden Rechtsrahmen, der die Mitgliedstaaten zu Bürgerzugang und grenzüberschreitendem Austausch elektronischer Gesundheitsdaten verpflichtet.\n\n### Forschungsfrage und Abgrenzung\nDie Arbeit fragt, **inwieweit ELGA die Anforderungen der EHDS-Verordnung an die Primärnutzung bereits erfüllt und wo Anpassungsbedarf besteht** — entlang der Zugriffsrechte natürlicher Personen, der Interoperabilität, der Datenschutz- und Cybersicherheitsvorgaben und des grenzüberschreitenden Austauschs. Bewusst ausgeklammert bleibt die Sekundärnutzung (Forschung, Statistik, Politik), die nur zur Abgrenzung behandelt wird; ebenso eHealth-Anwendungen außerhalb von ELGA. Der Betrachtungszeitraum ist Mai bis Juli 2026, die Umsetzungsfristen laufen gestuft bis 2029/2031.\n\n### Aufbau\nDie sechs Kapitel führen trichterförmig zum Ergebnis: Kapitel 2 erklärt den EHDS (Rechtsrahmen, Akteure, Datenkategorien, Fristen), Kapitel 3 die technischen Grundlagen (Architekturen, Interoperabilität, Zugriffssicherheit, MyHealth@EU), Kapitel 4 den österreichischen Rechtsrahmen (GTelG 2012, ELGA-VO 2015, Opt-Out/Opt-In, Stufenplan). Kapitel 5 ist der analytische Kern — die Prüfung von ELGA gegen die EHDS-Anforderungen —, Kapitel 6 bündelt Ergebnisse und Lücken.",
+ "kernaussagen": [
+  "Die EHDS-Verordnung (EU) 2025/327 gilt unmittelbar und verpflichtet zu Bürgerzugang und grenzüberschreitendem Austausch elektronischer Gesundheitsdaten.",
+  "Forschungsfrage: Erfüllt ELGA die EHDS-Anforderungen an die Primärnutzung — und wo besteht Anpassungsbedarf?",
+  "Scope: nur Primärnutzung (unmittelbare Versorgung); Sekundärnutzung und externe eHealth-Anwendungen nur zur Abgrenzung.",
+  "Zeitliche Verortung: Umsetzungsstand Mai–Juli 2026, Fristenhorizont 2027/2029/2031.",
+  "Methodik: technische und regulatorische Analyse werden durchgehend verbunden."
+ ],
+ "begriffe": [
+  {"begriff": "EHDS", "erklaerung": "European Health Data Space — EU-weiter Gesundheitsdatenraum nach VO (EU) 2025/327."},
+  {"begriff": "ELGA", "erklaerung": "Österreichs Elektronische Gesundheitsakte, seit 2015 schrittweise eingeführt."},
+  {"begriff": "Primärnutzung", "erklaerung": "Verarbeitung von Gesundheitsdaten für die unmittelbare Gesundheitsversorgung der betroffenen Person."},
+  {"begriff": "Sekundärnutzung", "erklaerung": "Verarbeitung für andere Zwecke wie Forschung, Statistik oder Politikgestaltung."},
+  {"begriff": "DSGVO", "erklaerung": "Datenschutz-Grundverordnung (EU) 2016/679, die der EHDS ergänzt und präzisiert."},
+  {"begriff": "NIS-2", "erklaerung": "EU-Cybersicherheitsrichtlinie (EU) 2022/2555 für kritische Sektoren wie das Gesundheitswesen."}
+ ],
+ "fristen": [
+  {"datum": "2029/2031", "was": "Gestufter Fahrplan für die Erfüllung der EHDS-Anforderungen durch die Mitgliedstaaten."}
+ ],
+ "abschnitte": [
+  {"id": "1.1", "titel": "Aufgabenstellung", "einzeiler": "Kontext, Forschungsfrage und Abgrenzung auf die Primärnutzung."},
+  {"id": "1.2", "titel": "Aufbau", "einzeiler": "Wegweiser durch die sechs Kapitel der Arbeit."}
+ ],
+ "verbindungen": {"bautAuf": [], "liefertFuer": ["2", "3", "4", "5", "6"]},
+ "fazitBeitrag": "Definiert die Messlatte des Fazits: Erfüllungsgrad der EHDS-Primärnutzungsanforderungen durch ELGA und verbleibender Anpassungsbedarf."
+}

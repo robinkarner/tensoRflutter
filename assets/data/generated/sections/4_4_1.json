@@ -1,0 +1,205 @@
+{
+ "sectionId": "4.4.1",
+ "paragraphs": [
+  {
+   "id": "4.4.1-p1",
+   "type": "text",
+   "kernaussage": "ELGA beruht auf einem Opt-Out-Modell: Alle in Österreich wohnhaften oder sozialversicherten Personen nehmen automatisch teil, sofern sie keinen Widerspruch erklären.",
+   "sentences": [
+    {
+     "text": "Das österreichische ELGA-System beruht auf einem Opt-Out-Modell.",
+     "einfach": "ELGA (die österreichische Elektronische Gesundheitsakte) funktioniert nach dem Opt-Out-Prinzip: Man ist automatisch Teilnehmer und muss aktiv aussteigen, statt aktiv zuzustimmen.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "ELGA-System", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Alle in Österreich wohnhaften oder sozialversicherten natürlichen Personen nehmen automatisch an ELGA teil, sofern sie keinen Widerspruch erklären.[^244]",
+     "einfach": "Wer in Österreich wohnt oder hier sozialversichert ist, ist automatisch bei ELGA dabei, es sei denn, er oder sie legt Widerspruch ein, erklärt also formell den Ausstieg.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "ELGA", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 244,
+     "quellen": ["goeg-widerspruch2026", "gtelg2012"],
+     "claim": "Alle in Österreich wohnhaften oder sozialversicherten natürlichen Personen nehmen automatisch an ELGA teil, sofern sie keinen Widerspruch erklären.",
+     "fundstelle": "§ 15 Abs 2",
+     "suchHinweis": "§ 15 Teilnahme Widerspruch Opt-Out"
+    }
+   ]
+  },
+  {
+   "id": "4.4.1-p2",
+   "type": "text",
+   "kernaussage": "Der Widerspruch ist generell oder partiell möglich, kann schriftlich bei der ELGA- und eHealth-Supporteinrichtung oder elektronisch über das Bürger-Zugangsportal erklärt und jederzeit rückgängig gemacht werden.",
+   "sentences": [
+    {
+     "text": "Der Widerspruch ist in zwei Formen möglich.",
+     "einfach": "Für den Widerspruch (das Opt-Out) gibt es zwei Varianten.",
+     "kategorien": ["zahl"],
+     "marks": [
+      { "snippet": "zwei Formen", "kategorie": "zahl" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Als genereller Widerspruch, der die Teilnahme an ELGA insgesamt beendet, oder als partieller Widerspruch, der sich nur auf einzelne Arten von ELGA-Gesundheitsdaten bezieht.",
+     "einfach": "Beim generellen Widerspruch steigt man komplett aus ELGA aus; beim partiellen Widerspruch schließt man nur bestimmte Arten von Gesundheitsdaten aus (z. B. nur die e-Medikation) und bleibt sonst Teilnehmer.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "ELGA-Gesundheitsdaten", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Der Widerspruch kann schriftlich gegenüber der ELGA- und eHealth-Supporteinrichtung[^245] oder elektronisch über das Bürger-Zugangsportal erklärt werden.[^246]",
+     "einfach": "Erklären kann man den Widerspruch auf zwei Wegen: schriftlich bei der ELGA- und eHealth-Supporteinrichtung (der zentralen Servicestelle für ELGA-Anliegen) oder online über das Bürger-Zugangsportal (das ELGA-Portal für Bürgerinnen und Bürger).",
+     "kategorien": ["akteur", "tech"],
+     "marks": [
+      { "snippet": "ELGA- und eHealth-Supporteinrichtung", "kategorie": "akteur" },
+      { "snippet": "Bürger-Zugangsportal", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Der Widerspruch kann jederzeit rückgängig gemacht werden.[^247]",
+     "einfach": "Wer widersprochen hat, kann das jederzeit widerrufen und wieder an ELGA teilnehmen.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 245,
+     "quellen": ["goeg-widerspruch2026", "gtelg2012"],
+     "claim": "Der schriftliche Widerspruch ist gegenüber der ELGA- und eHealth-Supporteinrichtung zu erklären.",
+     "fundstelle": "§ 17 Abs 2 Z 3",
+     "suchHinweis": "§ 17 Supporteinrichtung Widerspruch schriftlich"
+    },
+    {
+     "num": 246,
+     "quellen": ["goeg-widerspruch2026", "gtelg2012"],
+     "claim": "Der Widerspruch kann elektronisch über das Bürger-Zugangsportal erklärt werden.",
+     "fundstelle": "§ 23",
+     "suchHinweis": "§ 23 Zugangsportal Widerspruch elektronisch"
+    },
+    {
+     "num": 247,
+     "quellen": ["goeg-widerspruch2026", "gtelg2012"],
+     "claim": "Der Widerspruch kann jederzeit rückgängig gemacht werden.",
+     "fundstelle": "§ 15 Abs 4",
+     "suchHinweis": "§ 15 Widerspruch rückgängig Widerruf"
+    }
+   ]
+  },
+  {
+   "id": "4.4.1-p3",
+   "type": "text",
+   "kernaussage": "Der generelle Widerspruch führt zur Löschung aller vorhandenen Verweise und Gesundheitsdaten und verhindert neue Speicherungen; nur gesetzliche Dokumentationspflichten und Protokolldaten zur Rechtsdurchsetzung bleiben bestehen, sind aber für ELGA unzugänglich zu machen.",
+   "sentences": [
+    {
+     "text": "Die Rechtsfolge des generellen Widerspruchs ist weitreichend.",
+     "einfach": "Ein genereller Widerspruch hat starke rechtliche Konsequenzen.",
+     "kategorien": ["these"],
+     "marks": [
+      { "snippet": "weitreichend", "kategorie": "these" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Alle bis zum Zeitpunkt des Widerspruchs vorhandenen Verweise und Gesundheitsdaten sind zu löschen.",
+     "einfach": "Alle bereits in ELGA vorhandenen Verweise (Einträge im Verzeichnis, die auf gespeicherte Dokumente zeigen) und Gesundheitsdaten müssen gelöscht werden.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Lediglich gesetzlich vorgeschriebene Dokumentationsverpflichtungen oder Protokolldaten zur gerichtlichen oder außergerichtlichen Durchsetzung sowie zur Abwehr geltend gemachter rechtlicher Ansprüche bleiben unberührt, sind aber für ELGA unzugänglich zu machen.[^248]",
+     "einfach": "Nur zwei Ausnahmen bleiben bestehen: Daten, die wegen gesetzlicher Dokumentationspflichten aufbewahrt werden müssen (z. B. ärztliche Aufzeichnungspflichten), und Protokolldaten (Zugriffs-Logs), die zur Durchsetzung oder Abwehr rechtlicher Ansprüche vor Gericht oder außergerichtlich gebraucht werden. Auch diese Daten müssen aber so gesperrt werden, dass über ELGA kein Zugriff mehr möglich ist.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Protokolldaten", "kategorie": "tech" },
+      { "snippet": "für ELGA unzugänglich", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Solange ein gültiger Widerspruch besteht, dürfen keine Verweise und Gesundheitsdaten neu gespeichert werden, und es besteht kein Rechtsanspruch auf nachträgliche Aufnahme von Verweisen.[^249]",
+     "einfach": "Solange der Widerspruch gilt, dürfen keine neuen Verweise oder Gesundheitsdaten in ELGA gespeichert werden. Wer später wieder teilnimmt, hat keinen Rechtsanspruch darauf, dass in der Zwischenzeit entstandene Dokumente nachträglich eingetragen werden.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 248,
+     "quellen": ["gtelg2012"],
+     "claim": "Bei generellem Widerspruch sind vorhandene Verweise und Gesundheitsdaten zu löschen; nur gesetzliche Dokumentationsverpflichtungen und Protokolldaten zur Rechtsdurchsetzung bleiben unberührt, sind aber für ELGA unzugänglich zu machen.",
+     "fundstelle": "§ 15 Abs 3",
+     "suchHinweis": "§ 15 löschen Dokumentationsverpflichtungen unzugänglich"
+    },
+    {
+     "num": 249,
+     "quellen": ["gtelg2012"],
+     "claim": "Während eines gültigen Widerspruchs dürfen keine Verweise und Gesundheitsdaten neu gespeichert werden und es besteht kein Rechtsanspruch auf nachträgliche Aufnahme von Verweisen.",
+     "fundstelle": "§ 15 Abs 4",
+     "suchHinweis": "§ 15 keine Speicherung nachträgliche Aufnahme Verweise"
+    }
+   ]
+  },
+  {
+   "id": "4.4.1-p4",
+   "type": "text",
+   "kernaussage": "Neben dem Opt-Out haben ELGA-Teilnehmende granulare Zugriffssteuerungsrechte: Sie können Daten für einzelne ELGA-GDA ein- oder ausblenden, Zugriffszeiten verkürzen oder einen GDA des besonderen Vertrauens festlegen, ausübbar über das Bürger-Zugangsportal oder die ELGA-Ombudsstelle.",
+   "sentences": [
+    {
+     "text": "Neben dem Opt-Out stehen ELGA-Teilnehmenden auch granulare individuelle Zugriffssteuerungsrechte zu.",
+     "einfach": "Zusätzlich zum kompletten Ausstieg (Opt-Out) können ELGA-Teilnehmende den Zugriff auf ihre Daten fein abgestuft (granular) steuern, also gezielt festlegen, wer was sehen darf.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "ELGA-Teilnehmenden", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie können einzelne Verweise und Gesundheitsdaten für bestimmte ELGA-GDA ein- oder ausblenden, Zugriffszeiten verkürzen oder einen ELGA-GDA des besonderen Vertrauens festlegen.",
+     "einfach": "Konkret können sie einzelne Verweise und Gesundheitsdaten für bestimmte ELGA-GDA (ELGA-Gesundheitsdiensteanbieter, z. B. Ärzte, Spitäler oder Apotheken) sichtbar oder unsichtbar machen, die Dauer der Zugriffsberechtigung verkürzen oder einen GDA des besonderen Vertrauens bestimmen, etwa die Hausärztin, die dann länger zugreifen darf.",
+     "kategorien": ["akteur"],
+     "marks": [
+      { "snippet": "ELGA-GDA", "kategorie": "akteur" },
+      { "snippet": "ELGA-GDA des besonderen Vertrauens", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Diese Rechte können über das Bürger-Zugangsportal oder über die ELGA-Ombudsstelle ausgeübt werden.[^250]",
+     "einfach": "Diese Einstellungen kann man selbst online im Bürger-Zugangsportal vornehmen oder sich an die ELGA-Ombudsstelle wenden, eine Anlaufstelle, die Teilnehmende bei der Wahrnehmung ihrer ELGA-Rechte unterstützt.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "Bürger-Zugangsportal", "kategorie": "tech" },
+      { "snippet": "ELGA-Ombudsstelle", "kategorie": "akteur" }
+     ],
+     "wichtig": "stuetz"
+    }
+   ],
+   "belege": [
+    {
+     "num": 250,
+     "quellen": ["gtelg2012"],
+     "claim": "ELGA-Teilnehmende können einzelne Verweise und Gesundheitsdaten für bestimmte ELGA-GDA ein- oder ausblenden, Zugriffszeiten verkürzen oder einen ELGA-GDA des besonderen Vertrauens festlegen.",
+     "fundstelle": "§ 16 Abs 1",
+     "suchHinweis": "§ 16 ausblenden Zugriffszeiten besonderes Vertrauen"
+    }
+   ]
+  }
+ ]
+}

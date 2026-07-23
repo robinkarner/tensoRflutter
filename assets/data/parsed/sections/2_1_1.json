@@ -1,0 +1,99 @@
+{
+ "sectionId": "2.1.1",
+ "title": "Europäische Datenstrategie und Vorläufer des EHDS",
+ "chapter": 2,
+ "chapterTitle": "Europäischer Gesundheitsdatenraum",
+ "page": 6,
+ "pdfPage": 16,
+ "paragraphs": [
+  {
+   "id": "2.1.1-p1",
+   "type": "text",
+   "text": "Die europäische Datenstrategie der Kommission verfolgt das Ziel, einen einheitlichen europäischen Datenraum zu schaffen, in dem sowohl personenbezogene als auch nicht-personenbezogene Daten sicher sind.[^14]",
+   "footnotes": [
+    {
+     "num": 14,
+     "text": "Vgl. Europäische Kommission (2020): Eine europäische Datenstrategie, 3. Zielvorstellungen, S. 5.",
+     "sources": [
+      "ek-datenstrategie2020"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.1.1-p2",
+   "type": "text",
+   "text": "Als sektorspezifische Maßnahme für den gemeinsamen europäischen Gesundheitsdatenraum hebt die Strategie insbesondere das Zugangsrecht von Bürgerinnen und Bürgern zu ihren persönlichen Gesundheitsdaten und das persönliche Verfügungsrecht dieser Daten hervor. Da diese Rechte bislang uneinheitlich umgesetzt werden, sind die Bemühungen darauf gerichtet, dass alle Bürger einen sicheren Zugang zu ihren elektronischen Patientenakten haben und für die Übertragbarkeit ihrer Daten - innerhalb des Landes und über Grenzen hinweg - sorgen können. Außerdem müssen diese sicher sein können, dass ihre Daten, nachdem sie ihre Einwilligung zu deren Nutzung gegeben haben, in den Gesundheitssystemen ethisch korrekt verwendet werden, und dass sie die erteilte Einwilligung jederzeit widerrufen können. [^15]",
+   "footnotes": [
+    {
+     "num": 15,
+     "text": "Vgl. Europäische Kommission (2020): Eine europäische Datenstrategie, Anlage 4. Gemeinsamer europäischer Gesundheitsdatenraum, S. 34.",
+     "sources": [
+      "ek-datenstrategie2020"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.1.1-p3",
+   "type": "text",
+   "text": "Die Strategie der Kommission führt zudem konkrete Maßnahmen zur Vorbereitung des europäischen Gesundheitsdatenraums an, die zu Prävention, Diagnose und Behandlung, Forschung und Innovation, Politikgestaltung und Regulierungsmaßnahmen der Mitgliedstaaten im Bereich der öffentlichen Gesundheit beitragen sollen. Dazu zählen:[^16]",
+   "footnotes": [
+    {
+     "num": 16,
+     "text": "Vgl. Europäische Kommission (2020): Eine europäische Datenstrategie, Anlage 4. Gemeinsamer europäischer Gesundheitsdatenraum, S. 35.",
+     "sources": [
+      "ek-datenstrategie2020"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.1.1-p4",
+   "type": "list",
+   "items": [
+    "legislative oder nicht-legislative Maßnahmen, die den Rahmen der gemeinsamen Datenräume ergänzen,",
+    "einen Verhaltenskodex für die Verarbeitung personenbezogener Daten im Einklang mit Artikel 40 DSGVO ausarbeiten,",
+    "die Entwicklung nationaler elektronischer Patientenakten und die Interoperabilität von Gesundheitsdaten durch die Anwendung des europäischen Austauschformats für elektronische Patientenakten fördern,",
+    "Genominformationen (für mindestens 10 Millionen Menschen bis 2025) und digitale medizinische Bilddaten im Einklang mit der DSGVO über sichere zusammengeschlossene Archive verknüpfen und nutzen,",
+    "bis zum Jahr 2022 die Weitergabe elektronischer Patientenkurzakten und elektronischer Verschreibungen zwischen 22 Mitgliedstaaten, die an der digitalen eHealth-Diensteinfrastruktur (eHDSI) teilnehmen, ermöglichen und",
+    "den Beginn der grenzüberschreitenden elektronischen Weitergabe von medizinischen Bilddaten, Laborergebnissen und Entlassungsberichten über die eHDSI einläuten sowie das Modell der virtuellen ärztlichen Beratung und Register Europäischer Referenznetzwerke verbessern."
+   ],
+   "footnotes": []
+  },
+  {
+   "id": "2.1.1-p5",
+   "type": "text",
+   "text": "Neben der europäischen Datenstrategie bildeten die Cyberresilienz-Verordnung (CRA)[^17], die bereits erwähnte Richtlinie 2011/24/EU zur grenzüberschreitenden Gesundheitsversorgung sowie die Empfehlung über das europäische Austauschformat für elektronische Patientenakten[^18] eine Grundlage für die EHDS-Verordnung und wurden durch diese teilweise auch abgeändert.[^19]",
+   "footnotes": [
+    {
+     "num": 17,
+     "text": "Verordnung (EU) 2024/2847 des Europäischen Parlaments und des Rates vom 23. Oktober 2024 über horizontale Cybersicherheitsanforderungen für Produkte mit digitalen Elementen und zur Änderung der Verordnungen (EU) Nr. 168/2013 und (EU) 2019/1020 und der Richtlinie (EU) 2020/1828 (Cyberresilienz-Verordnung), ABl. L vom 20.11.2024, S. 1.",
+     "sources": [
+      "cra"
+     ]
+    },
+    {
+     "num": 18,
+     "text": "Empfehlung (EU) 2019/243 der Kommission vom 6. Februar 2019 über ein europäisches Austauschformat für elektronische Patientenakten, ABl. L 39 vom 11.2.2019, S. 18.",
+     "sources": [
+      "empfehlung2019-243"
+     ]
+    },
+    {
+     "num": 19,
+     "text": "Siehe Art 103 und Art 104 VO (EU) 2025/327.",
+     "sources": [
+      "ehds-vo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.1.1-p6",
+   "type": "text",
+   "text": "Als sektorspezifischer Rechtsakt des europäischen Datenwirtschaftsrechts steht die EHDS-Verordnung in einem engen Wechselverhältnis zu einer Reihe von Unionsrechtsakten. Sie baut auf den Grundrechten und Verarbeitungsregeln der DSGVO auf, die sie für elektronische Gesundheitsdaten präzisiert und ergänzt, ohne den DGA, die Datenverordnung oder die Anforderungen der NIS-2-Richtlinie an Cybersicherheit und Meldepflichten zu verdrängen.",
+   "footnotes": []
+  }
+ ]
+}

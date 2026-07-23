@@ -1,0 +1,155 @@
+{
+ "sectionId": "3.3.3",
+ "paragraphs": [
+  {
+   "id": "3.3.3-p1",
+   "type": "text",
+   "kernaussage": "Lückenlose Protokollierung setzt die Rechenschaftspflicht (Accountability) um und macht nachvollziehbar, wer wann wie auf welche Gesundheitsdaten zugegriffen hat - besonders wichtig beim Notfallzugriff und nutzbar für klinische Auswertungen.",
+   "sentences": [
+    {
+     "text": "Die dritte Säule der Zugriffssicherheit ist die Rechenschaftspflicht (Accountability), die durch lückenlose Protokollierung umgesetzt wird.",
+     "einfach": "Neben Authentifizierung und Zugriffskontrolle gibt es eine dritte Säule der Zugriffssicherheit: die Rechenschaftspflicht (englisch: Accountability). Sie wird umgesetzt, indem jeder Zugriff vollständig protokolliert, also aufgezeichnet wird.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Rechenschaftspflicht (Accountability)", "kategorie": "tech" },
+      { "snippet": "lückenlose Protokollierung", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie gewährleistet, dass nachträglich nachvollzogen werden kann, wer auf welche Gesundheitsdaten zugegriffen hat, welche Aktion durchgeführt wurde und wann dies geschah.[^164]",
+     "einfach": "Dank der Protokolle lässt sich im Nachhinein feststellen, welche Person auf welche Gesundheitsdaten zugegriffen hat, was sie dabei getan hat und zu welchem Zeitpunkt.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die Protokollierung ist eng mit den übrigen Kategorien des Zugriffsmanagements verknüpft und erfordert die kontinuierliche Überwachung sämtlicher Aktivitäten innerhalb eines Gesundheitssystems.[^165]",
+     "einfach": "Die Protokollierung hängt eng mit den anderen Bereichen des Zugriffsmanagements (Identifikation, Authentifizierung, Autorisierung) zusammen und setzt voraus, dass alle Aktivitäten im Gesundheitssystem laufend überwacht werden.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Eine besondere Bedeutung kommt ihr beim Notfallzugriff zu, wo sie Nutzer für ihre Handlungen während eines solchen Zugriffs verantwortlich macht.[^166]",
+     "einfach": "Besonders wichtig ist das beim Notfallzugriff, also einem Zugriff, der in Notsituationen ohne die üblichen Freigaben möglich ist: Das Protokoll stellt sicher, dass die zugreifende Person trotzdem für ihr Handeln verantwortlich bleibt.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Notfallzugriff", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Darüber hinaus kann die Auswertung von Protokolldaten auch der Untersuchung klinischer Aktivitäten dienen, etwa zur Verbesserung klinischer Entscheidungsprozesse.[^167]",
+     "einfach": "Protokolldaten lassen sich außerdem auswerten, um klinische Abläufe zu untersuchen - zum Beispiel um medizinische Entscheidungsprozesse zu verbessern.",
+     "kategorien": [],
+     "marks": [],
+     "wichtig": "kontext"
+    }
+   ],
+   "belege": [
+    {
+     "num": 164,
+     "quellen": ["cobrado2024"],
+     "claim": "Protokollierung gewährleistet die nachträgliche Nachvollziehbarkeit von Zugreifendem, betroffenen Daten, Aktion und Zeitpunkt.",
+     "fundstelle": "S. 13",
+     "suchHinweis": "accountability audit log who accessed action time"
+    },
+    {
+     "num": 165,
+     "quellen": ["cobrado2024"],
+     "claim": "Protokollierung ist mit den übrigen Kategorien des Zugriffsmanagements verknüpft und erfordert kontinuierliche Überwachung aller Aktivitäten.",
+     "fundstelle": "S. 13",
+     "suchHinweis": "continuous monitoring activities access management"
+    },
+    {
+     "num": 166,
+     "quellen": ["cobrado2024"],
+     "claim": "Beim Notfallzugriff macht die Protokollierung Nutzer für ihre Handlungen verantwortlich.",
+     "fundstelle": "S. 13",
+     "suchHinweis": "emergency access break-glass accountability users"
+    },
+    {
+     "num": 167,
+     "quellen": ["cobrado2024"],
+     "claim": "Die Auswertung von Protokolldaten kann der Untersuchung klinischer Aktivitäten und der Verbesserung klinischer Entscheidungsprozesse dienen.",
+     "fundstelle": "S. 13",
+     "suchHinweis": "audit data analysis clinical decision-making"
+    }
+   ]
+  },
+  {
+   "id": "3.3.3-p2",
+   "type": "text",
+   "kernaussage": "Das IHE-Profil ATNA ist der etablierte Standard für die Erstellung von Audit-Ereignissen und die gegenseitige Authentifizierung von Systemknoten.",
+   "sentences": [
+    {
+     "text": "Für die technische Umsetzung stellt IHE mit dem Profil ATNA (Audit Trail and Node Authentication) einen etablierten Standard bereit, der die Erstellung von Audit-Ereignissen und die gegenseitige Authentifizierung der beteiligten Systemknoten festlegt.[^168]",
+     "einfach": "IHE (Integrating the Healthcare Enterprise, eine internationale Standardisierungsinitiative für IT im Gesundheitswesen) bietet mit dem Profil ATNA einen etablierten Standard an. Er legt fest, wie Audit-Ereignisse (Protokolleinträge über Zugriffe) erzeugt werden und wie sich die beteiligten Systeme ('Knoten') gegenseitig authentifizieren.",
+     "kategorien": ["tech", "akteur"],
+     "marks": [
+      { "snippet": "IHE", "kategorie": "akteur" },
+      { "snippet": "ATNA (Audit Trail and Node Authentication)", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 168,
+     "quellen": ["ihe-iti2026"],
+     "claim": "Das IHE-Profil ATNA standardisiert die Erstellung von Audit-Ereignissen und die gegenseitige Authentifizierung der Systemknoten.",
+     "fundstelle": "IT Infrastructure Technical Framework, Profiles (ATNA)",
+     "suchHinweis": "ATNA Audit Trail Node Authentication profile"
+    }
+   ]
+  },
+  {
+   "id": "3.3.3-p3",
+   "type": "text",
+   "kernaussage": "Der EHDS macht die Protokollierung über Anhang II der EHDS-Verordnung zu einer verbindlichen rechtlichen Anforderung an alle EHR-Systeme im Geltungsbereich.",
+   "sentences": [
+    {
+     "text": "Im EHDS wird die Protokollierung verbindlich vorgeschrieben.",
+     "einfach": "Im Europäischen Gesundheitsdatenraum (EHDS) ist die Protokollierung von Zugriffen nicht mehr freiwillig, sondern rechtlich verpflichtend.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "EHDS", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Anhang II der EHDS-Verordnung verpflichtet EHR-Systeme dazu, über eine Protokollierungskomponente zu verfügen, die mindestens Informationen über den Gesundheitsdienstleister oder eine sonstige Person, die auf elektronische Gesundheitsdaten zugegriffen hat, sowie über die betreffende Person, die Art und den Zeitpunkt des Zugriffs bereitstellt.[^169]",
+     "einfach": "Anhang II der EHDS-Verordnung (VO (EU) 2025/327) schreibt vor, dass jedes EHR-System (System für elektronische Patientenakten) eine Protokollkomponente haben muss. Diese muss mindestens festhalten: wer zugegriffen hat (Gesundheitsdienstleister oder andere Person), wessen Daten betroffen waren sowie Art und Zeitpunkt des Zugriffs.",
+     "kategorien": ["norm", "tech", "akteur"],
+     "marks": [
+      { "snippet": "Anhang II der EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "EHR-Systeme", "kategorie": "tech" },
+      { "snippet": "Protokollierungskomponente", "kategorie": "tech" },
+      { "snippet": "Gesundheitsdienstleister", "kategorie": "akteur" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Damit wird die in der Literatur als IAAA beschriebene Rechenschaftspflicht zu einer unmittelbaren rechtlichen Anforderung an alle EHR-Systeme im Geltungsbereich der Verordnung.",
+     "einfach": "Was die Fachliteratur als vierten Teil von IAAA (Identification, Authentication, Authorization, Accountability) beschreibt, wird damit zur direkten gesetzlichen Pflicht für alle EHR-Systeme, die unter die Verordnung fallen.",
+     "kategorien": ["tech", "these"],
+     "marks": [
+      { "snippet": "IAAA", "kategorie": "tech" },
+      { "snippet": "unmittelbaren rechtlichen Anforderung", "kategorie": "these" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 169,
+     "quellen": ["ehds-vo"],
+     "claim": "EHR-Systeme müssen laut EHDS-Verordnung über eine Protokollierungskomponente verfügen, die mindestens Zugreifenden, betroffene Person sowie Art und Zeitpunkt des Zugriffs erfasst.",
+     "fundstelle": "Anhang II Nr 3",
+     "suchHinweis": "Anhang II Protokollierung Zugriff Gesundheitsdienstleister Zeitpunkt"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "sectionId": "3.1",
+ "paragraphs": [
+  {
+   "id": "3.1-p1",
+   "type": "text",
+   "kernaussage": "Elektronische Gesundheitsakten folgen zentralen, dezentralen oder hybriden Architekturmodellen; die EHDS-Verordnung schreibt kein Modell vor, sondern verlangt nur die Erfüllung ihrer Anforderungen, insbesondere das Austauschformat EEHRxF.",
+   "sentences": [
+    {
+     "text": "Elektronische Gesundheitsakten können nach grundlegend unterschiedlichen Architekturprinzipien organisiert sein, die jeweils unterschiedliche Konsequenzen für die Datenverfügbarkeit, die Datensouveränität, die Resilienz und den Verwaltungsaufwand haben.",
+     "einfach": "Elektronische Gesundheitsakten lassen sich nach verschiedenen Grundbauweisen (Architekturprinzipien) aufbauen. Die Wahl der Bauweise beeinflusst, wie gut Daten verfügbar sind, wer die Kontrolle über sie behält (Datensouveränität), wie ausfallsicher das System ist (Resilienz) und wie viel Verwaltungsaufwand entsteht.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Architekturprinzipien", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Für die nationale Integration elektronischer Gesundheitsakten werden typischerweise zwei Grundansätze unterschieden, eine zentrale und eine dezentrale Architektur sowie ein hybrides Modell, das die Vorteile beider Ansätze verbindet.[^95]",
+     "einfach": "Wenn ein Land elektronische Gesundheitsakten landesweit vernetzen will, gibt es üblicherweise zwei Grundansätze: eine zentrale Architektur (alle Daten an einem Ort) und eine dezentrale Architektur (Daten bleiben bei den einzelnen Einrichtungen). Dazu kommt ein hybrides Modell, das beide Ansätze kombiniert.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "zentrale und eine dezentrale Architektur", "kategorie": "tech" },
+      { "snippet": "hybrides Modell", "kategorie": "tech" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Die EHDS-Verordnung schreibt keines dieser Modelle vor.",
+     "einfach": "Die EHDS-Verordnung (EU-Verordnung 2025/327) legt nicht fest, welches dieser Architekturmodelle ein Land verwenden muss.",
+     "kategorien": ["norm"],
+     "marks": [
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    },
+    {
+     "text": "Sie verlangt nur Harmonisierung, Interoperabilität und Wiederverwendung von Daten, ohne die konkret anzuwendenden technischen Standards zu regulieren.[^96]",
+     "einfach": "Die Verordnung stellt nur Zielvorgaben auf: Die Systeme sollen vereinheitlicht (harmonisiert) und untereinander austauschfähig (interoperabel) sein, und Daten sollen wiederverwendbar sein. Welche konkreten technischen Standards dafür eingesetzt werden, regelt sie nicht.",
+     "kategorien": ["tech"],
+     "marks": [
+      { "snippet": "Harmonisierung, Interoperabilität und Wiederverwendung von Daten", "kategorie": "tech" }
+     ],
+     "wichtig": "stuetz"
+    },
+    {
+     "text": "Die Wahl des Architekturmodells bleibt damit den Mitgliedstaaten überlassen, sofern die Anforderungen der EHDS-Verordnung, insbesondere die Verarbeitung im europäischen Austauschformat EEHRxF nach Anhang II der Verordnung erfüllt werden.",
+     "einfach": "Jeder EU-Mitgliedstaat darf sein Architekturmodell also selbst wählen. Bedingung ist, dass die Anforderungen der EHDS-Verordnung erfüllt werden, vor allem, dass die Daten im europäischen Austauschformat EEHRxF (European Electronic Health Record Exchange Format) nach Anhang II der Verordnung verarbeitet werden können.",
+     "kategorien": ["norm", "akteur", "tech"],
+     "marks": [
+      { "snippet": "Mitgliedstaaten", "kategorie": "akteur" },
+      { "snippet": "EHDS-Verordnung", "kategorie": "norm" },
+      { "snippet": "EEHRxF", "kategorie": "tech" },
+      { "snippet": "Anhang II der Verordnung", "kategorie": "norm" }
+     ],
+     "wichtig": "kern"
+    }
+   ],
+   "belege": [
+    {
+     "num": 95,
+     "quellen": ["aljarullah2013"],
+     "claim": "Die Unterscheidung von zentraler, dezentraler und hybrider Architektur für die nationale Integration elektronischer Gesundheitsakten wird mit AlJarullah et al. belegt.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "centralized decentralized hybrid architecture national EHR integration"
+    },
+    {
+     "num": 96,
+     "quellen": ["pedrera2023"],
+     "claim": "Die EHDS-Verordnung fordert Harmonisierung, Interoperabilität und Datenwiederverwendung, ohne konkrete technische Standards vorzuschreiben.",
+     "fundstelle": "S. 1",
+     "suchHinweis": "EHDS harmonization interoperability reuse standards"
+    }
+   ]
+  }
+ ]
+}
